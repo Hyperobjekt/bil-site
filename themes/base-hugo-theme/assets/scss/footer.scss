@@ -20,3 +20,12 @@ footer {
           }
     }
 }
+
+.row.subscribe {
+    input {
+        width: 100%;
+        @include media-breakpoint-up(md) {
+            width: unset;
+        }
+    }
+}

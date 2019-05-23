@@ -7,7 +7,7 @@
                 </a>
             </div>    
            
-                <ul class="navlinks col-md-6 d-flex justify-content-between mb-0">
+                <ul class="navlinks d-none col-md-6 d-lg-flex justify-content-between mb-0">
                     {{ range .Site.Menus.main }}
                     <li class="dropdown">
                         {{ $text := print .Name | safeHTML }}

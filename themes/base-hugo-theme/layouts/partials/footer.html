@@ -1,14 +1,14 @@
 {{ if ne .Site.Params.hideFooter true }}
-<footer id="footer" class=" p-xl-0 m-xl-0">
-    <div id="footer-logo" class="col mx-auto my-4"></div>
+<footer id="footer" class="p-xl-0 m-xl-0">
+    <div id="footer-logo" class="col mx-auto my-5 my-md-4"></div>
   <!-- <div class="container-fluid p-xl-0 m-xl-0"> -->
     {{ .Site.Params.footerText | markdownify }}
     <!-- <div class="row p-xl-0 m-xl-0"> -->
       <div class="row p-xl-0 m-xl-0">
-        <div class="navlinks col-sm-10 col-lg-6 mx-auto d-flex justify-content-between mb-7">
+        <div class="navlinks col-sm-10 col-lg-6 mx-auto d-flex flex-sm-column flex-md-row align-items-sm-center justify-content-md-between mb-5">
             {{ range .Site.Menus.main }}
                 {{ $text := print .Name | safeHTML }}
-                <a class="coldblcktext" tabindex="0" href="{{ .URL | relURL }}">
+                <a class="coldblcktext mb-3 mb-md-0" tabindex="0" href="{{ .URL | relURL }}">
                     {{ $text }}
                 </a>
             {{ end }}

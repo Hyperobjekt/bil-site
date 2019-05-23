@@ -18049,6 +18049,16 @@ footer .navlinks a:hover {
   color: #B26F16;
 }
 
+.row.subscribe input {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .row.subscribe input {
+    width: unset;
+  }
+}
+
 body.home .hero {
   background-image: url("/images/heroes/AnnieLowreycrowd-hero-2880.jpg");
   height: 400px;
