@@ -161,6 +161,9 @@ html {
   }
   h4 {
     @include sofia-reg;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.213rem;
     @include media-breakpoint-up(md) {
         font-size: 1rem;
         line-height: 1.5rem;
