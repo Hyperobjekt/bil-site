@@ -11,6 +11,14 @@ body.type-help-faq, body.research {
 nav.navbar-light {
   a {
         @include sofia-reg;
+        &:hover {
+          text-decoration: none;
+        }
+        
+  }
+  ul.dropdown-menu a:hover {
+    color: $button-bronze;
+    text-decoration: none;
   }
   height: 6.4rem;
   background-color: #00000033; // $seda-dark;
@@ -46,6 +54,10 @@ nav.navbar-light {
   }
 
   &.sticky-top {
+    a:hover {
+      text-decoration: none;
+      color: $button-bronze;
+    }
     background-color: $seda-dark;
     background-color: #fff;
     
@@ -73,6 +85,7 @@ nav.navbar-light {
       background-size: 234px 32px;
     // background-position: 0 0;
       background-repeat: no-repeat;
+      
       @keyframes opacity-fill {
         /* You could think of as "step 1" */
         0% {
@@ -83,17 +96,7 @@ nav.navbar-light {
           opacity: 1;
         }
       }
-    //height: 33px;
-     // width: 238px;
-    // background-size: 100%;
-    /*
-      @include media-breakpoint-up(smm) {
-        width: 276px;
-      }
-      @include media-breakpoint-up(mm) {
-        width: 290px;
-      }
-      */
+ 
     }
     .drawer-toggle {
       .navbar-toggler-icon {
@@ -218,7 +221,8 @@ nav.navbar-light {
       margin-bottom: 3.2rem;
 
       &:hover {
-        text-decoration: underline;
+        // text-decoration: underline;
+        color: $button-bronze;
       }
     }
   }

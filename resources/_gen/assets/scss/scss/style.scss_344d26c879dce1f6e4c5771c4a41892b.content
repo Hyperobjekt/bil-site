@@ -17139,8 +17139,15 @@ h1 {
   font-family: sofia-pro,sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 3.2rem;
-  line-height: 2.5rem;
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3.2rem;
+    line-height: 2.5rem;
+  }
 }
 
 h2 {
@@ -17494,6 +17501,15 @@ nav.navbar-light a {
   font-style: normal;
 }
 
+nav.navbar-light a:hover {
+  text-decoration: none;
+}
+
+nav.navbar-light ul.dropdown-menu a:hover {
+  color: #B26F16;
+  text-decoration: none;
+}
+
 @media (max-width: 373.98px) {
   nav.navbar-light {
     height: 5.6rem;
@@ -17538,6 +17554,11 @@ nav.navbar-light.sticky-top {
   animation: slide-down .2s;
 }
 
+nav.navbar-light.sticky-top a:hover {
+  text-decoration: none;
+  color: #B26F16;
+}
+
 nav.navbar-light.sticky-top a {
   color: #373737;
   font-family: sofia-pro,sans-serif;
@@ -17559,14 +17580,6 @@ nav.navbar-light.sticky-top .navbar-brand {
   background-image: url("/images/logos/bil-full-logomark.svg");
   background-size: 234px 32px;
   background-repeat: no-repeat;
-  /*
-      @include media-breakpoint-up(smm) {
-        width: 276px;
-      }
-      @include media-breakpoint-up(mm) {
-        width: 290px;
-      }
-      */
 }
 
 @keyframes opacity-fill {
@@ -17687,7 +17700,7 @@ nav.navbar-light .drawer-toggle .navbar-toggler-icon {
 }
 
 .drawer .navlinks a:hover {
-  text-decoration: underline;
+  color: #B26F16;
 }
 
 .drawer .social .social-icon {
