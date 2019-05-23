@@ -1,11 +1,36 @@
 <nav class="navbar navbar-expand-md navbar-light">
     <!-- bg-white class on .navbar element makes bg white -->
-    <div class="col-xs-12 col-xl-10 offset-xl-1 p-xl-0 flex-parent">
-        <a class="navbar-brand" tabindex="0" aria-level="1" aria-label="{{ .Page.Title }} at {{ .Site.Title }}" href="{{ "/" | absURL }}">
-        </a>
-        <button class="drawer-toggle" id="toggleDrawer" type="button" aria-controls="#drawer" aria-label="Toggle navigation drawer">
-            <span class="navbar-toggler-icon"></span>
-            <!-- <span class="navbar-label">MENU</span> -->
-        </button>
-    </div>
+   
+       
+            <div class="col-md-4 offset-md-1">
+                <a class="navbar-brand" tabindex="0" aria-level="1" aria-label="{{ .Page.Title }} at {{ .Site.Title }}" href="{{ "/" | absURL }}">
+                </a>
+            </div>    
+           
+                <ul class="navlinks col-md-6 d-flex justify-content-between mb-0">
+                    {{ range .Site.Menus.main }}
+                    <li class="dropdown">
+                        {{ $text := print .Name | safeHTML }}
+                        {{ if .HasChildren }}
+                            <a href="#" class="dropdown-toggle whitetext" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ .Name }} <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                            {{ range .Children }}
+                                <li><a class="" href="{{ .URL }}">{{ .Name }}</a></li>
+                            {{ end }}
+                            </ul>
+                        {{ else }}    
+                        <a class="whitetext" tabindex="0" href="{{ .URL | relURL }}">
+                            {{ $text }}
+                        </a>
+                        {{ end }}
+                    </li>    
+                    {{ end }}
+                </ul>    
+        
+            <button class="drawer-toggle" id="toggleDrawer" type="button" aria-controls="#drawer" aria-label="Toggle navigation drawer">
+                <span class="navbar-toggler-icon"></span>
+               
+            </button> 
+     
+   
 </nav>

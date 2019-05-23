@@ -38,8 +38,8 @@
 @import "bootstrap/carousel";
 @import "bootstrap/print";
 @import 'bootstrap/utilities';
-@import 'seda-custom';
-@import 'explorations';
-@import 'explorationspage';
-@import 'animations';
-@import 'team';
+@import 'base-styles';
+@import 'bil-custom';
+@import 'footer.scss';
+@import 'home.scss';
+

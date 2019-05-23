@@ -1,0 +1,22 @@
+footer {
+    #footer-logo {
+        height: 4.2rem;
+        width: 4.1rem;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-image: url('/images/logos/bil-logomark-lg.svg');
+    }
+    .navlinks {
+        a {
+            // color: $black;
+            @include sofia-reg;
+            font-size: 1.4rem;
+            color: #3D3D3D;
+            letter-spacing: 0.064rem;
+            line-height: 2rem;
+            &:hover {
+                color: $button-bronze;
+            }
+          }
+    }
+}

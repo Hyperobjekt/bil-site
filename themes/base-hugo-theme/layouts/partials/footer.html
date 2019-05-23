@@ -1,34 +1,19 @@
 {{ if ne .Site.Params.hideFooter true }}
 <footer id="footer" class=" p-xl-0 m-xl-0">
+    <div id="footer-logo" class="col mx-auto my-4"></div>
   <!-- <div class="container-fluid p-xl-0 m-xl-0"> -->
     {{ .Site.Params.footerText | markdownify }}
     <!-- <div class="row p-xl-0 m-xl-0"> -->
       <div class="row p-xl-0 m-xl-0">
-        <div class="navlinks col-xl-8 offset-xl-1 col-md-10 col-sm-12 p-xl-0">
+        <div class="navlinks col-sm-10 col-lg-6 mx-auto d-flex justify-content-between mb-7">
             {{ range .Site.Menus.main }}
                 {{ $text := print .Name | safeHTML }}
-                <a class="" tabindex="0" href="{{ .URL | relURL }}">
+                <a class="coldblcktext" tabindex="0" href="{{ .URL | relURL }}">
                     {{ $text }}
                 </a>
             {{ end }}
         </div>
-        <div class="social col-md-2 col-xs-12 p-xl-0">
-            {{ partial "social.html" . }}
-        </div>
-    <!-- </div>
-    <div class="row break p-0 m-0"> -->
-        <div class="break w-100 col-xl-10 offset-xl-1 p-xl-0">
-            <hr>
-        </div>
-    <!-- </div>
-    <div class="row copy p-0 m-0"> -->
-        <div class="siteby col-xs-12 col-md-6 col-xl-5 offset-xl-1 p-xl-0" tabindex="0">
-            Site by <a href="https://www.hyperobjekt.com/" target="_blank" aria-haspopup="true">Hyperobjekt</a>
-        </div>
-        <div class="institution col-xs-12 col-md-6 col-xl-5 p-xl-0" tabindex="0">
-            lorem ipsum&nbsp;&nbsp;&nbsp;<img alt="Stanford logo" src="{{ "/images/stanford_wordmark.png" | relURL }}">
-        </div>
-    <!-- </div> -->
+        
   </div>
 </footer>
 {{ end }}

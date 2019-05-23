@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Stanford Education Data Archive"
+title = "Stanford Basic Income Lab"
 theme = "base-hugo-theme"
 googleAnalytics = ""
 paginate = 5
@@ -26,39 +26,40 @@ anchor = "smart"
     weight = 1
 
 [[menu.main]]
-	name = "Opportunity Explorer"
-	url = "http://seda-split.surge.sh/counties/avg/all/2.85/37.79/-95.6"
-    weight = 1
-
-[[menu.main]]
-  name = "Explorations"
-  url = "/explorations/"
+	name = "About"
+	url = "/about/"
     weight = 2
 
 [[menu.main]]
-    name = "About"
-    url = "/about/"
+    parent = "About"
+	name = "What is Basic Income"
+	url = "/about/"
+    weight = 1
+
+[[menu.main]]
+  name = "Events"
+  url = "/events/"
     weight = 3
-
-[[menu.main]]
-    name = "FAQ"
-    url = "/help-faq/"
-    weight = 4
-
-[[menu.main]]
-    name = "Methods"
-    url = "/methods/"
-    weight = 5
 
 [[menu.main]]
     name = "Research"
     url = "/research/"
+    weight = 5
+
+[[menu.main]]
+    name = "Positions"
+    url = "/positions/"
     weight = 6
 
 [[menu.main]]
-    name = "In the news"
-    url = "/news/"
+    name = "Resources"
+    url = "/research/"
     weight = 7
+
+[[menu.main]]
+    name = "In the News"
+    url = "/news/"
+    weight = 8
 
 [permalinks]
   post = "/:year/:month/:day/:slug/"

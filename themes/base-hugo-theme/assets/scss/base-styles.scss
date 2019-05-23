@@ -1,0 +1,402 @@
+html {
+    font-size: 62.5%; // sets sitewide font sizes based on user's font size in browser
+  }
+  
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  body {
+    overflow-x: hidden;
+  }
+
+  
+  #main {
+    //overflow: hidden;
+  }
+  
+  // Custom gutter widths
+  @include media-breakpoint-up(xs) {
+    .row {
+      margin-left: 16px;
+      margin-right: 16px;
+    }
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+    // nav.navbar {
+    //   margin: 0 12px;
+    //
+    // }
+    
+  }
+  nav.navbar > div {
+    padding: 0 16px;
+  }
+  @include media-breakpoint-up(mm) {
+    nav.navbar > div {
+      padding: 0 24px;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    .row {
+      margin-left: 16px;
+      margin-right: 16px;
+    }
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+    // nav.navbar {
+    //   margin: 0 16px;
+    // }
+    nav.navbar > div {
+      padding: 0 32px;
+    }
+  }
+  
+  @include media-breakpoint-up(xl) {
+    .row {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col, .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    // nav.navbar {
+    //   margin: 0 20px;
+    // }
+    nav.navbar > div {
+      padding: 0 20px;
+    }
+  }
+
+// Utilities
+    // - color
+
+.slatetext {
+    color: $slate-gray;
+  }
+  .whitetext {
+    color: $white;
+  }
+  .blacktext {
+    color: $black;
+  }
+  .coldblcktext {
+    color: $coldblack;
+  }
+  .tealgrntext {
+    color: $tealgreen;
+  }
+  .bronzetext {
+      // color: 
+  }
+  .grn-bg {
+    background-color: #00505C;
+  }
+  .bronze-bg {
+    background-color: #F9F6EF;
+  }
+
+  // Basic fonts and text styles
+  h1 {
+    margin-bottom: 0;
+    @include sofia-reg;
+    font-size: 3.2rem;
+    line-height: 2.5rem;
+  }
+  
+  h2 {
+      margin-bottom: 0;
+    @include sofia-bold;
+    font-size: 2.8rem;
+      line-height: 4.2rem;
+      // letter-spacing: .03rem;
+    
+    @include media-breakpoint-up(md) {
+        font-size: 3.2rem;
+        line-height: 4.8rem;
+        letter-spacing: .03rem;
+    }
+    @include media-breakpoint-up(lg) {
+        font-size: 3.4rem;
+        line-height: 5.1rem;
+        letter-spacing: .03rem;
+    
+    }
+    @include media-breakpoint-up(xl) {
+        font-size: 4rem;
+        line-height: 6rem;
+        letter-spacing: .039rem;
+     
+    } 
+  }
+  h3 {
+    @include sofia-bold;
+    @include media-breakpoint-up(md) {
+        font-size: 2.1rem;
+        line-height: 3rem;
+        letter-spacing: 0.04rem;
+      }
+    @include media-breakpoint-up(lg) {
+        font-size: 2.3rem;
+        line-height: 3.2rem;
+        letter-spacing: 0.04rem;
+      }
+    @include media-breakpoint-up(xl) {
+      font-size: 2.6rem;
+      line-height: 4rem;
+      letter-spacing: 0.04rem;
+    }
+  }
+  h4 {
+    @include sofia-reg;
+    @include media-breakpoint-up(md) {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        letter-spacing: 0.213rem;
+      }
+    @include media-breakpoint-up(lg) {
+        font-size: 1.1rem;
+        line-height: 1.7rem;
+        letter-spacing: 0.213rem;
+       
+      }
+    @include media-breakpoint-up(xl) {
+      font-size: 1.2rem;
+      line-height: 3.3rem;
+      letter-spacing: 0.213rem;
+     
+    }
+  }
+  
+  h5 {
+    @include sofia-med;
+    @include media-breakpoint-up(md) {
+        font-size: 1.9rem;
+        line-height: 2.75rem;
+        letter-spacing: 0.04rem;
+      }
+    @include media-breakpoint-up(lg) {
+        font-size: 2.1rem;
+        line-height: 3.4rem;
+        letter-spacing: 0.04rem;
+      }
+    @include media-breakpoint-up(xl) {
+      font-size: 2.6rem;
+      line-height: 4rem;
+      letter-spacing: 0.04rem;
+    }
+  }
+  
+  p {
+    @include sofia-reg;
+      font-size: 1.4rem;
+      line-height: 2.1rem;
+      // letter-spacing: .03rem;
+     
+    @include media-breakpoint-up(md) {
+        font-size: 1.4rem;
+        line-height: 2.1rem;
+        letter-spacing: .03rem;
+    }
+    @include media-breakpoint-up(lg) {
+        font-size: 1.55rem;
+        line-height: 2.25rem;
+        letter-spacing: .03rem;
+    
+    }
+    @include media-breakpoint-up(xl) {
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+        letter-spacing: 0rem;
+     
+    } 
+  }
+  
+  .plainlink {
+    @include sofia-bold;
+    font-size: 1.4rem;
+    letter-spacing: 0.1rem;
+    line-height: 2.1rem;
+    @include media-breakpoint-up(lg) {
+        font-size: 1.5rem;
+        letter-spacing: 0.1rem;
+        line-height: 2.25rem;
+    }
+    @include media-breakpoint-up(xl) {
+        font-size: 1.65rem;
+        letter-spacing: 0.18rem;
+        line-height: 2.4rem;
+    }
+    svg {
+        position: relative;
+        top: -2px;
+    }
+    &.g-white svg g {
+        fill: $white; 
+    }
+    &:hover {
+      color: $button-bronze-active;
+      text-decoration: none;
+      svg g  {
+        fill: $button-bronze-active !important;
+      }
+    }
+    &.whitetext{
+        &:hover {
+            color: $tealgreen;
+            text-decoration: none;
+        svg g  {
+          fill: $tealgreen !important;
+        }
+      }
+    }
+
+  }
+  
+  h2,
+  div.h2 {
+  
+  }
+  
+  
+  // Page container
+  .container.parent {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  
+  //
+  // General custom elements
+  //
+  // Sticky top fix for safari
+  .sticky-top {
+    @supports (position: sticky) or (position: -webkit-sticky) {
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      z-index: $zindex-sticky;
+    }
+  }
+  
+  .flex-parent {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+  
+  .flex-child {
+    flex: 0 1 auto;
+  }
+  
+  .one-third {
+    max-width: 33%;
+  }
+  
+  .two-thirds {
+    max-width: 66%;
+  }
+  
+  .alt-bg {
+    background: #f6f9f9;
+  }
+  
+  // Color classes
+  
+  .colorblue {
+    color: $seda-buttonblue;
+  }
+  .colorred {
+    color: $seda-red;
+  }
+  .colornavy {
+    color: $seda-navy;
+  }
+  .colormidblue {
+    color: #103698;
+    //font-style: italic;
+  }
+  
+  // Custom button style
+  
+  .btn-primary {
+    background-color: #B26F16;
+    border: none;
+    @include sofia-bold;
+    text-transform: uppercase;
+    color: #fff;
+    &:hover {
+      background-color: #9a6013;
+    }
+    &:active {
+      background-color: #9a6013 !important;
+    }
+    font-size: 1.3rem;
+    letter-spacing: 0.18rem;
+    width: 21rem;
+    height: 4.2rem;
+  }
+  
+  
+    svg.fa-external-link-square-alt {
+      width: 13px;
+      position: relative;
+      top: 2px;
+      margin-left: 10px;
+    }
+  
+  
+  // Custom button style
+  .btn-dark {
+    display: inline-block;
+    
+    font-size: 1.4rem;
+    letter-spacing: .064rem;
+    line-height: 4.4rem;
+    background-color: $seda-dark;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    user-select: none;
+    width: 176px;
+    height: 48px;
+    border: none;
+    border-radius: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 200ms ease-in-out;
+  
+    &:active,
+    &:hover,
+    &:focus {
+      background-color: lighten($seda-dark, 15%);
+      color: $white;
+    }
+  }
+  
+  input.form-control {
+    height: 42px;
+    
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .container.parent > #main > .row {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  
+  // Lines / dividers
+
+ .rect-divider {
+     width: 4.2rem;
+     height: 0.4rem;
+     background-color: $tealgreen;
+ }

@@ -34,14 +34,21 @@ $seda-paleblue: rgba(245, 248, 250, 100%); // Quotations row & etc.
 // $seda-lightgray: rgba(151, 151, 151, 100%); // Alternating light gray row & etc.
 $seda-lightgray: rgba(248, 248, 248, 100%);
 
-$white: #ffffff;
-$black: #000000;
 // $aqua: #C9E9EA;
 // $aqualink: #1C6F81;
 $graybg: $seda-lightgray; // #DBE0E4;
 $darkblue: $seda-navy;
 $primary: #1c3ed3;
 $secondary: #43454d;
+
+// BIL Colors
+$slate-gray: #7E8085;
+$coldblack: #282F36;
+$tealgreen: #6EC9D7;
+$button-bronze: #B26F16;
+$button-bronze-active: #9a6013;
+$white: #ffffff;
+$black: #373737;
 
 // Links
 $link-color: $seda-navy; // $primary;
@@ -51,51 +58,41 @@ $link-hover-decoration: underline;
 
 // Load custom fonts
 // TODO: Adjust once you have copyrighted fonts
-@font-face {
-  font-family: 'MaisonNeue-Bold';
-  src: url('/fonts/MaisonNeue-Bold.ttf');
+
+
+@mixin sofia-bold {
+  font-family: sofia-pro,sans-serif;
+  font-weight: 700;
+  font-style: normal;
 }
-@font-face {
-  font-family: 'MaisonNeue-Book';
-  src: url('/fonts/MaisonNeue-Book.ttf');
+@mixin sofia-med {
+  font-family: sofia-pro,sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
-@font-face {
-  font-family: 'MaisonNeue-Medium';
-  src: url('/fonts/MaisonNeue-Medium.ttf');
+@mixin sofia-reg {
+  font-family: sofia-pro,sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
-@font-face {
-  font-family: 'SharpGrotesk-Book20';
-  src: url('/fonts/SharpGrotesk-Book20.otf');
+@mixin sofia-reg-ital {
+  font-family: sofia-pro, sans-serif;
+  font-weight: 400;
+  font-style: italic;
 }
-@font-face {
-  font-family: 'SharpGrotesk-Medium15';
-  src: url('/fonts/SharpGrotesk-Medium15.otf');
-}
-@font-face {
-  font-family: 'SharpGrotesk-Medium20';
-  src: url('/fonts/SharpGrotesk-Medium20.otf');
-}
-@font-face {
-  font-family: 'SharpGrotesk-MediumItalic20';
-  src: url('/fonts/SharpGrotesk-MediumItalic20.otf');
+@mixin sofia-lt {
+  font-family: sofia-pro,sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
-// Custom fonts variables
-// Maison Neue fonts
-$maisonneue-bold: 'MaisonNeue-Bold', 'Lato', 'Helvetica Neue', Arial, sans-serif, -apple-system;
-$maisonneue-book: 'MaisonNeue-Book', 'Lato', 'Helvetica Neue', Arial, sans-serif, -apple-system;
-$maisonneue-med: 'MaisonNeue-Medium', 'Lato', 'Helvetica Neue', Arial, sans-serif, -apple-system;
-// SharKGrotesk fonts
-$sharpgrotesk-book-20: 'SharpGrotesk-Book20', 'Lato', 'Helvetica Neue', Arial, sans-serif, -apple-system;
-$sharpgrotesk-med-15: 'SharpGrotesk-Medium15', 'Lato', 'Helvetica Neue', Arial, sans-serif, -apple-system;
-$sharpgrotesk-med-20: 'SharpGrotesk-Medium20', 'Lato', 'Helvetica Neue', Arial, sans-serif, -apple-system;
-$sharpgrotesk-med-ital-20: 'SharpGrotesk-MediumItalic20', 'Lato', 'Helvetica Neue', Arial, sans-serif, -apple-system;
+
+
+
+
 
 // Fonts
-$font-family-base: 'MaisonNeue-Book', 'Open Sans', 'Helvetica Neue', Arial, sans-serif,
-  -apple-system;
-$font-family-heading: 'SharpGrotesk-Medium20', 'Lato', 'Helvetica Neue', Arial, sans-serif, -apple-system;
-$font-family-sans-serif: 'MaisonNeue-Book', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !default;
+
 
 $font-size-base: 1.4rem; // 1rem; // Assumes the browser default, typically `16px`
 $font-weight-thin: 200;
@@ -112,26 +109,26 @@ $spacers: ();
 $spacers: map-merge(
   (
     0: 0,
-    1: 10px,
-    2: 20px,
-    3: 30px,
-    4: 40px,
-    5: 50px,
-    6: 60px,
-    7: 70px,
-    8: 80px,
-    9: 90px,
-    10: 100px,
-    11: 110px,
-    12: 120px,
-    13: 130px,
-    14: 140px,
-    15: 150px,
-    16: 160px,
-    17: 170px,
-    18: 180px,
-    19: 190px,
-    20: 200px,
+    1: .8rem,
+    2: 1.6rem,
+    3: 2.4rem,
+    4: 3.2rem,
+    5: 4rem,
+    6: 4.8rem,
+    7: 5.6rem,
+    8: 6.4rem,
+    9: 7.2rem,
+    10: 8rem,
+    11: 8.8rem,
+    12: 9.6rem,
+    13: 10.4rem,
+    14: 11.2rem,
+    15: 12rem,
+    16: 12.8rem,
+    17: 13.6rem,
+    18: 14.4rem,
+    19: 15.2rem,
+    20: 16rem,
   ),
   $spacers
 );

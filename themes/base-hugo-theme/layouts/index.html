@@ -2,87 +2,145 @@
 
 <div id="hero" class="hero" style="">
     <div class="hero-child row">
-       {{ partial "mapplot" }}
-      <div id="hero-overlay">  
-      <div class="column col-sm-10 col-xl-9 mx-auto">
+ 
        
-        <h2 tabindex="0">We’re measuring educational opportunity in every community in America.</h2>
-        <p>The Stanford Education Data Archive has built the first national database of comparable standardized test scores in the U.S., using more than 330 million test scores. The scores are based on tests administered in grades three through eight from 2009 to 2016 in each public school in the nation. </p>
-        <button data-scroll-target="scrollTarget1" class="btn btn-custom scroll-to-section" tabindex="0" aria-label="Go to next section">LEARN MORE</button>
-      </div>
+      <div class="col-sm-12 col-md-10 col-xl-9 offset-md-1 d-flex flex-sm-column flex-md-row justify-content-sm-center justify-content-md-start align-items-center">
+       
+        <img id="hero-logomark" class=" mb-sm-2 mb-md-0 mr-1" src="/images/logos/bil-logomark-lg.svg" /><img class="stanford-wordmark mb-sm-1 mb-md-0" src="/images/logos/stanford-wordmark-white.svg"/><h1 tabindex="0"> <span class="d-sm-none d-md-inline">|</span> Basic Income Lab</h1>
+        <p></p>
+        
+    
       </div>
      </div>
 </div>
 
-<div id="scrollTarget1" class="row fact some-things-to-know m-0 scroll-to-target">
-    <div class="col-xs-10 offset-xs-1 col-md-6 mx-auto">
-        <h3 tabindex="0">Standardized test scores tell us three things about how much opportunity communities provide:</h3>
+
+<!--/////       WHAT WE DO      \\\\\-->
+<div id="what-we-do" class="grn-bg pt-sm-5 pt-md-7 pt-lg-9 pt-xl-12 pb-sm-7 pb-md-9 pb-lg-11 pb-xl-13">
+    <div class="row">
+        <div class="col-md-8 offset-md-1 col-xl-10 offset-lg-1 ">
+            <h2 class="tealgrntext mb-sm-4 mb-md-4 mb-xl-5">What We Do</h2>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class=" col-lg-1"></div>
+        <div class="col-md-4 offset-md-1 col-lg offset-lg-0">
+            <div class="rect-divider mb-sm-3 mb-md-3 mb-lg-4"></div>
+            <p class="whitetext mb-sm-3 mb-md-4 mb-lg-0">Convene scholars, policymakers, business leaders, think tanks, nonprofits, and foundations around the politics and economics of UBI</p>
+        </div>
+        <div class="col-md-4 offset-md-1 col-lg offset-lg-0">
+            <div class="rect-divider mb-sm-3 mb-md-3 mb-lg-4"></div>
+            <p class="whitetext mb-sm-3 mb-md-4 mb-lg-0">Provide an academic home for the research and the study of the development and impact of UBI</p>
+        </div>
+        <div class="col-md-4 offset-md-1 col-lg offset-lg-0">
+            <div class="rect-divider mb-sm-3 mb-md-3 mb-lg-4"></div>
+            <p class="whitetext mb-sm-3 mb-md-3 mb-lg-0">Inform policymakers and practitioners about latest best practices</p>
+        </div>
+        <div class="col-lg-1"></div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 offset-md-1 offset-lg-1">
+            <a class="plainlink g-white whitetext" href="#">LEARN MORE {{ partial "rightarrow.html" }}</a>
+        </div>
+    </div>    
+</div>
+<!--/////       WHAT IS UBI?      \\\\\-->
+<div id="what-is-ubi">
+    <div class="row">
+        <div class="col-md-6 col-lg-5 mx-auto d-flex flex-column align-items-center my-sm-5 my-md-8 my-lg-10 my-xl-11">
+            <h2 class="text-center blacktext mb-2">What is Basic Income?</h2>
+            <p class="text-center slatetext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+        </div>
+    </div>
+    <div class="row mb-md-4 mb-lg-6 mb-xl-11">
+        <div class="col-md-1 col-lg-2"></div>
+        <div class="col-md d-flex flex-column align-items-center">
+            <div id="periodic" class="what-is-icon mb-sm-1 my-md-0"></div>
+            <h3 class="blacktext">Periodic</h3>
+            <p class="slatetext text-center mt-sm-1 mb-sm-3 my-md-0">It is paid at regular intervals (for example every month), not as a one-off grant.</p>
+        </div>
+        <div class="col-md d-flex flex-column align-items-center">
+            <div id="cash-payment" class="what-is-icon mb-sm-1 my-md-0"></div>
+            <h3 class="blacktext">Cash payment</h3>
+            <p class="slatetext text-center mt-sm-1 mb-sm-3 my-md-0">It is paid in an appropriate medium of exchange, allowing those who receive it to decide what they spend it on.</p>
+        </div>
+        <div class="col-md d-flex flex-column align-items-center">
+            <div id="universal" class="what-is-icon mb-sm-1 my-md-0"></div>
+            <h3 class="blacktext">Universal</h3>
+            <p class="slatetext text-center mt-sm-1 mb-sm-3 my-md-0">It is paid to all, without means test.</p>
+        </div>
+        <div class="col-md-1 col-lg-2"></div>
+    </div>
+    <div class="row mt-md-3">
+        <div class="col-md-3"></div>
+        <div class="col-md d-flex flex-column align-items-center">
+            <div id="individual" class="what-is-icon mb-sm-1 my-md-0"></div>
+            <h3 class="blacktext">Individual</h3>
+            <p class="slatetext text-center mt-sm-1 mb-sm-3 my-md-0">It is paid on an individual basis—and not, for instance, to households.</p>
+        </div>
+        <div class="col-md d-flex flex-column align-items-center">
+            <div id="unconditional" class="what-is-icon mb-sm-1 my-md-0"></div>
+            <h3 class="blacktext">Unconditional</h3>
+            <p class="slatetext text-center mt-sm-1 mb-sm-3 my-md-0">It is paid without a requirement to work or to demonstrate willingness-to-work.​</p>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+    <div class="row">
+        <div class="col-3 mx-auto d-flex flex-column align-items-center mt-sm-5 mt-md-8 mt-lg-9 mt-xl-11 mb-sm-8 mb-md-10 mb-lg-12 mb-xl-15">
+        <button type="button" class="btn btn-primary">Learn more</button>
     </div>
 </div>
-
-<div class="row fact fact-1 m-0">
-    <div class="col-xs-12 col-mm-10 offset-mm-1 col-md-6 col-lg-6 offset-lg-1">
-        <div class="superhead"><img src="/images/icons/avg-scores-symbol.svg" />Average test scores</div>
-        <h4 tabindex="0">The average test scores of children in a community reveal all the educational opportunities they have had …</h4>
-        <p>from birth to the time they take the tests. Average scores are not good measures of school quality because they are shaped by much more than children’s schools—they also reflect all the children's opportunities to learn in their homes, in early childhood, in preschool, in their neighborhoods, and from their friends. Many of these out-of-school educational opportunities depend not on school quality, but on the socioeconomic resources that families have and can use to help their children learn.</p>
+<!--/////----   Visualization   ----\\\\\-->
+<div id="hp-viz" style="background-color: #f1f1f1;">   
+    <div class="row">   
+    <div class="col-md-5 offset-md-1 pt-sm-20 pb-sm-6 py-md-11 py-lg-15 py-xl-16">
+        <h2 class="blacktext text-sm-center text-md-left mt-sm-4 mt-md-0 mb-1">Explore the visualization</h2>
+        <p class="slatetext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
     </div>
-    <div class="col-xs-12 col-mm-10 col-md-4 col-lg-4 hpgraphic" id="avg-graphic" style="height: 100%; width: 100%; background-color: #fff; display: flex; justify-content: center; align-items: center;">
-        {{ partial "svg1" }}
-    </div>
-</div>
-
-<div class="row fact fact-2 m-0">
-    <div class="col-xs-12 col-mm-10 offset-mm-1  offset-md-0 col-md-4 col-lg-4 offset-md-1 hpgraphic" id="growth-graphic" style="height: auto; width: 100%; display: flex; align-items:center;">
-        {{ partial "svg2" }}
-    </div>
-    <div class="col-xs-12 col-mm-10 offset-mm-1 offset-md-0 col-md-6 col-lg-6">
-        <div class="superhead"><img src="/images/icons/growth-scores-symbol.svg" />Growth of test scores</div>
-        <h4 tabindex="0">The growth of test scores from grade 3 to 8 shows how much students learn on average while they are in school.</h4>
-        <p>They measure the change in students’ knowledge and skills while they are in school, so they reflect the educational opportunities that children have during the years they are in elementary and middle school. They provide useful information about the contribution that <i>schools</i> make in students’ lives, and so are better measures of school quality than average test scores are.  
-            </p>
     </div>
 </div>
-
-<div class="row fact fact-3 m-0">
-    <div class="col-xs-12 col-mm-10 offset-mm-1 col-md-6 col-lg-6 offset-lg-1">
-        <div class="superhead"><img src="/images/icons/trend-scores-symbol.svg" />Trend in test scores</div>
-        <h4 tabindex="0">The trend in test scores from 2009 to 2016 indicates the extent to which a community is getting better at providing educational opportunities over time.</h4>
-        <p>For example, rates of improvement tell us whether this year’s third graders are doing better than last year’s third graders. They reflect both changes in school quality and changes in other family and community features that provide opportunities for children.
-        </p>
-    </div>
-    <div class="col-xs-12 col-mm-10 offset-mm-1 col-md-4 offset-md-0 col-lg-4 hpgraphic" id="trendgraphic" style="height: auto; width: 100%; display: flex; align-items:center;">
-        {{ partial "svg3" }}
-    </div>
-</div>
-
-<div class="row map-invite m-0">
-    <div class="scatterplot col-xs-10 offset-xs-1 col-mm-8 offset-mm-2">
-        <p tabindex="0">Use our Educational Opportunity Explorer to see how your community scores on all these measures, and learn more about educational opportunity across the US.</p>
-        <button data-scroll-target="#" class="btn btn-custom scroll-to-section" tabindex="0" aria-label="Go to next section">Get started</button>
-        <a href="#" data-scroll-target="scrollTarget2" class="scroll-to-section" tabindex="0">See what we are learning </a>
-    </div>
-</div>
-
-<div id="scrollTarget2" class="row latest-explorations m-0">
-    <div class="w-100 heading">
-        <h3 tabindex="0">Latest Explorations:</h3>
-    </div>
-    {{ range $index, $element := first 2 (where .Site.Pages "Section" "posts") }}
-        {{ if (eq $index 0) }}
-            <div class="card-container col-xs-12 col-md-5 col-xl-5 offset-md-1">
-        {{ else }}
-            <div class="card-container col-xs-12 col-md-5 col-xl-5">
-        {{ end }}
-
-                {{ partial "explorations-card.html" .}}
-
+<!--/////----   Homepage Recent News   ----\\\\\-->
+<div id="hp-news" class="mt-sm-6 mt-md-8 mt-lg-9 mt-xl-10">
+        <div class="row">
+            <div class="col-12 ">
+                <h2 class="text-center blactext mb-2 mb-md-3 mb-lg-5 mb-xl-7">Recent News</h2>
             </div>
-    {{ end }}
-    <div class="w-100 all-explorations">
-        <a href="{{ "/explorations/" | absURL }}" tabindex="0" aria-label="Go to all explorations">All explorations</a>
+        </div>
+        <div class="row no-gutters">
+            <div class="col-sm-1 col-lg-2"></div>
+            <div class="col-sm-10 mb-3 mb-md-0 col-md p-0 news-item mr-md-1 mr-lg-3 mr-xl-5">
+                <div class="news-item-txt p-4">
+                    <div class="news-item-icon mb-2"></div>
+                    <h4 class="coldblcktext text-uppercase mb-1">Lorem Ipsum</h4>
+                    <h3 class="blacktext mb-2">Lorem Ipsum</h3>
+                    <p class="slatetext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                </div>
+                <div class="news-item-link py-3 px-4">
+                    <a class="plainlink coldblcktext" href="#">LEARN MORE {{ partial "rightarrow.html" }}</a>
+                </div>
+            </div>
+            <div class="col-sm-10 offset-sm-1 col-md offset-md-0 p-0 news-item ml-md-1 ml-lg-3 ml-xl-5">
+                    <div class="news-item-txt p-4">
+                        <div class="news-item-icon mb-2"></div>
+                        <h4 class="coldblcktext text-uppercase mb-1">Lorem Ipsum</h4>
+                        <h3 class="blacktext mb-2">Lorem Ipsum</h3>
+                        <p class="slatetext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                    </div>
+                    <div class="news-item-link py-3 px-4">
+                        <a class="plainlink coldblcktext" href="#">LEARN MORE {{ partial "rightarrow.html" }}</a>
+                    </div>
+            </div>
+            <div class="col-md-1 col-lg-2"></div>
+        </div>
+        <div class="row">
+            <div class="col-12 d-flex flex-column align-items-center mt-5 mb-6 mb-md-8 mb-lg-10">
+                <a class="plainlink text-center coldblcktext" href="#">ALL NEWS {{ partial "rightarrow.html" }}</a>
+            </div>
+        </div>
     </div>
-</div>
-
 {{ partial "subscribe.html" .}}
 
 {{ end }}
