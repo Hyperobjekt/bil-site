@@ -1,3 +1,3 @@
-# Stanford Education Data Archive
+# BIL Website
 
-This is the web site for the Stanford Education Data Archive web site.
+This is the web site for BIL.
