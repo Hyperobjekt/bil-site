@@ -97,7 +97,7 @@ nav.navbar-light {
     }
     .drawer-toggle {
       .navbar-toggler-icon {
-        background-image: url('/images/menu2.svg');
+        background-image: url('/images/icons/mobile-menu-dark.svg');
         animation: opacity-fill .3s;
         @keyframes opacity-fill {
           /* You could think of as "step 1" */
@@ -121,12 +121,12 @@ nav.navbar-light {
     border: 0;
     color: $white;
     text-align: right;
-    padding-right: 0;
+    padding-right: 2.4rem;
     .navbar-toggler-icon {
-      background-image: url('/images/menu.svg');
+      background-image: url('/images/icons/mobile-menu-light.svg');
       background-repeat: no-repeat;
-      height: 38px;
-      width: 33px;
+      height: 34px;
+      width: 26px;
       @include media-breakpoint-down(sm) {
         height: 24px;
       }
@@ -168,6 +168,8 @@ nav.navbar-light {
   transition: 0.5s;
   margin-right: -320px;
   text-align: center;
+  @include sofia-reg;
+  
 
   @include media-breakpoint-up(mm) {
     text-align: left;
@@ -210,7 +212,8 @@ nav.navbar-light {
       font-size: 2.4rem;
       line-height: 2.0rem;
       letter-spacing: .011rem;
-      color: $seda-dark;
+      //color: $seda-dark;
+      color: $green;
       text-transform: uppercase;
       margin-bottom: 3.2rem;
 
