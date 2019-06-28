@@ -1,23 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Stanford Education Data Archive</title>
+    <title>Home on Stanford Basic Income Lab</title>
     <link>/</link>
-    <description>Recent content in Home on Stanford Education Data Archive</description>
+    <description>Recent content in Home on Stanford Basic Income Lab</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 12 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Following Up On the Opportunity Gap</title>
+      <title>Educational opportunity in early and middle childhood: Variation by place and age</title>
       <link>/posts/the-opportunity-gap-2019-02-12/</link>
       <pubDate>Tue, 12 Feb 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/the-opportunity-gap-2019-02-12/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</description>
+      <description>Can a school district overcome the effects that poverty has on its students? To answer that question, we need to rethink how we measure a school district’s quality.
+Despite popular belief, average test scores are a bad indicator for measuring how much education students receive in a district. Average test scores by grade tell us more about the socioeconomic conditions of the students in a district than the district’s impact on student learning.</description>
     </item>
     
     <item>
@@ -26,8 +27,8 @@
       <pubDate>Sat, 12 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/posts/the-opportunity-gap-2019-01-12/</guid>
-      <description>White vs. Black Achievement This figure shows the average performance of black and white students in each US school district in math and English language arts in grade 3.
-Each circle is a school district (one of ~2400 district in which there are enough white and black students to reliably estimate both white and black achievement in grade 3. The size of the bubble is proportionate to the number of black children enrolled in the school district.</description>
+      <description>This figure shows the average performance of black and white students in each US school district in math and English language arts in grade 3. Each circle is a school district (one of ~2400 district in which there are enough white and black students to reliably estimate both white and black achievement in grade 3).
+The size of the bubble is proportionate to the number of black children enrolled in the school district.</description>
     </item>
     
   </channel>
