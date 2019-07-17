@@ -1,3 +1,50 @@
+
+
+// Homepage only: header
+body.home nav.navbar-light  {
+  background-color: #00000033;
+  ul a {
+    color: #fff;
+  }
+  ul.dropdown-menu a {
+    color: $black;
+  }
+  ul a:hover {
+    text-decoration: none;
+    color: $tealgreen;
+  }
+  .navbar-brand {
+    background-image: url("/images/logos/bil-full-logomark-white.svg");
+    background-size: 234px 32px;
+    background-repeat: no-repeat;
+  }
+  // Sticky version
+  &.sticky-top {
+    background-color: #fff;
+    .navbar-brand {
+      background-image: url("/images/logos/bil-full-logomark.svg");
+      background-size: 234px 32px;
+      background-repeat: no-repeat;
+    }
+    ul a {
+      color: $black;
+    }
+    ul a:hover {
+      text-decoration: none;
+      color: $button-bronze;
+    }
+    animation: slide-down .2s;
+    @keyframes slide-down {
+      0% {
+      transform: translateY(-64px);
+      }
+      100% {
+        transform: translateY(0px);
+      }
+
+    }
+  }
+}
 // Hero
 body.home {
     .hero {
@@ -6,8 +53,6 @@ body.home {
             position: relative;
             top: -1px;
         }
-         
-     
       background-image: url('/images/heroes/AnnieLowreycrowd-hero-2880.jpg');
       height: 400px;
       background-size: cover;

@@ -1,13 +1,7 @@
 
 // Header
 
-body.type-help-faq, body.research {
-  nav.sticky-top {
-    box-shadow: none;
-    border-bottom: 1px solid $seda-lightblue;
-  }
-}
-
+// Non-home pages: header
 nav.navbar-light {
   a {
         @include sofia-reg;
@@ -21,7 +15,7 @@ nav.navbar-light {
     text-decoration: none;
   }
   height: 6.4rem;
-  background-color: #00000033; // $seda-dark;
+  background-color: #fff; // $seda-dark;
   transition: background-color .2s ease;
   padding-right: 0;
   padding-left: 0;
@@ -41,6 +35,9 @@ nav.navbar-light {
     //height: 33px;
     width: 238px;
     margin-top: 4px;
+    background-image: url("/images/logos/bil-full-logomark.svg");
+    background-size: 234px 32px;
+    background-repeat: no-repeat;
     a {
       // color: $black;
       @include sofia-reg;
@@ -64,20 +61,12 @@ nav.navbar-light {
     background-repeat: no-repeat;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, .20);
     transition: background-color .2s ease;
-    animation: slide-down .2s;
+    
     a {
       color: $black;
       @include sofia-reg;
     }
-    @keyframes slide-down {
-      0% {
-      transform: translateY(-64px);
-      }
-      100% {
-        transform: translateY(0px);
-      }
-
-    }
+    
 
     .navbar-brand {
       animation: opacity-fill .3s;
@@ -96,7 +85,6 @@ nav.navbar-light {
           opacity: 1;
         }
       }
- 
     }
     .drawer-toggle {
       .navbar-toggler-icon {
@@ -115,8 +103,6 @@ nav.navbar-light {
       }
     }
   }
-
-
 
   .drawer-toggle {
     margin-left: auto;
@@ -139,19 +125,8 @@ nav.navbar-light {
   &.scroll-top {
     @include media-breakpoint-up(md) {
       nav.navbar {
-        // .navbar-brand {
-        //   background-image: none;
-        // }
         background-color: transparent !important;
       }
-
-      // .nav-link {
-      //   color: #fff;
-      //
-      //   &:hover {
-      //     color: #fff;
-      //   }
-      // }
     }
   }
 }
@@ -172,21 +147,14 @@ nav.navbar-light {
   margin-right: -320px;
   text-align: center;
   @include sofia-reg;
-  
-
   @include media-breakpoint-up(mm) {
     text-align: left;
     padding-left: 4.8rem;
-
-    .social {
-
-    }
   }
 
   &.show {
     margin-right: 0;
   }
-
   .closebtn {
     background-image: url(/images/close.svg);
     background-repeat: no-repeat;
@@ -237,6 +205,94 @@ nav.navbar-light {
 
 button.navbar-toggler {
   border: 0;
+}
+
+// General Hero images
+
+body {
+  .hero {
+    height: 320px;
+    background-size: cover;
+    overflow: hidden;     
+    @include media-breakpoint-up(md) {
+      height: 360px;
+      background-size: cover;
+    }
+    @include media-breakpoint-up(lg) {
+      height: 400px;
+      background-size: cover;
+      }
+    @include media-breakpoint-up(xl) {
+        height: 400px;
+        background-size: cover;
+    }
+    background-repeat: no-repeat;
+    margin-left: 0;
+    margin-right: 0;
+    color: $white;
+    text-align: center;
+
+    .hero-child {
+      &.row {
+          margin-left: 0;
+          padding-left: 16px;
+      }
+      height: 100%;
+      background-size: cover;
+      
+      @include media-breakpoint-up(md) {
+          background-size: cover;
+      }
+      @include media-breakpoint-up(lg) {
+          background-size: cover;
+      }
+      @include media-breakpoint-up(xl) {
+          background-size: cover;
+      }
+      width: 100%;
+      background: rgba(0,0,0,0.55);
+      -webkit-transform: translateZ(0);
+      -webkit-backface-visibility: hidden;
+      -webkit-transform: translateZ(0) scale(1.0, 1.0);
+      transform: translateZ(0);
+
+      .hero-copy {
+        h2 {
+          @include sofia-med;
+          text-align: left;
+          color: $white;
+          font-size: 2rem;
+          line-height: 3rem;
+          letter-spacing: .014rem;
+
+          @include media-breakpoint-up(md) {
+            font-size: 2.4rem;
+            line-height: 4.2rem;
+            letter-spacing: .018rem;
+          }
+
+          @include media-breakpoint-up(lg) {
+            font-size: 2.8rem;
+            line-height: 4.4rem;
+            letter-spacing: .018rem;
+          }
+
+          @include media-breakpoint-up(xl) {
+            font-size: 3rem;
+            line-height: 4.8rem;
+            letter-spacing: .022rem;
+          } 
+        }
+      }
+    }
+  }
+}
+#main {
+  background-color: $white;
+  // overflow-x: hidden;
+}
+.divider  {
+  border-bottom: 1px solid #D7D7D7;
 }
 
 // Breadcrumbs

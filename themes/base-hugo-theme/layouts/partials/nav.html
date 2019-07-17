@@ -12,14 +12,14 @@
                     <li class="dropdown">
                         {{ $text := print .Name | safeHTML }}
                         {{ if .HasChildren }}
-                            <a href="#" class="dropdown-toggle whitetext" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ .Name }} <span class="caret"></span></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ .Name }} <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                             {{ range .Children }}
                                 <li class="py-1 px-2"><a class="" href="{{ .URL }}">{{ .Name }}</a></li>
                             {{ end }}
                             </ul>
                         {{ else }}    
-                        <a class="whitetext" tabindex="0" href="{{ .URL | relURL }}">
+                        <a class="" tabindex="0" href="{{ .URL | relURL }}">
                             {{ $text }}
                         </a>
                         {{ end }}

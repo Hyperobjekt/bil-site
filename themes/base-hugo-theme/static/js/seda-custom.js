@@ -4,14 +4,20 @@
     var jQuery = $.noConflict(false);
     var $ = jQuery;
 
-    
-
+    // Add sticky top class to pages generally
+    //function homesticky() {
+      if ( $( "body.kind-section" ).length ) {
+        $('nav').addClass('sticky-top');
+        $('.subnav').addClass('sticky-top');
+      }
+    //}
+    // Make sticky top class dynamic on home page only
     function checkScroll(y) {
         // console.log(checkScroll);
         // If the scroll is at the top, not sticky.
         // Transition comes farther down the page for
         // the the front page.
-        var heroHeight = $('#hero') ? $('#hero').height() : 0;
+        var heroHeight = $('body.home #hero') ? $('body.home #hero').height() : 0;
         // console.log(heroHeight);
         if (y <= (heroHeight - 64)) {
             // $('body').addClass('scroll-top');

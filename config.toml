@@ -33,7 +33,7 @@ anchor = "smart"
 [[menu.main]]
     parent = "About"
 	name = "What is Basic Income"
-	url = "/about/"
+	url = "/about/what-is-ubi"
     weight = 1
 
 [[menu.main]]
