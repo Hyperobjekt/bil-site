@@ -17130,6 +17130,10 @@ nav.navbar > div {
   color: #6EC9D7;
 }
 
+.bronzetext {
+  color: #B26F16;
+}
+
 .grn-bg {
   background-color: #00505C;
 }
@@ -17277,6 +17281,40 @@ h5 {
     font-size: 2.6rem;
     line-height: 4rem;
     letter-spacing: 0.04rem;
+  }
+}
+
+h6 {
+  font-family: sofia-pro,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  letter-spacing: 0.013rem;
+  font-weight: 600;
+}
+
+@media (min-width: 768px) {
+  h6 {
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    letter-spacing: 0.013rem;
+  }
+}
+
+@media (min-width: 992px) {
+  h6 {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.013rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  h6 {
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.013rem;
   }
 }
 
@@ -18556,6 +18594,12 @@ body.what-is-ubi #what-is-ubi .what-is-icon#individual {
 
 body.what-is-ubi #what-is-ubi .what-is-icon#unconditional {
   background-image: url("/images/icons/unconditional.svg");
+}
+
+body.what-is-bil #why-basic .sq-img {
+  background-image: url("/images/backgrounds/basic_income_in_cities.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /*# sourceMappingURL=style.css.map */
