@@ -18596,8 +18596,18 @@ body.what-is-ubi #what-is-ubi .what-is-icon#unconditional {
   background-image: url("/images/icons/unconditional.svg");
 }
 
+body.what-is-bil .hero {
+  background-image: url("/images/backgrounds/WessonDisucussionGeneral-edit.jpg");
+}
+
 body.what-is-bil #why-basic .sq-img {
   background-image: url("/images/backgrounds/basic_income_in_cities.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body.what-is-bil #why-now .sq-img {
+  background-image: url("/images/backgrounds/Vanparijsevent-edit1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }

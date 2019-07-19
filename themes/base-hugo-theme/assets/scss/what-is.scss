@@ -42,12 +42,22 @@ body.what-is-ubi {
   }
 
  body.what-is-bil {
+    .hero {
+        background-image: url('/images/backgrounds/WessonDisucussionGeneral-edit.jpg')
+    } 
     #why-basic {
         .sq-img {
             background-image: url('/images/backgrounds/basic_income_in_cities.png');
             background-size: cover;
             background-repeat: no-repeat;
         }
-    } 
-    
+    }
+    #why-now {
+        .sq-img {
+            background-image: url('/images/backgrounds/Vanparijsevent-edit1.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            // background-position-x: 40%;
+        }
+    }     
  } 
