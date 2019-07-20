@@ -45,11 +45,17 @@ body.what-is-ubi {
     .hero {
         background-image: url('/images/backgrounds/WessonDisucussionGeneral-edit.jpg')
     } 
+    .sq-img {
+        min-height: 480px;
+    }
     #why-basic {
         .sq-img {
             background-image: url('/images/backgrounds/basic_income_in_cities.png');
             background-size: cover;
             background-repeat: no-repeat;
+            @include media-breakpoint-up(md) {
+                background-position: 50%;
+            }
         }
     }
     #why-now {
@@ -58,6 +64,10 @@ body.what-is-ubi {
             background-size: cover;
             background-repeat: no-repeat;
             // background-position-x: 40%;
+            background-position: 60%;
+            @include media-breakpoint-up(md) {
+                background-position: 70%;
+            }
         }
     }     
  } 

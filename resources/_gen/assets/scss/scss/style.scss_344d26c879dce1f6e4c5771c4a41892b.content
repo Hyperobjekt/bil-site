@@ -18600,16 +18600,33 @@ body.what-is-bil .hero {
   background-image: url("/images/backgrounds/WessonDisucussionGeneral-edit.jpg");
 }
 
+body.what-is-bil .sq-img {
+  min-height: 480px;
+}
+
 body.what-is-bil #why-basic .sq-img {
   background-image: url("/images/backgrounds/basic_income_in_cities.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+@media (min-width: 768px) {
+  body.what-is-bil #why-basic .sq-img {
+    background-position: 50%;
+  }
+}
+
 body.what-is-bil #why-now .sq-img {
   background-image: url("/images/backgrounds/Vanparijsevent-edit1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: 60%;
+}
+
+@media (min-width: 768px) {
+  body.what-is-bil #why-now .sq-img {
+    background-position: 70%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
