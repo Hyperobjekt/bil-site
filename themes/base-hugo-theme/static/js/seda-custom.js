@@ -8,7 +8,7 @@
     //function homesticky() {
       if ( $( "body.kind-section" ).length ) {
         $('nav').addClass('sticky-top');
-        $('.subnav').addClass('sticky-top');
+        //$('.subnav').addClass('sticky-top');
       }
     //}
     // Make sticky top class dynamic on home page only
@@ -22,11 +22,11 @@
         if (y <= (heroHeight - 64)) {
             // $('body').addClass('scroll-top');
             $('nav').removeClass('sticky-top');
-            $('.subnav').removeClass('sticky-top');
+           // $('.subnav').removeClass('sticky-top');
         } else if (y > (heroHeight - 64)) {
             // $('body').removeClass('scroll-top');
             $('nav').addClass('sticky-top');
-            $('.subnav').addClass('sticky-top');
+           // $('.subnav').addClass('sticky-top');
         }
     }
 

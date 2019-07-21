@@ -27,12 +27,125 @@
         <ul class="d-flex justify-content-center align-items-center pl-md-0">
         
             <li class=""><a href="/about/what-is-bil">What is BIL?</a></li>
-            <li class="mx-md-5 active">What is UBI?</li>
-            <li><a href="/about/people">People</a></li>
+            <li class="mx-md-5"><a href="/about/what-is-ubi">What is UBI?</a></li>
+            <li class="active">People</li>
         </ul>
     </div>
 </div>
 <!-- /SUBNAV -->
+
+<div class="row who-we-are-former leadership">
+        <div class="headers w-100">
+            <h3 tabindex="0">Leadership</h3>
+        </div>
+    </div>
+    
+    <div class="row people-former">
+        <div class="col-xs-12 col-lg-10 offset-lg-1 flex-row d-flex flex-wrap">
+            
+                {{ range $datapeople := sort ($.Site.Data.people) "weight" "asc" }}
+                {{ if eq .role "leadership" }}
+                <!-- <div class="col-xs-12 col-mm-4 col"> -->
+                  <div id="{{ urlize .name }}-{{ urlize .title}}" class="column-people p-2 col-xs-12 col-md-4 col-lg-3 launch-people-bio">
+                     {{/*  
+                          {{ $img := strings.TrimPrefix "/uploads/" .image }}
+                          {{ $name := .name }}
+                          {{ with $.Site.GetPage "page" "uploads/_index.md" }}
+                          {{ with .Resources.GetMatch $img }}
+                              {{$imgFill := .Fill "272x272 Center"}}  
+                      */}}
+                          <div data-image="{{ .thumb }}" class="pic" style="background: url('{{ .thumb }}'); background-size: contain;" alt="Photo of {{ .name }}" tabindex="0">
+                              <button class="">+</button>
+                          </div>
+                     {{/*  
+                          {{ end }}
+                          {{ end }} 
+                      */}}
+          
+                      {{ partial "person.html" . }}
+          
+                  </div>
+                {{ end }}
+              {{ end }}
+    
+    
+        </div>
+    </div>
+    <div class="row who-we-are-former leadership">
+            <div class="headers w-100">
+                <h3 tabindex="0">Current Graduate Fellows</h3>
+            </div>
+        </div>
+        
+        <div class="row people-former">
+            <div class="col-xs-12 col-lg-10 offset-lg-1 flex-row d-flex flex-wrap">
+                
+                    {{ range $datapeople := sort ($.Site.Data.people) "weight" "asc" }}
+                    {{ if eq .role "leadership" }}
+                    <!-- <div class="col-xs-12 col-mm-4 col"> -->
+                      <div id="{{ urlize .name }}-{{ urlize .title}}" class="column-people p-2 col-xs-12 col-md-4 col-lg-3 launch-people-bio">
+                         {{/*  
+                              {{ $img := strings.TrimPrefix "/uploads/" .image }}
+                              {{ $name := .name }}
+                              {{ with $.Site.GetPage "page" "uploads/_index.md" }}
+                              {{ with .Resources.GetMatch $img }}
+                                  {{$imgFill := .Fill "272x272 Center"}}  
+                          */}}
+                              <div data-image="{{ .thumb }}" class="pic" style="background: url('{{ .thumb }}'); background-size: contain;" alt="Photo of {{ .name }}" tabindex="0">
+                                  <button class="">+</button>
+                              </div>
+                         {{/*  
+                              {{ end }}
+                              {{ end }} 
+                          */}}
+              
+                          {{ partial "person.html" . }}
+              
+                      </div>
+                    {{ end }}
+                  {{ end }}
+        
+        
+            </div>
+        </div> 
+        <div class="row who-we-are-former leadership">
+                <div class="headers w-100">
+                    <h3 tabindex="0">Former Graduate Fellows</h3>
+                </div>
+            </div>
+            
+            <div class="row people-former">
+                <div class="col-xs-12 col-lg-10 offset-lg-1 flex-row d-flex flex-wrap">
+                    
+                        {{ range $datapeople := sort ($.Site.Data.people) "weight" "asc" }}
+                        {{ if eq .role "leadership" }}
+                        <!-- <div class="col-xs-12 col-mm-4 col"> -->
+                          <div id="{{ urlize .name }}-{{ urlize .title}}" class="column-people p-2 col-xs-12 col-md-4 col-lg-3 launch-people-bio">
+                             {{/*  
+                                  {{ $img := strings.TrimPrefix "/uploads/" .image }}
+                                  {{ $name := .name }}
+                                  {{ with $.Site.GetPage "page" "uploads/_index.md" }}
+                                  {{ with .Resources.GetMatch $img }}
+                                      {{$imgFill := .Fill "272x272 Center"}}  
+                              */}}
+                                  <div data-image="{{ .thumb }}" class="pic" style="background: url('{{ .thumb }}'); background-size: contain;" alt="Photo of {{ .name }}" tabindex="0">
+                                      <button class="">+</button>
+                                  </div>
+                             {{/*  
+                                  {{ end }}
+                                  {{ end }} 
+                              */}}
+                  
+                              {{ partial "person.html" . }}
+                  
+                          </div>
+                        {{ end }}
+                      {{ end }}
+            
+            
+                </div>
+            </div> 
+        
 
 
 <!--/////       WHAT WE DO      \\\\\-->
