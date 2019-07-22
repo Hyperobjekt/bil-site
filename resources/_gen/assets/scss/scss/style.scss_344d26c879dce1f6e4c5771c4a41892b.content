@@ -18631,6 +18631,18 @@ body.what-is-bil #why-now .sq-img {
   }
 }
 
+body.people .hero {
+  background-color: #00505C;
+}
+
+body.people .hero .hero-child {
+  background-color: transparent;
+}
+
+body.people .hero .hero-copy h2 {
+  color: #6EC9D7;
+}
+
 .who-we-are h4 {
   margin-bottom: 4rem;
 }

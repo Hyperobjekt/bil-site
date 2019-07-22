@@ -1,9 +1,0 @@
-name: "Ericka Weathers"
-role: "collaborator" # director, staff, or partner
-title: "Assistant Professor, Pennsylvania State University" # maybe different from role; is displayed
-image: "/uploads/eweathers-full.jpg" # will be cropped to center square & rounded
-thumb: "/uploads/eweathers-sm.jpg"
-current: true # true or false (for former)
-weight: 70
-blurb: >
-  Ericka S. Weathers is an Assistant Professor of Education at the Penn State College of Education. Dr. Weathers uses quasi-experimental methodologies to examine the impact of structural inequality on educational opportunities and outcomes in topic areas such as school finance, school discipline, academic achievement, and special education. Her current work explores school segregation as well as federal, state, and local education policies as possible determinants of racial disparities in school district revenue and expenditures.

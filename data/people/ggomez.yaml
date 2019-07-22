@@ -1,0 +1,12 @@
+name: "Guillermo Gomez"
+role: "former-grad" # director, staff, or partner
+title: "Master's in Management Science & Engineering, 2019
+" # maybe different from role; is displayed
+image: "/uploads/ggomez.jpg" # will be cropped to center square & rounded
+thumb: "/uploads/ggomez-sm.jpg"
+current: true # true or false (for former)
+weight: 90
+blurb: >
+  Guillermo Gomez was a Master's student in Stanford's Computational Social Science program, under the Management Science & Engineering department.
+
+  <br/><br/>He worked on the lab's online research mapping of the basic income literature, which included key articles produced on UBI to date, highlighting important findings from each and ensuring that core areas such as health, crime, stigma, childhood poverty and gender equity are covered. He also supported the lab with program management basics by creating custom internal tracking tools. 

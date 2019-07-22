@@ -5,7 +5,7 @@
         
         <div class="hero-copy col-10 col-md-8 offset-md-1 d-flex align-items-center">
         
-            <h2>Basic Income consists of a periodic cash allowance given to all citizens, without means test to provide them with a standard of living above the poverty line. </h2>
+            <h2>Meet our leadership and fellows:</h2>
             
         </div>
     </div>
@@ -81,7 +81,7 @@
             <div class="col-xs-12 col-lg-10 offset-lg-1 flex-row d-flex flex-wrap">
                 
                     {{ range $datapeople := sort ($.Site.Data.people) "weight" "asc" }}
-                    {{ if eq .role "leadership" }}
+                    {{ if eq .role "current-grad" }}
                     <!-- <div class="col-xs-12 col-mm-4 col"> -->
                       <div id="{{ urlize .name }}-{{ urlize .title}}" class="column-people p-2 col-xs-12 col-md-4 col-lg-3 launch-people-bio">
                          {{/*  
@@ -110,6 +110,42 @@
         </div> 
         <div class="row who-we-are-former leadership">
                 <div class="headers w-100">
+                    <h3 tabindex="0">Undergraduate Fellows</h3>
+                </div>
+            </div>
+            <div class="row people-former">
+                <div class="col-xs-12 col-lg-10 offset-lg-1 flex-row d-flex flex-wrap">
+                    
+                        {{ range $datapeople := sort ($.Site.Data.people) "weight" "asc" }}
+                        {{ if eq .role "undergrad" }}
+                        <!-- <div class="col-xs-12 col-mm-4 col"> -->
+                          <div id="{{ urlize .name }}-{{ urlize .title}}" class="column-people p-2 col-xs-12 col-md-4 col-lg-3 launch-people-bio">
+                             {{/*  
+                                  {{ $img := strings.TrimPrefix "/uploads/" .image }}
+                                  {{ $name := .name }}
+                                  {{ with $.Site.GetPage "page" "uploads/_index.md" }}
+                                  {{ with .Resources.GetMatch $img }}
+                                      {{$imgFill := .Fill "272x272 Center"}}  
+                              */}}
+                                  <div data-image="{{ .thumb }}" class="pic" style="background: url('{{ .thumb }}'); background-size: contain;" alt="Photo of {{ .name }}" tabindex="0">
+                                      <button class="">+</button>
+                                  </div>
+                             {{/*  
+                                  {{ end }}
+                                  {{ end }} 
+                              */}}
+                  
+                              {{ partial "person.html" . }}
+                  
+                          </div>
+                        {{ end }}
+                      {{ end }}
+            
+            
+                </div>
+            </div> 
+        <div class="row who-we-are-former leadership">
+                <div class="headers w-100">
                     <h3 tabindex="0">Former Graduate Fellows</h3>
                 </div>
             </div>
@@ -118,7 +154,7 @@
                 <div class="col-xs-12 col-lg-10 offset-lg-1 flex-row d-flex flex-wrap">
                     
                         {{ range $datapeople := sort ($.Site.Data.people) "weight" "asc" }}
-                        {{ if eq .role "leadership" }}
+                        {{ if eq .role "former-grad" }}
                         <!-- <div class="col-xs-12 col-mm-4 col"> -->
                           <div id="{{ urlize .name }}-{{ urlize .title}}" class="column-people p-2 col-xs-12 col-md-4 col-lg-3 launch-people-bio">
                              {{/*  

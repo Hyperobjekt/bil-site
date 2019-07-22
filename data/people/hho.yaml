@@ -1,9 +1,0 @@
-name: "Hiep Ho"
-role: "former" # director, staff, or partner
-title: "Web Developer" # maybe different from role; is displayed
-image: "/uploads/hho-full.jpg" # will be cropped to center square & rounded
-thumb: "/uploads/hho-sm.jpg"
-current: true # true or false (for former)
-weight: 160
-blurb: >
-  Hiep is the Webmaster for Center for Education Policy and Analysis (CEPA). He's responsible for the implementation, development and maintenance of CEPA websites and servers. He also advises and provides support to CEPA faculty and staff on Information Technology. Prior to coming to CEPA, Hiep was the Computer Information Systems Analyst and the main contributor of database design and implementation, network administration, web design and implementation, and desktop support to faculty and staff of Stanford Neurosurgery, Neurology and Institute for Neuro-Innovation & Translational Neurosciences of School of Medicine.

@@ -1,3 +1,15 @@
+body.people {
+    .hero {
+        background-color: $green;
+        .hero-child {
+            background-color: transparent;
+        }
+        .hero-copy h2 {
+            color: $tealgreen;
+        }
+    }
+}
+
 .who-we-are {
     h4 {
         margin-bottom: 4rem;

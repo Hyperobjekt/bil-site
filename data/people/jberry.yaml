@@ -1,0 +1,12 @@
+name: "Joan Berry"
+role: "leadership" # director, staff, or partner
+title: "Executive Director" # maybe different from role; is displayed
+image: "/uploads/jberry.jpg" # will be cropped to center square & rounded
+thumb: "/uploads/jberry-sm.jpg"
+current: true # true or false (for former)
+weight: 10
+blurb: >
+  Joan joined the Ethics in Society team in 2004 when it was just an undergraduate honors program. 
+  Originally from the great state of Rhode Island, she moved to the Bay Area in the late 1990s. Joan has a BA in Sociology and has worked in both academia and industry in various administrative positions and as a technical writer. In addition to her work with the Basic Income Lab, she also serves as the Executive Director of the McCoy Family Center for Ethics in Society.
+
+
