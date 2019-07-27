@@ -1,0 +1,42 @@
+{{ define "main" }}
+
+<div id="hero" class="hero">
+    <div class="hero-child row">
+        
+        <div class="hero-copy col-10 col-md-8 offset-md-1 d-flex align-items-center">
+        
+            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </h2>
+            
+        </div>
+    </div>
+</div>
+
+<div class="row subnav d-md-none small-tab-nav">
+        <div class="dropdown d-flex justify-content-center align-items-center">
+            <div>Research:</div> 
+            <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Mapping UBI Research
+            </button>
+      <ul class="anchor-links dropdown-menu">
+            <li class="mb-3"><a href="/research/ubi-cities-toolkit/">UBI Cities Toolkit</a></li>
+    </ul>
+  </div>
+</div>
+<div class="row d-sm-none d-md-flex subnav">
+    <div class="col-12 col-md-10 offset-md-1">
+        <ul class="d-flex justify-content-center align-items-center pl-md-0">
+        
+            <li class="active"><a href="/about/what-is-bil">Mapping UBI Research</a></li>
+            <li class="mx-md-5">UBI Cities Toolkit</li>
+          
+        </ul>
+    </div>
+</div>
+<!-- /SUBNAV -->
+
+
+
+
+{{ partial "subscribe.html" .}}
+
+{{ end }}

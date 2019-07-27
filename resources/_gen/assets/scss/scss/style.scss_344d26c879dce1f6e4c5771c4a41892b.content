@@ -17950,7 +17950,6 @@ img.float-left {
 }
 
 .subnav.d-md-none .dropdown-toggle {
-  width: 100%;
   font-size: 1.2rem;
   line-height: 1.4rem;
   letter-spacing: 0.055rem;

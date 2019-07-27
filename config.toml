@@ -53,6 +53,18 @@ anchor = "smart"
     weight = 5
 
 [[menu.main]]
+    parent = "Research"
+	name = "Mapping UBI Research"
+	url = "/research/mapping-ubi-research"
+    weight = 1
+
+[[menu.main]]
+    parent = "Research"
+	name = "UBI Cities Toolkit"
+	url = "/research/ubi-cities-toolkit"
+    weight = 2  
+
+[[menu.main]]
     name = "Positions"
     url = "/positions/"
     weight = 6
