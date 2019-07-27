@@ -124,6 +124,13 @@
                 updateModal.update();
             }
         });
+        $('#peopleBioModal button.close').on('click', function() {
+          // console.log('closing, active bio = ');
+          // console.log(updateModal.activeBio);
+          updateModal.activeBio = 0;
+          $('#prevBio').unbind('click');
+          $('#nextBio').unbind('click');
+        });
       });
     }
 

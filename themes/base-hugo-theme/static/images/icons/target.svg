@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="58px" height="59px" viewBox="0 0 58 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Target</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Research-ubi-cities-toolkit-mockup-v5-Copy" transform="translate(-695.000000, -1403.000000)">
+            <g id="Target" transform="translate(695.000000, 1403.000000)">
+                <circle id="Oval-Copy-3" fill="#FFC170" cx="25" cy="33.2341309" r="25"></circle>
+                <circle id="Oval-Copy-2" fill="#FFD8A6" cx="25" cy="33.2341309" r="20"></circle>
+                <circle id="Oval" fill="#FFC170" cx="25" cy="33.2341309" r="15"></circle>
+                <circle id="Oval" fill="#FFD8A6" cx="25" cy="33.2341309" r="10"></circle>
+                <circle id="Oval" fill="#FFC170" cx="25" cy="33.2341309" r="5"></circle>
+                <path d="M19.8492424,18.5123055 L57.3492424,18.5123055 L57.3492424,21.5123055 L19.8492424,21.5123055 C19.0208153,21.5123055 18.3492424,20.8407326 18.3492424,20.0123055 C18.3492424,19.1838783 19.0208153,18.5123055 19.8492424,18.5123055 Z" id="Rectangle" fill="#E98300" transform="translate(37.849242, 20.012305) rotate(-45.000000) translate(-37.849242, -20.012305) "></path>
+                <polygon id="Rectangle" fill="#E98300" transform="translate(46.992187, 6.007935) rotate(-45.000000) translate(-46.992187, -6.007935) " points="43.8249512 4 52.8249512 4 50.1594238 8.01586914 41.1594238 8.01586914"></polygon>
+                <polygon id="Rectangle-Copy" fill="#E98300" transform="translate(51.817211, 10.051342) rotate(-45.000000) translate(-51.817211, -10.051342) " points="45.4538217 8.18795251 54.4538217 8.18795251 58.1806004 11.9147312 49.1806004 11.9147312"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

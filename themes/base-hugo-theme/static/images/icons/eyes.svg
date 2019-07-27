@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="103px" height="64px" viewBox="0 0 103 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Eyes</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Research-ubi-cities-toolkit-mockup-v5-Copy" transform="translate(-1038.000000, -1402.000000)">
+            <g id="Eyes" transform="translate(1038.000000, 1402.000000)">
+                <path d="M32.5,64 C50.4492544,64 65,45.5 65,45.5 C65,45.5 50.4492544,27 32.5,27 C14.5507456,27 0,45.5 0,45.5 C0,45.5 14.5507456,64 32.5,64 Z" id="Oval" fill="#FFD9A7"></path>
+                <g id="Group" transform="translate(44.000000, 0.000000)">
+                    <path d="M29.5,33 C45.7924001,33 59,16.5 59,16.5 C59,16.5 45.7924001,0 29.5,0 C13.2075999,0 0,16.5 0,16.5 C0,16.5 13.2075999,33 29.5,33 Z" id="Oval-Copy-4" fill="#FFD9A7"></path>
+                    <ellipse id="Oval-Copy-5" fill="#F8BA6B" cx="29.0461538" cy="16.5" rx="17.2461538" ry="16.5"></ellipse>
+                    <ellipse id="Oval-Copy-14" fill="#E98300" cx="28.5923077" cy="16.5" rx="4.08461538" ry="4.01351351"></ellipse>
+                </g>
+                <ellipse id="Oval" fill="#F8BA6B" cx="32" cy="45.5" rx="19" ry="18.5"></ellipse>
+                <circle id="Oval-Copy-13" fill="#E98300" cx="31.5" cy="45.5" r="4.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

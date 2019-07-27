@@ -1,0 +1,23 @@
+body.ubi-cities-toolkit {
+    .hero {
+        background: url('/images/heroes/WarrenBirdsong2-edit.jpg');
+        background-size: cover;
+        background-position: center center;
+    }
+    .recommendations-icon {
+        height: 60px;
+        width: 103px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+        &#pluses {
+            background-image: url("/images/icons/pluses.svg");
+        }
+        &#target {
+            background-image: url("/images/icons/target.svg");
+        }
+        &#eyes {
+            background-image: url("/images/icons/eyes.svg");
+        }
+    }    
+}
