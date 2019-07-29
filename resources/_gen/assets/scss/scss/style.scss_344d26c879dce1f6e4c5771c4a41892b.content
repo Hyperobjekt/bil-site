@@ -17142,6 +17142,10 @@ nav.navbar > div {
   background-color: #F9F6EF;
 }
 
+.gray-bg {
+  background-color: #E1E1E1;
+}
+
 h1 {
   margin-bottom: 0;
   font-family: sofia-pro,sans-serif;
@@ -19209,6 +19213,12 @@ body.ubi-cities-toolkit .recommendations-icon#target {
 
 body.ubi-cities-toolkit .recommendations-icon#eyes {
   background-image: url("/images/icons/eyes.svg");
+}
+
+body.mapping-ubi-research .hero {
+  background: url("/images/heroes/wessonlecture-edit.jpg");
+  background-size: cover;
+  background-position: center center;
 }
 
 /*# sourceMappingURL=style.css.map */
