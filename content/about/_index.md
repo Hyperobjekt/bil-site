@@ -1,3 +1,4 @@
 ---
-title: "What Is UBI"
+title: "What Is BIL"
+layout: "what-is-bil"
 ---

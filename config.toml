@@ -32,15 +32,21 @@ anchor = "smart"
 
 [[menu.main]]
     parent = "About"
+	name = "What is BIL?"
+	url = "/about/what-is-bil"
+    weight = 1    
+
+[[menu.main]]
+    parent = "About"
 	name = "What is Basic Income?"
 	url = "/about/what-is-ubi"
     weight = 2
 
 [[menu.main]]
     parent = "About"
-	name = "What is BIL?"
-	url = "/about/what-is-bil"
-    weight = 1    
+	name = "People"
+	url = "/about/people"
+    weight = 3    
 
 [[menu.main]]
   name = "Events"

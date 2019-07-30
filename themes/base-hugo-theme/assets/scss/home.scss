@@ -53,7 +53,8 @@ body.home {
             position: relative;
             top: -1px;
         }
-      background-image: url('/images/heroes/AnnieLowreycrowd-hero-2880.jpg');
+      background-image: url('/images/heroes/bil-home-edit.jpg');
+      background-color: #000;
       height: 400px;
       background-size: cover;
       background-position-x: 70%;      
@@ -63,12 +64,12 @@ body.home {
         background-position: bottom center;
       }
       @include media-breakpoint-up(lg) {
-        height: 576px;
+        height: 496px;
         background-size: cover;
         background-position: bottom center;
         }
       @include media-breakpoint-up(xl) {
-          height: 608px;
+          height: 496px;
           background-size: cover;
           background-position: bottom center;
       }
@@ -81,7 +82,29 @@ body.home {
       color: $white;
       text-align: center;
       
-  
+      #hero-wwd {
+          display: none;
+          @include media-breakpoint-up(md) {
+            height: 100%;
+            display: flex;
+            align-items: flex-end;
+          }
+          h2 {
+            font-weight: 500;
+            @include media-breakpoint-up(md) {
+              font-size: 2.8rem;
+              line-height: 4.2rem;
+            }
+            @include media-breakpoint-up(lg) {
+              font-size: 3rem;
+              line-height: 4.5rem;
+            }
+            @include media-breakpoint-up(xl) {
+              font-size: 3.2rem;
+              line-height: 4.8rem;
+            }
+          }  
+      }
       
       .hero-child {
         &.row {
@@ -91,9 +114,11 @@ body.home {
         background-size: cover;
         
         @include media-breakpoint-up(md) {
+            opacity: 0;
             height: 512px;
             background-size: cover;
             background-position: bottom center;
+            position: absolute;
         }
         @include media-breakpoint-up(lg) {
             height: 576px;
