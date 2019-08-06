@@ -71,6 +71,12 @@ anchor = "smart"
     weight = 2  
 
 [[menu.main]]
+    parent = "Research"
+	name = "Basic Income Experiments"
+	url = "/research/basic-income-experiments"
+    weight = 3      
+
+[[menu.main]]
     name = "Positions"
     url = "/positions/"
     weight = 6
