@@ -1,0 +1,52 @@
+{{ define "main" }}
+
+<div id="hero" class="hero">
+    <div class="hero-child row">
+        
+        <div class="hero-copy col-10 col-md-8 offset-md-1 d-flex align-items-center">
+        
+            <h2>As part of the development of the UBI Cities Toolkit, the Basic Income Lab created a list of current North American Basic Income pilots.</h2>
+            
+        </div>
+    </div>
+</div>
+
+<div class="row subnav d-md-none small-tab-nav">
+        <div class="dropdown d-flex justify-content-center align-items-center">
+            <div>Research:</div> 
+            <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Basic Income Experiments
+            </button>
+      <ul class="anchor-links dropdown-menu">
+            <li class="mb-3"><a href="/research/mapping-ubi-research/">Mapping UBI Research</a></li>
+            <li class="mb-3"><a href="/research/ubi-cities-toolkit/">UBI Cities Toolkit</a></li>
+    </ul>
+  </div>
+</div>
+<div class="row d-sm-none d-md-flex subnav">
+    <div class="col-12 col-md-10 offset-md-1">
+        <ul class="d-flex justify-content-center align-items-center pl-md-0">
+        
+            <li class=""><a href="/research/mapping-ubi-research/">Mapping UBI Research</a></li>
+            <li class="mx-md-5"><a href="/research/ubi-cities-toolkit">UBI Cities Toolkit</a></li>
+            <li class="active">Basic Income Experiments</li>
+          
+        </ul>
+    </div>
+</div>
+<!-- /SUBNAV -->
+
+<div id="experiments-table" class="pt-sm-5 pt-md-7 pt-lg-9 pt-xl-12 pb-sm-7 pb-md-7 pb-xl-8">
+    <div class="row">
+        <div class="col-12 col-md-7 mx-auto mb-3 text-center">
+                <h3 class="bronzetext">Table of Ongoing and Proposed Basic Income and Cash Transfer Programs in the US and Canada</h3>
+        </div>
+        <div class="col-12 col-md-10 offset-md-1">
+            {{ .Content }}
+        </div>
+    </div> 
+</div>    
+
+{{ partial "subscribe.html" .}}
+
+{{ end }}

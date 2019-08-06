@@ -1,0 +1,33 @@
+body.basic-income-experiments {  
+  table {
+      th {
+        background-color: #FFFBF5;
+        color: #B26F16;
+      }
+        tr {
+            &:nth-child(odd) {
+                color: #B26F16;
+                a {
+                    color: #B26F16;
+                    text-decoration: underline;
+                }
+            }
+            &:nth-child(even) {
+                background-color: #F3FDFF;
+                color: #208A9A;
+                a {
+                    color: #208A9A;
+                    text-decoration: underline;
+                }
+            }
+        }
+        td, th {
+            padding: 1.6rem;
+            border: none;
+        }
+        td:nth-child(6) {
+            width: 240px;
+            display:inline-block;
+        }
+    }
+}

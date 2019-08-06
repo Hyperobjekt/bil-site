@@ -17326,7 +17326,7 @@ h6 {
   }
 }
 
-p {
+p, tr {
   font-family: sofia-pro,sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -17336,7 +17336,7 @@ p {
 }
 
 @media (min-width: 768px) {
-  p {
+  p, tr {
     font-size: 1.4rem;
     line-height: 2.1rem;
     letter-spacing: .03rem;
@@ -17345,7 +17345,7 @@ p {
 }
 
 @media (min-width: 992px) {
-  p {
+  p, tr {
     font-size: 1.55rem;
     line-height: 2.25rem;
     letter-spacing: .03rem;
@@ -17354,7 +17354,7 @@ p {
 }
 
 @media (min-width: 1280px) {
-  p {
+  p, tr {
     font-size: 1.6rem;
     line-height: 2.6rem;
     letter-spacing: 0rem;
@@ -19263,6 +19263,46 @@ body.mapping-ubi-research .hero {
   background: url("/images/heroes/wessonlecture-edit.jpg");
   background-size: cover;
   background-position: center center;
+}
+
+body.basic-income-experiments .hero {
+  background: url("/images/heroes/juliana-audience-hero.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+body.basic-income-experiments table th {
+  background-color: #FFFBF5;
+  color: #B26F16;
+}
+
+body.basic-income-experiments table tr:nth-child(odd) {
+  color: #B26F16;
+}
+
+body.basic-income-experiments table tr:nth-child(odd) a {
+  color: #B26F16;
+  text-decoration: underline;
+}
+
+body.basic-income-experiments table tr:nth-child(even) {
+  background-color: #F3FDFF;
+  color: #208A9A;
+}
+
+body.basic-income-experiments table tr:nth-child(even) a {
+  color: #208A9A;
+  text-decoration: underline;
+}
+
+body.basic-income-experiments table td, body.basic-income-experiments table th {
+  padding: 1.6rem;
+  border: none;
+}
+
+body.basic-income-experiments table td:nth-child(6) {
+  width: 240px;
+  display: inline-block;
 }
 
 /*# sourceMappingURL=style.css.map */
