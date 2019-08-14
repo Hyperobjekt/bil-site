@@ -26,7 +26,7 @@
   --breakpoint-mm: 576px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
-  --breakpoint-xl: 1280px;
+  --breakpoint-xl: 1380px;
   --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
@@ -379,7 +379,7 @@ template {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1380px) {
   .container {
     max-width: 1140px;
   }
@@ -1311,7 +1311,7 @@ template {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1380px) {
   .col-xl {
     flex-basis: 0;
     flex-grow: 1;
@@ -1914,7 +1914,7 @@ mark,
   }
 }
 
-@media (max-width: 1279.98px) {
+@media (max-width: 1379.98px) {
   .table-responsive-xl {
     display: block;
     width: 100%;
@@ -3248,7 +3248,7 @@ input[type="button"].btn-block {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1380px) {
   .dropdown-menu-xl-left {
     right: auto;
     left: 0;
@@ -4507,7 +4507,7 @@ input[type="button"].btn-block {
   }
 }
 
-@media (max-width: 1279.98px) {
+@media (max-width: 1379.98px) {
   .navbar-expand-xl > .container,
   .navbar-expand-xl > .container-fluid {
     padding-right: 0;
@@ -4515,7 +4515,7 @@ input[type="button"].btn-block {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1380px) {
   .navbar-expand-xl {
     flex-flow: row nowrap;
     justify-content: flex-start;
@@ -5594,7 +5594,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1380px) {
   .list-group-horizontal-xl {
     flex-direction: row;
   }
@@ -5992,7 +5992,7 @@ a.close.disabled {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1380px) {
   .modal-xl {
     max-width: 1140px;
   }
@@ -6961,7 +6961,7 @@ button.bg-dark:focus {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1380px) {
   .d-xl-none {
     display: none !important;
   }
@@ -7725,7 +7725,7 @@ button.bg-dark:focus {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1380px) {
   .flex-xl-row {
     flex-direction: row !important;
   }
@@ -7902,7 +7902,7 @@ button.bg-dark:focus {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1380px) {
   .float-xl-left {
     float: left !important;
   }
@@ -15590,7 +15590,7 @@ button.bg-dark:focus {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1380px) {
   .m-xl-0 {
     margin: 0 !important;
   }
@@ -16884,7 +16884,7 @@ button.bg-dark:focus {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1380px) {
   .text-xl-left {
     text-align: left !important;
   }
@@ -17092,7 +17092,7 @@ nav.navbar > div {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1380px) {
   .row {
     margin-left: 20px;
     margin-right: 20px;
@@ -17195,7 +17195,7 @@ h2 {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1380px) {
   h2 {
     font-size: 4rem;
     line-height: 6rem;
@@ -17225,7 +17225,7 @@ h3 {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1380px) {
   h3 {
     font-size: 2.6rem;
     line-height: 4rem;
@@ -17255,7 +17255,7 @@ h3.courses {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1380px) {
   h3.courses {
     font-size: 3.2rem;
     line-height: 4.8rem;
@@ -17288,7 +17288,7 @@ h4 {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1380px) {
   h4 {
     font-size: 1.2rem;
     line-height: 3.3rem;
@@ -17318,7 +17318,7 @@ h5 {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1380px) {
   h5 {
     font-size: 2.6rem;
     line-height: 4rem;
@@ -17352,7 +17352,7 @@ h6 {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1380px) {
   h6 {
     font-size: 1.7rem;
     line-height: 2.5rem;
@@ -17387,7 +17387,7 @@ p, tr {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1380px) {
   p, tr {
     font-size: 1.6rem;
     line-height: 2.6rem;
@@ -17412,7 +17412,7 @@ p, tr {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1380px) {
   .plainlink {
     font-size: 1.65rem;
     letter-spacing: 0.18rem;
@@ -17815,7 +17815,7 @@ body .hero {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1380px) {
   body .hero {
     height: 400px;
     background-size: cover;
@@ -17850,7 +17850,7 @@ body .hero .hero-child.row {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1380px) {
   body .hero .hero-child {
     background-size: cover;
   }
@@ -17883,7 +17883,7 @@ body .hero .hero-child .hero-copy h2 {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1380px) {
   body .hero .hero-child .hero-copy h2 {
     font-size: 3rem;
     line-height: 4.8rem;
@@ -18056,7 +18056,7 @@ img.float-left {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1380px) {
   .subnav ul li {
     font-size: 1.6rem;
     line-height: 2.6rem;
@@ -18120,7 +18120,7 @@ body.kind-404 .hero .hero-child {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1380px) {
   body.kind-404 .hero .hero-child {
     background-size: 2000px 378px;
     background-position: -200px bottom;
@@ -18351,7 +18351,7 @@ body.home .hero .stanford-wordmark {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1380px) {
   body.home .hero {
     height: 496px;
     background-size: cover;
@@ -18389,7 +18389,7 @@ body.home .hero #hero-wwd h2 {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1380px) {
   body.home .hero #hero-wwd h2 {
     font-size: 3.2rem;
     line-height: 4.8rem;
@@ -18429,7 +18429,7 @@ body.home .hero .hero-child.row {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1380px) {
   body.home .hero .hero-child {
     height: 608px;
     background-size: cover;
@@ -18492,7 +18492,7 @@ body.home .hero .hero-child .column h2 {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1380px) {
   body.home .hero .hero-child .column h2 {
     font-size: 3.6rem;
     line-height: 5.4rem;
@@ -18548,7 +18548,7 @@ body.home .hero .hero-child .column p {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1380px) {
   body.home .hero .hero-child .column p {
     font-size: 1.7rem;
     line-height: 2.5rem;
@@ -18791,7 +18791,7 @@ body.people .row.funder-logos .p-2.rsf {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1380px) {
   .row.who-we-are h3, .row.who-we-are-former h3 {
     font-size: 2.8rem;
     line-height: 4.2rem;
@@ -18799,7 +18799,7 @@ body.people .row.funder-logos .p-2.rsf {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1380px) {
   .row.who-we-are h3, .row.who-we-are-former h3 {
     font-size: 3rem;
     line-height: 4.5rem;
@@ -18899,7 +18899,7 @@ body.people .row.funder-logos .p-2.rsf {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1380px) {
   .row.people-current .name, .row.people-former .name {
     margin-top: 1.6rem;
     margin-bottom: .4rem;
@@ -19029,7 +19029,7 @@ body.people .row.funder-logos .p-2.rsf {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1380px) {
   .row.funders p {
     font-size: 2.3rem;
     line-height: 3.4rem;
@@ -19066,7 +19066,7 @@ body.people .row.funder-logos .p-2.rsf {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1380px) {
   .row.history p {
     font-size: 1.7rem;
     line-height: 2.5rem;
@@ -19343,7 +19343,7 @@ body.type-courses #philosophy-course-pic {
   background-origin: content-box;
   /* background-color: white; */
   background-repeat: no-repeat;
-  background-position: center right;
+  background-position: top right;
 }
 
 body.type-courses .hero {
