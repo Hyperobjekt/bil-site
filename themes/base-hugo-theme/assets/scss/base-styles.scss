@@ -85,7 +85,7 @@ html {
     color: $med-gray;
   }
   .whitetext {
-    color: $white;
+    color: $white !important;
   }
   .blacktext {
     color: $black;
@@ -104,6 +104,9 @@ html {
   }
   .bronze-bg {
     background-color: #F9F6EF;
+  }
+  .dkbronze-bg {
+    background-color: #B26F16;
   }
   .gray-bg {
     background-color: #E1E1E1;
@@ -165,6 +168,24 @@ html {
     @include media-breakpoint-up(xl) {
       font-size: 2.6rem;
       line-height: 4rem;
+      letter-spacing: 0.04rem;
+    }
+  }
+  h3.courses {
+    @include sofia-bold;
+    @include media-breakpoint-up(md) {
+        font-size: 2.3rem;
+        line-height: 3.5rem;
+        letter-spacing: 0.04rem;
+      }
+    @include media-breakpoint-up(lg) {
+        font-size: 2.6rem;
+        line-height: 3.9rem;
+        letter-spacing: 0.04rem;
+      }
+    @include media-breakpoint-up(xl) {
+      font-size: 3.2rem;
+      line-height: 4.8rem;
       letter-spacing: 0.04rem;
     }
   }
@@ -235,6 +256,7 @@ html {
      
     }
   }
+  
   
   p, tr {
     @include sofia-reg;

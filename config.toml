@@ -82,14 +82,19 @@ anchor = "smart"
     weight = 6
 
 [[menu.main]]
+    name = "Courses"
+    url = "/courses/"
+    weight = 7    
+
+[[menu.main]]
     name = "Resources"
     url = "/research/"
-    weight = 7
+    weight = 8
 
 [[menu.main]]
     name = "In the News"
     url = "/news/"
-    weight = 8
+    weight = 9
 
 [permalinks]
   post = "/:year/:month/:day/:slug/"

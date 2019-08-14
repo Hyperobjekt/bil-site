@@ -17115,7 +17115,7 @@ nav.navbar > div {
 }
 
 .whitetext {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .blacktext {
@@ -17140,6 +17140,10 @@ nav.navbar > div {
 
 .bronze-bg {
   background-color: #F9F6EF;
+}
+
+.dkbronze-bg {
+  background-color: #B26F16;
 }
 
 .gray-bg {
@@ -17225,6 +17229,36 @@ h3 {
   h3 {
     font-size: 2.6rem;
     line-height: 4rem;
+    letter-spacing: 0.04rem;
+  }
+}
+
+h3.courses {
+  font-family: sofia-pro,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@media (min-width: 768px) {
+  h3.courses {
+    font-size: 2.3rem;
+    line-height: 3.5rem;
+    letter-spacing: 0.04rem;
+  }
+}
+
+@media (min-width: 992px) {
+  h3.courses {
+    font-size: 2.6rem;
+    line-height: 3.9rem;
+    letter-spacing: 0.04rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  h3.courses {
+    font-size: 3.2rem;
+    line-height: 4.8rem;
     letter-spacing: 0.04rem;
   }
 }
