@@ -17439,7 +17439,7 @@ p, tr {
 }
 
 .plainlink.whitetext:hover {
-  color: #6EC9D7;
+  color: #6EC9D7 !important;
   text-decoration: none;
 }
 
@@ -19337,6 +19337,18 @@ body.basic-income-experiments table td, body.basic-income-experiments table th {
 body.basic-income-experiments table td:nth-child(6) {
   width: 240px;
   display: inline-block;
+}
+
+body.type-courses #philosophy-course-pic {
+  background-origin: content-box;
+  /* background-color: white; */
+  background-repeat: no-repeat;
+}
+
+body.type-courses .hero {
+  background: url("/images/heroes/AvshalomIllusionsEvent-hero.jpg");
+  background-size: cover;
+  background-position: center center;
 }
 
 /*# sourceMappingURL=style.css.map */

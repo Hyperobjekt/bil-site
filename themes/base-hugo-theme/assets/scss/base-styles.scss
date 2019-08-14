@@ -315,7 +315,7 @@ html {
     }
     &.whitetext{
         &:hover {
-            color: $tealgreen;
+            color: $tealgreen !important;
             text-decoration: none;
         svg g  {
           fill: $tealgreen !important;
