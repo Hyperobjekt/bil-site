@@ -92,7 +92,7 @@ anchor = "smart"
     weight = 8
 
 [[menu.main]]
-    name = "In the News"
+    name = "News"
     url = "/news/"
     weight = 9
 

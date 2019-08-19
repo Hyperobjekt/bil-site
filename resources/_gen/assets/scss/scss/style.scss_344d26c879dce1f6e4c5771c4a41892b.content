@@ -17271,12 +17271,15 @@ h3.news {
   font-family: sofia-pro,sans-serif;
   font-weight: 700;
   font-style: normal;
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+  letter-spacing: 0.04rem;
 }
 
 @media (min-width: 768px) {
   h3.news {
     font-size: 2.1rem;
-    line-height: 3.2rem;
+    line-height: 3.1rem;
     letter-spacing: 0.04rem;
   }
 }
@@ -17284,7 +17287,7 @@ h3.news {
 @media (min-width: 992px) {
   h3.news {
     font-size: 2.6rem;
-    line-height: 3.6rem;
+    line-height: 3.9rem;
     letter-spacing: 0.04rem;
   }
 }
@@ -17334,14 +17337,14 @@ h4.news {
   font-family: sofia-pro,sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
   letter-spacing: 0.213rem;
 }
 
 @media (min-width: 768px) {
   h4.news {
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1.5rem;
     letter-spacing: 0.213rem;
   }
@@ -17349,7 +17352,7 @@ h4.news {
 
 @media (min-width: 992px) {
   h4.news {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     line-height: 1.7rem;
     letter-spacing: 0.213rem;
   }
@@ -17357,7 +17360,7 @@ h4.news {
 
 @media (min-width: 1380px) {
   h4.news {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     line-height: 3.3rem;
     letter-spacing: 0.213rem;
   }
@@ -17468,8 +17471,13 @@ p, tr {
 
 @media (min-width: 992px) {
   .newslist p {
-    max-width: 50%;
+    max-width: 60%;
   }
+}
+
+a:hover {
+  color: #9a6013;
+  text-decoration: none;
 }
 
 .plainlink {
@@ -19427,6 +19435,18 @@ body.type-courses .hero {
   background: url("/images/heroes/AvshalomIllusionsEvent-hero.jpg");
   background-size: cover;
   background-position: center center;
+}
+
+body.type-news .hero {
+  background: url("/images/heroes/nostringsevent2-hero.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 320px) {
+  body.type-news .hero h2 {
+    max-width: 70%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

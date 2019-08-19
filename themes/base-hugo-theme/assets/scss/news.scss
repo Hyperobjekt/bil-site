@@ -1,0 +1,14 @@
+body.type-news {
+    .hero {
+        background: url('/images/heroes/nostringsevent2-hero.jpg');
+        background-size: cover;
+        background-position: center center;
+        h2 {
+            @include media-breakpoint-up(sm) {
+                max-width: 70%;
+            }
+        }
+    }
+}
+
+
