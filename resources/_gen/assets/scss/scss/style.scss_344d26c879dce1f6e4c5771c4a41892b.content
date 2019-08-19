@@ -17154,6 +17154,10 @@ nav.navbar > div {
   background-color: #000;
 }
 
+.topdivider {
+  border-top: 1px solid #D7D7D7;
+}
+
 h1 {
   margin-bottom: 0;
   font-family: sofia-pro,sans-serif;
@@ -17263,6 +17267,36 @@ h3.courses {
   }
 }
 
+h3.news {
+  font-family: sofia-pro,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@media (min-width: 768px) {
+  h3.news {
+    font-size: 2.1rem;
+    line-height: 3.2rem;
+    letter-spacing: 0.04rem;
+  }
+}
+
+@media (min-width: 992px) {
+  h3.news {
+    font-size: 2.6rem;
+    line-height: 3.6rem;
+    letter-spacing: 0.04rem;
+  }
+}
+
+@media (min-width: 1380px) {
+  h3.news {
+    font-size: 3rem;
+    line-height: 4.5rem;
+    letter-spacing: 0.04rem;
+  }
+}
+
 h4 {
   font-family: sofia-pro,sans-serif;
   font-weight: 400;
@@ -17290,6 +17324,39 @@ h4 {
 
 @media (min-width: 1380px) {
   h4 {
+    font-size: 1.2rem;
+    line-height: 3.3rem;
+    letter-spacing: 0.213rem;
+  }
+}
+
+h4.news {
+  font-family: sofia-pro,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.213rem;
+}
+
+@media (min-width: 768px) {
+  h4.news {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.213rem;
+  }
+}
+
+@media (min-width: 992px) {
+  h4.news {
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    letter-spacing: 0.213rem;
+  }
+}
+
+@media (min-width: 1380px) {
+  h4.news {
     font-size: 1.2rem;
     line-height: 3.3rem;
     letter-spacing: 0.213rem;
@@ -17392,6 +17459,16 @@ p, tr {
     font-size: 1.6rem;
     line-height: 2.6rem;
     letter-spacing: 0rem;
+  }
+}
+
+.newslist p {
+  margin-bottom: 1.6rem;
+}
+
+@media (min-width: 992px) {
+  .newslist p {
+    max-width: 50%;
   }
 }
 

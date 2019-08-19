@@ -1,5 +1,5 @@
 ---
-title: "In the News"
+title: "News"
 date: "2019-02-24"
+layout: news
 ---
-- Added content 3/17/19
