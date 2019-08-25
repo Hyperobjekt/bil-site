@@ -78,7 +78,7 @@ anchor = "smart"
 
 [[menu.main]]
     name = "Positions"
-    url = "/positions/"
+    url = "/positions/graduate-fellowships"
     weight = 6
 
 [[menu.main]]

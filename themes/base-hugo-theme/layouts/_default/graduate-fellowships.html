@@ -1,0 +1,75 @@
+{{ define "main" }}
+
+<div id="hero" class="hero">
+    <div class="hero-child row">
+        
+        <div class="hero-copy col-10 col-md-7 offset-md-1 col-xl-6 offset-xl-2 d-flex align-items-center">
+        
+            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </h2>
+            
+        </div>
+    </div>
+</div>
+
+<div class="row subnav d-md-none small-tab-nav">
+        <div class="dropdown d-none justify-content-center align-items-center">
+            <div>Research:</div> 
+            <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Mapping UBI Research
+            </button>
+      <ul class="anchor-links dropdown-menu">
+            <li class="mb-3"><a href="/research/ubi-cities-toolkit/">UBI Cities Toolkit</a></li>
+            <li class="mb-3"><a href="/research/basic-income-experiments/">Basic Income Experiments</a></li>
+    </ul>
+  </div>
+</div>
+<div class="row d-none subnav">
+    <div class="col-12 col-md-10 offset-md-1">
+        <ul class="d-flex justify-content-center align-items-center pl-md-0">
+        
+            <li class="active">Mapping UBI Research</a></li>
+            <li class="mx-md-5"><a href="/research/ubi-cities-toolkit">UBI Cities Toolkit</a></li>
+            <li class=""><a href="/research/basic-income-experiments/">Basic Income Experiments</a></li>
+          
+        </ul>
+    </div>
+</div>
+<!-- /SUBNAV -->
+<!-- COURSE INTRO SECTION -->
+
+<!-- /COURSE INTRO SECTION -->
+<!-- KEY QUESTIONS SECTION -->
+    <div id="key-questions" class="bronze-bg pt-sm-5 pt-md-7 pt-lg-9 pt-xl-12 pb-sm-7 pb-md-7 pb-xl-8">
+        <div class="row">
+                {{ range (where .Pages "Params.section" ("sectionOne")) }}
+                <div class="col-md-3 offset-md-1 col-lg-2 offset-lg-2 col-xl-3">
+                    <h2 class="bronzetext mb-1 mb-md-2">{{ .Params.title }}</h2>
+                </div>
+            <div class="col-md-5 offset-md-1 col-xl-5 offset-xl-0 medgraytext">
+                {{ .Content }}
+            </div>
+            {{ end }}
+        </div>
+    </div>
+<!-- /KEY QUESTIONS SECTION -->
+
+<!-- JOB DESCRIPTION SECTION -->
+<div id="key-questions" class="grn-bg pt-sm-5 pt-md-7 pt-lg-9 pt-xl-12 pb-sm-7 pb-md-7 pb-xl-8">
+    <div class="row">
+        {{ range (where .Pages "Params.section" ("sectionTwo")) }}
+            <div class="col-md-4 offset-md-1 col-lg-3 offset-lg-2 pr-md-5">
+                <h2 class="tealgrntext mb-1 mb-md-2">{{ .Params.title }}</h2>
+                </div>
+        
+        <div class="col-md-5 whitetext">
+                {{ .Content }}
+        </div>
+        {{ end }}
+    </div>
+</div>
+<!-- /JOB DESCRIPTION SECTION -->
+
+
+{{ partial "subscribe.html" .}}
+
+{{ end }}
