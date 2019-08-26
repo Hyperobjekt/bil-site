@@ -19449,4 +19449,16 @@ body.type-news .hero {
   }
 }
 
+body.type-positions.graduate-fellowships .hero {
+  background: url("/images/heroes/trevorwessondiscussion-edit.jpg");
+  background-size: cover;
+  background-position: center left;
+}
+
+@media (min-width: 320px) {
+  body.type-positions.graduate-fellowships .hero h2 {
+    max-width: 70%;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

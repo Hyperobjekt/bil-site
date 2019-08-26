@@ -3,9 +3,9 @@
 <div id="hero" class="hero">
     <div class="hero-child row">
         
-        <div class="hero-copy col-10 col-md-7 offset-md-1 col-xl-6 offset-xl-2 d-flex align-items-center">
+        <div class="hero-copy col-10 col-md-8 offset-md-2 col-xl-6 offset-xl-2 d-flex align-items-center">
         
-            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </h2>
+            <h2>With our growing research agenda and commitment to mapping all UBI literature and experiments, the Lab frequently has opportunities for Stanford Graduate Students.</h2>
             
         </div>
     </div>
@@ -36,12 +36,43 @@
 </div>
 <!-- /SUBNAV -->
 <!-- COURSE INTRO SECTION -->
-
+<div id="open-position" class="pt-sm-5 pt-md-7 pt-lg-9 pt-xl-12 pb-sm-7 pb-md-11 pb-xl-11">
+        <div class="row">
+                {{ range (where .Pages "Params.section" ("sectionOne")) }}
+                <div class="col-md-5 offset-md-2" style="height: 338px; background-color: grey; background-image: url('/images/basicIncomeIllusions-edit.jpg'); background-size: cover;" >
+                </div>
+            <div class="col-md-5 p-5 drop-shadow" style="background-color: white; margin-top: 13%; margin-left: -15%;">
+                    <p>OPEN POSITION</p>
+                    <h2>{{ .Params.Title }}</h2>
+                    <p>(position open until noted)</p>
+                    <button class="btn btn-primary mt-3 mt-md-0" type="button" data-toggle="modal" data-target="#exampleModal" tabindex="0">APPLY NOW</button>
+            </div>
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                    <div class="modal-header px-5 pt-3">
+                        <h5 class="modal-title" id="exampleModalLabel">Apply for a Graduate Fellowship</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body p-5">
+                        <p>To be considered, please send your CV and a short cover letter to Sarah Berger Gonzalez, Program Manager of the Stanford Basic Income Lab, at <a href="mailto: basicincomelab@stanford.edu">basicincomelab@stanford.edu</a>. </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" data-dismiss="modal" class="btn btn-primary">Close</button>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
 <!-- /COURSE INTRO SECTION -->
 <!-- KEY QUESTIONS SECTION -->
     <div id="key-questions" class="bronze-bg pt-sm-5 pt-md-7 pt-lg-9 pt-xl-12 pb-sm-7 pb-md-7 pb-xl-8">
         <div class="row">
-                {{ range (where .Pages "Params.section" ("sectionOne")) }}
+                {{ range (where .Pages "Params.section" ("sectionTwo")) }}
                 <div class="col-md-3 offset-md-1 col-lg-2 offset-lg-2 col-xl-3">
                     <h2 class="bronzetext mb-1 mb-md-2">{{ .Params.title }}</h2>
                 </div>
@@ -56,7 +87,7 @@
 <!-- JOB DESCRIPTION SECTION -->
 <div id="key-questions" class="grn-bg pt-sm-5 pt-md-7 pt-lg-9 pt-xl-12 pb-sm-7 pb-md-7 pb-xl-8">
     <div class="row">
-        {{ range (where .Pages "Params.section" ("sectionTwo")) }}
+        {{ range (where .Pages "Params.section" ("sectionThree")) }}
             <div class="col-md-4 offset-md-1 col-lg-3 offset-lg-2 pr-md-5">
                 <h2 class="tealgrntext mb-1 mb-md-2">{{ .Params.title }}</h2>
                 </div>

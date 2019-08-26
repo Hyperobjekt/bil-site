@@ -1,0 +1,13 @@
+body.type-positions.graduate-fellowships {
+    .hero {
+        background: url('/images/heroes/trevorwessondiscussion-edit.jpg');
+        background-size: cover;
+        background-position: center left;
+        h2 {
+            @include media-breakpoint-up(sm) {
+                max-width: 70%;
+            }
+        }
+    }
+}
+
