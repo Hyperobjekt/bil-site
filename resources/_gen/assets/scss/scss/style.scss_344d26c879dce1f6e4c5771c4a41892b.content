@@ -17430,7 +17430,7 @@ h6 {
   }
 }
 
-p, tr {
+body, p, tr {
   font-family: sofia-pro,sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -17440,7 +17440,7 @@ p, tr {
 }
 
 @media (min-width: 768px) {
-  p, tr {
+  body, p, tr {
     font-size: 1.4rem;
     line-height: 2.1rem;
     letter-spacing: .03rem;
@@ -17449,7 +17449,7 @@ p, tr {
 }
 
 @media (min-width: 992px) {
-  p, tr {
+  body, p, tr {
     font-size: 1.55rem;
     line-height: 2.25rem;
     letter-spacing: .03rem;
@@ -17458,7 +17458,7 @@ p, tr {
 }
 
 @media (min-width: 1380px) {
-  p, tr {
+  body, p, tr {
     font-size: 1.6rem;
     line-height: 2.6rem;
     letter-spacing: 0rem;
@@ -19390,6 +19390,14 @@ body.basic-income-experiments .hero {
   background-position: center center;
 }
 
+body.basic-income-experiments th:last-child {
+  display: none;
+}
+
+body.basic-income-experiments tr td:last-child {
+  display: none;
+}
+
 body.basic-income-experiments table th {
   background-color: #FFFBF5;
   color: #B26F16;
@@ -19449,14 +19457,27 @@ body.type-news .hero {
   }
 }
 
-body.type-positions.graduate-fellowships .hero {
-  background: url("/images/heroes/trevorwessondiscussion-edit.jpg");
-  background-size: cover;
-  background-position: center left;
+@media (min-width: 768px) {
+  .position-apply {
+    margin-top: 13%;
+    margin-left: -15%;
+  }
 }
 
-@media (min-width: 320px) {
-  body.type-positions.graduate-fellowships .hero h2 {
+body.type-positions .hero {
+  background: url("/images/heroes/trevorwessondiscussion-edit.jpg");
+  background-size: cover;
+  background-position: 40% center;
+}
+
+@media (min-width: 768px) {
+  body.type-positions .hero {
+    background-position: left center;
+  }
+}
+
+@media (min-width: 768px) {
+  body.type-positions .hero h2 {
     max-width: 70%;
   }
 }

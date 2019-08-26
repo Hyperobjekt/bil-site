@@ -305,7 +305,7 @@ html {
   }
   
   
-  p, tr {
+  body, p, tr {
     @include sofia-reg;
       font-size: 1.4rem;
       line-height: 2.1rem;

@@ -1,10 +1,22 @@
-body.type-positions.graduate-fellowships {
+
+.position-apply {
+    @include media-breakpoint-up(md) {
+        margin-top: 13%; 
+        margin-left: -15%;
+    }
+}
+
+
+body.type-positions {
     .hero {
         background: url('/images/heroes/trevorwessondiscussion-edit.jpg');
         background-size: cover;
-        background-position: center left;
+        background-position: 40% center;
+        @include media-breakpoint-up(md) {
+            background-position: left center;
+        }
         h2 {
-            @include media-breakpoint-up(sm) {
+            @include media-breakpoint-up(md) {
                 max-width: 70%;
             }
         }

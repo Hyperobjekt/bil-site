@@ -5,7 +5,7 @@
         
         <div class="hero-copy col-10 col-md-8 offset-md-2 col-xl-6 offset-xl-2 d-flex align-items-center">
         
-            <h2>With our growing research agenda and commitment to mapping all UBI literature and experiments, the Lab frequently has opportunities for Stanford Graduate Students.</h2>
+            <h2>With our growing research agenda and commitment to mapping all UBI literature and experiments, the Lab frequently has opportunities join our team.</h2>
             
         </div>
     </div>
@@ -15,10 +15,10 @@
         <div class="dropdown justify-content-center align-items-center">
             <div>Positions:</div> 
             <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Graduate Fellowships
+                Postdoctoral Research Fellow
             </button>
       <ul class="anchor-links dropdown-menu">
-            <li class="mb-3"><a href="/positions/postdoctoral-research-fellow/">Postdoctoral Research Fellow</a></li>
+            <li class="mb-3"><a href="/positions/graduate-fellowships/">Graduate Fellowships</a></li>
             <li class="mb-3"><a href="/positions/undergrad-opportunities/">Undergraduate Opportunities</a></li>
     </ul>
   </div>
@@ -27,8 +27,8 @@
     <div class="col-12 col-md-12 col-lg-10 offset-lg-1">
         <ul class="d-flex justify-content-center align-items-center pl-md-0">
         
-            <li class="active">Graduate Fellowships</a></li>
-            <li class="mx-md-5"><a href="/positions/postdoctoral-research-fellow/">Postdoctoral Research Fellow</a></li>
+            <li class=""><a href="/positions/graduate-fellowships/">Graduate Fellowships</a></li>
+            <li class="mx-md-5 active">Postdoctoral Research Fellow</li>
             <li class=""><a href="/positions/undergrad-opportunities/">Undergraduate Opportunities</a></li>
           
         </ul>
@@ -42,33 +42,33 @@
                 <div class="col-md-5 offset-md-2" style="height: 338px; background-color: grey; background-image: url('/images/basicIncomeIllusions-edit.jpg'); background-size: cover;" >
                 </div>
                 <div class="position-apply col-md-5 p-5 drop-shadow" style="background-color: white;">
-                    <p class="mb-1">OPEN POSITION</p>
+                    <p class="mb-1">POSITION</p>
                     <h2>{{ .Params.Title }}</h2>
                     <p></p>
                     <button class="btn btn-primary mt-3 mt-md-0" type="button" data-toggle="modal" data-target="#exampleModal" tabindex="0">APPLY NOW</button>
                 </div>
-            {{ end }} 
-            {{ range (where .Pages "Params.section" ("apply")) }}   
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                    <div class="modal-header px-5 pt-3">
-                        <h5 class="modal-title" id="exampleModalLabel">{{ .Params.title }}</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body p-5">
-                        {{ .Content }}
-                    </div>
-                    {{ if isset .Params ".buttonlink" }}
-                    <div class="modal-footer">
-                            <a class="btn btn-primary d-flex justify-content-center align-items-center" href="{{ .Params.buttonLink }}" target="_blank">{{ .Params.buttonText }}</a>
-                     </div>
-                     {{ end }}
+            {{ end }}    
+            {{ range (where .Pages "Params.section" ("apply")) }}
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                        <div class="modal-header px-5 pt-3">
+                            <h5 class="modal-title" id="exampleModalLabel">{{ .Params.title }}</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body p-5 medgraytext">
+                            {{ .Content }}
+                        </div>
+                        {{ if isset .Params "buttonlink" }}
+                        <div class="modal-footer">
+                                <a class="btn btn-primary d-flex justify-content-center align-items-center" href="{{ .Params.buttonLink }}" target="_blank">{{ .Params.buttonText }}</a>
+                         </div>
+                         {{ end }}
+                        </div>
                     </div>
                 </div>
-            </div>
             {{ end }}
         </div>
     </div>
@@ -78,7 +78,7 @@
         <div class="row">
                 {{ range (where .Pages "Params.section" ("sectionTwo")) }}
                 <div class="col-md-3 offset-md-1 col-lg-2 offset-lg-2 col-xl-3">
-                    <h2 class="bronzetext mb-3 mb-md-2">{{ .Params.title }}</h2>
+                    <h2 class="bronzetext mb-1 mb-md-2">{{ .Params.title }}</h2>
                 </div>
             <div class="col-md-5 offset-md-1 col-xl-5 offset-xl-0 medgraytext">
                 {{ .Content }}
@@ -93,7 +93,7 @@
     <div class="row">
         {{ range (where .Pages "Params.section" ("sectionThree")) }}
             <div class="col-md-4 offset-md-1 col-lg-3 offset-lg-2 pr-md-5">
-                <h2 class="tealgrntext mb-3 mb-md-2">{{ .Params.title }}</h2>
+                <h2 class="tealgrntext mb-1 mb-md-2">{{ .Params.title }}</h2>
                 </div>
         
         <div class="col-md-5 whitetext">

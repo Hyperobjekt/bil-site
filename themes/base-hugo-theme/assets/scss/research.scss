@@ -35,5 +35,11 @@ body.basic-income-experiments {
         background-size: cover;
         background-position: center center;
     }
+    th:last-child  {
+        display: none;
+    }
+    tr td:last-child {
+        display: none;
+    }
 } 
 
