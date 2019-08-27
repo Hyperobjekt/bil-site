@@ -82,6 +82,24 @@ anchor = "smart"
     weight = 6
 
 [[menu.main]]
+    parent = "Positions"
+	name = "Graduate Fellowships"
+	url = "/positions/graduate-fellowships/"
+    weight = 1
+
+[[menu.main]]
+    parent = "Positions"
+	name = "Postdoctoral Research Fellow"
+	url = "/positions/postdoctoral-research-fellow/"
+    weight = 2  
+
+[[menu.main]]
+    parent = "Positions"
+	name = "Undergraduate Opportunities"
+	url = "/positions/undergrad-opportunities/"
+    weight = 3      
+
+[[menu.main]]
     name = "Courses"
     url = "/courses/"
     weight = 7    
