@@ -1,0 +1,20 @@
+<script type="text/javascript">
+// Fetch JSON for color theme
+const viz = {};
+viz.theme = {};
+viz.nodes = {};
+// Fetch JSON for nodes
+</script>
+{{ if .Site.IsServer }}
+  <!-- If site is being served (ostensibly dev) don't compress and minify -->
+  <!-- <script src="://cdn.jsdelivr.net/npm/echarts@4.2.1/dist/echarts.js"></script>
+  <script src="://cdn.jsdelivr.net/npm/echarts@4.2.1/dist/echarts.js.map"></script> -->
+  <script  src="{{ "js/echarts/echarts.js"  | absURL }}"></script>
+  <script  src="{{ "js/echarts/echarts.js.map"  | absURL }}"></script>
+  <script  src="{{ "js/viz.js"  | absURL }}"></script>
+{{ else }}
+  <!-- If site is production, compress and minify -->
+  <!-- <script src="://cdn.jsdelivr.net/npm/echarts@4.2.1/dist/echarts.min.js"></script> -->
+  <script  src="{{ "js/echarts/echarts.min.js"  | absURL }}"></script>
+  <script  src="{{ "js/viz.js"  | absURL }}"></script>
+{{ end }}
