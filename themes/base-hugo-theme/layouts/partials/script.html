@@ -6,12 +6,9 @@
 <script src="{{ "js/anime.min.js" | absURL }}"></script>
 <script src="{{ "js/seda-custom.js" | absURL }}"></script>
 {{ template "_internal/google_analytics_async.html" . }}
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-
-<!-- {{ if eq .Page.Type "posts" }}
-    {{ partial "scatterplot-scripts.html" . }}
-{{ end }} -->
-
+{{ if not .Site.Params.offline }}
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+{{ end }}
 {{ if eq .Page.Layout "mapping-ubi-research" }}
     {{ partial "viz-scripts.html" . }}
 {{ end }}

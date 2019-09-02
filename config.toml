@@ -17,6 +17,7 @@ anchor = "smart"
   containerMaxWidth=1200
   showActiveNav=true
   paginage=5
+  offline=true # default = false
 
 # main menu
 
@@ -34,7 +35,7 @@ anchor = "smart"
     parent = "About"
 	name = "What is BIL?"
 	url = "/about/what-is-bil"
-    weight = 1    
+    weight = 1
 
 [[menu.main]]
     parent = "About"
@@ -46,7 +47,7 @@ anchor = "smart"
     parent = "About"
 	name = "People"
 	url = "/about/people"
-    weight = 3    
+    weight = 3
 
 [[menu.main]]
   name = "Events"
@@ -68,13 +69,13 @@ anchor = "smart"
     parent = "Research"
 	name = "UBI Cities Toolkit"
 	url = "/research/ubi-cities-toolkit"
-    weight = 2  
+    weight = 2
 
 [[menu.main]]
     parent = "Research"
 	name = "Basic Income Experiments"
 	url = "/research/basic-income-experiments"
-    weight = 3      
+    weight = 3
 
 [[menu.main]]
     name = "Positions"
@@ -91,18 +92,18 @@ anchor = "smart"
     parent = "Positions"
 	name = "Postdoctoral Research Fellow"
 	url = "/positions/postdoctoral-research-fellow/"
-    weight = 2  
+    weight = 2
 
 [[menu.main]]
     parent = "Positions"
 	name = "Undergraduate Opportunities"
 	url = "/positions/undergrad-opportunities/"
-    weight = 3      
+    weight = 3
 
 [[menu.main]]
     name = "Courses"
     url = "/courses/"
-    weight = 7    
+    weight = 7
 
 [[menu.main]]
     name = "Resources"

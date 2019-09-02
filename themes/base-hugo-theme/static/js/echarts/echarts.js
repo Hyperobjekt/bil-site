@@ -6921,8 +6921,8 @@ Style.prototype = {
     /**
      * `true` is not supported.
      * `false`/`null`/`undefined` are the same.
-     * `false` is used to remove lineDash in some 
-     * case that `null`/`undefined` can not be set. 
+     * `false` is used to remove lineDash in some
+     * case that `null`/`undefined` can not be set.
      * (e.g., emphasis.lineStyle in echarts)
      * @type {Array.<number>|boolean}
      */
@@ -9529,7 +9529,7 @@ function isDisplayableCulled(el, width, height) {
 
 function isClipPathChanged(clipPaths, prevClipPaths) {
     // displayable.__clipPaths can only be `null`/`undefined` or an non-empty array.
-    if (clipPaths === prevClipPaths) { 
+    if (clipPaths === prevClipPaths) {
         return false;
     }
     if (!clipPaths || !prevClipPaths || (clipPaths.length !== prevClipPaths.length)) {
@@ -12466,7 +12466,7 @@ var getLineStyle = makeStyleMapper(
 var lineStyleMixin = {
     getLineStyle: function (excludes) {
         var style = getLineStyle(this, excludes);
-        // Always set lineDash whether dashed, otherwise we can not 
+        // Always set lineDash whether dashed, otherwise we can not
         // erase the previous style when assigning to el.style.
         style.lineDash = this.getLineDash(style.lineWidth);
         return style;
@@ -12479,15 +12479,15 @@ var lineStyleMixin = {
         var lineType = this.get('type');
         var dotSize = Math.max(lineWidth, 2);
         var dashSize = lineWidth * 4;
-        return (lineType === 'solid' || lineType == null) 
-            // Use `false` but not `null` for the solid line here, because `null` might be 
-            // ignored when assigning to `el.style`. e.g., when setting `lineStyle.type` as 
-            // `'dashed'` and `emphasis.lineStyle.type` as `'solid'` in graph series, the 
-            // `lineDash` gotten form the latter one is not able to erase that from the former 
+        return (lineType === 'solid' || lineType == null)
+            // Use `false` but not `null` for the solid line here, because `null` might be
+            // ignored when assigning to `el.style`. e.g., when setting `lineStyle.type` as
+            // `'dashed'` and `emphasis.lineStyle.type` as `'solid'` in graph series, the
+            // `lineDash` gotten form the latter one is not able to erase that from the former
             // one if using `null` here according to the emhpsis strategy in `util/graphic.js`.
             ? false
-            : lineType === 'dashed' 
-            ? [dashSize, dashSize] 
+            : lineType === 'dashed'
+            ? [dashSize, dashSize]
             : [dotSize, dotSize];
     }
 };
@@ -56907,7 +56907,7 @@ var GaugeView = Chart.extend({
         var prevEndAngle = startAngle;
         var axisLineWidth = lineStyleModel.get('width');
         var showAxis = axisLineModel.get('show');
-        
+
         for (var i = 0; showAxis && i < colorList.length; i++) {
             // Clamp
             var percent = Math.min(Math.max(colorList[i][0], 0), 1);
@@ -57697,7 +57697,7 @@ function labelLayout$1(data) {
                 x2 = x1 - labelLineLen;
                 textX = x2 - 5;
                 textAlign = 'right';
-            } 
+            }
             else if (labelPosition === 'right') {
                 // Right side
                 x1 = (points[1][0] + points[2][0]) / 2;
@@ -57705,7 +57705,7 @@ function labelLayout$1(data) {
                 x2 = x1 + labelLineLen;
                 textX = x2 + 5;
                 textAlign = 'left';
-            } 
+            }
             else if (labelPosition === 'rightTop') {
                 // RightTop side
                 x1 = points[1][0];
@@ -57713,7 +57713,7 @@ function labelLayout$1(data) {
                 x2 = x1 + labelLineLen;
                 textX = x2 + 5;
                 textAlign = 'top';
-            } 
+            }
             else if (labelPosition === 'rightBottom') {
                 // RightBottom side
                 x1 = points[2][0];
@@ -57721,7 +57721,7 @@ function labelLayout$1(data) {
                 x2 = x1 + labelLineLen;
                 textX = x2 + 5;
                 textAlign = 'bottom';
-            } 
+            }
             else if (labelPosition === 'leftTop') {
                 // LeftTop side
                 x1 = points[0][0];
@@ -57729,7 +57729,7 @@ function labelLayout$1(data) {
                 x2 = x1 - labelLineLen;
                 textX = x2 - 5;
                 textAlign = 'right';
-            } 
+            }
             else if (labelPosition === 'leftBottom') {
                 // LeftBottom side
                 x1 = points[3][0];
@@ -57737,7 +57737,7 @@ function labelLayout$1(data) {
                 x2 = x1 - labelLineLen;
                 textX = x2 - 5;
                 textAlign = 'right';
-            } 
+            }
             else {
                 // Right side
                 x1 = (points[1][0] + points[2][0]) / 2;
@@ -71143,10 +71143,10 @@ var sunburstLayout = function (seriesType, ecModel, api, payload) {
                     ? unitRadian : (value * unitRadian);
                 if (angle < minAngle) {
                     angle = minAngle;
-                    
+
                 }
                 else {
-                    
+
                 }
 
                 endAngle = startAngle + dir * angle;

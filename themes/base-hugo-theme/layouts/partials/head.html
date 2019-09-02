@@ -74,12 +74,16 @@
   <meta name="msapplication-TileColor" content="#2d89ef">
   <meta name="theme-color" content="#ffffff">
   <!-- font awesome for social icons in footer -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-  {{ if eq .Page.Type "posts" }}
-    <link rel="stylesheet" href="https://unpkg.com/react-seda-search/css/react-seda-search.css" crossorigin="anonymous">
+  {{ if not .Site.Params.offline }}
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
   {{ end }}
+  <!-- {{ if eq .Page.Type "posts" }}
+    <link rel="stylesheet" href="https://unpkg.com/react-seda-search/css/react-seda-search.css" crossorigin="anonymous">
+  {{ end }} -->
   <!-- Netlify -->
-  <link rel="stylesheet" href="https://use.typekit.net/zny1jao.css">
+  {{ if not .Site.Params.offline }}
+    <link rel="stylesheet" href="https://use.typekit.net/zny1jao.css">
+  {{ end }}
 
 
   <!-- Page title -->

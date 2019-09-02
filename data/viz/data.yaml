@@ -1,144 +1,152 @@
-nodes:
-  - id: gender
-    display: 1
-    level: 0
-    parent: top
-    title: Gender
-    linksTo:
-    # todo: what will be the format of this field? (below)
-    bibliography: >
-      Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
+- id: gender
+  display: 1
+  level: 0
+  parent: 0
+  title: Gender
+  linksTo:
+    - family
+    - welfare
+  # todo: what will be the format of this field? (below)
+  bibliography: >
+    ## heading
 
-      Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-    children:
-      - id: empowerment-within-the-household
-        display: 1
-        level: 1
-        title: Empowerment within the household
-        linksTo:
-        summary: >
-          Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
+    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
-          Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-        claims: >
-          Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
-          Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
-        # todo: what will be the format of this field? (below)
-        relatedTopics: >
-          Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-        readMore: >
-          Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
+    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
+  children:
+    - id: empowerment-within-the-household
+      display: 1
+      level: 1
+      title: Empowerment within the household
+      linksTo:
+      summary: >
+        Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
-          Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
+        Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
+      claims: >
+        Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
-          Molestiae sit et qui tenetur. Omnis voluptas dolores explicabo. In fugiat mollitia nihil reiciendis eaque dolor. Dolor ex exercitationem commodi voluptate labore deleniti maiores.
+        Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
+      # todo: what will be the format of this field? (below)
+      relatedTopics:
+        - family
+        - welfare
+      readMore: >
+        Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
-          Totam eveniet vel quia. Quia numquam aut inventore sit qui numquam. Illo et molestiae rerum voluptate qui sunt dolores sed. Voluptas inventore modi natus inventore est. Pariatur rerum qui impedit et.
+        Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
 
-          Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
-      - id: promotion-and-division-of-domestic-work
-        display: 1
-        level: 1
-        title: Promotion and division of domestic work
-        linksTo:
-        summary: >
-          Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
+        Molestiae sit et qui tenetur. Omnis voluptas dolores explicabo. In fugiat mollitia nihil reiciendis eaque dolor. Dolor ex exercitationem commodi voluptate labore deleniti maiores.
 
-          Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-        claims: >
-          Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
+        Totam eveniet vel quia. Quia numquam aut inventore sit qui numquam. Illo et molestiae rerum voluptate qui sunt dolores sed. Voluptas inventore modi natus inventore est. Pariatur rerum qui impedit et.
 
-          Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
-        relatedTopics: >
-          Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-        readMore: >
-          Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
+        Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
+    - id: promotion-and-division-of-domestic-work
+      display: 1
+      level: 1
+      title: Promotion and division of domestic work
+      linksTo:
+      summary: >
+        Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
-          Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
+        Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
+      claims: >
+        Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
-          Molestiae sit et qui tenetur. Omnis voluptas dolores explicabo. In fugiat mollitia nihil reiciendis eaque dolor. Dolor ex exercitationem commodi voluptate labore deleniti maiores.
+        Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
+      relatedTopics:
+        - family
+        - welfare
+      readMore: >
+        Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
-          Totam eveniet vel quia. Quia numquam aut inventore sit qui numquam. Illo et molestiae rerum voluptate qui sunt dolores sed. Voluptas inventore modi natus inventore est. Pariatur rerum qui impedit et.
+        Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
 
-          Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
-      - id: womens-empowerment-in-the-labour-market
-        display: 1
-        level: 1
-        title: Women’s empowerment in the labour market
-        linksTo:
-        summary: >
-          Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
+        Molestiae sit et qui tenetur. Omnis voluptas dolores explicabo. In fugiat mollitia nihil reiciendis eaque dolor. Dolor ex exercitationem commodi voluptate labore deleniti maiores.
 
-          Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-        claims: >
-          Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
+        Totam eveniet vel quia. Quia numquam aut inventore sit qui numquam. Illo et molestiae rerum voluptate qui sunt dolores sed. Voluptas inventore modi natus inventore est. Pariatur rerum qui impedit et.
 
-          Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
-        relatedTopics: >
-          Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-        readMore: >
-          Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
+        Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
+    - id: womens-empowerment-in-the-labour-market
+      display: 1
+      level: 1
+      title: Women’s empowerment in the labour market
+      linksTo:
+      summary: >
+        Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
-          Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
+        Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
+      claims: >
+        Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
-          Molestiae sit et qui tenetur. Omnis voluptas dolores explicabo. In fugiat mollitia nihil reiciendis eaque dolor. Dolor ex exercitationem commodi voluptate labore deleniti maiores.
+        Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
+      relatedTopics:
+        - family
+        - welfare
+      readMore: >
+        Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
-          Totam eveniet vel quia. Quia numquam aut inventore sit qui numquam. Illo et molestiae rerum voluptate qui sunt dolores sed. Voluptas inventore modi natus inventore est. Pariatur rerum qui impedit et.
+        Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
 
-          Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
-      - id: special-needs-of-lone-mother-families
-        display: 1
-        level: 1
-        title: Special needs of lone-mother families
-        linksTo:
-        summary: >
-          Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
+        Molestiae sit et qui tenetur. Omnis voluptas dolores explicabo. In fugiat mollitia nihil reiciendis eaque dolor. Dolor ex exercitationem commodi voluptate labore deleniti maiores.
 
-          Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-        claims: >
-          Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
+        Totam eveniet vel quia. Quia numquam aut inventore sit qui numquam. Illo et molestiae rerum voluptate qui sunt dolores sed. Voluptas inventore modi natus inventore est. Pariatur rerum qui impedit et.
 
-          Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
-        relatedTopics: >
-          Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-        readMore: >
-          Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
+        Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
+    - id: special-needs-of-lone-mother-families
+      display: 1
+      level: 1
+      title: Special needs of lone-mother families
+      linksTo:
+      summary: >
+        Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
-          Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
+        Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
+      claims: >
+        Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
-          Molestiae sit et qui tenetur. Omnis voluptas dolores explicabo. In fugiat mollitia nihil reiciendis eaque dolor. Dolor ex exercitationem commodi voluptate labore deleniti maiores.
+        Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
+      relatedTopics:
+        - family
+        - welfare
+      readMore: >
+        Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
-          Totam eveniet vel quia. Quia numquam aut inventore sit qui numquam. Illo et molestiae rerum voluptate qui sunt dolores sed. Voluptas inventore modi natus inventore est. Pariatur rerum qui impedit et.
+        Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
 
-          Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
-  - id: family
-    display: 1
-    level: 0
-    parent: top
-    title: Family
-    linksTo:
-  - id: welfare
-    display: 1
-    level: 0
-    parent: top
-    title: Welfare
-    linksTo:
-  - id: wellbeing
-    display: 1
-    level: 0
-    parent: top
-    title: Wellbeing
-    linksTo:
-  - id: inequality
-    display: 1
-    level: 0
-    parent: top
-    title: Inequality
-    linksTo:
-  - id: democracy
-    display: 1
-    level: 0
-    parent: top
-    title:
-    linksTo:
+        Molestiae sit et qui tenetur. Omnis voluptas dolores explicabo. In fugiat mollitia nihil reiciendis eaque dolor. Dolor ex exercitationem commodi voluptate labore deleniti maiores.
+
+        Totam eveniet vel quia. Quia numquam aut inventore sit qui numquam. Illo et molestiae rerum voluptate qui sunt dolores sed. Voluptas inventore modi natus inventore est. Pariatur rerum qui impedit et.
+
+        Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
+- id: family
+  display: 1
+  level: 0
+  parent: 0
+  title: Family
+  linksTo:
+- id: welfare
+  display: 1
+  level: 0
+  parent: 0
+  title: Welfare
+  linksTo:
+- id: wellbeing
+  display: 1
+  level: 0
+  parent: 0
+  title: Wellbeing
+  linksTo:
+- id: inequality
+  display: 1
+  level: 0
+  parent: 0
+  title: Inequality
+  linksTo:
+- id: democracy
+  display: 1
+  level: 0
+  parent: 0
+  title:
+  linksTo:

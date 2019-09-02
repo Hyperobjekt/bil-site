@@ -1,8 +1,40 @@
+<!-- <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script> -->
 <script type="text/javascript">
 // Fetch JSON for color theme
 const viz = {};
-viz.theme = {};
-viz.nodes = {};
+viz.theme = JSON.parse({{ jsonify .Site.Data.viz.theme }});
+// console.log(viz.theme);
+// console.log({{ jsonify .Site.Data.viz.data }});
+viz.nodes = [
+{{- range $index, $item := .Site.Data.viz.data -}}
+  {{- if and $index (gt $index 0) -}},{{- end }}
+  {
+    id: {{ .id }},
+    display: {{ .display }},
+    level: {{ .level }},
+    parent: {{ .parent }},
+    title: {{ .title }},
+    linksTo: [{{- range $lindex, $item := .linksTo }}{{- if and $lindex (gt $lindex 0) -}},{{- end -}}"{{- . -}}"{{- end -}}],
+    bibliography: {{ ( .bibliography | markdownify ) }},
+    children: [
+      {{- range $cindex, $child := .children }}
+      {{- if and $cindex (gt $cindex 0) -}},{{- end }}
+        {
+          id: {{.id}},
+          display: {{.display}},
+          level: {{- .level -}},
+          title: {{ .title -}},
+          linksTo: [{{- range $lindex, $item := .linksTo }}{{- if and $lindex (gt $lindex 0) -}},{{- end }}"{{ . }}"{{- end -}}],
+          summary: "{{ .summary | markdownify }}",
+          claims: "{{ .claims | markdownify }}",
+          relatedTopics: [{{- range $rindex, $item := .relatedTopics }}{{- if and $rindex (gt $rindex 0) -}},{{- end }}"{{ . }}"{{- end -}}],
+          readMore: "{{ .readMore | markdownify }}"
+        }
+      {{- end -}}
+    ],
+  }
+{{- end -}}
+];
 // Fetch JSON for nodes
 </script>
 {{ if .Site.IsServer }}
@@ -10,8 +42,8 @@ viz.nodes = {};
   <!-- <script src="://cdn.jsdelivr.net/npm/echarts@4.2.1/dist/echarts.js"></script>
   <script src="://cdn.jsdelivr.net/npm/echarts@4.2.1/dist/echarts.js.map"></script> -->
   <script  src="{{ "js/echarts/echarts.js"  | absURL }}"></script>
-  <script  src="{{ "js/echarts/echarts.js.map"  | absURL }}"></script>
-  <script  src="{{ "js/viz.js"  | absURL }}"></script>
+  <!-- <script  src="{{ "js/viz/theme.js"  | absURL }}"></script> -->
+  <script  src="{{ "js/viz/viz.js"  | absURL }}"></script>
 {{ else }}
   <!-- If site is production, compress and minify -->
   <!-- <script src="://cdn.jsdelivr.net/npm/echarts@4.2.1/dist/echarts.min.js"></script> -->
