@@ -54,6 +54,25 @@ anchor = "smart"
     weight = 3
 
 [[menu.main]]
+    parent = "Events"
+	name = "Upcoming"
+	url = "/events/upcoming/"
+    weight = 1  
+
+[[menu.main]]
+    parent = "Events"
+	name = "Past"
+	url = "/events/past/"
+    weight = 2   
+
+[[menu.main]]
+    parent = "Events"
+	name = "Videos"
+	url = "/events/videos/"
+    weight = 3
+
+
+[[menu.main]]
     name = "Research"
     url = "/research/"
     weight = 5
@@ -104,10 +123,6 @@ anchor = "smart"
     url = "/courses/"
     weight = 7    
 
-[[menu.main]]
-    name = "Resources"
-    url = "/research/"
-    weight = 8
 
 [[menu.main]]
     name = "News"

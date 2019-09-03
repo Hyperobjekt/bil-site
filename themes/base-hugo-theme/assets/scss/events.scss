@@ -1,0 +1,18 @@
+body.type-events {
+    .hero {
+        background: url('/images/heroes/catherine-parjis-hero.jpg');
+        background-size: cover;
+        background-position: center center;
+    }
+    #events-list {
+        .pic-column {
+            min-height: 180px;
+            background-position: center top;
+        }
+    }
+    .pagination {
+        @include sofia-med;
+        display: flex;
+        justify-content: space-between;
+    }
+}
