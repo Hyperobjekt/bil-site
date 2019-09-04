@@ -6,7 +6,7 @@
 
     // Add sticky top class to pages generally
     //function homesticky() {
-      if ( $( "body.kind-section" ).length ) {
+      if ( $( "body.kind-section" ).length || ( "body.kind-page" ).length ) {
         $('nav').addClass('sticky-top');
         //$('.subnav').addClass('sticky-top');
       }
