@@ -17194,7 +17194,7 @@ h2 {
 @media (min-width: 992px) {
   h2 {
     font-size: 3.4rem;
-    line-height: 5.1rem;
+    line-height: 1.4;
     letter-spacing: .03rem;
   }
 }
@@ -17202,7 +17202,7 @@ h2 {
 @media (min-width: 1380px) {
   h2 {
     font-size: 4rem;
-    line-height: 6rem;
+    line-height: 1.4;
     letter-spacing: .039rem;
   }
 }

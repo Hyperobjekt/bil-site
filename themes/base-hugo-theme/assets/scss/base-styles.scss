@@ -145,13 +145,13 @@ html {
     }
     @include media-breakpoint-up(lg) {
         font-size: 3.4rem;
-        line-height: 5.1rem;
+        line-height: 1.4;
         letter-spacing: .03rem;
     
     }
     @include media-breakpoint-up(xl) {
         font-size: 4rem;
-        line-height: 6rem;
+        line-height: 1.4;
         letter-spacing: .039rem;
      
     } 
