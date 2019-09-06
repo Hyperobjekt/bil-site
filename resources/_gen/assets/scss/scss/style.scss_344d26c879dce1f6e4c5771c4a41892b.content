@@ -17345,7 +17345,7 @@ h4.news {
 @media (min-width: 768px) {
   h4.news {
     font-size: 1.2rem;
-    line-height: 1.5rem;
+    line-height: 1.8rem;
     letter-spacing: 0.213rem;
   }
 }
@@ -17353,7 +17353,7 @@ h4.news {
 @media (min-width: 992px) {
   h4.news {
     font-size: 1.3rem;
-    line-height: 1.7rem;
+    line-height: 2rem;
     letter-spacing: 0.213rem;
   }
 }
@@ -17361,7 +17361,7 @@ h4.news {
 @media (min-width: 1380px) {
   h4.news {
     font-size: 1.4rem;
-    line-height: 3.3rem;
+    line-height: 2.6rem;
     letter-spacing: 0.213rem;
   }
 }
@@ -17392,6 +17392,36 @@ h5 {
   h5 {
     font-size: 2.6rem;
     line-height: 4rem;
+    letter-spacing: 0.04rem;
+  }
+}
+
+h5.events {
+  font-family: sofia-pro,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@media (min-width: 768px) {
+  h5.events {
+    font-size: 1.9rem;
+    line-height: 2.75rem;
+    letter-spacing: 0.04rem;
+  }
+}
+
+@media (min-width: 992px) {
+  h5.events {
+    font-size: 2.1rem;
+    line-height: 3.1rem;
+    letter-spacing: 0.04rem;
+  }
+}
+
+@media (min-width: 1380px) {
+  h5.events {
+    font-size: 2.3rem;
+    line-height: 3.4rem;
     letter-spacing: 0.04rem;
   }
 }
@@ -17858,7 +17888,6 @@ nav.navbar-light .drawer-toggle .navbar-toggler-icon {
   line-height: 2.0rem;
   letter-spacing: .011rem;
   color: #00505C;
-  text-transform: uppercase;
   margin-bottom: 3.2rem;
 }
 
@@ -19218,7 +19247,7 @@ body.people .row.funder-logos .p-2.rsf {
   font-weight: 100;
   pointer-events: none;
   position: relative;
-  top: 2px;
+  top: -4px;
   left: .5px;
 }
 
@@ -19489,6 +19518,25 @@ body.type-positions .modal button.close {
   /* height: auto; */
   flex-direction: column;
   border: none;
+}
+
+body.type-events .hero {
+  background: url("/images/heroes/catherine-parjis-hero.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+body.type-events #events-list .pic-column {
+  min-height: 180px;
+  background-position: center top;
+}
+
+body.type-events .pagination {
+  font-family: sofia-pro,sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  display: flex;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=style.css.map */
