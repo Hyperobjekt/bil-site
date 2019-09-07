@@ -17107,7 +17107,7 @@ nav.navbar > div {
 }
 
 .slatetext {
-  color: #7E8085;
+  color: #74757B;
 }
 
 .medgraytext {
@@ -17207,14 +17207,14 @@ h2 {
   }
 }
 
-h3 {
+h3, .basic-income-experiments h2 {
   font-family: sofia-pro,sans-serif;
   font-weight: 700;
   font-style: normal;
 }
 
 @media (min-width: 768px) {
-  h3 {
+  h3, .basic-income-experiments h2 {
     font-size: 2.1rem;
     line-height: 3rem;
     letter-spacing: 0.04rem;
@@ -17222,7 +17222,7 @@ h3 {
 }
 
 @media (min-width: 992px) {
-  h3 {
+  h3, .basic-income-experiments h2 {
     font-size: 2.3rem;
     line-height: 3.2rem;
     letter-spacing: 0.04rem;
@@ -17230,7 +17230,7 @@ h3 {
 }
 
 @media (min-width: 1380px) {
-  h3 {
+  h3, .basic-income-experiments h2 {
     font-size: 2.6rem;
     line-height: 4rem;
     letter-spacing: 0.04rem;
@@ -17267,7 +17267,7 @@ h3.courses {
   }
 }
 
-h3.news {
+h2.news {
   font-family: sofia-pro,sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -17277,7 +17277,7 @@ h3.news {
 }
 
 @media (min-width: 768px) {
-  h3.news {
+  h2.news {
     font-size: 2.1rem;
     line-height: 3.1rem;
     letter-spacing: 0.04rem;
@@ -17285,7 +17285,7 @@ h3.news {
 }
 
 @media (min-width: 992px) {
-  h3.news {
+  h2.news {
     font-size: 2.6rem;
     line-height: 3.9rem;
     letter-spacing: 0.04rem;
@@ -17293,14 +17293,14 @@ h3.news {
 }
 
 @media (min-width: 1380px) {
-  h3.news {
+  h2.news {
     font-size: 3rem;
     line-height: 4.5rem;
     letter-spacing: 0.04rem;
   }
 }
 
-h4 {
+h4, .superhead {
   font-family: sofia-pro,sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -17310,7 +17310,7 @@ h4 {
 }
 
 @media (min-width: 768px) {
-  h4 {
+  h4, .superhead {
     font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: 0.213rem;
@@ -17318,7 +17318,7 @@ h4 {
 }
 
 @media (min-width: 992px) {
-  h4 {
+  h4, .superhead {
     font-size: 1.1rem;
     line-height: 1.7rem;
     letter-spacing: 0.213rem;
@@ -17326,7 +17326,7 @@ h4 {
 }
 
 @media (min-width: 1380px) {
-  h4 {
+  h4, .superhead {
     font-size: 1.2rem;
     line-height: 3.3rem;
     letter-spacing: 0.213rem;
@@ -17366,14 +17366,14 @@ h4.news {
   }
 }
 
-h5 {
+h5, #subscribePrompt {
   font-family: sofia-pro,sans-serif;
   font-weight: 500;
   font-style: normal;
 }
 
 @media (min-width: 768px) {
-  h5 {
+  h5, #subscribePrompt {
     font-size: 1.9rem;
     line-height: 2.75rem;
     letter-spacing: 0.04rem;
@@ -17381,7 +17381,7 @@ h5 {
 }
 
 @media (min-width: 992px) {
-  h5 {
+  h5, #subscribePrompt {
     font-size: 2.1rem;
     line-height: 3.4rem;
     letter-spacing: 0.04rem;
@@ -17389,7 +17389,7 @@ h5 {
 }
 
 @media (min-width: 1380px) {
-  h5 {
+  h5, #subscribePrompt {
     font-size: 2.6rem;
     line-height: 4rem;
     letter-spacing: 0.04rem;
@@ -17426,7 +17426,7 @@ h5.events {
   }
 }
 
-h6 {
+h6, .subhead {
   font-family: sofia-pro,sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -17437,7 +17437,7 @@ h6 {
 }
 
 @media (min-width: 768px) {
-  h6 {
+  h6, .subhead {
     font-size: 1.5rem;
     line-height: 2.2rem;
     letter-spacing: 0.013rem;
@@ -17445,7 +17445,7 @@ h6 {
 }
 
 @media (min-width: 992px) {
-  h6 {
+  h6, .subhead {
     font-size: 1.6rem;
     line-height: 2.4rem;
     letter-spacing: 0.013rem;
@@ -17453,7 +17453,7 @@ h6 {
 }
 
 @media (min-width: 1380px) {
-  h6 {
+  h6, .subhead {
     font-size: 1.7rem;
     line-height: 2.5rem;
     letter-spacing: 0.013rem;
@@ -17616,6 +17616,7 @@ a:hover {
 
 .btn-primary {
   background-color: #B26F16;
+  background-color: #A86815;
   border: none;
   font-family: sofia-pro,sans-serif;
   font-weight: 700;
@@ -17970,7 +17971,7 @@ body .hero .hero-child.row {
   }
 }
 
-body .hero .hero-child .hero-copy h2 {
+body .hero .hero-child .hero-copy h1 {
   font-family: sofia-pro,sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -17982,7 +17983,7 @@ body .hero .hero-child .hero-copy h2 {
 }
 
 @media (min-width: 768px) {
-  body .hero .hero-child .hero-copy h2 {
+  body .hero .hero-child .hero-copy h1 {
     font-size: 2.4rem;
     line-height: 4.2rem;
     letter-spacing: .018rem;
@@ -17990,7 +17991,7 @@ body .hero .hero-child .hero-copy h2 {
 }
 
 @media (min-width: 992px) {
-  body .hero .hero-child .hero-copy h2 {
+  body .hero .hero-child .hero-copy h1 {
     font-size: 2.8rem;
     line-height: 4.4rem;
     letter-spacing: .018rem;
@@ -17998,7 +17999,7 @@ body .hero .hero-child .hero-copy h2 {
 }
 
 @media (min-width: 1380px) {
-  body .hero .hero-child .hero-copy h2 {
+  body .hero .hero-child .hero-copy h1 {
     font-size: 3rem;
     line-height: 4.8rem;
     letter-spacing: .022rem;
@@ -18890,7 +18891,7 @@ body.people .row.funder-logos .p-2.rsf {
   margin-bottom: 0;
 }
 
-.row.who-we-are h3, .row.who-we-are-former h3 {
+.row.who-we-are h2, .row.who-we-are-former h2 {
   color: #031232;
   font-size: 1.2rem;
   letter-spacing: .055rem;
@@ -18898,7 +18899,7 @@ body.people .row.funder-logos .p-2.rsf {
 }
 
 @media (min-width: 768px) {
-  .row.who-we-are h3, .row.who-we-are-former h3 {
+  .row.who-we-are h2, .row.who-we-are-former h2 {
     font-size: 2.6rem;
     line-height: 1.7rem;
     letter-spacing: .064rem;
@@ -18906,7 +18907,7 @@ body.people .row.funder-logos .p-2.rsf {
 }
 
 @media (min-width: 1380px) {
-  .row.who-we-are h3, .row.who-we-are-former h3 {
+  .row.who-we-are h2, .row.who-we-are-former h2 {
     font-size: 2.8rem;
     line-height: 4.2rem;
     letter-spacing: .07rem;
@@ -18914,7 +18915,7 @@ body.people .row.funder-logos .p-2.rsf {
 }
 
 @media (min-width: 1380px) {
-  .row.who-we-are h3, .row.who-we-are-former h3 {
+  .row.who-we-are h2, .row.who-we-are-former h2 {
     font-size: 3rem;
     line-height: 4.5rem;
     letter-spacing: .07rem;
@@ -19429,25 +19430,25 @@ body.basic-income-experiments tr td:last-child {
 
 body.basic-income-experiments table th {
   background-color: #FFFBF5;
-  color: #B26F16;
+  color: #A36514;
 }
 
 body.basic-income-experiments table tr:nth-child(odd) {
-  color: #B26F16;
+  color: #A36514;
 }
 
 body.basic-income-experiments table tr:nth-child(odd) a {
-  color: #B26F16;
+  color: #A36514;
   text-decoration: underline;
 }
 
 body.basic-income-experiments table tr:nth-child(even) {
   background-color: #F3FDFF;
-  color: #208A9A;
+  color: #1D7D8C;
 }
 
 body.basic-income-experiments table tr:nth-child(even) a {
-  color: #208A9A;
+  color: #1D7D8C;
   text-decoration: underline;
 }
 

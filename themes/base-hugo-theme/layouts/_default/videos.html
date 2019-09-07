@@ -5,7 +5,7 @@
             
             <div class="hero-copy col-10 col-md-8 offset-md-1 d-flex align-items-center">
             
-                <h2>Events</h2>
+                <h1 class="page-hero">Events</h1>
                 
             </div>
         </div>
@@ -44,8 +44,8 @@
        {{ if isset .Params "video" }}
             <div class="row mb-4 mb-md-4 mb-lg-8 mb-xl-12">
                 <div class="col-12 col-md-7 mx-md-auto ">
-                    <h4 class="news coldblcktext text-uppercase mb-1 ">{{ .Date.Format "Monday, January 2, 2006" }} | {{ .Params.timeRange }} </h4>
-                    <h3 class="news mb-sm-2 mb-md-2 mb-xl-2">{{ .Params.title }}</h3>
+                    <div class="superhead news coldblcktext text-uppercase mb-1 ">{{ .Date.Format "Monday, January 2, 2006" }} | {{ .Params.timeRange }} </div>
+                    <h2 class="news mb-sm-2 mb-md-2 mb-xl-2">{{ .Params.title }}</h3>
                     <div class="medgraytext">{{ .Params.video | safeHTML }}</div>     
       
                 </div>

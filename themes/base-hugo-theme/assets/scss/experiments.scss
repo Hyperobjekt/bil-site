@@ -2,21 +2,21 @@ body.basic-income-experiments {
   table {
       th {
         background-color: #FFFBF5;
-        color: #B26F16;
+        color: $dkbronze;
       }
         tr {
             &:nth-child(odd) {
-                color: #B26F16;
+                color: $dkbronze;
                 a {
-                    color: #B26F16;
+                    color: $dkbronze;
                     text-decoration: underline;
                 }
             }
             &:nth-child(even) {
                 background-color: #F3FDFF;
-                color: #208A9A;
+                color: #1D7D8C;
                 a {
-                    color: #208A9A;
+                    color: #1D7D8C;
                     text-decoration: underline;
                 }
             }

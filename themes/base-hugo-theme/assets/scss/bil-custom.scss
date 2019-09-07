@@ -257,7 +257,7 @@ body {
       transform: translateZ(0);
 
       .hero-copy {
-        h2 {
+        h1 {
           @include sofia-med;
           text-align: left;
           color: $white;

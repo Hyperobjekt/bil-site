@@ -156,7 +156,7 @@ html {
      
     } 
   }
-  h3 {
+  h3, .basic-income-experiments h2 {
     @include sofia-bold;
     @include media-breakpoint-up(md) {
         font-size: 2.1rem;
@@ -192,7 +192,7 @@ html {
       letter-spacing: 0.04rem;
     }
   }
-  h3.news {
+  h2.news {
     @include sofia-bold;
     font-size: 1.8rem;
     line-height: 2.7rem;
@@ -213,7 +213,7 @@ html {
       letter-spacing: 0.04rem;
     }
   }
-  h4 {
+  h4, .superhead {
     @include sofia-reg;
     font-size: 1rem;
     line-height: 1.5rem;
@@ -260,7 +260,7 @@ html {
     }
   }
   
-  h5 {
+  h5, #subscribePrompt {
     @include sofia-med;
     @include media-breakpoint-up(md) {
         font-size: 1.9rem;
@@ -298,7 +298,7 @@ html {
     }
   }
 
-  h6 {
+  h6, .subhead {
     @include sofia-reg;
     font-size: 1.4rem;
     line-height: 2.1rem;
@@ -470,6 +470,7 @@ html {
   
   .btn-primary {
     background-color: #B26F16;
+    background-color: #A86815;
     border: none;
     @include sofia-bold;
     text-transform: uppercase;
