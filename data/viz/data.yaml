@@ -1,23 +1,17 @@
 - id: gender
   display: 1
-  level: 0
-  parent: 0
   title: Gender
   linksTo:
     - family
     - welfare
   # todo: what will be the format of this field? (below)
   bibliography: >
-    ## heading
-
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
 
     Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
   children:
     - id: empowerment-within-the-household
-      display: 1
-      level: 1
       title: Empowerment within the household
       linksTo:
       summary: >

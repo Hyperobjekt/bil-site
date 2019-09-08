@@ -17,7 +17,7 @@ anchor = "smart"
   containerMaxWidth=1200
   showActiveNav=true
   paginage=5
-  offline=true # default = false
+  offline=false # default = false
 
 # main menu
 

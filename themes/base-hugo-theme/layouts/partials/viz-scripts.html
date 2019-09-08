@@ -3,50 +3,49 @@
 // Fetch JSON for color theme
 const viz = {};
 viz.theme = JSON.parse({{ jsonify .Site.Data.viz.theme }});
+viz.parents = JSON.parse({{ jsonify .Site.Data.viz.parentNodes }});
+viz.children = JSON.parse({{ jsonify .Site.Data.viz.childNodes }});
+viz.links = JSON.parse({{ jsonify .Site.Data.viz.links }});
 // console.log(viz.theme);
 // console.log({{ jsonify .Site.Data.viz.data }});
-viz.nodes = [
-{{- range $index, $item := .Site.Data.viz.data -}}
-  {{- if and $index (gt $index 0) -}},{{- end }}
-  {
-    id: {{ .id }},
-    display: {{ .display }},
-    level: {{ .level }},
-    parent: {{ .parent }},
-    title: {{ .title }},
-    linksTo: [{{- range $lindex, $item := .linksTo }}{{- if and $lindex (gt $lindex 0) -}},{{- end -}}"{{- . -}}"{{- end -}}],
-    bibliography: {{ ( .bibliography | markdownify ) }},
-    children: [
-      {{- range $cindex, $child := .children }}
-      {{- if and $cindex (gt $cindex 0) -}},{{- end }}
-        {
-          id: {{.id}},
-          display: {{.display}},
-          level: {{- .level -}},
-          title: {{ .title -}},
-          linksTo: [{{- range $lindex, $item := .linksTo }}{{- if and $lindex (gt $lindex 0) -}},{{- end }}"{{ . }}"{{- end -}}],
-          summary: "{{ .summary | markdownify }}",
-          claims: "{{ .claims | markdownify }}",
-          relatedTopics: [{{- range $rindex, $item := .relatedTopics }}{{- if and $rindex (gt $rindex 0) -}},{{- end }}"{{ . }}"{{- end -}}],
-          readMore: "{{ .readMore | markdownify }}"
-        }
-      {{- end -}}
-    ],
-  }
-{{- end -}}
-];
+// viz.nodes = [
+// {{- range $index, $item := .Site.Data.viz.data -}}
+//   {{- if and $index (gt $index 0) -}},{{- end }}
+//   {
+//     id: {{ .id }},
+//     display: {{ .display }},
+//     level: {{ .level }},
+//     parent: {{ .parent }},
+//     title: {{ .title }},
+//     linksTo: [{{- range $lindex, $item := .linksTo }}{{- if and $lindex (gt $lindex 0) -}},{{- end -}}"{{- . -}}"{{- end -}}],
+//     bibliography: {{ ( .bibliography | markdownify ) }},
+//     children: [
+//       {{- range $cindex, $child := .children }}
+//       {{- if and $cindex (gt $cindex 0) -}},{{- end }}
+//         {
+//           id: {{.id}},
+//           display: {{.display}},
+//           level: {{- .level -}},
+//           title: {{ .title -}},
+//           linksTo: [{{- range $lindex, $item := .linksTo }}{{- if and $lindex (gt $lindex 0) -}},{{- end }}"{{ . }}"{{- end -}}],
+//           summary: "{{ .summary | markdownify }}",
+//           claims: "{{ .claims | markdownify }}",
+//           relatedTopics: [{{- range $rindex, $item := .relatedTopics }}{{- if and $rindex (gt $rindex 0) -}},{{- end }}"{{ . }}"{{- end -}}],
+//           readMore: "{{ .readMore | markdownify }}"
+//         }
+//       {{- end -}}
+//     ],
+//   }
+// {{- end -}}
+// ];
 // Fetch JSON for nodes
 </script>
 {{ if .Site.IsServer }}
   <!-- If site is being served (ostensibly dev) don't compress and minify -->
-  <!-- <script src="://cdn.jsdelivr.net/npm/echarts@4.2.1/dist/echarts.js"></script>
-  <script src="://cdn.jsdelivr.net/npm/echarts@4.2.1/dist/echarts.js.map"></script> -->
   <script  src="{{ "js/echarts/echarts.js"  | absURL }}"></script>
-  <!-- <script  src="{{ "js/viz/theme.js"  | absURL }}"></script> -->
   <script  src="{{ "js/viz/viz.js"  | absURL }}"></script>
 {{ else }}
   <!-- If site is production, compress and minify -->
-  <!-- <script src="://cdn.jsdelivr.net/npm/echarts@4.2.1/dist/echarts.min.js"></script> -->
   <script  src="{{ "js/echarts/echarts.min.js"  | absURL }}"></script>
   <script  src="{{ "js/viz.js"  | absURL }}"></script>
 {{ end }}
