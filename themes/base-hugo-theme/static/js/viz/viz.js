@@ -5,6 +5,9 @@ console.log('viz.js loaded');
 // console.log(viz.parents[0]);
 // console.log(viz.links);
 const setup = {};
+setup.strings = {};
+setup.strings.theme = 'THEME';
+setup.strings.subthemes = 'SUB-THEMES';
 setup.nodes = [];
 setup.links = [];
 let linkIndex = 0;
@@ -14,10 +17,38 @@ const symbolSizeBase = 20;
 viz.active = {};
 viz.active.hovered = null;
 viz.active.clicked = null;
+viz.getItemObj = (id) => {
+  // check both parents and children data
+  let _obj = null;
+  _obj = viz.parents.filter(
+    function(value) { return value.id === id }
+  )
+  if (_obj.length === 1) {
+    _obj[0].type = 'parent';
+    return _obj[0];
+  } else {
+    _obj = viz.children.filter(
+      function(value) { return value.id === id }
+    )
+  }
+  if (_obj.length === 1) {
+    _obj[0].type = 'child';
+    return _obj[0];
+  } else {
+    return false;
+  }
+};
+viz.getItemLinks = (id) => {
+  // let _obj = null;
+  const _links = viz.links.filter(
+    function(value) { return value.source === id }
+  )
+  return _links;
+};
 // Tooltip for topics and subtopics
 const topicTooltip = {
   // trigger: 'item',
-  formatter: '{c}' + '<br>Click for more',
+  // formatter: '{c}' + '<br>Click for more',
   show: true,
   position: 'right',
   // itemStyle: {
@@ -125,7 +156,7 @@ viz.parents.forEach(function(el) {
       itemStyle: {
         color: viz.theme[colorIndex]
       },
-      tooltip: topicTooltip,
+      // tooltip: topicTooltip,
       label: topicLabel
     };
     (setup.nodes).push(item);
@@ -160,7 +191,7 @@ viz.children.forEach(function(el) {
       itemStyle: {
         color: _parent[0].itemStyle.color,
       },
-      tooltip: topicTooltip,
+      // tooltip: topicTooltip,
       label: topicLabel
     };
     (setup.nodes).push(item);
@@ -168,7 +199,7 @@ viz.children.forEach(function(el) {
 });
 console.log('Done adding child nodes');
 console.log(setup.nodes);
-
+// Build links object
 viz.links.forEach(function(el) {
   const link = {
     id: linkIndex,
@@ -182,10 +213,10 @@ viz.links.forEach(function(el) {
 
 // console.log('setup.categories');
 // console.log(setup.categories);
-console.log('setup.nodes');
-console.log(setup.nodes);
-console.log('setup.links');
-console.log(setup.links);
+// console.log('setup.nodes');
+// console.log(setup.nodes);
+// console.log('setup.links');
+// console.log(setup.links);
 setup.options = {
   title: {
     // text: 'Les Miserables',
@@ -193,17 +224,49 @@ setup.options = {
     top: 'bottom',
     left: 'right'
   },
-  // toolbox: {
-  //   feature: {
-  //     dataZoom: {
-  //       show: true,
-  //       title: {
-  //         zoom: 'Zoom',
-  //         back: 'Back'
-  //       }
-  //     }
-  //   }
-  // },
+  tooltip: {
+    triggerOn: 'click',
+    position: 'right',
+    backgroundColor: '#fff',
+    borderColor: '#979797',
+    extraCssText: 'box-shadow: 0 1px 4px rgba(79, 79, 79, 0.18);border-radius:6px;width:30%;',
+    padding: 40,
+    enterable: true,
+    formatter: function(item) {
+      // console.log('formatter item');
+      // console.log(item);
+      const _item_obj = viz.getItemObj(item.data.id);
+      // console.log('_item_obj');
+      // console.log(_item_obj);
+      const _item_links = viz.getItemLinks(item.data.id);
+      // console.log('_item_links');
+      // console.log(_item_links);
+      // Add the item title.
+      let _tooltip =  '<span class="subtext">' + setup.strings.theme + '</span>' +
+                        '<div class="theme title">' + item.data.name + '</div>';
+      // If there are links, render them.
+      if (_item_links.length >= 1) {
+        _tooltip += '<span class="subtext">' + setup.strings.subthemes + '</span>';
+        _item_links.forEach(function(item) {
+          const related = viz.getItemObj(item.target);
+        _tooltip += '<div class="related title">' + related.title + '</div>';
+        });
+      }
+      // Set up accordion content.
+      if (_item_obj.type === 'parent') {
+        console.log('it\'s a parent');
+      }
+      if (_item_obj.type === 'child') {
+        console.log('it\'s a child');
+      }
+
+      return _tooltip;
+    },
+    textStyle: {
+      color: '#000',
+    }
+
+  },
   series : [
     {
       name: 'UBI',
