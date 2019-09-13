@@ -163,8 +163,8 @@ viz.parents.forEach(function(el) {
     colorIndex++;
   }
 });
-console.log('Done adding parent nodes');
-console.log(setup.nodes);
+// console.log('Done adding parent nodes');
+// console.log(setup.nodes);
 
 viz.children.forEach(function(el) {
   // console.log(i);
@@ -197,8 +197,8 @@ viz.children.forEach(function(el) {
     (setup.nodes).push(item);
   }
 });
-console.log('Done adding child nodes');
-console.log(setup.nodes);
+// console.log('Done adding child nodes');
+// console.log(setup.nodes);
 // Build links object
 viz.links.forEach(function(el) {
   const link = {
@@ -225,7 +225,8 @@ setup.options = {
     left: 'right'
   },
   tooltip: {
-    triggerOn: 'click',
+    triggerOn: 'none',
+    trigger: 'item',
     position: 'right',
     backgroundColor: '#fff',
     borderColor: '#979797',
@@ -242,7 +243,9 @@ setup.options = {
       // console.log('_item_links');
       // console.log(_item_links);
       // Add the item title.
-      let _tooltip =  '<span class="subtext">' + setup.strings.theme + '</span>' +
+      let _tooltip =    '<div class="tip">' +
+                        '<button class="btn close">&times;</button>' +
+                        '<span class="subtext">' + setup.strings.theme + '</span>' +
                         '<div class="theme title">' + item.data.name + '</div>';
       // If there are links, render them.
       if (_item_links.length >= 1) {
@@ -259,13 +262,12 @@ setup.options = {
       if (_item_obj.type === 'child') {
         console.log('it\'s a child');
       }
-
+      _tooltip += '</div>';
       return _tooltip;
     },
     textStyle: {
       color: '#000',
     }
-
   },
   series : [
     {
@@ -330,17 +332,33 @@ viz.chart.showLoading();
 viz.chart.setOption(setup.options);
 viz.chart.hideLoading();
 viz.chart.on('click', (e) => {
-  // console.log(e);
+  console.log('click');
+  // console.log(e.dataType);
   viz.active.clicked = e.data.id;
+  if (e.dataType === 'node') {
+    // console.log('trying to show tooltip');
+    // console.log(e);
+    viz.chart.dispatchAction({
+      type: 'showTip',
+      seriesIndex: 0,
+      dataIndex: e.dataIndex
+    });
+    // viz.chart.action.tooltip.showTip;
+    jQuery('.tip .btn.close').on('click', () => {
+      console.log('close button clicked');
+      viz.chart.dispatchAction({
+        type: 'hideTip'
+      });
+      jQuery('.tip .btn.close').off('click');
+    })
+  }
 });
-viz.chart.on('mouseover', (e) => {
-  console.log('mouseover');
-  console.log(e);
-  viz.active.hovered = e.data.id;
-  console.log(viz.active);
-});
-viz.chart.on('mouseout', (e) => {
-  // console.log(e);
-  viz.active.hovered = null;
-  console.log(viz.active);
-})
+// viz.chart.on('mouseover', (e) => {
+//   // console.log('mouseover');
+//   // console.log(e);
+//   viz.active.hovered = e.data.id;
+// });
+// viz.chart.on('mouseout', (e) => {
+//   // console.log(e);
+//   viz.active.hovered = null;
+// })
