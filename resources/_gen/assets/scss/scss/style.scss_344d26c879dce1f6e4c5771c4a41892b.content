@@ -18188,7 +18188,7 @@ img.float-left {
   color: #9a6013;
   text-decoration: none;
   border-bottom: 1px solid #9a6013;
-  padding-bottom: 0px;
+  padding-bottom: 1px;
 }
 
 .drop-shadow {
@@ -18760,6 +18760,12 @@ body.what-is-ubi .hero {
   }
 }
 
+@media (min-width: 1380px) {
+  body.what-is-ubi .hero {
+    background-position: center top;
+  }
+}
+
 @media (min-width: 768px) {
   body.what-is-ubi .hero .hero-child {
     background-position: bottom center;
@@ -18798,6 +18804,12 @@ body.what-is-bil .hero {
   background-image: url("/images/backgrounds/WessonDisucussionGeneral-edit.jpg");
 }
 
+@media (min-width: 1380px) {
+  body.what-is-bil .hero-child {
+    background-position: center bottom;
+  }
+}
+
 body.what-is-bil .sq-img {
   min-height: 480px;
 }
@@ -18810,7 +18822,7 @@ body.what-is-bil #why-basic .sq-img {
 
 @media (min-width: 768px) {
   body.what-is-bil #why-basic .sq-img {
-    background-position: 50%;
+    background-position: 50% top;
   }
 }
 
@@ -18960,7 +18972,7 @@ body.people .row.funder-logos .p-2.rsf {
   border: none;
   width: 32px;
   height: 32px;
-  border-radius: 20px;
+  border-radius: 32px;
   font-size: 32px;
   line-height: 1px;
   font-weight: 100;
@@ -19414,6 +19426,21 @@ body.mapping-ubi-research .hero {
   background-position: center center;
 }
 
+body.mapping-ubi-research #hp-viz {
+  background-image: url("/images/backgrounds/viz-vector.svg");
+  background-size: 40%;
+  background-position: center 15%;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+  body.mapping-ubi-research #hp-viz {
+    background-size: 50%;
+    background-position: right center;
+    background-repeat: no-repeat;
+  }
+}
+
 body.basic-income-experiments .hero {
   background: url("/images/heroes/juliana-audience-hero.jpg");
   background-size: cover;
@@ -19487,6 +19514,12 @@ body.type-news .hero {
   }
 }
 
+@media (min-width: 1380px) {
+  body.type-news h2 {
+    max-width: 70%;
+  }
+}
+
 @media (min-width: 768px) {
   .position-apply {
     margin-top: 13%;
@@ -19503,6 +19536,12 @@ body.type-positions .hero {
 @media (min-width: 768px) {
   body.type-positions .hero {
     background-position: left center;
+  }
+}
+
+@media (min-width: 1380px) {
+  body.type-positions .hero {
+    background-position: center top;
   }
 }
 
@@ -19525,6 +19564,12 @@ body.type-events .hero {
   background: url("/images/heroes/catherine-parjis-hero.jpg");
   background-size: cover;
   background-position: center center;
+}
+
+@media (min-width: 1380px) {
+  body.type-events .hero {
+    background-position: center center;
+  }
 }
 
 body.type-events #events-list .pic-column {

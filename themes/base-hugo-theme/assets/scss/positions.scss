@@ -15,6 +15,9 @@ body.type-positions {
         @include media-breakpoint-up(md) {
             background-position: left center;
         }
+        @include media-breakpoint-up(xl) {
+            background-position: center top;
+        }
         h2 {
             @include media-breakpoint-up(md) {
                 max-width: 70%;
