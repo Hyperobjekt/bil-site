@@ -6,6 +6,7 @@ type: events
 location: Cubberley Auditorium
 Admission: Free and open to the public. 
 image: /uploads/70625-1_5.jpg
+video: '<iframe width="524" height="315" src="https://www.youtube.com/embed/Royw4LnaLrM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 ---
 
 Free and open to the public. Parking for Cubberley: along Lagunita Drive behind Tresidder Union & in the Wilbur Field Garage. Except for the Oval, all Visitor, "A" and "C" spots on campus are available after 4pm. 

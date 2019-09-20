@@ -6,6 +6,7 @@ type: events
 location: Tresidder Union, Oak Lounge
 Admission: Free and open to the public. 
 image: /uploads/70629-2_1.jpg
+video: '<iframe width="524" height="315" src="https://www.youtube.com/embed/WB3a9TAGV9o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 ---
 
 Dorian T. Warren and Mia Birdsong will be explaining how universal basic income can help create a more racially just society. Warren’s presentation will discuss MLK’s and the Black Panther Party’s perspectives on guaranteed income, as well as touching upon how the Movement for Black Lives connects UBI with reparations. Following Warren’s presentation, Birdsong will talk about her Listen First Tour, which highlights the voices of those experiencing economic and racial injustice and the impact UBI would have on them. Professor Bidadanure will close out the event with a moderated discussion between the two speakers. 
