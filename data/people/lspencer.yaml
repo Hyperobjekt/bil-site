@@ -1,0 +1,14 @@
+name: "Lara Spencer"
+role: "current-grad" # director, staff, or partner
+title: "PhD Candidate, Philosophy" # maybe different from role; is displayed
+image: "/uploads/lspencer.jpg" # will be cropped to center square & rounded
+thumb: "/uploads/lspencer-sm.jpg"
+current: true # true or false (for former)
+weight: 60
+blurb: >
+  Lara Spencer is a third year PhD student in the Philosophy Department. While most of her research is centered on the philosophy of science, she has become increasingly interested in the interface of philosophy and policy. To this end, her research on UBI lies at the intersection of basic income and women’s health.<br><br>As a graduate research fellow for the Lab, Lara is taking part in the Lab’s research visualization project and will be reviewing the UBI literature on topics relating to community and democracy. 
+
+
+ 
+
+
