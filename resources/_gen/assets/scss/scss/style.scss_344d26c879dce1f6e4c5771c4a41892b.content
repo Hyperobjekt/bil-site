@@ -17908,6 +17908,7 @@ button.navbar-toggler {
 body .hero {
   height: 320px;
   background-size: cover;
+  background-position: 55% center;
   overflow: hidden;
   background-repeat: no-repeat;
   margin-left: 0;
@@ -17920,6 +17921,7 @@ body .hero {
   body .hero {
     height: 360px;
     background-size: cover;
+    background-position: center center;
   }
 }
 
@@ -18107,8 +18109,8 @@ img.float-left {
 }
 
 .subnav.d-md-none .dropdown-toggle {
-  font-size: 1.2rem;
-  line-height: 1.4rem;
+  font-size: 1.4rem;
+  line-height: 1.5;
   letter-spacing: 0.055rem;
   border: none;
   height: 4.7rem;
@@ -19511,7 +19513,13 @@ body.type-courses #philosophy-course-pic {
 body.type-courses .hero {
   background: url("/images/heroes/AvshalomIllusionsEvent-hero.jpg");
   background-size: cover;
-  background-position: center center;
+  background-position: 78% center;
+}
+
+@media (min-width: 768px) {
+  body.type-courses .hero {
+    background-position: center center;
+  }
 }
 
 body.type-news .hero {
