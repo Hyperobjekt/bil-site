@@ -18988,13 +18988,14 @@ body.people .row.funder-logos .p-2.rsf {
   height: 32px;
   border-radius: 32px;
   font-size: 32px;
-  line-height: 1px;
+  line-height: 32px;
   font-weight: 100;
   position: absolute;
   right: -5%;
   bottom: 3%;
-  display: block;
-  padding-bottom: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
 }
 
 .row.people-current .pic button span, .row.people-former .pic button span {

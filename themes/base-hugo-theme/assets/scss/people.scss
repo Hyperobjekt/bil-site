@@ -135,18 +135,18 @@ body.people {
           height: 32px;
           border-radius: 32px;
           font-size: 32px;
-          line-height: 1px;
+          line-height: 32px;
           font-weight: 100;
           //padding: 5px 0;
           position: absolute;
           right: -5%;
           bottom: 3%;
-         // display: flex;
+         display: flex;
           
-          display: block;
-          //justify-content: center;
-          //align-items: baseline;
-          padding-bottom: 8px;
+          //display: block;
+          justify-content: center;
+          align-items: baseline;
+          //padding-bottom: 8px;
           span {
             text-align: center;
             &.plus-horiz {
