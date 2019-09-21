@@ -141,10 +141,12 @@ body.people {
           position: absolute;
           right: -5%;
           bottom: 3%;
-          display: flex;
-          justify-content: center;
-          align-items: baseline;
-          padding-top: 9px;
+         // display: flex;
+          
+          display: block;
+          //justify-content: center;
+          //align-items: baseline;
+          padding-bottom: 8px;
           span {
             text-align: center;
             &.plus-horiz {

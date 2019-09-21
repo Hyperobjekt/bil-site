@@ -18993,10 +18993,8 @@ body.people .row.funder-logos .p-2.rsf {
   position: absolute;
   right: -5%;
   bottom: 3%;
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
-  padding-top: 9px;
+  display: block;
+  padding-bottom: 8px;
 }
 
 .row.people-current .pic button span, .row.people-former .pic button span {
