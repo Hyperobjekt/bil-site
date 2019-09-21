@@ -18379,7 +18379,13 @@ footer .navlinks a:hover {
 }
 
 body.home nav.navbar-light {
-  background-color: #00000033;
+  background-color: #000;
+}
+
+@media (min-width: 768px) {
+  body.home nav.navbar-light {
+    background-color: #00000033;
+  }
 }
 
 body.home nav.navbar-light ul a {
@@ -18433,10 +18439,14 @@ body.home nav.navbar-light.sticky-top ul a:hover {
 body.home .hero {
   background-image: url("/images/heroes/bil-home-edit.jpg");
   background-color: #000;
-  height: 400px;
-  background-size: cover;
-  background-position-x: 70%;
-  margin-top: -6.4rem;
+  height: 304px;
+  background-size: 102%;
+  background-position-x: 50%;
+  background-repeat: no-repeat;
+  margin-left: 0;
+  margin-right: 0;
+  color: #fff;
+  text-align: center;
   background-repeat: no-repeat;
   margin-left: 0;
   margin-right: 0;
@@ -18452,6 +18462,7 @@ body.home .hero .stanford-wordmark {
 
 @media (min-width: 768px) {
   body.home .hero {
+    margin-top: -6.4rem;
     height: 512px;
     background-size: cover;
     background-position: bottom center;
@@ -18515,7 +18526,7 @@ body.home .hero .hero-child {
   height: 400px;
   background-size: cover;
   width: 100%;
-  background: rgba(0, 0, 0, 0.55);
+  background: rgba(0, 0, 0, 0.37);
   -webkit-transform: translateZ(0);
   -webkit-backface-visibility: hidden;
   -webkit-transform: translateZ(0) scale(1, 1);
@@ -18533,6 +18544,7 @@ body.home .hero .hero-child.row {
     background-size: cover;
     background-position: bottom center;
     position: absolute;
+    background: rgba(0, 0, 0, 0.55);
   }
 }
 

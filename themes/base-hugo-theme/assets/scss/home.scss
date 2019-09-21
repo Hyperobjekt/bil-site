@@ -2,7 +2,10 @@
 
 // Homepage only: header
 body.home nav.navbar-light  {
-  background-color: #00000033;
+  background-color: #000;
+  @include media-breakpoint-up(md) {
+    background-color: #00000033;
+  }
   ul a {
     color: #fff;
   }
@@ -55,10 +58,23 @@ body.home {
         }
       background-image: url('/images/heroes/bil-home-edit.jpg');
       background-color: #000;
-      height: 400px;
-      background-size: cover;
-      background-position-x: 70%;      
+     
+      
+     
+      height: 304px;
+      background-size: 102%;
+      background-position-x: 50%;
+     
+      background-repeat: no-repeat;
+      margin-left: 0;
+      margin-right: 0;
+      color: #fff;
+      text-align: center;
+
+
+
       @include media-breakpoint-up(md) {
+        margin-top: -6.4rem;
         height: 512px;
         background-size: cover;
         background-position: bottom center;
@@ -74,7 +90,7 @@ body.home {
           background-position: bottom center;
       }
       
-      margin-top: -6.4rem;
+     
       //background: linear-gradient(to bottom, rgba(6, 29, 86, 100%) 5%, rgba(4, 20, 60, 100%) 75%);
       background-repeat: no-repeat;
       margin-left: 0;
@@ -119,6 +135,7 @@ body.home {
             background-size: cover;
             background-position: bottom center;
             position: absolute;
+            background: rgba(0,0,0,0.55);
         }
         @include media-breakpoint-up(lg) {
             height: 576px;
@@ -132,7 +149,7 @@ body.home {
         }
         
         width: 100%;
-        background: rgba(0,0,0,0.55);
+        background: rgba(0,0,0,0.37);
         -webkit-transform: translateZ(0);
         -webkit-backface-visibility: hidden;
         -webkit-transform: translateZ(0) scale(1.0, 1.0);
