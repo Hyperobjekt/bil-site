@@ -133,7 +133,7 @@ body.people {
           border: none;
           width: 32px;
           height: 32px;
-          border-radius: 32px;
+          border-radius: 50%;
           font-size: 32px;
           line-height: 32px;
           font-weight: 100;
@@ -141,12 +141,17 @@ body.people {
           position: absolute;
           right: -5%;
           bottom: 3%;
-         display: flex;
+          display: flex;
           
           //display: block;
           justify-content: center;
           align-items: baseline;
           //padding-bottom: 8px;
+          div {
+            position: relative;
+            top: -5px;
+            max-width: 32px;
+          }
           span {
             text-align: center;
             &.plus-horiz {
