@@ -75,9 +75,10 @@ body.home {
 
       @include media-breakpoint-up(md) {
         margin-top: -6.4rem;
-        height: 512px;
-        background-size: cover;
-        background-position: bottom center;
+        height: 456px;
+        background-size: 119%;
+        background-position: top center;
+        margin-top: -6.4rem;
       }
       @include media-breakpoint-up(lg) {
         height: 496px;
