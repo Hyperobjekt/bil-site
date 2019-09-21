@@ -18465,7 +18465,7 @@ body.home .hero .stanford-wordmark {
 @media (min-width: 768px) {
   body.home .hero {
     margin-top: -6.4rem;
-    height: 456px;
+    height: 400px;
     background-size: 108%;
     background-position: top center;
     margin-top: -6.4rem;
