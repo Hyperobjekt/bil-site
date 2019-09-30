@@ -312,7 +312,7 @@ setup.options = {
       zlevel: 1000,
       layout: 'force',
       force: {
-        repulsion: 250,
+        repulsion: 270,
         gravity: 0.015,
         edgeLength: 40,
         layoutAnimation: false
@@ -372,7 +372,7 @@ viz.chart = echarts.init(document.getElementById('viz-space'));
 viz.chart.showLoading();
 viz.chart.setOption(setup.options);
 viz.chart.hideLoading();
-console.log(viz.chart);
+// console.log(viz.chart);
 
 // Item click listener
 viz.chart.on('click', function(e) {
@@ -383,10 +383,9 @@ viz.chart.on('click', function(e) {
     var vSp = jQuery('#viz-space');
     viz.active.clicked = e.data.id;
     var evt = window.event;
+    // console.log(evt);
     var offset = e.data.symbolSize;
     var _item_obj = viz.getItemObj(e.data.id);
-    // console.log('_item_obj');
-    // console.log(_item_obj);
     var _item_links = viz.getItemLinks(e.data.id);
     let _tooltip =    '<div class="tip">' +
                       // '<button class="btn close">&times;</button>' +
@@ -403,20 +402,60 @@ viz.chart.on('click', function(e) {
     // Set up accordion content.
     if (_item_obj.type === 'parent') {
       console.log('it\'s a parent');
+      var parentNodes = Object.values(viz.parents);
+      var parentNode = parentNodes.filter(function(el) {
+        return el.id == nodeID
+      })
+      parentNode = parentNode[0];
+      // var parentNode = viz.parents.filter(function(el) {
+      //   return this.id = nodeID;
+      // });
+      // console.log(parentNode);
+      // console.log(viz.parents[nodeID]);
+      _tooltip += '<a class="" data-toggle="collapse" href="#collapseBib" role="button" aria-expanded="false" aria-controls="collapseBib">' +
+        'BIBLIOGRAPHY' +
+        '<span class="icon">&plus;</span>' +
+      '</a>' +
+      '<div class="collapse" id="collapseBib">' +
+        '<div class="card card-body">' +
+          '<p>' + parentNode.bibliography + '</p>' +
+        '</div>' +
+      '</div>';
     }
     if (_item_obj.type === 'child') {
       console.log('it\'s a child');
     }
     _tooltip += '</div>';
 
+
     $dialog = jQuery('#dialog');
+    _dialog_width = $dialog.width();
+    console.log('width = ' + _dialog_width);
+    var _left = 0;
+    if ((evt.pageX + _dialog_width) > jQuery(window).width()) {
+      console.log('too far to the right');
+      _left = evt.pageX - 450;
+    } else {
+      _left = evt.pageX;
+    }
+    $dialog.find('.dialog-body').html(_tooltip);
     $dialog
-      .html(_tooltip)
       .css({
-        'top': evt.pageY - 15,
-        'left': evt.pageX + offset
+        'top': evt.pageY - offset * 2,
+        'left': _left,
+        'padding': offset,
+        'width': '450px',
+        // 'border': '1px solid black'
       })
       .fadeIn('slow');
+    $dialog.on('mouseenter', function() {
+      // console.log('mouseenter');
+      $dialog.bind('mouseleave', function() {
+        // console.log('mouseleave');
+          $dialog.fadeOut('slow');
+          $dialog.unbind('mouseenter mouseleave');
+      })
+    })
   }
 });
 
