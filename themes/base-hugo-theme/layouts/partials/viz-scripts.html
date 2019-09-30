@@ -43,12 +43,11 @@ viz.links = JSON.parse({{ jsonify .Site.Data.viz.links }});
 {{ if .Site.IsServer }}
   <!-- If site is being served (ostensibly dev) don't compress and minify -->
   <!-- <script  src="{{ "js/echarts/echarts.js"  | absURL }}"></script> -->
-  <!-- <script  src="https://cdnjs.cloudflare.com/ajax/libs/echarts/4.3.0/echarts-en.min.js"></script> -->
   <script  src="https://cdnjs.cloudflare.com/ajax/libs/echarts/4.3.0/echarts-en.js"></script>
   <script  src="{{ "js/viz/viz.js"  | relURL }}"></script>
 {{ else }}
   <!-- If site is production, compress and minify -->
   <!-- <script  src="{{ "js/echarts/echarts.min.js"  | absURL }}"></script> -->
   <script  src="https://cdnjs.cloudflare.com/ajax/libs/echarts/4.3.0/echarts-en.min.js"></script>
-  <script  src="{{ "js/viz.js"  | relURL }}"></script>
+  <script  src="{{ "js/viz/viz.js"  | relURL }}"></script>
 {{ end }}
