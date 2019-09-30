@@ -1,11 +1,12 @@
 .viz-parent {
   .viz-space {
-    z-index: 1000;
+    z-index: 2999;
   }
   .dialog {
     position: absolute;
     background-color: transparent;
     width: 450px;
+    z-index: 3000;
     .dialog-body {
       background-color: white;
       color: gray;
@@ -13,13 +14,6 @@
       box-shadow: 0 1px 4px rgba(79, 79, 79, 0.18);
       border-radius:6px;
       padding: 20px;
-      z-index: 10000;
     }
-    // .hide {
-    //   display: none;
-    // }
-    // .show {
-    //
-    // }
   }
 }
