@@ -19497,12 +19497,16 @@ body.type-positions .modal button.close {
 
 .viz-parent .dialog {
   position: absolute;
+  background-color: transparent;
+  width: 450px;
+}
+
+.viz-parent .dialog .dialog-body {
   background-color: white;
   color: gray;
   border: 1px solid gray;
   box-shadow: 0 1px 4px rgba(79, 79, 79, 0.18);
   border-radius: 6px;
-  width: 30%;
   padding: 20px;
   z-index: 10000;
 }
