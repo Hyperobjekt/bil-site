@@ -19491,4 +19491,20 @@ body.type-positions .modal button.close {
   border: none;
 }
 
+.viz-parent .viz-space {
+  z-index: 1000;
+}
+
+.viz-parent .dialog {
+  position: absolute;
+  background-color: white;
+  color: gray;
+  border: 1px solid gray;
+  box-shadow: 0 1px 4px rgba(79, 79, 79, 0.18);
+  border-radius: 6px;
+  width: 30%;
+  padding: 20px;
+  z-index: 10000;
+}
+
 /*# sourceMappingURL=style.css.map */

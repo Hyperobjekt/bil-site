@@ -14,3 +14,5 @@ I have defined several items in the data directory in case we want to add CMS ed
   * Includes links from the root node, `id` of `root`, to the topics
   * Add each link here, using the `id` of the parent and the child as source and target
   * Use the same format to add links between topics or between subtopics
+* ./data/viz/theme.yml
+  * List of all colors in theme
