@@ -10,8 +10,8 @@ setup.strings.theme = 'THEME';
 setup.strings.subthemes = 'SUB-THEMES';
 setup.nodes = [];
 setup.links = [];
-let linkIndex = 0;
-let colorIndex = 0;
+setup.linkIndex = 0;
+setup.colorIndex = 0;
 const symbolSizeBase = 20;
 // Track who is hovered
 viz.active = {};
@@ -38,6 +38,7 @@ viz.getItemObj = (id) => {
   } else {
     return false;
   }
+
 };
 viz.getItemLinks = (id) => {
   // let _obj = null;
@@ -50,7 +51,7 @@ viz.getItemLinks = (id) => {
 const topicTooltip = {
   // trigger: 'item',
   // formatter: '{c}' + '<br>Click for more',
-  show: true,
+  show: false,
   position: 'right',
   contain: false,
   // itemStyle: {
@@ -64,7 +65,7 @@ const topicTooltip = {
   // }
 }
 const subtopicTooltip = {
-  show: true,
+  show: false,
   position: 'right',
   contain: false,
   // itemStyle: {
@@ -81,18 +82,20 @@ const subtopicTooltip = {
 const topicLabel = {
   // position: 'right',
   // show: false,
-  show: function(el) {
+  // show: false,
+  // function(el) {
     // console.log('show' + (el.data.id == viz.active.hovered));
-    return el.data.id === viz.active.hovered;
+    // return el.data.id === viz.active.hovered;
     // return false;
-  },
+  // },
   normal: {
     position: 'right',
-    show: function(el) {
-      // console.log('show' + (el.data.id == viz.active.hovered));
-      return el.data.id == viz.active.hovered;
-      // return false;
-    },
+    show: true,
+    // function(el) {
+    //   // console.log('show' + (el.data.id == viz.active.hovered));
+    //   // return el.data.id == viz.active.hovered;
+    //   return false;
+    // },
     textStyle: {
       color: '#000',
       fontWeight: '600',
@@ -125,19 +128,12 @@ const topicLabel = {
   },
   // color: '#000',
 }
-const subtopicLabel = {
-  show: function(el) {
-    // console.log('show' + (el.data.id == viz.active.hovered));
-    // return el.data.id == viz.active.hovered;
-    return false;
-  },
+viz.showSubtopicLabel = false;
+let subtopicLabel = {
+  // show: false,
   normal: {
+    show: viz.showSubtopicLabel,
     position: 'right',
-    show: function(el) {
-      // console.log('show' + (el.data.id == viz.active.hovered));
-      // return el.data.id == viz.active.hovered;
-      return false;
-    },
     textStyle: {
       color: '#000',
       fontWeight: '300',
@@ -146,106 +142,110 @@ const subtopicLabel = {
     },
   },
 }
-// Add root node
-const root = {
-  id: 'root',
-  name: "ubi",
-  value: "UBI",
-  category: 'root',
-  // fixed: true,
-  symbol: 'circle',
-  symbolSize: 80,
-  itemStyle: {
-    color: viz.theme[colorIndex]
-  },
-  tooltip: {
-    show: false
-  },
-  label: {
-    show: true,
-    position: 'inside',
-    formatter: '{c}',
-    textStyle: {
-      // color: '#000',
-      fontSize: 20,
-      fontWeight: 200,
-      fontFace: 'sofia-pro'
+
+viz.rebuild = () => {
+  // Clear out nodes object.
+  setup.nodes = [];
+  setup.colorIndex = 0;
+  setup.linkIndex = 0;
+  // Add root node
+  const root = {
+    id: 'root',
+    name: "ubi",
+    value: "UBI",
+    category: 'root',
+    // fixed: true,
+    symbol: 'circle',
+    symbolSize: 80,
+    itemStyle: {
+      color: viz.theme[setup.colorIndex]
+    },
+    tooltip: {
+      show: false
+    },
+    label: {
+      show: true,
+      position: 'inside',
+      formatter: '{c}',
+      textStyle: {
+        // color: '#000',
+        fontSize: 20,
+        fontWeight: 200,
+        fontFace: 'sofia-pro'
+      }
+    },
+  };
+  (setup.nodes).push(root);
+  setup.colorIndex++;
+  // Build parent nodes
+  viz.parents.forEach(function(el) {
+    // console.log(i);
+    // console.log(el.title);
+    if (!!el.display) {
+      // Add item to nodes array
+      const item = {
+        id: el.id,
+        name: el.title,
+        value: el.title,
+        category: el.id,
+        // fixed: true,
+        symbol: 'circle',
+        symbolSize: 40,
+        itemStyle: {
+          color: viz.theme[setup.colorIndex]
+        },
+        tooltip: topicTooltip,
+        label: topicLabel
+      };
+      (setup.nodes).push(item);
+      setup.colorIndex++;
     }
-  },
-};
-(setup.nodes).push(root);
-colorIndex++;
-
-viz.parents.forEach(function(el) {
-  // console.log(i);
-  // console.log(el.title);
-  if (!!el.display) {
-    // Add item to nodes array
-    const item = {
-      id: el.id,
-      name: el.title,
-      value: el.title,
-      category: el.id,
-      // fixed: true,
-      symbol: 'circle',
-      symbolSize: 40,
-      itemStyle: {
-        color: viz.theme[colorIndex]
-      },
-      tooltip: topicTooltip,
-      label: topicLabel
+  });
+  viz.children.forEach(function(el) {
+    // console.log(i);
+    // console.log(el.title);
+    const _parent = setup.nodes.filter(
+      function(value){ return value.id === el.parent }
+    )
+    const _viz_parent = viz.parents.filter(
+      function(value){ return value.id === el.parent }
+    )
+    // console.log('_parent');
+    // console.log(_parent);
+    if (!!el.display && !!_viz_parent[0].display) {
+      // console.log('display is on');
+      // Add item to nodes array
+      const item = {
+        id: el.id,
+        name: el.title,
+        value: el.title,
+        category: el.id,
+        // fixed: true,
+        symbol: 'circle',
+        symbolSize: 20,
+        itemStyle: {
+          color: _parent[0].itemStyle.color,
+        },
+        tooltip: subtopicTooltip,
+        label: subtopicLabel
+      };
+      (setup.nodes).push(item);
+    }
+  });
+  // Build links object
+  viz.links.forEach(function(el) {
+    const link = {
+      id: setup.linkIndex,
+      source: el.source,
+      target: el.target
     };
-    (setup.nodes).push(item);
-    colorIndex++;
-  }
-});
-// console.log('Done adding parent nodes');
-// console.log(setup.nodes);
-
-viz.children.forEach(function(el) {
-  // console.log(i);
-  // console.log(el.title);
-  const _parent = setup.nodes.filter(
-    function(value){ return value.id === el.parent }
-  )
-  const _viz_parent = viz.parents.filter(
-    function(value){ return value.id === el.parent }
-  )
-  // console.log('_parent');
-  // console.log(_parent);
-  if (!!el.display && !!_viz_parent[0].display) {
-    // console.log('display is on');
-    // Add item to nodes array
-    const item = {
-      id: el.id,
-      name: el.title,
-      value: el.title,
-      category: el.id,
-      // fixed: true,
-      symbol: 'circle',
-      symbolSize: 20,
-      itemStyle: {
-        color: _parent[0].itemStyle.color,
-      },
-      tooltip: subtopicTooltip,
-      label: subtopicLabel
-    };
-    (setup.nodes).push(item);
-  }
-});
+    (setup.links).push(link);
+    setup.linkIndex++;
+  });
+}
+viz.rebuild();
 // console.log('Done adding child nodes');
 // console.log(setup.nodes);
-// Build links object
-viz.links.forEach(function(el) {
-  const link = {
-    id: linkIndex,
-    source: el.source,
-    target: el.target
-  };
-  (setup.links).push(link);
-  linkIndex++;
-});
-
 setup.options = {
   title: {
     show: false,
@@ -256,54 +256,12 @@ setup.options = {
   },
   animation: false,
   tooltip: {
-    trigger: 'item',
-    position: 'right',
-    zlevel: 10,
-    confine: true,
-    showDelay: 200,
-    hideDelay: 0,
-    backgroundColor: 'transparent', // '#fff',
-    // borderColor: '#979797',
-    // extraCssText: 'box-shadow: 0 1px 4px rgba(79, 79, 79, 0.18);border-radius:6px;width:30%;',
-    padding: [40, 0, 0, 0],
-    enterable: false,
-    formatter: function(item) {
-      // console.log('formatter item');
-      // console.log(item);
-      // const _item_obj = viz.getItemObj(item.data.id);
-      // // console.log('_item_obj');
-      // // console.log(_item_obj);
-      // const _item_links = viz.getItemLinks(item.data.id);
-      // console.log('_item_links');
-      // console.log(_item_links);
-      // Add the item title.
-      // let _tooltip =    '<div class="tip">' +
-      //                   // '<button class="btn close">&times;</button>' +
-      //                   '<span class="subtext">' + setup.strings.theme + '</span>' +
-      //                   '<div class="theme title">' + item.data.name + '</div>';
-      // // If there are links, render them.
-      // if (_item_links.length >= 1) {
-      //   _tooltip += '<span class="subtext">' + setup.strings.subthemes + '</span>';
-      //   _item_links.forEach(function(item) {
-      //     const related = viz.getItemObj(item.target);
-      //   _tooltip += '<div class="related title">' + related.title + '</div>';
-      //   });
-      // }
-      // // Set up accordion content.
-      // // if (_item_obj.type === 'parent') {
-      // //   console.log('it\'s a parent');
-      // // }
-      // // if (_item_obj.type === 'child') {
-      // //   console.log('it\'s a child');
-      // // }
-      // _tooltip += '</div>';
-      return 'Click for more';
-    },
-    // extraCssText: 'box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);'
-    textStyle: {
-      // color: '#000',
-      extraCssText: 'z-index:500;'
-    }
+    show: false,
+  },
+  // extraCssText: 'box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);'
+  textStyle: {
+    // color: '#000',
+    extraCssText: 'z-index:500;'
   },
   series : [
     {
@@ -349,22 +307,22 @@ setup.options = {
  * @param  Object e Event object
  * @return null
  */
-// function stopWheel(e){
-//   if(!e){ /* IE7, IE8, Chrome, Safari */
-//     e = window.event;
-//   }
-//   if(e.preventDefault) { /* Chrome, Safari, Firefox */
-//     e.preventDefault();
-//   }
-//   e.returnValue = false; /* IE7, IE8 */
-// }
-// jQuery('#viz-space').hover(function() {
-//   jQuery(document).bind('mousewheel DOMMouseScroll', function(){
-//     stopWheel();
-//   });
-// }, function() {
-//   jQuery(document).unbind('mousewheel DOMMouseScroll');
-// });
+function stopWheel(e){
+  if(!e){ /* IE7, IE8, Chrome, Safari */
+    e = window.event;
+  }
+  if(e.preventDefault) { /* Chrome, Safari, Firefox */
+    e.preventDefault();
+  }
+  e.returnValue = false; /* IE7, IE8 */
+}
+jQuery('#viz-space').hover(function() {
+  jQuery(document).bind('mousewheel DOMMouseScroll', function(){
+    stopWheel();
+  });
+}, function() {
+  jQuery(document).unbind('mousewheel DOMMouseScroll');
+});
 
 
 // Init eCharts
@@ -373,7 +331,7 @@ viz.chart.showLoading();
 viz.chart.setOption(setup.options);
 viz.chart.hideLoading();
 // console.log(viz.chart);
-
+viz.zoomLevel = null;
 // Item click listener
 viz.chart.on('click', function(e) {
   console.log('click');
@@ -384,7 +342,7 @@ viz.chart.on('click', function(e) {
     viz.active.clicked = e.data.id;
     var evt = window.event;
     // console.log(evt);
-    var offset = e.data.symbolSize;
+    var offset = e.data.symbolSize + (e.data.symbolSize * viz.zoomlevel);
     var _item_obj = viz.getItemObj(e.data.id);
     var _item_links = viz.getItemLinks(e.data.id);
     let _tooltip =    '<div class="tip">' +
@@ -427,7 +385,7 @@ viz.chart.on('click', function(e) {
     }
     _tooltip += '</div>';
 
-
+    // Build dialog
     $dialog = jQuery('#dialog');
     _dialog_width = $dialog.width();
     console.log('width = ' + _dialog_width);
@@ -458,9 +416,29 @@ viz.chart.on('click', function(e) {
     })
   }
 });
-
+viz.zoomlevel = 0;
 // Zoom event listener
-(viz.chart).on('dataZoom', function(e) {
-  console.log('zoomed');
-  console.log(e);
+viz.chart.on('graphRoam', function(e) {
+  // console.log('zoomed');
+  // console.log(e);
+  if (e.zoom) {
+    // console.log('has zoom node');
+    // Update zoom level
+    if (e.zoom < 1) {
+      viz.zoomLevel = viz.zoomLevel - Math.abs( e.zoom - 1 );
+    } else {
+      viz.zoomLevel = viz.zoomLevel + Math.abs( e.zoom - 1 );
+    }
+    // console.log('viz.zoomLevel = ' + viz.zoomLevel);
+    // Update label display based on zoom level
+    if (viz.zoomLevel > 0.35) {
+      subtopicLabel.normal.show = true;
+      viz.rebuild();
+      viz.chart.setOption(setup.options);
+    } else {
+      subtopicLabel.normal.show = false;
+      viz.rebuild();
+      viz.chart.setOption(setup.options);
+    }
+  }
 });
