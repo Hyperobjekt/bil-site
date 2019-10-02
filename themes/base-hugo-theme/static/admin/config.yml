@@ -1,0 +1,22 @@
+backend:
+  name: git-gateway
+  branch: cms-dev # Branch to update (optional; defaults to master)
+
+publish_mode: editorial_workflow
+
+media_folder: "content/uploads" # Media files will be stored in the repo under content/uploads (to make the image processing work we have to use this technique to spoof the images being page resources
+public_folder: "/uploads" # The src attribute for uploaded media will begin with this
+
+collections:
+  #WHAT IS BIL PAGE
+  - label: "What is BIL?"
+    name: what_is_bil
+    preview_path: what-is-bil/
+    files:
+        - label: What is BIL Page Content
+          name: what_is_bil_content
+          file: "content/about/what-is-bil/_index.md"
+          extension: "md"
+          fields:
+            - {label: Panel 1 Body text, name: body1, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+        

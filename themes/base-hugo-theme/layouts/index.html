@@ -1,6 +1,8 @@
 {{ define "main" }}
 
 <div id="hero" class="hero" style="">
+    {{ with .Site.Data.home.whatWeDo }} 
+    
     <div class="hero-child row">
  
        
@@ -14,7 +16,7 @@
     </div>
     <div id="hero-wwd" class="row">
         <div class="col-md-8 offset-lg-1 col-xl-10 offset-lg-1 ">
-            <h2 class="whitetext text-md-left mb-sm-4 mb-md-4 mb-xl-5">What We Do</h2>
+            <h2 class="whitetext text-md-left mb-sm-4 mb-md-4 mb-xl-5">{{ .heading }}</h2>
         </div>
     </div> 
 </div>
@@ -25,78 +27,82 @@
             <div class=" col-0"></div>
             <div class="col-md-4 offset-lg-1 col-lg offset-lg-0">
                 <div class="rect-divider mb-sm-3 mb-md-3 mb-lg-4"></div>
-                <p class="whitetext mb-sm-3 mb-md-4 mb-lg-0">Convene scholars, policymakers, business leaders, think tanks, nonprofits, and foundations around the politics and economics of UBI</p>
+                <p class="whitetext mb-sm-3 mb-md-4 mb-lg-0">{{ .p1 }}</p>
             </div>
             <div class="col-md-4 offset-lg-1 col-lg offset-lg-0">
                 <div class="rect-divider mb-sm-3 mb-md-3 mb-lg-4"></div>
-                <p class="whitetext mb-sm-3 mb-md-4 mb-lg-0">Provide an academic home for the research and the study of the development and impact of UBI</p>
+                <p class="whitetext mb-sm-3 mb-md-4 mb-lg-0">{{ .p2 }}</p>
             </div>
             <div class="col-md-4 offset-lg-1 col-lg offset-lg-0">
                 <div class="rect-divider mb-sm-3 mb-md-3 mb-lg-4"></div>
-                <p class="whitetext mb-sm-3 mb-md-3 mb-lg-0">Inform policymakers and practitioners about latest best practices</p>
+                <p class="whitetext mb-sm-3 mb-md-3 mb-lg-0">{{ .p3 }}</p>
             </div>
             <div class="col-lg-1"></div>
         </div>
         <div class="row">
             <div class="col-md-3 offset-lg-1 offset-lg-1">
-                <a class="plainlink g-white whitetext" href="/about/">LEARN MORE {{ partial "rightarrow.html" }}</a>
+                <a class="plainlink g-white whitetext" href="/about/">{{ .cta }} {{ partial "rightarrow.html" }}</a>
             </div>
         </div>    
     </div>
+
+  
 
 <!--/////       WHAT WE DO: MOBILE      \\\\\-->
 <div id="what-we-do2" class="grn-bg d-md-none pt-sm-5 pt-md-7 pt-lg-9 pt-xl-12 pb-sm-7 pb-md-9 pb-lg-11 pb-xl-13">
     <div class="row">
         <div class="col-md-8 offset-md-1 col-xl-10 offset-lg-1 ">
-            <h2 class="tealgrntext mb-sm-4 mb-md-4 mb-xl-5">What We Do</h2>
+            <h2 class="tealgrntext mb-sm-4 mb-md-4 mb-xl-5">{{ .heading }}</h2>
         </div>
     </div>
     <div class="row mb-3">
         <div class=" col-lg-1"></div>
         <div class="col-md-4 offset-md-1 col-lg offset-lg-0">
             <div class="rect-divider mb-sm-3 mb-md-3 mb-lg-4"></div>
-            <p class="whitetext mb-sm-3 mb-md-4 mb-lg-0">Convene scholars, policymakers, business leaders, think tanks, nonprofits, and foundations around the politics and economics of UBI</p>
+            <p class="whitetext mb-sm-3 mb-md-4 mb-lg-0">{{ .p1 }}</p>
         </div>
         <div class="col-md-4 offset-md-1 col-lg offset-lg-0">
             <div class="rect-divider mb-sm-3 mb-md-3 mb-lg-4"></div>
-            <p class="whitetext mb-sm-3 mb-md-4 mb-lg-0">Provide an academic home for the research and the study of the development and impact of UBI</p>
+            <p class="whitetext mb-sm-3 mb-md-4 mb-lg-0">{{ .p2 }}</p>
         </div>
         <div class="col-md-4 offset-md-1 col-lg offset-lg-0">
             <div class="rect-divider mb-sm-3 mb-md-3 mb-lg-4"></div>
-            <p class="whitetext mb-sm-3 mb-md-3 mb-lg-0">Inform policymakers and practitioners about latest best practices</p>
+            <p class="whitetext mb-sm-3 mb-md-3 mb-lg-0">{{ .p3 }}</p>
         </div>
         <div class="col-lg-1"></div>
     </div>
     <div class="row">
         <div class="col-md-3 offset-md-1 offset-lg-1">
-            <a class="plainlink g-white whitetext" href="/about/">LEARN MORE {{ partial "rightarrow.html" }}</a>
+            <a class="plainlink g-white whitetext" href="/about/">{{ .cta }} {{ partial "rightarrow.html" }}</a>
         </div>
     </div>    
 </div>
+{{ end }}
 <!--/////       WHAT IS UBI?      \\\\\-->
+{{ with .Site.Data.home.whatIs }} 
 <div id="what-is-ubi">
     <div class="row">
         <div class="col-md-6 col-lg-5 mx-auto d-flex flex-column align-items-center my-sm-5 my-md-8 my-lg-10 my-xl-11">
-            <h2 class="text-center blacktext mb-2">What is Basic Income?</h2>
-            <p class="text-center slatetext">Some defining characteristics are:</p>
+            <h2 class="text-center blacktext mb-2">{{ .heading }}</h2>
+            <p class="text-center slatetext">{{ .subhead }}</p>
         </div>
     </div>
     <div class="row mb-md-4 mb-lg-6 mb-xl-11">
         <div class="col-md-1 col-lg-2"></div>
         <div class="col-md d-flex flex-column align-items-center">
             <div id="periodic" class="what-is-icon mb-sm-1"></div>
-            <h3 class="blacktext">Periodic</h3>
-            <p class="slatetext text-center mt-sm-1 mb-sm-3 my-md-0">It is paid at regular intervals (for example every month), not as a one-off grant.</p>
+            <h3 class="blacktext">{{ .item1Head }}</h3>
+            <p class="slatetext text-center mt-sm-1 mb-sm-3 my-md-0">{{ .item1Text }}</p>
         </div>
         <div class="col-md d-flex flex-column align-items-center">
             <div id="cash-payment" class="what-is-icon mb-sm-1"></div>
-            <h3 class="blacktext">Cash payment</h3>
-            <p class="slatetext text-center mt-sm-1 mb-sm-3 my-md-0">It is paid in an appropriate medium of exchange, allowing those who receive it to decide what they spend it on.</p>
+            <h3 class="blacktext">{{ .item2Head }}</h3>
+            <p class="slatetext text-center mt-sm-1 mb-sm-3 my-md-0">{{ .item2Text}}</p>
         </div>
         <div class="col-md d-flex flex-column align-items-center">
             <div id="universal" class="what-is-icon mb-sm-1"></div>
-            <h3 class="blacktext">Universal</h3>
-            <p class="slatetext text-center mt-sm-1 mb-sm-3 my-md-0">It is paid to all, without means test.</p>
+            <h3 class="blacktext">{{ .item3Head }}</h3>
+            <p class="slatetext text-center mt-sm-1 mb-sm-3 my-md-0">{{ .item3Text }}</p>
         </div>
         <div class="col-md-1 col-lg-2"></div>
     </div>
@@ -104,32 +110,35 @@
         <div class="col-md-3"></div>
         <div class="col-md d-flex flex-column align-items-center">
             <div id="individual" class="what-is-icon mb-sm-1"></div>
-            <h3 class="blacktext">Individual</h3>
-            <p class="slatetext text-center mt-sm-1 mb-sm-3 my-md-0">It is paid on an individual basis—and not, for instance, to households.</p>
+            <h3 class="blacktext">{{ .item4Head }}</h3>
+            <p class="slatetext text-center mt-sm-1 mb-sm-3 my-md-0">{{ .item4Text }}</p>
         </div>
         <div class="col-md d-flex flex-column align-items-center">
             <div id="unconditional" class="what-is-icon mb-sm-1"></div>
-            <h3 class="blacktext">Unconditional</h3>
-            <p class="slatetext text-center mt-sm-1 mb-sm-3 my-md-0">It is paid without a requirement to work or to demonstrate willingness-to-work.​</p>
+            <h3 class="blacktext">{{ .item5Head }}</h3>
+            <p class="slatetext text-center mt-sm-1 mb-sm-3 my-md-0">{{ .item5Text }}</p>
         </div>
         <div class="col-md-3"></div>
     </div>
     <div class="row">
         <div class="col-3 mx-auto d-flex flex-column align-items-center mt-sm-5 mt-md-8 mt-lg-9 mt-xl-11 mb-sm-8 mb-md-10 mb-lg-12 mb-xl-15">
-        <a class="d-flex justify-content-center align-items-center btn btn-primary" href="/about/what-is-ubi">Learn more</a>
+        <a class="d-flex justify-content-center align-items-center btn btn-primary" href="/about/what-is-ubi">{{ .cta }}</a>
     </div>
 </div>
+{{ end }}
 <!--/////----   Visualization   ----\\\\\-->
 <div id="hp-viz" style="background-color: #f1f1f1;">   
+{{ with .Site.Data.home.vizCta }}
     <div class="row">   
     <div class="col-md-5 offset-md-1 pt-sm-20 pb-sm-6 py-md-11 py-lg-15 py-xl-16">
-        <h2 class="blacktext text-sm-center text-md-left mt-sm-4 mt-md-0 mb-1">Coming Soon: A Map of UBI Research</h2>
-        <p class="slatetext mt-2">Currently in development, this interactive network visualization will serve as the first-ever online platform for exploring existing research on Basic Income.</p>
+        <h2 class="blacktext text-sm-center text-md-left mt-sm-4 mt-md-0 mb-1">{{ .heading }}</h2>
+        <p class="slatetext mt-2">{{ .subhead }}</p>
             <div class="news-item-link">
-                    <a class="plainlink coldblcktext" href="/research/mapping-ubi-research">LEARN MORE {{ partial "rightarrow.html" }}</a>
+                    <a class="plainlink coldblcktext" href="/research/mapping-ubi-research">{{ .cta }} {{ partial "rightarrow.html" }}</a>
                 </div>
     </div>
     </div>
+    {{ end }}
 </div>
 <!--/////----   Homepage Recent News   ----\\\\\-->
 <div id="hp-news" class="mt-sm-6 mt-md-8 mt-lg-9 mt-xl-10">
