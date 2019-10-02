@@ -338,7 +338,7 @@ setup.options = {
       },
       lineStyle: {
         color: 'source',
-        curveness: 0.3,
+        curveness: 0.2,
         width: 1.5
       },
       // emphasis: {

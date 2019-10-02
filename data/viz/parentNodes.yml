@@ -11,8 +11,8 @@
 - id: family
   display: 1
   title: Family
-  xAxis: 760
-  yAxis: 0
+  xAxis: 500
+  yAxis: -15
   bibliographyAxis: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
@@ -21,8 +21,8 @@
 - id: welfare
   display: 1
   title: Welfare
-  xAxis: 650
-  yAxis: -200
+  xAxis: 300
+  yAxis: 60
   bibliographyAxis: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
@@ -171,8 +171,8 @@
 - id: economic-effects
   display: 1
   title: Economic Effects
-  xAxis: 300
-  yAxis: 60
+  xAxis: 600
+  yAxis: -230
   bibliographyAxis: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
@@ -201,8 +201,8 @@
 - id: race
   display: 1
   title: Race
-  xAxis: 500
-  yAxis: -15
+  xAxis: 760
+  yAxis: 0
   bibliographyAxis: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
