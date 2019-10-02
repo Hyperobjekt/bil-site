@@ -26,8 +26,20 @@ body1: >-
   Basic Income Lab received seed funding from the Economic Security Project and
   the McCoy Family Center for Ethics in Society to create an academic home for
   the study and evaluation of basic income experiments.
-
-
-  TESTING
+heading2:
+p2p1:
+p2p2:
+p2p3:
+heading3:
+body2:
+heading4:
+body4:
+heading5:
+p5p1:
+p5p2:
+p5p3:
+p5p4:
+heading6:
+body6:  
 ---
 
