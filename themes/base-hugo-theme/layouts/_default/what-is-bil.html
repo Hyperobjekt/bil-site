@@ -1,12 +1,12 @@
 {{ define "main" }}
-{{ with .Page.Params }}
+
 <div id="hero" class="hero">
     <div class="hero-child row">
         
         <div class="hero-copy col-10 col-md-8 offset-md-1 d-flex align-items-center">
-        
-            <h1 class="page-hero">{{ .heroText }}</h1>
-            
+        {{ with .Page.Params }}
+            <h1 class="page-hero">{{ .herotext }}</h1>
+        {{ end }}    
         </div>
     </div>
 </div>
@@ -34,7 +34,7 @@
 </div>
 <!-- /SUBNAV -->
 
-
+{{ with .Page.Params }}
 <!--/////       WHAT IS BIL?      \\\\\-->
 <div id="what-is-text" class="pt-sm-5 pt-md-7 pt-lg-9 pt-xl-12 pb-sm-6 pb-md-7 pb-xl-8">
     <div class="row">

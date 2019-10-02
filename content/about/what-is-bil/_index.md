@@ -1,7 +1,7 @@
 ---
 title: What Is BIL
 layout: what-is-bil
-heroText: 'The Basic Income Lab holds conferences, community events, classes, supports research, and offers advising to cash-grant experiments.'
+herotext: The Basic Income Lab holds conferences, community events, classes, supports research, and offers advising to cash-grant experiments.
 heading1: Our Mission and Purpose
 body1: >-
   The Stanford Basic Income Lab aspires to be an academic home for the study of
