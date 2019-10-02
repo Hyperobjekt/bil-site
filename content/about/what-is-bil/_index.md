@@ -1,6 +1,7 @@
 ---
 title: What Is BIL
 layout: what-is-bil
+heroText: The Basic Income Lab holds conferences, community events, classes, supports research, and offers advising to cash-grant experiments.
 heading1: Our Mission and Purpose
 body1: >-
   The Stanford Basic Income Lab aspires to be an academic home for the study of
@@ -41,7 +42,7 @@ p2p3: >-
   philosophy and economics of basic income and informs policymakers and
   practitioners about best practices in UBI experimentation
 heading3: Why Basic Income?
-body2: >-
+body3: >-
   As automation, growing inequalities, increasing poverty, social precariousness
   and structural unemployment grow in relevance both in the United States and
   around the world, many experts have looked at alternative proposals to address
