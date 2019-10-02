@@ -1,6 +1,6 @@
 ---
-title: "What Is BIL"
-layout: "what-is-bil"
+title: What Is BIL
+layout: what-is-bil
 heading1: Our Mission and Purpose
 body1: >-
   The Stanford Basic Income Lab aspires to be an academic home for the study of
@@ -26,5 +26,8 @@ body1: >-
   Basic Income Lab received seed funding from the Economic Security Project and
   the McCoy Family Center for Ethics in Society to create an academic home for
   the study and evaluation of basic income experiments.
+
+
+  TESTING
 ---
 
