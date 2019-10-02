@@ -18,5 +18,8 @@ collections:
           file: "content/about/what-is-bil/_index.md"
           extension: "md"
           fields:
+            - {label: pageTitle, name: title, widget: hidden, default: "What Is BIL"}
+            - {label: layout, name: layout, widget: hidden, default: "what-is-bil"}
+            - {label: Panel 1 Heading, name: heading1, widget: string}
             - {label: Panel 1 Body text, name: body1, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
         
