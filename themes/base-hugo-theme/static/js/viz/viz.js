@@ -12,11 +12,8 @@ setup.nodes = [];
 setup.links = [];
 setup.linkIndex = 0;
 setup.colorIndex = 0;
-<<<<<<< HEAD
-=======
 setup.childRepulsion = 75000;
 setup.childAngle = 18;
->>>>>>> add-viz
 const symbolSizeBase = 20;
 // Track who is hovered
 viz.active = {};
@@ -85,28 +82,9 @@ const subtopicTooltip = {
 }
 // Label for topics and subtopics
 const topicLabel = {
-<<<<<<< HEAD
-  // position: 'right',
-  // show: false,
-  // show: false,
-  // function(el) {
-    // console.log('show' + (el.data.id == viz.active.hovered));
-    // return el.data.id === viz.active.hovered;
-    // return false;
-  // },
   normal: {
     position: 'right',
     show: true,
-    // function(el) {
-    //   // console.log('show' + (el.data.id == viz.active.hovered));
-    //   // return el.data.id == viz.active.hovered;
-    //   return false;
-    // },
-=======
-  normal: {
-    position: 'right',
-    show: true,
->>>>>>> add-viz
     textStyle: {
       color: '#000',
       fontWeight: '600',
@@ -137,9 +115,6 @@ let subtopicLabel = {
     },
   },
 }
-<<<<<<< HEAD
-
-=======
 const getRandom = (start, end) => {
   console.log('getRandom()');
   var diff = end - start;
@@ -208,7 +183,6 @@ viz.setCoords = () => {
   console.log(viz.children);
 }
 // viz.setCoords();
->>>>>>> add-viz
 viz.rebuild = () => {
   // Clear out nodes object.
   setup.nodes = [];
@@ -223,11 +197,8 @@ viz.rebuild = () => {
     // fixed: true,
     symbol: 'circle',
     symbolSize: 80,
-<<<<<<< HEAD
-=======
     x: 0,
     y: 0,
->>>>>>> add-viz
     itemStyle: {
       color: viz.theme[setup.colorIndex]
     },
