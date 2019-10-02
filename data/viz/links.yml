@@ -1,9 +1,9 @@
 - source: root
   target: gender
-- source: gender
-  target: family
-- source: gender
-  target: welfare
+# - source: gender
+#   target: family
+# - source: gender
+#   target: welfare
 - source: gender
   target: empowerment-within-the-household
 - source: gender

@@ -12,6 +12,8 @@ setup.nodes = [];
 setup.links = [];
 setup.linkIndex = 0;
 setup.colorIndex = 0;
+setup.childRepulsion = 75000;
+setup.childAngle = 18;
 const symbolSizeBase = 20;
 // Track who is hovered
 viz.active = {};
@@ -38,7 +40,6 @@ viz.getItemObj = (id) => {
   } else {
     return false;
   }
-
 };
 viz.getItemLinks = (id) => {
   // let _obj = null;
@@ -80,22 +81,9 @@ const subtopicTooltip = {
 }
 // Label for topics and subtopics
 const topicLabel = {
-  // position: 'right',
-  // show: false,
-  // show: false,
-  // function(el) {
-    // console.log('show' + (el.data.id == viz.active.hovered));
-    // return el.data.id === viz.active.hovered;
-    // return false;
-  // },
   normal: {
     position: 'right',
     show: true,
-    // function(el) {
-    //   // console.log('show' + (el.data.id == viz.active.hovered));
-    //   // return el.data.id == viz.active.hovered;
-    //   return false;
-    // },
     textStyle: {
       color: '#000',
       fontWeight: '600',
@@ -103,21 +91,6 @@ const topicLabel = {
       fontSize: 16
     },
   },
-  // itemStyle: {
-  //   // color: 'black',
-  //   textStyle: {
-  //     color: '#000',
-  //     fontWeight: 'bold',
-  //     fontFace: 'sofia-pro',
-  //     fontSize: 20
-  //   }
-  // },
-  // textStyle: {
-  //   color: '#000',
-  //   fontWeight: 'bold',
-  //   fontFace: 'sofia-pro',
-  //   fontSize: 20
-  // },
   formatter: function(el) {
     console.log('formatter', el);
     if (el.data.id === viz.active.hovered) {
@@ -125,8 +98,7 @@ const topicLabel = {
     } else {
       return el.data.value + 'blah';
     }
-  },
-  // color: '#000',
+  }
 }
 viz.showSubtopicLabel = false;
 let subtopicLabel = {
@@ -142,7 +114,74 @@ let subtopicLabel = {
     },
   },
 }
+const getRandom = (start, end) => {
+  console.log('getRandom()');
+  var diff = end - start;
+  const rand = Math.floor((Math.random() * diff) + start);
+  if (rand > -100000 && rand < 100000) {
+    if (rand < 0) {
+      return rand - 100000;
+    } else {
+      return rand + 100000;
+    }
+  } else {
+    return rand; // Math.floor((Math.random() * diff) + start);
+  }
+}
+viz.setCoords = () => {
+  const _stageWidth = jQuery('#viz-space').width();
+  const _stageHeight = jQuery('#viz-space').height();
+  const _buffer = 500;
+  const _horizRange = [0 - (_stageWidth * _buffer), 0 + (_stageWidth * _buffer)];
+  const _vertRange = [(0 - (_stageHeight * _buffer)), (0 + (_stageHeight * _buffer))];
+  console.log('_stageWidth is ' + _stageWidth + 'and _stageHeight is ' + _stageHeight);
+  console.log('_horizRange is ' + _horizRange + 'and _vertRange is ' + _vertRange);
+  // Set x and y coordinates for parents and children
+  // Parents get randomized x and y in relation to size.
+  viz.parents.forEach((el) => {
+    el.x = getRandom(_horizRange[0], _horizRange[1]);
+    el.y = getRandom(_vertRange[0], _vertRange[1]);
+    // const children = [];
+    console.log('Parent: ' + el.x + ', ' + el.y);
+    let chIndex = 0;
+    let firstCh = null;
+    viz.children.forEach((ch) => {
+      console.log('index = ' + chIndex);
+      if (ch.parent === el.id) {
+        console.log('Found a child for ' + el.id);
+        // setup.childRepulsion = the distance
+        // setup.childAngle = degrees between children
+        ch.x = (el.x > 0) ?
+          el.x + Math.abs((Math.sin(setup.childAngle * chIndex)) * setup.childRepulsion) :
+          el.x - Math.abs((Math.sin(setup.childAngle * chIndex)) * setup.childRepulsion);
+        ch.y = (el.y > 0) ?
+          el.y + Math.abs((Math.cos(setup.childAngle * chIndex)) * setup.childRepulsion) :
+          el.y - Math.abs((Math.cos(setup.childAngle * chIndex)) * setup.childRepulsion);
 
+        if (setup.childAngle * chIndex <= 45 || (setup.childAngle * chIndex > 90 && setup.childAngle * chIndex <= 180)) {
+          ch.x = (el.x > 0) ?
+            el.x + Math.abs((Math.sin(setup.childAngle * chIndex)) * setup.childRepulsion) :
+            el.x - Math.abs((Math.sin(setup.childAngle * chIndex)) * setup.childRepulsion);
+          ch.y = (el.y > 0) ?
+            el.y + Math.abs((Math.cos(setup.childAngle * chIndex)) * setup.childRepulsion) :
+            el.y - Math.abs((Math.cos(setup.childAngle * chIndex)) * setup.childRepulsion);
+        } else if (setup.childAngle * chIndex > 45 && setup.childAngle * chIndex <= 90 ||
+            (setup.childAngle * chIndex > 180 && setup.childAngle * chIndex <= 360)) {
+          ch.x = (el.x > 0) ?
+            el.x + Math.abs((Math.cos(setup.childAngle * chIndex)) * setup.childRepulsion) :
+            el.x - Math.abs((Math.cos(setup.childAngle * chIndex)) * setup.childRepulsion);
+          ch.y = (el.y > 0) ?
+            el.y + Math.abs((Math.sin(setup.childAngle * chIndex)) * setup.childRepulsion) :
+            el.y - Math.abs((Math.sin(setup.childAngle * chIndex)) * setup.childRepulsion);
+        }
+        console.log('Child of ' + el.id + ': '  + ch.x + ', ' + ch.y);
+        chIndex++;
+      }
+    });
+  })
+  console.log(viz.children);
+}
+// viz.setCoords();
 viz.rebuild = () => {
   // Clear out nodes object.
   setup.nodes = [];
@@ -157,6 +196,8 @@ viz.rebuild = () => {
     // fixed: true,
     symbol: 'circle',
     symbolSize: 80,
+    x: 0,
+    y: 0,
     itemStyle: {
       color: viz.theme[setup.colorIndex]
     },
@@ -179,7 +220,6 @@ viz.rebuild = () => {
   setup.colorIndex++;
   // Build parent nodes
   viz.parents.forEach(function(el) {
-    // console.log(i);
     // console.log(el.title);
     if (!!el.display) {
       // Add item to nodes array
@@ -188,6 +228,8 @@ viz.rebuild = () => {
         name: el.title,
         value: el.title,
         category: el.id,
+        x: el.xAxis,
+        y: el.yAxis,
         // fixed: true,
         symbol: 'circle',
         symbolSize: 40,
@@ -202,7 +244,6 @@ viz.rebuild = () => {
     }
   });
   viz.children.forEach(function(el) {
-    // console.log(i);
     // console.log(el.title);
     const _parent = setup.nodes.filter(
       function(value){ return value.id === el.parent }
@@ -220,9 +261,10 @@ viz.rebuild = () => {
         name: el.title,
         value: el.title,
         category: el.id,
-        // fixed: true,
+        x: el.xAxis,
+        y: el.yAxis,
         symbol: 'circle',
-        symbolSize: 20,
+        symbolSize: 15,
         itemStyle: {
           color: _parent[0].itemStyle.color,
         },
@@ -244,8 +286,8 @@ viz.rebuild = () => {
   });
 }
 viz.rebuild();
-// console.log('Done adding child nodes');
-// console.log(setup.nodes);
+console.log('Done adding child nodes');
+console.log(setup.nodes);
 setup.options = {
   title: {
     show: false,
@@ -254,7 +296,9 @@ setup.options = {
     top: 'bottom',
     left: 'right'
   },
-  animation: false,
+  animation: true,
+  animationDuration: 1500,
+  animationEasingUpdate: 'quinticInOut',
   tooltip: {
     show: false,
   },
@@ -268,20 +312,22 @@ setup.options = {
       name: 'UBI',
       type: 'graph',
       zlevel: 1000,
-      layout: 'force',
-      force: {
-        repulsion: 270,
-        gravity: 0.015,
-        edgeLength: 40,
-        layoutAnimation: false
-      },
+      // layout: 'force',
+      layout: 'none',
+      // zoom: 1.15,
+      nodeScaleRatio: 0.35,
+      // force: {
+      //   repulsion: 270,
+      //   gravity: 0.015,
+      //   edgeLength: 40,
+      //   layoutAnimation: false,
+      //   friction: 0.1
+      // },
       roam: true,
-      // nodeScaleRatio: 0,
       draggable: true,
       data: setup.nodes,
       links: setup.links,
-      // categories: setup.categories,
-      focusNodeAdjacency: true,
+      focusNodeAdjacency: false,
       itemStyle: {
         normal: {
           borderColor: '#fff',
@@ -292,13 +338,14 @@ setup.options = {
       },
       lineStyle: {
         color: 'source',
-        curveness: 0.3
+        curveness: 0.3,
+        width: 1.5
       },
-      emphasis: {
-        lineStyle: {
-          width: 10
-        }
-      }
+      // emphasis: {
+      //   lineStyle: {
+      //     width: 6
+      //   }
+      // }
     }
   ]
 };
@@ -324,6 +371,19 @@ jQuery('#viz-space').hover(function() {
   jQuery(document).unbind('mousewheel DOMMouseScroll');
 });
 
+// var scrollable = document.querySelector('#viz-space');
+// scrollable.addEventListener('wheel', function(event) {
+//     var deltaY = event.deltaY;
+//     var contentHeight = scrollable.scrollHeight;
+//     var visibleHeight = scrollable.offsetHeight;
+//     var scrollTop = scrollable.scrollTop;
+//
+//     if (scrollTop === 0 && deltaY < 0)
+//         event.preventDefault();
+//     else if (visibleHeight + scrollTop === contentHeight && deltaY > 0)
+//         event.preventDefault();
+// });
+
 
 // Init eCharts
 viz.chart = echarts.init(document.getElementById('viz-space'));
@@ -335,14 +395,18 @@ viz.zoomLevel = null;
 // Item click listener
 viz.chart.on('click', function(e) {
   console.log('click');
-  console.log(e);
+  // console.log(e);
   if (e.dataType === 'node') {
+    console.log(e);
+    if (e.data.id === 'root') {
+      return;
+    }
     var nodeID = e.data.id;
     var vSp = jQuery('#viz-space');
     viz.active.clicked = e.data.id;
     var evt = window.event;
     // console.log(evt);
-    var offset = e.data.symbolSize + (e.data.symbolSize * viz.zoomlevel);
+    var offset = e.data.symbolSize + (e.data.symbolSize * viz.zoomlevel * 400);
     var _item_obj = viz.getItemObj(e.data.id);
     var _item_links = viz.getItemLinks(e.data.id);
     let _tooltip =    '<div class="tip">' +
@@ -431,7 +495,7 @@ viz.chart.on('graphRoam', function(e) {
     }
     // console.log('viz.zoomLevel = ' + viz.zoomLevel);
     // Update label display based on zoom level
-    if (viz.zoomLevel > 0.35) {
+    if (viz.zoomLevel > 0.75) {
       subtopicLabel.normal.show = true;
       viz.rebuild();
       viz.chart.setOption(setup.options);
