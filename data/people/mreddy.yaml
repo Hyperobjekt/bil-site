@@ -1,10 +1,10 @@
 name: "Michelle Reddy"
-role: "current-grad" # director, staff, or partner
+role: "former-grad" # director, staff, or partner
 title: "PhD Candidate, International Comparative Education" # maybe different from role; is displayed
 image: "/uploads/mreddy.png" # will be cropped to center square & rounded
 thumb: "/uploads/mreddy-sm.jpg"
 current: true # true or false (for former)
-weight: 50
+weight: 105
 blurb: >
   Michelle Reddy is a PhD candidate in International Comparative Education and completed her Master's in Political Science. Her research focuses on non-state actors and civic engagement, particularly during humanitarian crises such as Ebola, Zika, and the migration crisis. Michelle's dissertation examines how different organizational forms of nonprofits affects political socialization. She also studies the emergence of domestic organizations delivering health and education services in developing countries.
 

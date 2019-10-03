@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <title>Content Manager</title>
+</head>
+<body>
+  <!-- Include the script that builds the page and powers Netlify CMS -->
+  <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+  <link rel="stylesheet" href="https://use.typekit.net/ayl0mep.css">
+  <script>
+    CMS.registerPreviewStyle("/css/cms.css");
+     CMS.registerEditorComponent({
+      // Internal id of the component
+      id: "breaker",
+      // Visible label
+      label: "Breaker Image",
+      // Fields the user need to fill out when adding an instance of the component
+      fields: [{name: 'breaker_image', label: 'Breaker Image', widget: 'image'}],
+      // Pattern to identify a block as being an instance of this component
+      pattern: /^{{% breaker image="(\S+)" %}}$/,
+      // Function to extract data elements from the regexp match
+      fromBlock: function(match) {
+        return {
+          breaker_image: match[1]
+        };
+      },
+      // Function to create a text block from an instance of this component
+      toBlock: function(obj) {
+        return (
+          '{{% breaker image="' + obj.breaker_image + '" %}}'
+        );
+      },
+      // Preview output for this component. Can either be a string or a React component
+      // (component gives better render performance)
+      toPreview: function(obj) {
+        return (
+          '<img src="' + obj.breaker_image + '" style="width:100%;height:275px;">'
+        );
+      }
+    }); 
+    /* CMS.registerEditorComponent({
+      // Internal id of the component
+      id: "floatimage",
+      // Visible label
+      label: "Float Image",
+      // Fields the user need to fill out when adding an instance of the component
+      fields: [
+        {name: 'float', label: 'Float', widget: 'select', options: ["right", "left"]},
+        {name: 'image', label: 'Float Image', widget: 'image'}
+      ],
+      // Pattern to identify a block as being an instance of this component
+      // pattern: /^{{% breaker image="(\S+)" %}}$/,
+      pattern: /^{{% floatimage float="(\S+)" image="(\S+)" %}}$/,
+      // Function to extract data elements from the regexp match
+      fromBlock: function(match) {
+        return {
+          float: match[1],
+          image: match[2]
+        };
+      },
+      // Function to create a text block from an instance of this component
+      toBlock: function(obj) {
+        return (
+          // '{{% breaker image="' + obj.breaker_image + '" %}}'
+          '{{% floatimage float="' + obj.float + '" image="' + obj.image + '" %}}'
+        );
+      },
+      // Preview output for this component. Can either be a string or a React component
+      // (component gives better render performance)
+      toPreview: function(obj) {
+        return (
+          '<img class="float-img float-' + obj.float + '" src="' + obj.image + '" width="296" height="214">'
+        );
+      }
+    }); */
+  </script>
+</body>
+</html>

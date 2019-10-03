@@ -17127,7 +17127,7 @@ nav.navbar > div {
 }
 
 .slatetext {
-  color: #7E8085;
+  color: #74757B;
 }
 
 .medgraytext {
@@ -17214,7 +17214,7 @@ h2 {
 @media (min-width: 992px) {
   h2 {
     font-size: 3.4rem;
-    line-height: 5.1rem;
+    line-height: 1.4;
     letter-spacing: .03rem;
   }
 }
@@ -17222,19 +17222,19 @@ h2 {
 @media (min-width: 1380px) {
   h2 {
     font-size: 4rem;
-    line-height: 6rem;
+    line-height: 1.4;
     letter-spacing: .039rem;
   }
 }
 
-h3 {
+h3, .basic-income-experiments h2 {
   font-family: sofia-pro,sans-serif;
   font-weight: 700;
   font-style: normal;
 }
 
 @media (min-width: 768px) {
-  h3 {
+  h3, .basic-income-experiments h2 {
     font-size: 2.1rem;
     line-height: 3rem;
     letter-spacing: 0.04rem;
@@ -17242,7 +17242,7 @@ h3 {
 }
 
 @media (min-width: 992px) {
-  h3 {
+  h3, .basic-income-experiments h2 {
     font-size: 2.3rem;
     line-height: 3.2rem;
     letter-spacing: 0.04rem;
@@ -17250,7 +17250,7 @@ h3 {
 }
 
 @media (min-width: 1380px) {
-  h3 {
+  h3, .basic-income-experiments h2 {
     font-size: 2.6rem;
     line-height: 4rem;
     letter-spacing: 0.04rem;
@@ -17287,7 +17287,7 @@ h3.courses {
   }
 }
 
-h3.news {
+h2.news {
   font-family: sofia-pro,sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -17297,7 +17297,7 @@ h3.news {
 }
 
 @media (min-width: 768px) {
-  h3.news {
+  h2.news {
     font-size: 2.1rem;
     line-height: 3.1rem;
     letter-spacing: 0.04rem;
@@ -17305,7 +17305,7 @@ h3.news {
 }
 
 @media (min-width: 992px) {
-  h3.news {
+  h2.news {
     font-size: 2.6rem;
     line-height: 3.9rem;
     letter-spacing: 0.04rem;
@@ -17313,14 +17313,14 @@ h3.news {
 }
 
 @media (min-width: 1380px) {
-  h3.news {
+  h2.news {
     font-size: 3rem;
     line-height: 4.5rem;
     letter-spacing: 0.04rem;
   }
 }
 
-h4 {
+h4, .superhead {
   font-family: sofia-pro,sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -17330,7 +17330,7 @@ h4 {
 }
 
 @media (min-width: 768px) {
-  h4 {
+  h4, .superhead {
     font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: 0.213rem;
@@ -17338,7 +17338,7 @@ h4 {
 }
 
 @media (min-width: 992px) {
-  h4 {
+  h4, .superhead {
     font-size: 1.1rem;
     line-height: 1.7rem;
     letter-spacing: 0.213rem;
@@ -17346,7 +17346,7 @@ h4 {
 }
 
 @media (min-width: 1380px) {
-  h4 {
+  h4, .superhead {
     font-size: 1.2rem;
     line-height: 3.3rem;
     letter-spacing: 0.213rem;
@@ -17365,7 +17365,7 @@ h4.news {
 @media (min-width: 768px) {
   h4.news {
     font-size: 1.2rem;
-    line-height: 1.5rem;
+    line-height: 1.8rem;
     letter-spacing: 0.213rem;
   }
 }
@@ -17373,7 +17373,7 @@ h4.news {
 @media (min-width: 992px) {
   h4.news {
     font-size: 1.3rem;
-    line-height: 1.7rem;
+    line-height: 2rem;
     letter-spacing: 0.213rem;
   }
 }
@@ -17381,19 +17381,19 @@ h4.news {
 @media (min-width: 1380px) {
   h4.news {
     font-size: 1.4rem;
-    line-height: 3.3rem;
+    line-height: 2.6rem;
     letter-spacing: 0.213rem;
   }
 }
 
-h5 {
+h5, #subscribePrompt {
   font-family: sofia-pro,sans-serif;
   font-weight: 500;
   font-style: normal;
 }
 
 @media (min-width: 768px) {
-  h5 {
+  h5, #subscribePrompt {
     font-size: 1.9rem;
     line-height: 2.75rem;
     letter-spacing: 0.04rem;
@@ -17401,7 +17401,7 @@ h5 {
 }
 
 @media (min-width: 992px) {
-  h5 {
+  h5, #subscribePrompt {
     font-size: 2.1rem;
     line-height: 3.4rem;
     letter-spacing: 0.04rem;
@@ -17409,14 +17409,44 @@ h5 {
 }
 
 @media (min-width: 1380px) {
-  h5 {
+  h5, #subscribePrompt {
     font-size: 2.6rem;
     line-height: 4rem;
     letter-spacing: 0.04rem;
   }
 }
 
-h6 {
+h5.events {
+  font-family: sofia-pro,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@media (min-width: 768px) {
+  h5.events {
+    font-size: 1.9rem;
+    line-height: 2.75rem;
+    letter-spacing: 0.04rem;
+  }
+}
+
+@media (min-width: 992px) {
+  h5.events {
+    font-size: 2.1rem;
+    line-height: 3.1rem;
+    letter-spacing: 0.04rem;
+  }
+}
+
+@media (min-width: 1380px) {
+  h5.events {
+    font-size: 2.3rem;
+    line-height: 3.4rem;
+    letter-spacing: 0.04rem;
+  }
+}
+
+h6, .subhead {
   font-family: sofia-pro,sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -17427,7 +17457,7 @@ h6 {
 }
 
 @media (min-width: 768px) {
-  h6 {
+  h6, .subhead {
     font-size: 1.5rem;
     line-height: 2.2rem;
     letter-spacing: 0.013rem;
@@ -17435,7 +17465,7 @@ h6 {
 }
 
 @media (min-width: 992px) {
-  h6 {
+  h6, .subhead {
     font-size: 1.6rem;
     line-height: 2.4rem;
     letter-spacing: 0.013rem;
@@ -17443,7 +17473,7 @@ h6 {
 }
 
 @media (min-width: 1380px) {
-  h6 {
+  h6, .subhead {
     font-size: 1.7rem;
     line-height: 2.5rem;
     letter-spacing: 0.013rem;
@@ -17606,6 +17636,7 @@ a:hover {
 
 .btn-primary {
   background-color: #B26F16;
+  background-color: #A86815;
   border: none;
   font-family: sofia-pro,sans-serif;
   font-weight: 700;
@@ -17878,7 +17909,6 @@ nav.navbar-light .drawer-toggle .navbar-toggler-icon {
   line-height: 2.0rem;
   letter-spacing: .011rem;
   color: #00505C;
-  text-transform: uppercase;
   margin-bottom: 3.2rem;
 }
 
@@ -17898,6 +17928,7 @@ button.navbar-toggler {
 body .hero {
   height: 320px;
   background-size: cover;
+  background-position: 55% center;
   overflow: hidden;
   background-repeat: no-repeat;
   margin-left: 0;
@@ -17910,6 +17941,7 @@ body .hero {
   body .hero {
     height: 360px;
     background-size: cover;
+    background-position: center center;
   }
 }
 
@@ -17961,7 +17993,7 @@ body .hero .hero-child.row {
   }
 }
 
-body .hero .hero-child .hero-copy h2 {
+body .hero .hero-child .hero-copy h1 {
   font-family: sofia-pro,sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -17973,7 +18005,7 @@ body .hero .hero-child .hero-copy h2 {
 }
 
 @media (min-width: 768px) {
-  body .hero .hero-child .hero-copy h2 {
+  body .hero .hero-child .hero-copy h1 {
     font-size: 2.4rem;
     line-height: 4.2rem;
     letter-spacing: .018rem;
@@ -17981,7 +18013,7 @@ body .hero .hero-child .hero-copy h2 {
 }
 
 @media (min-width: 992px) {
-  body .hero .hero-child .hero-copy h2 {
+  body .hero .hero-child .hero-copy h1 {
     font-size: 2.8rem;
     line-height: 4.4rem;
     letter-spacing: .018rem;
@@ -17989,7 +18021,7 @@ body .hero .hero-child .hero-copy h2 {
 }
 
 @media (min-width: 1380px) {
-  body .hero .hero-child .hero-copy h2 {
+  body .hero .hero-child .hero-copy h1 {
     font-size: 3rem;
     line-height: 4.8rem;
     letter-spacing: .022rem;
@@ -18097,8 +18129,8 @@ img.float-left {
 }
 
 .subnav.d-md-none .dropdown-toggle {
-  font-size: 1.2rem;
-  line-height: 1.4rem;
+  font-size: 1.4rem;
+  line-height: 1.5;
   letter-spacing: 0.055rem;
   border: none;
   height: 4.7rem;
@@ -18178,7 +18210,7 @@ img.float-left {
   color: #9a6013;
   text-decoration: none;
   border-bottom: 1px solid #9a6013;
-  padding-bottom: 0px;
+  padding-bottom: 1px;
 }
 
 .drop-shadow {
@@ -18369,7 +18401,13 @@ footer .navlinks a:hover {
 }
 
 body.home nav.navbar-light {
-  background-color: #00000033;
+  background-color: #000;
+}
+
+@media (min-width: 768px) {
+  body.home nav.navbar-light {
+    background-color: #00000033;
+  }
 }
 
 body.home nav.navbar-light ul a {
@@ -18423,10 +18461,14 @@ body.home nav.navbar-light.sticky-top ul a:hover {
 body.home .hero {
   background-image: url("/images/heroes/bil-home-edit.jpg");
   background-color: #000;
-  height: 400px;
-  background-size: cover;
-  background-position-x: 70%;
-  margin-top: -6.4rem;
+  height: 304px;
+  background-size: 102%;
+  background-position: 50% top;
+  background-repeat: no-repeat;
+  margin-left: 0;
+  margin-right: 0;
+  color: #fff;
+  text-align: center;
   background-repeat: no-repeat;
   margin-left: 0;
   margin-right: 0;
@@ -18442,9 +18484,11 @@ body.home .hero .stanford-wordmark {
 
 @media (min-width: 768px) {
   body.home .hero {
-    height: 512px;
-    background-size: cover;
-    background-position: bottom center;
+    margin-top: -6.4rem;
+    height: 400px;
+    background-size: 108%;
+    background-position: top center;
+    margin-top: -6.4rem;
   }
 }
 
@@ -18505,7 +18549,7 @@ body.home .hero .hero-child {
   height: 400px;
   background-size: cover;
   width: 100%;
-  background: rgba(0, 0, 0, 0.55);
+  background: rgba(0, 0, 0, 0.37);
   -webkit-transform: translateZ(0);
   -webkit-backface-visibility: hidden;
   -webkit-transform: translateZ(0) scale(1, 1);
@@ -18523,6 +18567,7 @@ body.home .hero .hero-child.row {
     background-size: cover;
     background-position: bottom center;
     position: absolute;
+    background: rgba(0, 0, 0, 0.55);
   }
 }
 
@@ -18750,6 +18795,12 @@ body.what-is-ubi .hero {
   }
 }
 
+@media (min-width: 1380px) {
+  body.what-is-ubi .hero {
+    background-position: center top;
+  }
+}
+
 @media (min-width: 768px) {
   body.what-is-ubi .hero .hero-child {
     background-position: bottom center;
@@ -18788,6 +18839,12 @@ body.what-is-bil .hero {
   background-image: url("/images/backgrounds/WessonDisucussionGeneral-edit.jpg");
 }
 
+@media (min-width: 1380px) {
+  body.what-is-bil .hero-child {
+    background-position: center bottom;
+  }
+}
+
 body.what-is-bil .sq-img {
   min-height: 480px;
 }
@@ -18800,7 +18857,7 @@ body.what-is-bil #why-basic .sq-img {
 
 @media (min-width: 768px) {
   body.what-is-bil #why-basic .sq-img {
-    background-position: 50%;
+    background-position: 50% top;
   }
 }
 
@@ -18881,7 +18938,7 @@ body.people .row.funder-logos .p-2.rsf {
   margin-bottom: 0;
 }
 
-.row.who-we-are h3, .row.who-we-are-former h3 {
+.row.who-we-are h2, .row.who-we-are-former h2 {
   color: #031232;
   font-size: 1.2rem;
   letter-spacing: .055rem;
@@ -18889,7 +18946,7 @@ body.people .row.funder-logos .p-2.rsf {
 }
 
 @media (min-width: 768px) {
-  .row.who-we-are h3, .row.who-we-are-former h3 {
+  .row.who-we-are h2, .row.who-we-are-former h2 {
     font-size: 2.6rem;
     line-height: 1.7rem;
     letter-spacing: .064rem;
@@ -18897,7 +18954,7 @@ body.people .row.funder-logos .p-2.rsf {
 }
 
 @media (min-width: 1380px) {
-  .row.who-we-are h3, .row.who-we-are-former h3 {
+  .row.who-we-are h2, .row.who-we-are-former h2 {
     font-size: 2.8rem;
     line-height: 4.2rem;
     letter-spacing: .07rem;
@@ -18905,7 +18962,7 @@ body.people .row.funder-logos .p-2.rsf {
 }
 
 @media (min-width: 1380px) {
-  .row.who-we-are h3, .row.who-we-are-former h3 {
+  .row.who-we-are h2, .row.who-we-are-former h2 {
     font-size: 3rem;
     line-height: 4.5rem;
     letter-spacing: .07rem;
@@ -18950,9 +19007,9 @@ body.people .row.funder-logos .p-2.rsf {
   border: none;
   width: 32px;
   height: 32px;
-  border-radius: 20px;
+  border-radius: 32px;
   font-size: 32px;
-  line-height: 1px;
+  line-height: 32px;
   font-weight: 100;
   position: absolute;
   right: -5%;
@@ -18960,7 +19017,12 @@ body.people .row.funder-logos .p-2.rsf {
   display: flex;
   justify-content: center;
   align-items: baseline;
-  padding-top: 9px;
+}
+
+.row.people-current .pic button div, .row.people-former .pic button div {
+  position: relative;
+  top: -5px;
+  max-width: 32px;
 }
 
 .row.people-current .pic button span, .row.people-former .pic button span {
@@ -19238,7 +19300,7 @@ body.people .row.funder-logos .p-2.rsf {
   font-weight: 100;
   pointer-events: none;
   position: relative;
-  top: 2px;
+  top: -4px;
   left: .5px;
 }
 
@@ -19404,6 +19466,21 @@ body.mapping-ubi-research .hero {
   background-position: center center;
 }
 
+body.mapping-ubi-research #hp-viz {
+  background-image: url("/images/backgrounds/viz-vector.svg");
+  background-size: 40%;
+  background-position: center 15%;
+  background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+  body.mapping-ubi-research #hp-viz {
+    background-size: 50%;
+    background-position: right center;
+    background-repeat: no-repeat;
+  }
+}
+
 body.basic-income-experiments .hero {
   background: url("/images/heroes/juliana-audience-hero.jpg");
   background-size: cover;
@@ -19420,25 +19497,25 @@ body.basic-income-experiments tr td:last-child {
 
 body.basic-income-experiments table th {
   background-color: #FFFBF5;
-  color: #B26F16;
+  color: #A36514;
 }
 
 body.basic-income-experiments table tr:nth-child(odd) {
-  color: #B26F16;
+  color: #A36514;
 }
 
 body.basic-income-experiments table tr:nth-child(odd) a {
-  color: #B26F16;
+  color: #A36514;
   text-decoration: underline;
 }
 
 body.basic-income-experiments table tr:nth-child(even) {
   background-color: #F3FDFF;
-  color: #208A9A;
+  color: #1D7D8C;
 }
 
 body.basic-income-experiments table tr:nth-child(even) a {
-  color: #208A9A;
+  color: #1D7D8C;
   text-decoration: underline;
 }
 
@@ -19462,7 +19539,13 @@ body.type-courses #philosophy-course-pic {
 body.type-courses .hero {
   background: url("/images/heroes/AvshalomIllusionsEvent-hero.jpg");
   background-size: cover;
-  background-position: center center;
+  background-position: 78% center;
+}
+
+@media (min-width: 768px) {
+  body.type-courses .hero {
+    background-position: center center;
+  }
 }
 
 body.type-news .hero {
@@ -19473,6 +19556,12 @@ body.type-news .hero {
 
 @media (min-width: 320px) {
   body.type-news .hero h2 {
+    max-width: 70%;
+  }
+}
+
+@media (min-width: 1380px) {
+  body.type-news h2 {
     max-width: 70%;
   }
 }
@@ -19493,6 +19582,12 @@ body.type-positions .hero {
 @media (min-width: 768px) {
   body.type-positions .hero {
     background-position: left center;
+  }
+}
+
+@media (min-width: 1380px) {
+  body.type-positions .hero {
+    background-position: center top;
   }
 }
 
@@ -19607,6 +19702,31 @@ body.type-positions .modal button.close {
   font-size: 1.4rem;
   line-height: 2.1rem;
   letter-spacing: 0.024rem;
+}
+
+body.type-events .hero {
+  background: url("/images/heroes/catherine-parjis-hero.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 1380px) {
+  body.type-events .hero {
+    background-position: center center;
+  }
+}
+
+body.type-events #events-list .pic-column {
+  min-height: 180px;
+  background-position: center top;
+}
+
+body.type-events .pagination {
+  font-family: sofia-pro,sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  display: flex;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=style.css.map */
