@@ -3,7 +3,7 @@
   title: Gender
   xAxis: -760
   yAxis: 0
-  bibliographyAxis: >
+  bibliography: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
 
@@ -13,7 +13,7 @@
   title: Family
   xAxis: 500
   yAxis: -15
-  bibliographyAxis: >
+  bibliography: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
 
@@ -23,7 +23,7 @@
   title: Welfare
   xAxis: 300
   yAxis: 60
-  bibliographyAxis: >
+  bibliography: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
 
@@ -33,7 +33,7 @@
   title: Wellbeing
   xAxis: -450
   yAxis: 250
-  bibliographyAxis: >
+  bibliography: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
 
@@ -43,7 +43,7 @@
   title: Inequality
   xAxis: 450
   yAxis: 200
-  bibliographyAxis: >
+  bibliography: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
 
@@ -53,7 +53,7 @@
   title: Democracy
   xAxis: -630
   yAxis: -200
-  bibliographyAxis: >
+  bibliography: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
 
@@ -63,7 +63,7 @@
   title: Childhood
   xAxis: 200
   yAxis: 250
-  bibliographyAxis: >
+  bibliography: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
 
@@ -73,7 +73,7 @@
   title: Environment
   xAxis: -200
   yAxis: -250
-  bibliographyAxis: >
+  bibliography: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
 
@@ -83,7 +83,7 @@
   title: Crime
   xAxis: 0
   yAxis: 300
-  bibliographyAxis: >
+  bibliography: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
 
@@ -93,7 +93,7 @@
   title: Political Feasibility
   xAxis: 0
   yAxis: -300
-  bibliographyAxis: >
+  bibliography: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
 
@@ -103,7 +103,7 @@
   title: Economic Feasibility
   xAxis: -210
   yAxis: 250
-  bibliographyAxis: >
+  bibliography: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
 
@@ -113,7 +113,7 @@
   title: Poverty
   xAxis: 250
   yAxis: -250
-  bibliographyAxis: >
+  bibliography: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
 
@@ -123,7 +123,7 @@
   title: Development
   xAxis: 350
   yAxis: -100
-  bibliographyAxis: >
+  bibliography: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
 
@@ -133,7 +133,7 @@
   title: Theories of Justice
   xAxis: 670
   yAxis: 180
-  bibliographyAxis: >
+  bibliography: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
 
@@ -143,7 +143,7 @@
   title: Community
   xAxis: -300
   yAxis: 120
-  bibliographyAxis: >
+  bibliography: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
 
@@ -153,7 +153,7 @@
   title: Education
   xAxis: -300
   yAxis: -130
-  bibliographyAxis: >
+  bibliography: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
 
@@ -163,7 +163,7 @@
   title: Automation
   xAxis: -500
   yAxis: 10
-  bibliographyAxis: >
+  bibliography: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
 
@@ -173,7 +173,7 @@
   title: Economic Effects
   xAxis: 600
   yAxis: -230
-  bibliographyAxis: >
+  bibliography: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
 
@@ -183,7 +183,7 @@
   title: Health
   xAxis: -650
   yAxis: 230
-  bibliographyAxis: >
+  bibliography: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
 
@@ -193,7 +193,7 @@
   title: Work
   xAxis: 70
   yAxis: -160
-  bibliographyAxis: >
+  bibliography: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
 
@@ -203,7 +203,7 @@
   title: Race
   xAxis: 760
   yAxis: 0
-  bibliographyAxis: >
+  bibliography: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
 

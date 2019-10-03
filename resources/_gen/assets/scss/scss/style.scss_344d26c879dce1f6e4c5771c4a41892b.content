@@ -1,3 +1,23 @@
+@font-face {
+  font-family: 'SofiaPro-Bold';
+  src: url("/fonts/SofiaPro-Bold.otf");
+}
+
+@font-face {
+  font-family: 'SofiaPro-Italic';
+  src: url("/fonts/SofiaPro-Italic.otf");
+}
+
+@font-face {
+  font-family: 'SofiaPro-Medium';
+  src: url("/fonts/SofiaPro-Medium.otf");
+}
+
+@font-face {
+  font-family: 'SofiaPro-Regular';
+  src: url("/fonts/SofiaPro-Regular.otf");
+}
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -19503,12 +19523,90 @@ body.type-positions .modal button.close {
 }
 
 .viz-parent .dialog .dialog-body {
+  max-height: 800px;
+  overflow-y: scroll;
   background-color: white;
-  color: gray;
-  border: 1px solid gray;
+  color: #3B3B3B;
+  border: 0.5px solid rgba(79, 79, 79, 0.38);
   box-shadow: 0 1px 4px rgba(79, 79, 79, 0.18);
-  border-radius: 6px;
-  padding: 20px;
+  border-radius: 4px;
+  padding: 30px;
+}
+
+.viz-parent .dialog .dialog-body .subtext,
+.viz-parent .dialog .dialog-body .toggle-info {
+  font-family: sofia-pro,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+  color: #757575;
+  line-height: 2.7rem;
+  letter-spacing: .363rem;
+  text-transform: uppercase;
+}
+
+.viz-parent .dialog .dialog-body .title {
+  font-family: sofia-pro,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.8rem;
+  color: #3B3B3B;
+  line-height: 2.7rem;
+  letter-spacing: .018rem;
+}
+
+.viz-parent .dialog .dialog-body .title:last-of-type {
+  padding-top: 20px;
+}
+
+.viz-parent .dialog .dialog-body .toggle-info.first {
+  padding-top: 20px;
+}
+
+.viz-parent .dialog .dialog-body .toggle-info {
+  padding-top: 15px;
+  display: block;
+  width: 100%;
+  border-bottom: 0.5px solid #D8D8D8;
+  padding-bottom: 5px;
+}
+
+.viz-parent .dialog .dialog-body .toggle-info .label {
+  padding-left: 3px;
+}
+
+.viz-parent .dialog .dialog-body .toggle-info .icon {
+  float: right;
+}
+
+.viz-parent .dialog .dialog-body .card {
+  font-family: sofia-pro,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  letter-spacing: 0.024rem;
+  border: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+}
+
+.viz-parent .dialog .dialog-body .card p {
+  margin-bottom: 1.5rem;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  letter-spacing: 0.024rem;
+}
+
+.viz-parent .dialog .dialog-body .card ul,
+.viz-parent .dialog .dialog-body .card li {
+  font-family: sofia-pro,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  letter-spacing: 0.024rem;
 }
 
 /*# sourceMappingURL=style.css.map */

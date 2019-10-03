@@ -59,7 +59,23 @@ $link-hover-color: $seda-lightblue; // $aqua; // lighten($primary, 20%);
 $link-hover-decoration: underline;
 
 // Load custom fonts
-// TODO: Adjust once you have copyrighted fonts
+// eCharts for some reason doesn't or can't use the TypeKit fonts
+@font-face {
+  font-family: 'SofiaPro-Bold';
+  src: url('/fonts/SofiaPro-Bold.otf');
+}
+@font-face {
+  font-family: 'SofiaPro-Italic';
+  src: url('/fonts/SofiaPro-Italic.otf');
+}
+@font-face {
+  font-family: 'SofiaPro-Medium';
+  src: url('/fonts/SofiaPro-Medium.otf');
+}
+@font-face {
+  font-family: 'SofiaPro-Regular';
+  src: url('/fonts/SofiaPro-Regular.otf');
+}
 
 
 @mixin sofia-bold {
