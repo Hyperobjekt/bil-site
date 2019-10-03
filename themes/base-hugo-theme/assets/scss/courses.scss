@@ -8,6 +8,9 @@ body.type-courses {
     .hero {
         background: url('/images/heroes/AvshalomIllusionsEvent-hero.jpg');
         background-size: cover;
-        background-position: center center;
+        background-position: 78% center;
+        @include media-breakpoint-up(md) {
+            background-position: center center;
+        }
     }
 }

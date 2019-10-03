@@ -8,6 +8,7 @@ const setup = {};
 setup.strings = {};
 setup.strings.theme = 'THEME';
 setup.strings.subthemes = 'SUB-THEMES';
+setup.strings.subtheme = 'SUB-THEME';
 setup.nodes = [];
 setup.links = [];
 setup.linkIndex = 0;
@@ -87,9 +88,10 @@ const topicLabel = {
     show: true,
     textStyle: {
       color: '#000',
-      fontWeight: '600',
-      fontFace: 'sofia-pro',
-      fontSize: 16
+      // fontWeight: '600',
+      fontFamily: 'SofiaPro-Bold',
+      fontSize: 18,
+      lineHeight: 43.2
     },
   },
   formatter: function(el) {
@@ -109,9 +111,10 @@ let subtopicLabel = {
     position: 'right',
     textStyle: {
       color: '#000',
-      fontWeight: '300',
-      fontFace: 'sofia-pro',
-      fontSize: 16
+      fontWeight: '100',
+      fontFamily: 'SofiaPro-Regular',
+      fontSize: 16,
+      fontStyle: 'normal'
     },
   },
 }
@@ -197,6 +200,7 @@ viz.rebuild = () => {
     // fixed: true,
     symbol: 'circle',
     symbolSize: 80,
+    hoverAnimation: false,
     x: 0,
     y: 0,
     itemStyle: {
@@ -288,7 +292,7 @@ viz.rebuild = () => {
 }
 viz.rebuild();
 console.log('Done adding child nodes');
-console.log(setup.nodes);
+// console.log(setup.nodes);
 setup.options = {
   title: {
     show: false,
@@ -297,6 +301,7 @@ setup.options = {
     top: 'bottom',
     left: 'right'
   },
+  coordinateSystem: 'cartesian2d',
   animation: true,
   animationDuration: 1500,
   animationEasingUpdate: 'quinticInOut',
@@ -409,44 +414,112 @@ viz.chart.on('click', function(e) {
     // console.log(evt);
     var offset = e.data.symbolSize + (e.data.symbolSize * viz.zoomlevel * 400);
     var _item_obj = viz.getItemObj(e.data.id);
+    console.log('_item_obj')
+    console.log(_item_obj);
     var _item_links = viz.getItemLinks(e.data.id);
-    let _tooltip =    '<div class="tip">' +
-                      // '<button class="btn close">&times;</button>' +
-                      '<span class="subtext">' + setup.strings.theme + '</span>' +
-                      '<div class="theme title">' + e.data.name + '</div>';
-    // If there are links, render them.
-    if (_item_links.length >= 1) {
-      _tooltip += '<span class="subtext">' + setup.strings.subthemes + '</span>';
-      _item_links.forEach(function(item) {
-        const related = viz.getItemObj(item.target);
-      _tooltip += '<div class="related title">' + related.title + '</div>';
-      });
-    }
+    let _tooltip = '<div class="tip" style="max-height:' + (jQuery(window).height() * 0.75) + 'px;overflow-y:scroll;">';
     // Set up accordion content.
     if (_item_obj.type === 'parent') {
       console.log('it\'s a parent');
+      _tooltip += '<span class="subtext">' + setup.strings.theme + '</span>' +
+      '<div class="theme title">' + e.data.name + '</div>';
+      // If there are links, render them.
+      if (_item_links.length >= 1) {
+        _tooltip += '<span class="subtext">' + setup.strings.subthemes + '</span>';
+        _item_links.forEach(function(item) {
+          const related = viz.getItemObj(item.target);
+        _tooltip += '<div class="related title">' + related.title + '</div>';
+        });
+      }
+
       var parentNodes = Object.values(viz.parents);
       var parentNode = parentNodes.filter(function(el) {
         return el.id == nodeID
       })
-      parentNode = parentNode[0];
-      // var parentNode = viz.parents.filter(function(el) {
-      //   return this.id = nodeID;
-      // });
-      // console.log(parentNode);
-      // console.log(viz.parents[nodeID]);
-      _tooltip += '<a class="" data-toggle="collapse" href="#collapseBib" role="button" aria-expanded="false" aria-controls="collapseBib">' +
-        'BIBLIOGRAPHY' +
-        '<span class="icon">&plus;</span>' +
-      '</a>' +
-      '<div class="collapse" id="collapseBib">' +
-        '<div class="card card-body">' +
-          '<p>' + parentNode.bibliography + '</p>' +
-        '</div>' +
-      '</div>';
+      console.log('parentNode');
+      console.log(parentNode);
+      if (parentNode[0].bibliography) {
+        _tooltip += '<a class="toggle-info" data-toggle="collapse" href="#collapseBib" role="button" aria-expanded="false" aria-controls="collapseBib">' +
+          '<span class="label">' +
+            'BIBLIOGRAPHY' +
+          '</span>' +
+          '<span class="icon">&plus;</span>' +
+        '</a>' +
+        '<div class="collapse" id="collapseBib">' +
+          '<div class="card card-body">' +
+            '<p>' + parentNode[0].bibliography + '</p>' +
+          '</div>' +
+        '</div>';
+      }
     }
     if (_item_obj.type === 'child') {
       console.log('it\'s a child');
+      const parentTitle = viz.getItemObj(_item_obj.parent).title;
+      // console.log('Parent is ' + parentTitle);
+      _tooltip += '<span class="subtext">' + setup.strings.theme + '</span>' +
+        '<div class="theme title">' + parentTitle + '</div>';
+      _tooltip += '<span class="subtext">' + setup.strings.subtheme + '</span>' +
+        '<div class="theme title">' + e.data.name + '</div>';
+
+      if (_item_obj.summary) {
+        _tooltip += '<a class="toggle-info" data-toggle="collapse" href="#collapseSumm" role="button" aria-expanded="false" aria-controls="collapseSumm">' +
+          '<span class="label">' +
+            'SUMMARY' +
+          '</span>' +
+          '<span class="icon">&plus;</span>' +
+        '</a>' +
+        '<div class="collapse" id="collapseSumm">' +
+          '<div class="card card-body">' +
+            '<p>' + _item_obj.summary + '</p>' +
+          '</div>' +
+        '</div>';
+      }
+
+      if (_item_obj.claims) {
+        _tooltip += '<a class="toggle-info" data-toggle="collapse" href="#collapseClaims" role="button" aria-expanded="false" aria-controls="collapseClaims">' +
+          '<span class="label">' +
+            'CLAIMS' +
+          '</span>' +
+          '<span class="icon">&plus;</span>' +
+        '</a>' +
+        '<div class="collapse" id="collapseClaims">' +
+          '<div class="card card-body">' +
+            '<p>' + _item_obj.claims + '</p>' +
+          '</div>' +
+        '</div>';
+      }
+
+      if (_item_obj.relatedTopics) {
+        _tooltip += '<a class="toggle-info" data-toggle="collapse" href="#collapseRelatedTopics" role="button" aria-expanded="false" aria-controls="collapseRelatedTopics">' +
+          '<span class="label">' +
+            'RELATED TOPICS' +
+          '</span>' +
+          '<span class="icon">&plus;</span>' +
+        '</a>' +
+        '<div class="collapse" id="collapseRelatedTopics">' +
+          '<div class="card card-body">' +
+            '<ul>';
+              _item_obj.relatedTopics.forEach((el) => {
+                _tooltip += '<li>' + el + '</li>';
+              });
+            _tooltip += '</ul>' +
+          '</div>' +
+        '</div>';
+      }
+
+      if (_item_obj.readMore) {
+        _tooltip += '<a class="toggle-info" data-toggle="collapse" href="#collapseReadMore" role="button" aria-expanded="false" aria-controls="collapseReadMore">' +
+          '<span class="label">' +
+            'READ MORE' +
+          '</span>' +
+          '<span class="icon">&plus;</span>' +
+        '</a>' +
+        '<div class="collapse" id="collapseReadMore">' +
+          '<div class="card card-body">' +
+            '<p>' + _item_obj.readMore + '</p>' +
+          '</div>' +
+        '</div>';
+      }
     }
     _tooltip += '</div>';
 
@@ -467,8 +540,7 @@ viz.chart.on('click', function(e) {
         'top': evt.pageY - offset * 2,
         'left': _left,
         'padding': offset,
-        'width': '450px',
-        // 'border': '1px solid black'
+        'width': '450px'
       })
       .fadeIn('slow');
     $dialog.on('mouseenter', function() {

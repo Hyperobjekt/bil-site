@@ -8,12 +8,77 @@
     width: 450px;
     z-index: 3000;
     .dialog-body {
+      max-height: 800px;
+      overflow-y: scroll;
       background-color: white;
-      color: gray;
-      border: 1px solid gray;
+      color: #3B3B3B;
+      border: 0.5px solid rgba(79, 79, 79, 0.38); // #979797;
       box-shadow: 0 1px 4px rgba(79, 79, 79, 0.18);
-      border-radius:6px;
-      padding: 20px;
+      border-radius: 4px;
+      padding: 30px;
+      .subtext,
+      .toggle-info {
+        @include sofia-reg;
+        font-size: 1.2rem;
+        color: #757575;
+        line-height: 2.7rem;
+        letter-spacing: .363rem;
+        text-transform: uppercase;
+      }
+      .title {
+        @include sofia-bold;
+        font-size: 1.8rem;
+        color: #3B3B3B;
+        line-height: 2.7rem;
+        letter-spacing: .018rem;
+      }
+      .title:last-of-type {
+        padding-top: 20px;
+      }
+      // .related.title:last-child {
+      //   padding-bottom: 17.5rem;
+      // }
+      .toggle-info.first {
+
+        padding-top: 20px;
+      }
+      .toggle-info {
+        padding-top: 15px;
+        display: block;
+        width: 100%;
+        border-bottom: 0.5px solid #D8D8D8;
+        padding-bottom: 5px;
+        .label {
+          padding-left: 3px;
+        }
+        .icon {
+          float: right;
+        }
+      }
+
+      .card {
+        @include sofia-reg;
+        font-size: 1.4rem;
+        line-height: 2.1rem;
+        letter-spacing: 0.024rem;
+        border: 0;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+        p {
+          margin-bottom: 1.5rem;
+          font-size: 1.4rem;
+          line-height: 2.1rem;
+          letter-spacing: 0.024rem;
+        }
+        ul,
+        li {
+          @include sofia-reg;
+          font-size: 1.4rem;
+          line-height: 2.1rem;
+          letter-spacing: 0.024rem;
+        }
+      }
     }
   }
 }

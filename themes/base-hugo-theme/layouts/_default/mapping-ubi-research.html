@@ -5,7 +5,7 @@
 
         <div class="hero-copy col-10 col-md-8 offset-md-1 d-flex align-items-center">
 
-            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt </h2>
+            <h1 class="page-hero">Research Conducted by the Stanford Basic Income Lab</h1>
 
         </div>
     </div>
@@ -38,10 +38,10 @@
 
 <div id="mapping-text" class="pt-sm-5 pt-md-7 pt-lg-9 pt-xl-12 pb-sm-7 pb-md-7 pb-xl-8">
         <div class="row">
-            <div class="col-md-3 offset-md-2 mt-11 d-flex flex-column justify-content-start align-items-sm-center align-items-md-end">
+            <div class="col-md-3 mt-md-11 offset-md-2 mt-0 d-flex flex-column justify-content-start align-items-sm-center align-items-md-end" style="background-image: url('/images/backgrounds/UBI-viz-close-crop.jpg'); background-size: contain; background-repeat: no-repeat; background-position: right top;">
 
             </div>
-            <div class="col-md-5 offset-md-1">
+            <div class="col-md-5 ml-md-3">
                 <h2 class="mb-sm-4 mb-md-4 mb-xl-5">Mapping UBI Research</h2>
                 <p class="medgraytext mt-md-1">Despite the growing UBI research effort over the past 30 years, there does not exist an online tool that conveniently brings together the existing research in one place. The Basic Income Lab is working to develop the first such visualization, thus promoting more methodical progress in the academic field of UBI, and building a rigorous platform for the benefit of future basic-income experimenters, researchers, students, and policy-makers.
                     </p>
@@ -62,8 +62,11 @@
 <!-- <div id="" class="gray-bg pt-sm-14 pt-md-14 pt-lg-14 pt-xl-14 pb-sm-14 mr-0 ml-0 row">
 
 </div> -->
+<!-- Load fonts because typekit fonts are not utilized by eCharts -->
+
+<!-- End load fonts -->
 <div id="viz-parent" class="row viz-parent mr-0 ml-0">
-<div id="viz-space" class="gray-bg mr-0 ml-0" style="width:100%;height:600px;z-index:1500;"></div>
+<div id="viz-space" class="gray-bg mr-0 ml-0" style="width:100%;height:600px;"></div>
 <div id="dialog" class="dialog" style="display:none;position:absolute;z-index:3500;">
   <div class="dialog-body">
     <h3>Test dialog</h3>
@@ -75,26 +78,23 @@
 
 <div id="sponsors">
         <div class="row">
-            <div class="col-md-6 col-lg-5 mx-auto d-flex flex-column align-items-center my-sm-5 my-md-8 my-lg-10 my-xl-11">
+            <div class="col-md-6 col-lg-5 mx-auto d-flex flex-column align-items-center my-sm-5 my-md-8 my-lg-9 my-xl-11">
                 <h2 class="text-center blacktext mb-2">Sponsors</h2>
                 <p class="text-center slatetext">This project is receiving the support of the Robert Wood Johnson Foundation, the Jain Family Institute, the Economic Security Project, and the McCoy Family Center for Ethics in Society.</p>
             </div>
         </div>
-        <div class="row mb-md-4 mb-lg-6 mb-xl-11 d-flex align-items-center">
-                <div class="col-1"></div>
-                <div class="col"><img src="/images/icons/rwjflogo.png" width="100%" /></div>
-                <div class="col"><img src="/images/icons/esp-logo.png" width="100%" /></div>
-                <div class="col"><img src="/images/icons/jain-logo.png" width="50%" /></div>
-                <div class="col"><img src="/images/icons/mc-logo.png" width="100%" /></div>
-                <div class="col-1"></div>
+        <div class="row mb-5 mb-md-4 mb-lg-9 mb-xl-11 d-flex align-items-center">
+                <div class="col-0 col-md-1"></div>
+                <div class="col-12 col-md pb-4 px-8 px-md-0 pb-md-0"><img alt="Robert Wood Johnson Foundation Logo" src="/images/icons/rwjflogo.png" width="100%" /></div>
+                <div class="col-12 col-md pb-4 px-8 px-md-0 pb-md-0"><img alt="Economic Security Foundation Logo" src="/images/icons/esp-logo.png" width="100%" /></div>
+                <div class="col-12 col-md pb-4 px-8 px-md-0 pb-md-0 d-flex justify-content-center"><img alt="Jain Family Institute Logo" src="/images/icons/jain-logo.png" width="50%" height="50%" /></div>
+                <div class="col-12 col-md pb-4 px-8 px-md-0 pb-md-0"><img alt="McCoy Family Center for Ethics in Society Logo" src="/images/icons/mc-logo.png" width="100%" /></div>
+                <div class="col-0 col-md-1"></div>
 
 
         </div>
 
-        <div class="row">
-            <div class="col-3 mx-auto d-flex flex-column align-items-center mt-sm-5 mt-md-8 mt-lg-9 mt-xl-11 mb-sm-8 mb-md-10 mb-lg-12 mb-xl-15">
-            <button type="button" class="btn btn-primary">Learn more</button>
-        </div>
+
     </div>
 
 {{ partial "subscribe.html" .}}

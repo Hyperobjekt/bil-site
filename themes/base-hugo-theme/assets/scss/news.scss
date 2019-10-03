@@ -9,6 +9,11 @@ body.type-news {
             }
         }
     }
+    h2 {
+        @include media-breakpoint-up(xl) {
+            max-width: 70%;
+        }
+    }
 }
 
 

@@ -27,6 +27,17 @@ body.mapping-ubi-research {
         background-size: cover;
         background-position: center center;
     }
+    #hp-viz {
+        background-image: url('/images/backgrounds/viz-vector.svg');
+        background-size: 40%;
+        background-position: center 15%;
+        background-repeat: no-repeat;
+        @include media-breakpoint-up(md) {
+            background-size: 50%;
+            background-position: right center;
+            background-repeat: no-repeat;
+        }
+    }
 }   
 
 body.basic-income-experiments {

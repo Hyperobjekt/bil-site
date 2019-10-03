@@ -1,13 +1,19 @@
 <div class="row subscribe m-0 pt-5 pb-6 py-lg-7 bronze-bg d-flex justify-content-center no-gutter ">
     <div class="col-sm-10 col-mm-8 col-lg-3 mb-sm-2 mb-lg-0">
-        <h5 tabindex="0" id="subscribePrompt" class="coldblcktext text-center text-lg-left">Sign up for our newsletter</h5>
-    </div> 
+            <div id="subscribePrompt" class="coldblcktext text-center text-lg-left">Sign up for our newsletter</div>
+    </div>         
+    <!-- The following code must be included to ensure your sign-up form works properly. -->
     <div class="col-md-8 col-lg-5">  
-        <div class="input-group d-sm-flex flex-sm-column align-items-sm-center flex-md-row">
-            <input type="text" class="form-control" placeholder="Email address" aria-label="Enter email address" aria-describedby="subscribePrompt" tabindex="0">
-            <div class="input-group-append">
-                <button class="btn btn-primary mt-3 mt-md-0" type="button" tabindex="0">Subscribe</button>
+        <form action="https://visitor2.constantcontact.com/api/signup" class="ctct-custom-form Form" data-id="embedded_signup:form" method="POST" name="embedded_signup">
+            <div class="input-group d-sm-flex flex-sm-column align-items-sm-center flex-md-row"><input data-id="ca:input" name="ca" type="hidden" value="4ed48b62-9ea2-49cc-acbd-b8b2a742c869"> <input data-id="list:input" name="list" type="hidden" value="1830478913"> <input data-id="source:input" name="source" type="hidden" value="EFD"> <input data-id="required:input" name="required" type="hidden" value="list,email"><input data-id="url:input" type="hidden" name="url" value="/about/what-is-bil/"><input type="text" class="form-control" placeholder="Email address" aria-label="Enter email address" aria-describedby="subscribePrompt" tabindex="0" data-id="Email Address:input" maxlength="80" name="email" type="text" value="">
+                    <!--<p data-id="First Name:p"><label data-id="First Name:label" data-name="first_name">First Name</label> <input data-id="First Name:input" maxlength="50" name="first_name" type="text" value=""></p>
+                    <p data-id="Last Name:p"><label data-id="Last Name:label" data-name="last_name">Last Name</label> <input data-id="Last Name:input" maxlength="50" name="last_name" type="text" value=""></p>
+                    <p data-id="Company:p"><label data-id="Company:label" data-name="company">Company</label> <input data-id="Company:input" maxlength="50" name="company" type="text" value=""></p>-->
+                <div class="input-group-append">
+                    <button data-enabled="enabled" type="submit" class="btn btn-primary mt-3 mt-md-0" type="button" tabindex="0">Subscribe</button>
+                </div>
             </div>
-        </div>
+        </form>
     </div>
-</div>
+</div> 
+

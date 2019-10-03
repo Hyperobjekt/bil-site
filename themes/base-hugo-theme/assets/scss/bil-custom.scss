@@ -185,7 +185,7 @@ nav.navbar-light {
       letter-spacing: .011rem;
       //color: $seda-dark;
       color: $green;
-      text-transform: uppercase;
+      //text-transform: uppercase;
       margin-bottom: 3.2rem;
 
       &:hover {
@@ -213,10 +213,12 @@ body {
   .hero {
     height: 320px;
     background-size: cover;
+    background-position: 55% center;
     overflow: hidden;     
     @include media-breakpoint-up(md) {
       height: 360px;
       background-size: cover;
+      background-position: center center;
     }
     @include media-breakpoint-up(lg) {
       height: 400px;
@@ -257,7 +259,7 @@ body {
       transform: translateZ(0);
 
       .hero-copy {
-        h2 {
+        h1 {
           @include sofia-med;
           text-align: left;
           color: $white;
@@ -385,8 +387,8 @@ img {
     }
     .dropdown-toggle {
       //width: 100%;
-      font-size: 1.2rem;
-        line-height: 1.4rem;
+      font-size: 1.4rem;
+        line-height: 1.5;
         letter-spacing: 0.055rem;
         border: none;
         height: 4.7rem;
@@ -455,7 +457,7 @@ img {
           color: $button-bronze-active;
           text-decoration: none;
           border-bottom: 1px solid $button-bronze-active;
-          padding-bottom: 0px;
+          padding-bottom: 1px;
         }
       }
     }

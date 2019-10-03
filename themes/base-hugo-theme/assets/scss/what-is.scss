@@ -6,6 +6,9 @@ body.what-is-ubi {
       @include media-breakpoint-up(md) {
         background-position: bottom center;
       }
+      @include media-breakpoint-up(xl) {
+        background-position: center top;
+      }
       .hero-child {
         @include media-breakpoint-up(md) {
             background-position: bottom center;
@@ -45,6 +48,11 @@ body.what-is-ubi {
     .hero {
         background-image: url('/images/backgrounds/WessonDisucussionGeneral-edit.jpg')
     } 
+    .hero-child {
+        @include media-breakpoint-up(xl) {
+            background-position: center bottom;
+        }
+      }
     .sq-img {
         min-height: 480px;
     }
@@ -54,7 +62,7 @@ body.what-is-ubi {
             background-size: cover;
             background-repeat: no-repeat;
             @include media-breakpoint-up(md) {
-                background-position: 50%;
+                background-position: 50% top;
             }
         }
     }

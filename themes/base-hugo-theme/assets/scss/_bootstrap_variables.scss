@@ -43,12 +43,15 @@ $secondary: #43454d;
 
 // BIL Colors
 $slate-gray: #7E8085;
+$slate-gray: #74757B;
 $med-gray: #6d6d6d;
+//$med-gray: #74757B;
 $coldblack: #282F36;
 $green: #00505C;
 $tealgreen: #6EC9D7;
 $button-bronze: #B26F16;
 $button-bronze-active: #9a6013;
+$dkbronze: #A36514;
 $white: #ffffff;
 $black: #373737;
 
@@ -59,7 +62,23 @@ $link-hover-color: $seda-lightblue; // $aqua; // lighten($primary, 20%);
 $link-hover-decoration: underline;
 
 // Load custom fonts
-// TODO: Adjust once you have copyrighted fonts
+// eCharts for some reason doesn't or can't use the TypeKit fonts
+@font-face {
+  font-family: 'SofiaPro-Bold';
+  src: url('/fonts/SofiaPro-Bold.otf');
+}
+@font-face {
+  font-family: 'SofiaPro-Italic';
+  src: url('/fonts/SofiaPro-Italic.otf');
+}
+@font-face {
+  font-family: 'SofiaPro-Medium';
+  src: url('/fonts/SofiaPro-Medium.otf');
+}
+@font-face {
+  font-family: 'SofiaPro-Regular';
+  src: url('/fonts/SofiaPro-Regular.otf');
+}
 
 
 @mixin sofia-bold {

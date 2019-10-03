@@ -73,7 +73,7 @@ body.people {
       text-align: center;
       margin-top: 4.8rem;
       margin-bottom: 0;
-      h3 {
+      h2 {
         color: $seda-dark;
         //font-family: $sharpgrotesk-med-15;
         font-size: 1.2rem;
@@ -133,18 +133,25 @@ body.people {
           border: none;
           width: 32px;
           height: 32px;
-          border-radius: 20px;
+          border-radius: 32px;
           font-size: 32px;
-          line-height: 1px;
+          line-height: 32px;
           font-weight: 100;
           //padding: 5px 0;
           position: absolute;
           right: -5%;
           bottom: 3%;
           display: flex;
+          
+          //display: block;
           justify-content: center;
           align-items: baseline;
-          padding-top: 9px;
+          //padding-bottom: 8px;
+          div {
+            position: relative;
+            top: -5px;
+            max-width: 32px;
+          }
           span {
             text-align: center;
             &.plus-horiz {
@@ -381,7 +388,7 @@ body.people {
         font-weight: 100;
         pointer-events: none;
         position: relative;
-        top: 2px;
+        top: -4px;
         left: .5px;
       }
     }
