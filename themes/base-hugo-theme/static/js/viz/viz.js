@@ -9,6 +9,11 @@ setup.strings = {};
 setup.strings.theme = 'THEME';
 setup.strings.subthemes = 'SUB-THEMES';
 setup.strings.subtheme = 'SUB-THEME';
+setup.strings.bibliography = 'BIBLIOGRAPHY';
+setup.strings.summary = 'SUMMARY';
+setup.strings.claims = 'CLAIMS';
+setup.strings.relatedTopics = 'RELATED TOPICS';
+setup.strings.readMore = 'READ MORE';
 setup.nodes = [];
 setup.links = [];
 setup.linkIndex = 0;
@@ -51,20 +56,15 @@ viz.getItemLinks = (id) => {
 };
 // Tooltip for topics and subtopics
 const topicTooltip = {
-  // trigger: 'item',
-  // formatter: '{c}' + '<br>Click for more',
   show: false,
   position: 'right',
   contain: false,
-  // itemStyle: {
-    // color: '#000',
-    backgroundColor: 'transparent',
-    textStyle: {
-      color: '#000',
-      fontWeight: 'bold',
-      fontFace: 'sofia-pro'
-    }
-  // }
+  backgroundColor: 'transparent',
+  textStyle: {
+    color: '#000',
+    fontWeight: 'bold',
+    fontFace: 'sofia-pro'
+  }
 }
 const subtopicTooltip = {
   show: false,
@@ -117,74 +117,6 @@ let subtopicLabel = {
     },
   },
 }
-const getRandom = (start, end) => {
-  console.log('getRandom()');
-  var diff = end - start;
-  const rand = Math.floor((Math.random() * diff) + start);
-  if (rand > -100000 && rand < 100000) {
-    if (rand < 0) {
-      return rand - 100000;
-    } else {
-      return rand + 100000;
-    }
-  } else {
-    return rand; // Math.floor((Math.random() * diff) + start);
-  }
-}
-viz.setCoords = () => {
-  const _stageWidth = jQuery('#viz-space').width();
-  const _stageHeight = jQuery('#viz-space').height();
-  const _buffer = 500;
-  const _horizRange = [0 - (_stageWidth * _buffer), 0 + (_stageWidth * _buffer)];
-  const _vertRange = [(0 - (_stageHeight * _buffer)), (0 + (_stageHeight * _buffer))];
-  console.log('_stageWidth is ' + _stageWidth + 'and _stageHeight is ' + _stageHeight);
-  console.log('_horizRange is ' + _horizRange + 'and _vertRange is ' + _vertRange);
-  // Set x and y coordinates for parents and children
-  // Parents get randomized x and y in relation to size.
-  viz.parents.forEach((el) => {
-    el.x = getRandom(_horizRange[0], _horizRange[1]);
-    el.y = getRandom(_vertRange[0], _vertRange[1]);
-    // const children = [];
-    console.log('Parent: ' + el.x + ', ' + el.y);
-    let chIndex = 0;
-    let firstCh = null;
-    viz.children.forEach((ch) => {
-      console.log('index = ' + chIndex);
-      if (ch.parent === el.id) {
-        console.log('Found a child for ' + el.id);
-        // setup.childRepulsion = the distance
-        // setup.childAngle = degrees between children
-        ch.x = (el.x > 0) ?
-          el.x + Math.abs((Math.sin(setup.childAngle * chIndex)) * setup.childRepulsion) :
-          el.x - Math.abs((Math.sin(setup.childAngle * chIndex)) * setup.childRepulsion);
-        ch.y = (el.y > 0) ?
-          el.y + Math.abs((Math.cos(setup.childAngle * chIndex)) * setup.childRepulsion) :
-          el.y - Math.abs((Math.cos(setup.childAngle * chIndex)) * setup.childRepulsion);
-
-        if (setup.childAngle * chIndex <= 45 || (setup.childAngle * chIndex > 90 && setup.childAngle * chIndex <= 180)) {
-          ch.x = (el.x > 0) ?
-            el.x + Math.abs((Math.sin(setup.childAngle * chIndex)) * setup.childRepulsion) :
-            el.x - Math.abs((Math.sin(setup.childAngle * chIndex)) * setup.childRepulsion);
-          ch.y = (el.y > 0) ?
-            el.y + Math.abs((Math.cos(setup.childAngle * chIndex)) * setup.childRepulsion) :
-            el.y - Math.abs((Math.cos(setup.childAngle * chIndex)) * setup.childRepulsion);
-        } else if (setup.childAngle * chIndex > 45 && setup.childAngle * chIndex <= 90 ||
-            (setup.childAngle * chIndex > 180 && setup.childAngle * chIndex <= 360)) {
-          ch.x = (el.x > 0) ?
-            el.x + Math.abs((Math.cos(setup.childAngle * chIndex)) * setup.childRepulsion) :
-            el.x - Math.abs((Math.cos(setup.childAngle * chIndex)) * setup.childRepulsion);
-          ch.y = (el.y > 0) ?
-            el.y + Math.abs((Math.sin(setup.childAngle * chIndex)) * setup.childRepulsion) :
-            el.y - Math.abs((Math.sin(setup.childAngle * chIndex)) * setup.childRepulsion);
-        }
-        console.log('Child of ' + el.id + ': '  + ch.x + ', ' + ch.y);
-        chIndex++;
-      }
-    });
-  })
-  console.log(viz.children);
-}
-// viz.setCoords();
 viz.rebuild = () => {
   // Clear out nodes object.
   setup.nodes = [];
@@ -290,7 +222,7 @@ viz.rebuild = () => {
   });
 }
 viz.rebuild();
-console.log('Done adding child nodes');
+// console.log('Done adding child nodes');
 // console.log(setup.nodes);
 setup.options = {
   title: {
@@ -307,27 +239,16 @@ setup.options = {
   tooltip: {
     show: false,
   },
-  // extraCssText: 'box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);'
-  textStyle: {
-    // color: '#000',
-    extraCssText: 'z-index:500;'
-  },
+  // textStyle: {
+  //   extraCssText: 'z-index:500;'
+  // },
   series : [
     {
       name: 'UBI',
       type: 'graph',
       zlevel: 1000,
-      // layout: 'force',
       layout: 'none',
-      // zoom: 1.15,
       nodeScaleRatio: 0.35,
-      // force: {
-      //   repulsion: 270,
-      //   gravity: 0.015,
-      //   edgeLength: 40,
-      //   layoutAnimation: false,
-      //   friction: 0.1
-      // },
       roam: true,
       draggable: true,
       data: setup.nodes,
@@ -376,20 +297,6 @@ jQuery('#viz-space').hover(function() {
   jQuery(document).unbind('mousewheel DOMMouseScroll');
 });
 
-// var scrollable = document.querySelector('#viz-space');
-// scrollable.addEventListener('wheel', function(event) {
-//     var deltaY = event.deltaY;
-//     var contentHeight = scrollable.scrollHeight;
-//     var visibleHeight = scrollable.offsetHeight;
-//     var scrollTop = scrollable.scrollTop;
-//
-//     if (scrollTop === 0 && deltaY < 0)
-//         event.preventDefault();
-//     else if (visibleHeight + scrollTop === contentHeight && deltaY > 0)
-//         event.preventDefault();
-// });
-
-
 // Init eCharts
 viz.chart = echarts.init(document.getElementById('viz-space'));
 viz.chart.showLoading();
@@ -399,7 +306,7 @@ viz.chart.hideLoading();
 viz.zoomLevel = null;
 // Item click listener
 viz.chart.on('click', function(e) {
-  console.log('click');
+  // console.log('click');
   // console.log(e);
   if (e.dataType === 'node') {
     console.log(e);
@@ -413,13 +320,14 @@ viz.chart.on('click', function(e) {
     // console.log(evt);
     var offset = e.data.symbolSize + (e.data.symbolSize * viz.zoomlevel * 400);
     var _item_obj = viz.getItemObj(e.data.id);
-    console.log('_item_obj')
-    console.log(_item_obj);
+    // console.log('_item_obj')
+    // console.log(_item_obj);
     var _item_links = viz.getItemLinks(e.data.id);
-    let _tooltip = '<div class="tip" style="max-height:' + (jQuery(window).height() * 0.75) + 'px;overflow-y:scroll;">';
+    var _style = 'style="max-height:' + (jQuery(window).height() * 0.75) + 'px;overflow-y:scroll;"';
+    let _tooltip = '<div class="tip">';
     // Set up accordion content.
     if (_item_obj.type === 'parent') {
-      console.log('it\'s a parent');
+      // console.log('it\'s a parent');
       _tooltip += '<span class="subtext">' + setup.strings.theme + '</span>' +
       '<div class="theme title">' + e.data.name + '</div>';
       // If there are links, render them.
@@ -435,12 +343,12 @@ viz.chart.on('click', function(e) {
       var parentNode = parentNodes.filter(function(el) {
         return el.id == nodeID
       })
-      console.log('parentNode');
-      console.log(parentNode);
+      // console.log('parentNode');
+      // console.log(parentNode);
       if (parentNode[0].bibliography) {
         _tooltip += '<a class="toggle-info" data-toggle="collapse" href="#collapseBib" role="button" aria-expanded="false" aria-controls="collapseBib">' +
           '<span class="label">' +
-            'BIBLIOGRAPHY' +
+            setup.strings.bibliography +
           '</span>' +
           '<span class="icon">&plus;</span>' +
         '</a>' +
@@ -452,7 +360,7 @@ viz.chart.on('click', function(e) {
       }
     }
     if (_item_obj.type === 'child') {
-      console.log('it\'s a child');
+      // console.log('it\'s a child');
       const parentTitle = viz.getItemObj(_item_obj.parent).title;
       // console.log('Parent is ' + parentTitle);
       _tooltip += '<span class="subtext">' + setup.strings.theme + '</span>' +
@@ -463,7 +371,7 @@ viz.chart.on('click', function(e) {
       if (_item_obj.summary) {
         _tooltip += '<a class="toggle-info" data-toggle="collapse" href="#collapseSumm" role="button" aria-expanded="false" aria-controls="collapseSumm">' +
           '<span class="label">' +
-            'SUMMARY' +
+            setup.strings.summary +
           '</span>' +
           '<span class="icon">&plus;</span>' +
         '</a>' +
@@ -477,7 +385,7 @@ viz.chart.on('click', function(e) {
       if (_item_obj.claims) {
         _tooltip += '<a class="toggle-info" data-toggle="collapse" href="#collapseClaims" role="button" aria-expanded="false" aria-controls="collapseClaims">' +
           '<span class="label">' +
-            'CLAIMS' +
+            setup.strings.claims +
           '</span>' +
           '<span class="icon">&plus;</span>' +
         '</a>' +
@@ -491,7 +399,7 @@ viz.chart.on('click', function(e) {
       if (_item_obj.relatedTopics) {
         _tooltip += '<a class="toggle-info" data-toggle="collapse" href="#collapseRelatedTopics" role="button" aria-expanded="false" aria-controls="collapseRelatedTopics">' +
           '<span class="label">' +
-            'RELATED TOPICS' +
+            setup.strings.relatedTopics +
           '</span>' +
           '<span class="icon">&plus;</span>' +
         '</a>' +
@@ -509,7 +417,7 @@ viz.chart.on('click', function(e) {
       if (_item_obj.readMore) {
         _tooltip += '<a class="toggle-info" data-toggle="collapse" href="#collapseReadMore" role="button" aria-expanded="false" aria-controls="collapseReadMore">' +
           '<span class="label">' +
-            'READ MORE' +
+            setup.strings.readMore +
           '</span>' +
           '<span class="icon">&plus;</span>' +
         '</a>' +
@@ -525,10 +433,10 @@ viz.chart.on('click', function(e) {
     // Build dialog
     $dialog = jQuery('#dialog');
     _dialog_width = $dialog.width();
-    console.log('width = ' + _dialog_width);
+    // console.log('width = ' + _dialog_width);
     var _left = 0;
     if ((evt.pageX + _dialog_width) > jQuery(window).width()) {
-      console.log('too far to the right');
+      // console.log('too far to the right');
       _left = evt.pageX - 450;
     } else {
       _left = evt.pageX;
@@ -539,7 +447,8 @@ viz.chart.on('click', function(e) {
         'top': evt.pageY - offset * 2,
         'left': _left,
         'padding': offset,
-        'width': '450px'
+        'width': '450px',
+        'z-index': 2998
       })
       .fadeIn('slow');
     $dialog.on('mouseenter', function() {
