@@ -19606,15 +19606,19 @@ body.type-positions .modal button.close {
   border: none;
 }
 
+nav.navbar.sticky-top {
+  z-index: 3000;
+}
+
 .viz-parent .viz-space {
-  z-index: 2999;
+  z-index: 2998;
 }
 
 .viz-parent .dialog {
   position: absolute;
   background-color: transparent;
   width: 450px;
-  z-index: 3000;
+  z-index: 2999;
 }
 
 .viz-parent .dialog .dialog-body {

@@ -1,12 +1,15 @@
+nav.navbar.sticky-top {
+  z-index: 3000;
+}
 .viz-parent {
   .viz-space {
-    z-index: 2999;
+    z-index: 2998;
   }
   .dialog {
     position: absolute;
     background-color: transparent;
     width: 450px;
-    z-index: 3000;
+    z-index: 2999;
     .dialog-body {
       max-height: 800px;
       overflow-y: scroll;
