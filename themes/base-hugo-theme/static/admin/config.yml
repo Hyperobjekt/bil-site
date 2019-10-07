@@ -88,7 +88,7 @@ collections:
             - {label: Panel 1 Heading, name: heading1, widget: string}
             - {label: Panel 1 Body text, name: body1, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
             - {label: Panel 2 Heading, name: heading2, widget: string}
-            - {label: Panel 2 Paragraph 1, name: p2p1, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+            - {label: Panel 2 Body text, name: body2, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
             - {label: Panel 3 heading, name: heading3, widget: string}
             - {label: Panel 3 subheading, name: subhead3, widget: string}
             - {label: Item 1 heading, name: item1head, widget: string}
