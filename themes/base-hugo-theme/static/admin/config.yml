@@ -44,7 +44,7 @@ collections:
   #WHAT IS BIL PAGE
   - label: "What is BIL?"
     name: what_is_bil
-    preview_path: what-is-bil/
+    preview_path: about/what-is-bil/
     files:
         - label: What is BIL Page Content
           name: what_is_bil_content
@@ -75,7 +75,7 @@ collections:
   #WHAT IS UBI PAGE
   - label: "What is UBI?"
     name: what_is_ubi
-    preview_path: what-is-ubi/
+    preview_path: about/what-is-ubi/
     files:
         - label: What is UBI Page Content
           name: what_is_ubi_content
@@ -101,6 +101,29 @@ collections:
             - {label: Item 4 Text, name: item4text, widget: string}
             - {label: Item 5 heading, name: item5head, widget: string}
             - {label: Item 5 Text, name: item5text, widget: string}
+
+  #PEOPLE PAGE
+  - label: "People"
+    name: people
+    preview_path: about/people/
+    files:
+        - label: Pics & Bios
+          name: bios
+          file: "data/people/all.yaml"
+          extension: "yaml"
+          fields:
+            label: Members
+            name: personnel
+            widget: list
+            fields:
+            - {label: Name, name: name, widget: string}
+            - {label: Role, name: role, widget: select, options: ["Leadership","Fellow","Former"]}
+            - {label: Title, name: title, widget: string}
+            - {label: Full image, name: image, widget: image}
+            - {label: Thumbnail image, name: thumb, widget: image}
+            - {label: Status, name: current, widget: hidden, default: true}
+            - {label: Bio, name: blurb, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+                  
             
 
         

@@ -1,0 +1,187 @@
+personnel: 
+  - name: "Avshalom Schwartz"
+    role: "former-grad" # director, staff, or partner
+    title: "PhD Candidate, Political Science" # maybe different from role; is displayed
+    image: "/uploads/aschwartz.jpg" # will be cropped to center square & rounded
+    thumb: "/uploads/aschwartz-sm.jpg"
+    current: true # true or false (for former)
+    blurb: >-
+      Avshalom Schwarz is a PhD student in the Department of Political Science at Stanford University.
+
+    
+      As a graduate research assistant for the Basic Income Lab, Avshalom is taking part in the lab’s research visualization project, which will collect existing research on UBI in one place, thereby promoting more methodical progress in the academic field and establishing a rigorous database for the benefit of future basic-income experimenters. So far, Avshalom has reviewed UBI literature on topics relating to automation, the future of work, growing inequalities and environmental justice.  
+  - name: "Guillermo Gomez"
+    role: "former-grad" # director, staff, or partner
+    title: "Master's in Management Science & Engineering, 2019"
+    image: "/uploads/ggomez.jpg" # will be cropped to center square & rounded
+    thumb: "/uploads/ggomez-sm.jpg"
+    current: true # true or false (for former)
+    blurb: >
+      Guillermo Gomez was a Master's student in Stanford's Computational Social Science program, under the Management Science & Engineering department.
+
+      
+      He worked on the lab's online research mapping of the basic income literature, which included key articles produced on UBI to date, highlighting important findings from each and ensuring that core areas such as health, crime, stigma, childhood poverty and gender equity are covered. He also supported the lab with program management basics by creating custom internal tracking tools. 
+  - name: "Catherine Thomas"
+    role: "former-grad" # director, staff, or partner
+    title: "PhD Candidate, Psychology" # maybe different from role; is displayed
+    image: "/uploads/cthomas.jpg" # will be cropped to center square & rounded
+    thumb: "/uploads/cthomas-sm.jpg"
+    current: true # true or false (for former)
+    blurb: >
+      Having worked in and researched international development for several years, Catherine was inspired by growing evidence on the effectiveness of unconditional and conditional cash transfers on improving wellbeing, health, and economic outcomes. This is especially important in the midst of disappointing results on the impact of most economic development interventions. Catherine believes that universal basic income is a promising strategy for advancing evidence-based social policy and more inclusive societies. She brings her background in psychology to bear on her studies of UBI, exploring how psychological insights can increase the effectiveness of and support for cash-based welfare.
+
+      
+      Through laboratory and field experiments in the US and in Kenya, Catherine examines how psychological insights can be applied to increase the effectiveness of and support for cash-based welfare, including universal basic income. In particular, she is interested in understanding how the ways in which universal basic income policies are communicated not only influence translation to policy but also potentially the effectiveness of the policy on behavioral and wellbeing outcomes.
+
+      
+      Catherine examines, first, how values-based messages of universal basic income affect policy support and affect stigmatizing attitudes against low-income populations among the general public in the US. Second, she assesses how such messages, in turn, differentially influence agency, self-investment behaviors, stigma, and support for such policies among low-income populations in the US and in Kenya.
+  - name: "Joan Berry"
+    role: "leadership" # director, staff, or partner
+    title: "Executive Director" # maybe different from role; is displayed
+    image: "/uploads/jberry.jpg" # will be cropped to center square & rounded
+    thumb: "/uploads/jberry-sm.jpg"
+    current: true # true or false (for former)
+    blurb: >
+      Joan joined the Ethics in Society team in 2004 when it was just an undergraduate honors program. 
+      Originally from the great state of Rhode Island, she moved to the Bay Area in the late 1990s. Joan has a BA in Sociology and has worked in both academia and industry in various administrative positions and as a technical writer. In addition to her work with the Basic Income Lab, she also serves as the Executive Director of the McCoy Family Center for Ethics in Society.
+  - name: "Juliana Bidadanure"
+    role: "leadership" # director, staff, or partner
+    title: "Faculty Director" # maybe different from role; is displayed
+    image: "/uploads/jbidadanure.png" # will be cropped to center square & rounded
+    thumb: "/uploads/jbidadanure-sm.jpg"
+    current: true # true or false (for former)
+    blurb: >-
+      <p>Juliana Bidadanure is an Assistant Professor in the department of Philosophy at Stanford University. Before coming to Stanford, Juliana completed her PhD in Political Philosophy within the School of Politics, Economics and Philosophy at the University of York (UK), and was then a 2014-2015 Max Weber Postdoctoral Fellow at the European University Institute (Italy). Her interests lie at the intersection of Philosophy and Public Policy. She has written on the theory and practice of equality in general, and on age-group justice and what it means to treat young people as equals, in particular.</p> 
+      <p>Age-group justice: Juliana’s PhD thesis investigated intergenerational inequalities and asked what governments owe to their young citizens. Inequalities between generations crystallize political and economic tensions. She provided a critical framework that serves to distinguish between acceptable and objectionable inequalities. She engaged with the normative aspects of youth disadvantage and evaluated suitable policies to alleviate youth unemployment, poverty and exclusion. In particular, she wrote on the introduction of youth quotas in parliaments and on the policy proposals of an unconditional basic income for young people.</p>
+      <p>Egalitarianism: Juliana has also written on egalitarian theory, and in particular on the distinction between distributive and luck-egalitarian accounts of equality, on the one hand, and relational and social egalitarian frameworks, on the other hand. She is interested in the history, the theory and the practice of equality and will pursue these interests while at Stanford.</p>
+      <p>Universal Basic Income: Juliana started by writing on the limitations of the conditional benefits system in France 6 years ago and then researched how basic income compared to basic capital. Basic Capital is a lump sum given to all individuals as they reach adulthood.</p>
+      <p>Email: j.bidadanure@stanford.edu</p>
+  - name: "José Luis Sabau"
+    role: "undergrad" # director, staff, or partner
+    title: "Undergraduate Fellow, Stanford University" # maybe different from role; is displayed
+    image: "/uploads/jluissabau.jpeg" # will be cropped to center square & rounded
+    thumb: "/uploads/jluissabau-sm.jpg"
+    current: true # true or false (for former)
+    blurb: >
+      José Luis Sabau is an undergraduate student at Stanford University from Cozumel, Mexico. He is looking to major in Political Science, focusing on justice, political economy and development. José Luis is interested in the philosophical arguments used to support a Basic Income as well as in the different experiments performed around the world to justify this policy.
+  - name: "Joan O’Bryan"
+    role: "current-grad" # director, staff, or partner
+    title: "PhD Candidate, Political Science" # maybe different from role; is displayed
+    image: "/uploads/jobryan.jpg" # will be cropped to center square & rounded
+    thumb: "/uploads/jobryan-sm.jpg"
+    current: true # true or false (for former)
+    blurb: >
+      Joan O’Bryan is a PhD student in the Department of Political Science. Before coming to Stanford, she taught middle school for three years, then attended the University of Cambridge, receiving her MPhil in Public Policy. These experiences sparked her interest in the connection between academic debates and real-world policy practice, and her research at the Basic Income Lab focuses on this intersection. <br><br>As a graduate research fellow for the Lab, Joan is taking part in the Lab’s research visualization project and will be reviewing the UBI literature on topics relating to wellbeing and alternatives to basic income (EITC, Job Guarantee, Targeted Benefits, and Workfare, among others). 
+  - name: "Lara Spencer"
+    role: "current-grad" # director, staff, or partner
+    title: "PhD Candidate, Philosophy" # maybe different from role; is displayed
+    image: "/uploads/lspencer.jpg" # will be cropped to center square & rounded
+    thumb: "/uploads/lspencer-sm.jpg"
+    current: true # true or false (for former)
+    blurb: >
+      Lara Spencer is a third year PhD student in the Philosophy Department. While most of her research is centered on the philosophy of science, she has become increasingly interested in the interface of philosophy and policy. To this end, her research on UBI lies at the intersection of basic income and women’s health.<br><br>As a graduate research fellow for the Lab, Lara is taking part in the Lab’s research visualization project and will be reviewing the UBI literature on topics relating to community and democracy. 
+  - name: "Michelle Reddy"
+    role: "former-grad" # director, staff, or partner
+    title: "PhD Candidate, International Comparative Education" # maybe different from role; is displayed
+    image: "/uploads/mreddy.png" # will be cropped to center square & rounded
+    thumb: "/uploads/mreddy-sm.jpg"
+    current: true # true or false (for former)
+    blurb: >
+      Michelle Reddy is a PhD candidate in International Comparative Education and completed her Master's in Political Science. Her research focuses on non-state actors and civic engagement, particularly during humanitarian crises such as Ebola, Zika, and the migration crisis. Michelle's dissertation examines how different organizational forms of nonprofits affects political socialization. She also studies the emergence of domestic organizations delivering health and education services in developing countries.
+
+      <br/><br/>Michelle's work at the Basic Income Lab focuses on reviewing the empirical literature on Universal Basic Income across 21 thematic areas. She is interested in how UBI influences civic engagement, as well as in the use of UBI in humanitarian crisis and disaster relief. She is also collaborating with the other graduate fellows for the creation of the online mapping of basic income literature.
+  - name: "Neryvia Pillay Bell"
+    role: "former-grad" # director, staff, or partner
+    title: "Visiting Scholar at the Institute for Advanced Study, 2018-19; Economics PhD, Stanford University, 2018" # maybe different from role; is displayed
+    image: "/uploads/npillaybell.jpg" # will be cropped to center square & rounded
+    thumb: "/uploads/npillaybell-sm.jpg"
+    current: true # true or false (for former)
+    blurb: >
+      Neryvia Pillay Bell completed her PhD in the Economics Department and was a Visiting Scholar at the Institute for Advanced Study in 2018/19. Her research examined the ways in which government policies affect individual education, labor market and health outcomes. 
+    
+      <br/><br/>At the Basic Income Lab, Neryvia surveyed the academic literature relating to to basic income experiments around the world. She mainly focused on the empirical evidence regarding the impact of basic income on health and gender outcomes.
+  - name: "Olga Lenczewska"
+    role: "current-grad" # director, staff, or partner
+    title: "PhD Candidate, Philosophy; Master's Candidate, Political Science" # maybe different from role; is displayed
+    image: "/uploads/olenczewska.jpg" # will be cropped to center square & rounded
+    thumb: "/uploads/olenczewska-sm.jpg"
+    current: true # true or false (for former)
+    blurb: >-
+      Olga Lenczewska is a PhD student in the Philosophy Department and a Masters student in the Department of Political Science. Her research centers on Kant, political philosophy, and ethics. Before coming to Stanford, she obtained a Bachelor of Arts from Oxford and worked for the Institute for Research on Population and Social Policies at the National Italian Research Council.
+
+      <br/><br/>Olga’s work at the Basic Income Lab focuses on reviewing academic literature on the impact of basic income on gender justice, racial justice, health, the environment, and related concerns. She is mainly surveying the normative debates on basic income, seeking to capture the ethical perspectives on basic income that arise from a variety of  theories of justice.
+  - name: "Prach Panchakunathorn"
+    role: "current-grad" # director, staff, or partner
+    title: "PhD Candidate, Philosophy" # maybe different from role; is displayed
+    image: "/uploads/ppanchakunathorn.jpg" # will be cropped to center square & rounded
+    thumb: "/uploads/ppanchakunathorn-sm.jpg"
+    current: true # true or false (for former)
+    blurb: >
+      Prach Panchakunathorn is pursuing a PhD in Philosophy, focusing on political philosophy and ethics. His current research project is on the ethics of risk-taking and risk sharing. Another potential project is about fair substitution — that is, fairness in substituting one good for another. This project has important implications for such practices as reparation, compensation for victims of state policies, and market exchange. Before Stanford, Prach completed his BA in Philosophy, Politics and Economics at Oxford University, and his MPhil in Philosophy at Cambridge University.<br><br>As a graduate research fellow for the Lab, Prach is taking part in the Lab’s research visualization project and will be reviewing the UBI literature on topics relating to economic effects and inequality. 
+  - name: "Sarah Berger Gonzalez"
+    role: "leadership" # director, staff, or partner
+    title: "Program Manager" # maybe different from role; is displayed
+    image: "/uploads/sbergergonzalez.jpg" # will be cropped to center square & rounded
+    thumb: "/uploads/sbergergonzalez-sm.jpg"
+    current: true # true or false (for former)
+    blurb: >-
+      Sarah joins us from the World Bank where she was a Social Protection Specialist. She has over a decade of experience in developing and managing complex international income support programs aiming to tackle the multi-dimensional elements of poverty through the identification of creative responses to the needs of the most disadvantaged communities in Latin America and the Caribbean, Europe, and Central Asia. Most recently, she developed strategies for Governments on how to link income support beneficiaries with labor market activation programs and other social services.
+
+      <br/> <br/>While doing work on poverty reduction, Berger Gonzalez grew interested in the transformative potential of unconditional cash transfer programs and the impacts they could have on education, health, employment and wellbeing, among other areas.
+
+      <br/> <br/>Prior to the World Bank, Sarah was a Fulbright Scholar in Osorno, Chile researching and working with the indigenous population, the Mapuche. She has a BA in History from Boston College and an MA in Public Policy from Georgetown University.
+
+      <br/> <br/>Phone: 
+      (650) 498-1733
+      Email: 
+      sb.gonzalez@stanford.edu
+  - name: "Sage Cammers-Goodwin"
+    role: "former-grad" # director, staff, or partner
+    title: "B.S. in Computer Science 2017, M.S. in Symbolic Systems 2018" # maybe different from role; is displayed
+    image: "/uploads/scammers-goodwin.jpg" # will be cropped to center square & rounded
+    thumb: "/uploads/scammers-goodwin-sm.jpg"
+    current: true # true or false (for former)
+    weight: 80
+    blurb: >-
+      Sage was drawn to basic income initially through her background in technology and witnessing firsthand the wealth automation generates for some while leaving others behind. Headlines featuring "robot taxes", "impending job loss", and basic income as a future necessity perked her ears to what eventually became a year of research on the topic. It turns out that basic income is an old idea endorsed internationally for reasons not often considered in the Bay Area -- it could encourage work, reduce stress, limit societal stigma towards those receiving benefits, and increase liberty for those often viewed as undeserving for factors they have limited control over. Sage thinkd that basic income should not just be seen as a bandaid on a dystopian future, but instead part of a support structure for a more stable modern society and economy.
+
+      
+      Currently Sage is designing an application that runs community level UBI through philanthropy. This tool will allow people to gain financial consciousness of their wealth relative to the cost of living in their area and how differing size donations would impact others in their community. The idea for the application grew out of my concern for gentrification, the slow process to actually implement experiments and create policy change, and the extreme wealth inequality in the Bay Area that is mirrored in other parts of the globe.
+
+      
+      In order to build the application, Sage seeks to understand what makes one willing and happy to give or take funds and what size community makes people the most generous and also leaves the greatest impact. These questions are addressed in her master's thesis, "Automation: The Curse and the Cure: Why Tech Companies have an Ethical Responsibility to Assist in Economic Security," which more generally addresses problems of poverty, inequality and technology.
+  - name: "Ye Ji Kee"
+    role: "former-grad" # director, staff, or partner
+    title: "PhD Economics, 2018" # maybe different from role; is displayed
+    image: "/uploads/yjikee.jpg" # will be cropped to center square & rounded
+    thumb: "/uploads/yjikee-sm.jpg"
+    current: true # true or false (for former)
+    blurb: >
+      Ye Ji is a PhD student in the Department of Economics at Stanford University. Her research interests include topics in labor economics and behavioral economics. 
+    
+      <br/><br/>Before coming to Stanford, Ye Ji graduated from Wellesley College in 2013 with degrees in economics and mathematics, and then she worked as a research assistant at the Federal Reserve Bank of Boston and the National Bureau of Economics. She reviewed the empirical literature on Universal Basic Income for the initail phase of the online visual platform.
+
+
+
+
+
+ 
+
+
+
+
+  
+            
+
+
+  
+
+    
+
+
+
+      
+
+
+    
+
