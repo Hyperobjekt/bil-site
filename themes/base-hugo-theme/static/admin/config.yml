@@ -42,11 +42,11 @@ collections:
             - {label: Recent news heading, name: heading4, widget: string}
             
   #WHAT IS BIL PAGE
-  - label: "What is BIL?"
-    name: what_is_bil
-    preview_path: about/what-is-bil/
+  - label: "About"
+    name: about
     files:
-        - label: What is BIL Page Content
+        - label: What is BIL 
+          preview_path: about/what-is-bil/
           name: what_is_bil_content
           file: "content/about/what-is-bil/_index.md"
           extension: "md"
@@ -71,14 +71,9 @@ collections:
             - {label: Panel 5 Paragraph 4, name: p5p4, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
             - {label: Sponsors Panel Heading, name: heading6, widget: string}
             - {label: Panel 6 Body Text, name: body6, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
-
-  #WHAT IS UBI PAGE
-  - label: "What is UBI?"
-    name: what_is_ubi
-    preview_path: about/what-is-ubi/
-    files:
-        - label: What is UBI Page Content
+        - label: What is UBI 
           name: what_is_ubi_content
+          preview_path: about/what-is-ubi/
           file: "content/about/what-is-ubi/_index.md"
           extension: "md"
           fields:
@@ -100,30 +95,25 @@ collections:
             - {label: Item 4 heading, name: item4head, widget: string}
             - {label: Item 4 Text, name: item4text, widget: string}
             - {label: Item 5 heading, name: item5head, widget: string}
-            - {label: Item 5 Text, name: item5text, widget: string}
+            - {label: Item 5 Text, name: item5text, widget: string}   
+        - label: People
+          name: bios
+          file: "data/people/all.yaml"
+          preview_path: about/people/
+          extension: "yaml"
+          fields:
+            - label: Members
+              name: personnel
+              widget: list
+              fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Role, name: role, widget: select, options: ["Leadership","Fellow","Former"]}
+              - {label: Title, name: title, widget: string}
+              - {label: Full image, name: image, widget: image}
+              - {label: Thumbnail image, name: thumb, widget: image}
+              - {label: Status, name: current, widget: hidden, default: true}
+              - {label: Bio, name: blurb, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}     
 
-  #PEOPLE PAGE
-  - label: "People"
-    name: people
-    preview_path: about/people/
-    files:
-      - label: "Pics & Bios"
-        name: bios
-        file: "data/people/all.yaml"
-        extension: "yaml"
-        fields:
-          - label: Members
-            name: personnel
-            widget: list
-            fields:
-            - {label: Name, name: name, widget: string}
-            - {label: Role, name: role, widget: select, options: ["Leadership","Fellow","Former"]}
-            - {label: Title, name: title, widget: string}
-            - {label: Full image, name: image, widget: image}
-            - {label: Thumbnail image, name: thumb, widget: image}
-            - {label: Status, name: current, widget: hidden, default: true}
-            - {label: Bio, name: blurb, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
-  
   #RESEARCH PAGES
   - label: "Research"
     name: research
