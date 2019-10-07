@@ -148,6 +148,15 @@ collections:
             - {label: Recommendation 1, name: rec1, widget: string}
             - {label: Recommendation 2, name: rec2, widget: string}
             - {label: Recommendation 3, name: rec3, widget: string}
+        - label: Basic Income Experiments
+          name: experiments_content
+          file: "data/experiments/content.yaml"
+          preview_path: research/basic-income-experiments/
+          extension: "yaml"
+          fields:
+            - {label: Intro to table, name: intro, widget: string}
+            - {label: Table Heading, name: heading, widget: string}
+
             
 
       
