@@ -107,23 +107,23 @@ collections:
     name: people
     preview_path: about/people/
     files:
-      - label: Pics & Bios
+      - label: "Pics & Bios"
         name: bios
         file: "data/people/all.yaml"
         extension: "yaml"
         fields:
-          label: Members
-          name: personnel
-          widget: list
-          fields:
-          - {label: Name, name: name, widget: string}
-          - {label: Role, name: role, widget: select, options: ["Leadership","Fellow","Former"]}
-          - {label: Title, name: title, widget: string}
-          - {label: Full image, name: image, widget: image}
-          - {label: Thumbnail image, name: thumb, widget: image}
-          - {label: Status, name: current, widget: hidden, default: true}
-          - {label: Bio, name: blurb, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
-                
+          - label: Members
+            name: personnel
+            widget: list
+            fields:
+            - {label: Name, name: name, widget: string}
+            - {label: Role, name: role, widget: select, options: ["Leadership","Fellow","Former"]}
+            - {label: Title, name: title, widget: string}
+            - {label: Full image, name: image, widget: image}
+            - {label: Thumbnail image, name: thumb, widget: image}
+            - {label: Status, name: current, widget: hidden, default: true}
+            - {label: Bio, name: blurb, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+                  
           
 
       
