@@ -23,8 +23,8 @@ collections:
             - {label: Hero panel paragraph 2, name: p2, widget: string}
             - {label: Hero panel paragraph 3, name: p3, widget: string}
             - {label: Hero panel call to action, name: cta, widget: string}
-            - {label: "What is Basic Income" panel heading, name: heading2, widget: string}
-            - {label: "What is Basic Income" panel subheading, name: subhead2, widget: string}
+            - {label: What is Basic Income panel heading, name: heading2, widget: string}
+            - {label: What is Basic Income panel subheading, name: subhead2, widget: string}
             - {label: Item 1 heading, name: item1Head, widget: string}
             - {label: Item 1 Text, name: item1Text, widget: string}
             - {label: Item 2 heading, name: item2Head, widget: string}
