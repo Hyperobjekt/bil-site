@@ -124,8 +124,8 @@ collections:
           preview_path: research/mapping-ubi-research/
           extension: "md"
           fields:
-            - {label: pageTitle, name: title, widget: hidden, default: "Mapping UBI Research"}
             - {label: layout, name: layout, widget: hidden, default: "mapping-ubi-research"}
+            - {label: pageTitle, name: title, widget: hidden, default: "Mapping UBI Research"}
             - {label: Hero Image Text, name: herotext, widget: string}
             - {label: Panel 1 Heading, name: heading1, widget: string}
             - {label: Panel 1 Body text, name: body1, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
@@ -133,8 +133,21 @@ collections:
             - {label: Visualization Panel Body Text, name: body2, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
             - {label: Sponsors Panel Heading, name: heading3, widget: string}
             - {label: Sponsors Panel Body Text, name: body3, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+        - label: UBI Cities Toolkit
+          name: ubi_cities_toolkit_content
+          file: "content/research/ubi-cities-toolkit/_index.md"
+          preview_path: research/ubi-cities-toolkit/
+          extension: "md"
+          fields:
+            - {label: layout, name: layout, widget: hidden, default: "ubi-cities-toolkit"}
+            - {label: pageTitle, name: title, widget: hidden, default: "UBI Cities Toolkit"}
+            - {label: Hero Image Text, name: herotext, widget: string}
+            - {label: Panel 1 Heading, name: heading1, widget: string}
+            - {label: Panel 1 Body text, name: body1, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+            - {label: Panel 2 Heading, name: heading2, widget: string}
+            - {label: Recommendation 1, name: rec1, widget: string}
+            - {label: Recommendation 2, name: rec2, widget: string}
+            - {label: Recommendation 3, name: rec3, widget: string}
             
-
-          
 
       
