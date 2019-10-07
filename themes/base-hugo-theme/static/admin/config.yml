@@ -8,6 +8,39 @@ media_folder: "content/uploads" # Media files will be stored in the repo under c
 public_folder: "/uploads" # The src attribute for uploaded media will begin with this
 
 collections:
+  #HOMEPAGE
+  - label: "Home"
+    name: home
+    preview_path: /
+    files:
+        - label: Homepage Content
+          name: homepage_content
+          file: "data/whatWeDo.yaml"
+          extension: "yaml"
+          fields:
+            - {label: Hero panel heading, name: heading, widget: string}
+            - {label: Hero panel paragraph 1, name: p1, widget: string}
+            - {label: Hero panel paragraph 2, name: p2, widget: string}
+            - {label: Hero panel paragraph 3, name: p3, widget: string}
+            - {label: Hero panel call to action, name: cta, widget: string}
+            - {label: "What is Basic Income" panel heading, name: heading2, widget: string}
+            - {label: "What is Basic Income" panel subheading, name: subhead2, widget: string}
+            - {label: Item 1 heading, name: item1Head, widget: string}
+            - {label: Item 1 Text, name: item1Text, widget: string}
+            - {label: Item 2 heading, name: item2Head, widget: string}
+            - {label: Item 2 Text, name: item2Text, widget: string}
+            - {label: Item 3 heading, name: item3Head, widget: string}
+            - {label: Item 3 Text, name: item3Text, widget: string}
+            - {label: Item 4 heading, name: item4Head, widget: string}
+            - {label: Item 4 Text, name: item4Text, widget: string}
+            - {label: Item 5 heading, name: item5Head, widget: string}
+            - {label: Item 5 Text, name: item5Text, widget: string}
+            - {label: Call to action, name: cta2, widget: string}
+            - {label: Visualization teaser heading, name: heading3, widget: string}
+            - {label: Visualization teaser subtext, name: subhead3, widget: string}
+            - {label: Call to action, name: cta3, widget: string}
+            - {label: Recent news heading, name: heading4, widget: string}
+            
   #WHAT IS BIL PAGE
   - label: "What is BIL?"
     name: what_is_bil
