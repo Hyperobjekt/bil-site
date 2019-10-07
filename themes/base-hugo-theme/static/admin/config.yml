@@ -15,7 +15,7 @@ collections:
     files:
         - label: Homepage Content
           name: homepage_content
-          file: "data/whatWeDo.yaml"
+          file: "data/home/whatWeDo.yaml"
           extension: "yaml"
           fields:
             - {label: Hero panel heading, name: heading, widget: string}
