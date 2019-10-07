@@ -1,6 +1,6 @@
 personnel: 
   - name: "Avshalom Schwartz"
-    role: "former-grad" # director, staff, or partner
+    role: "Former" # director, staff, or partner
     title: "PhD Candidate, Political Science" # maybe different from role; is displayed
     image: "/uploads/aschwartz.jpg" # will be cropped to center square & rounded
     thumb: "/uploads/aschwartz-sm.jpg"
@@ -11,7 +11,7 @@ personnel:
     
       As a graduate research assistant for the Basic Income Lab, Avshalom is taking part in the lab’s research visualization project, which will collect existing research on UBI in one place, thereby promoting more methodical progress in the academic field and establishing a rigorous database for the benefit of future basic-income experimenters. So far, Avshalom has reviewed UBI literature on topics relating to automation, the future of work, growing inequalities and environmental justice.  
   - name: "Guillermo Gomez"
-    role: "former-grad" # director, staff, or partner
+    role: "Former" # director, staff, or partner
     title: "Master's in Management Science & Engineering, 2019"
     image: "/uploads/ggomez.jpg" # will be cropped to center square & rounded
     thumb: "/uploads/ggomez-sm.jpg"
@@ -22,7 +22,7 @@ personnel:
       
       He worked on the lab's online research mapping of the basic income literature, which included key articles produced on UBI to date, highlighting important findings from each and ensuring that core areas such as health, crime, stigma, childhood poverty and gender equity are covered. He also supported the lab with program management basics by creating custom internal tracking tools. 
   - name: "Catherine Thomas"
-    role: "former-grad" # director, staff, or partner
+    role: "Former" # director, staff, or partner
     title: "PhD Candidate, Psychology" # maybe different from role; is displayed
     image: "/uploads/cthomas.jpg" # will be cropped to center square & rounded
     thumb: "/uploads/cthomas-sm.jpg"
@@ -36,7 +36,7 @@ personnel:
       
       Catherine examines, first, how values-based messages of universal basic income affect policy support and affect stigmatizing attitudes against low-income populations among the general public in the US. Second, she assesses how such messages, in turn, differentially influence agency, self-investment behaviors, stigma, and support for such policies among low-income populations in the US and in Kenya.
   - name: "Joan Berry"
-    role: "leadership" # director, staff, or partner
+    role: "Leadership" # director, staff, or partner
     title: "Executive Director" # maybe different from role; is displayed
     image: "/uploads/jberry.jpg" # will be cropped to center square & rounded
     thumb: "/uploads/jberry-sm.jpg"
@@ -45,7 +45,7 @@ personnel:
       Joan joined the Ethics in Society team in 2004 when it was just an undergraduate honors program. 
       Originally from the great state of Rhode Island, she moved to the Bay Area in the late 1990s. Joan has a BA in Sociology and has worked in both academia and industry in various administrative positions and as a technical writer. In addition to her work with the Basic Income Lab, she also serves as the Executive Director of the McCoy Family Center for Ethics in Society.
   - name: "Juliana Bidadanure"
-    role: "leadership" # director, staff, or partner
+    role: "Leadership" # director, staff, or partner
     title: "Faculty Director" # maybe different from role; is displayed
     image: "/uploads/jbidadanure.png" # will be cropped to center square & rounded
     thumb: "/uploads/jbidadanure-sm.jpg"
@@ -57,7 +57,7 @@ personnel:
       <p>Universal Basic Income: Juliana started by writing on the limitations of the conditional benefits system in France 6 years ago and then researched how basic income compared to basic capital. Basic Capital is a lump sum given to all individuals as they reach adulthood.</p>
       <p>Email: j.bidadanure@stanford.edu</p>
   - name: "José Luis Sabau"
-    role: "undergrad" # director, staff, or partner
+    role: "Fellow" # director, staff, or partner
     title: "Undergraduate Fellow, Stanford University" # maybe different from role; is displayed
     image: "/uploads/jluissabau.jpeg" # will be cropped to center square & rounded
     thumb: "/uploads/jluissabau-sm.jpg"
@@ -65,7 +65,7 @@ personnel:
     blurb: >
       José Luis Sabau is an undergraduate student at Stanford University from Cozumel, Mexico. He is looking to major in Political Science, focusing on justice, political economy and development. José Luis is interested in the philosophical arguments used to support a Basic Income as well as in the different experiments performed around the world to justify this policy.
   - name: "Joan O’Bryan"
-    role: "current-grad" # director, staff, or partner
+    role: "Fellow" # director, staff, or partner
     title: "PhD Candidate, Political Science" # maybe different from role; is displayed
     image: "/uploads/jobryan.jpg" # will be cropped to center square & rounded
     thumb: "/uploads/jobryan-sm.jpg"
@@ -73,7 +73,7 @@ personnel:
     blurb: >
       Joan O’Bryan is a PhD student in the Department of Political Science. Before coming to Stanford, she taught middle school for three years, then attended the University of Cambridge, receiving her MPhil in Public Policy. These experiences sparked her interest in the connection between academic debates and real-world policy practice, and her research at the Basic Income Lab focuses on this intersection. <br><br>As a graduate research fellow for the Lab, Joan is taking part in the Lab’s research visualization project and will be reviewing the UBI literature on topics relating to wellbeing and alternatives to basic income (EITC, Job Guarantee, Targeted Benefits, and Workfare, among others). 
   - name: "Lara Spencer"
-    role: "current-grad" # director, staff, or partner
+    role: "Fellow" # director, staff, or partner
     title: "PhD Candidate, Philosophy" # maybe different from role; is displayed
     image: "/uploads/lspencer.jpg" # will be cropped to center square & rounded
     thumb: "/uploads/lspencer-sm.jpg"
@@ -81,7 +81,7 @@ personnel:
     blurb: >
       Lara Spencer is a third year PhD student in the Philosophy Department. While most of her research is centered on the philosophy of science, she has become increasingly interested in the interface of philosophy and policy. To this end, her research on UBI lies at the intersection of basic income and women’s health.<br><br>As a graduate research fellow for the Lab, Lara is taking part in the Lab’s research visualization project and will be reviewing the UBI literature on topics relating to community and democracy. 
   - name: "Michelle Reddy"
-    role: "former-grad" # director, staff, or partner
+    role: "Former" # director, staff, or partner
     title: "PhD Candidate, International Comparative Education" # maybe different from role; is displayed
     image: "/uploads/mreddy.png" # will be cropped to center square & rounded
     thumb: "/uploads/mreddy-sm.jpg"
@@ -91,7 +91,7 @@ personnel:
 
       <br/><br/>Michelle's work at the Basic Income Lab focuses on reviewing the empirical literature on Universal Basic Income across 21 thematic areas. She is interested in how UBI influences civic engagement, as well as in the use of UBI in humanitarian crisis and disaster relief. She is also collaborating with the other graduate fellows for the creation of the online mapping of basic income literature.
   - name: "Neryvia Pillay Bell"
-    role: "former-grad" # director, staff, or partner
+    role: "Former" # director, staff, or partner
     title: "Visiting Scholar at the Institute for Advanced Study, 2018-19; Economics PhD, Stanford University, 2018" # maybe different from role; is displayed
     image: "/uploads/npillaybell.jpg" # will be cropped to center square & rounded
     thumb: "/uploads/npillaybell-sm.jpg"
@@ -101,7 +101,7 @@ personnel:
     
       <br/><br/>At the Basic Income Lab, Neryvia surveyed the academic literature relating to to basic income experiments around the world. She mainly focused on the empirical evidence regarding the impact of basic income on health and gender outcomes.
   - name: "Olga Lenczewska"
-    role: "current-grad" # director, staff, or partner
+    role: "Fellow" # director, staff, or partner
     title: "PhD Candidate, Philosophy; Master's Candidate, Political Science" # maybe different from role; is displayed
     image: "/uploads/olenczewska.jpg" # will be cropped to center square & rounded
     thumb: "/uploads/olenczewska-sm.jpg"
@@ -111,7 +111,7 @@ personnel:
 
       <br/><br/>Olga’s work at the Basic Income Lab focuses on reviewing academic literature on the impact of basic income on gender justice, racial justice, health, the environment, and related concerns. She is mainly surveying the normative debates on basic income, seeking to capture the ethical perspectives on basic income that arise from a variety of  theories of justice.
   - name: "Prach Panchakunathorn"
-    role: "current-grad" # director, staff, or partner
+    role: "Fellow" # director, staff, or partner
     title: "PhD Candidate, Philosophy" # maybe different from role; is displayed
     image: "/uploads/ppanchakunathorn.jpg" # will be cropped to center square & rounded
     thumb: "/uploads/ppanchakunathorn-sm.jpg"
@@ -119,7 +119,7 @@ personnel:
     blurb: >
       Prach Panchakunathorn is pursuing a PhD in Philosophy, focusing on political philosophy and ethics. His current research project is on the ethics of risk-taking and risk sharing. Another potential project is about fair substitution — that is, fairness in substituting one good for another. This project has important implications for such practices as reparation, compensation for victims of state policies, and market exchange. Before Stanford, Prach completed his BA in Philosophy, Politics and Economics at Oxford University, and his MPhil in Philosophy at Cambridge University.<br><br>As a graduate research fellow for the Lab, Prach is taking part in the Lab’s research visualization project and will be reviewing the UBI literature on topics relating to economic effects and inequality. 
   - name: "Sarah Berger Gonzalez"
-    role: "leadership" # director, staff, or partner
+    role: "Leadership" # director, staff, or partner
     title: "Program Manager" # maybe different from role; is displayed
     image: "/uploads/sbergergonzalez.jpg" # will be cropped to center square & rounded
     thumb: "/uploads/sbergergonzalez-sm.jpg"
@@ -136,7 +136,7 @@ personnel:
       Email: 
       sb.gonzalez@stanford.edu
   - name: "Sage Cammers-Goodwin"
-    role: "former-grad" # director, staff, or partner
+    role: "Former" # director, staff, or partner
     title: "B.S. in Computer Science 2017, M.S. in Symbolic Systems 2018" # maybe different from role; is displayed
     image: "/uploads/scammers-goodwin.jpg" # will be cropped to center square & rounded
     thumb: "/uploads/scammers-goodwin-sm.jpg"
@@ -151,7 +151,7 @@ personnel:
       
       In order to build the application, Sage seeks to understand what makes one willing and happy to give or take funds and what size community makes people the most generous and also leaves the greatest impact. These questions are addressed in her master's thesis, "Automation: The Curse and the Cure: Why Tech Companies have an Ethical Responsibility to Assist in Economic Security," which more generally addresses problems of poverty, inequality and technology.
   - name: "Ye Ji Kee"
-    role: "former-grad" # director, staff, or partner
+    role: "Former" # director, staff, or partner
     title: "PhD Economics, 2018" # maybe different from role; is displayed
     image: "/uploads/yjikee.jpg" # will be cropped to center square & rounded
     thumb: "/uploads/yjikee-sm.jpg"
