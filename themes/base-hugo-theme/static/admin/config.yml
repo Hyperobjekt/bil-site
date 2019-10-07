@@ -72,4 +72,35 @@ collections:
             - {label: Sponsors Panel Heading, name: heading6, widget: string}
             - {label: Panel 6 Body Text, name: body6, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
 
+  #WHAT IS UBI PAGE
+  - label: "What is UBI?"
+    name: what_is_ubi
+    preview_path: what-is-ubi/
+    files:
+        - label: What is UBI Page Content
+          name: what_is_ubi_content
+          file: "content/about/what-is-ubi/_index.md"
+          extension: "md"
+          fields:
+            - {label: pageTitle, name: title, widget: hidden, default: "What Is UBI"}
+            - {label: layout, name: layout, widget: hidden, default: "what-is-ubi"}
+            - {label: Hero Image Text, name: herotext, widget: string}
+            - {label: Panel 1 Heading, name: heading1, widget: string}
+            - {label: Panel 1 Body text, name: body1, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+            - {label: Panel 2 Heading, name: heading2, widget: string}
+            - {label: Panel 2 Paragraph 1, name: p2p1, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+            - {label: Panel 3 heading, name: heading3, widget: string}
+            - {label: Panel 3 subheading, name: subhead3, widget: string}
+            - {label: Item 1 heading, name: item1head, widget: string}
+            - {label: Item 1 Text, name: item1text, widget: string}
+            - {label: Item 2 heading, name: item2head, widget: string}
+            - {label: Item 2 Text, name: item2text, widget: string}
+            - {label: Item 3 heading, name: item3head, widget: string}
+            - {label: Item 3 Text, name: item3text, widget: string}
+            - {label: Item 4 heading, name: item4head, widget: string}
+            - {label: Item 4 Text, name: item4text, widget: string}
+            - {label: Item 5 heading, name: item5head, widget: string}
+            - {label: Item 5 Text, name: item5text, widget: string}
+            
+
         
