@@ -189,7 +189,7 @@ collections:
           preview_path: news/
           extension: "yaml"
           fields:
-            - label: Items
+            - label: News Items
               name: newsItem
               widget: list
               fields:
