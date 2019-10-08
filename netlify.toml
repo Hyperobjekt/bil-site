@@ -28,3 +28,18 @@ HUGO_VERSION = "0.53"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
+
+[[redirects]]
+from = "/about"
+  to = "/about/what-is-bil"
+  status = 301
+
+[[redirects]]
+from = "/research"
+  to = "/research/mapping-ubi-research"
+  status = 301  
+  
+[[redirects]]
+from = "/events"
+  to = "/events/upcoming"
+  status = 301   

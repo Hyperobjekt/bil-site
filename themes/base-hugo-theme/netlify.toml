@@ -6,3 +6,8 @@
   HUGO_VERSION = "0.53"
   HUGO_THEME = "repo"
   HUGO_BASEURL = "https://vanilla-bootstrap-hugo-theme.netlify.com/"
+
+[[redirects]]
+from = "/about"
+  to = "/about/what-is-bil"
+  status = 301

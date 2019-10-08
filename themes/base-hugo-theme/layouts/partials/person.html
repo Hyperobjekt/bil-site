@@ -1,4 +1,5 @@
 <div class="name" tabindex="0">{{ .name }}</div>
+<div class="shorttitle medgraytext" tabindex="0"> {{ .shorttitle }}</div>
 <div class="title" tabindex="0"> {{ .title }}</div>
-<div class="bio">{{ .blurb | safeHTML }}</div>
+<div class="bio">{{ .blurb | safeHTML | markdownify }}</div>
 <div class="bigimage">{{ .image }}</div>

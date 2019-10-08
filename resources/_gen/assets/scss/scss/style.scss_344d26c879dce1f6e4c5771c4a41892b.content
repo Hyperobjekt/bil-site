@@ -19058,6 +19058,7 @@ body.people .row.funder-logos .p-2.rsf {
 
 .row.people-current .title, .row.people-former .title {
   color: #5d5d5d;
+  display: none;
   font-family: sofia-pro,sans-serif;
   font-weight: 400;
   font-style: normal;

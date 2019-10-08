@@ -1,11 +1,11 @@
 {{ define "main" }}
-
+{{ with .Page.Params }}
 <div id="hero" class="hero">
     <div class="hero-child row">
         
         <div class="hero-copy col-10 col-md-8 offset-md-1 d-flex align-items-center">
         
-            <h1 class="page-hero">Basic Income consists of a periodic cash allowance given to all citizens, without means test to provide them with a standard of living above the poverty line. </h1>
+            <h1 class="page-hero">{{ .herotext }}</h1>
             
         </div>
     </div>
@@ -42,12 +42,8 @@
             <img class="mw-100" alt="Mural in Stockton, California depicting a tree and promoting the SEED project" src="/images/stockton-SEED-tree.jpg" />
         </div>
         <div class="col-md-6 offset-md-0 col-lg-5 ml-md-6">
-            <h2 class="mb-sm-4 mb-md-4 mb-xl-5">What is Basic Income?</h2>
-            <p class="medgraytext mt-md-1">The past three decades have seen the elaboration of a vast body of literature on universal basic income, a radical policy proposal Philippe Van Parijs referred to as "a disarmingly simple idea." It consists of a periodic cash allowance given to all citizens, without means test to provide them with a standard of living above the poverty line. Basic income crosses disciplinary and political lines - with activists, philosophers, economists, conservatives, and liberals arguing both for and against it, and sometimes changing their minds.</p>
-
-            <p class="medgraytext">Universal basic income takes different shapes depending on how it is framed, what policies are suggested to support it, the society in which it is applied, and how it is funded. Each of these variables are dependent on the proposal and are not necessarily defining features of the concept itself.</p>
-                
-            <p class="medgraytext">On this page you will find the defining features of basic income, evidence collected thus far on the effects of cash-based grants, articles on basic income from a variety of disciplines, and literature on two popular alternatives to UBI -- basic job guarantee and basic capital.</p>
+            <h2 class="mb-sm-4 mb-md-4 mb-xl-5">{{ .heading1 }}</h2>
+            <span class="medgraytext mt-md-1">{{ .body1 | markdownify }}</span>
         </div>
     </div>
 </div>
@@ -61,17 +57,11 @@
 <div id="ubi-history" class="bronze-bg pt-sm-5 pt-md-7 pt-lg-9 pt-xl-12 pb-sm-7 pb-md-7 pb-xl-8">
         <div class="row">
             <div class="col-md-3 offset-md-1 offset-lg-2 no-gutters mb-3 mb-md-0">
-                    <h2 class="bronzetext mb-sm-4 mb-md-4 mb-xl-5">History of UBI</h2>
+                    <h2 class="bronzetext mb-sm-4 mb-md-4 mb-xl-5">{{ .heading2 }}</h2>
             </div>
             <div class="col-md-6 offset-md-0 col-lg-5 ml-md-6">
-                
-                <p class="medgraytext mt-md-1">Thomas More, Martin Luther King, Milton Friedman and various other significant figures in the fields of politics and economics considered UBI as a tool to change the world around them.
-                    </p>
-    
-                <p class="medgraytext">The idea of a Basic Income first originated in the 15th century, when theologian Thomas More wrote <i>Utopia</i> and humanist Johannes Ludovicus Vives calculated a detailed scheme for a minimum income. In the following centuries, philosophers like Thomas Paine would support an equal pay for all citizens regardless  of socioeconomic status. In the twentieth century the United States saw support for the idea  from across the political spectrum. Reverend Martin Luther King Jr. argued in favor of a Basic Income as the most effective means to eradicate poverty in the country while Economist and Nobel Laureate Milton Friedman proposed a negative income tax (an idea in many ways similar to a Basic Income). </p>
-                    
-                <p class="medgraytext">Stemming from an increasing support for the proposal, the Nixon administration put forward a proposal for the Family Assistance Plan, a program that would have incorporated a guaranteed income with financial supplements for workers. Around the same time, experiments would begin in the United States and Canada to explore the feasibility of a Basic Income. Notoriously, between 1974 and 1979 Canada would push a negative income tax experiment known as Mincome while Alaska would create  its Permanent Dividend Fund in 1982. Over the last decade, experiments have appeared in cities like Jackson, MS; Santa Monica, CA; Chicago, IL; and in Stockton, CA and continue to be funded elsewhere in the United States.
-                    </p>
+                <span class="medgraytext mt-md-1">{{ .body2 | markdownify }}
+                </span>
             </div>
         </div>
     </div>
@@ -83,26 +73,26 @@
 <div id="what-is-ubi">
     <div class="row">
         <div class="col-md-6 col-lg-5 mx-auto d-flex flex-column align-items-center my-sm-5 my-md-8 my-lg-10 my-xl-11">
-            <h2 class="text-center blacktext mb-2">Defining Characteristics</h2>
-            <p class="text-center slatetext">Adapted from Basic Income Earth Network (BIEN)</p>
+            <h2 class="text-center blacktext mb-2">{{ .heading3 }}</h2>
+            <p class="text-center slatetext">{{ .subhead3 | markdownify }}</p>
         </div>
     </div>
     <div class="row mb-md-4 mb-lg-6 mb-xl-11">
         <div class="col-md-1 col-lg-2"></div>
         <div class="col-md d-flex flex-column align-items-center">
             <div id="periodic" class="what-is-icon mb-sm-1"></div>
-            <h3 class="blacktext">Periodic</h3>
-            <p class="slatetext text-center mt-sm-1 mb-sm-3 my-md-0">It is paid at regular intervals (for example every month), not as a one-off grant.</p>
+            <h3 class="blacktext">{{ .item1head }}</h3>
+            <p class="slatetext text-center mt-sm-1 mb-sm-3 my-md-0">{{ .item1text }}</p>
         </div>
         <div class="col-md d-flex flex-column align-items-center">
             <div id="cash-payment" class="what-is-icon mb-sm-1"></div>
-            <h3 class="blacktext">Cash payment</h3>
-            <p class="slatetext text-center mt-sm-1 mb-sm-3 my-md-0">It is paid in an appropriate medium of exchange, allowing those who receive it to decide what they spend it on.</p>
+            <h3 class="blacktext">{{ .item2head }}</h3>
+            <p class="slatetext text-center mt-sm-1 mb-sm-3 my-md-0">{{ .item2text }}</p>
         </div>
         <div class="col-md d-flex flex-column align-items-center">
             <div id="universal" class="what-is-icon mb-sm-1"></div>
-            <h3 class="blacktext">Universal</h3>
-            <p class="slatetext text-center mt-sm-1 mb-sm-3 my-md-0">It is paid to all, without means test.</p>
+            <h3 class="blacktext">{{ .item3head }}</h3>
+            <p class="slatetext text-center mt-sm-1 mb-sm-3 my-md-0">{{ .item3text }}</p>
         </div>
         <div class="col-md-1 col-lg-2"></div>
     </div>
@@ -110,13 +100,13 @@
         <div class="col-md-3"></div>
         <div class="col-md d-flex flex-column align-items-center">
             <div id="individual" class="what-is-icon mb-sm-1"></div>
-            <h3 class="blacktext">Individual</h3>
-            <p class="slatetext text-center mt-sm-1 mb-sm-3 my-md-0">It is paid on an individual basis—and not, for instance, to households.</p>
+            <h3 class="blacktext">{{ .item4head }}</h3>
+            <p class="slatetext text-center mt-sm-1 mb-sm-3 my-md-0">{{ .item4text }}</p>
         </div>
         <div class="col-md d-flex flex-column align-items-center">
             <div id="unconditional" class="what-is-icon mb-sm-1"></div>
-            <h3 class="blacktext">Unconditional</h3>
-            <p class="slatetext text-center mt-sm-1 mb-sm-3 my-md-0">It is paid without a requirement to work or to demonstrate willingness-to-work.​</p>
+            <h3 class="blacktext">{{ .item5head }}</h3>
+            <p class="slatetext text-center mt-sm-1 mb-sm-3 my-md-0">{{ .item5text }}​</p>
         </div>
         <div class="col-md-3"></div>
     </div>
@@ -125,7 +115,7 @@
        
     </div>
 </div>
-
+{{ end }}
 {{ partial "subscribe.html" .}}
 
 {{ end }}

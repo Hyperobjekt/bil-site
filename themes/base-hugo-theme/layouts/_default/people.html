@@ -43,8 +43,8 @@
     <div class="row people-former">
         <div class="col-xs-12 col-lg-10 offset-lg-1 flex-row d-flex flex-wrap">
             
-                {{ range $datapeople := sort ($.Site.Data.people) "weight" "asc" }}
-                {{ if eq .role "leadership" }}
+            {{ range .Site.Data.people.all.personnel }}
+                {{ if eq .role "Leadership" }}
                 <!-- <div class="col-xs-12 col-mm-4 col"> -->
                   <div id="{{ urlize .name }}-{{ urlize .title}}" class="column-people p-2 col-xs-12 col-md-4 col-lg-3 launch-people-bio">
                      {{/*  
@@ -74,15 +74,15 @@
 
     <div class="row who-we-are-former leadership">
             <div class="headers w-100">
-                <h2 tabindex="0">Current Graduate Fellows</h2>
+                <h2 tabindex="0">Fellows</h2>
             </div>
         </div>
         <div class="">
             <div class="row people-former">
                 <div class="col-xs-12 col-lg-10 offset-lg-1 flex-row d-flex flex-wrap">
                     
-                        {{ range $datapeople := sort ($.Site.Data.people) "weight" "asc" }}
-                        {{ if eq .role "current-grad" }}
+                    {{ range .Site.Data.people.all.personnel }}
+                        {{ if eq .role "Fellow" }}
                         <!-- <div class="col-xs-12 col-mm-4 col"> -->
                         <div id="{{ urlize .name }}-{{ urlize .title}}" class="column-people p-2 col-xs-12 col-md-4 col-lg-3 launch-people-bio">
                             {{/*  
@@ -110,53 +110,19 @@
                 </div>
             </div> 
         </div>
+       
         <div class="row who-we-are-former leadership">
                 <div class="headers w-100">
-                    <h2 tabindex="0">Undergraduate Fellows</h2>
-                </div>
-            </div>
-            <div class="row people-former">
-                <div class="col-xs-12 col-lg-10 offset-lg-1 flex-row d-flex flex-wrap">
-                    
-                        {{ range $datapeople := sort ($.Site.Data.people) "weight" "asc" }}
-                        {{ if eq .role "undergrad" }}
-                        <!-- <div class="col-xs-12 col-mm-4 col"> -->
-                          <div id="{{ urlize .name }}-{{ urlize .title}}" class="column-people p-2 col-xs-12 col-md-4 col-lg-3 launch-people-bio">
-                             {{/*  
-                                  {{ $img := strings.TrimPrefix "/uploads/" .image }}
-                                  {{ $name := .name }}
-                                  {{ with $.Site.GetPage "page" "uploads/_index.md" }}
-                                  {{ with .Resources.GetMatch $img }}
-                                      {{$imgFill := .Fill "272x272 Center"}}  
-                              */}}
-                                  <div data-image="{{ .thumb }}" class="pic" style="background: url('{{ .thumb }}'); background-size: contain;" alt="Photo of {{ .name }}" tabindex="0">
-                                        <button class="d-none d-md-flex"><div>+</div></button>
-                                  </div>
-                             {{/*  
-                                  {{ end }}
-                                  {{ end }} 
-                              */}}
-                  
-                              {{ partial "person.html" . }}
-                  
-                          </div>
-                        {{ end }}
-                      {{ end }}
-            
-            
-                </div>
-            </div> 
-        <div class="row who-we-are-former leadership">
-                <div class="headers w-100">
-                    <h2 tabindex="0">Former Graduate Fellows</h2>
+                    <h2 tabindex="0">Former Fellows</h2>
                 </div>
             </div>
             
             <div class="row people-former">
                 <div class="col-xs-12 col-lg-10 offset-lg-1 flex-row d-flex flex-wrap mb-7">
                     
-                        {{ range $datapeople := sort ($.Site.Data.people) "weight" "asc" }}
-                        {{ if eq .role "former-grad" }}
+                        {{ range .Site.Data.people.all.personnel }}
+                        
+                        {{ if eq .role "Former" }}
                         <!-- <div class="col-xs-12 col-mm-4 col"> -->
                           <div id="{{ urlize .name }}-{{ urlize .title}}" class="column-people p-2 col-xs-12 col-md-4 col-lg-3 launch-people-bio">
                              {{/*  
@@ -177,6 +143,7 @@
                               {{ partial "person.html" . }}
                   
                           </div>
+                         
                         {{ end }}
                       {{ end }}
             

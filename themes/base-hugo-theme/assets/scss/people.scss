@@ -194,6 +194,7 @@ body.people {
       }
       .title {
         color: $seda-gray;
+        display: none;
         @include sofia-reg;
         font-size: 1.2rem;
         line-height: 2.8rem;

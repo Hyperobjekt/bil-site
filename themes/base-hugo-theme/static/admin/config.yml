@@ -8,15 +8,195 @@ media_folder: "content/uploads" # Media files will be stored in the repo under c
 public_folder: "/uploads" # The src attribute for uploaded media will begin with this
 
 collections:
-  #WHAT IS BIL PAGE
-  - label: "What is BIL?"
-    name: what_is_bil
-    preview_path: what-is-bil/
+  #HOMEPAGE
+  - label: "Home"
+    name: home
+    preview_path: /
     files:
-        - label: What is BIL Page Content
+        - label: Homepage Content
+          name: homepage_content
+          file: "data/home/whatWeDo.yaml"
+          extension: "yaml"
+          fields:
+            - {label: Hero panel heading, name: heading, widget: string}
+            - {label: Hero panel paragraph 1, name: p1, widget: string}
+            - {label: Hero panel paragraph 2, name: p2, widget: string}
+            - {label: Hero panel paragraph 3, name: p3, widget: string}
+            - {label: Hero panel call to action, name: cta, widget: string}
+            - {label: What is Basic Income panel heading, name: heading2, widget: string}
+            - {label: What is Basic Income panel subheading, name: subhead2, widget: string}
+            - {label: Item 1 heading, name: item1Head, widget: string}
+            - {label: Item 1 Text, name: item1Text, widget: string}
+            - {label: Item 2 heading, name: item2Head, widget: string}
+            - {label: Item 2 Text, name: item2Text, widget: string}
+            - {label: Item 3 heading, name: item3Head, widget: string}
+            - {label: Item 3 Text, name: item3Text, widget: string}
+            - {label: Item 4 heading, name: item4Head, widget: string}
+            - {label: Item 4 Text, name: item4Text, widget: string}
+            - {label: Item 5 heading, name: item5Head, widget: string}
+            - {label: Item 5 Text, name: item5Text, widget: string}
+            - {label: Call to action, name: cta2, widget: string}
+            - {label: Visualization teaser heading, name: heading3, widget: string}
+            - {label: Visualization teaser subtext, name: subhead3, widget: string}
+            - {label: Call to action, name: cta3, widget: string}
+            - {label: Recent news heading, name: heading4, widget: string}
+            
+  #WHAT IS BIL PAGE
+  - label: "About"
+    name: about
+    files:
+        - label: What is BIL 
+          preview_path: about/what-is-bil/
           name: what_is_bil_content
           file: "content/about/what-is-bil/_index.md"
           extension: "md"
           fields:
+            - {label: pageTitle, name: title, widget: hidden, default: "What Is BIL"}
+            - {label: layout, name: layout, widget: hidden, default: "what-is-bil"}
+            - {label: Hero Image Text, name: herotext, widget: string}
+            - {label: Panel 1 Heading, name: heading1, widget: string}
             - {label: Panel 1 Body text, name: body1, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+            - {label: Panel 2 Heading, name: heading2, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+            - {label: Panel 2 Paragraph 1, name: p2p1, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+            - {label: Panel 2 Paragraph 2, name: p2p2, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+            - {label: Panel 2 Paragraph 3, name: p2p3, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+            - {label: Panel 3 Heading, name: heading3, widget: string}
+            - {label: Panel 3 Body Text, name: body3, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+            - {label: Panel 4 Heading, name: heading4, widget: string}
+            - {label: Panel 4 Body Text, name: body4, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+            - {label: Panel 5 Heading, name: heading5, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+            - {label: Panel 5 Paragraph 1, name: p5p1, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+            - {label: Panel 5 Paragraph 2, name: p5p2, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+            - {label: Panel 5 Paragraph 3, name: p5p3, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+            - {label: Panel 5 Paragraph 4, name: p5p4, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+            - {label: Sponsors Panel Heading, name: heading6, widget: string}
+            - {label: Panel 6 Body Text, name: body6, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+        - label: What is UBI 
+          name: what_is_ubi_content
+          preview_path: about/what-is-ubi/
+          file: "content/about/what-is-ubi/_index.md"
+          extension: "md"
+          fields:
+            - {label: pageTitle, name: title, widget: hidden, default: "What Is UBI"}
+            - {label: layout, name: layout, widget: hidden, default: "what-is-ubi"}
+            - {label: Hero Image Text, name: herotext, widget: string}
+            - {label: Panel 1 Heading, name: heading1, widget: string}
+            - {label: Panel 1 Body text, name: body1, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+            - {label: Panel 2 Heading, name: heading2, widget: string}
+            - {label: Panel 2 Body text, name: body2, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+            - {label: Panel 3 heading, name: heading3, widget: string}
+            - {label: Panel 3 subheading, name: subhead3, widget: string}
+            - {label: Item 1 heading, name: item1head, widget: string}
+            - {label: Item 1 Text, name: item1text, widget: string}
+            - {label: Item 2 heading, name: item2head, widget: string}
+            - {label: Item 2 Text, name: item2text, widget: string}
+            - {label: Item 3 heading, name: item3head, widget: string}
+            - {label: Item 3 Text, name: item3text, widget: string}
+            - {label: Item 4 heading, name: item4head, widget: string}
+            - {label: Item 4 Text, name: item4text, widget: string}
+            - {label: Item 5 heading, name: item5head, widget: string}
+            - {label: Item 5 Text, name: item5text, widget: string}   
+        - label: People
+          name: bios
+          file: "data/people/all.yaml"
+          preview_path: about/people/
+          extension: "yaml"
+          fields:
+            - label: Members
+              name: personnel
+              widget: list
+              fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Role, name: role, widget: select, options: ["Leadership","Fellow","Former"]}
+              - {label: Title, name: title, widget: string}
+              - {label: Short title, hint: for display below photo on People page, name: shorttitle, widget: string}
+              - {label: Full image, name: image, widget: image}
+              - {label: Thumbnail image, name: thumb, widget: image}
+              - {label: Status, name: current, widget: hidden, default: true}
+              - {label: Bio, name: blurb, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}     
+
+  #RESEARCH PAGES
+  - label: "Research"
+    name: research
+    files:
+        - label: Mapping UBI Research
+          name: what_is_bil_content
+          file: "content/research/mapping-ubi-research/_index.md"
+          preview_path: research/mapping-ubi-research/
+          extension: "md"
+          fields:
+            - {label: layout, name: layout, widget: hidden, default: "mapping-ubi-research"}
+            - {label: pageTitle, name: title, widget: hidden, default: "Mapping UBI Research"}
+            - {label: Hero Image Text, name: herotext, widget: string}
+            - {label: Panel 1 Heading, name: heading1, widget: string}
+            - {label: Panel 1 Body text, name: body1, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+            - {label: Visualization Panel Heading, name: heading2, widget: string}
+            - {label: Visualization Panel Body Text, name: body2, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+            - {label: Sponsors Panel Heading, name: heading3, widget: string}
+            - {label: Sponsors Panel Body Text, name: body3, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+        - label: UBI Cities Toolkit
+          name: ubi_cities_toolkit_content
+          file: "content/research/ubi-cities-toolkit/_index.md"
+          preview_path: research/ubi-cities-toolkit/
+          extension: "md"
+          fields:
+            - {label: layout, name: layout, widget: hidden, default: "ubi-cities-toolkit"}
+            - {label: pageTitle, name: title, widget: hidden, default: "UBI Cities Toolkit"}
+            - {label: Hero Image Text, name: herotext, widget: string}
+            - {label: Panel 1 Heading, name: heading1, widget: string}
+            - {label: Panel 1 Body text, name: body1, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+            - {label: Panel 2 Heading, name: heading2, widget: string}
+            - {label: Recommendation 1, name: rec1, widget: string}
+            - {label: Recommendation 2, name: rec2, widget: string}
+            - {label: Recommendation 3, name: rec3, widget: string}
+        - label: Basic Income Experiments
+          name: experiments_content
+          file: "data/experiments/content.yaml"
+          preview_path: research/basic-income-experiments/
+          extension: "yaml"
+          fields:
+            - {label: Intro to table, name: intro, widget: string}
+            - {label: Table Heading, name: heading, widget: string}
+
+  #COURSES PAGE
+  - label: "Courses"
+    name: courses
+    files:
+        - label: UBI Philosophy Course
+          name: ubi_philosophy_content
+          file: "content/courses/_index.md"
+          preview_path: courses/
+          extension: "md"
+          fields:
+            - {label: layout, name: layout, widget: hidden, default: "ubi-philosophy"}
+            - {label: pageTitle, name: title, widget: hidden, default: "Universal Basic Income: the Philosophy Behind the Proposal"}
+            - {label: Hero Image Text, name: herotext, widget: string}
+            - {label: Panel 1 Heading, name: heading1, widget: string}
+            - {label: Panel 1 Body text, name: body1, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+            - {label: Panel 2 Heading, name: heading2, widget: string}
+            - {label: Panel 2 Courses List, name: courses, widget: string}
+            - {label: Panel 2 Body Text, name: body2, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+            - {label: Panel 3 Heading, name: heading3, widget: string}
+            - {label: Panel 3 Link, name: cta, widget: string}
+
+  #NEWS ITEMS
+  - label: News
+    name: news
+    files:
+        - label: News Items (sorted automatically by date)
+          name: newsitems
+          file: "data/news/items.yaml"
+          preview_path: news/
+          extension: "yaml"
+          fields:
+            - label: News Items
+              name: newsItem
+              widget: list
+              fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Date, name: datetime, widget: datetime}
+              - {label: Outlet, name: outlet, widget: string}
+              - {label: Link to article, hint: please copy full link from URL bar into this space, name: articleLink, widget: string}
+              - {label: Excerpt, name: excerpt, hint: Short introduction to story—roughly 280 characters or less, widget: string}
+              
         

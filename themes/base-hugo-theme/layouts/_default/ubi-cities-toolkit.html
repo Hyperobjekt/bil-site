@@ -1,11 +1,11 @@
 {{ define "main" }}
-
+{{ with .Page.Params }}
 <div id="hero" class="hero">
     <div class="hero-child row">
         
         <div class="hero-copy col-10 col-md-8 offset-md-1 d-flex align-items-center">
         
-            <h1 class="page-hero">Research Conducted by the Stanford Basic Income Lab</h1>
+            <h1 class="page-hero">{{ .herotext }}</h1>
             
         </div>
     </div>
@@ -44,11 +44,8 @@
             
         </div>
         <div class="col-md-5 offset-md-1 mt-4 mt-md-0">
-            <h2 class="mb-sm-4 mb-md-4 mb-xl-5">Basic Income Toolkit</h2>
-            <p class="medgraytext mt-md-1">Launched in early November 2018 at the National League of Cities annual meeting, the toolkit, Basic Income In Cities: A Guide to City Experiments and Pilot Projects, highlights emerging practices and shares insights on the process of designing UBI experiments in ways that are ethical, rigorous, informative and consequential for local and national policymaking.</p>
-
-            <p class="medgraytext">The toolkit is in part the outcome of a UBI cities workshop convened by the Basic Income Lab in partnership with the National League of Cities  (NLC) and the Economic Security Project in September 2017. Researchers and key stakeholders from the Stockton Economic Empowerment Demonstration, the Y Combinator’s Basic Income Project, the Universal Income Project and the Jain Family Institute also made valuable contributions.
-                </p>
+            <h2 class="mb-sm-4 mb-md-4 mb-xl-5">{{ .heading1 }}</h2>
+            <span class="medgraytext mt-md-1">{{ .body1 }}</span>
                 
         </div>
     </div>
@@ -60,7 +57,7 @@
 <div id="what-is-ubi">
     <div class="row">
         <div class="col-md-6 col-lg-5 mx-auto d-flex flex-column align-items-center my-sm-5 my-md-8 my-lg-10 my-xl-11">
-            <h2 class="text-center blacktext mb-2">Recommendations include:</h2>
+            <h2 class="text-center blacktext mb-2">{{ .heading2 }}</h2>
         </div>
     </div>
     <div class="row mb-md-11 mb-lg-14 mb-xl-14">
@@ -68,23 +65,23 @@
         <div class="col-md d-flex flex-column align-items-center">
             <div id="pluses" class="recommendations-icon mb-sm-1"></div>
          
-            <p class="slatetext text-center mt-sm-1 mb-sm-3 my-md-0">Identifying key design elements of the UBI pilot (who benefits, the size of the benefit, the frequency of benefit delivery, the pilot duration.</p>
+            <p class="slatetext text-center mt-sm-1 mb-sm-3 my-md-0">{{ .rec1 }}</p>
         </div>
         <div class="col-md d-flex flex-column align-items-center">
             <div id="target" class="recommendations-icon mb-sm-1"></div>
         
-            <p class="slatetext text-center mt-sm-1 mb-sm-3 my-md-0">Ensuring the pilot’s goals are aligned with the cities goals and capacity.
+            <p class="slatetext text-center mt-sm-1 mb-sm-3 my-md-0">{{ .rec2 }}
                 </p>
         </div>
         <div class="col-md d-flex flex-column align-items-center">
             <div id="eyes" class="recommendations-icon mb-sm-1"></div>
          
-            <p class="slatetext text-center mt-sm-1 mb-sm-3 my-md-0">Clearly defining essential stakeholders and the roles they play in the design, implementation, analysis of the pilot.</p>
+            <p class="slatetext text-center mt-sm-1 mb-sm-3 my-md-0">{{ .rec3 }}</p>
         </div>
         <div class="col-md-1 col-lg-2"></div>
     </div>
 </div>
-
+{{ end }}
 {{ partial "subscribe.html" .}}
 
 {{ end }}
