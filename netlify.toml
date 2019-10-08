@@ -33,3 +33,11 @@ HUGO_ENABLEGITINFO = "true"
 from = "/about"
   to = "/about/what-is-bil"
   status = 301
+
+from = "/research"
+  to = "/research/mapping-ubi-research"
+  status = 301  
+
+from = "/events"
+  to = "/events/upcoming"
+  status = 301   
