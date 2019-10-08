@@ -178,6 +178,22 @@ collections:
             - {label: Panel 2 Body Text, name: body2, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
             - {label: Panel 3 Heading, name: heading3, widget: string}
             - {label: Panel 3 Link, name: cta, widget: string}
-            
 
+  #NEWS ITEMS
+  - label: News
+    name: news
+    file: "data/news/items.yaml"
+    preview_path: news/
+    extension: "yaml"
+    fields:
+      - label: Members
+        name: newsItem
+        widget: list
+        fields:
+        - {label: Date, name: date, widget: string}
+        - {label: Outlet, name: outlet, widget: string}
+        - {label: Title, name: title, widget: string}
+        - {label: Link to article, hint: please copy full link from URL bar into this space, name: articleLink, widget: string}
+        - {label: Excerpt, name: excerpt, hint: Short introduction to story—roughly 280 characters or less, widget: string}
+        
       
