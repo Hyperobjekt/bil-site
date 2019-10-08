@@ -8,4 +8,6 @@
   HUGO_BASEURL = "https://vanilla-bootstrap-hugo-theme.netlify.com/"
 
 [[redirects]]
-/about /about/what-is-bil
+from = "/about"
+  to = "/about/what-is-bil"
+  status = 301
