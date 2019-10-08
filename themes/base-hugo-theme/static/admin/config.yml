@@ -182,12 +182,12 @@ collections:
   #NEWS ITEMS
   - label: News
     name: news
-    file: "data/news/items.yaml"
-    preview_path: news/
-    extension: "yaml"
     fields:
       - label: Members
         name: newsItem
+        file: "data/news/items.yaml"
+        preview_path: news/
+        extension: "yaml"
         widget: list
         fields:
         - {label: Date, name: date, widget: string}
