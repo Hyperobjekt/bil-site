@@ -183,17 +183,20 @@ collections:
   - label: News
     name: news
     files:
-        - label: Members
-          name: newsItem
+        - label: News Items
+          name: newsitems
           file: "data/news/items.yaml"
           preview_path: news/
           extension: "yaml"
-          widget: list
           fields:
-          - {label: Date, name: date, widget: string}
-          - {label: Outlet, name: outlet, widget: string}
-          - {label: Title, name: title, widget: string}
-          - {label: Link to article, hint: please copy full link from URL bar into this space, name: articleLink, widget: string}
-          - {label: Excerpt, name: excerpt, hint: Short introduction to story—roughly 280 characters or less, widget: string}
-          
+            - label: Items
+              name: newsItem
+              widget: list
+              fields:
+              - {label: Date, name: date, widget: string}
+              - {label: Outlet, name: outlet, widget: string}
+              - {label: Title, name: title, widget: string}
+              - {label: Link to article, hint: please copy full link from URL bar into this space, name: articleLink, widget: string}
+              - {label: Excerpt, name: excerpt, hint: Short introduction to story—roughly 280 characters or less, widget: string}
+              
         
