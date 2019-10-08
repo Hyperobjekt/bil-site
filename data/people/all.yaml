@@ -13,6 +13,7 @@ personnel:
     role: Leadership
     thumb: /uploads/jberry-sm.jpg
     title: Executive Director
+    shorttitle: Executive Director
   - blurb: >-
       <p>Juliana Bidadanure is an Assistant Professor in the department of
       Philosophy at Stanford University. Before coming to Stanford, Juliana
@@ -48,6 +49,7 @@ personnel:
     role: Leadership
     thumb: /uploads/jbidadanure-sm.jpg
     title: Faculty Director
+    shorttitle: Faculty Director
   - blurb: >-
       Sarah joins us from the World Bank where she was a Social Protection
       Specialist. She has over a decade of experience in developing and managing
@@ -76,6 +78,7 @@ personnel:
     role: Leadership
     thumb: /uploads/sbergergonzalez-sm.jpg
     title: Program Manager
+    shorttitle: Program Manager
   - blurb: >-
       Olga Lenczewska is a PhD student in the Philosophy Department and a
       Masters student in the Department of Political Science. Her research
@@ -96,6 +99,7 @@ personnel:
     role: Fellow
     thumb: /uploads/olenczewska-sm.jpg
     title: 'PhD Candidate, Philosophy; Master''s Candidate, Political Science'
+    shorttitle: Graduate Fellow
   - blurb: >
       Joan O’Bryan is a PhD student in the Department of Political Science.
       Before coming to Stanford, she taught middle school for three years, then
@@ -113,6 +117,7 @@ personnel:
     role: Fellow
     thumb: /uploads/jobryan-sm.jpg
     title: 'PhD Candidate, Political Science'
+    shorttitle: Graduate Fellow
   - blurb: >
       Prach Panchakunathorn is pursuing a PhD in Philosophy, focusing on
       political philosophy and ethics. His current research project is on the
@@ -132,6 +137,7 @@ personnel:
     role: Fellow
     thumb: /uploads/ppanchakunathorn-sm.jpg
     title: 'PhD Candidate, Philosophy'
+    shorttitle: Graduate Fellow
   - blurb: >
       Lara Spencer is a third year PhD student in the Philosophy Department.
       While most of her research is centered on the philosophy of science, she
@@ -147,6 +153,7 @@ personnel:
     role: Fellow
     thumb: /uploads/lspencer-sm.jpg
     title: 'PhD Candidate, Philosophy'
+    shorttitle: Graduate Fellow
   - blurb: >
       José Luis Sabau is an undergraduate student at Stanford University from
       Cozumel, Mexico. He is looking to major in Political Science, focusing on
@@ -159,6 +166,7 @@ personnel:
     role: Fellow
     thumb: /uploads/jluissabau-sm.jpg
     title: 'Undergraduate Fellow, Stanford University'
+    shorttitle: Undergraduate Fellow
   - blurb: >
       Neryvia Pillay Bell completed her PhD in the Economics Department and was
       a Visiting Scholar at the Institute for Advanced Study in 2018/19. Her
@@ -177,6 +185,7 @@ personnel:
     title: >-
       Visiting Scholar at the Institute for Advanced Study, 2018-19; Economics
       PhD, Stanford University, 2018
+    shorttitle: Graduate Fellow  
   - blurb: >-
       Sage was drawn to basic income initially through her background in
       technology and witnessing firsthand the wealth automation generates for
@@ -215,6 +224,7 @@ personnel:
     role: Former
     thumb: /uploads/scammers-goodwin-sm.jpg
     title: 'B.S. in Computer Science 2017, M.S. in Symbolic Systems 2018'
+    shorttitle: Graduate Fellow
   - blurb: >
       Guillermo Gomez was a Master's student in Stanford's Computational Social
       Science program, under the Management Science & Engineering department.
@@ -232,6 +242,7 @@ personnel:
     role: Former
     thumb: /uploads/ggomez-sm.jpg
     title: 'Master''s in Management Science & Engineering, 2019'
+    shorttitle: Graduate Fellow
   - blurb: >
       Ye Ji is a PhD student in the Department of Economics at Stanford
       University. Her research interests include topics in labor economics and
@@ -261,6 +272,7 @@ personnel:
     role: Former
     thumb: /uploads/yjikee-sm.jpg
     title: 'PhD Economics, 2018'
+    shorttitle: Graduate Fellow
   - blurb: >
       Michelle Reddy is a PhD candidate in International Comparative Education
       and completed her Master's in Political Science. Her research focuses on
@@ -283,6 +295,7 @@ personnel:
     role: Former
     thumb: /uploads/mreddy-sm.jpg
     title: 'PhD Candidate, International Comparative Education'
+    shorttitle: Graduate Fellow
   - blurb: >-
       Avshalom Schwarz is a PhD student in the Department of Political Science
       at Stanford University.
@@ -301,6 +314,7 @@ personnel:
     role: Former
     thumb: /uploads/aschwartz-sm.jpg
     title: 'PhD Candidate, Political Science'
+    shorttitle: Graduate Fellow
   - blurb: >
       Having worked in and researched international development for several
       years, Catherine was inspired by growing evidence on the effectiveness of
@@ -335,3 +349,4 @@ personnel:
     role: Former
     thumb: /uploads/cthomas-sm.jpg
     title: 'PhD Candidate, Psychology'
+    shorttitle: Graduate Fellow

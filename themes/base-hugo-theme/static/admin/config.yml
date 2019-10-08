@@ -109,6 +109,7 @@ collections:
               - {label: Name, name: name, widget: string}
               - {label: Role, name: role, widget: select, options: ["Leadership","Fellow","Former"]}
               - {label: Title, name: title, widget: string}
+              - {label: Short title, hint: for display below photo on People page, name: shorttitle, widget: string}
               - {label: Full image, name: image, widget: image}
               - {label: Thumbnail image, name: thumb, widget: image}
               - {label: Status, name: current, widget: hidden, default: true}
