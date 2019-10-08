@@ -120,7 +120,7 @@ collections:
     name: research
     files:
         - label: Mapping UBI Research
-          name: what_is_bil_content
+          name: mapping_ubi_research_content
           file: "content/research/mapping-ubi-research/_index.md"
           preview_path: research/mapping-ubi-research/
           extension: "md"
