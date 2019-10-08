@@ -183,7 +183,7 @@ collections:
   - label: News
     name: news
     files:
-        - label: News Items
+        - label: News Items (shown in reverse order)
           name: newsitems
           file: "data/news/items.yaml"
           preview_path: news/
@@ -194,7 +194,7 @@ collections:
               widget: list
               fields:
               - {label: Title, name: title, widget: string}
-              - {label: Date, name: date, widget: string}
+              - {label: Date, name: date, widget: datetime}
               - {label: Outlet, name: outlet, widget: string}
               - {label: Link to article, hint: please copy full link from URL bar into this space, name: articleLink, widget: string}
               - {label: Excerpt, name: excerpt, hint: Short introduction to story—roughly 280 characters or less, widget: string}
