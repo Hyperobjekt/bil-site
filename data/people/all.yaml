@@ -79,6 +79,14 @@ personnel:
     shorttitle: Program Manager
     thumb: /uploads/sbergergonzalez-sm.jpg
     title: Program Manager
+  - blurb: "Rebecca Hasdell is a Postdoctoral Research Fellow at the Basic Income Lab (Stanford University) and an Adjunct Faculty member in the Northern Medical Program (University of British Columbia). Over the past 10 years, Rebecca has worked in program planning and strategic policy for local governments, research institutions and not-for-profit organizations in the areas of poverty reduction, food access and environmental health, including leading major social policy initiatives a City of Toronto Urban Fellow.\r\n\nRebecca’s research examines healthy public policy approaches to promote healthier communities and cities. Rebecca completed her Masters of Public Health (Health Promotion) and PhD (Social and Behavioral Health Sciences) at the Dalla Lana School of Public Health, University of Toronto. Her mixed-method PhD (2011-2018) integrated knowledge and approaches from policy studies and population health intervention research to examine population-level solutions to improve food access in smaller cities and rural and remote regions. Her research was funded by Canadian Institutes for Health Research fellowships in public health policy and knowledge translation. \r\n\nRebecca joined the team at the Basic Income Lab to lead a review of the global evidence base for cash-based transfer programs. Her interest in basic income is driven by her background working with communities and local government to address a wide variety of health and social inequities. Through this work, she has seen the potential for economic policy to improve community wellbeing. The fellowship will provide an opportunity to better understand the outcomes of cash-based transfers, with a focus on what works, for whom and under what contextual circumstances."
+    current: true
+    image: /uploads/hasdell_shorter.jpg
+    name: Rebecca Hasdell
+    role: Fellow
+    shorttitle: Postdoctoral Fellow
+    thumb: /uploads/hasdell_shorter.jpg
+    title: PhD Social and Behavioral Health Sciences
   - blurb: >-
       Olga Lenczewska is a PhD student in the Philosophy Department and a
       Masters student in the Department of Political Science. Her research
@@ -350,11 +358,3 @@ personnel:
     shorttitle: Graduate Fellow
     thumb: /uploads/cthomas-sm.jpg
     title: 'PhD Candidate, Psychology'
-  - blurb: "Rebecca Hasdell is a Postdoctoral Research Fellow at the Basic Income Lab (Stanford University) and an Adjunct Faculty member in the Northern Medical Program (University of British Columbia). Over the past 10 years, Rebecca has worked in program planning and strategic policy for local governments, research institutions and not-for-profit organizations in the areas of poverty reduction, food access and environmental health, including leading major social policy initiatives a City of Toronto Urban Fellow.\r\n\nRebecca’s research examines healthy public policy approaches to promote healthier communities and cities. Rebecca completed her Masters of Public Health (Health Promotion) and PhD (Social and Behavioral Health Sciences) at the Dalla Lana School of Public Health, University of Toronto. Her mixed-method PhD (2011-2018) integrated knowledge and approaches from policy studies and population health intervention research to examine population-level solutions to improve food access in smaller cities and rural and remote regions. Her research was funded by Canadian Institutes for Health Research fellowships in public health policy and knowledge translation. \r\n\nRebecca joined the team at the Basic Income Lab to lead a review of the global evidence base for cash-based transfer programs. Her interest in basic income is driven by her background working with communities and local government to address a wide variety of health and social inequities. Through this work, she has seen the potential for economic policy to improve community wellbeing. The fellowship will provide an opportunity to better understand the outcomes of cash-based transfers, with a focus on what works, for whom and under what contextual circumstances."
-    current: true
-    image: /uploads/hasdell_shorter.jpg
-    name: Rebecca Hasdell
-    role: Fellow
-    shorttitle: Postdoctoral Fellow
-    thumb: /uploads/hasdell_shorter.jpg
-    title: PhD Social and Behavioral Health Sciences
