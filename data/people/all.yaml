@@ -175,16 +175,18 @@ personnel:
     shorttitle: Undergraduate Fellow
     thumb: /uploads/jluissabau-sm.jpg
     title: 'Undergraduate Fellow, Stanford University'
-  - blurb: >
+  - blurb: >-
       Neryvia Pillay Bell completed her PhD in the Economics Department and was
       a Visiting Scholar at the Institute for Advanced Study in 2018/19. Her
       research examined the ways in which government policies affect individual
       education, labor market and health outcomes. 
 
-      <br/><br/>At the Basic Income Lab, Neryvia surveyed the academic
-      literature relating to to basic income experiments around the world. She
-      mainly focused on the empirical evidence regarding the impact of basic
-      income on health and gender outcomes.
+
+
+      At the Basic Income Lab, Neryvia surveyed the academic literature relating
+      to to basic income experiments around the world. She mainly focused on the
+      empirical evidence regarding the impact of basic income on health and
+      gender outcomes.
     current: true
     image: /uploads/npillaybell.jpg
     name: Neryvia Pillay Bell
@@ -199,24 +201,20 @@ personnel:
       technology and witnessing firsthand the wealth automation generates for
       some while leaving others behind. Headlines featuring "robot taxes",
       "impending job loss", and basic income as a future necessity perked her
-      ears to what eventually became a year of research on the topic. It turns
-      out that basic income is an old idea endorsed internationally for reasons
-      not often considered in the Bay Area -- it could encourage work, reduce
-      stress, limit societal stigma towards those receiving benefits, and
-      increase liberty for those often viewed as undeserving for factors they
-      have limited control over. Sage thinkd that basic income should not just
-      be seen as a bandaid on a dystopian future, but instead part of a support
-      structure for a more stable modern society and economy.
+      ears to what eventually became a year of research on the topic. Sage
+      thought that basic income should not just be seen as a bandaid on a
+      dystopian future, but instead part of a support structure for a more
+      stable modern society and economy.
 
 
-      Currently Sage is designing an application that runs community level UBI
-      through philanthropy. This tool will allow people to gain financial
-      consciousness of their wealth relative to the cost of living in their area
-      and how differing size donations would impact others in their community.
-      The idea for the application grew out of my concern for gentrification,
-      the slow process to actually implement experiments and create policy
-      change, and the extreme wealth inequality in the Bay Area that is mirrored
-      in other parts of the globe.
+      During her time at Stanford, Sage designed an application that runs
+      community level UBI through philanthropy. This tool allowed people to gain
+      financial consciousness of their wealth relative to the cost of living in
+      their area and how differing size donations would impact others in their
+      community. The idea for the application grew out of my concern for
+      gentrification, the slow process to actually implement experiments and
+      create policy change, and the extreme wealth inequality in the Bay Area
+      that is mirrored in other parts of the globe.
 
 
       In order to build the application, Sage seeks to understand what makes one
