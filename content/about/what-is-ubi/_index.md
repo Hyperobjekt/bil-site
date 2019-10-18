@@ -46,18 +46,23 @@ body2: >-
   similar to a basic income).
 
 
-  Stemming from an increased support for Friedman's proposal, the Nixon
-  administration put forward a proposal for the Family Assistance Plan, a
-  program that would have incorporated a guaranteed income with financial
-  supplements for workers. Around the same time, negative income tax experiments
-  would begin in the United States and Canada to explore the feasibility of what
-  some. Notoriously, between 1974 and 1979 Canada would push a negative income
-  tax experiment known as Mincome; between 1968 and 1982, the U.S. would carry
-  out four income maintenance experiments in New Jersey, Gary, IN, Iowa, Seattle
-  and Denver; and, in 1982, Alaska would create its Permanent Dividend Fund.
-  Over the three years, experiments have appeared in cities like Jackson, MS;
-  Santa Monica, CA; Chicago, IL; and in Stockton, CA and continue to be funded
-  elsewhere in the United States.
+  Stemming from increased support for Friedman's proposal and a desire to reform
+  welfare in the U.S., the Nixon administration put forward a proposal for the
+  Family Assistance Plan, a program that would have incorporated a guaranteed
+  income with financial supplements for workers (this never came to fruition).
+  At the same time, a number of income experiments would begin in the United
+  States and Canada to explore the feasibility of such a policy. Notoriously,
+  between 1968 and 1982, the U.S. would carry out four income maintenance
+  experiments in New Jersey, Gary, IN, Iowa, Seattle and Denver; and, between
+  1974 and 1979 Canada would push a negative income tax experiment known as
+  Mincome. In 1982, Alaska would create its Permanent Dividend Fund, providing
+  nearly every Alaskan citizen a yearly dividend from oil revenues. 
+
+
+  In the last decade, the idea of basic income has been tested in experiments
+  throughout the world (Namibia, 2008-09; India, 2011-12; Canada, 2017-18;
+  Finland, 2017-18), and more recently in the U.S. in cities like Jackson, MS;
+  Santa Monica, CA; Chicago, IL; and in Stockton, CA.
 heading3: Defining Characteristics
 subhead3: Adapted from Basic Income Earth Network (BIEN)
 item1head: Periodic
