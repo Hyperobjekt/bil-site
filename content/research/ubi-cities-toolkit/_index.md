@@ -1,7 +1,7 @@
 ---
 layout: ubi-cities-toolkit
 title: UBI Cities Toolkit
-herotext: 'A toolkit to guide for basic income experiments and pilot projects in cities '
+herotext: 'A toolkit to guide basic income experiments and pilot projects in cities '
 heading1: Basic Income Toolkit
 body1: >-
   Launched in early November 2018 at the National League of Cities annual
