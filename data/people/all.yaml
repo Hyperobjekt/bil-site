@@ -88,6 +88,24 @@ personnel:
     thumb: /uploads/hasdell_shorter.jpg
     title: PhD Social and Behavioral Health Sciences
   - blurb: >-
+      Sophia Hunt is a PhD student in the Sociology Department at Stanford. Her
+      research interests include law and society, race and ethnicity, social
+      stratification, and education. Before coming to Stanford, she obtained a
+      Bachelor of Arts from Harvard in History & Literature.
+
+
+      Sophia’s work at the Basic Income Lab focuses on reviewing the academic
+      literature on the impact of basic income on crime and racial justice. She
+      is specifically interested in how UBI influences recidivism, the racial
+      wealth gap, and expands notions of citizenship in the United States.
+    current: true
+    image: /uploads/sophia-hunt.jpg
+    name: Sophia Hunt
+    role: Fellow
+    shorttitle: Graduate Fellow
+    thumb: /uploads/sophia-hunt.jpg
+    title: 'PhD Candidate, Sociology'
+  - blurb: >-
       Olga Lenczewska is a PhD student in the Philosophy Department and a
       Masters student in the Department of Political Science. Her research
       centers on Kant, political philosophy, and ethics. Before coming to
@@ -102,11 +120,11 @@ personnel:
       the ethical perspectives on basic income that arise from a variety of 
       theories of justice.
     current: true
-    image: /uploads/olenczewska.jpg
+    image: /uploads/olga-lenczewska-1-sq.jpg
     name: Olga Lenczewska
     role: Fellow
     shorttitle: Graduate Fellow
-    thumb: /uploads/olenczewska-sm.jpg
+    thumb: /uploads/olga-lenczewska-1-sq.jpg
     title: 'PhD Candidate, Philosophy; Master''s Candidate, Political Science'
   - blurb: >
       Joan O’Bryan is a PhD student in the Department of Political Science.
@@ -352,21 +370,3 @@ personnel:
     shorttitle: Graduate Fellow
     thumb: /uploads/cthomas-sm.jpg
     title: 'PhD Candidate, Psychology'
-  - blurb: >-
-      Sophia Hunt is a PhD student in the Sociology Department at Stanford. Her
-      research interests include law and society, race and ethnicity, social
-      stratification, and education. Before coming to Stanford, she obtained a
-      Bachelor of Arts from Harvard in History & Literature.
-
-
-      Sophia’s work at the Basic Income Lab focuses on reviewing the academic
-      literature on the impact of basic income on crime and racial justice. She
-      is specifically interested in how UBI influences recidivism, the racial
-      wealth gap, and expands notions of citizenship in the United States.
-    current: true
-    image: /uploads/sophia-hunt.jpg
-    name: Sophia Hunt
-    role: Fellow
-    shorttitle: Graduate Fellow
-    thumb: /uploads/sophia-hunt.jpg
-    title: 'PhD Candidate, Sociology'
