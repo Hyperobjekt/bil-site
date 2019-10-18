@@ -3,8 +3,8 @@ title: What Is BIL
 layout: what-is-bil
 herotext: >-
   The Basic Income Lab fosters research and promotes a more informed public
-  discussion about basic income and its potential to alleviate poverty,
-  precariousness and inequality.
+  discussion about basic income and its potential to alleviate poverty and to
+  reduce precariousness and inequality
 heading1: Our Mission and Purpose
 body1: >-
   The Stanford Basic Income Lab aspires to be an academic home for the study of
@@ -27,11 +27,11 @@ body1: >-
   the McCoy Family Center for Ethics in Society to create an academic home for
   the study and evaluation of basic income experiments.
 heading2: >-
-  The Basic Income Lab (BIL), located within the McCoy Center for Ethics in
-  Society:
+  The Basic Income Lab (BIL), located within the Stanford McCoy Center for
+  Ethics in Society:
 p2p1: >-
-  Reviews the vast interdisciplinary research produced on UBI, identify
-  under-explored research questions, and help shape future directions in basic
+  Reviews the vast interdisciplinary research produced on UBI, identifies
+  under-explored research questions, and helps shape future directions in basic
   income research
 p2p2: >-
   Guides researchers and experimenters who seek to conduct innovative research
@@ -53,22 +53,23 @@ body3: >-
 
 
   Within this context, there is an increasing need for in-depth academic
-  research on how to design, implement and evaluate UBI; what UBI’s potential
-  impacts could be; and, how feasible it would be to implement.
+  research on how to design, implement and evaluate UBI; on what UBI’s potential
+  impacts could be; and, on how feasible it would be to implement.
 heading4: Why Here?
 body4: >-
-  In Silicon Valley, and increasingly in the United States, many individuals
-  have expressed their support for Universal Basic Income due to a vast array of
-  reasons. Some argue for it as providing a safety net for those who are already
-  marginalized from the labor market; some support it as a measure to protect
-  workers which may be displaced in the future due to increasing automation; and
-  others defend it as a mechanism to provide real freedom to citizens.
+  Increasingly in the United States, many individuals have expressed their
+  support for Universal Basic Income due to a vast array of reasons. Some argue
+  for it as providing a safety net for those who are already marginalized from
+  the labor market; some support it as a measure to protect workers which may be
+  displaced in the future due to increasing automation; and others defend it as
+  a mechanism to provide real freedom to citizens.
 
 
-  Stanford offers a unique set of interdisciplinary opportunities to further
-  enhance the study of this proposal. Nestled in the heart of the bay area, the
-  university excels in both engineering and the social sciences, providing BIL
-  access to experts across disciplines to make contributions to UBI research.
+  Stanford University offers a unique set of interdisciplinary opportunities to
+  further enhance the study of this proposal. Nestled in the heart of the bay
+  area, the University excels in both the social sciences and engineering,
+  providing the Lab access to experts across disciplines to make contributions
+  to UBI research.
 heading5: 'The time is ripe for an independent initiative that serves to:'
 p5p1: >-
   Convene scholars, policy makers, business leaders, think tanks, nonprofits,
