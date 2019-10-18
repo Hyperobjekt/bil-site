@@ -29,9 +29,9 @@ body1: >-
   alternatives to UBI—basic job guarantee and basic capital.
 heading2: History of UBI
 body2: >-
-  Thomas More, Martin Luther King, Milton Friedman and various other significant
-  figures in the fields of politics and economics considered UBI as a tool to
-  change the world around them.
+  Thomas More, Martin Luther King, Milton Friedman and various other figures in
+  the fields of politics and economics considered UBI as a tool to change the
+  world around them.
 
 
   The idea of a Basic Income first originated in the 15th century, when
@@ -46,18 +46,18 @@ body2: >-
   similar to a basic income).
 
 
-  Stemming from an increasing support for the proposal, the Nixon administration
-  put forward a proposal for the Family Assistance Plan, a program that would
-  have incorporated a guaranteed income with financial supplements for workers.
-  Around the same time, negative income tax experiments would begin in the
-  United States and Canada to explore the feasibility of what some. Notoriously,
-  between 1974 and 1979 Canada would push a negative income tax experiment known
-  as Mincome; between 1968 and 1982, the U.S. would carry out four income
-  maintenance experiments in New Jersey, Gary, IN, Iowa, Seattle and Denver;
-  and, in 1982, Alaska would create its Permanent Dividend Fund. Over the last
-  decade, experiments have appeared in cities like Jackson, MS; Santa Monica,
-  CA; Chicago, IL; and in Stockton, CA and continue to be funded elsewhere in
-  the United States.
+  Stemming from an increased support for Friedman's proposal, the Nixon
+  administration put forward a proposal for the Family Assistance Plan, a
+  program that would have incorporated a guaranteed income with financial
+  supplements for workers. Around the same time, negative income tax experiments
+  would begin in the United States and Canada to explore the feasibility of what
+  some. Notoriously, between 1974 and 1979 Canada would push a negative income
+  tax experiment known as Mincome; between 1968 and 1982, the U.S. would carry
+  out four income maintenance experiments in New Jersey, Gary, IN, Iowa, Seattle
+  and Denver; and, in 1982, Alaska would create its Permanent Dividend Fund.
+  Over the three years, experiments have appeared in cities like Jackson, MS;
+  Santa Monica, CA; Chicago, IL; and in Stockton, CA and continue to be funded
+  elsewhere in the United States.
 heading3: Defining Characteristics
 subhead3: Adapted from Basic Income Earth Network (BIEN)
 item1head: Periodic
