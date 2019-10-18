@@ -352,3 +352,21 @@ personnel:
     shorttitle: Graduate Fellow
     thumb: /uploads/cthomas-sm.jpg
     title: 'PhD Candidate, Psychology'
+  - blurb: >-
+      Sophia Hunt is a PhD student in the Sociology Department at Stanford. Her
+      research interests include law and society, race and ethnicity, social
+      stratification, and education. Before coming to Stanford, she obtained a
+      Bachelor of Arts from Harvard in History & Literature.
+
+
+      Sophia’s work at the Basic Income Lab focuses on reviewing the academic
+      literature on the impact of basic income on crime and racial justice. She
+      is specifically interested in how UBI influences recidivism, the racial
+      wealth gap, and expands notions of citizenship in the United States.
+    current: true
+    image: /uploads/sophia-hunt.jpg
+    name: Sophia Hunt
+    role: Fellow
+    shorttitle: Graduate Fellow
+    thumb: /uploads/sophia-hunt.jpg
+    title: 'PhD Candidate, Sociology'
