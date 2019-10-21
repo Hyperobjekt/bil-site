@@ -474,7 +474,32 @@ img {
 
 
 
-// Subscribe row
+// General List styles
+
+.list-pic {
+  width: 140px;
+  height: 140px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  @include media-breakpoint-up(md) {
+    
+  }
+}
+.newsletter-list .list-content {
+  width: 100%;
+}
+.list-content {
+  width: 100%;
+  @include media-breakpoint-up(md) {
+    width: 80%;
+  }
+  .topdivider {
+    @include media-breakpoint-down(mm) {
+      //border-top: none !important;
+      margin-top: 24px;
+    }
+  }
+}
 
 
 

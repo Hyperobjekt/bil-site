@@ -18201,6 +18201,33 @@ img.float-left {
   box-shadow: -2px 0px 5px rgba(0, 0, 0, 0.2);
 }
 
+.list-pic {
+  width: 140px;
+  height: 140px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.newsletter-list .list-content {
+  width: 100%;
+}
+
+.list-content {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .list-content {
+    width: 80%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .list-content .topdivider {
+    margin-top: 24px;
+  }
+}
+
 body.kind-404 .hero {
   background: linear-gradient(to bottom, #042965 5%, #041d55 75%);
   background-blend-mode: soft-light;

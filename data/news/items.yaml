@@ -1,13 +1,5 @@
 newsItem:
   - articleLink: >-
-      https://www.paloaltoonline.com/news/2019/05/17/with-artificial-intelligence-looming-debate-over-basic-income-heats-up
-    datetime: 2017-11-06T05:01:00.000Z
-    excerpt: >-
-      Watch and read highlights from the Economic Security Project's innaugural
-      CASH Conference in San Francisco on October 19, 2017.
-    outlet: Economic Security Project
-    title: Highlights from the CASH Conference
-  - articleLink: >-
       https://www.nlc.org/article/national-league-of-cities-and-stanford-basic-income-lab-release-first-ever-guide-for
     datetime: 2018-11-08T05:01:00.000Z
     excerpt: >-
@@ -18,6 +10,8 @@ newsItem:
       highlighting the ...
     outlet: National League of Cities
     title: UBI Cities Toolkit Launch
+    image: /uploads/nlc_bilpr.png
+    align: right
   - articleLink: 'https://news.stanford.edu/2018/12/10/lab-explores-universal-basic-income/'
     datetime: 2018-12-10T05:01:00.000Z
     excerpt: >-
@@ -26,6 +20,8 @@ newsItem:
       previous and ongoing unconditional cash experiments across the world.
     outlet: Stanford News
     title: Stanford Lab Explores Universal Basic Income
+    image: /uploads/basicincome_getty_1_0.jpg
+    align: center
   - articleLink: >-
       https://www.paloaltoonline.com/news/2019/05/17/with-artificial-intelligence-looming-debate-over-basic-income-heats-up
     datetime: 2019-05-17T04:01:00.000Z
@@ -36,3 +32,16 @@ newsItem:
       thought on universal basic income and why it may or may not be feasible.
     outlet: Palo Alto Daily
     title: 'With artificial intelligence looming, debate over ''basic income'' heats up'
+    image: /uploads/76857_full.jpg
+    align: right
+newsletters:
+  - title: Spring 2019
+    link: https://conta.cc/2HyP0FF
+  - title: Winter 2018
+    link: https://conta.cc/2SQVXdw
+  - title: Fall 2018
+    link: https://conta.cc/2Dval0G
+  - title: Spring 2017
+    link: https://conta.cc/34AHqFl      
+
+
