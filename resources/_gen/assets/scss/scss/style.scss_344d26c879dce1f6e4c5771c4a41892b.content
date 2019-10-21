@@ -17711,6 +17711,21 @@ nav.navbar-light ul.dropdown-menu a:hover {
   text-decoration: none;
 }
 
+nav.navbar-light ul.dropdown-menu {
+  padding-top: 0;
+}
+
+nav.navbar-light ul.dropdown-menu li {
+  border-bottom: 1px solid #c5c5c5;
+  margin-top: 10px;
+  padding-bottom: 10px;
+}
+
+nav.navbar-light ul.dropdown-menu li:last-of-type {
+  border-bottom: none;
+  padding-bottom: 16px !important;
+}
+
 @media (max-width: 373.98px) {
   nav.navbar-light {
     height: 5.6rem;
@@ -17725,9 +17740,8 @@ nav.navbar-light .navbar-brand {
   padding-top: 1.6rem;
   padding-bottom: 1.6rem;
   width: 238px;
-  margin-top: 4px;
   background-image: url("/images/logos/bil-full-logomark.svg");
-  background-size: 234px 32px;
+  background-size: 266px 39px;
   background-repeat: no-repeat;
 }
 
@@ -17772,7 +17786,10 @@ nav.navbar-light.sticky-top a {
 nav.navbar-light.sticky-top .navbar-brand {
   animation: opacity-fill .3s;
   background-image: url("/images/logos/bil-full-logomark.svg");
-  background-size: 234px 32px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 41px;
+  margin-top: 5px;
   background-repeat: no-repeat;
 }
 
@@ -18405,8 +18422,10 @@ body.home nav.navbar-light ul a:hover {
 
 body.home nav.navbar-light .navbar-brand {
   background-image: url("/images/logos/bil-full-logomark-white.svg");
-  background-size: 234px 32px;
+  background-size: contain;
   background-repeat: no-repeat;
+  height: 41px;
+  margin-top: 5px;
 }
 
 body.home nav.navbar-light.sticky-top {
@@ -18416,8 +18435,10 @@ body.home nav.navbar-light.sticky-top {
 
 body.home nav.navbar-light.sticky-top .navbar-brand {
   background-image: url("/images/logos/bil-full-logomark.svg");
-  background-size: 234px 32px;
+  background-size: contain;
   background-repeat: no-repeat;
+  height: 41px;
+  margin-top: 5px;
 }
 
 body.home nav.navbar-light.sticky-top ul a {
@@ -18482,9 +18503,9 @@ body.home .hero .stanford-wordmark {
 
 @media (min-width: 1380px) {
   body.home .hero {
-    height: 496px;
+    height: 592px;
     background-size: cover;
-    background-position: bottom center;
+    background-position: center center;
   }
 }
 
@@ -18856,14 +18877,13 @@ body.what-is-bil #why-now .sq-img {
 
 body.people .hero {
   background-color: #00505C;
+  background-image: url("/images/heroes/illusions-event-edit.jpg");
 }
 
 body.people .hero .hero-child {
-  background-color: transparent;
-}
-
-body.people .hero .hero-copy h2 {
-  color: #6EC9D7;
+  background-color: rgba(0, 0, 0, 0.4);
+  background-size: cover;
+  background-position: center bottom;
 }
 
 .who-we-are h4 {
