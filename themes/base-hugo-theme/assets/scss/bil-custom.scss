@@ -10,6 +10,9 @@ nav.navbar-light {
         }
         
   }
+  ul.dropdown-menu {
+      left: -16px;
+  }
   ul.dropdown-menu a:hover {
     color: $button-bronze;
     text-decoration: none;

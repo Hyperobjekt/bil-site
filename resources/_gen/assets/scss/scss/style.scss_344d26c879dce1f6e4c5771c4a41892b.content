@@ -17706,6 +17706,10 @@ nav.navbar-light a:hover {
   text-decoration: none;
 }
 
+nav.navbar-light ul.dropdown-menu {
+  left: -16px;
+}
+
 nav.navbar-light ul.dropdown-menu a:hover {
   color: #B26F16;
   text-decoration: none;

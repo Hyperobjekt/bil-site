@@ -129,6 +129,24 @@ anchor = "smart"
     url = "/news/"
     weight = 9
 
+[[menu.main]]
+    parent = "News"
+	name = "In the News"
+	url = "/news/"
+    weight = 1
+
+[[menu.main]]
+    parent = "News"
+	name = "Updates from the Lab"
+	url = "/news/lab-updates/"
+    weight = 2  
+
+[[menu.main]]
+    parent = "News"
+	name = "Newsletters"
+	url = "/news/newsletters/"
+    weight = 3        
+
 [permalinks]
   post = "/:year/:month/:day/:slug/"
   pages = "/:filename/"
