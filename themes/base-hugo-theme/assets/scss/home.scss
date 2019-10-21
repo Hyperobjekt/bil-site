@@ -18,16 +18,20 @@ body.home nav.navbar-light  {
   }
   .navbar-brand {
     background-image: url("/images/logos/bil-full-logomark-white.svg");
-    background-size: 234px 32px;
+    background-size: contain;
     background-repeat: no-repeat;
+    height: 41px;
+    margin-top: 5px;
   }
   // Sticky version
   &.sticky-top {
     background-color: #fff;
     .navbar-brand {
       background-image: url("/images/logos/bil-full-logomark.svg");
-      background-size: 234px 32px;
+      background-size: contain;
       background-repeat: no-repeat;
+      height: 41px;
+      margin-top: 5px;
     }
     ul a {
       color: $black;
@@ -86,9 +90,9 @@ body.home {
         background-position: bottom center;
         }
       @include media-breakpoint-up(xl) {
-          height: 496px;
+          height: 592px;
           background-size: cover;
-          background-position: bottom center;
+          background-position: center center;
       }
       
      

@@ -14,6 +14,18 @@ nav.navbar-light {
     color: $button-bronze;
     text-decoration: none;
   }
+  ul.dropdown-menu {
+    padding-top: 0;
+  }
+  ul.dropdown-menu li {
+    border-bottom: 1px solid #c5c5c5;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    &:last-of-type {
+      border-bottom: none;
+      padding-bottom: 16px !important;
+    }
+  }
   height: 6.4rem;
   background-color: #fff; // $seda-dark;
   transition: background-color .2s ease;
@@ -34,9 +46,9 @@ nav.navbar-light {
     padding-bottom: 1.6rem;
     //height: 33px;
     width: 238px;
-    margin-top: 4px;
+    //margin-top: 4px;
     background-image: url("/images/logos/bil-full-logomark.svg");
-    background-size: 234px 32px;
+    background-size: 266px 39px;
     background-repeat: no-repeat;
     a {
       // color: $black;
@@ -71,7 +83,10 @@ nav.navbar-light {
     .navbar-brand {
       animation: opacity-fill .3s;
       background-image: url("/images/logos/bil-full-logomark.svg");
-      background-size: 234px 32px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 41px;
+      margin-top: 5px;
     // background-position: 0 0;
       background-repeat: no-repeat;
       

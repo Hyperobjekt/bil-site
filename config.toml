@@ -38,7 +38,7 @@ anchor = "smart"
 
 [[menu.main]]
     parent = "About"
-	name = "What is Basic Income?"
+	name = "What is UBI?"
 	url = "/about/what-is-ubi"
     weight = 2
 
@@ -79,19 +79,19 @@ anchor = "smart"
 
 [[menu.main]]
     parent = "Research"
-	name = "Mapping UBI Research"
+	name = "Mapping Research"
 	url = "/research/mapping-ubi-research"
     weight = 1
 
 [[menu.main]]
     parent = "Research"
-	name = "UBI Cities Toolkit"
+	name = "Cities Toolkit"
 	url = "/research/ubi-cities-toolkit"
     weight = 2  
 
 [[menu.main]]
     parent = "Research"
-	name = "Basic Income Experiments"
+	name = "Experiments"
 	url = "/research/basic-income-experiments"
     weight = 3      
 

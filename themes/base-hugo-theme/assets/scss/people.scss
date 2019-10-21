@@ -1,11 +1,15 @@
 body.people {
     .hero {
         background-color: $green;
+        background-image: url('/images/heroes/illusions-event-edit.jpg');
         .hero-child {
-            background-color: transparent;
+            background-color: rgba(0, 0, 0, 0.4);
+            
+            background-size: cover;
+          background-position: center bottom;
         }
         .hero-copy h2 {
-            color: $tealgreen;
+            //color: $tealgreen;
         }
     }
 }
