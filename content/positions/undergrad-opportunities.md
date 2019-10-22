@@ -4,7 +4,7 @@ title: 'Undergraduate Opportunities'
 type: positions
 image: /uploads/julianaelizabethjoeguy_0.jpg
 status: currently open
-positiontype: Undergrad 
+positiontype: Undergrad Position
 excerpt: The Basic Income Lab is currently in the process of putting together opportunities for Stanford undergraduate students.
 ---
 **Apply for Undergraduate Student Positions:**

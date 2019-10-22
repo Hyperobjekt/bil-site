@@ -1,9 +1,19 @@
 {{ define "main" }}
-
+<div class="row d-sm-none d-md-flex subnav">
+        <div class="col-12 col-md-10 offset-md-1">
+            <ul class="d-flex justify-content-start align-items-center pl-md-0">
+            
+                <li class=""><a href="/">Home</a> &nbsp;&nbsp;-</li>
+                <li class="">&nbsp;&nbsp;<a href="/positions">Positions</a>&nbsp; - &nbsp;</li>
+                <li class="">{{ .Params.title }}</li>
+            
+            </ul>
+        </div>
+    </div>
 
 <!-- /SUBNAV -->
 
-<div id="mapping-text" class="pt-sm-5 pt-md-7 pt-lg-9 pt-xl-12 pb-sm-7 pb-md-7 pb-xl-8">
+<div id="mapping-text" class="pt-sm-3 pt-md-4 pt-lg-5 pt-xl-6 pb-sm-7 pb-md-7 pb-xl-8">
        
             <div class="row mb-4 mb-md-4 mb-lg-8 mb-xl-12">
                 <div class="col-12 col-md-7 mx-md-auto ">

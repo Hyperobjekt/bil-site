@@ -17495,12 +17495,12 @@ body, p, tr {
   }
 }
 
-.newslist p {
+.type-news .newslist p {
   margin-bottom: 1.6rem;
 }
 
 @media (min-width: 992px) {
-  .newslist p {
+  .type-news .newslist p {
     max-width: 60%;
   }
 }
