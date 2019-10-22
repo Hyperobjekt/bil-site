@@ -18375,6 +18375,32 @@ body.kind-404 p {
   padding-top: 25vh;
 }
 
+#sponsors {
+  /*
+  @include media-breakpoint-up(xl) {
+    .rwjf {
+      top: -2px;
+    }
+    .esf {
+      top: 11px;
+      margin-left: 32px;
+    }
+    .mfc {
+      top: 17px;
+    }
+    .jfi {
+      top: -12px;
+    }
+  }
+  */
+}
+
+@media (min-width: 992px) {
+  #sponsors .rwjf {
+    top: 2px;
+  }
+}
+
 #footer a {
   text-decoration: none;
 }

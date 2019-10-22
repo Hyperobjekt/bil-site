@@ -636,6 +636,32 @@ body.kind-404 {
   }
 }
 
+#sponsors {
+ 
+  @include media-breakpoint-up(lg) {
+    .rwjf {
+      top: 2px;
+    }
+  } /*
+  @include media-breakpoint-up(xl) {
+    .rwjf {
+      top: -2px;
+    }
+    .esf {
+      top: 11px;
+      margin-left: 32px;
+    }
+    .mfc {
+      top: 17px;
+    }
+    .jfi {
+      top: -12px;
+    }
+  }
+  */
+}
+
+
 // Footer
 #footer {
   // background-color: $seda-navy;
