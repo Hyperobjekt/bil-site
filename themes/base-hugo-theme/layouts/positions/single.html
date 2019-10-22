@@ -1,25 +1,24 @@
 {{ define "main" }}
-
 <div class="row d-sm-none d-md-flex subnav">
         <div class="col-12 col-md-10 offset-md-1">
             <ul class="d-flex justify-content-start align-items-center pl-md-0">
             
-                <li class="">Home &nbsp;-</li>
-                <li class="">&nbsp;&nbsp;<a href="/news/lab-updates">Updates from the Lab</a>&nbsp; - &nbsp;</li>
-                <li class="active">{{ .Params.title }}</li>
+                <li class=""><a href="/">Home</a> &nbsp;&nbsp;-</li>
+                <li class="">&nbsp;&nbsp;<a href="/positions">Positions</a>&nbsp; - &nbsp;</li>
+                <li class="">{{ .Params.title }}</li>
             
             </ul>
         </div>
     </div>
+
 <!-- /SUBNAV -->
 
-<div id="mapping-text" class="pt-sm-5 pt-md-7 pt-lg-9 pt-xl-12 pb-sm-7 pb-md-7 pb-xl-8">
+<div id="mapping-text" class="pt-sm-3 pt-md-4 pt-lg-5 pt-xl-6 pb-sm-7 pb-md-7 pb-xl-8">
        
             <div class="row mb-4 mb-md-4 mb-lg-8 mb-xl-12">
                 <div class="col-12 col-md-7 mx-md-auto ">
-                    <img src='{{ .Params.image }}' class="mb-4" />
-                    <h4 class="news coldblcktext text-uppercase mb-1 ">{{ .Date.Format "Monday, January 2, 2006" }}</h4>
-                    <h3 class="news mb-sm-2 mb-md-2 mb-xl-2">{{ .Params.title }}</h3>
+                    <h4 class="news coldblcktext text-uppercase mb-1 ">{{ .Params.positiontype }} | {{ .Params.status }}</h4>
+                    <h3 class="news mb-sm-3 mb-md-4 mb-xl-5">{{ .Params.title }}</h3>
                     <div class="medgraytext">{{ .Content }}</div>     
       
                 </div>

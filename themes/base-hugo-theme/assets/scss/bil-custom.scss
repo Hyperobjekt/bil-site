@@ -10,6 +10,9 @@ nav.navbar-light {
         }
         
   }
+  ul.dropdown-menu {
+      left: -16px;
+  }
   ul.dropdown-menu a:hover {
     color: $button-bronze;
     text-decoration: none;
@@ -632,6 +635,32 @@ body.kind-404 {
     padding-top: 25vh;
   }
 }
+
+#sponsors {
+ 
+  @include media-breakpoint-up(lg) {
+    .rwjf {
+      top: 2px;
+    }
+  } /*
+  @include media-breakpoint-up(xl) {
+    .rwjf {
+      top: -2px;
+    }
+    .esf {
+      top: 11px;
+      margin-left: 32px;
+    }
+    .mfc {
+      top: 17px;
+    }
+    .jfi {
+      top: -12px;
+    }
+  }
+  */
+}
+
 
 // Footer
 #footer {
