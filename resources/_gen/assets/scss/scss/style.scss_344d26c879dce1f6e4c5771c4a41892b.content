@@ -19611,31 +19611,31 @@ body.type-news .hero {
   }
 }
 
-body.type-positions .hero {
+body.type-fellowships .hero {
   background: url("/images/heroes/trevorwessondiscussion-edit.jpg");
   background-size: cover;
   background-position: 40% center;
 }
 
 @media (min-width: 768px) {
-  body.type-positions .hero {
+  body.type-fellowships .hero {
     background-position: left center;
   }
 }
 
 @media (min-width: 1380px) {
-  body.type-positions .hero {
+  body.type-fellowships .hero {
     background-position: center top;
   }
 }
 
 @media (min-width: 768px) {
-  body.type-positions .hero h2 {
+  body.type-fellowships .hero h2 {
     max-width: 70%;
   }
 }
 
-body.type-positions .modal button.close {
+body.type-fellowships .modal button.close {
   display: flex;
   align-items: center;
   justify-content: center;

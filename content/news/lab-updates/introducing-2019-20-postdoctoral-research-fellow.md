@@ -5,6 +5,8 @@ image: /uploads/rebecca_0.jpg
 date: 2019-05-10
 title: Introducing 2019-20 Postdoctoral Research Fellow
 excerpt: The Basic Income Lab is excited to introduce our 2019-20 Postdoctoral Research Fellow, Dr. Rebecca Hasdell. 
+aliases: 
+    - '/news/introducing-2019-20-postdoctoral-research-fellow?utm_source=BIL+Newsletter+Spring+Quarter+2019&utm_campaign=BIL+Spring+Newsletter+2019&utm_medium=email'
 ---
 The Basic Income Lab is excited to introduce our 2019-20 Postdoctoral Research Fellow, **Dr. Rebecca Hasdell**. 
 

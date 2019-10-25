@@ -96,8 +96,8 @@ anchor = "smart"
     weight = 3      
 
 [[menu.main]]
-    name = "Positions"
-    url = "/positions"
+    name = "Fellowships"
+    url = "/fellowships"
     weight = 6    
 
 [[menu.main]]
