@@ -183,7 +183,7 @@ collections:
   - label: In the News
     name: news
     files:
-        - label: In the News Items (sorted automatically by date)
+        - label: In the News Items 
           name: newsitems
           file: "data/news/items.yaml"
           preview_path: news/
@@ -201,11 +201,11 @@ collections:
               - {label: Excerpt, name: excerpt, hint: Short introduction to story—roughly 280 characters or less, widget: string}
               - {label: Image, name: image, widget: image}
               - {label: Image alignment, name: align, hint: The alignment of the image within the square box, widget: select, options: ["left", "center", "right"], default: ["center"]}
-  - label: Updates from the Lab (sorted automatically by date)
+  - label: Updates from the Lab 
     name: labupdates
     folder: "content/news/lab-updates"
     filter: {field: "is_index", value: false}
-    preview_path: news/lab-updates
+    preview_path: news/lab-updates/
     extension: "md"
     create: true
     fields:
@@ -217,5 +217,23 @@ collections:
       - {label: Excerpt, name: excerpt, hint: Short introduction to story—roughly 280 characters or less, widget: string}
       - {label: Image, name: image, widget: image}
       - {label: Image alignment, name: align, hint: The alignment of the image within the square box, widget: select, options: ["left", "center", "right"], default: ["center"]}
-      - {label: Aliases, name: aliases, widget: hidden}            
+      - {label: Aliases, name: aliases, widget: hidden}     
+  - label: Newsletters
+    name: newsletters
+    files:
+        - label: Newsletters 
+          name: newsletterGroup
+          file: "data/news/items.yaml"
+          preview_path: news/newsletters/
+          extension: "yaml"
+          create: true
+          fields:
+            - label: Newsletters
+              name: newsletters
+              widget: list
+              fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Link to newsletter, hint: please copy full link from URL bar into this space, name: link, widget: string}
+              - {label: Image, name: image, widget: image}
+              - {label: Image alignment, name: align, hint: The alignment of the image within the square box, widget: select, options: ["left", "center", "right"], default: ["center"]}           
   
