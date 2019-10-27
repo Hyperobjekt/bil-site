@@ -183,11 +183,12 @@ collections:
   - label: News
     name: news
     files:
-        - label: News Items (sorted automatically by date)
+        - label: In the News Items (sorted automatically by date)
           name: newsitems
           file: "data/news/items.yaml"
           preview_path: news/
           extension: "yaml"
+          create: true
           fields:
             - label: News Items
               name: newsItem
@@ -198,5 +199,25 @@ collections:
               - {label: Outlet, name: outlet, widget: string}
               - {label: Link to article, hint: please copy full link from URL bar into this space, name: articleLink, widget: string}
               - {label: Excerpt, name: excerpt, hint: Short introduction to story—roughly 280 characters or less, widget: string}
-              
+              - {label: Image, name: image, widget: image}
+              - {label: Image alignment, name: align, hint: The alignment of the image within the square box, widget: select, options: ["left", "center", "right"], default: ["center"]}
+        - label: Updates from the Lab (sorted automatically by date)
+          name: labupdates
+          folder: "/news/lab-updates/"
+          preview_path: news/lab-updates/
+          extension: "md"
+          create: true
+          fields:
+            - label: Updates from the Lab
+              name: updatesitems
+              widget: list
+              fields:
+              - {label: Type, name: type, widget: hidden, default: labupdates}
+              - {label: Layout, name: layout, widget: hidden, default: labsingle}
+              - {label: Title, name: title, widget: string}
+              - {label: Date, name: date, widget: datetime}
+              - {label: Excerpt, name: excerpt, hint: Short introduction to story—roughly 280 characters or less, widget: string}
+              - {label: Image, name: image, widget: image}
+              - {label: Image alignment, name: align, hint: The alignment of the image within the square box, widget: select, options: ["left", "center", "right"], default: ["center"]}
+              - {label: Aliases, name: aliases, widget: hidden}            
         
