@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: production # Branch to update (optional; defaults to master)
+  branch: revise-news-production # Branch to update (optional; defaults to master)
 
 publish_mode: editorial_workflow
 
@@ -198,5 +198,7 @@ collections:
               - {label: Outlet, name: outlet, widget: string}
               - {label: Link to article, hint: please copy full link from URL bar into this space, name: articleLink, widget: string}
               - {label: Excerpt, name: excerpt, hint: Short introduction to story—roughly 280 characters or less, widget: string}
+              - {label: Image, name: image, widget: image}
+              - {label: Image alignment, name: align, hint: The alignment of the image within the square box, widget: select, options: ["left", "center", "right"], default: ["center"]}
               
         
