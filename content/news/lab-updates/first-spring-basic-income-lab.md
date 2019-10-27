@@ -1,6 +1,7 @@
 ---
 type: labupdates
 layout: labsingle
+is_index: false
 image: /uploads/32429611730_be3cd79f74_o_0.jpg
 date: 2018-11-06
 title: First Spring at the Basic Income Lab

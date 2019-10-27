@@ -1,6 +1,7 @@
 ---
 type: labupdates
 layout: labsingle
+is_index: false
 image: /uploads/1_z8atclhhlepxj76w8m-rsg.png
 date: 2018-11-06
 title: Highlights from the CASH Conference
