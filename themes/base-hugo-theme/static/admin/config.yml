@@ -203,8 +203,8 @@ collections:
               - {label: Image alignment, name: align, hint: The alignment of the image within the square box, widget: select, options: ["left", "center", "right"], default: ["center"]}
   - label: Updates from the Lab (sorted automatically by date)
     name: labupdates
-    folder: "/news/lab-updates/"
-    preview_path: news/lab-updates/
+    folder: "/news/lab-updates"
+    preview_path: news/lab-updates
     extension: "md"
     create: true
     fields:
