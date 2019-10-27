@@ -1,5 +1,6 @@
 ---
 type: labupdates
+is_index: true
 layout: labsingle
 image: /uploads/rebecca_0.jpg
 date: 2019-05-10
