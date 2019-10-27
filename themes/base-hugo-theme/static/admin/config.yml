@@ -208,12 +208,12 @@ collections:
     extension: "md"
     create: true
     fields:
-    - {label: Type, name: type, widget: hidden, default: labupdates}
-    - {label: Layout, name: layout, widget: hidden, default: labsingle}
-    - {label: Title, name: title, widget: string}
-    - {label: Date, name: date, widget: datetime}
-    - {label: Excerpt, name: excerpt, hint: Short introduction to story—roughly 280 characters or less, widget: string}
-    - {label: Image, name: image, widget: image}
-    - {label: Image alignment, name: align, hint: The alignment of the image within the square box, widget: select, options: ["left", "center", "right"], default: ["center"]}
-    - {label: Aliases, name: aliases, widget: hidden}            
+      - {label: Type, name: type, widget: hidden, default: labupdates}
+      - {label: Layout, name: layout, widget: hidden, default: labsingle}
+      - {label: Title, name: title, widget: string}
+      - {label: Date, name: date, widget: datetime}
+      - {label: Excerpt, name: excerpt, hint: Short introduction to story—roughly 280 characters or less, widget: string}
+      - {label: Image, name: image, widget: image}
+      - {label: Image alignment, name: align, hint: The alignment of the image within the square box, widget: select, options: ["left", "center", "right"], default: ["center"]}
+      - {label: Aliases, name: aliases, widget: hidden}            
   
