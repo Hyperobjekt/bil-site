@@ -204,10 +204,12 @@ collections:
   - label: Updates from the Lab (sorted automatically by date)
     name: labupdates
     folder: "content/news/lab-updates"
+    filter: {field: "is_index", value: false}
     preview_path: news/lab-updates
     extension: "md"
     create: true
     fields:
+      - {label: "Is Index", name: "is_index", widget: "hidden", default: false}
       - {label: Type, name: type, widget: hidden, default: labupdates}
       - {label: Layout, name: layout, widget: hidden, default: labsingle}
       - {label: Title, name: title, widget: string}
