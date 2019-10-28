@@ -5,7 +5,7 @@ is_index: false
 title: 'What Can Universal Basic Income Do For Gender Equality?'
 type: events
 location: Cubberley Auditorium
-Admission: Free and open to the public. 
+admission: Free and open to the public. 
 image: /uploads/70625-1_5.jpg
 video: '<iframe width="524" height="315" src="https://www.youtube.com/embed/Royw4LnaLrM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 ---

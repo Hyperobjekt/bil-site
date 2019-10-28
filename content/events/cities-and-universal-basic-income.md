@@ -5,7 +5,7 @@ is_index: false
 title: 'Cities and Universal Basic Income'
 type: events
 location: 
-Admission: Closed to Public 
+admission: Closed to Public 
 image: /uploads/city.jpeg
 ---
 

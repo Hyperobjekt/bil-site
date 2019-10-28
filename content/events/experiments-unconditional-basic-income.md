@@ -5,7 +5,7 @@ is_index: false
 title: 'Experiments in Unconditional Basic Income'
 type: events
 location: Oak Lounge, Tressider Union
-Admission: Limited General Admission
+admission: Limited General Admission
 image: /uploads/julianaelizabethjoeguy_0.jpg
 video: '<iframe width="524" height="315" src="https://www.youtube.com/embed/cpGNvOFThYM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 ---

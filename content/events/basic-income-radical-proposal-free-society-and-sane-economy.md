@@ -5,7 +5,7 @@ is_index: false
 title: 'Basic Income: A Radical Proposal for a Free Society and a Sane Economy'
 type: events
 location: Cubberley Auditorium
-Admission: Free and open to the public. General admission. 
+admission: Free and open to the public. General admission. 
 image: /uploads/basicincomebookposter.jpg
 video: '<iframe width="524" height="315" src="https://www.youtube.com/embed/ifDUVj-g-HI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 ---

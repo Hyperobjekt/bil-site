@@ -5,7 +5,7 @@ is_index: false
 title: 'Basic Income Illusions: Lucas Stanczyk and Debra Satz'
 type: events
 location: Stanford Law School, Crown Building, Room 190
-Admission: Free and open to the public. 
+admission: Free and open to the public. 
 image: /uploads/81434-9_2.jpg
 ---
 

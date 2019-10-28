@@ -5,7 +5,7 @@ title: 'Give People Money: How a Universal Basic Income Would End Poverty, Revol
 type: events
 is_index: false
 location: Stanford Law School, Crown Building, Room 290
-Admission: Free and open to the public. 
+admission: Free and open to the public. 
 image: /uploads/79792-1_6.jpg
 ---
 
