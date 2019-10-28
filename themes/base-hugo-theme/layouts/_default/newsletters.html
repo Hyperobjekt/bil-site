@@ -38,7 +38,7 @@
 <!-- /SUBNAV -->
 
 <div id="mapping-text" class="pt-sm-5 pt-md-5 pt-lg-7 pt-xl-9 pb-sm-7 pb-md-7 pb-xl-8">
-        {{ range sort .Site.Data.news.items.newsletters }}
+        {{ range .Site.Data.news.items.newsletters }}
         <div class="row mb-4 mb-md-4 mb-lg-8 newslist">
                 <div class="col-12 col-md-8 offset-md-2 d-block d-md-flex">
                     <div class="list-pic mt-3 mt-md-4 mx-auto mr-md-4" style="background-image: url('{{ .image }}'); background-position-x:{{ .align }};"></div>
