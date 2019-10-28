@@ -1,6 +1,7 @@
 ---
 date: 2017-02-08
 timeRange: 5:30pm
+is_index: false
 title: 'Experiments in Unconditional Basic Income'
 type: events
 location: Oak Lounge, Tressider Union

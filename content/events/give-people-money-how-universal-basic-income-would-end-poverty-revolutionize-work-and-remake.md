@@ -3,6 +3,7 @@ date: 2018-11-29
 timeRange: 5:30 pm
 title: 'Give People Money: How a Universal Basic Income Would End Poverty, Revolutionize Work, and Remake the World'
 type: events
+is_index: false
 location: Stanford Law School, Crown Building, Room 290
 Admission: Free and open to the public. 
 image: /uploads/79792-1_6.jpg

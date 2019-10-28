@@ -1,6 +1,7 @@
 ---
 date: 2017-10-18
 timeRange: 5:30 pm
+is_index: false
 title: 'What Can Universal Basic Income Do For Gender Equality?'
 type: events
 location: Cubberley Auditorium

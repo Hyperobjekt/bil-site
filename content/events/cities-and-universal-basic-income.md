@@ -1,6 +1,7 @@
 ---
 date: 2017-09-13
 timeRange: All day
+is_index: false
 title: 'Cities and Universal Basic Income'
 type: events
 location: 

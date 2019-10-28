@@ -3,6 +3,7 @@ date: 2016-11-29
 timeRange: 
 title: 'The Future of Jobs and the Question of Basic Income'
 type: 
+is_index: false
 location: Oak Lounge, Tressider Union
 Admission: Limited General Admission
 image: /uploads/julianaelizabethjoeguy_0.jpg

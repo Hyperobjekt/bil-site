@@ -1,6 +1,7 @@
 ---
 date: 2019-04-13
 timeRange: 5:30 pm
+is_index: false
 title: Alan Krueger / Why is Universal Basic Income So Controversial? - Lecture
 type: events
 location: Cubberley Auditorium

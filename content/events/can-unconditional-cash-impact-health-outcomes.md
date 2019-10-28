@@ -1,6 +1,7 @@
 ---
 date: 2019-05-21
 timeRange: 7:00 pm to 8:30 pm
+is_index: false
 title: Can Unconditional Cash Impact Health Outcomes?
 type: events
 location: Stanford Law School, Crown Building, Room 290
