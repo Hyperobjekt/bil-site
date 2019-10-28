@@ -49,8 +49,7 @@ body2: >-
   maintenance experiments in New Jersey, Gary, IN, Iowa, Seattle and Denver;
   and, between 1974 and 1979 Canada would push a negative income tax experiment
   known as MINCOME. In 1982, Alaska created the Permanent Fund Dividend (PFD),
-  providing nearly every Alaskan citizen a yearly dividend from oil revenues.
-  While the objective of the PFD was never to test a basic income like policy, 
+  providing nearly every Alaskan citizen a yearly dividend from oil revenues. 
 
 
   In the last decade, the idea of basic income has been tested in experiments
