@@ -180,23 +180,132 @@ collections:
             - {label: Panel 3 Link, name: cta, widget: string}
 
   #NEWS ITEMS
-  - label: News
+  - label: In the News
     name: news
     files:
-        - label: News Items (sorted automatically by date)
+        - label: In the News Items 
           name: newsitems
           file: "data/news/items.yaml"
           preview_path: news/
           extension: "yaml"
+          create: true
           fields:
             - label: News Items
               name: newsItem
               widget: list
               fields:
               - {label: Title, name: title, widget: string}
-              - {label: Date, name: datetime, widget: datetime}
-              - {label: Outlet, name: outlet, widget: string}
+              - {label: Date, name: datetime, widget: datetime, required: false}
+              - {label: Outlet, name: outlet, widget: string, required: false}
               - {label: Link to article, hint: please copy full link from URL bar into this space, name: articleLink, widget: string}
-              - {label: Excerpt, name: excerpt, hint: Short introduction to story—roughly 280 characters or less, widget: string}
-              
-        
+              - {label: Excerpt, required: false, name: excerpt, hint: Short introduction to story—roughly 280 characters or less, widget: string}
+              - {label: Image, required: false, name: image, widget: image}
+              - {label: Image alignment, required: false, name: align, hint: The alignment of the image within the square box, widget: select, options: ["left", "center", "right"], default: ["center"]}
+  - label: Updates from the Lab 
+    name: labupdates
+    folder: "content/news/lab-updates"
+    filter: {field: "is_index", value: false}
+    preview_path: news/lab-updates/
+    extension: "md"
+    create: true
+    fields:
+      - {label: "Is Index", name: "is_index", widget: "hidden", default: false}
+      - {label: Type, name: type, widget: hidden, default: labupdates}
+      - {label: Layout, name: layout, widget: hidden, default: labsingle}
+      - {label: Title, name: title, widget: string}
+      - {label: Date, name: date, widget: datetime}
+      - {label: Excerpt, name: excerpt, required: false, hint: Short introduction to story—roughly 280 characters or less, widget: string}
+      - {label: Image, name: image, required: false, widget: image}
+      - {label: Image alignment, name: align, required: false, hint: The alignment of the image within the square box, widget: select, options: ["left", "center", "right"], default: ["center"]}
+      - {label: Aliases, name: aliases, widget: hidden}     
+  - label: Newsletters
+    name: newsletters
+    files:
+        - label: Newsletters 
+          name: newsletterGroup
+          file: "data/news/items.yaml"
+          preview_path: news/newsletters/
+          extension: "yaml"
+          create: true
+          fields:
+            - label: Newsletters
+              name: newsletters
+              widget: list
+              fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Link to newsletter, hint: please copy full link from URL bar into this space, name: link, widget: string}
+              - {label: Image, name: image, widget: image, required: false}
+              - {label: Image alignment, name: align, required: false, hint: The alignment of the image within the square box, widget: select, options: ["left", "center", "right"], default: ["center"]}           
+  
+  - label: Fellowships Page
+    name: fellowships-page
+    folder: "content/fellowships"
+    filter: {field: "is_index", value: true}
+    preview_path: fellowships/
+    extension: "md"
+    create: false
+    fields:
+      - {label: "Is Index", name: "is_index", widget: "hidden", default: true}
+      - {label: Layout, name: layout, widget: hidden, default: fellowships}
+      - {label: Title, name: title, widget: hidden, default: Fellowships}
+      - {label: Page Title, name: pageTitle, widget: string}
+      - {label: Hero Text, name: herotext, widget: string}
+  
+  - label: Fellowships Items
+    name: fellowships-items
+    folder: "content/fellowships"
+    filter: {field: "is_index", value: false}
+    preview_path: fellowships/
+    extension: "md"
+    create: true
+    fields:
+      - {label: "Is Index", name: "is_index", widget: "hidden", default: false}
+      - {label: Type, name: type, widget: hidden, default: positions}
+      - {label: Layout, name: layout, widget: hidden, default: fellowships-single}
+      - {label: Title, name: title, widget: string}
+      - {label: Date, name: date, widget: datetime}
+      - {label: Subhead, name: subhead, widget: string, required: false}
+      - {label: Excerpt, name: excerpt, required: false, widget: markdown, buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"]}
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+        buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"]
+
+  - label: Events Page
+    name: events-page
+    files: 
+      - label: Events Page Text
+        file: "data/events/page.yaml"
+        preview_path: events/
+        extension: "yaml"
+        create: false
+        name: pageitems
+        fields:
+          - {label: "Hero Text", name: "herotext", widget: string}
+          - {label: Upcoming Events Section Title, name: upcoming, widget: string}
+          - {label: Past Events Section Title, name: past, widget: string}
+          - {label: Videos Section Title, name: videos, widget: string}
+          - {label: '"No Events" Message', name: noevents, widget: markdown, buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"]}      
+                  
+  - label: Events 
+    name: events
+    folder: "content/events"
+    filter: {field: "is_index", value: false}
+    preview_path: events/
+    extension: "md"
+    create: true
+    fields:
+      - {label: "Is Index", name: "is_index", widget: "hidden", default: false}
+      - {label: Type, name: type, widget: hidden, default: events}
+      - {label: Title, name: title, widget: string}
+      - {label: Date, name: date, widget: datetime}
+      - {label: Time Range, name: timeRange, widget: string, required: false}
+      - {label: Location, name: location, widget: string, required: false}
+      - {label: Admission, name: admission, widget: string, required: false}
+      - {label: Image, name: image, widget: image, required: false}
+      - {label: Video, name: video, widget: string, required: false, hint: 'Please place the full embed code for the video here. This will cause the clip to appear on the Videos page.'}
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+        buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"]
+        required: false      

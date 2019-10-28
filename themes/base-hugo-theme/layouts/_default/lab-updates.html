@@ -15,40 +15,40 @@
 <div class="row subnav d-md-none small-tab-nav">
     <div class="dropdown">
         <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            In the News
+                Updates from the Lab 
         </button>
   <ul class="anchor-links dropdown-menu">
-        <li class="mb-3"><a href="/news/lab-updates">Updates from the Lab</a></li>
+        <li class="mb-3"><a href="/news">In the News</a></li>
         <li class="mb-3"><a href="/news/newsletters">Newsletters</a></li>
        
 </ul>
 </div>
 </div>
 <div class="row d-sm-none d-md-flex subnav">
-<div class="col-12 col-md-10 offset-md-1">
-    <ul class="d-flex justify-content-center align-items-center pl-md-0">
-    
-        <li class="active">In the News</li>
-        <li class="mx-md-5"><a href="/news/lab-updates">Updates from the Lab</a></li>
-        <li class=""><a href="/news/newsletters">Newsletters</a></li>
-     
-    </ul>
-</div>
+    <div class="col-12 col-md-10 offset-md-1">
+        <ul class="d-flex justify-content-center align-items-center pl-md-0">
+        
+            <li class=""><a href="/news">In the News</a></li>
+            <li class="mx-md-5 active"><a href="/news/lab-updates">Updates from the Lab</a></li>
+            <li class=""><a href="/news/newsletters">Newsletters</a></li>
+        
+        </ul>
+    </div>
 </div>
 <!-- /SUBNAV -->
 
 <div id="mapping-text" class="pt-sm-5 pt-md-5 pt-lg-7 pt-xl-9 pb-sm-7 pb-md-7 pb-xl-8">
-        {{ range sort .Site.Data.news.items.newsItem "datetime" "desc" }}
-        <div class="row mb-4 mb-md-4 mb-lg-8 newslist">
+        {{ range  (where .Pages.ByDate.Reverse "Type" "labupdates")  }}
+            <div class="row mb-4 mb-md-4 mb-lg-8 newslist">
                 <div class="col-12 col-md-8 offset-md-2 d-block d-md-flex">
-                    <div class="list-pic mt-3 mt-md-4 mx-auto mr-md-4" style="background-image: url('{{ .image }}'); background-position-x:{{ .align }};"></div>
+                    <div class="list-pic mt-3 mt-md-4 mx-auto mr-md-4" style="background-image: url('{{ .Params.image }}'); background-position-x: {{ .Params.align }};"></div>
                     <div class="list-content pr-3">
                         <div class="topdivider mb-3 mb-md-4 mb-lg-3"></div>
-                        <div class="superhead news coldblcktext text-uppercase mb-1 ">{{ dateFormat "January 2, 2006" .datetime }} | {{ .outlet }}</div>
-                        <a href="{{ .Permalink }}"><h2 class="news mb-sm-2 mb-md-2 mb-xl-2">{{ .title }}</h2></a>
-                        <p class="medgraytext">{{ .excerpt }}</p>     
+                        <div class="superhead news coldblcktext text-uppercase mb-1 ">{{ dateFormat "January 2, 2006" .Params.date }}</div>
+                        <a href="{{ .Permalink }}"><h2 class="news mb-sm-2 mb-md-2 mb-xl-2">{{ .Params.title }}</h2></a>
+                        <p class="medgraytext">{{ .Params.excerpt }}</p>     
                         <div class="news-item-link">
-                            <a class="plainlink coldblcktext" href="{{ .articleLink }}">READ MORE &nbsp;{{ partial "rightarrow.html" }}</a>
+                            <a class="plainlink coldblcktext" href="{{ .Permalink }}">READ MORE {{ partial "rightarrow.html" }}</a>
                         </div>    
                     </div>
                 </div>    

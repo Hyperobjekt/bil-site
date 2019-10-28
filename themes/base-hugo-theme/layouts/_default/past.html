@@ -2,10 +2,10 @@
 
 <div id="hero" class="hero">
     <div class="hero-child row">
-        
+    {{ with .Site.Data.events.page }} 
         <div class="hero-copy col-10 col-md-8 offset-md-1 d-flex align-items-center">
         
-            <h1 class="page-hero">Events</h1>
+            <h1 class="page-hero">{{ .herotext }}</h1>
             
         </div>
     </div>
@@ -15,11 +15,11 @@
         <div class="dropdown justify-content-center align-items-center">
             <!--<div>Positions:</div>--> 
             <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Past Events
+                {{ .past }}
             </button>
       <ul class="anchor-links dropdown-menu">
-            <li class="mb-3"><a href="/events/upcoming/">Upcoming Events</a></li>
-            <li class="mb-3"><a href="/events/videos/">Videos</a></li>
+            <li class="mb-3"><a href="/events/upcoming/">{{ .upcoming }}</a></li>
+            <li class="mb-3"><a href="/events/videos/">{{ .videos }}</a></li>
            
     </ul>
   </div>
@@ -28,9 +28,9 @@
     <div class="col-12 col-md-12 col-lg-10 offset-lg-1">
         <ul class="d-flex justify-content-center align-items-center pl-md-0">
         
-            <li class=""><a href="/events/upcoming/">Upcoming Events</a></li>
-            <li class="active mx-md-5">Past Events</li>
-            <li class=""><a href="/events/videos/">Videos</a></li>
+            <li class=""><a href="/events/upcoming/">{{ .upcoming }}</a></li>
+            <li class="active mx-md-5">{{ .past }}</li>
+            <li class=""><a href="/events/videos/">{{ .videos }}</a></li>
            
           
         </ul>
@@ -47,9 +47,10 @@
 
         <div class="row newslist mb-1 mb-md-2 mb-xl-3">
             <div class="col-12 col-md-6 offset-md-3 pl-md-0">
-                <h2 class="news">Past Events</h2>
+                <h2 class="news">{{ .past }}</h2>
             </div>    
         </div>    
+        {{ end }}
         
             {{ $paginator := .Paginate ( where (where .Site.Pages ".Params.type" "=" "events") ".Date" "le" now) 10 }}
           

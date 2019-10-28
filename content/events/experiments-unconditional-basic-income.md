@@ -1,13 +1,13 @@
 ---
-date: 2016-11-29
-timeRange: 
-title: 'The Future of Jobs and the Question of Basic Income'
-type: 
+date: 2017-02-08
+timeRange: 5:30pm
 is_index: false
+title: 'Experiments in Unconditional Basic Income'
+type: events
 location: Oak Lounge, Tressider Union
 admission: Limited General Admission
 image: /uploads/julianaelizabethjoeguy_0.jpg
-video: '<iframe width="524" height="315" src="https://www.youtube.com/embed/AFERVdpmPDc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+video: '<iframe width="524" height="315" src="https://www.youtube.com/embed/cpGNvOFThYM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 ---
 
 <iframe width="524" height="315" class="my-3" src="https://www.youtube.com/embed/dF5NAWi4Af0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

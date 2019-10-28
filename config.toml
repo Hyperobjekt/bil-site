@@ -96,27 +96,9 @@ anchor = "smart"
     weight = 3      
 
 [[menu.main]]
-    name = "Positions"
-    url = "/positions/graduate-fellowships"
-    weight = 6
-
-[[menu.main]]
-    parent = "Positions"
-	name = "Graduate Fellowships"
-	url = "/positions/graduate-fellowships/"
-    weight = 1
-
-[[menu.main]]
-    parent = "Positions"
-	name = "Postdoctoral Research Fellow"
-	url = "/positions/postdoctoral-research-fellow/"
-    weight = 2  
-
-[[menu.main]]
-    parent = "Positions"
-	name = "Undergraduate Opportunities"
-	url = "/positions/undergrad-opportunities/"
-    weight = 3      
+    name = "Fellowships"
+    url = "/fellowships"
+    weight = 6    
 
 [[menu.main]]
     name = "Courses"
@@ -128,6 +110,24 @@ anchor = "smart"
     name = "News"
     url = "/news/"
     weight = 9
+
+[[menu.main]]
+    parent = "News"
+	name = "In the News"
+	url = "/news/"
+    weight = 1
+
+[[menu.main]]
+    parent = "News"
+	name = "Updates from the Lab"
+	url = "/news/lab-updates/"
+    weight = 2  
+
+[[menu.main]]
+    parent = "News"
+	name = "Newsletters"
+	url = "/news/newsletters/"
+    weight = 3        
 
 [permalinks]
   post = "/:year/:month/:day/:slug/"
