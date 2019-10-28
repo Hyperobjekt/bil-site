@@ -26,9 +26,7 @@ body1: >-
   Basic Income Lab received seed funding from the Economic Security Project and
   the McCoy Family Center for Ethics in Society to create an academic home for
   the study and evaluation of basic income experiments.
-heading2: >-
-  The Basic Income Lab (BIL), located within the Stanford McCoy Center for
-  Ethics in Society:
+heading2: '**The Basic Income Lab (BIL):**'
 p2p1: >-
   Reviews the vast interdisciplinary research produced on UBI, identifies
   under-explored research questions, and helps shape future directions in basic
