@@ -1,0 +1,32 @@
+{{ define "main" }}
+<div class="row d-sm-none d-md-flex subnav">
+        <div class="col-12 col-md-10 offset-md-1">
+            <ul class="d-flex justify-content-start align-items-center pl-md-0">
+            
+                <li class=""><a href="/">Home</a> &nbsp;&nbsp;-</li>
+                <li class="">&nbsp;&nbsp;<a href="/fellowships">Fellowships</a>&nbsp; - &nbsp;</li>
+                <li class="">{{ .Params.title }}</li>
+            
+            </ul>
+        </div>
+    </div>
+
+<!-- /SUBNAV -->
+
+<div id="mapping-text" class="pt-sm-3 pt-md-4 pt-lg-5 pt-xl-6 pb-sm-7 pb-md-7 pb-xl-8">
+       
+            <div class="row mb-4 mb-md-4 mb-lg-8 mb-xl-12">
+                <div class="col-12 col-md-7 mx-md-auto ">
+                    <h3 class="news mb-1">{{ .Params.title }}</h3>
+                    <h4 class="news coldblcktext text-uppercase mb-sm-3 mb-md-3 mb-xl-4 ">{{ .Params.subhead }}</h4>
+                    <div class="medgraytext">{{ .Content }}</div>     
+      
+                </div>
+            </div>
+   
+    </div> 
+
+
+{{ partial "subscribe.html" .}}
+
+{{ end }}

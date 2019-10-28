@@ -1,11 +1,11 @@
 {{ define "main" }}
-
+{{ with .Site.Data.events.page }} 
 <div id="hero" class="hero">
         <div class="hero-child row">
-            
+      
             <div class="hero-copy col-10 col-md-8 offset-md-1 d-flex align-items-center">
             
-                <h1 class="page-hero">Events</h1>
+                <h1 class="page-hero">{{ .herotext }}</h1>
                 
             </div>
         </div>
@@ -15,11 +15,11 @@
         <div class="dropdown justify-content-center align-items-center">
             <!--<div>Positions:</div>--> 
             <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Videos
+                {{ .videos }}
             </button>
       <ul class="anchor-links dropdown-menu">
-            <li class="mb-3"><a href="/events/upcoming/">Upcoming Events</a></li>
-            <li class="mb-3"><a href="/events/past/">Past Events</a></li>
+            <li class="mb-3"><a href="/events/upcoming/">{{ .upcoming }}</a></li>
+            <li class="mb-3"><a href="/events/past/">{{ .past }}</a></li>
            
     </ul>
   </div>
@@ -28,14 +28,15 @@
     <div class="col-12 col-md-12 col-lg-10 offset-lg-1">
         <ul class="d-flex justify-content-center align-items-center pl-md-0">
             
-            <li class=""><a href="/events/upcoming/">Upcoming Events</a></li>
-            <li class="mx-md-5"><a href="/events/past/">Past Events</a></li>
-            <li class="active">Videos</li>
+            <li class=""><a href="/events/upcoming/">{{ .upcoming }}</a></li>
+            <li class="mx-md-5"><a href="/events/past/">{{ .past }}</a></li>
+            <li class="active">{{ .videos }}</li>
            
           
         </ul>
     </div>
 </div>
+{{ end }}
 <!-- /SUBNAV -->
 
 <div id="mapping-text" class="pt-sm-5 pt-md-7 pt-lg-9 pt-xl-12 pb-sm-7 pb-md-7 pb-xl-8">
@@ -44,7 +45,7 @@
        {{ if isset .Params "video" }}
             <div class="row mb-4 mb-md-4 mb-lg-8 mb-xl-12">
                 <div class="col-12 col-md-7 mx-md-auto ">
-                    <div class="superhead news coldblcktext text-uppercase mb-1 ">{{ .Date.Format "Monday, January 2, 2006" }} | {{ .Params.timeRange }} </div>
+                    <div class="superhead news coldblcktext text-uppercase mb-1 ">{{ .Date.Format "Monday, January 2, 2006" }}</div>
                     <h2 class="news mb-sm-2 mb-md-3 mb-xl-3">{{ .Params.title }}</h3>
                     <div class="medgraytext">{{ .Params.video | safeHTML }}</div>     
       
