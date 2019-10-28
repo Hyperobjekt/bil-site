@@ -13,20 +13,13 @@ body1: >-
   allowance given to all citizens, without means test to provide them with a
   standard of living above the poverty line. Basic income crosses disciplinary
   and political lines - with activists, philosophers, economists, conservatives,
-  and liberals arguing both for and against it, and sometimes changing their
-  minds.
+  and liberals arguing both for and against it.
 
 
   Universal basic income takes different shapes depending on how it is framed,
   what policies are suggested to support it, the society in which it is applied,
   and how it is funded. Each of these variables are dependent on the proposal
   and are not necessarily defining features of the concept itself.
-
-
-  On this page you will find the defining features of basic income, evidence
-  collected thus far on the effects of cash-based grants, articles on basic
-  income from a variety of disciplines, and literature on two popular
-  alternatives to UBI—basic job guarantee and basic capital.
 heading2: History of UBI
 body2: >-
   Thomas More, Martin Luther King, Milton Friedman and various other figures in
@@ -35,9 +28,9 @@ body2: >-
 
 
   The idea of a Basic Income first originated in the 15th century, when
-  theologian Thomas More wrote Utopia and humanist Johannes Ludovicus Vives
+  theologian Thomas More wrote _Utopia_ and humanist Johannes Ludovicus Vives
   calculated a detailed scheme for a minimum income. In the following centuries,
-  philosophers like Thomas Paine would support an equal pay for all citizens
+  philosophers like Thomas Paine would support equal pay for all citizens
   regardless of socioeconomic status. And in the twentieth century, the United
   States saw support for the idea from across the political spectrum. Reverend
   Martin Luther King Jr. argued in favor of a guaranteed income as the most
@@ -50,19 +43,20 @@ body2: >-
   welfare in the U.S., the Nixon administration put forward a proposal for the
   Family Assistance Plan, a program that would have incorporated a guaranteed
   income with financial supplements for workers (this never came to fruition).
-  At the same time, a number of income experiments would begin in the United
-  States and Canada to explore the feasibility of such a policy. Notoriously,
-  between 1968 and 1982, the U.S. would carry out four income maintenance
-  experiments in New Jersey, Gary, IN, Iowa, Seattle and Denver; and, between
-  1974 and 1979 Canada would push a negative income tax experiment known as
-  Mincome. In 1982, Alaska would create its Permanent Dividend Fund, providing
-  nearly every Alaskan citizen a yearly dividend from oil revenues. 
+  At the same time, a number of income experiments were carried out in the
+  United States and Canada to explore the feasibility of such a policy.
+  Notoriously, between 1968 and 1982, the U.S. would carry out four income
+  maintenance experiments in New Jersey, Gary, IN, Iowa, Seattle and Denver;
+  and, between 1974 and 1979 Canada would push a negative income tax experiment
+  known as MINCOME. In 1982, Alaska created the Permanent Fund Dividend (PFD),
+  providing nearly every Alaskan citizen a yearly dividend from oil revenues.
+  While the objective of the PFD was never to test a basic income like policy, 
 
 
   In the last decade, the idea of basic income has been tested in experiments
-  throughout the world (Namibia, 2008-09; India, 2011-12; Canada, 2017-18;
-  Finland, 2017-18), and more recently in the U.S. in cities like Jackson, MS;
-  Santa Monica, CA; Chicago, IL; and in Stockton, CA.
+  throughout the world (Namibia, 2008-09; India, 2011-12; Ontario, Canada,
+  2017-18; Finland, 2017-18), and more recently in the U.S. in cities like
+  Jackson, MS; Santa Monica, CA; Chicago, IL; and in Stockton, CA.
 heading3: Defining Characteristics
 subhead3: Adapted from Basic Income Earth Network (BIEN)
 item1head: Periodic
