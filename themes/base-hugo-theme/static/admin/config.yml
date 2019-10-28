@@ -284,6 +284,7 @@ collections:
           - {label: "Hero Text", name: "herotext", widget: string}
           - {label: Upcoming Events Section Title, name: upcoming, widget: string}
           - {label: Past Events Section Title, name: past, widget: string}
+          - {label: Videos Section Title, name: videos, widget: string}
           - {label: '"No Events" Message', name: noevents, widget: markdown, buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"]}      
                   
   - label: Events 
