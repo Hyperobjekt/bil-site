@@ -5,7 +5,7 @@ is_index: false
 title: 'Dorian T. Warren and Mia Birdsong / Basic Income and Racial Justice'
 type: events
 location: Tresidder Union, Oak Lounge
-Admission: Free and open to the public. 
+admission: Free and open to the public. 
 image: /uploads/70629-2_1.jpg
 video: '<iframe width="524" height="315" src="https://www.youtube.com/embed/WB3a9TAGV9o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 ---

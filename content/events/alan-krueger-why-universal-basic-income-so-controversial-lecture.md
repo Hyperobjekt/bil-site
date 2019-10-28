@@ -5,7 +5,7 @@ is_index: false
 title: Alan Krueger / Why is Universal Basic Income So Controversial? - Lecture
 type: events
 location: Cubberley Auditorium
-Admission: Free and open to the public. If anyone with disabilities needs accommodations, feel free to contact us at the email below.
+admission: Free and open to the public. If anyone with disabilities needs accommodations, feel free to contact us at the email below.
 image: /uploads/81845-2_0.jpg
 ---
 

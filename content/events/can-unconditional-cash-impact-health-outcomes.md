@@ -5,7 +5,7 @@ is_index: false
 title: Can Unconditional Cash Impact Health Outcomes?
 type: events
 location: Stanford Law School, Crown Building, Room 290
-Admission: Free and open to the public. If anyone with disabilities needs accommodations, feel free to contact us at the email below.
+admission: Free and open to the public. If anyone with disabilities needs accommodations, feel free to contact us at the email below.
 image: '/uploads/83547-1_1.jpg'
 video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/In57ykmasDA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 ---
