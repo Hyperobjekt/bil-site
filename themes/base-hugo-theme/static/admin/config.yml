@@ -273,7 +273,7 @@ collections:
 
   - label: Events Page
     name: events-page
-    files: "data/events/page.yaml"
+    files: 
       - label: Events Page Text
         file: "data/events/page.yaml"
         preview_path: events/
