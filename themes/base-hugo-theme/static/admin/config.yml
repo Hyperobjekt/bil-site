@@ -257,3 +257,23 @@ collections:
         widget: "markdown"
         buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"]
                   
+  - label: Events 
+    name: events
+    folder: "content/events"
+    filter: {field: "is_index", value: false}
+    preview_path: events/
+    extension: "md"
+    create: true
+    fields:
+      - {label: "Is Index", name: "is_index", widget: "hidden", default: false}
+      - {label: Type, name: type, widget: hidden, default: events}
+      - {label: Title, name: title, widget: string}
+      - {label: Date, name: date, widget: datetime}
+      - {label: Time Range, name: timeRange, widget: string}
+      - {label: Location, name: location, widget: string}
+      - {label: Admission, name: admission, widget: string}
+      - {label: Image, name: image, widget: image}
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+        buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"]      
