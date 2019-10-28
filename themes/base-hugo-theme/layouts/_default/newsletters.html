@@ -4,22 +4,22 @@
     <div class="hero-child row">
         
         <div class="hero-copy col-10 col-md-8 offset-md-1 d-flex align-items-center">
-        
-            <h1 class="page-hero">Latest news coverage of Universal Basic Income and the Lab</h1>
-            
+            {{ with .Site.Data.news.items }}
+                <h1 class="page-hero">{{ .herotext }}</h1>
+            {{ end }}
         </div>
     </div>
 </div>
 
-
+{{ with .Site.Data.news.items }}
 <div class="row subnav d-md-none small-tab-nav">
     <div class="dropdown">
         <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Newsletters
+            {{ .newsletterstitle }}
         </button>
   <ul class="anchor-links dropdown-menu">
-        <li class="mb-3"><a href="/news">In the News</a></li>
-        <li class="mb-3"><a href="/news/lab-updates">Updates from the Lab</a></li>
+        <li class="mb-3"><a href="/news">{{ .inthenews }}</a></li>
+        <li class="mb-3"><a href="/news/lab-updates">{{ .labupdates }}</a></li>
 </ul>
 </div>
 </div>
@@ -27,13 +27,14 @@
 <div class="col-12 col-md-10 offset-md-1">
     <ul class="d-flex justify-content-center align-items-center pl-md-0">
     
-        <li class=""><a href="/news">In the News</a></li>
-        <li class="mx-md-5"><a href="/news/lab-updates">Updates from the Lab</a></li>
-        <li class="active">Newsletters</a></li>
+        <li class=""><a href="/news">{{ .inthenews }}</a></li>
+        <li class="mx-md-5"><a href="/news/lab-updates">{{ .labupdates }}</a></li>
+        <li class="active">{{ .newsletterstitle }}</a></li>
      
     </ul>
 </div>
 </div>
+{{ end }}
 <!-- /SUBNAV -->
 
 <div id="mapping-text" class="pt-sm-5 pt-md-5 pt-lg-7 pt-xl-9 pb-sm-7 pb-md-7 pb-xl-8">

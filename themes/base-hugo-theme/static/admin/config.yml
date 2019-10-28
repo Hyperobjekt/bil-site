@@ -180,6 +180,21 @@ collections:
             - {label: Panel 3 Link, name: cta, widget: string}
 
   #NEWS ITEMS
+  - label: News Page Elements
+    name: newspage
+    files:
+        - label: News Page Text
+          name: newspage
+          file: "data/news/items.yaml"
+          preview_path: news/
+          extension: "yaml"
+          create: false
+          fields:
+          - {label: "Hero Text", name: "herotext", widget: string}
+          - {label: In the News Section Title, name: inthenews, widget: string}
+          - {label: Lab Updates Section Title, name: labupdates, widget: string}
+          - {label: Newsletters Section Title, name: newsletterstitle, widget: string}
+  
   - label: In the News
     name: news
     files:
