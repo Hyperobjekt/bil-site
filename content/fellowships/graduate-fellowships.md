@@ -1,12 +1,14 @@
 ---
-date: 2017-02-08
-title: 'Graduate Students for Empirical Research'
 is_index: false
 type: positions
 layout: fellowships-single
-image: /uploads/julianaelizabethjoeguy_0.jpg
-subhead: currently open
-excerpt: The Stanford Basic Income Lab is seeking to recruit up to two graduate students to assist with an extensive review and mapping of research on Universal Basic Income (UBI).
+title: Graduate Students for Empirical Research
+date: 2017-02-08T00:00:00.000Z
+subhead: currently open!
+excerpt: >-
+  The Stanford Basic Income Lab is seeking to recruit up to two graduate
+  students to assist with an extensive review and mapping of research on
+  Universal Basic Income (UBI).
 ---
 **Overview:**
 
