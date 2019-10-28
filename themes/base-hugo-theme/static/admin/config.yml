@@ -277,7 +277,7 @@ collections:
       - label: Events Page Text
         file: "data/events/page.yaml"
         preview_path: events/
-        extension: "yml"
+        extension: "yaml"
         create: false
         name: pageitems
         fields:
