@@ -277,9 +277,9 @@ collections:
       - label: Events Page Text
         file: "data/events/page.yaml"
         preview_path: events/
-        extension: "md"
+        extension: "yml"
         create: false
-        name: eventspageitems
+        name: pageitems
         fields:
           - {label: "Hero Text", name: "herotext", widget: string}
           - {label: Upcoming Events Section Title, name: upcoming, widget: string}
