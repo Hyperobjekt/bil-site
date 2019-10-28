@@ -237,8 +237,22 @@ collections:
               - {label: Image, name: image, widget: image, required: false}
               - {label: Image alignment, name: align, required: false, hint: The alignment of the image within the square box, widget: select, options: ["left", "center", "right"], default: ["center"]}           
   
-  - label: Fellowships 
-    name: fellowships
+  - label: Fellowships Page
+    name: fellowships-page
+    folder: "content/fellowships"
+    filter: {field: "is_index", value: true}
+    preview_path: fellowships/
+    extension: "md"
+    create: false
+    fields:
+      - {label: "Is Index", name: "is_index", widget: "hidden", default: true}
+      - {label: Layout, name: layout, widget: hidden, default: fellowships}
+      - {label: Title, name: title, widget: hidden, default: Fellowships}
+      - {label: Page Title, name: pageTitle, widget: string}
+      - {label: Hero Text, name: herotext, widget: string}
+  
+  - label: Fellowships Items
+    name: fellowships-items
     folder: "content/fellowships"
     filter: {field: "is_index", value: false}
     preview_path: fellowships/
@@ -256,6 +270,18 @@ collections:
         name: "body"
         widget: "markdown"
         buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"]
+
+  - label: Events Page
+    name: events-page
+    file: "data/events/page.yaml"
+    preview_path: events/
+    extension: "md"
+    create: false
+    fields:
+      - {label: "Is Index", name: "is_index", widget: "hidden", default: true}
+      - {label: Layout, name: layout, widget: hidden, default: upcoming}
+      - {label: Title, name: title, widget: hidden, default: Events}
+      - {label: Hero Text, name: herotext, widget: string}      
                   
   - label: Events 
     name: events
