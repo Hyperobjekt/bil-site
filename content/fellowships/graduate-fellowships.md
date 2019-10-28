@@ -1,6 +1,7 @@
 ---
 date: 2017-02-08
 title: 'Graduate Students for Empirical Research'
+is_index: false
 type: positions
 layout: fellowships-single
 image: /uploads/julianaelizabethjoeguy_0.jpg

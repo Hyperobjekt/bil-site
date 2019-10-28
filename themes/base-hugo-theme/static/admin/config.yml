@@ -237,3 +237,19 @@ collections:
               - {label: Image, name: image, widget: image}
               - {label: Image alignment, name: align, hint: The alignment of the image within the square box, widget: select, options: ["left", "center", "right"], default: ["center"]}           
   
+  - label: Fellowships 
+    name: fellowships
+    folder: "content/fellowships"
+    filter: {field: "is_index", value: false}
+    preview_path: fellowships/
+    extension: "md"
+    create: true
+    fields:
+      - {label: "Is Index", name: "is_index", widget: "hidden", default: false}
+      - {label: Type, name: type, widget: hidden, default: positions}
+      - {label: Layout, name: layout, widget: hidden, default: fellowships-single}
+      - {label: Title, name: title, widget: string}
+      - {label: Date, name: date, widget: datetime}
+      - {label: Subhead, name: subhead, widget: string}
+      - {label: Excerpt, name: excerpt, widget: image}
+                  
