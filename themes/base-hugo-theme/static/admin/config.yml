@@ -273,15 +273,18 @@ collections:
 
   - label: Events Page
     name: events-page
-    file: "data/events/page.yaml"
-    preview_path: events/
-    extension: "md"
-    create: false
-    fields:
-      - {label: "Is Index", name: "is_index", widget: "hidden", default: true}
-      - {label: Layout, name: layout, widget: hidden, default: upcoming}
-      - {label: Title, name: title, widget: hidden, default: Events}
-      - {label: Hero Text, name: herotext, widget: string}      
+    files: "data/events/page.yaml"
+      - label: Events Page Text
+        file: "data/events/page.yaml"
+        preview_path: events/
+        extension: "md"
+        create: false
+        name: eventspageitems
+        fields:
+          - {label: "Hero Text", name: "herotext", widget: string}
+          - {label: Upcoming Events Section Title, name: upcoming, widget: string}
+          - {label: Past Events Section Title, name: past, widget: string}
+          - {label: '"No Events" Message', name: noevents, widget: markdown, buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"]}      
                   
   - label: Events 
     name: events
