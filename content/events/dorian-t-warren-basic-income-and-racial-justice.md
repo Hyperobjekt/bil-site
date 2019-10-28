@@ -1,6 +1,7 @@
 ---
 date: 2018-01-16
 timeRange: 5:30 pm
+is_index: false
 title: 'Dorian T. Warren and Mia Birdsong / Basic Income and Racial Justice'
 type: events
 location: Tresidder Union, Oak Lounge

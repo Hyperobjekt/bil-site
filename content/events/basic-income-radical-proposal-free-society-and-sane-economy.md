@@ -1,6 +1,7 @@
 ---
 date: 2017-04-12
 timeRange: 5:30pm
+is_index: false
 title: 'Basic Income: A Radical Proposal for a Free Society and a Sane Economy'
 type: events
 location: Cubberley Auditorium

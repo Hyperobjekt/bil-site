@@ -1,6 +1,7 @@
 ---
 date: 2019-01-10
 timeRange: 5:30 pm
+is_index: false
 title: 'Basic Income Illusions: Lucas Stanczyk and Debra Satz'
 type: events
 location: Stanford Law School, Crown Building, Room 190
