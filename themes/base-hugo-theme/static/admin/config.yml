@@ -251,5 +251,9 @@ collections:
       - {label: Title, name: title, widget: string}
       - {label: Date, name: date, widget: datetime}
       - {label: Subhead, name: subhead, widget: string}
-      - {label: Excerpt, name: excerpt, widget: image}
+      - {label: Excerpt, name: excerpt, widget: markdown}
+      - label: "Body"
+        name: "body"
+        widget: "markdown"
+        buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"]
                   
