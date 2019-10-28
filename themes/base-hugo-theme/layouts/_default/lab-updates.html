@@ -41,7 +41,7 @@
         {{ range  (where .Pages.ByDate.Reverse "Type" "labupdates")  }}
             <div class="row mb-4 mb-md-4 mb-lg-8 newslist">
                 <div class="col-12 col-md-8 offset-md-2 d-block d-md-flex">
-                    <div class="list-pic mt-3 mt-md-4 mx-auto mr-md-4" style="background-image: url('{{ .Params.image }}')"></div>
+                    <div class="list-pic mt-3 mt-md-4 mx-auto mr-md-4" style="background-image: url('{{ .Params.image }}'); background-position-x: {{ .Params.align }};"></div>
                     <div class="list-content pr-3">
                         <div class="topdivider mb-3 mb-md-4 mb-lg-3"></div>
                         <div class="superhead news coldblcktext text-uppercase mb-1 ">{{ dateFormat "January 2, 2006" .Params.date }}</div>
