@@ -210,7 +210,7 @@ collections:
               widget: list
               fields:
               - {label: Title, name: title, widget: string}
-              - {label: Date, name: datetime, widget: datetime, required: false}
+              - {label: Date, name: date, widget: datetime, required: false}
               - {label: Outlet, name: outlet, widget: string, required: false}
               - {label: Link to article, hint: please copy full link from URL bar into this space, name: articleLink, widget: string}
               - {label: Excerpt, required: false, name: excerpt, hint: Short introduction to story—roughly 280 characters or less, widget: string}

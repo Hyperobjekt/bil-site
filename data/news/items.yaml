@@ -5,7 +5,7 @@ newsletterstitle: Newsletters
 newsItem:
   - articleLink: >-
       https://www.nlc.org/article/national-league-of-cities-and-stanford-basic-income-lab-release-first-ever-guide-for
-    datetime: 2018-11-08T05:01:00.000Z
+    date: 2018-11-08T05:01:00.000Z
     excerpt: >-
       The National League of Cities (NLC) and the Stanford Basic Income Lab
       (BIL) released the first-ever definitive guide for piloting universal
@@ -17,7 +17,7 @@ newsItem:
     image: /uploads/nlc_bilpr.png
     align: right
   - articleLink: 'https://news.stanford.edu/2018/12/10/lab-explores-universal-basic-income/'
-    datetime: 2018-12-10T05:01:00.000Z
+    date: 2018-12-10T05:01:00.000Z
     excerpt: >-
       Stanford philosopher Juliana Bidadanure is leading an initiative focused
       on fostering discussions about universal basic income and analyzing
@@ -28,7 +28,7 @@ newsItem:
     align: center
   - articleLink: >-
       https://www.paloaltoonline.com/news/2019/05/17/with-artificial-intelligence-looming-debate-over-basic-income-heats-up
-    datetime: 2019-05-17T04:01:00.000Z
+    date: 2019-05-17T04:01:00.000Z
     excerpt: >-
       Basic Income Lab faculty director, Juliana Bidadanure, speaks to the Palo
       Alto Daily about whether universal basic income could bring an end to
