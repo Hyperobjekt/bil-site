@@ -17,7 +17,7 @@ anchor = "smart"
   containerMaxWidth=1200
   showActiveNav=true
   paginage=5
-  DateForm = "Jan 02 2006"
+  DateFormat = "Jan 02 2006"
 
 # main menu
 
