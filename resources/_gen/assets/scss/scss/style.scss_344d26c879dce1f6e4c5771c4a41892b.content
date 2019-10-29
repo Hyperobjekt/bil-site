@@ -17686,6 +17686,15 @@ input.form-control {
   background-color: #6EC9D7;
 }
 
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown > .dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+}
+
 nav.navbar-light {
   height: 6.4rem;
   background-color: #fff;
