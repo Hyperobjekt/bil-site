@@ -1,15 +1,22 @@
 
 // Header
 
-// Non-home pages: header
-.dropdown:hover>.dropdown-menu {
-  display: block;
+.bil-topmenu {
+  padding: 2.4rem 0;
 }
+.dropdown-menu {
+  margin-top: 2.0rem;
+}
+/* .dropdown:hover>.dropdown-menu {
+  display: block;
+} 
 
 .dropdown>.dropdown-toggle:active {
   /*Without this, clicking will make it sticky*/
-    pointer-events: none;
-}
+    /* pointer-events: none;
+}*/
+// Non-home pages: header
+
 nav.navbar-light {
   a {
         @include sofia-reg;
