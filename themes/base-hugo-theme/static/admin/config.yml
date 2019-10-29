@@ -96,6 +96,20 @@ collections:
             - {label: Item 4 Text, name: item4text, widget: string}
             - {label: Item 5 heading, name: item5head, widget: string}
             - {label: Item 5 Text, name: item5text, widget: string}   
+        
+        - label: People Page Elements    
+          name: peoplepage
+          file: "content/about/people/_index.md"  
+          preview_path: /about/people/
+          extension: "md"
+          fields:
+            - {label: Title, name: title, widget: hidden, default: People}
+            - {label: Layout, name: layout, widget: hidden, default: people} 
+            - {label: Hero Text, name: herotext, widget: string}
+            - {label: Heading 1, name: heading1, widget: string}
+            - {label: Heading 2, name: heading2, widget: string}
+            - {label: Heading 3, name: heading3, widget: string} 
+
         - label: People
           name: bios
           file: "data/people/all.yaml"
