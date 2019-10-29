@@ -185,7 +185,7 @@ collections:
     files:
         - label: News Page Text
           name: page
-          file: "data/news/items.yaml"
+          file: "data/news/page.yaml"
           preview_path: news/
           extension: "yaml"
           create: false
@@ -238,7 +238,7 @@ collections:
     files:
         - label: Newsletters 
           name: newsletterGroup
-          file: "data/news/items.yaml"
+          file: "data/news/newsletters.yaml"
           preview_path: news/newsletters/
           extension: "yaml"
           create: true

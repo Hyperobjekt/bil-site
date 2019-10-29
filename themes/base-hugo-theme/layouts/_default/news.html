@@ -2,14 +2,14 @@
 <div id="hero" class="hero">
     <div class="hero-child row">
         <div class="hero-copy col-10 col-md-8 offset-md-1 d-flex align-items-center">
-            {{ with .Site.Data.news.items }}
+            {{ with .Site.Data.news.page }}
                 <h1 class="page-hero">{{ .herotext }}</h1>
             {{ end }}
         </div>
     </div>
 </div>
 
-{{ with .Site.Data.news.items }}
+{{ with .Site.Data.news.page }}
 <div class="row subnav d-md-none small-tab-nav">
     <div class="dropdown">
         <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

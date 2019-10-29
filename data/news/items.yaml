@@ -1,7 +1,3 @@
-herotext: Latest news coverage of Universal Basic Income and the Lab
-inthenews: In the News
-labupdates: Updates from the Lab
-newsletterstitle: Newsletters
 newsItem:
   - articleLink: >-
       https://www.nlc.org/article/national-league-of-cities-and-stanford-basic-income-lab-release-first-ever-guide-for
@@ -38,22 +34,6 @@ newsItem:
     title: 'With artificial intelligence looming, debate over ''basic income'' heats up'
     image: /uploads/76857_full.jpg
     align: right
-newsletters:
-  - title: Spring 2019
-    link: https://conta.cc/2HyP0FF
-    image: /uploads/Screen Shot 2019-02-14 at 4.02.31 PM.png
-    align: center
-  - title: Winter 2018
-    link: https://conta.cc/2SQVXdw
-    image: /uploads/Screen Shot 2019-02-14 at 4.04.47 PM.png
-    align: center
-  - title: Fall 2018
-    link: https://conta.cc/2Dval0G
-    image: /uploads/Untitled design _3_.png
-    align: center
-  - title: Spring 2017
-    link: https://conta.cc/34AHqFl
-    image: /uploads/31967439234_67b0cb23a0_o.jpg
-    align: center      
+     
 
 
