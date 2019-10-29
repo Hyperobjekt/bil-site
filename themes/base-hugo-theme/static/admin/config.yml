@@ -184,7 +184,7 @@ collections:
     name: newspage
     files:
         - label: News Page Text
-          name: newspage
+          name: page
           file: "data/news/items.yaml"
           preview_path: news/
           extension: "yaml"
