@@ -5,7 +5,7 @@
         
         <div class="hero-copy col-10 col-md-8 offset-md-1 d-flex align-items-center">
         
-            <h1 class="page-hero">Meet our leadership and fellows:</h1>
+            <h1 class="page-hero">{{ .Params.herotext }}</h1>
             
         </div>
     </div>
@@ -36,7 +36,7 @@
 
 <div class="row who-we-are-former leadership">
         <div class="headers w-100">
-            <h2 tabindex="0">Leadership</h2>
+            <h2 tabindex="0">{{ .Params.heading1 }}</h2>
         </div>
     </div>
     
@@ -74,7 +74,7 @@
 
     <div class="row who-we-are-former leadership">
             <div class="headers w-100">
-                <h2 tabindex="0">Fellows</h2>
+                <h2 tabindex="0">{{ .Params.heading2 }}</h2>
             </div>
         </div>
         <div class="">
@@ -113,7 +113,7 @@
        
         <div class="row who-we-are-former leadership">
                 <div class="headers w-100">
-                    <h2 tabindex="0">Former Fellows</h2>
+                    <h2 tabindex="0">{{ .Params.heading3 }}</h2>
                 </div>
             </div>
             

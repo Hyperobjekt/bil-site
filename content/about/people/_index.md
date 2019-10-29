@@ -1,5 +1,8 @@
 ---
 title: "People"
 layout: "people"
-aliases:
+herotext: 'Meet our leadership and fellows:'
+heading1: Leadership
+heading2: Fellows
+heading3: Former Fellows
 ---
