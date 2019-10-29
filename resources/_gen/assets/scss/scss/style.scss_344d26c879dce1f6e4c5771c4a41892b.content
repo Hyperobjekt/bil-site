@@ -19072,6 +19072,7 @@ body.people .row.funder-logos .p-2.rsf {
   right: -5%;
   bottom: 3%;
   display: flex;
+  padding: 0;
   justify-content: center;
   align-items: baseline;
 }
