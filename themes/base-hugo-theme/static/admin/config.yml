@@ -155,6 +155,7 @@ collections:
           preview_path: research/basic-income-experiments/
           extension: "yaml"
           fields:
+            - {label: Hero Image Text, name: herotext, widget: string}
             - {label: Intro to table, name: intro, widget: string}
             - {label: Table Heading, name: heading, widget: string}
 

@@ -4,9 +4,9 @@
     <div class="hero-child row">
         
         <div class="hero-copy col-10 col-md-8 offset-md-1 d-flex align-items-center">
-        
-            <h1 class="page-hero">Research Conducted by the Stanford Basic Income Lab</h1>
-            
+            {{ with .Site.Data.experiments.content }}
+                <h1 class="page-hero">{{ .herotext }}</h1>
+            {{ end }}
         </div>
     </div>
 </div>
