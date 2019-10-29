@@ -1,5 +1,6 @@
 newsItem:
-  - articleLink: >-
+  - align: right
+    articleLink: >-
       https://www.nlc.org/article/national-league-of-cities-and-stanford-basic-income-lab-release-first-ever-guide-for
     date: 2018-11-08T05:01:00.000Z
     excerpt: >-
@@ -8,21 +9,21 @@ newsItem:
       basic income (UBI) in cities. The toolkit, entitled “Basic Income in
       Cities,” is meant to serve as a guide to cities considering piloting UBI,
       highlighting the ...
-    outlet: National League of Cities
-    title: UBI Cities Toolkit Launch
     image: /uploads/nlc_bilpr.png
-    align: right
-  - articleLink: 'https://news.stanford.edu/2018/12/10/lab-explores-universal-basic-income/'
+    outlet: National League of Cities
+    title: UBI Cities Toolkit Launches
+  - align: center
+    articleLink: 'https://news.stanford.edu/2018/12/10/lab-explores-universal-basic-income/'
     date: 2018-12-10T05:01:00.000Z
     excerpt: >-
       Stanford philosopher Juliana Bidadanure is leading an initiative focused
       on fostering discussions about universal basic income and analyzing
       previous and ongoing unconditional cash experiments across the world.
+    image: /uploads/basicincome_getty_1_0.jpg
     outlet: Stanford News
     title: Stanford Lab Explores Universal Basic Income
-    image: /uploads/basicincome_getty_1_0.jpg
-    align: center
-  - articleLink: >-
+  - align: right
+    articleLink: >-
       https://www.paloaltoonline.com/news/2019/05/17/with-artificial-intelligence-looming-debate-over-basic-income-heats-up
     date: 2019-05-17T04:01:00.000Z
     excerpt: >-
@@ -30,10 +31,6 @@ newsItem:
       Alto Daily about whether universal basic income could bring an end to
       poverty. This article examines the challenges and different schools of
       thought on universal basic income and why it may or may not be feasible.
+    image: /uploads/76857_full.jpg
     outlet: Palo Alto Daily
     title: 'With artificial intelligence looming, debate over ''basic income'' heats up'
-    image: /uploads/76857_full.jpg
-    align: right
-     
-
-
