@@ -3,23 +3,126 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/events/can-unconditional-cash-impact-health-outcomes/</loc>
+    <lastmod>2019-05-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/news/lab-updates/introducing-2019-20-postdoctoral-research-fellow/</loc>
+    <lastmod>2019-05-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/events/alan-krueger-why-universal-basic-income-so-controversial-discussion-seminar/</loc>
+    <lastmod>2019-04-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/events/alan-krueger-why-universal-basic-income-so-controversial-lecture/</loc>
+    <lastmod>2019-04-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/events/past/</loc>
+    <lastmod>2019-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/news/</loc>
     <lastmod>2019-02-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/the-opportunity-gap-2019-02-12/</loc>
-    <lastmod>2019-02-12T00:00:00+00:00</lastmod>
+    <loc>/news/newsletters/</loc>
+    <lastmod>2019-02-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/the-opportunity-gap-2019-01-12/</loc>
-    <lastmod>2019-01-12T00:00:00+00:00</lastmod>
+    <loc>/events/upcoming/</loc>
+    <lastmod>2019-02-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/about/</loc>
-    <priority>0</priority>
+    <loc>/news/lab-updates/</loc>
+    <lastmod>2019-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/events/videos/</loc>
+    <lastmod>2019-02-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/events/basic-income-illusions-lucas-stanczyk-and-debra-satz-0/</loc>
+    <lastmod>2019-01-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/events/give-people-money-how-universal-basic-income-would-end-poverty-revolutionize-work-and-remake/</loc>
+    <lastmod>2018-11-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/news/lab-updates/first-spring-basic-income-lab/</loc>
+    <lastmod>2018-11-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/news/lab-updates/highlights-cash-conference/</loc>
+    <lastmod>2018-11-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/events/dorian-t-warren-basic-income-and-racial-justice/</loc>
+    <lastmod>2018-01-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/events/what-can-universal-basic-income-do-gender-equality/</loc>
+    <lastmod>2017-10-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/events/cities-and-universal-basic-income/</loc>
+    <lastmod>2017-09-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/events/basic-income-radical-proposal-free-society-and-sane-economy/</loc>
+    <lastmod>2017-04-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/events/experiments-unconditional-basic-income/</loc>
+    <lastmod>2017-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/fellowships/graduate-fellowships/</loc>
+    <lastmod>2017-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/fellowships/postdoctoral-fellow/</loc>
+    <lastmod>2017-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/fellowships/undergrad-opportunities/</loc>
+    <lastmod>2017-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/events/future-of-jobs/</loc>
+    <lastmod>2016-11-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/uploads/basic-income-illusions-lucas-stanczyk-and-debra-satz-0/</loc>
+  </url>
+  
+  <url>
+    <loc>/research/basic-income-experiments/</loc>
   </url>
   
   <url>
@@ -28,8 +131,18 @@
   </url>
   
   <url>
+    <loc>/events/</loc>
+    <lastmod>2019-05-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/fellowships/</loc>
+    <lastmod>2017-02-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/</loc>
-    <lastmod>2019-02-12T00:00:00+00:00</lastmod>
+    <lastmod>2019-05-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -37,14 +150,36 @@
   </url>
   
   <url>
-    <loc>/posts/</loc>
-    <lastmod>2019-02-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>/research/</loc>
+  </url>
+  
+  <url>
+    <loc>/research/mapping-ubi-research/</loc>
+  </url>
+  
+  <url>
+    <loc>/about/people/</loc>
   </url>
   
   <url>
     <loc>/tags/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/research/ubi-cities-toolkit/</loc>
+  </url>
+  
+  <url>
+    <loc>/courses/</loc>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
+  </url>
+  
+  <url>
+    <loc>/about/what-is-bil/</loc>
   </url>
   
   <url>
