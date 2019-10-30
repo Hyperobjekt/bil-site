@@ -17686,6 +17686,28 @@ input.form-control {
   background-color: #6EC9D7;
 }
 
+.bil-topmenu {
+  padding: 2.4rem 0;
+}
+
+.dropdown-menu {
+  margin-top: 2.0rem;
+  border-top-left-radius: 0rem;
+  border-top-right-radius: 0rem;
+}
+
+.dropdown-toggle::after {
+  vertical-align: 0.2em;
+}
+
+/* .dropdown:hover>.dropdown-menu {
+  display: block;
+} 
+
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+/* pointer-events: none;
+}*/
 nav.navbar-light {
   height: 6.4rem;
   background-color: #fff;
@@ -17708,6 +17730,7 @@ nav.navbar-light a:hover {
 
 nav.navbar-light ul.dropdown-menu {
   left: -16px;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 nav.navbar-light ul.dropdown-menu a:hover {
@@ -17773,6 +17796,10 @@ nav.navbar-light.sticky-top {
   background-repeat: no-repeat;
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
   transition: background-color .2s ease;
+}
+
+nav.navbar-light.sticky-top ul.dropdown-menu {
+  background-color: #fff;
 }
 
 nav.navbar-light.sticky-top a:hover {
@@ -17909,7 +17936,7 @@ nav.navbar-light .drawer-toggle .navbar-toggler-icon {
   font-size: 2.4rem;
   line-height: 2.0rem;
   letter-spacing: .011rem;
-  color: #00505C;
+  color: #373737;
   margin-bottom: 3.2rem;
 }
 
@@ -18075,14 +18102,14 @@ img.float-left {
 }
 
 .subnav {
-  height: 4.8rem;
   /* position: sticky;
   position: -webkit-sticky;
   position: -moz-sticky;
   position: -ms-sticky;
   position: -o-sticky; */
-  top: 56px;
   display: flex;
+  padding-top: 1.6rem;
+  padding-bottom: 1.6rem;
   align-items: center;
   background-color: #F7F7F7;
   opacity: 1;
@@ -18094,20 +18121,6 @@ img.float-left {
 
 @media (min-width: 374px) {
   .subnav {
-    top: 64px;
-  }
-}
-
-@media (min-width: 768px) {
-  .subnav {
-    height: 5rem;
-    top: 64px;
-  }
-}
-
-@media (min-width: 992px) {
-  .subnav {
-    height: 6rem;
     top: 64px;
   }
 }
@@ -18469,7 +18482,7 @@ body.home nav.navbar-light ul a {
 }
 
 body.home nav.navbar-light ul.dropdown-menu a {
-  color: #373737;
+  color: #fff;
 }
 
 body.home nav.navbar-light ul a:hover {
