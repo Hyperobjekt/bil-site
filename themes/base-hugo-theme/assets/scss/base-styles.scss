@@ -352,7 +352,7 @@ html {
   
   .type-news .newslist p {
     margin-bottom: 1.6rem;
-    @include media-breakpoint-up(lg) {
+    @include media-breakpoint-up(xl) {
       max-width: 60%;
     }
   }

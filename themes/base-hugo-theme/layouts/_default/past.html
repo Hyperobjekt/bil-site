@@ -46,7 +46,7 @@
     
 
         <div class="row newslist mb-1 mb-md-2 mb-xl-3">
-            <div class="col-12 col-md-6 offset-md-3 pl-md-0">
+            <div class="col-12 col-md-7 offset-md-2 col-lg-6 offset-lg-3 pl-md-0">
                 <h2 class="news">{{ .past }}</h2>
             </div>    
         </div>    
@@ -57,17 +57,17 @@
                 {{ range .Paginator.Pages  }} 
               
             <div class="row mb-4 mb-md-4 mb-lg-8 newslist">
-                <div class="col-12 col-md-6 offset-md-3 topdivider mb-3 mb-md-4 mb-lg-3 mb-xl-4"></div>    
-                <div class="col-12 col-md-2 offset-md-3 mr-md-2 pic-column mb-2 mb" style="background-image: url('{{ .Params.image }}'); background-size: contain; background-repeat: no-repeat;">
+                <div class="col-12 col-md-7 offset-md-2 col-lg-6 offset-lg-3 topdivider mb-3 mb-md-4 mb-lg-3 mb-xl-4"></div>    
+                <div class="col-12 col-md-2 offset-md-2 cold-lg-2 offset-lg-3 mr-md-2 pic-column mb-2 mb" style="background-image: url('{{ .Params.image }}'); background-size: contain; background-repeat: no-repeat;">
                         
                 </div>
-                <div class="col-12 col-md-4">
+                <div class="col-12 col-md-6 col-lg-4">
                     <a href="{{ .Permalink }}" target=""><h5 class="events mb-sm-2 mb-md-2 mb-xl-2">{{ .Params.title }}</h5></a>
                     <h4 class="news coldblcktext text-uppercase mb-1 ">{{ .Date.Format "Monday, January 2, 2006" }} | {{ .Params.timeRange }}
                     <br>{{ .Params.location }}</h4>
                     <p class="medgraytext"></p>     
                     <div class="news-item-link">
-                        <a class="plainlink coldblcktext" href="{{ .Permalink }}">FIND OUT MORE {{ partial "rightarrow.html" }}</a>
+                        <a class="plainlink coldblcktext" href="{{ .Permalink }}">FIND OUT MORE&nbsp;{{ partial "rightarrow.html" }}</a>
                     </div>    
                 </div>
             </div>
