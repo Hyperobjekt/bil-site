@@ -7,12 +7,12 @@ herotext: >-
   line
 heading1: What is Basic Income?
 body1: >-
-  Universal basic income takes on varied forms in different historical and
+  Universal basic income takes on distinct forms in different historical and
   geographic contexts. It varies based on the funding proposal, the level of
-  payment, the frequency of payment, and on what other policies are proposed
-  around it. Each of these parameters are fundamental, even if a range of
-  versions would still technically count as UBI (a universal, unconditional,
-  individual, regular and in cash payment).
+  payment, the frequency of payment, and the particular policies proposed around
+  it. Each of these parameters are fundamental, even if a range of versions
+  still technically count as UBI (a universal, unconditional, individual,
+  regular and cash payment).
 heading2: History of UBI
 body2: >-
   In recent years, UBI went from a utopian proposal to a policy with growing
