@@ -27,7 +27,7 @@ body2: >-
   Income.
 heading3: Sponsors
 body3: >-
-  This project is receiving the support of the Robert Wood Johnson Foundation
-  and the Jain Family Institute.
+  The mapping research project is receiving the support of the Robert Wood
+  Johnson Foundation and the Jain Family Institute.
 ---
 
