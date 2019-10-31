@@ -17499,7 +17499,7 @@ body, p, tr {
   margin-bottom: 1.6rem;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1380px) {
   .type-news .newslist p {
     max-width: 60%;
   }
@@ -17820,7 +17820,7 @@ nav.navbar-light.sticky-top .navbar-brand {
   background-size: contain;
   background-repeat: no-repeat;
   height: 41px;
-  margin-top: 5px;
+  margin-top: 8px;
   background-repeat: no-repeat;
 }
 

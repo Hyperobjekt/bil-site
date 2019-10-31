@@ -41,7 +41,7 @@
         </div>
         <div class="row">
             <div class="col-md-3 offset-lg-1 offset-lg-1">
-                <a class="plainlink g-white whitetext" href="/about/">{{ .cta }} {{ partial "rightarrow.html" }}</a>
+                <a class="plainlink g-white whitetext" href="/about/">{{ .cta }}&nbsp;{{ partial "rightarrow.html" }}</a>
             </div>
         </div>    
     </div>
@@ -73,7 +73,7 @@
     </div>
     <div class="row">
         <div class="col-md-3 offset-md-1 offset-lg-1">
-            <a class="plainlink g-white whitetext" href="/about/">{{ .cta }} {{ partial "rightarrow.html" }}</a>
+            <a class="plainlink g-white whitetext" href="/about/">{{ .cta }}&nbsp;{{ partial "rightarrow.html" }}</a>
         </div>
     </div>    
 </div>
@@ -133,8 +133,8 @@
     <div class="col-md-5 offset-md-1 pt-sm-20 pb-sm-6 py-md-11 py-lg-15 py-xl-16">
         <h2 class="blacktext text-sm-center text-md-left mt-sm-4 mt-md-0 mb-1">{{ .heading3 }}</h2>
         <p class="slatetext mt-2">{{ .subhead3 }}</p>
-            <div class="news-item-link">
-                    <a class="plainlink coldblcktext" href="/research/mapping-ubi-research">{{ .cta3 }} {{ partial "rightarrow.html" }}</a>
+            <div class="news-item-link d-flex">
+                    <a class="plainlink coldblcktext mx-auto mx-md-0" href="/research/mapping-ubi-research">{{ .cta3 }}&nbsp;{{ partial "rightarrow.html" }}</a>
                 </div>
     </div>
     </div>
@@ -161,7 +161,7 @@
                        
                     </div>
                 <div class="news-item-link py-3 px-4">
-                    <a class="plainlink coldblcktext" href="{{ .articleLink }}" target="_blank">READ MORE {{ partial "rightarrow.html" }}</a>
+                    <a class="plainlink coldblcktext" href="{{ .articleLink }}" target="_blank">READ MORE&nbsp;{{ partial "rightarrow.html" }}</a>
                 </div>
              
             </div>
@@ -175,7 +175,7 @@
                         <p class="slatetext">{{ .excerpt | truncate 180 }}</p>
                     </div>
                     <div class="news-item-link py-3 px-4">
-                        <a class="plainlink coldblcktext" href="{{ .articleLink }}" target="_blank">READ MORE {{ partial "rightarrow.html" }}</a>
+                        <a class="plainlink coldblcktext" href="{{ .articleLink }}" target="_blank">READ MORE&nbsp;{{ partial "rightarrow.html" }}</a>
                     </div>
             </div>
             {{ end }}
@@ -183,10 +183,10 @@
         </div>
         <div class="row">
             <div class="col-12 d-flex flex-column align-items-center mt-5 mb-6 mb-md-8 mb-lg-10">
-                <a class="plainlink text-center coldblcktext" href="/news">ALL NEWS {{ partial "rightarrow.html" }}</a>
+                <a class="plainlink text-center coldblcktext" href="/news">ALL NEWS&nbsp;{{ partial "rightarrow.html" }}</a>
             </div>
         </div>
     </div>
-{{ partial "subscribe.html" .}}
+{{ partial "subscribe.html" . }}
 
 {{ end }}
