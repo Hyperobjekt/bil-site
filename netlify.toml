@@ -43,3 +43,79 @@ from = "/research"
 from = "/events"
   to = "/events/upcoming"
   status = 301   
+
+[[redirects]]
+from = "/about/what-basic-income"
+  to = "/about/what-is-ubi/"
+  status = 301  
+
+[[redirects]]
+from = "/about/people/leadership"
+  to = "/about/people/"
+  status = 301
+
+[[redirects]]
+from = "/about/people/current-graduate-fellows"
+  to = "/about/people/"
+  status = 301
+  
+[[redirects]]
+from = "/about/people/jos-luis-sabau"
+  to = "/about/people/"
+  status = 301
+
+[[redirects]]
+from = "/about/people/former-graduate-fellows"
+  to = "/about/people/"
+  status = 301  
+
+[[redirects]]
+from = "/about/location-and-contact"
+  to = "/about/what-is-bil"
+  status = 301
+
+[[redirects]]
+from = "/events/upcoming-events"
+  to = "/events/upcoming"
+  status = 301
+
+[[redirects]]
+from = "/events/past-events"
+  to = "/events/past"
+  status = 301
+
+[[redirects]]
+from = "/events/our-videos"
+  to = "/events/videos/"
+  status = 301
+
+[[redirects]]
+from = "/fellowships/postdoctoral-research-fellow"
+  to = "/fellowships"
+  status = 301
+
+[[redirects]]
+from = "/fellowships/graduate-fellowships"
+  to = "/fellowships"
+  status = 301  
+
+[[redirects]]
+from = "/fellowships/undergraduate-opportunities"
+  to = "/fellowships"
+  status = 301
+
+[[redirects]]
+from = "/courses/search"
+  to = "/courses"
+  status = 301  
+
+[[redirects]]
+from = "/get-involved/join-mailing-list"
+  to = "/"
+  status = 301  
+
+[[redirects]]
+from = "/get-involved/giving"
+  to = "/"
+  status = 301  
+
