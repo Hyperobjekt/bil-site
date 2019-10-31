@@ -1,12 +1,13 @@
 ---
-date: 2017-02-08
-title: 'Undergraduate Opportunities'
 is_index: false
 type: positions
 layout: fellowships-single
-image: /uploads/julianaelizabethjoeguy_0.jpg
+title: Undergraduate Fellowships
+date: 2017-02-08T00:00:00.000Z
 subhead: currently open
-excerpt: The Basic Income Lab is currently in the process of putting together opportunities for Stanford undergraduate students.
+excerpt: >-
+  The Basic Income Lab is currently in the process of putting together
+  opportunities for Stanford undergraduate students.
 ---
 **Apply for Undergraduate Student Positions:**
 
