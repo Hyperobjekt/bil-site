@@ -2,9 +2,9 @@
 title: What Is BIL
 layout: what-is-bil
 herotext: >-
-  The Basic Income Lab fosters research and promotes a more informed public
-  discussion about basic income and its potential to alleviate poverty and to
-  reduce precariousness and inequality
+  The Basic Income Lab reviews the vast interdisciplinary research produced on
+  UBI, identify under-explored research questions, and help shape future
+  directions in basic income research.
 heading1: Our Mission and Purpose
 body1: >-
   The Stanford Basic Income Lab aspires to be an academic home for the study of
@@ -40,34 +40,29 @@ p2p3: >-
   practitioners about best practices in UBI experimentation
 heading3: Why Basic Income?
 body3: >-
-  As automation, growing inequalities, increasing poverty, social precariousness
-  and structural unemployment grow in relevance both in the United States and
-  around the world, many experts have looked at alternative proposals to address
+  As automation, growing inequalities, persistent poverty, social precariousness
+  and structural unemployment threaten economic security both in the United
+  States and around the world, many policymakers, practitioners, academics and
+  policymakers have begun to consider Universal Basic Income (UBI) to address
   these issues.
-
-
-  From this debate, Universal Basic Income (UBI) has emerged as an interesting
-  alternative to deal with some of the largest issues faced by the world today.
 
 
   Within this context, there is an increasing need for in-depth academic
   research on how to design, implement and evaluate UBI; on what UBI’s potential
-  impacts could be; and, on how feasible it would be to implement.
+  impacts could be; and, on how it could be turned into an economically and
+  politically feasible program.
 heading4: Why Here?
 body4: >-
-  Increasingly in the United States, many individuals have expressed their
-  support for Universal Basic Income due to a vast array of reasons. Some argue
-  for it as providing a safety net for those who are already marginalized from
-  the labor market; some support it as a measure to protect workers which may be
-  displaced in the future due to increasing automation; and others defend it as
-  a mechanism to provide real freedom to citizens.
+  Increasingly in the United States, many express their support for Universal
+  Basic Income. In 2016, Robert B. Reich, Andrew Stern and Martin Ford all wrote
+  books proposing UBI as a necessary tool in an increasingly unequal and
+  automated economy. 
 
 
   Stanford University offers a unique set of interdisciplinary opportunities to
   further enhance the study of this proposal. Nestled in the heart of the bay
-  area, the University excels in both the social sciences and engineering,
-  providing the Lab access to experts across disciplines to make contributions
-  to UBI research.
+  area, the Lab benefits from access to experts across disciplines to develop
+  and improve UBI research.
 heading5: 'The time is ripe for an independent initiative that serves to:'
 p5p1: >-
   Convene scholars, policy makers, business leaders, think tanks, nonprofits,
