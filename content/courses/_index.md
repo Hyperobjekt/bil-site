@@ -4,7 +4,7 @@ title: 'Universal Basic Income: the Philosophy Behind the Proposal'
 herotext: Courses related to Universal Basic Income
 heading1: 'Universal Basic Income: the Philosophy Behind the Proposal'
 body1: >-
-  Among the various objections to UBI, one concerns its moral adequacy: Isn't it
+  Among the various objections to UBI, one concern its moral adequacy: Isn't it
   fundamentally unjust to give cash to all indiscriminately rather than to those
   who need it and deserve it? Over the years, a variety of scholars have
   defended the policy on moral grounds, arguing that UBI is a tool of equality,
