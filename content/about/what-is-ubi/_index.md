@@ -7,72 +7,89 @@ herotext: >-
   line
 heading1: What is Basic Income?
 body1: >-
-  The past three decades have seen the elaboration of a vast body of literature
-  on universal basic income (UBI), a radical policy proposal Philippe Van Parijs
-  referred to as "a disarmingly simple idea." It consists of a periodic cash
-  allowance given to all citizens, without means test to provide them with a
-  standard of living above the poverty line. Basic income crosses disciplinary
-  and political lines - with activists, philosophers, economists, conservatives,
-  and liberals arguing both for and against it.
-
-
-  Universal basic income takes different shapes depending on how it is framed,
-  what policies are suggested to support it, the society in which it is applied,
-  and how it is funded. Each of these variables are dependent on the proposal
-  and are not necessarily defining features of the concept itself.
+  Universal basic income takes on distinct forms in different historical and
+  geographic contexts. It varies based on the funding proposal, the level of
+  payment, the frequency of payment, and the particular policies proposed around
+  it. Each of these parameters are fundamental, even if a range of versions
+  still technically count as UBI (a universal, unconditional, individual,
+  regular and cash payment).
 heading2: History of UBI
 body2: >-
-  Thomas More, Martin Luther King, Milton Friedman and various other figures in
-  the fields of politics and economics considered UBI as a tool to change the
-  world around them.
+  In recent years, UBI went from a utopian proposal to a policy with growing
+  currency. UBI experiments have been conducted in countries as different as
+  Kenya, Finland, Namibia, India, and Canada. In the United States, variants of
+  the UBI proposal were very much alive in the early second half of the
+  twentieth century—including through figures like Martin Luther King, Jr., and
+  Milton Friedman—but the conversation did not pick up much in subsequent
+  decades.
 
 
-  The idea of a Basic Income first originated in the 15th century, when
-  theologian Thomas More wrote _Utopia_ and humanist Johannes Ludovicus Vives
-  calculated a detailed scheme for a minimum income. In the following centuries,
-  philosophers like Thomas Paine would support equal pay for all citizens
-  regardless of socioeconomic status. And in the twentieth century, the United
-  States saw support for the idea from across the political spectrum. Reverend
-  Martin Luther King Jr. argued in favor of a guaranteed income as the most
-  effective means to eradicate poverty in the country while Economist and Nobel
-  Laureate Milton Friedman proposed a negative income tax (an idea in many ways
-  similar to a basic income).
+  This changed around 2016, when several American personalities wrote on the
+  policy, including former Service Employees International Union president
+  Andrew Stern, former Secretary of Labor Robert B. Reich, and futurist Martin
+  Ford. Notably, the technology incubator Y Combinator started testing UBI in
+  Oakland, California, in 2016; the Economic Security Project was launched in
+  2016, devoting millions of dollars to research and advocacy on UBI; and the
+  mayor of Stockton, California, announced the launch of a pilot program,
+  subsequently launched in March 2019. 
 
 
-  Stemming from increased support for Friedman's proposal and a desire to reform
-  welfare in the U.S., the Nixon administration put forward a proposal for the
-  Family Assistance Plan, a program that would have incorporated a guaranteed
-  income with financial supplements for workers (this never came to fruition).
-  At the same time, a number of income experiments were carried out in the
-  United States and Canada to explore the feasibility of such a policy.
-  Notoriously, between 1968 and 1982, the U.S. would carry out four income
-  maintenance experiments in New Jersey, Gary, IN, Iowa, Seattle and Denver;
-  and, between 1974 and 1979 Canada would push a negative income tax experiment
-  known as MINCOME. In 1982, Alaska created the Permanent Fund Dividend (PFD),
-  providing nearly every Alaskan citizen a yearly dividend from oil revenues. 
+  The growth of income and wealth inequalities, the precariousness of labor, and
+  the persistence of abject poverty have all been important drivers of renewed
+  interest in UBI in the United States. But it is without a doubt the fear that
+  automation may displace workers from the labor market at unprecedented rates
+  that primarily explains the revival of the policy, including by many in or
+  around Silicon Valley (Ford 2015). 
 
 
-  In the last decade, the idea of basic income has been tested in experiments
-  throughout the world (Namibia, 2008-09; India, 2011-12; Ontario, Canada,
-  2017-18; Finland, 2017-18), and more recently in the U.S. in cities like
-  Jackson, MS; Santa Monica, CA; Chicago, IL; and in Stockton, CA.
+  UBI has a long history and has been defended from a variety of often
+  overlapping, but occasionally conflicting, ideological perspectives. Like most
+  proposals to expand the safety net, UBI has roots in social democratic,
+  anarchist, and socialist thinking. Ancestors of UBI were discussed by the
+  likes of Thomas Paine (1797) in the form of a lump sum granted to all citizens
+  at adulthood, the Belgian socialist Joseph Charlier (1848) in the form of a
+  “territorial dividend” generating a regular income, and James Meade \[1988
+  (1935), 1993 (1964)] in the form of a “social dividend” in the 1930s and
+  later. Those proposals share with recent versions of UBI a commitment to the
+  view that a share of the wealth produced by all in common, or by previous
+  generations, should be redistributed to all in the form of a direct payment to
+  individuals. In a context of systemic discrimination against African-Americans
+  and the resulting widespread unemployment and poverty, Martin Luther King, Jr.
+  \[2010 (1967)], the Black Panther Party, and James Boggs (1968) also
+  considered guaranteed income as a strategy. Meanwhile, feminists, including
+  the Wages for Housework movement in the 1970s, also discussed an income
+  separate from labor as a way to weaken the prominence of the male breadwinner
+  model (Costa & James 1973, Cox & Federici 1976). UBI also has a footing in
+  neoliberal thinking. The economist Milton Friedman famously defended a cousin
+  of UBI, the Negative Income Tax (NIT). He held that the NIT would raise the
+  floor without negatively affecting the price system and market mechanisms, and
+  that it would reduce the paternalistic and intrusive state bureaucracy
+  required to decide who, among the poor, merits assistance (Friedman 1962,
+  1968).
+
+
+  _(extracted from Bidadanure, Juliana Uhuru. “The Political Theory of Universal
+  Basic Income.” Annual Review of Political Science 22, no. 1 (May 11, 2019):
+  481–501. https://doi.org/10.1146/annurev-polisci-050317-070954.)_
 heading3: Defining Characteristics
-subhead3: Adapted from Basic Income Earth Network (BIEN)
+subhead3: >-
+  Adapted from Bidadanure, 2019, "The Political Theory of Universal Basic
+  Income"
 item1head: Periodic
 item1text: >-
-  It is paid at regular intervals (for example every month), not as a one-off
+  It is a recurrent payment (for example every month), rather than a one-off
   grant.
 item2head: Cash payment
 item2text: >-
-  It is paid in an appropriate medium of exchange, allowing those who receive it
-  to decide what they spend it on.
+  It is paid in cash, allowing the recipients to convert their benefits into
+  whatever they may like.
 item3head: Universal
-item3text: 'It is paid to all, without means test.'
+item3text: 'It is paid to all, and not targeted to a specific population.'
 item4head: Individual
-item4text: 'It is paid on an individual basis—and not, for instance, to households.'
+item4text: It is paid on an individual basis (versus household-based).
 item5head: Unconditional
 item5text: >-
-  It is paid without a requirement to work or to demonstrate
-  willingness-to-work.​
+  It involves no work requirement or sanctions; it is accessible to those in
+  work and out of work, voluntarily or not.
 ---
 

@@ -14,17 +14,8 @@ body1: >-
 
   The online platform will provide pertinent summaries of articles, research
   papers, books produced on UBI to date, highlighting important findings from
-  each and ensuring that core areas such as health, crime, stigma, childhood
-  poverty and gender equity are covered.
-
-
-  To construct this platform, our team of four Stanford graduate researchers
-  started reviewing the UBI scholarship in January 2018 through an
-  interdisciplinary lens. Specifically, an economics student surveyed past and
-  current UBI experiments; two political theorists are surveying the conceptual
-  and normative literature on UBI; and a computer scientist is helping us design
-  the online platform and city toolkit in collaboration with a data
-  visualization team.
+  each and ensuring that core areas such as health, crime, race, stigma,
+  childhood poverty and gender equity are covered.
 
 
   In Spring 2020, we will unveil the finished platform at a large-scale event.
@@ -36,8 +27,7 @@ body2: >-
   Income.
 heading3: Sponsors
 body3: >-
-  This project is receiving the support of the Robert Wood Johnson Foundation,
-  the Jain Family Institute, the Economic Security Project, and the McCoy Family
-  Center for Ethics in Society.
+  The mapping research project is receiving the support of the Robert Wood
+  Johnson Foundation and the Jain Family Institute.
 ---
 

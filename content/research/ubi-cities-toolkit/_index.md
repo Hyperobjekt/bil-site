@@ -19,11 +19,13 @@ body1: >-
   Family Institute also made valuable contributions.
 heading2: 'Recommendations include:'
 rec1: >-
-  Identifying key design elements of the UBI pilot (who benefits, the size of
-  the benefit, the frequency of benefit delivery, the pilot duration.
-rec2: Ensuring the pilot’s goals are aligned with the cities goals and capacity.
+  Consider the values underpinning basic income when defining the core design
+  elements of the pilot (who benefits, the size of the benefit, the frequency of
+  benefit delivery, the pilot duration).
+rec2: Ensure the pilot’s goals are aligned with the cities goals and capacity.
 rec3: >-
-  Clearly defining essential stakeholders and the roles they play in the design,
-  implementation, analysis of the pilot.
+  Engage and clearly define roles for stakeholders across civil society,
+  governmental agencies, foundations, academia and the local community for the
+  design, implementation, evaluation of the pilot.
 ---
 
