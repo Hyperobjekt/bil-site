@@ -43,7 +43,7 @@
             </div>
             <div class="col-md-6 ml-md-3 col-lg-5">
                 <h2 class="mb-sm-4 mb-md-4 mb-xl-5">{{ .heading1 }}</h2>
-                <span class="medgraytext mt-md-1">{{ .body1 }}</span>
+                <span class="medgraytext mt-md-1">{{ .body1 | markdownify }}</span>
             </div>
         </div>
     </div>
@@ -53,7 +53,7 @@
         <div class="row">   
         <div class="col-md-5 offset-md-1 pt-sm-20 pb-sm-6 py-md-11 py-lg-15 py-xl-16">
             <h2 class="blacktext text-sm-center text-md-left mt-sm-4 mt-md-0 mb-1">{{ .heading2 }}</h2>
-            <span class="slatetext mt-2">{{ .body2 }}</span>    
+            <span class="slatetext mt-2">{{ .body2 | markdownify }}</span>    
         </div>
         </div>
     </div>  
@@ -63,7 +63,7 @@
         <div class="row">
             <div class="col-md-6 col-lg-5 mx-auto d-flex flex-column align-items-center my-sm-5 my-md-8 my-lg-9 my-xl-11">
                 <h2 class="text-center blacktext mb-2">{{ .heading3 }}</h2>
-                <span class="text-center slatetext">{{ .body3 }}</span>
+                <span class="text-center slatetext">{{ .body3 | markdownify }}</span>
             </div>
         </div>
         <div class="row mb-4 mb-md-8 mb-lg-9 mb-xl-11 d-flex align-items-center align-items-md-end">
