@@ -90,21 +90,6 @@ from = "/events/our-videos"
   status = 301
 
 [[redirects]]
-from = "/fellowships/postdoctoral-research-fellow"
-  to = "/fellowships"
-  status = 301
-
-[[redirects]]
-from = "/fellowships/graduate-fellowships"
-  to = "/fellowships"
-  status = 301  
-
-[[redirects]]
-from = "/fellowships/undergraduate-opportunities"
-  to = "/fellowships"
-  status = 301
-
-[[redirects]]
 from = "/courses/search"
   to = "/courses"
   status = 301  
