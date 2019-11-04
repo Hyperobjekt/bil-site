@@ -1,16 +1,17 @@
 ---
-date: 2019-05-21
-timeRange: 7:00 pm to 8:30 pm
 is_index: false
-title: Can Unconditional Cash Impact Health Outcomes?
 type: events
-location: Stanford Law School, Crown Building, Room 290
-admission: Free and open to the public. If anyone with disabilities needs accommodations, feel free to contact us at the email below.
-image: '/uploads/83547-1_1.jpg'
-video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/In57ykmasDA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+title: Can Unconditional Cash Impact Health Outcomes?
+date: 2019-05-21T00:00:00.000Z
+timeRange: '7:00 pm to 8:30 pm'
+location: 'Stanford Law School, Crown Building, Room 290'
+admission: >-
+  Free and open to the public. If anyone with disabilities needs accommodations,
+  feel free to contact us at the email below.
+image: /uploads/83547-1_1.jpg
+video: ''
 ---
-
-Join us for an evening with Evelyn Forget and Marni Brownell in conversation with Marcella Alsan to discuss the impact unconditional cash transfers have on health outcomes. Forget will present her research on the influence of the Canadian Mincome experiment on health and wellbeing and Brownell will share the effects of the Healthy Baby Program's prenatal benefit on maternal and child health outcomes.
+**Join us for an evening with Evelyn Forget** and Marni Brownell in conversation with Marcella Alsan to discuss the impact unconditional cash transfers have on health outcomes. Forget will present her research on the influence of the Canadian Mincome experiment on health and wellbeing and Brownell will share the effects of the Healthy Baby Program's prenatal benefit on maternal and child health outcomes.
 
 **Evelyn L. Forget** is an economics Professor in the Department of Community Health Sciences at the University of Manitoba and Academic Director of the Manitoba Research Data Centre. She is also an adjunct scientist with the Manitoba Centre for Health Policy and a research associate with the MB First Nations Centre for Aboriginal Health Research. Forget has extensively investigated the health impacts of the Mincome, an experimental Canadian guaranteed annual income experiment that was held in Manitoba during the 1970s. Her current research focuses on the health and social consequences of antipoverty programs and policies and the cost-effectiveness of healthcare interventions.
 
@@ -20,11 +21,11 @@ Join us for an evening with Evelyn Forget and Marni Brownell in conversation wit
 
 <iframe width="524" height="315" src="https://www.youtube.com/embed/In57ykmasDA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
 **Speaker(s):** 
-- Evelyn Forget
-- Marni Brownell
-- Marcella Alsan
+
+* Evelyn Forget
+* Marni Brownell
+* Marcella Alsan
 
 **Event Sponsor:** McCoy Family Center for Ethics in Society, Basic Income Lab
 
