@@ -42,7 +42,7 @@
 <div id="mapping-text" class="pt-sm-5 pt-md-7 pt-lg-9 pt-xl-12 pb-sm-7 pb-md-7 pb-xl-8">
         {{/* $paginator := .Paginate (where .Site.Pages ".Params.type" "=" "events") 5 */}}
         {{ range .Site.Pages }}
-       {{ if isset .Params "video" }}
+       {{ if .Params.video }}
             <div class="row mb-4 mb-md-4 mb-lg-8 mb-xl-12">
                 <div class="col-12 col-md-7 mx-md-auto ">
                     <div class="superhead news coldblcktext text-uppercase mb-1 ">{{ .Date.Format "Monday, January 2, 2006" }}</div>
