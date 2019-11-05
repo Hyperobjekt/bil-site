@@ -4,7 +4,7 @@ type: events
 title: >-
   Alan Krueger / Why is Universal Basic Income So Controversial? – Discussion
   Seminar
-date: 2019-03-14T00:00:00.000Z
+date: 2019-03-14T17:00:00.000Z
 timeRange: '10:00 am to 12:00 pm'
 location: 'Encina Hall, William J. Perry Conference Room, 2nd floor'
 admission: >-
