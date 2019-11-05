@@ -703,6 +703,27 @@ body.kind-404 {
   */
 }
 
+#contact-info {
+  text-align: center;
+  a {
+    text-decoration: underline;
+  }
+  @include media-breakpoint-up(md) {
+    text-align: left;
+  }
+  #contact-img {
+    background-image: url(/images/logos/bil-logomark-lg.svg); 
+    background-repeat: no-repeat; 
+    @include media-breakpoint-up(md) {
+      background-size: 80%; 
+      background-position: right 10%; 
+    }
+    background-position: center center;
+    min-height: 140px;
+    
+  }
+}
+
 
 // Footer
 #footer {
