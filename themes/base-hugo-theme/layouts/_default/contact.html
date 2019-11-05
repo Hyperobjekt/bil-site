@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+
+
+<div id="contact-info" class="pt-sm-5 pt-md-7 pt-lg-9 pt-xl-12 pb-sm-7 pb-md-7 pb-xl-8">
+       
+            <div class="row mb-4 mb-md-4 mb-lg-8 mb-xl-12">
+                <div id="contact-img" class="col-12 col-md-1 offset-md-4 mr-2"></div>
+                <div class="col-12 col-md-3">
+                    <h3 class="news mb-sm-2 mb-md-2 mb-xl-2">{{ .Params.title }}</h3>
+                    <div class="medgraytext">{{ .Content | markdownify | safeHTML }}</div>     
+      
+                </div>
+            </div>
+   
+    </div> 
+
+
+{{ partial "subscribe.html" .}}
+
+{{ end }}

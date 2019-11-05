@@ -18431,6 +18431,34 @@ body.kind-404 p {
   }
 }
 
+#contact-info {
+  text-align: center;
+}
+
+#contact-info a {
+  text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+  #contact-info {
+    text-align: left;
+  }
+}
+
+#contact-info #contact-img {
+  background-image: url(/images/logos/bil-logomark-lg.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 140px;
+}
+
+@media (min-width: 768px) {
+  #contact-info #contact-img {
+    background-size: 80%;
+    background-position: right 10%;
+  }
+}
+
 #footer a {
   text-decoration: none;
 }
