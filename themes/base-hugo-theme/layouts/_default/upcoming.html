@@ -76,9 +76,9 @@
         <div class="row mb-1 newslist">
                 <div class="col-12 col-md-6 offset-md-3 topdivider mb-3 mb-md-4 mb-lg-3"></div>    
                 </div>
-                <div class="col-12 col-md-6 mx-auto px-4 pl-md-1">
+                <div class="medgraytext col-12 col-md-6 mx-auto px-4 pl-md-1">
                     {{ with .Site.Data.events.page }}
-                        <p class="medgraytext">{{ .noevents }}</p>    
+                        <p class="medgraytext">{{ .noevents | markdownify }}</p>    
                     {{ end }}  
                 </div>
             </div>
