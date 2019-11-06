@@ -15,6 +15,11 @@ body1: >-
   regular and cash payment).
 heading2: History of UBI
 body2: >-
+  _Extracted from Bidadanure, Juliana Uhuru. “The Political Theory of Universal
+  Basic Income.” Annual Review of Political Science 22, no. 1 (May 11, 2019):
+  481–501. https://doi.org/10.1146/annurev-polisci-050317-070954._
+
+
   In recent years, UBI went from a utopian proposal to a policy with growing
   currency. UBI experiments have been conducted in countries as different as
   Kenya, Finland, Namibia, India, and Canada. In the United States, variants of
@@ -66,11 +71,6 @@ body2: >-
   that it would reduce the paternalistic and intrusive state bureaucracy
   required to decide who, among the poor, merits assistance (Friedman 1962,
   1968).
-
-
-  _(extracted from Bidadanure, Juliana Uhuru. “The Political Theory of Universal
-  Basic Income.” Annual Review of Political Science 22, no. 1 (May 11, 2019):
-  481–501. https://doi.org/10.1146/annurev-polisci-050317-070954.)_
 heading3: Defining Characteristics
 subhead3: >-
   Adapted from Bidadanure, 2019, "The Political Theory of Universal Basic
