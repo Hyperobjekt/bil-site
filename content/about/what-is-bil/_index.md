@@ -28,16 +28,17 @@ body1: >-
   the study and evaluation of basic income experiments.
 heading2: '**The Basic Income Lab (BIL):**'
 p2p1: >-
-  Reviews the vast interdisciplinary research produced on UBI, identifies
-  under-explored research questions, and helps shape future directions in basic
-  income research
+  Convenes scholars, policymakers, practitioners, members of the civil society,
+  think tanks, nonprofits, and foundations around the philosophy, politics and
+  economics of UBI
 p2p2: >-
-  Guides researchers and experimenters who seek to conduct innovative research
-  on UBI and hires scholars to produce new research
+  Provides an academic home for research on UBI: its history, the values that
+  underpin it, its potential impact on social inequalities and poverty, and the
+  economics around the proposal
 p2p3: >-
-  Convenes key stakeholders and members of the community around the politics,
-  philosophy and economics of basic income and informs policymakers and
-  practitioners about best practices in UBI experimentation
+  Gathers information from experimenters on the challenges faced in establishing
+  UBI pilots and develops recommendations and best practices in basic income
+  experimentation
 heading3: Why Basic Income?
 body3: >-
   As automation, growing inequalities, persistent poverty, social precariousness
