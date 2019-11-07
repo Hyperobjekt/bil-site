@@ -8,17 +8,7 @@ herotext: >-
 heading1: Our Mission and Purpose
 body1: >-
   The Stanford Basic Income Lab aspires to be an academic home for the study of
-  universal basic income. It reviews the vast interdisciplinary research
-  produced on UBI, identify under-explored research questions, and help shape
-  future directions in basic income research. The Lab both guides researchers
-  and experimenters who seek to conduct innovative research on UBI and hires
-  scholars to produce new research. BIL also convenes key stakeholders and
-  members of the community around the politics, philosophy and economics of
-  basic income and informs policymakers and practitioners about best practices
-  in UBI experimentation.
-
-
-  The Stanford Basic Income Lab was founded in February 2017 as an initiative of
+  universal basic income. It was founded in February 2017 as an initiative of
   the [Stanford McCoy Family Center for Ethics in
   Society](https://ethicsinsociety.stanford.edu/). Under the leadership of
   Associate Professor Juliana Bidadanure and the support and guidance of Joan
