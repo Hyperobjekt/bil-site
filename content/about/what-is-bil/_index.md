@@ -4,7 +4,7 @@ layout: what-is-bil
 herotext: >-
   The Basic Income Lab reviews the vast interdisciplinary research produced on
   UBI, identify under-explored research questions, and help shape future
-  directions in basic income research.
+  directions in basic income research
 heading1: Our Mission and Purpose
 body1: >-
   The Stanford Basic Income Lab aspires to be an academic home for the study of
