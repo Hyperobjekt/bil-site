@@ -58,28 +58,19 @@
         </div>
     </div>  
 <!-- SPONSORS ---------------------------------------- -->
-
+{{ end }}
 <div id="sponsors">
         <div class="row">
-            <div class="col-md-6 col-lg-5 mx-auto d-flex flex-column align-items-center my-sm-5 my-md-8 my-lg-9 my-xl-11">
-                <h2 class="text-center blacktext mb-2">{{ .heading3 }}</h2>
-                <span class="text-center slatetext">{{ .body3 | markdownify }}</span>
+            <div class="col-md-6 col-lg-6 mx-auto d-flex flex-column align-items-center text-center my-sm-5 my-md-8 my-lg-9 my-xl-11 user-entry">
+                
+                {{ .Content }}
             </div>
         </div>
-        <div class="row mb-4 mb-md-8 mb-lg-9 mb-xl-11 d-flex align-items-center align-items-md-end">
-                <div class="col-0 col-md-1"></div>
-                <div class="col-12 col-md pb-4 px-8 px-md-0 pb-md-0 mr-4 rwjf"><img alt="Robert Wood Johnson Foundation Logo" src="/images/icons/rwjflogo.png" width="100%" /></div>
-                <div class="col-12 col-md pb-4 px-8 px-md-0 pb-md-0 esf"><img alt="Economic Security Foundation Logo" src="/images/icons/esp-logo.png" width="100%" /></div>
-                <div class="col-12 col-md pb-4 px-8 px-md-0 pb-md-0 jfi d-flex justify-content-center"><img alt="Jain Family Institute Logo" src="/images/icons/jain-logo.png" width="50%" height="50%" /></div>
-                <div class="col-12 col-md pb-4 px-8 px-md-0 pb-md-0 mfc"><img alt="McCoy Family Center for Ethics in Society Logo" src="/images/icons/mc-logo.png" width="100%" /></div>
-                <div class="col-0 col-md-1"></div>
-            
-            
-        </div>
+        
        
      
     </div>  
-{{ end }}
+
 {{ partial "subscribe.html" .}}
 
 {{ end }}
