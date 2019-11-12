@@ -339,3 +339,18 @@ collections:
         widget: "markdown"
         buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"]
         required: false      
+
+
+  #COURSES PAGE
+  - label: "Contact Page"
+    name: contact
+    files:
+        - label: Contact Page Content
+          name: contact_page_content
+          file: "content/contact/_index.md"
+          preview_path: contact/
+          extension: "md"
+          fields:
+            - {label: layout, name: layout, widget: hidden, default: "contact"}
+            - {label: Title, name: title, widget: string}
+            - label: "Body", name: "body", widget: "markdown", buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"]} 
