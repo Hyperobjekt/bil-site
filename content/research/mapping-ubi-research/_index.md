@@ -25,10 +25,7 @@ body2: >-
   Currently in development, this interactive network visualization will serve as
   the first-ever online platform for exploring existing research on Basic
   Income.
-heading3: Want to learn more about UBI research?
-body3: >-
-  The Basic Income Lab has created a list of current North American Basic Income pilots. 
 ---
 ## Want to learn more about UBI research?
 
-The Basic Income Lab has created a list of current North American Basic Income pilots. 
+The Basic Income Lab has created a [list of current North American Basic Income pilots](/research/basic-income-experiments/).
