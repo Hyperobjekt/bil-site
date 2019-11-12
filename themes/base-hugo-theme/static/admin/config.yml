@@ -353,4 +353,4 @@ collections:
           fields:
             - {label: layout, name: layout, widget: hidden, default: "contact"}
             - {label: Title, name: title, widget: string}
-            - label: "Body", name: "body", widget: "markdown", buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"]} 
+            - {label: "Body", name: "body", widget: "markdown", buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"]} 
