@@ -349,6 +349,19 @@ html {
      
     } 
   }
+
+  .user-entry {
+    h2 {
+      color: #373737;
+      margin-bottom: 3.2rem;
+      @include media-breakpoint-up(xl) {
+        margin-bottom: 4rem;
+      }
+    }
+    p {
+      color: $med-gray;
+    }
+  }
   
   .type-news .newslist p {
     margin-bottom: 1.6rem;
