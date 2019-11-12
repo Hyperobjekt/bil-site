@@ -146,7 +146,7 @@ collections:
             - {label: Panel 1 Body text, name: body1, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
             - {label: Visualization Panel Heading, name: heading2, widget: string}
             - {label: Visualization Panel Body Text, name: body2, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
-            - {label: Basic Income Pilots Teaser, name: body, widget: markdown, buttons: [h2, bold, italic, link, bulleted-list, numbered-list]}
+            - {label: Basic Income Pilots Teaser, name: body, widget: markdown, buttons: [heading-two, bold, italic, link, bulleted-list, numbered-list]}
         - label: UBI Cities Toolkit
           name: ubi_cities_toolkit_content
           file: "content/research/ubi-cities-toolkit/_index.md"
