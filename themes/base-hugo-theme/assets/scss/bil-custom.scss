@@ -471,6 +471,7 @@ img {
       align-items: center;
         &.active {
           border-bottom: 1px solid;
+          padding-bottom: 1px;
         }  
         @include sofia-reg;
           font-size: 1.4rem;
