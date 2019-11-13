@@ -1,18 +1,18 @@
 {{ define "main" }}
 
-    <div id="hero" class="hero row" style="">
-        <div class="hero-child row">
+    <div id="hero" class="hero row grn-bg" style="">
+        <div class="hero-child row grn-bg">
             <div class="column col-sm-10 offset-sm-1 col-md-8 offset-md-2 col-xl-6 offset-xl-3">
-                <h2 tabindex="0">Dang, things were going so good!</h2>
+                <h2 tabindex="0">We can't find that page!</h2>
             </div>
         </div>
     </div>
 
     <div class="row message m-0">
-        <div class="col-xs-12 col-md-8 offset-md-2 col-xl-8 offset-xl-2 404-column">
-            <h3 tabindex="0">404: Page not found.</h3>
-            <p>Something went wrong just now, and we don't want that to happen again. Be sure to let us know so we can keep you on the right track.</p>
-            <a class="btn btn-custom" href="{{ "/contact/" | relURL }}">CONTACT US</a>
+        <div class="col-xs-12 col-md-8 mx-auto col-xl-8 404-column text-center">
+            <h3 tabindex="0">Sorry about that.</h3>
+            <p>The page you're looking for may be an old link, or it may have moved.</p>
+            <a class="d-flex mx-auto justify-content-center align-items-center btn btn-primary" href="{{ "/" | relURL }}">GO HOME</a>
         </div>
     </div>
 

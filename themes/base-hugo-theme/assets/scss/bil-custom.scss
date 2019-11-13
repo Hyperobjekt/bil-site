@@ -562,8 +562,8 @@ img {
 // 404 page
 body.kind-404 {
   .hero {
-    background: linear-gradient(to bottom, rgba(4, 41, 101, 100%) 5%, rgba(4, 29, 85, 100%) 75%);
-    background-blend-mode: soft-light;
+    //background: linear-gradient(to bottom, rgba(4, 41, 101, 100%) 5%, rgba(4, 29, 85, 100%) 75%);
+    //background-blend-mode: soft-light;
     background-repeat: no-repeat;
     background-position: 0 bottom;
     background-size: 120%;
@@ -586,7 +586,7 @@ body.kind-404 {
       height: 100%;
       margin-right: 0;
       margin-left: 0;
-      background: url('/images/about-plot-2x.png');
+      //background: url('/images/about-plot-2x.png');
       background-repeat: no-repeat;
       background-position: left bottom;
       background-size: 1030px 378px;
