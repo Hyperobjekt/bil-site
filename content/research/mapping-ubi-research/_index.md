@@ -25,4 +25,4 @@ body3: >-
 ---
 ## Want to learn more about UBI research?
 
-The Basic Income Lab has created a list of current North American Basic Income pilots. 
+The Basic Income Lab has created a <a href="/">list of current North American Basic Income pilots</a>. 

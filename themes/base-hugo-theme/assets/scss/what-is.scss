@@ -61,10 +61,16 @@ body.what-is-ubi {
             background-image: url('/images/backgrounds/basic_income_in_cities.png');
             background-size: cover;
             background-repeat: no-repeat;
+            background-position-x: 42%;
             @include media-breakpoint-up(md) {
                 background-position: 50% top;
+                border-right: 2.4rem solid white;
+            }
+            @include media-breakpoint-up(lg) {
+                border-right: 4rem solid white;
             }
         }
+        
     }
     #why-now {
         .sq-img {
@@ -75,6 +81,10 @@ body.what-is-ubi {
             background-position: 60%;
             @include media-breakpoint-up(md) {
                 background-position: 70%;
+                border-left: 2.4rem solid white;
+            }
+            @include media-breakpoint-up(lg) {
+                border-left: 4rem solid white;
             }
         }
     }     

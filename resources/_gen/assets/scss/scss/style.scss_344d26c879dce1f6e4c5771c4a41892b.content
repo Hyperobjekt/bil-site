@@ -17510,6 +17510,14 @@ body, p, tr {
   color: #6d6d6d;
 }
 
+p a {
+  text-decoration: underline;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
+
 .type-news .newslist p {
   margin-bottom: 1.6rem;
 }
@@ -18212,6 +18220,7 @@ img.float-left {
 
 .subnav ul li.active {
   border-bottom: 1px solid;
+  padding-bottom: 1px;
 }
 
 @media (min-width: 768px) {
@@ -18967,11 +18976,19 @@ body.what-is-bil #why-basic .sq-img {
   background-image: url("/images/backgrounds/basic_income_in_cities.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position-x: 42%;
 }
 
 @media (min-width: 768px) {
   body.what-is-bil #why-basic .sq-img {
     background-position: 50% top;
+    border-right: 2.4rem solid white;
+  }
+}
+
+@media (min-width: 992px) {
+  body.what-is-bil #why-basic .sq-img {
+    border-right: 4rem solid white;
   }
 }
 
@@ -18985,6 +19002,13 @@ body.what-is-bil #why-now .sq-img {
 @media (min-width: 768px) {
   body.what-is-bil #why-now .sq-img {
     background-position: 70%;
+    border-left: 2.4rem solid white;
+  }
+}
+
+@media (min-width: 992px) {
+  body.what-is-bil #why-now .sq-img {
+    border-left: 4rem solid white;
   }
 }
 
