@@ -104,3 +104,7 @@ from = "/get-involved/giving"
   to = "/"
   status = 301  
 
+[[redirects]]
+from = "/fellowships/postdoctoral-research-fellow"
+  to = "/fellowships/postdoctoral-fellow"
+  status = 301
