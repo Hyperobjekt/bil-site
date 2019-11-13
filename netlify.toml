@@ -65,7 +65,7 @@ from = "/about/people/jos-luis-sabau"
   status = 301
 
 [[redirects]]
-from = "/about/people/*"
+from = "/about/people/juliana-bidadanure"
   to = "/about/people/"
   status = 301  
 
