@@ -18287,8 +18287,6 @@ img.float-left {
 }
 
 body.kind-404 .hero {
-  background: linear-gradient(to bottom, #042965 5%, #041d55 75%);
-  background-blend-mode: soft-light;
   background-repeat: no-repeat;
   background-position: 0 bottom;
   background-size: 120%;
@@ -18309,7 +18307,6 @@ body.kind-404 .hero .hero-child {
   height: 100%;
   margin-right: 0;
   margin-left: 0;
-  background: url("/images/about-plot-2x.png");
   background-repeat: no-repeat;
   background-position: left bottom;
   background-size: 1030px 378px;
