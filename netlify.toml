@@ -65,6 +65,11 @@ from = "/about/people/jos-luis-sabau"
   status = 301
 
 [[redirects]]
+from = "/about/people/*"
+  to = "/about/people/"
+  status = 301  
+
+[[redirects]]
 from = "/about/people/former-graduate-fellows"
   to = "/about/people/"
   status = 301  
