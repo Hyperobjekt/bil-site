@@ -1,6 +1,6 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Stanford Basic Income Lab"
+title = "The Stanford Basic Income Lab"
 theme = "base-hugo-theme"
 googleAnalytics = ""
 paginate = 5
