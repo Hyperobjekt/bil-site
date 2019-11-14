@@ -353,3 +353,17 @@ collections:
             - {label: layout, name: layout, widget: hidden, default: "contact"}
             - {label: Title, name: title, widget: string}
             - {label: "Body", name: "body", widget: "markdown", buttons: ["bold", "italic", "link", "bulleted-list", "numbered-list"]} 
+
+  - label: Social Media Metadata
+    name: social-media
+    files: 
+      - label: Social media image and description
+        file: "data/social.yaml"
+        preview_path: /
+        extension: "yaml"
+        create: false
+        name: socialitems
+        fields:
+          - {label: "Social media description", name: "social_description", widget: string}
+          - {label: Social media image, name: social_image, widget: image, hint: 'Optimum resolution is 1200x675 pixels'}
+          
