@@ -3,14 +3,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Fetch description for metadata -->
-  {{ if .Page.Params.herotext }}
+  {{ if .Page.Params.social_description }}
+    {{ $.Scratch.Set "socialDescription" .Page.Params.social_description }}
+  {{ else if .Page.Params.herotext }}
     {{ $.Scratch.Set "socialDescription" .Page.Params.herotext }}
   {{ else }}
     {{ $.Scratch.Set "socialDescription" .Site.Data.social.social_description }}
   {{ end }}
 
   <!-- Fetch an image for metadata -->
-  {{ if .Page.Params.image }}
+  {{ if .Page.Params.social_image }}
     <!-- First try for page image -->
     {{ $img := strings.TrimPrefix "/uploads/" .Page.Params.image }}
     {{ with $.Site.GetPage "page" "uploads/_index.md" }}
