@@ -1,6 +1,6 @@
 {{ if ne .Site.Params.hideFooter true }}
 <footer id="footer" class="p-xl-0 m-xl-0">
-    <div id="footer-logo" class="col mx-auto my-5 my-md-4"></div>
+    <div id="footer-logo" class="col mx-auto my-5 my-md-5"></div>
   <!-- <div class="container-fluid p-xl-0 m-xl-0"> -->
     {{ .Site.Params.footerText | markdownify }}
     <!-- <div class="row p-xl-0 m-xl-0"> -->
@@ -14,6 +14,11 @@
                 
             {{ end }}
             <a class="coldblcktext mb-3 mb-md-0" tabindex="0" href="/contact">Contact Us</a>
+        </div>
+        <div class="siteby col-12 text-center mb-5">
+            Site by <a class="" tabindex="0" href="https://www.hyperobjekt.com">
+                Hyperobjekt
+            </a>
         </div>
         
   </div>
