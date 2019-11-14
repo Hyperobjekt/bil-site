@@ -3,8 +3,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Fetch description for metadata -->
-  {{ if .Page.Params.description }}
-    {{ $.Scratch.Set "socialDescription" .Page.Params.description }}
+  {{ if .Page.Params.herotext }}
+    {{ $.Scratch.Set "socialDescription" .Page.Params.herotext }}
   {{ else }}
     {{ $.Scratch.Set "socialDescription" .Site.Data.social.social_description }}
   {{ end }}

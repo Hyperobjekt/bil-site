@@ -18579,7 +18579,7 @@ body.home nav.navbar-light.sticky-top ul a:hover {
 }
 
 body.home .hero {
-  background-image: url("/images/heroes/bil-home-edit.jpg");
+  background-image: url("/images/heroes/bil-home-edit2.jpg");
   background-color: #000;
   height: 304px;
   background-size: 102%;
