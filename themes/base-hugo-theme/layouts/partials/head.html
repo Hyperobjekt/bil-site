@@ -3,8 +3,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Fetch description for metadata -->
-  {{ if .Page.Params.description }}
-    {{ $.Scratch.Set "socialDescription" .Page.Params.description }}
+  {{ if .Page.Params.herotext }}
+    {{ $.Scratch.Set "socialDescription" .Page.Params.herotext }}
   {{ else }}
     {{ $.Scratch.Set "socialDescription" .Site.Data.social.social_description }}
   {{ end }}
@@ -34,9 +34,9 @@
   <meta property="og:type" content="website" />
   <meta property="og:title" content="The Stanford Basic Income Lab | {{ .Title }}" />
   <meta property="og:description" content="{{ $.Scratch.Get "socialDescription" }}" />
-  <meta property="og:url" content="{{ "/" | absURL }}" />
+  <meta property="og:url" content="https://basicincome.stanford.edu/" />
   <meta property="og:site_name" content="{{ .Site.Title }}" />
-  <meta property="og:image" content="{{ $.Scratch.Get "socialImage" }}" />
+  <meta property="og:image" content="https://basicincome.stanford.edu/{{ $.Scratch.Get "socialImage" }}" />
   <meta property="og:image:secure_url" content="https://basicincome.stanford.edu{{ $.Scratch.Get "socialImage" }}" />
   <!-- Twitter metadata -->
   <meta name="twitter:card" content="summary_large_image" />
