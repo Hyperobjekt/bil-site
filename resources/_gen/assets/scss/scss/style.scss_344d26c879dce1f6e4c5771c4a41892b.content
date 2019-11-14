@@ -19496,7 +19496,7 @@ body.people .row.funder-logos .p-2.rsf {
   font-size: 1.3rem;
   line-height: 2.0rem;
   letter-spacing: 0;
-  color: #979797;
+  color: #6d6d6d;
   margin-bottom: 3.2rem;
 }
 
