@@ -735,6 +735,16 @@ body.kind-404 {
     text-decoration: none;
     // text-transform: uppercase;
   }
+  .siteby {
+    color: #979797;
+    font-size: 1.35rem;
+    a {
+      color: #979797;
+      &:hover {
+        color: $button-bronze;
+      }
+    }
+  }
  
 }
 

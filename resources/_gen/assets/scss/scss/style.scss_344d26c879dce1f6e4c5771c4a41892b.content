@@ -18484,6 +18484,19 @@ body.kind-404 p {
   text-decoration: none;
 }
 
+#footer .siteby {
+  color: #979797;
+  font-size: 1.35rem;
+}
+
+#footer .siteby a {
+  color: #979797;
+}
+
+#footer .siteby a:hover {
+  color: #B26F16;
+}
+
 footer #footer-logo {
   height: 4.2rem;
   width: 4.1rem;
