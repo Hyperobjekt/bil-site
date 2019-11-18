@@ -1,11 +1,10 @@
 ---
-date: 2017-09-13
-timeRange: All day
 is_index: false
-title: 'Cities and Universal Basic Income'
 type: events
-location: 
-admission: Closed to Public 
+title: Cities and Universal Basic Income
+date: 2017-09-12T00:00:00.000Z
+timeRange: All day
+admission: Closed to Public
 image: /uploads/city.jpeg
 ---
 
