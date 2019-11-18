@@ -1,15 +1,9 @@
 ---
 layout: ubi-cities-toolkit
-<<<<<<< Updated upstream
-title: "UBI Cities Toolkit"
-herotext: Research Conducted by the Stanford Basic Income Lab
-heading1: Basic Income Toolkit
-=======
 title: UBI Cities Toolkit
 herotext: 'A toolkit to guide basic income experiments and pilot projects in cities '
 toolkitlink: /uploads/BasicIncomeInCities_Report.pdf
 heading1: Basic Income In Cities Toolkit
->>>>>>> Stashed changes
 body1: >-
   Launched in early November 2018 at the National League of Cities annual meeting, the toolkit, Basic Income In Cities: A Guide to City Experiments and Pilot Projects, highlights emerging practices and shares insights on the process of designing UBI experiments in ways that are ethical, rigorous, informative and consequential for local and national policymaking.
 
