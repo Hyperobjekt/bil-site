@@ -328,7 +328,7 @@ collections:
       - {label: "Is Index", name: "is_index", widget: "hidden", default: false}
       - {label: Type, name: type, widget: hidden, default: events}
       - {label: Title, name: title, widget: string}
-      - {label: Date, name: date, widget: date}
+      - {label: Date, name: date, widget: datetime}
       - {label: Time Range, name: timeRange, widget: string, required: false}
       - {label: Location, name: location, widget: string, required: false}
       - {label: Admission, name: admission, widget: string, required: false}
