@@ -138,17 +138,19 @@ personnel:
     shorttitle: 'Undergraduate Fellow '
     thumb: /uploads/danielle-mitalipov.jpg
     title: 'Stanford University, Class of 2020'
-  - blurb: >
+  - blurb: >-
       Joan O’Bryan is a PhD student in the Department of Political Science.
       Before coming to Stanford, she taught middle school for three years, then
       attended the University of Cambridge, receiving her MPhil in Public
       Policy. These experiences sparked her interest in the connection between
       academic debates and real-world policy practice, and her research at the
-      Basic Income Lab focuses on this intersection. <br><br>As a graduate
-      research fellow for the Lab, Joan is taking part in the Lab’s research
-      visualization project and will be reviewing the UBI literature on topics
-      relating to wellbeing and alternatives to basic income (EITC, Job
-      Guarantee, Targeted Benefits, and Workfare, among others). 
+      Basic Income Lab focuses on this intersection. 
+
+
+      As a graduate research fellow for the Lab, Joan is taking part in the
+      Lab’s research visualization project and is reviewing the UBI literature
+      on topics relating to Democracy, Civic Participation, Democratization, and
+      Good Governance.
     current: true
     image: /uploads/jobryan.jpg
     name: Joan O’Bryan
@@ -176,15 +178,17 @@ personnel:
     shorttitle: Graduate Fellow
     thumb: /uploads/ppanchakunathorn-sm.jpg
     title: 'PhD Candidate, Philosophy'
-  - blurb: >
+  - blurb: >-
       Lara Spencer is a third year PhD student in the Philosophy Department.
       While most of her research is centered on the philosophy of science, she
       has become increasingly interested in the interface of philosophy and
       policy. To this end, her research on UBI lies at the intersection of basic
-      income and women’s health.<br><br>As a graduate research fellow for the
-      Lab, Lara is taking part in the Lab’s research visualization project and
-      will be reviewing the UBI literature on topics relating to community and
-      democracy. 
+      income and women’s health.
+
+
+      As a graduate research fellow for the Lab, Lara is taking part in the
+      Lab’s research visualization project and will be reviewing the UBI
+      literature on topics relating wellbeing and community.
     current: true
     image: /uploads/lspencer.jpg
     name: Lara Spencer
