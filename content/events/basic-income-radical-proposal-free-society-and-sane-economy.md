@@ -1,5 +1,5 @@
 ---
-date: 2017-04-12
+date: 2017-04-12T12:00:00.000Z
 timeRange: 5:30pm
 is_index: false
 title: 'Basic Income: A Radical Proposal for a Free Society and a Sane Economy'

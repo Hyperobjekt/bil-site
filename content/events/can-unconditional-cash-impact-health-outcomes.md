@@ -1,5 +1,5 @@
 ---
-date: 2019-05-21
+date: 2019-05-21T12:00:00.000Z
 timeRange: 7:00 pm to 8:30 pm
 is_index: false
 title: Can Unconditional Cash Impact Health Outcomes?

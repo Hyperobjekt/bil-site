@@ -1,5 +1,5 @@
 ---
-date: 2017-09-13
+date: 2017-09-13T12:00:00.000Z
 timeRange: All day
 is_index: false
 title: 'Cities and Universal Basic Income'

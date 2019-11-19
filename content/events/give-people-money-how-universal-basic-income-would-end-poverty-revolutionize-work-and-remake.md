@@ -1,5 +1,5 @@
 ---
-date: 2018-11-29
+date: 2018-11-29T12:00:00.000Z
 timeRange: 5:30 pm
 title: 'Give People Money: How a Universal Basic Income Would End Poverty, Revolutionize Work, and Remake the World'
 type: events
