@@ -1,5 +1,5 @@
 ---
-date: 2016-11-29
+date: 2016-11-29T12:00:00.000Z
 timeRange: 
 title: 'The Future of Jobs and the Question of Basic Income'
 type: 

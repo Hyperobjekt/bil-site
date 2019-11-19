@@ -1,5 +1,5 @@
 ---
-date: 2017-10-18
+date: 2017-10-18T12:00:00.000Z
 timeRange: 5:30 pm
 is_index: false
 title: 'What Can Universal Basic Income Do For Gender Equality?'

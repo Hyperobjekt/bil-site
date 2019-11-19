@@ -1,5 +1,5 @@
 ---
-date: 2019-01-10
+date: 2019-01-10T17:00:00.000Z
 timeRange: 5:30 pm
 is_index: false
 title: 'Basic Income Illusions: Lucas Stanczyk and Debra Satz'

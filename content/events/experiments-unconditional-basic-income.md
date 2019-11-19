@@ -1,5 +1,5 @@
 ---
-date: 2017-02-08
+date: 2017-02-08T12:00:00.000Z
 timeRange: 5:30pm
 is_index: false
 title: 'Experiments in Unconditional Basic Income'
