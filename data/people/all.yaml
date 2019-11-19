@@ -178,15 +178,17 @@ personnel:
     shorttitle: Graduate Fellow
     thumb: /uploads/ppanchakunathorn-sm.jpg
     title: 'PhD Candidate, Philosophy'
-  - blurb: >
+  - blurb: >-
       Lara Spencer is a third year PhD student in the Philosophy Department.
       While most of her research is centered on the philosophy of science, she
       has become increasingly interested in the interface of philosophy and
       policy. To this end, her research on UBI lies at the intersection of basic
-      income and women’s health.<br><br>As a graduate research fellow for the
-      Lab, Lara is taking part in the Lab’s research visualization project and
-      will be reviewing the UBI literature on topics relating to community and
-      democracy. 
+      income and women’s health.
+
+
+      As a graduate research fellow for the Lab, Lara is taking part in the
+      Lab’s research visualization project and will be reviewing the UBI
+      literature on topics relating wellbeing and community.
     current: true
     image: /uploads/lspencer.jpg
     name: Lara Spencer
