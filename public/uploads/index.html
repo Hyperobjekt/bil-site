@@ -45,7 +45,7 @@
     
     
     
-    <link rel="stylesheet" href="/style.min.60ff6d53781478c40aa2fb7cd9e5992986239ba9d068eff4675005f2790b4cb6.css">
+    <link rel="stylesheet" href="/style.min.2341abee74ae0fdeeac919c26c7fa23b9da0f17a1ad6c93e6c64403ae08f16ea.css">
   
   <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
@@ -84,6 +84,7 @@
 
     gtag('config', 'UA-152533437-1');
   </script>
+  
 </head>
 
   <body class="h-100  kind-section   type-uploads  images scroll-top not-home">
@@ -220,22 +221,39 @@
 
 
 
-<div class="row subscribe m-0 pt-5 pb-6 py-lg-7 bronze-bg d-flex justify-content-center no-gutter ">
+<div class="row subscribe m-0 pt-5 pb-6 py-lg-7 bronze-bg d-flex justify-content-center no-gutter">
     <div class="col-sm-10 col-mm-8 col-lg-3 mb-sm-2 mb-lg-0">
             <div id="subscribePrompt" class="coldblcktext text-center text-lg-left">Sign up for our newsletter</div>
     </div>         
     
-    <div class="col-md-8 col-lg-5">  
+    <div class="col-md-8 col-lg-5 ctct-form-container ctct-form-embed form_0">  
+            <div id="success_message_0" class="ctct-form-success" style="display:none;" data-qe-id="success-message">
+                    <h2 class="ctct-form-header">Thanks for signing up!</h2>
+                    <p class="ctct-form-text">You can unsubscribe at any time using the Unsubscribe link at the bottom of every email.</p>
+                </div>
         <form action="https://visitor2.constantcontact.com/api/signup" class="ctct-custom-form Form" data-id="embedded_signup:form" method="POST" name="embedded_signup">
-            <div class="input-group d-sm-flex flex-sm-column align-items-sm-center flex-md-row"><input data-id="ca:input" name="ca" type="hidden" value="4ed48b62-9ea2-49cc-acbd-b8b2a742c869"> <input data-id="list:input" name="list" type="hidden" value="1830478913"> <input data-id="source:input" name="source" type="hidden" value="EFD"> <input data-id="required:input" name="required" type="hidden" value="list,email"><input data-id="url:input" type="hidden" name="url" value="/about/what-is-bil/"><input type="text" class="form-control" placeholder="Email address" aria-label="Enter email address" aria-describedby="subscribePrompt" tabindex="0" data-id="Email Address:input" maxlength="80" name="email" type="text" value="">
+            <div class="input-group d-sm-flex flex-sm-column align-items-sm-center flex-md-row">
+                <input data-id="ca:input" name="ca" type="hidden" value="4ed48b62-9ea2-49cc-acbd-b8b2a742c869"> 
+                <input data-id="list:input" name="list" type="hidden" value="1830478913"> 
+                <input data-id="source:input" name="source" type="hidden" value="EFD"> 
+                <input data-id="required:input" name="required" type="hidden" value="list,email">
+                <input data-id="url:input" type="hidden" name="url" value="https://basicincome.stanford.edu/success/">
+                <div class="ctct-form-errorMessage" data-qe-id="form-error-email" style="display: none;"></div>
+                <input type="text" class="form-control" placeholder="Email address" aria-label="Enter email address" aria-describedby="subscribePrompt" tabindex="0" data-id="Email Address:input" maxlength="80" name="email" type="text" value="">
                     
-                <div class="input-group-append">
+                    <div id="error_message_0" class="ctct-form-error" style="display:none;">
+                            <p class="ctct-form-errorMessage">Sorry, we could not complete your sign-up. Please contact us to resolve this.</p>
+                        </div>
+                    <div class="input-group-append">
                     <button data-enabled="enabled" type="submit" class="btn btn-primary mt-3 mt-md-0" type="button" tabindex="0">Subscribe</button>
                 </div>
             </div>
         </form>
     </div>
 </div> 
+</div>
+
+
 
 
 
