@@ -1,27 +1,16 @@
 newsItem:
-  - align: right
-    articleLink: >-
-      https://www.nlc.org/article/national-league-of-cities-and-stanford-basic-income-lab-release-first-ever-guide-for
-    date: 2018-11-08T05:01:00.000Z
-    excerpt: >-
-      The National League of Cities (NLC) and the Stanford Basic Income Lab
-      (BIL) released the first-ever definitive guide for piloting universal
-      basic income (UBI) in cities. The toolkit, entitled “Basic Income in
-      Cities,” is meant to serve as a guide to cities considering piloting UBI,
-      highlighting the ...
-    image: /uploads/nlc_bilpr.png
-    outlet: National League of Cities
-    title: UBI Cities Toolkit Launch
   - align: center
-    articleLink: 'https://news.stanford.edu/2018/12/10/lab-explores-universal-basic-income/'
-    date: 2018-12-10T05:01:00.000Z
+    articleLink: >-
+      https://www.abc.net.au/radionational/programs/this-working-life/is-this-the-end-of-work-as-we-know-it/11750780
+    date: 2019-12-06T21:58:40.524Z
     excerpt: >-
-      Stanford philosopher Juliana Bidadanure is leading an initiative focused
-      on fostering discussions about universal basic income and analyzing
-      previous and ongoing unconditional cash experiments across the world.
-    image: /uploads/basicincome_getty_1_0.jpg
-    outlet: Stanford News
-    title: Stanford Lab Explores Universal Basic Income
+      The year is 2050- the world's population is nearing the 10 billion mark,
+      artificial intelligence is integral to many of the jobs we do, and robots
+      and technological "personal assistants" are the new norm in the
+      workforce.  So will there be enough paid work to go around?
+    image: /uploads/work-as-we-know-it.jpg
+    outlet: 'Australian Broadcasting Company (ABC): This Working Life Podcast'
+    title: Is This the End of Work as We Know it?
   - align: right
     articleLink: >-
       https://www.paloaltoonline.com/news/2019/05/17/with-artificial-intelligence-looming-debate-over-basic-income-heats-up
@@ -35,19 +24,25 @@ newsItem:
     outlet: Palo Alto Daily
     title: 'With artificial intelligence looming, debate over ''basic income'' heats up'
   - align: center
-    articleLink: >-
-      https://www.abc.net.au/radionational/programs/this-working-life/is-this-the-end-of-work-as-we-know-it/11750780
-    date: 2019-12-06T21:58:40.524Z
+    articleLink: 'https://news.stanford.edu/2018/12/10/lab-explores-universal-basic-income/'
+    date: 2018-12-10T05:01:00.000Z
     excerpt: >-
-      The year is 2050- the world's population is nearing the 10 billion mark,
-      artificial intelligence is integral to many of the jobs we do, and robots
-      and technological "personal assistants" are the new norm in the
-      workforce.  So will there be enough paid work to go around?  Martin Ford
-      is a US based futurist who has written a number of books including "The
-      Rise of the Robots-technology and the threat of a jobless future". He says
-      one answer to an impending jobs shortage is a universal basic income for
-      all.  And Juliana Bidadanure is faculty director of Stanford University's
-      Basic Income Lab where these ideas are being researched and explored.
-    image: /uploads/work-as-we-know-it.jpg
-    outlet: 'Australian Broadcasting Company (ABC): This Working Life Podcast'
-    title: Is This the End of Work as We Know it?
+      Stanford philosopher Juliana Bidadanure is leading an initiative focused
+      on fostering discussions about universal basic income and analyzing
+      previous and ongoing unconditional cash experiments across the world.
+    image: /uploads/basicincome_getty_1_0.jpg
+    outlet: Stanford News
+    title: Stanford Lab Explores Universal Basic Income
+  - align: right
+    articleLink: >-
+      https://www.nlc.org/article/national-league-of-cities-and-stanford-basic-income-lab-release-first-ever-guide-for
+    date: 2018-11-08T05:01:00.000Z
+    excerpt: >-
+      The National League of Cities (NLC) and the Stanford Basic Income Lab
+      (BIL) released the first-ever definitive guide for piloting universal
+      basic income (UBI) in cities. The toolkit, entitled “Basic Income in
+      Cities,” is meant to serve as a guide to cities considering piloting UBI,
+      highlighting the ...
+    image: /uploads/nlc_bilpr.png
+    outlet: National League of Cities
+    title: UBI Cities Toolkit Launch
