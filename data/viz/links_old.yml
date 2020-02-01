@@ -41,13 +41,11 @@
 - source: root
   target: democracy
 - source: democracy
-  target: civic-participation
+  target: political-participation-and-influence
 - source: democracy
-  target: democratization
+  target: citizenship-and-civic-culture
 - source: democracy
-  target: democratic-justifications-for-ubi
-- source: democracy
-  target: good-governance  
+  target: political-legitimacy
 # Childhood  
 - source: root
   target: childhood
@@ -149,43 +147,55 @@
 - source: root
   target: economic-effects
 - source: economic-effects
-  target: inflation
+  target: problem-of-free-riding
+- source: economic-effects
+  target: relationship-between-ubi-and-inflation
+- source: economic-effects
+  target: labor-supply-and-demand
+- source: economic-effects
+  target: average-earnings-from-labor
+- source: economic-effects
+  target: entrepreneurship-education-and-training
+- source: economic-effects
+  target: individual-and-aggregate-social-productivity
 - source: economic-effects
   target: consumption
-- source: economic-effects
-  target: migration
-- source: economic-effects
-  target: labor-market
-- source: economic-effects
-  target: savings
 # Health  
 - source: root
   target: health
 - source: health
   target: mental-health
 - source: health
-  target: physical-health
+  target: dental-health
 - source: health
-  target: access-to-health-services
+  target: childhood-health
+- source: health
+  target: physical-health
 # Work  
 - source: root
   target: work
 - source: work
-  target: job-precariousness
+  target: job-precariousness-and-insecurity
 - source: work
-  target: collective-bargaining
+  target: employees-bargaining-power
 - source: work
   target: informal-labor-care-giving-and-community-work
 - source: work
-  target: unemployment
+  target: solution-to-unemployment
 - source: work
-  target: work-beyond-jobs
+  target: jobs-as-determining-human-value-and-worth
 # Race  
 - source: root
   target: race
 - source: race
-  target: racialized-welfare-stereotypes
+  target: undermining-pervasive-racial-tropes
 - source: race
-  target: racial-economic-inequality
+  target: racial-wealth-gap
 - source: race
-  target: guaranteed-income-in-african-american-history
+  target: mass-incarceration-and-recidivism
+- source: race
+  target: race-based-workplace-discrimination
+- source: race
+  target: reparations
+- source: race
+  target: guaranteed-income-in-afro-american-history

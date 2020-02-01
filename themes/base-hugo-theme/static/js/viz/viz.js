@@ -88,7 +88,7 @@ const topicLabel = {
     textStyle: {
       color: '#000',
       // fontWeight: '600',
-      fontFamily: 'SofiaPro-Bold',
+      fontFamily: 'SofiaPro-Regular',
       fontSize: 18,
       lineHeight: 43.2
     },
