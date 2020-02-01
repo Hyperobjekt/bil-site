@@ -140,11 +140,7 @@
 - source: automation
   target: inequality-and-wealth-concentration
 - source: automation
-  target: post-work-or-freedom-from-work
-- source: automation
-  target: consumption-and-the-threat-to-the-capitalist-economy
-- source: automation
-  target: displacement-of-workers
+  target: post-work-or-freedom-from-work 
 # Economic effects  
 - source: root
   target: economic-effects

@@ -3,8 +3,8 @@
   display: 1
   parent: gender
   title: The Household
-  xAxis: -360
-  yAxis: -400
+  xAxis: -500
+  yAxis: -300
   summary: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
@@ -30,8 +30,8 @@
   display: 1
   parent: gender
   title: Care Work
-  xAxis: -460
-  yAxis: -370
+  xAxis: -500
+  yAxis: -380
   summary: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
@@ -57,8 +57,8 @@
   display: 1
   parent: gender
   title: Women in the labor market
-  xAxis: -510
-  yAxis: -300
+  xAxis: -460
+  yAxis: -460
   summary: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
@@ -84,8 +84,8 @@
   parent: gender
   display: 1
   title: Gendered Welfare
-  xAxis: -440
-  yAxis: -220
+  xAxis: -340
+  yAxis: -560
   summary: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
@@ -113,8 +113,8 @@
   id: civic-participation
   display: 1
   title: Civic Participation
-  xAxis: 120
-  yAxis: -580
+  xAxis: -80
+  yAxis: -520
   summary: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
@@ -140,7 +140,7 @@
   id: democratization
   display: 1
   title: Democratization
-  xAxis: -110
+  xAxis: -10
   yAxis: -580
   summary: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
@@ -167,8 +167,8 @@
   id: democratic-justifications-for-ubi
   display: 1
   title: Democratic Justifications for UBI
-  xAxis: -160
-  yAxis: -500
+  xAxis: 120
+  yAxis: -660
   summary: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
@@ -195,8 +195,8 @@
   id: good-governance
   display: 1
   title: Good Governance
-  xAxis: 0
-  yAxis: -640
+  xAxis: 240
+  yAxis: -620
   summary: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
@@ -221,6 +221,88 @@
 
 
 # Automation
+
+- parent: automation
+  id: job-loss-and-technological-unemployment
+  display: 1
+  title: Job loss and technological unemployment
+  xAxis: -360
+  yAxis: 450
+  summary: >
+    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
+
+    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
+  claims: >
+    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
+
+    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
+  relatedTopics:
+    - family
+    - welfare
+  readMore: >
+    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
+
+    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
+
+    Molestiae sit et qui tenetur. Omnis voluptas dolores explicabo. In fugiat mollitia nihil reiciendis eaque dolor. Dolor ex exercitationem commodi voluptate labore deleniti maiores.
+
+    Totam eveniet vel quia. Quia numquam aut inventore sit qui numquam. Illo et molestiae rerum voluptate qui sunt dolores sed. Voluptas inventore modi natus inventore est. Pariatur rerum qui impedit et.
+
+    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
+- parent: automation
+  id: inequality-and-wealth-concentration
+  display: 1
+  title: Inequality and wealth concentration
+  xAxis: -480
+  yAxis: 410
+  summary: >
+    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
+
+    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
+  claims: >
+    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
+
+    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
+  relatedTopics:
+    - family
+    - welfare
+  readMore: >
+    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
+
+    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
+
+    Molestiae sit et qui tenetur. Omnis voluptas dolores explicabo. In fugiat mollitia nihil reiciendis eaque dolor. Dolor ex exercitationem commodi voluptate labore deleniti maiores.
+
+    Totam eveniet vel quia. Quia numquam aut inventore sit qui numquam. Illo et molestiae rerum voluptate qui sunt dolores sed. Voluptas inventore modi natus inventore est. Pariatur rerum qui impedit et.
+
+    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
+- parent: automation
+  id: post-work-or-freedom-from-work
+  display: 1
+  title: Post work or freedom from work
+  xAxis: -580
+  yAxis: 300
+  summary: >
+    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
+
+    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
+  claims: >
+    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
+
+    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
+  relatedTopics:
+    - family
+    - welfare
+  readMore: >
+    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
+
+    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
+
+    Molestiae sit et qui tenetur. Omnis voluptas dolores explicabo. In fugiat mollitia nihil reiciendis eaque dolor. Dolor ex exercitationem commodi voluptate labore deleniti maiores.
+
+    Totam eveniet vel quia. Quia numquam aut inventore sit qui numquam. Illo et molestiae rerum voluptate qui sunt dolores sed. Voluptas inventore modi natus inventore est. Pariatur rerum qui impedit et.
+
+    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
 
 # Economic Effects
 - parent: economic-effects
@@ -281,8 +363,8 @@
   id: migration
   display: 1
   title: Migration
-  xAxis: 540
-  yAxis: -450
+  xAxis: 600
+  yAxis: -500
   summary: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
@@ -308,7 +390,7 @@
   id: labor-market
   display: 1
   title: Labor Market
-  xAxis: 630
+  xAxis: 560
   yAxis: -420
   summary: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
@@ -364,8 +446,8 @@
   id: mental-health
   display: 1
   title: Mental health
-  xAxis: -750
-  yAxis: 310
+  xAxis: -800
+  yAxis: 60
   summary: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
@@ -391,8 +473,8 @@
   id: access-to-health-services
   display: 1
   title: Access to Health Services
-  xAxis: -770
-  yAxis: 270
+  xAxis: -940
+  yAxis: -80
   summary: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
@@ -418,8 +500,8 @@
   id: physical-health
   display: 1
   title: Physical health
-  xAxis: -740
-  yAxis: 180
+  xAxis: -920
+  yAxis: -280
   summary: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
@@ -447,8 +529,8 @@
   id: job-precariousness
   display: 1
   title: Job Precariousness
-  xAxis: 700
-  yAxis: 360
+  xAxis: 600
+  yAxis: 500
   summary: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
@@ -474,7 +556,7 @@
   id: collective-bargaining
   display: 1
   title: Collective Bargaining 
-  xAxis: 580
+  xAxis: 420
   yAxis: 460
   summary: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
@@ -501,8 +583,8 @@
   id: work-beyond-jobs
   display: 1
   title: Work Beyond Jobs
-  xAxis: 400
-  yAxis: 380
+  xAxis: 280
+  yAxis: 520
   summary: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
@@ -528,8 +610,8 @@
   id: unemployment
   display: 1
   title: Unemployment
-  xAxis: 280
-  yAxis: 340
+  xAxis: 240
+  yAxis: 380
   summary: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
