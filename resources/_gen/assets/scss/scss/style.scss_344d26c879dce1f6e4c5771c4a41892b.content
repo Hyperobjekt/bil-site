@@ -19610,6 +19610,12 @@ nav.navbar.sticky-top {
   z-index: 3000;
 }
 
+.viz-parent {
+  box-shadow: inset 0px -1px 7px 0px rgba(0, 0, 0, 0.1);
+  background-color: #f7f7f7;
+  height: 76vh;
+}
+
 .viz-parent .viz-space {
   z-index: 2998;
 }
