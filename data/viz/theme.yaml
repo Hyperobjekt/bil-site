@@ -19,11 +19,13 @@
 
 # V2
 
-- '#00505C'
-- '#DB8311'
-- '#AF690C'
-- '#F5CF9E'
-- '#36BFD4'
-- '#CFF9FF'
-- '#737579'
-- '#E8E7E7'
+- '#00505C' # Center (UBI)
+- '#DB8311' # Top (Democracy)
+- '#AF690C' # Top left (Gender)
+- '#F5CF9E' # Left (Health)
+- '#36BFD4' # Bottom left (Automation)
+# - '#CFF9FF' # Bottom right (Work)
+- '#b9f2fa' # Bottom right (Work) - darker
+- '#737579' # Right (Race)
+# - '#E8E7E7' # Top right (Economic Effects)
+- '#d9d7d7' # Top right (Economic Effects) - darker
