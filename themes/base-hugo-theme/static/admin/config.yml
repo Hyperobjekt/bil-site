@@ -247,7 +247,11 @@ collections:
       - {label: Excerpt, name: excerpt, required: false, hint: Short introduction to story—roughly 280 characters or less, widget: string}
       - {label: Image, name: image, required: false, widget: image}
       - {label: Image alignment, name: align, required: false, hint: The alignment of the image within the square box, widget: select, options: ["left", "center", "right"], default: ["center"]}
-      - {label: Aliases, name: aliases, widget: hidden}     
+      - {label: Aliases, name: aliases, widget: hidden} 
+      - label: "Body Text"
+        name: "body"
+        widget: "markdown"
+   
   - label: Newsletters
     name: newsletters
     files:
