@@ -9,7 +9,7 @@ excerpt: "Without a doubt, COVID-19 has sent unanticipated health, economic, and
   engaged in basic income experiments are thinking critically about how this
   shock is likely to change the way they engage with beneficiaries and the
   broader community and possibly impact current and future research. "
-image: /uploads/bil-logo-standalone2x.png
+image: /uploads/interview-group.png
 align: center
 ---
 **What Does the COVID-19 Pandemic Mean for Basic Income Experiments?**
