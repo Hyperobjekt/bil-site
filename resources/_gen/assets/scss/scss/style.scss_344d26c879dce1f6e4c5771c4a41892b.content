@@ -17495,6 +17495,10 @@ body, p, tr {
   }
 }
 
+.type-labupdates b, .type-labupdates strong {
+  color: #464646;
+}
+
 .user-entry h2 {
   color: #373737;
   margin-bottom: 3.2rem;
