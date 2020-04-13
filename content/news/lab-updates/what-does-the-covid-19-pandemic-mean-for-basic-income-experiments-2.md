@@ -45,7 +45,7 @@ The Stanford Basic Income Lab, an initiative of the McCoy Family Center for Ethi
 
 “It is also really essential that we ask questions right now about how something like guaranteed income can affect people in times of crisis. It was always our intent to do follow up interviews with the women who were in the initial lottery but did not receive the funds. I think it will be important comparative data to look at how having these funds during this time changed outcomes for families in terms of economic security, mental health/stress, and whole family outcomes (Were families able to handle distance learning more effectively? Were kids more prepared to matriculate to the next grade in the fall? etc.). Also, with the additional stimulus checks and conversations at a federal level around cash, we think the research we’re doing right now has an opportunity to be heard at a policy level that might not have been possible before.”
 
-\-*Sarah Stripp, Program Manager, [](http://www.springboardto.org/)[Springboard To Opportunities](http://www.springboardto.org/)*
+\-*Sarah Stripp, Program Manager,[Springboard To Opportunities](http://www.springboardto.org/)*
 
 “In Brazil, the city we are researching decided to launch a huge cash support package using the same disbursement mechanism they were using for the basic income. That means the net transfers increased enormously. Given the changes in context, whatever statistical analysis we do will now capture the impact of generous cash assistance during a world-historic plague and economic meltdown. In other words, we are no longer studying what we set out to study, and it may be difficult to generalize findings.”
 
@@ -65,7 +65,7 @@ The Stanford Basic Income Lab, an initiative of the McCoy Family Center for Ethi
 
 “We always anticipated at least some of their check-ins with participants to be via phone anyway, so we don’t anticipate our ability to gather data to be impeded too much. And despite the difficulties that our current situation has presented, we honestly don’t think the timing could’ve been any better. We were able to hand 80 women checks for $1,000 literally just days before things began shutting down and people began losing their jobs and hours. So, for that we are grateful.”
 
-\-*Sarah Stripp, Program Manager,[](http://www.springboardto.org/) [Springboard To Opportunities](http://www.springboardto.org/)*
+\-*Sarah Stripp, Program Manager,[Springboard To Opportunities](http://www.springboardto.org/)*
 
 **Any final thoughts related to this topic?**
 
