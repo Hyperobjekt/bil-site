@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 <div class="row d-flex subnav">
-        <div class="col-12 p-0 ml-0 ml-md-5">
+        <div class="col-12 col-xl-10 p-0 ml-0 ml-md-5 offset-xl-1 mx-xl-auto pl-xl-3">
             <ul class="d-flex flex-wrap justify-content-start align-items-center pl-4 pl-md-0">
             
                 <li class=""><a href="/">Home</a> &nbsp;-</li>
@@ -16,9 +16,10 @@
 <div id="mapping-text" class="pt-sm-5 pt-md-7 pt-lg-9 pt-xl-12 pb-sm-7 pb-md-7 pb-xl-8">
        
             <div class="row mb-4 mb-md-4 mb-lg-8 mb-xl-12">
-                <div class="col-12 col-md-8 col-lg-8 mx-md-auto ">
-                    <img src='{{ .Params.image }}' class="mb-4" />
-                    <h4 class="news coldblcktext text-uppercase mb-1 ">{{ .Date.Format "Monday, January 2, 2006" }}</h4>
+                <div class="col-12 col-md-8 col-lg-7 col-xl-7 mx-md-auto ">
+                    <img src='{{ .Params.image }}' class="mb-2 mw-100" />
+                    <div class="d-block mb-5 imgcaption slatetext">{{ .Params.caption }}</div>
+                    <h4 class="news coldblcktext text-uppercase mt-2 mb-1 ">{{ .Date.Format "Monday, January 2, 2006" }}</h4>
                     <h3 class="news mb-sm-2 mb-md-2 mb-xl-2">{{ .Params.title }}</h3>
                     <div class="medgraytext">{{ .Content }}</div>     
       

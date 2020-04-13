@@ -246,6 +246,8 @@ collections:
       - {label: Date, name: date, widget: datetime}
       - {label: Excerpt, name: excerpt, required: false, hint: Short introduction to story—roughly 280 characters or less, widget: string}
       - {label: Image, name: image, required: false, widget: image}
+      - {label: Caption, name: caption, required: false, hint: Optional caption for image, widget: string}
+      - {label: Thumbnail, name: thumb, required: false, widget: image, hint: Optional thumbnail for the blog index page. The above image will be used if thumbnail is not uploaded.}
       - {label: Image alignment, name: align, required: false, hint: The alignment of the image within the square box, widget: select, options: ["left", "center", "right"], default: ["center"]}
       - {label: Aliases, name: aliases, widget: hidden} 
       - label: "Body Text"
