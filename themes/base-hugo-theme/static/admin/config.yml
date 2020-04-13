@@ -249,6 +249,8 @@ collections:
       - {label: Caption, name: caption, required: false, hint: Optional caption for image, widget: string}
       - {label: Thumbnail, name: thumb, required: false, widget: image, hint: Optional thumbnail for the blog index page. The above image will be used if thumbnail is not uploaded.}
       - {label: Image alignment, name: align, required: false, hint: The alignment of the image within the square box, widget: select, options: ["left", "center", "right"], default: ["center"]}
+      - {label: Social Media Description, name: social_description, required: false, hint: Optional social media description, widget: string}
+      - {label: Social Media Image, name: social_image, required: false, hint: Optional social media image (recommended: 1200 x 675 pixels), widget: image}
       - {label: Aliases, name: aliases, widget: hidden} 
       - label: "Body Text"
         name: "body"

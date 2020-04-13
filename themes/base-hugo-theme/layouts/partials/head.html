@@ -14,18 +14,12 @@
   <!-- Fetch an image for metadata -->
   {{ if .Page.Params.social_image }}
     <!-- First try for page image -->
-    {{ $img := strings.TrimPrefix "/uploads/" .Page.Params.image }}
-    {{ with $.Site.GetPage "page" "uploads/_index.md" }}
-      {{ with .Resources.GetMatch $img }}
-        {{$img400 := .Fill "400x Center"}}
-        {{ $.Scratch.Set "socialImage" $img400.Permalink }}
-      {{ end }}
-    {{ end }}
+    {{ $.Scratch.Set "socialImage" .Page.Params.social_image }}
+  
   {{ else }}
     <!-- Otherwise use the default social image -->
-   
-        {{ $.Scratch.Set "socialImage" .Site.Data.social.social_image }}
-      {{ end }}
+      {{ $.Scratch.Set "socialImage" .Site.Data.social.social_image }}
+  {{ end }}
   
 
   <!-- General metadata -->
