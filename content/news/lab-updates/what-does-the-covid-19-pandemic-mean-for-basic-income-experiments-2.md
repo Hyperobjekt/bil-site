@@ -9,10 +9,11 @@ excerpt: "Without a doubt, COVID-19 has sent unanticipated health, economic, and
   engaged in basic income experiments are thinking critically about how this
   shock is likely to change the way they engage with beneficiaries and the
   broader community and possibly impact current and future research. "
-image: /uploads/bil-logo-standalone2x.png
+image: /uploads/interview-group.jpg
+caption: 'Left to right: Sarah Berger Gonzalez, Sarah Stripp, Steve Nuñez, and Madeline Neighly'
+thumb: /uploads/interview-group-thumb.jpg
 align: center
 ---
-**What Does the COVID-19 Pandemic Mean for Basic Income Experiments?**
 
 Today, there are about a dozen basic income-related experiments taking place throughout the world, with a few more proposed to commence within the year. Basic income experiments are testing the [various features](https://basicincome.stanford.edu/about/what-is-ubi/) of a basic income policy including the regular disbursement of unconditional cash to individuals. These experiments are important as they not only engage communities in innovative ways, but they also capture information and data on key processes, impact, and outcomes that seek to inform the development of a basic income-like policy.
 
@@ -74,9 +75,9 @@ The Stanford Basic Income Lab, an initiative of the McCoy Family Center for Ethi
 
 \- *Madeline Neighly,* Director of Guaranteed Income, *[Economic Security Project](https://www.economicsecurityproject.org/team/)*
 
-\_\_\_\_\_\_
+<hr class="my-4">
 
-***Madeline Neighly i**s the Director of Guaranteed Income at the Economic Security Project, a network to support exploration and experimentation of a guaranteed income.*
+***Madeline Neighly** is the Director of Guaranteed Income at the Economic Security Project, a network to support exploration and experimentation of a guaranteed income.*
 
 ***Sarah Stripp** is the Program Manager for Springboard To Opportunities, providing on-the-ground supportive services for families and coordinating and managing larger initiatives for the organization such as The Magnolia Mother’s Trust and the organization’s work around Children’s Savings Accounts.*
 
