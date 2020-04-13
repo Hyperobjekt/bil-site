@@ -527,8 +527,9 @@ img {
   height: 140px;
   background-repeat: no-repeat;
   background-size: cover;
-  @include media-breakpoint-up(md) {
-    
+  @include media-breakpoint-up(xl) {
+    width: 160px;
+    height: 160px;
   }
 }
 .newsletter-list .list-content {

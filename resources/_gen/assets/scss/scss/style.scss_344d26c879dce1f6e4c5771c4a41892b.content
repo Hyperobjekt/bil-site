@@ -17528,7 +17528,7 @@ p a:hover {
 
 @media (min-width: 1380px) {
   .type-news .newslist p {
-    max-width: 60%;
+    max-width: 90%;
   }
 }
 
@@ -17587,6 +17587,16 @@ a:hover {
 
 .plainlink.whitetext:hover svg g {
   fill: #6EC9D7 !important;
+}
+
+.imgcaption {
+  font-size: 1.4rem;
+}
+
+@media (min-width: 1380px) {
+  .imgcaption {
+    font-size: 1.5rem;
+  }
 }
 
 .container.parent {
@@ -18268,6 +18278,13 @@ img.float-left {
   height: 140px;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media (min-width: 1380px) {
+  .list-pic {
+    width: 160px;
+    height: 160px;
+  }
 }
 
 .newsletter-list .list-content {
@@ -19715,7 +19732,7 @@ body.type-news .hero {
 
 @media (min-width: 1380px) {
   body.type-news h2 {
-    max-width: 70%;
+    max-width: 90%;
   }
 }
 

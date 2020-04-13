@@ -377,7 +377,7 @@ html {
   .type-news .newslist p {
     margin-bottom: 1.6rem;
     @include media-breakpoint-up(xl) {
-      max-width: 60%;
+      max-width: 90%;
     }
   }
    a {
@@ -425,6 +425,12 @@ html {
       }
     }
 
+  }
+  .imgcaption {
+    font-size: 1.4rem;
+    @include media-breakpoint-up(xl) {
+      font-size: 1.5rem;
+    }
   }
   
   h2,
