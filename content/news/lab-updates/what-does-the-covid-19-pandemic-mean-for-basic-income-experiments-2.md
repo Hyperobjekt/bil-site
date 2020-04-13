@@ -9,7 +9,7 @@ excerpt: "Without a doubt, COVID-19 has sent unanticipated health, economic, and
   engaged in basic income experiments are thinking critically about how this
   shock is likely to change the way they engage with beneficiaries and the
   broader community and possibly impact current and future research. "
-image: /uploads/interview-group.jpg
+image: /uploads/interview-group2.jpg
 caption: 'Left to right: Sarah Berger Gonzalez, Sarah Stripp, Steve Nuñez, and Madeline Neighly'
 thumb: /uploads/interview-group-thumb.jpg
 align: center
