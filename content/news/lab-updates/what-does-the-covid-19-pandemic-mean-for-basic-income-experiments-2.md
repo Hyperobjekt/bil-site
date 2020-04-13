@@ -13,6 +13,8 @@ image: /uploads/interview-group.jpg
 caption: 'Left to right: Sarah Berger Gonzalez, Sarah Stripp, Steve Nuñez, and Madeline Neighly'
 thumb: /uploads/interview-group-thumb.jpg
 align: center
+social_description: "An interview with critical partners in the research community"
+social_image: "/uploads/what-does-pandemic-mean-social.png"
 ---
 
 Today, there are about a dozen basic income-related experiments taking place throughout the world, with a few more proposed to commence within the year. Basic income experiments are testing the [various features](https://basicincome.stanford.edu/about/what-is-ubi/) of a basic income policy including the regular disbursement of unconditional cash to individuals. These experiments are important as they not only engage communities in innovative ways, but they also capture information and data on key processes, impact, and outcomes that seek to inform the development of a basic income-like policy.
