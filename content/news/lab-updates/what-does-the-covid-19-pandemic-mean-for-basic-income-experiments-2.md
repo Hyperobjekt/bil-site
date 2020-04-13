@@ -13,7 +13,7 @@ image: /uploads/interview-group.jpg
 caption: 'Left to right: Sarah Berger Gonzalez, Sarah Stripp, Steve Nuñez, and Madeline Neighly'
 thumb: /uploads/interview-group-thumb.jpg
 align: center
-social_description: "An interview with critical partners in the research community"
+social_description: "An interview with critical partners in the research community."
 social_image: "/uploads/what-does-pandemic-mean-social.png"
 ---
 

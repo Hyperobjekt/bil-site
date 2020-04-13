@@ -28,7 +28,7 @@
   <!-- Facebook metadata -->
   <meta property="og:locale" content="en_US" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="The Stanford Basic Income Lab | {{ .Title }}" />
+  <meta property="og:title" content="{{ .Title }} | The Stanford Basic Income Lab" />
   <meta property="og:description" content="{{ $.Scratch.Get "socialDescription" }}" />
   <meta property="og:url" content="https://basicincome.stanford.edu/" />
   <meta property="og:site_name" content="{{ .Site.Title }}" />
@@ -39,7 +39,7 @@
   {{ if .Site.Data.social.twitter_via }}
     <meta name="twitter:site" content="{{ strings.TrimPrefix "@" .Site.Data.social.twitter_via }}" />
   {{ end }}
-  <meta name="twitter:title" content="The Stanford Basic Income Lab | {{ .Title }}" />
+  <meta name="twitter:title" content="{{ .Title }} | The Stanford Basic Income Lab" />
   <meta name="twitter:description" content="{{ $.Scratch.Get "socialDescription" }}" />
   <meta name="twitter:image" content="https://basicincome.stanford.edu{{ $.Scratch.Get "socialImage" }}" />
 
