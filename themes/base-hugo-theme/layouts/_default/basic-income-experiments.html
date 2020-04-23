@@ -35,7 +35,7 @@
     </div>
 </div>
 <!-- /SUBNAV -->
-
+<div id="bil-map-target"></div>
 <div id="experiments-table" class="pt-sm-5 pt-md-7 pt-lg-9 pt-xl-12 pb-sm-7 pb-md-7 pb-xl-8">
     <div class="row">
         <div class="col-12 col-md-7 mx-auto mb-3 text-center">
@@ -48,7 +48,17 @@
             {{ .Content }}
         </div>
     </div> 
-</div>    
+</div>
+<script src="{{ "js/bil-map/static/js/2.362957ff.chunk.js" | absURL }}"></script>
+<script src="{{ "js/bil-map/static/js/main.f2e32783.chunk.js" | absURL }}"></script>
+<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+<script>
+const domContainer = document.querySelector('#bil-map-target');
+// {...domContainer.dataset}
+console.log(domContainer);
+ReactDOM.render(React.createElement(App), domContainer);
+</script>
 
 {{ partial "subscribe.html" .}}
 
