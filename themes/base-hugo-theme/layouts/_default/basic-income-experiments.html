@@ -35,6 +35,24 @@
     </div>
 </div>
 <!-- /SUBNAV -->
+<div id="bil-map-target"></div>
+<!-- <iframe id="bil-map-container" style="width:96vw;height:96vh;" src="www.google.com"><iframe> -->
+<script>
+    const iframe = document.createElement('iframe');
+    iframe.src = "//localhost:3000" + window.location.search;
+    iframe.style = "width:96vw;height:96vh;";
+    document.querySelector('#bil-map-target').append(iframe);
+
+    window.addEventListener('message', receiveMessage, false);
+    function receiveMessage(e) {
+        if (e.origin !== "http://localhost:3000") {
+            // TODOXXX: update origin #security
+            return;
+        }
+        const newQueryString = e.data.queryString;
+        window.history.pushState(null, null, newQueryString);
+    }
+</script>
 
 <div id="experiments-table" class="pt-sm-5 pt-md-7 pt-lg-9 pt-xl-12 pb-sm-7 pb-md-7 pb-xl-8">
     <div class="row">
