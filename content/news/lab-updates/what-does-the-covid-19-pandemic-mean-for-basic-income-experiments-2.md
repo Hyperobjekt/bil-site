@@ -10,13 +10,13 @@ excerpt: "Without a doubt, COVID-19 has sent unanticipated health, economic, and
   shock is likely to change the way they engage with beneficiaries and the
   broader community and possibly impact current and future research. "
 image: /uploads/interview-group2.jpg
-caption: 'Left to right: Sarah Berger Gonzalez, Sarah Stripp, Steve Nuñez, and Madeline Neighly'
+caption: "Left to right: Sarah Berger Gonzalez, Sarah Stripp, Steve Nuñez, and
+  Madeline Neighly"
 thumb: /uploads/interview-group-thumb.jpg
 align: center
-social_description: "An interview with critical partners in the research community."
-social_image: "/uploads/what-does-pandemic-mean-social.png"
+social_description: An interview with critical partners in the research community.
+social_image: /uploads/what-does-pandemic-mean-social.png
 ---
-
 Today, there are about a dozen basic income-related experiments taking place throughout the world, with a few more proposed to commence within the year. Basic income experiments are testing the [various features](https://basicincome.stanford.edu/about/what-is-ubi/) of a basic income policy including the regular disbursement of unconditional cash to individuals. These experiments are important as they not only engage communities in innovative ways, but they also capture information and data on key processes, impact, and outcomes that seek to inform the development of a basic income-like policy.
 
 Without a doubt, COVID-19 has sent unanticipated health, economic, and social shocks to communities throughout the United States and abroad. Those engaged in basic income experiments are thinking critically about how this shock is likely to change the way they engage with beneficiaries and the broader community and possibly impact current and future research.
@@ -29,7 +29,7 @@ The Stanford Basic Income Lab, an initiative of the McCoy Family Center for Ethi
 
 “We are working as a team to think through ways that we might be able to continue some of this community building online and through technology, but that is a challenge, as well, given our families’ access to technology and reliable internet is spotty. It also is unclear whether or not these efforts will really have the same effect as an in-person gathering would, particularly in building community and social support amongst the participants.”
 
-\-*Sarah Stripp, Program Manager, [The Magnolia Mother’s Trust](http://springboardto.org/index.php/blog/story/introducing-the-magnolia-mothers-trust)*
+\-*Sarah Stripp, Program Manager, [Springboard To Opportunities](http://www.springboardto.org/)*
 
 “Our field research in Brazil ground to a halt because of the lockdown there and here. And our pilot in a large east coast city we planned for the summer is suspended indefinitely. We have shifted our work efforts in response.”
 
@@ -45,7 +45,7 @@ The Stanford Basic Income Lab, an initiative of the McCoy Family Center for Ethi
 
 “It is also really essential that we ask questions right now about how something like guaranteed income can affect people in times of crisis. It was always our intent to do follow up interviews with the women who were in the initial lottery but did not receive the funds. I think it will be important comparative data to look at how having these funds during this time changed outcomes for families in terms of economic security, mental health/stress, and whole family outcomes (Were families able to handle distance learning more effectively? Were kids more prepared to matriculate to the next grade in the fall? etc.). Also, with the additional stimulus checks and conversations at a federal level around cash, we think the research we’re doing right now has an opportunity to be heard at a policy level that might not have been possible before.”
 
-\-*Sarah Stripp, Program Manager, [The Magnolia Mother’s Trust](http://springboardto.org/index.php/blog/story/introducing-the-magnolia-mothers-trust)*
+\-*Sarah Stripp, Program Manager,[Springboard To Opportunities](http://www.springboardto.org/)*
 
 “In Brazil, the city we are researching decided to launch a huge cash support package using the same disbursement mechanism they were using for the basic income. That means the net transfers increased enormously. Given the changes in context, whatever statistical analysis we do will now capture the impact of generous cash assistance during a world-historic plague and economic meltdown. In other words, we are no longer studying what we set out to study, and it may be difficult to generalize findings.”
 
@@ -65,7 +65,7 @@ The Stanford Basic Income Lab, an initiative of the McCoy Family Center for Ethi
 
 “We always anticipated at least some of their check-ins with participants to be via phone anyway, so we don’t anticipate our ability to gather data to be impeded too much. And despite the difficulties that our current situation has presented, we honestly don’t think the timing could’ve been any better. We were able to hand 80 women checks for $1,000 literally just days before things began shutting down and people began losing their jobs and hours. So, for that we are grateful.”
 
-\-*Sarah Stripp, Program Manager,[ The Magnolia Mother’s Trust](http://springboardto.org/index.php/blog/story/introducing-the-magnolia-mothers-trust)*
+\-*Sarah Stripp, Program Manager,[Springboard To Opportunities](http://www.springboardto.org/)*
 
 **Any final thoughts related to this topic?**
 
@@ -77,10 +77,10 @@ The Stanford Basic Income Lab, an initiative of the McCoy Family Center for Ethi
 
 \- *Madeline Neighly,* Director of Guaranteed Income, *[Economic Security Project](https://www.economicsecurityproject.org/team/)*
 
-<hr class="my-4">
+- - -
 
-***Madeline Neighly** is the Director of Guaranteed Income at the Economic Security Project, a network to support exploration and experimentation of a guaranteed income.*
+**\*Madeline Neighly** is the Director of Guaranteed Income at the Economic Security Project, a network to support exploration and experimentation of a guaranteed income.*
 
-***Sarah Stripp** is the Program Manager for Springboard To Opportunities, providing on-the-ground supportive services for families and coordinating and managing larger initiatives for the organization such as The Magnolia Mother’s Trust and the organization’s work around Children’s Savings Accounts.*
+**\*Sarah Stripp** is the Program Manager for Springboard To Opportunities, providing on-the-ground supportive services for families and coordinating and managing larger initiatives for the organization such as The Magnolia Mother’s Trust and the organization’s work around Children’s Savings Accounts.*
 
-***Stephen Nuñez** is the Lead Researcher on Guaranteed Income at the Jain Family Institute where he is carrying out research on a guaranteed income (GI) policy, testing its practical application and design by taking on empirical work that offers unique opportunities to understand how GI programs affect individuals and communities.*
+**\*Stephen Nuñez** is the Lead Researcher on Guaranteed Income at the Jain Family Institute where he is carrying out research on a guaranteed income (GI) policy, testing its practical application and design by taking on empirical work that offers unique opportunities to understand how GI programs affect individuals and communities.*
