@@ -150,32 +150,32 @@
         {{ end }}
         <div class="row no-gutters">
             <div class="col-sm-1 col-lg-2"></div>
-            {{ range first 1 .Site.Data.news.items.newsItem  }}
+            {{ range first 1 (where .Site.Pages ".Params.type" "labupdates")  }}
             <div class="d-flex flex-column justify-content-between col-sm-10 mb-3 mb-md-0 col-md p-0 news-item mr-md-1 mr-lg-3 mr-xl-5">
                 <div class="news-item-txt p-4">
                     <div class="news-item-icon mb-2"></div>
                    
-                    <div class="superhead coldblcktext text-uppercase mb-1">{{ .outlet }}</div>
-                    <h3 class="blacktext mb-2">{{ .title }}</h3>
-                    <p class="slatetext">{{ .excerpt | truncate 180 }}</p>
+                    <div class="superhead coldblcktext text-uppercase mb-1">{{/* .outlet */}}</div>
+                    <h3 class="blacktext mb-2">{{ .Params.title }}</h3>
+                    <p class="slatetext">{{ .Params.excerpt | truncate 180 }}</p>
                        
                     </div>
                 <div class="news-item-link py-3 px-4">
-                    <a class="plainlink coldblcktext" href="{{ .articleLink }}" target="_blank">READ MORE&nbsp;{{ partial "rightarrow.html" }}</a>
+                    <a class="plainlink coldblcktext" href="{{ .Permalink }}">READ MORE&nbsp;{{ partial "rightarrow.html" }}</a>
                 </div>
              
             </div>
             {{ end }} 
-            {{ range first 1 (after 1 .Site.Data.news.items.newsItem) }}
+            {{ range first 1 (after 1 (where .Site.Pages ".Params.type" "labupdates") ) }}
             <div class="d-flex flex-column justify-content-between col-sm-10 offset-sm-1 col-md offset-md-0 p-0 news-item ml-md-1 ml-lg-3 ml-xl-5">
                     <div class="news-item-txt p-4">
                         <div class="news-item-icon mb-2"></div>
-                        <div class="superhead coldblcktext text-uppercase mb-1">{{ .outlet }}</div>
-                        <h3 class="blacktext mb-2">{{ .title }}</h3>
-                        <p class="slatetext">{{ .excerpt | truncate 180 }}</p>
+                        <div class="superhead coldblcktext text-uppercase mb-1">{{/* .outlet */}}</div>
+                        <h3 class="blacktext mb-2">{{ .Params.title }}</h3>
+                        <p class="slatetext">{{ .Params.excerpt | truncate 180 }}</p>
                     </div>
                     <div class="news-item-link py-3 px-4">
-                        <a class="plainlink coldblcktext" href="{{ .articleLink }}" target="_blank">READ MORE&nbsp;{{ partial "rightarrow.html" }}</a>
+                        <a class="plainlink coldblcktext" href="{{ .Permalink }}">READ MORE&nbsp;{{ partial "rightarrow.html" }}</a>
                     </div>
             </div>
             {{ end }}
@@ -183,7 +183,7 @@
         </div>
         <div class="row">
             <div class="col-12 d-flex flex-column align-items-center mt-5 mb-6 mb-md-8 mb-lg-10">
-                <a class="plainlink text-center coldblcktext" href="/news">ALL NEWS&nbsp;{{ partial "rightarrow.html" }}</a>
+                <a class="plainlink text-center coldblcktext" href="/news">ALL UPDATES&nbsp;{{ partial "rightarrow.html" }}</a>
             </div>
         </div>
     </div>
