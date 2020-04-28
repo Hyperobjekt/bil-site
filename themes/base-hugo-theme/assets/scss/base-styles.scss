@@ -432,13 +432,122 @@ html {
       font-size: 1.5rem;
     }
   }
-  
-  h2,
-  div.h2 {
-  
+  .person-breaker {
+    display: flex;
+    margin-top: 5.6rem;
+    margin-bottom: 3.2rem;
   }
-  
-  
+  .headshot-wrapper {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .update-headshot {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    max-width: 100%;
+    min-width: 100px;
+    align-self: center;
+  }
+ .person-wrapper {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ }
+  .update-person-name {
+    font-weight: 600;
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 0.8rem;
+  }
+  .update-person-title {
+    font-weight: 400;
+    font-size: 1.4rem;
+    text-transform: uppercase; 
+  }
+  .type-labupdates {
+    blockquote {
+          /* margin: 0 0 1rem; */
+    padding: 10% 20%;
+    width: 120%;
+    margin-left: -10%;
+    @include media-breakpoint-up(md) {
+      padding: 12% 22%;
+      width: 132%;
+      margin-left: -16%;
+      font-size: 2rem;
+      margin-top: 5.6rem;
+      margin-bottom: 6.4rem;
+    }
+    font-size: 1.8rem;
+    background-color: $green;
+    line-height: 1.5;
+    color: #fff;
+    text-align: center;
+    margin-top: 5.6rem;
+    margin-bottom: 5.6rem;
+    &:nth-of-type(even) {
+      background-color: #a86814;
+    }
+    .quote-attrib {
+      font-weight: 300;
+      @include media-breakpoint-up(md) {
+        font-size: 1.8rem;
+      }
+      font-size: 1.6rem;
+      text-transform: uppercase;
+      margin-top: 2.4rem;
+    }
+    }
+
+    .share-prompt {
+      font-weight: 300;
+      color: $med-gray;
+    }
+    .social-sprite li {
+      display: inline-block;
+     // margin-left: 7px !important;
+      &:before {
+        display: none;
+      }
+      a {
+      background-image: url(/images/icons/social-icon-sprite.png);
+      display: block;
+      height: 24px;
+      width: 24px;
+      transition: all 10ms ease-out;
+      -webkit-transition: all 10ms ease-out;
+      -o-transition: all 10ms ease-out;
+      background-size: 140px 48px;
+      margin-right: 16px;
+      }
+    }
+    .facebook {
+      background-position: 0 0;
+    }
+    a.facebook:hover {
+      background-position: 0 25px;
+    }
+    .twitter {
+      background-position: -39px 0px;
+    }
+    a.twitter:hover {
+      background-position: -39px 25px;
+    }
+    .send-email {
+      background-position: 62px 0px;
+    }
+    a.send-email:hover {
+      background-position: 62px 25px;
+    }
+    .copy-link {
+      background-position: 24px 0px;
+    }
+    a.copy-link:hover {
+      background-position: 24px 25px;
+    }
+
+  }
   // Page container
   .container.parent {
     padding-right: 0;

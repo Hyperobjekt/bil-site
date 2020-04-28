@@ -17599,6 +17599,144 @@ a:hover {
   }
 }
 
+.person-breaker {
+  display: flex;
+  margin-top: 5.6rem;
+  margin-bottom: 3.2rem;
+}
+
+.headshot-wrapper {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.update-headshot {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  max-width: 100%;
+  min-width: 100px;
+  align-self: center;
+}
+
+.person-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.update-person-name {
+  font-weight: 600;
+  font-size: 2rem;
+  color: black;
+  margin-bottom: 0.8rem;
+}
+
+.update-person-title {
+  font-weight: 400;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+}
+
+.type-labupdates blockquote {
+  /* margin: 0 0 1rem; */
+  padding: 10% 20%;
+  width: 120%;
+  margin-left: -10%;
+  font-size: 1.8rem;
+  background-color: #00505C;
+  line-height: 1.5;
+  color: #fff;
+  text-align: center;
+  margin-top: 5.6rem;
+  margin-bottom: 5.6rem;
+}
+
+@media (min-width: 768px) {
+  .type-labupdates blockquote {
+    padding: 12% 22%;
+    width: 132%;
+    margin-left: -16%;
+    font-size: 2rem;
+    margin-top: 5.6rem;
+    margin-bottom: 6.4rem;
+  }
+}
+
+.type-labupdates blockquote:nth-of-type(even) {
+  background-color: #a86814;
+}
+
+.type-labupdates blockquote .quote-attrib {
+  font-weight: 300;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  margin-top: 2.4rem;
+}
+
+@media (min-width: 768px) {
+  .type-labupdates blockquote .quote-attrib {
+    font-size: 1.8rem;
+  }
+}
+
+.type-labupdates .share-prompt {
+  font-weight: 300;
+  color: #6d6d6d;
+}
+
+.type-labupdates .social-sprite li {
+  display: inline-block;
+}
+
+.type-labupdates .social-sprite li:before {
+  display: none;
+}
+
+.type-labupdates .social-sprite li a {
+  background-image: url(/images/icons/social-icon-sprite.png);
+  display: block;
+  height: 24px;
+  width: 24px;
+  transition: all 10ms ease-out;
+  -webkit-transition: all 10ms ease-out;
+  -o-transition: all 10ms ease-out;
+  background-size: 140px 48px;
+  margin-right: 16px;
+}
+
+.type-labupdates .facebook {
+  background-position: 0 0;
+}
+
+.type-labupdates a.facebook:hover {
+  background-position: 0 25px;
+}
+
+.type-labupdates .twitter {
+  background-position: -39px 0px;
+}
+
+.type-labupdates a.twitter:hover {
+  background-position: -39px 25px;
+}
+
+.type-labupdates .send-email {
+  background-position: 62px 0px;
+}
+
+.type-labupdates a.send-email:hover {
+  background-position: 62px 25px;
+}
+
+.type-labupdates .copy-link {
+  background-position: 24px 0px;
+}
+
+.type-labupdates a.copy-link:hover {
+  background-position: 24px 25px;
+}
+
 .container.parent {
   padding-right: 0;
   padding-left: 0;
