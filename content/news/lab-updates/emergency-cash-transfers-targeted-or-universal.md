@@ -10,7 +10,7 @@ caption:
 thumb: /uploads/Cash Transfers square 2.jpg
 align: center
 social_description: Should a cash transfer be universal (paid to everyone) in response to an external shock?
-social_image: /uploads/cash-transfers-social-v3.png
+social_image: /uploads/Cash Transfers graphic 6 social.png
 ---
 Unforeseen shocks, like the recent COVID-19 pandemic, the 2008-09 global financial crisis, or a natural disaster, can wreak havoc on the social and economic well-being of households, communities, states, and countries. The distribution of cash transfers to individuals and families has been used before as a policy to buffer the negative impacts and has increasingly become more common during this most recent pandemic.
 
