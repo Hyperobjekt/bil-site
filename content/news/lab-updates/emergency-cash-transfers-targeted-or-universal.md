@@ -20,9 +20,9 @@ url: /emergency-cash-targeted-or-universal
 aliases:
   - /news/lab-updates/emergency-cash-transfers-targeted-or-universal/
 ---
-Unforeseen shocks, like the recent COVID-19 pandemic, the 2008-09 global financial crisis, or a natural disaster, can wreak havoc on the social and economic well-being of households, communities, states, and countries. The distribution of cash transfers to individuals and families has been used before as a policy to buffer the negative impacts and has increasingly become more common during this most recent pandemic.
+Unforeseen shocks, like the current COVID-19 pandemic, the 2008-09 global financial crisis, or a natural disaster, can wreak havoc on the social and economic well-being of households, communities, states, and countries. The distribution of cash transfers to individuals and families has been used before as a policy to buffer the negative impacts and has increasingly become more common during this most recent pandemic.
 
-One of the central questions when considering this as a policy option is, **should a cash transfer be universal—paid to everyone—in response to an external shock (e.g. financial, natural disaster, pandemic)? And why?** There are no easy or right answers. Often this question leads to more questions: what is the overall objective of the transfer? What is economically feasible? What is fair? How will it interact with existing social policies and safety nets? And how will this be implemented? 
+One of the central questions when considering this as a policy option is, **should a cash transfer be universal—paid to everyone—in response to an external shock (e.g. financial, natural disaster, pandemic)? And why?** There are no easy or right answers. Often this question leads to more questions: what is the overall objective of the transfer? What is economically feasible? What is fair? How will it interact with existing policies and safety nets? And how will this be implemented? 
 
 The Stanford Basic Income Lab’s program manager, Sarah Berger Gonzalez, recently reached out to partners in the basic income community to engage them on this question.
 
