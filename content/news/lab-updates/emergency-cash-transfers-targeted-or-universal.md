@@ -11,6 +11,9 @@ thumb: /uploads/Cash-Transfers-square-2.jpg
 align: center
 social_description: Should a cash transfer be universal (paid to everyone) in response to external shocks like COVID-19?
 social_image: /uploads/cash-transfers-graphic-6-social.png
+url: /emergency-cash-targeted-or-universal
+aliases:
+    -  /news/lab-updates/emergency-cash-transfers-targeted-or-universal/
 ---
 Unforeseen shocks, like the recent COVID-19 pandemic, the 2008-09 global financial crisis, or a natural disaster, can wreak havoc on the social and economic well-being of households, communities, states, and countries. The distribution of cash transfers to individuals and families has been used before as a policy to buffer the negative impacts and has increasingly become more common during this most recent pandemic.
 
