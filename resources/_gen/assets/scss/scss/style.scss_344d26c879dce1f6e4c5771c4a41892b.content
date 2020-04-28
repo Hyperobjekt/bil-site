@@ -17599,6 +17599,11 @@ a:hover {
   }
 }
 
+.bloghero img {
+  display: block;
+  margin: auto;
+}
+
 .person-breaker {
   display: flex;
   margin-top: 5.6rem;
