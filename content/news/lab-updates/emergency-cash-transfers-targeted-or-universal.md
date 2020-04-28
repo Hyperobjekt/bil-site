@@ -7,9 +7,9 @@ date: 2020-04-28T00:00:31.857Z
 excerpt: "Should a cash transfer be universal—paid to everyone—in response to an external shock (e.g. financial, natural disaster, pandemic)? And why? The Stanford Basic Income Lab’s program manager, Sarah Berger Gonzalez, recently reached out to partners in the basic income community to engage them on this question."
 image: /uploads/Cash-Transfers-hero-6.jpg
 caption:
-thumb: /uploads/Cash Transfers square 2.jpg
+thumb: /uploads/Cash-Transfers-square-2.jpg
 align: center
-social_description: Should a cash transfer be universal (paid to everyone) in response to an external shock?
+social_description: Should a cash transfer be universal (paid to everyone) in response to external shocks like COVID-19?
 social_image: /uploads/Cash Transfers graphic 6 social.png
 ---
 Unforeseen shocks, like the recent COVID-19 pandemic, the 2008-09 global financial crisis, or a natural disaster, can wreak havoc on the social and economic well-being of households, communities, states, and countries. The distribution of cash transfers to individuals and families has been used before as a policy to buffer the negative impacts and has increasingly become more common during this most recent pandemic.
