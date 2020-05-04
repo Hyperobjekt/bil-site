@@ -9,4 +9,6 @@ Icon
 # Thumbnails
 ._*
 
-public/*
+public/
+resources/_gen/assets/scss/*
+resources/
