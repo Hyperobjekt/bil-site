@@ -40,7 +40,7 @@
 <script>
     const iframe = document.createElement('iframe');
     iframe.src = "http://localhost:3000" + window.location.search;
-    iframe.style = "width:100vw;height:86vh;border:none;";
+    iframe.style = "";
     document.querySelector('#bil-map-target').append(iframe);
 
     window.addEventListener('message', receiveMessage, false);
