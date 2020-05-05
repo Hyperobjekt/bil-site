@@ -10,6 +10,9 @@ resampleFilter = "box"
 quality = 70
 anchor = "smart"
 
+[markup.goldmark.renderer]
+unsafe = true
+
 [params]
   # google_analytics_id=""
   hideFooter=false
@@ -35,7 +38,7 @@ anchor = "smart"
     parent = "About"
 	name = "What is BIL?"
 	url = "/about/what-is-bil"
-    weight = 1    
+    weight = 1
 
 [[menu.main]]
     parent = "About"
@@ -47,7 +50,7 @@ anchor = "smart"
     parent = "About"
 	name = "People"
 	url = "/about/people"
-    weight = 3    
+    weight = 3
 
 [[menu.main]]
   name = "Events"
@@ -58,13 +61,13 @@ anchor = "smart"
     parent = "Events"
 	name = "Upcoming"
 	url = "/events/upcoming/"
-    weight = 1  
+    weight = 1
 
 [[menu.main]]
     parent = "Events"
 	name = "Past"
 	url = "/events/past/"
-    weight = 2   
+    weight = 2
 
 [[menu.main]]
     parent = "Events"
@@ -88,23 +91,23 @@ anchor = "smart"
     parent = "Research"
 	name = "Cities Toolkit"
 	url = "/research/ubi-cities-toolkit"
-    weight = 2  
+    weight = 2
 
 [[menu.main]]
     parent = "Research"
 	name = "Experiments"
 	url = "/research/basic-income-experiments"
-    weight = 3      
+    weight = 3
 
 [[menu.main]]
     name = "Fellowships"
     url = "/fellowships"
-    weight = 6    
+    weight = 6
 
 [[menu.main]]
     name = "Courses"
     url = "/courses/"
-    weight = 7    
+    weight = 7
 
 
 [[menu.main]]
@@ -122,13 +125,13 @@ anchor = "smart"
     parent = "News"
 	name = "Updates from the Lab"
 	url = "/news/lab-updates/"
-    weight = 2  
+    weight = 2
 
 [[menu.main]]
     parent = "News"
 	name = "Newsletters"
 	url = "/news/newsletters/"
-    weight = 3        
+    weight = 3
 
 [permalinks]
   post = "/:year/:month/:day/:slug/"

@@ -10,3 +10,5 @@ Icon
 ._*
 
 public/*
+node_modules/
+resources/
