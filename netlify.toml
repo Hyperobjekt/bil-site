@@ -40,17 +40,17 @@ from = "/about"
 [[redirects]]
 from = "/research"
   to = "/research/mapping-ubi-research"
-  status = 301  
-  
+  status = 301
+
 [[redirects]]
 from = "/events"
   to = "/events/upcoming"
-  status = 301   
+  status = 301
 
 [[redirects]]
 from = "/about/what-basic-income"
   to = "/about/what-is-ubi/"
-  status = 301  
+  status = 301
 
 [[redirects]]
 from = "/about/people/leadership"
@@ -61,7 +61,7 @@ from = "/about/people/leadership"
 from = "/about/people/current-graduate-fellows"
   to = "/about/people/"
   status = 301
-  
+
 [[redirects]]
 from = "/about/people/jos-luis-sabau"
   to = "/about/people/"
@@ -70,12 +70,12 @@ from = "/about/people/jos-luis-sabau"
 [[redirects]]
 from = "/about/people/juliana-bidadanure"
   to = "/about/people/"
-  status = 301  
+  status = 301
 
 [[redirects]]
 from = "/about/people/former-graduate-fellows"
   to = "/about/people/"
-  status = 301  
+  status = 301
 
 [[redirects]]
 from = "/about/location-and-contact"
@@ -100,17 +100,17 @@ from = "/events/our-videos"
 [[redirects]]
 from = "/courses/search"
   to = "/courses"
-  status = 301  
+  status = 301
 
 [[redirects]]
 from = "/get-involved/join-mailing-list"
   to = "/"
-  status = 301  
+  status = 301
 
 [[redirects]]
 from = "/get-involved/giving"
   to = "/"
-  status = 301  
+  status = 301
 
 [[redirects]]
 from = "/fellowships/postdoctoral-research-fellow"

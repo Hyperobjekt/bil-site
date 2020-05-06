@@ -9,6 +9,7 @@ Icon
 # Thumbnails
 ._*
 
-public/
-resources/_gen/assets/scss/*
+public/*
+node_modules/
 resources/
+resources/_gen/
