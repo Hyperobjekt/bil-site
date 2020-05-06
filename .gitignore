@@ -10,3 +10,6 @@ Icon
 ._*
 
 public/*
+node_modules/
+resources/
+resources/_gen/
