@@ -39,18 +39,16 @@
 <!-- <iframe id="bil-map-container" style="width:96vw;height:96vh;" src="www.google.com"><iframe> -->
 <script>
     const mapUrl = 'https://hyperobjekt.github.io/bil-map/';
+    const mapOrigin = 'https://hyperobjekt.github.io';
     const iframe = document.createElement('iframe');
     iframe.src = mapUrl + window.location.search;
-    iframe.style = "";
     document.querySelector('#bil-map-target').append(iframe);
 
     window.addEventListener('message', receiveMessage, false);
     function receiveMessage(e) {
-        alert(e);
-        console.log('Message received: ', e);
-        if (e.origin !== mapUrl) {
+        if (e.origin !== mapOrigin) {
             console.error('Message from unknown source: ', e);
-            // return;
+            return;
         }
         const newQueryString = e.data.queryString;
         window.history.pushState(null, null, newQueryString);
