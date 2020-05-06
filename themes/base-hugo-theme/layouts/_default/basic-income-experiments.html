@@ -42,10 +42,13 @@
     const mapOrigin = 'https://hyperobjekt.github.io';
     // const mapUrl = 'http://localhost:3000';
     // const mapOrigin = 'http://localhost:3000';
+
+    // KEEP IN SYNC WITH BIL-MAP
+    const QUERY_STRING_BASE = '?s=';
     // KEEP IN SYNC WITH BIL-MAP
     const ORIGIN_PARAM_MARKER = '&o=';
     const iframe = document.createElement('iframe');
-    iframe.src = mapUrl + window.location.search + ORIGIN_PARAM_MARKER + window.origin;
+    iframe.src = mapUrl + (window.location.search || QUERY_STRING_BASE) + ORIGIN_PARAM_MARKER + window.origin;
     document.querySelector('#bil-map-target').append(iframe);
 
     window.addEventListener('message', receiveMessage, false);
