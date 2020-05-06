@@ -45,10 +45,11 @@
     document.querySelector('#bil-map-target').append(iframe);
 
     window.addEventListener('message', receiveMessage, false);
+    console.log('Message received: ', e);
     function receiveMessage(e) {
         if (e.origin !== mapUrl) {
             console.error('Message from unknown source: ', e);
-            return;
+            // return;
         }
         const newQueryString = e.data.queryString;
         window.history.pushState(null, null, newQueryString);
