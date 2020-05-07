@@ -20,16 +20,18 @@
           name: 'attrib',
           label: 'Attribution',
           widget: 'string',
+          default: ' ',
           hint: 'Enter author name for quote attribution.'
         },
         {
           name: 'body',
           label: 'Quote',
+          default: ' ',
           widget: 'markdown',
           hint: 'Enter the blockquote in Markdown format.'
         }
       ],
-      pattern: /{{%[\s]+fancyblockquote[\s]+attrib="(\S*)"[\s]+%}}([\S\s]*?){{%\/[\s]+fancyblockquote[\s]+%}}/,
+      pattern: /{{%[\s]+fancyblockquote[\s]+attrib="([\S\s]*?)"[\s]%}}([\S\s]*?){{%[\s]\/fancyblockquote[\s]%}}/,
       fromBlock: function (match) {
         return {
           attrib: match[1],
@@ -37,7 +39,7 @@
         };
       },
       toBlock: function (obj) {
-        return '\n{{% fancyblockquote attrib="' + obj.attrib + '" %}}' + obj.body + '{{%/ fancyblockquote %}}' + '\n';
+        return '\n{{% fancyblockquote attrib="' + obj.attrib + '" %}}' + obj.body + '{{% /fancyblockquote %}}' + '\n';
       },
       toPreview: function (obj) {
         return '<blockquote class="fancy shortcode">' +
@@ -46,43 +48,54 @@
                '</blockquote>';
       }
     });
-    // CMS.registerEditorComponent({
-    //   id: "introSection",
-    //   label: "Intro Section",
-    //   fields: [
-    //     {
-    //       name: 'fips',
-    //       label: 'FIPS Code',
-    //       widget: 'string',
-    //       hint: 'must match what is in the table.csv file'
-    //     },
-    //     {
-    //       name: 'data',
-    //       label: 'Table CSV File',
-    //       widget: 'file',
-    //       hint: 'csv file to pull overview stats from'
-    //     },
-    //     {
-    //       name: 'body',
-    //       label: 'Section Content',
-    //       widget: 'markdown'
-    //     }
-    //   ],
-    //   pattern: /{{%[\s]+report_intro[\s]+id="(\S*)"[\s]+data="(\S*)"[\s]+%}}([\S\s]*?){{%\/[\s]+report_intro[\s]+%}}/,
-    //   fromBlock: function (match) {
-    //     return {
-    //       fips: match[1],
-    //       data: match[2],
-    //       body: match[3]
-    //     };
-    //   },
-    //   toBlock: function (obj) {
-    //     return '\n{{% report_intro id="' + obj.fips + '" data="' + obj.data + '" %}}' + obj.body + '{{%/ report_intro %}}' + '\n';
-    //   },
-    //   toPreview: function (obj) {
-    //     return obj.body;
-    //   }
-    // });
+    CMS.registerEditorComponent({
+      id: "personBreaker",
+      label: "Person Breaker",
+      fields: [
+        {
+          name: 'headshot',
+          label: 'Image',
+          widget: 'image',
+          hint: 'Select the bio image for this person.'
+        },
+        {
+          name: 'name',
+          label: 'Name',
+          default: ' ',
+          widget: 'string',
+          hint: 'Enter the name for this person.'
+        },
+        {
+          name: 'title',
+          label: 'Title',
+          default: ' ',
+          widget: 'string',
+          hint: 'Enter the title for this person.'
+        }
+      ],
+      pattern: /{{%[\s]+personbreaker[\s]+headshot="([\S\s]*?)"[\s]+personName="([\S\s]*?)"[\s]+personTitle="([\S\s]*?)"[\s]+%}}/,
+      fromBlock: function (match) {
+        return {
+          headshot: match[1],
+          name: match[2],
+          title: match[3]
+        };
+      },
+      toBlock: function (obj) {
+        return '\n{{% personbreaker headshot="' + obj.headshot + '" personName="' + obj.name + '" personTitle="' + obj.title + '" %}}' + '\n';
+      },
+      toPreview: function (obj) {
+        return '<div class="w-100 person-breaker shortcode">' +
+            '<div class="headshot-wrapper">' +
+              '<img class="update-headshot" src="' + obj.headshot + '" />' +
+            '</div>' +
+            '<div class="col-8 col-md-7 person-wrapper">' +
+              '<div class="update-person-name">' + obj.name + '</div>' +
+              '<div class="update-person-title">' + obj.title + '</div>' +
+            '</div>' +
+          '</div>';
+      }
+    });
   </script>
 </body>
 </html>
