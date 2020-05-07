@@ -12,9 +12,11 @@
   <link rel="stylesheet" href="https://use.typekit.net/ayl0mep.css">
   <script>
     CMS.registerPreviewStyle("/css/cms.css");
+
+    // Fancy blockquote
     CMS.registerEditorComponent({
-      id: "fancyBlockquote",
-      label: "Fancy Blockquote",
+      id: 'fancyBlockquote',
+      label: 'Fancy Blockquote',
       fields: [
         {
           name: 'attrib',
@@ -48,9 +50,11 @@
                '</blockquote>';
       }
     });
+
+    // Full-width headshot and title
     CMS.registerEditorComponent({
-      id: "personBreaker",
-      label: "Person Breaker",
+      id: 'personBreaker',
+      label: 'Person Breaker',
       fields: [
         {
           name: 'headshot',
@@ -73,7 +77,7 @@
           hint: 'Enter the title for this person.'
         }
       ],
-      pattern: /{{%[\s]+personbreaker[\s]+headshot="([\S\s]*?)"[\s]+personName="([\S\s]*?)"[\s]+personTitle="([\S\s]*?)"[\s]+%}}/,
+      pattern: /{{%[\s]+personbreaker[\s]+headshot="([\S\s]*?)"[\s]+name="([\S\s]*?)"[\s]+title="([\S\s]*?)"[\s]+%}}/,
       fromBlock: function (match) {
         return {
           headshot: match[1],
@@ -82,7 +86,7 @@
         };
       },
       toBlock: function (obj) {
-        return '\n{{% personbreaker headshot="' + obj.headshot + '" personName="' + obj.name + '" personTitle="' + obj.title + '" %}}' + '\n';
+        return '\n{{% personbreaker headshot="' + obj.headshot + '" name="' + obj.name + '" title="' + obj.title + '" %}}' + '\n';
       },
       toPreview: function (obj) {
         return '<div class="w-100 person-breaker shortcode">' +
