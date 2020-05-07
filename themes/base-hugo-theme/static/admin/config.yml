@@ -2,6 +2,9 @@ backend:
   name: git-gateway
   branch: production # Branch to update (optional; defaults to master)
 
+# Makes the CMS available when developing locally.
+local_backend: true
+
 publish_mode: editorial_workflow
 
 media_folder: "content/uploads" # Media files will be stored in the repo under content/uploads (to make the image processing work we have to use this technique to spoof the images being page resources
