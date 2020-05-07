@@ -34,10 +34,10 @@ There’s a danger that in a crisis, everyone believes that whatever they believ
  
 Finally, I think that a lot of big policy shifts happen as fixes in times of crisis -- the crisis response model is true for the NHS after WWII and US Social Security in the depression -- so it might be the case that aspects of policies getting implemented around the world right now have some staying power, and if you see universalistic policies as appealing for other reasons in the long run that might be something to keep in mind. 
 
-<blockquote>While targeting based on income may seem like a smart move, it carries significant risks in unintentionally leaving out people who should be included, particularly given how many may experience sudden income loss as a result of the crisis.
-<div class="quote-attrib">Jim Pugh</div>
-</blockquote>
- 
+{{% fancyblockquote attrib="Jim Pugh" %}}
+While targeting based on income may seem like a smart move, it carries significant risks in unintentionally leaving out people who should be included, particularly given how many may experience sudden income loss as a result of the crisis.
+{{% /fancyblockquote %}}
+
 <div class="w-100 person-breaker">
 <div class="headshot-wrapper"><img class="update-headshot" src="/uploads/jim-pugh.jpg" /></div>
 <div class="col-8 col-md-7 person-wrapper">
@@ -84,9 +84,9 @@ When crises such as Covid-19 occur, such systems are essentially meaningless.  U
  
 Experience has shown us time and again that the people who most need these cash payments are also the most likely to be left out of them, for a number of structural and institutional reasons, including policies and practices that have disproportionally disadvantaged communities of color. Regardless of whether the cash payments are universal or targeted, successful programs must compensate for these forms of exclusion to provide inclusive aid to families quickly and include consumer financial protections to ensure equal access and that the cash transfers will not be undermined by fees and predatory practices that would sap the savings and purchasing power that these cash transfers aim to provide. Aspen’s Financial Security Program, in collaboration with our Consumer Insights Collaborative members, will be hosting a webinar on May 13 related to these questions and the need for getting more money into the hands of people.
 
-<blockquote>There is longstanding debate on targeting versus universality, and the bottom line is that no program scores highly on all possible parameters of performance—coverage, adequacy, costs, and progressivity.
-<div class="quote-attrib">Ugo Gentilini</div>
-</blockquote>
+{{% fancyblockquote attrib="Ugo Gentilini" %}}
+There is longstanding debate on targeting versus universality, and the bottom line is that no program scores highly on all possible parameters of performance—coverage, adequacy, costs, and progressivity.
+{{% /fancyblockquote %}}
  
 <div class="w-100 person-breaker">
 <div class="headshot-wrapper"><img class="update-headshot" src="/uploads/ugo-gentilini.jpg" /></div>
@@ -115,4 +115,3 @@ There is longstanding debate on targeting versus universality, and the bottom li
  
 *Ugo Gentilini is a Senior Economist with the Social Protection and Jobs Global Practice and the Global Lead for Social Safety Nets at the World Bank Group. Over the past 15 years, he worked extensively on the analytics and practice of social protection, including in relation to urbanization, economic crises, labor markets, subsidy reforms, fragility and displacement, resilience and disaster risk management, food security and nutrition, and human development. He most recently co-authored Exploring Universal Basic Income: A Guide to Navigating Concepts, Evidence and Practices.*
  
-
