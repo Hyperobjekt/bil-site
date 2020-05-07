@@ -1,0 +1,12 @@
+{{ $headshot := .Get "headshot" }}
+{{ $personName := .Get "personName" }}
+{{ $personTitle := .Get "personTitle" }}
+<div class="w-100 person-breaker shortcode">
+  <div class="headshot-wrapper" style="">
+    <img class="update-headshot" src="{{ $headshot }}" />
+  </div>
+  <div class="col-8 col-md-7 person-wrapper">
+    <div class="update-person-name">{{ $personName }}</div>
+    <div class="update-person-title">{{ $personTitle }}</div>
+  </div>
+</div>
