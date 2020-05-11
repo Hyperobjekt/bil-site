@@ -1,0 +1,63 @@
+{{ define "main" }}
+
+<div id="hero" class="hero">
+    <div class="hero-child row">
+        
+        <div class="hero-copy col-10 col-md-8 offset-md-1 d-flex align-items-center">
+            {{ with .Site.Data.covid.covid19digest }}
+                <h1 class="page-hero">{{ .herotext }}</h1>
+            {{ end }}
+        </div>
+    </div>
+</div>
+
+{{ with .Site.Data.covid.covid19digest }}
+<div class="row subnav d-md-none small-tab-nav">
+    <div class="dropdown">
+        <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                {{/* .labupdates */}} 
+        </button>
+  <ul class="anchor-links dropdown-menu">
+        <li class="mb-3"><a href="/news">{{/* .inthenews */}}</a></li>
+        <li class="mb-3"><a href="/news/newsletters">{{/* .newsletterstitle */}}</a></li>
+       
+</ul>
+</div>
+</div>
+<div class="row d-sm-none d-md-flex subnav">
+    <div class="col-12 col-md-10 offset-md-1">
+        <ul class="d-flex justify-content-center align-items-center pl-md-0">
+        
+            <li class=""><a href="/news">{{/* .inthenews */}}</a></li>
+            <li class="mx-md-5 active">{{/* .labupdates */}}</li>
+            <li class=""><a href="/news/newsletters">{{/* .newsletterstitle */}}</a></li>
+        
+        </ul>
+    </div>
+</div>
+{{ end }}
+<!-- /SUBNAV -->
+
+<div id="mapping-text" class="pt-sm-5 pt-md-5 pt-lg-7 pt-xl-9 pb-sm-7 pb-md-7 pb-xl-8">
+        {{ range .Site.Data.covid.covid19digest.policytools  }}
+                
+            <div class="row mb-4 mb-md-4 mb-lg-8 newslist">
+                <div class="col-12 col-md-8 offset-md-2 d-block d-md-flex">
+                    <div class="list-content pr-3">
+                        <div class="topdivider mb-3 mb-md-4 mb-lg-3"></div>
+
+                        <a href="{{ .link }}"><h2 class="news mb-sm-2 mb-md-2 mb-xl-2">{{ .title }}</h2></a>
+                        <p class="medgraytext">{{ .excerpt }}</p>     
+                        <div class="news-item-link">
+                            <a class="plainlink coldblcktext" href="">&nbsp;{{ partial "rightarrow.html" }}</a>
+                        </div>    
+                    </div>
+                </div>    
+            </div>
+        {{ end }}    
+    </div> 
+
+
+{{ partial "subscribe.html" .}}
+
+{{ end }}
