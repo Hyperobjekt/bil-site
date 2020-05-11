@@ -8,74 +8,98 @@
 </head>
 <body>
   <!-- Include the script that builds the page and powers Netlify CMS -->
-  <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+  <script src="https://unpkg.com/netlify-cms@2.10.48/dist/netlify-cms.js"></script>
   <link rel="stylesheet" href="https://use.typekit.net/ayl0mep.css">
   <script>
     CMS.registerPreviewStyle("/css/cms.css");
-    /* CMS.registerEditorComponent({
-      // Internal id of the component
-      id: "breaker",
-      // Visible label
-      label: "Breaker Image",
-      // Fields the user need to fill out when adding an instance of the component
-      fields: [{name: 'breaker_image', label: 'Breaker Image', widget: 'image'}],
-      // Pattern to identify a block as being an instance of this component
-      pattern: /^{{% breaker image="(\S+)" %}}$/,
-      // Function to extract data elements from the regexp match
-      fromBlock: function(match) {
-        return {
-          breaker_image: match[1]
-        };
-      },
-      // Function to create a text block from an instance of this component
-      toBlock: function(obj) {
-        return (
-          '{{% breaker image="' + obj.breaker_image + '" %}}'
-        );
-      },
-      // Preview output for this component. Can either be a string or a React component
-      // (component gives better render performance)
-      toPreview: function(obj) {
-        return (
-          '<img src="' + obj.breaker_image + '" style="width:100%;height:275px;">'
-        );
-      }
-    }); */
-    /* CMS.registerEditorComponent({
-      // Internal id of the component
-      id: "floatimage",
-      // Visible label
-      label: "Float Image",
-      // Fields the user need to fill out when adding an instance of the component
+
+    // Fancy blockquote
+    CMS.registerEditorComponent({
+      id: 'fancyBlockquote',
+      label: 'Fancy Blockquote',
       fields: [
-        {name: 'float', label: 'Float', widget: 'select', options: ["right", "left"]},
-        {name: 'image', label: 'Float Image', widget: 'image'}
+        {
+          name: 'attrib',
+          label: 'Attribution',
+          widget: 'string',
+          default: ' ',
+          hint: 'Enter author name for quote attribution.'
+        },
+        {
+          name: 'body',
+          label: 'Quote',
+          default: ' ',
+          widget: 'markdown',
+          hint: 'Enter the blockquote in Markdown format.'
+        }
       ],
-      // Pattern to identify a block as being an instance of this component
-      // pattern: /^{{% breaker image="(\S+)" %}}$/,
-      pattern: /^{{% floatimage float="(\S+)" image="(\S+)" %}}$/,
-      // Function to extract data elements from the regexp match
-      fromBlock: function(match) {
+      pattern: /^{{%[\s]+fancyblockquote[\s]+attrib="([\S\s]*?)"[\s]%}}([\S\s]*?){{%[\s]\/fancyblockquote[\s]%}}/,
+      fromBlock: function (match) {
         return {
-          float: match[1],
-          image: match[2]
+          attrib: match[1],
+          body: match[2]
         };
       },
-      // Function to create a text block from an instance of this component
-      toBlock: function(obj) {
-        return (
-          // '{{% breaker image="' + obj.breaker_image + '" %}}'
-          '{{% floatimage float="' + obj.float + '" image="' + obj.image + '" %}}'
-        );
+      toBlock: function (obj) {
+        return '\n{{% fancyblockquote attrib="' + obj.attrib + '" %}}' + obj.body + '{{% /fancyblockquote %}}' + '\n';
       },
-      // Preview output for this component. Can either be a string or a React component
-      // (component gives better render performance)
-      toPreview: function(obj) {
-        return (
-          '<img class="float-img float-' + obj.float + '" src="' + obj.image + '" width="296" height="214">'
-        );
+      toPreview: function (obj) {
+        return '<blockquote class="fancy shortcode">' +
+                 obj.body +
+                 '<div class="quote-attrib">' + obj.attrib + '</div>' +
+               '</blockquote>';
       }
-    }); */
+    });
+
+    // Full-width headshot and title
+    CMS.registerEditorComponent({
+      id: 'personBreaker',
+      label: 'Person Breaker',
+      fields: [
+        {
+          name: 'headshot',
+          label: 'Image',
+          widget: 'image',
+          hint: 'Select the bio image for this person.'
+        },
+        {
+          name: 'name',
+          label: 'Name',
+          default: ' ',
+          widget: 'string',
+          hint: 'Enter the name for this person.'
+        },
+        {
+          name: 'title',
+          label: 'Title',
+          default: ' ',
+          widget: 'string',
+          hint: 'Enter the title for this person.'
+        }
+      ],
+      pattern: /^{{%[\s]+personbreaker[\s]+headshot="([\S\s]*?)"[\s]+name="([\S\s]*?)"[\s]+title="([\S\s]*?)"[\s]+%}}/,
+      fromBlock: function (match) {
+        return {
+          headshot: match[1],
+          name: match[2],
+          title: match[3]
+        };
+      },
+      toBlock: function (obj) {
+        return '\n{{% personbreaker headshot="' + obj.headshot + '" name="' + obj.name + '" title="' + obj.title + '" %}}' + '\n';
+      },
+      toPreview: function (obj) {
+        return '<div class="w-100 person-breaker shortcode">' +
+            '<div class="headshot-wrapper">' +
+              '<img class="update-headshot" src="' + obj.headshot + '" />' +
+            '</div>' +
+            '<div class="col-8 col-md-7 person-wrapper">' +
+              '<div class="update-person-name">' + obj.name + '</div>' +
+              '<div class="update-person-title">' + obj.title + '</div>' +
+            '</div>' +
+          '</div>';
+      }
+    });
   </script>
 </body>
 </html>
