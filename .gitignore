@@ -11,5 +11,5 @@ Icon
 
 public/*
 node_modules/
-resources/
+resources/**
 resources/_gen/
