@@ -127,7 +127,8 @@
            
             <div class="col-12 col-md-6 col-lg-5 d-block d-md-flex flex-column digestlist mt-5 mt-md-0">
                 <div class="superhead">LATEST ADDITIONS:</div>
-                {{ range first 3 .Site.Data.covid.covid19digest.events  }}
+                {{ $events := where .Site.Data.covid.covid19digest.events (time "date") "gt" now}}
+                {{ range first 3 $events  }}
                     <div class="">
                         <div class="topdivider mb-3 mb-md-4"></div>
                         <a href="{{ .link }}" target="_blank"><h3 class="thin news mb-sm-2 mb-md-2 mb-xl-2">{{ .title }}</h3></a>
