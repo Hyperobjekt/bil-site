@@ -38,6 +38,21 @@
 {{ end }}
 <!-- /SUBNAV -->
 
+<div id="digest-intro" class="pt-sm-5 pt-md-5 pt-lg-7 pt-xl-9 pb-6 pb-lg-8">
+        
+    <div class="row newslist">
+        <div class="col-12 col-md-7 offset-md-1 pr-md-6 pr-lg-7 pr-xl-8">
+            {{ with .Site.Data.covid.covid19digest }}
+            <p class="medgraytext mb-2">{{ .introtext }}</p>
+          
+            {{ end }}
+        </div>
+          
+    </div>
+
+</div>
+
+
 <div id="policy-tools" class="pt-sm-5 pt-md-5 pt-lg-7 pt-xl-9">
         
             <div class="row newslist mb-6 mb-lg-8">

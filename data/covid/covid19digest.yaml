@@ -1,7 +1,8 @@
 herotext: 'COVID-19 Digest'
-policyheader: Policy Tools
+introtext: The current COVID-19 pandemic has highlighted gaping holes in safety nets globally, leaving vulnerable and marginalized populations worse off, and those who were once secure on the verge of falling into poverty. During past economic shocks, governments have scaled up existing programs, and implemented new support programs to buffer the social and economic impact for individuals and households. Similarly, during this current shock, governments are doing the same, though with increasing calls for the implementation of a basic income-like policy. As part of its mission the Basic Income Lab’s mission to convene key stakeholders and members of the community around the politics, philosophy and economics of universal basic income, the Lab has put together a “living” digest of  tools, research on events from research institutions and think tanks on basic income during the global pandemic.We encourage you to explore the tools. Should you find something missing, feel free to email us at basicincomelab@stanford.edu.
+policyheader: 'Policy Tools'
 policytext: These policy tools lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec tempor tortor. Nunc vulputate felis non metus condimentum pulvinar. Fusce viverra eu erat sit amet porta. Etiam semper dapibus vulputate. 
-policyicon: /images/icons/policytools.svg
+policyicon: '/images/icons/policytools.svg'
 analysisheader: Analysis
 analysistext: These analyses tools lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec tempor tortor. Nunc vulputate felis non metus condimentum pulvinar. Fusce viverra eu erat sit amet porta. Etiam semper dapibus vulputate. 
 analysisicon: /images/icons/analysis.svg

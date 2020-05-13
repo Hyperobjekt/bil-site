@@ -20020,7 +20020,19 @@ body.type-events .pagination {
   border: none;
 }
 
-#analysis {
+.digestlist .btn-primary {
+  background-color: transparent;
+  border: 1px solid #A86815;
+  color: #A86815;
+}
+
+.digestlist .btn-primary:hover {
+  border: 1px solid #A86815;
+  background-color: #A86815;
+  color: #fff;
+}
+
+#digest-intro, #analysis {
   background-color: #FFFCF6;
 }
 

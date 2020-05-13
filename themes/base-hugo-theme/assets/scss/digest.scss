@@ -4,12 +4,23 @@
             border: none;
         }
     }
+    .btn-primary {
+        background-color: transparent;
+        border: 1px solid #A86815;
+        color: #A86815;
+        &:hover {
+            border: 1px solid #A86815;
+            background-color: #A86815;
+            color: #fff;
+        } 
+    }
 }
 
-#analysis {
+#digest-intro, #analysis {
     background-color: #FFFCF6;
 }
 
 #past-events .row {
     //border-top: 1px solid #999;
 }
+
