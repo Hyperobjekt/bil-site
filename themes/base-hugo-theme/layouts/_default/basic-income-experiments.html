@@ -23,34 +23,27 @@
     </ul>
   </div>
 </div>
-<!--<div class="row d-sm-none d-md-flex subnav">
-    <div class="col-12 col-md-10 offset-md-1">
-        <ul class="d-flex justify-content-center align-items-center pl-md-0">
-        
-            <li class=""><a href="/research/mapping-ubi-research/">Mapping UBI Research</a></li>
-            <li class="mx-md-5"><a href="/research/ubi-cities-toolkit">UBI Cities Toolkit</a></li>
-            <li class="active">Basic Income Experiments</li>
-          
-        </ul>
-    </div>
-</div> -->
-<!-- /SUBNAV -->
+
 <div id="bil-map-target" class="mb-8"></div>
-<!-- <iframe id="bil-map-container" style="width:96vw;height:96vh;" src="www.google.com"><iframe> -->
 <script>
     const mapUrl = 'https://hyperobjekt.github.io/bil-map/';
     const mapOrigin = 'https://hyperobjekt.github.io';
     // const mapUrl = 'http://localhost:3000';
     // const mapOrigin = 'http://localhost:3000';
 
-    // KEEP IN SYNC WITH BIL-MAP
-    const QUERY_STRING_BASE = '?s=';
-    // KEEP IN SYNC WITH BIL-MAP
-    const ORIGIN_PARAM_MARKER = '&o=';
+    const QUERY_STRING_BASE = '?sel='; // KEEP IN SYNC WITH BIL-MAP
+    const ORIGIN_PARAM_MARKER = '&origin='; // KEEP IN SYNC WITH BIL-MAP
+    const PATH_PARAM_MARKER = '&path='; // KEEP IN SYNC WITH BIL-MAP
     const iframe = document.createElement('iframe');
-    iframe.src = mapUrl + (window.location.search || QUERY_STRING_BASE) + ORIGIN_PARAM_MARKER + window.origin;
+
+    iframe.src = mapUrl +
+        // pass to the map as query params:
+        (window.location.search || QUERY_STRING_BASE) // the selected experiments
+        + ORIGIN_PARAM_MARKER + (window.origin || '') // the origin (needed when map sends selection updates to the URL query string (see below))
+        + PATH_PARAM_MARKER + (window.location.pathname || ''); // and the path (needed to reconstruct the entire URL for when a user clicks to copy to share it)
     document.querySelector('#bil-map-target').append(iframe);
 
+    // when selection changes, iframed map sends a message to update the URL query string
     window.addEventListener('message', receiveMessage, false);
     function receiveMessage(e) {
         if (e.origin !== mapOrigin) {
@@ -61,20 +54,6 @@
         window.history.pushState(null, null, newQueryString);
     }
 </script>
-
-<!--<div id="experiments-table" class="pt-sm-5 pt-md-7 pt-lg-9 pt-xl-12 pb-sm-7 pb-md-7 pb-xl-8">
-    <div class="row">
-        <div class="col-12 col-md-7 mx-auto mb-3 text-center">
-            {{ with .Site.Data.experiments.content }}
-                <p>{{ .intro | markdownify }}</p>
-                <h2 class="bronzetext">{{ .heading }}</h2>
-            {{ end }}
-            </div>
-        <div class="col-12 col-md-10 offset-md-1">
-            {{ .Content }}
-        </div>
-    </div> 
-</div>   --> 
 
 {{ partial "subscribe.html" .}}
 
