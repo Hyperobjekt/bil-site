@@ -15,9 +15,27 @@
         } 
     }
 }
+.digestsingle {
+    div:nth-child(1) {
+        .topdivider {
+            border: none;
+        }
+    } 
+}
 
-#digest-intro, #analysis {
+.digestdate {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    @include media-breakpoint-up(md) {
+        font-size: 1.2rem;
+    }
+}
+
+#digest-intro, .covid-19-digest #analysis {
     background-color: #FFFCF6;
+}
+.type-covid-events #past-events {
+   // background-color: #FFFCF6;
 }
 
 #past-events .row {

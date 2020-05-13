@@ -20032,7 +20032,22 @@ body.type-events .pagination {
   color: #fff;
 }
 
-#digest-intro, #analysis {
+.digestsingle div:nth-child(1) .topdivider {
+  border: none;
+}
+
+.digestdate {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+}
+
+@media (min-width: 768px) {
+  .digestdate {
+    font-size: 1.2rem;
+  }
+}
+
+#digest-intro, .covid-19-digest #analysis {
   background-color: #FFFCF6;
 }
 

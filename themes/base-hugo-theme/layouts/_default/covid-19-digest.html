@@ -11,15 +11,16 @@
     </div>
 </div>
 
-{{ with .Site.Data.covid.covid19digest }}
+{{ with .Site.Data.news.page }}
 <div class="row subnav d-md-none small-tab-nav">
     <div class="dropdown">
         <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                {{/* .labupdates */}} 
+                {{ .digesttitle }} 
         </button>
   <ul class="anchor-links dropdown-menu">
-        <li class="mb-3"><a href="/news">{{/* .inthenews */}}</a></li>
-        <li class="mb-3"><a href="/news/newsletters">{{/* .newsletterstitle */}}</a></li>
+        <li class="mb-3"><a href="/news">{{ .labupdates }}</a></li>
+        <li class="mb-3"><a href="/news">{{ .inthenews }}</a></li>
+        <li class="mb-3"><a href="/news/newsletters">{{ .newsletterstitle }}</a></li>
        
 </ul>
 </div>
@@ -27,10 +28,10 @@
 <div class="row d-sm-none d-md-flex subnav">
     <div class="col-12 col-md-10 offset-md-1">
         <ul class="d-flex justify-content-center align-items-center pl-md-0">
-        
-            <li class=""><a href="/news">{{/* .inthenews */}}</a></li>
-            <li class="mx-md-5 active">{{/* .labupdates */}}</li>
-            <li class=""><a href="/news/newsletters">{{/* .newsletterstitle */}}</a></li>
+            <li class="active">{{ .digesttitle }}</li>
+            <li class="mx-md-5"><a href="/news">{{ .inthenews }}</a></li>
+            <li class="mr-md-5"><a href="/news/lab-updates">{{ .labupdates }}</a></li>
+            <li class=""><a href="/news/newsletters">{{ .newsletterstitle }}</a></li>
         
         </ul>
     </div>
@@ -133,6 +134,7 @@
                             <div class="">
                                 <div class="topdivider mb-3 mb-md-4"></div>
                                 <a href="{{ $element.link }}" target="_blank"><h3 class="thin news mb-sm-2 mb-md-2 mb-xl-2">{{ $element.title }}</h3></a>
+                                <div class="superhead digestdate mb-2">{{ dateFormat "January 2, 2006" .date }}</div>
                                 <p class="medgraytext mb-2">{{ $element.excerpt | markdownify | safeHTML }}</p>     
                                 <div class="news-item-link mb-3 mb-lg-4">
                                     <a class="plainlink bronzetext" href="{{ $element.link }}" target="_blank">VIEW {{ partial "rightarrow.html" }}</a>
@@ -160,15 +162,22 @@
            
             <div class="col-12 col-md-6 col-lg-5 d-block d-md-flex flex-column digestlist mt-5 mt-md-0">
                 <div class="superhead">LATEST ADDITIONS:</div>
-                {{ range first 3 .Site.Data.covid.covid19digest.events  }}
-                    <div class="">
-                        <div class="topdivider mb-3 mb-md-4 "></div>
-                        <a href="{{ .link }}" target="_blank"><h3 class="thin news mb-sm-2 mb-md-2 mb-xl-2">{{ .title }}</h3></a>
-                        <p class="medgraytext mb-2">{{ .excerpt | markdownify | safeHTML }}</p>     
-                        <div class="news-item-link mb-3 mb-lg-4">
-                            <a class="plainlink bronzetext" href="">VIEW {{ partial "rightarrow.html" }}</a>
-                        </div>    
-                    </div>
+                {{ $count := 0 }}
+                {{ range .Site.Data.covid.covid19digest.events  }}
+                    {{ if lt (time .date) now }}
+                        {{ $count = (add $count 1)}}
+                        {{ if lt $count 4 }}
+                        <div class="">
+                            <div class="topdivider mb-3 mb-md-4 "></div>
+                            <a href="{{ .link }}" target="_blank"><h3 class="thin news mb-sm-2 mb-md-2 mb-xl-2">{{ .title }}</h3></a>
+                            <div class="superhead digestdate mb-2">{{ dateFormat "January 2, 2006" .date }}</div>
+                            <p class="medgraytext mb-2">{{ .excerpt | markdownify | safeHTML }}</p>     
+                            <div class="news-item-link mb-3 mb-lg-4">
+                                <a class="plainlink bronzetext" href="">VIEW {{ partial "rightarrow.html" }}</a>
+                            </div>    
+                        </div>
+                        {{ end }}
+                    {{ end }}
                 {{ end }}
                 <a class="d-flex justify-content-center align-items-center btn btn-primary" href="/covid-19-digest/events">VIEW ALL</a>    
             </div>    
