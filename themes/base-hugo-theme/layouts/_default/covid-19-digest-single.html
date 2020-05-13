@@ -21,7 +21,7 @@
                 <div class="col-12 col-md-8 col-lg-7 col-xl-6 mx-auto">
                     {{ with .Site.Data.covid.covid19digest }}
                     <img src="{{ .policyicon }}" />
-                    <h2>{{ .policyheader }}</h2>
+                    <h2 class="digest">{{ .policyheader }}</h2>
 
                     {{ end }}
                 </div>
@@ -33,7 +33,7 @@
                             <a href="{{ .link }}" target="_blank"><h3 class="news mb-sm-2 mb-md-2 mb-xl-2">{{ .title }}</h3></a>
                             <p class="medgraytext">{{ .excerpt | markdownify | safeHTML }}</p>     
                             <div class="news-item-link">
-                                <a class="plainlink coldblcktext" href="{{ .link }}" target="_blank">VIEW &nbsp;{{ partial "rightarrow.html" }}</a>
+                                <a class="plainlink bronzetext" href="{{ .link }}" target="_blank">VIEW &nbsp;{{ partial "rightarrow.html" }}</a>
                             </div>    
                         </div>
                     {{ end }}    
@@ -60,7 +60,7 @@
                         <a href="{{ .link }}" target="_blank"><h3 class="news mb-sm-2 mb-md-2 mb-xl-2">{{ .title }}</h3></a>
                         <p class="medgraytext">{{ .excerpt | markdownify | safeHTML }}</p>     
                         <div class="news-item-link">
-                            <a class="plainlink coldblcktext" href="{{ .link }}" target="_blank">VIEW &nbsp;{{ partial "rightarrow.html" }}</a>
+                            <a class="plainlink bronzetext" href="{{ .link }}" target="_blank">VIEW &nbsp;{{ partial "rightarrow.html" }}</a>
                         </div>    
                     </div>
                 {{ end }}    
@@ -87,7 +87,7 @@
                         <a href="{{ .link }}" target="_blank"><h3 class="news mb-sm-2 mb-md-2 mb-xl-2">{{ .title }}</h3></a>
                         <p class="medgraytext">{{ .excerpt | markdownify | safeHTML }}</p>     
                         <div class="news-item-link">
-                            <a class="plainlink coldblcktext" href="{{ .link }}" target="_blank">VIEW &nbsp;{{ partial "rightarrow.html" }}</a>
+                            <a class="plainlink bronzetext" href="{{ .link }}" target="_blank">VIEW &nbsp;{{ partial "rightarrow.html" }}</a>
                         </div>    
                     </div>
                 {{ end }}    

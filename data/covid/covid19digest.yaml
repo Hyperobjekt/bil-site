@@ -1,15 +1,16 @@
 herotext: 'COVID-19 Digest'
 policyheader: Policy Tools
-policytext: Lorem Ipsum
-policyicon:
+policytext: These policy tools lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec tempor tortor. Nunc vulputate felis non metus condimentum pulvinar. Fusce viverra eu erat sit amet porta. Etiam semper dapibus vulputate. 
+policyicon: /images/icons/policytools.svg
 analysisheader: Analysis
-analysistext: Lorem Ipsum
-analysisicon:
+analysistext: These analyses tools lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec tempor tortor. Nunc vulputate felis non metus condimentum pulvinar. Fusce viverra eu erat sit amet porta. Etiam semper dapibus vulputate. 
+analysisicon: /images/icons/analysis.svg
 upcomingheader: Upcoming Events
-upcomingtext: Lorem ipsum
-upcomingicon:
+upcomingtext: These upcoming events lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec tempor tortor. Nunc vulputate felis non metus condimentum pulvinar. Fusce viverra eu erat sit amet porta. Etiam semper dapibus vulputate. 
+upcomingicon: /images/icons/upcoming.svg
 pastheader: Past Events
-pasttext: Lorem ipsum
+pasttext: These past events lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec tempor tortor. Nunc vulputate felis non metus condimentum pulvinar. Fusce viverra eu erat sit amet porta. Etiam semper dapibus vulputate. 
+pasticon: /images/icons/pastevents.svg
 policytools:
   - excerpt: A curated summary of articles, opinion pieces, papers and Twitter threads
     title: 'First Policy Response: Canada’s policy community response to COVID-19'

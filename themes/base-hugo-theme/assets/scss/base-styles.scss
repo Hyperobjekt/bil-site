@@ -153,8 +153,11 @@ html {
         font-size: 4rem;
         line-height: 1.4;
         letter-spacing: .039rem;
-     
     } 
+  }
+  h2.thin {
+    @include sofia-med;
+    letter-spacing: 0;
   }
   h3, .basic-income-experiments h2 {
     @include sofia-bold;
@@ -172,6 +175,25 @@ html {
       font-size: 2.6rem;
       line-height: 4rem;
       letter-spacing: 0.04rem;
+    }
+  }
+  h3.thin {
+    @include sofia-med;
+    font-size: 1.8rem;
+    @include media-breakpoint-up(md) {
+        font-size: 1.8rem;
+        line-height: 1.4;
+        letter-spacing: 0rem;
+      }
+    @include media-breakpoint-up(lg) {
+        font-size: 2.1rem;
+        line-height: 1.4;
+        letter-spacing: 0rem;
+      }
+    @include media-breakpoint-up(xl) {
+      font-size: 2.3rem;
+      line-height: 1.4;
+      letter-spacing: 0rem;
     }
   }
   h3.courses {
@@ -218,6 +240,7 @@ html {
     font-size: 1rem;
     line-height: 1.5rem;
     letter-spacing: 0.213rem;
+    color: #282F36;
     @include media-breakpoint-up(md) {
         font-size: 1rem;
         line-height: 1.5rem;
@@ -350,6 +373,34 @@ html {
     } 
   }
 
+  .covid-19-digest, .type-policy-tools, .type-covid-analysis, .type-covid-events {
+    p {
+      @include sofia-reg;
+      font-size: 1.4rem;
+      line-height: 2.1rem;
+      margin-bottom: 2rem;
+     
+    @include media-breakpoint-up(md) {
+        font-size: 1.4rem;
+        line-height: 1.5;
+        letter-spacing: .03rem;
+        margin-bottom: 2rem;
+    }
+    @include media-breakpoint-up(lg) {
+        font-size: 1.45rem;
+        line-height: 1.5;
+        letter-spacing: .03rem;
+        margin-bottom: 3rem;
+    }
+    @include media-breakpoint-up(xl) {
+        font-size: 1.5rem;
+        line-height: 1.5;
+        letter-spacing: 0rem;
+     
+    } 
+    }
+  }
+
   .type-labupdates {
     b, strong {
       color: #464646;
@@ -424,7 +475,34 @@ html {
         }
       }
     }
-
+  }
+  .covid-19-digest, .type-policy-tools, .type-covid-analysis, .type-covid-events {
+    .plainlink {
+      @include sofia-bold;
+      font-size: 1.2rem;
+      letter-spacing: 0.1rem;
+      line-height: 2.1rem;
+      @include media-breakpoint-up(lg) {
+          font-size: 1.3rem;
+          letter-spacing: 0.15rem;
+          line-height: 2.25rem;
+      }
+      @include media-breakpoint-up(xl) {
+          font-size: 1.3rem;
+          letter-spacing: 0.25rem;
+          line-height: 2.4rem;
+      }
+      svg {
+        &.rightarrow {
+          width: 13px;
+          g {
+          fill: $button-bronze !important;
+          }
+        }
+      }
+    }
+    
+    
   }
   .imgcaption {
     font-size: 1.4rem;

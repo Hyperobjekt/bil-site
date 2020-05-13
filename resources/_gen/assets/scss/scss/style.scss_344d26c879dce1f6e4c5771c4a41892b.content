@@ -17172,6 +17172,13 @@ h2 {
   }
 }
 
+h2.thin {
+  font-family: sofia-pro,sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0;
+}
+
 h3, .basic-income-experiments h2 {
   font-family: sofia-pro,sans-serif;
   font-weight: 700;
@@ -17199,6 +17206,37 @@ h3, .basic-income-experiments h2 {
     font-size: 2.6rem;
     line-height: 4rem;
     letter-spacing: 0.04rem;
+  }
+}
+
+h3.thin {
+  font-family: sofia-pro,sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 1.8rem;
+}
+
+@media (min-width: 768px) {
+  h3.thin {
+    font-size: 1.8rem;
+    line-height: 1.4;
+    letter-spacing: 0rem;
+  }
+}
+
+@media (min-width: 992px) {
+  h3.thin {
+    font-size: 2.1rem;
+    line-height: 1.4;
+    letter-spacing: 0rem;
+  }
+}
+
+@media (min-width: 1380px) {
+  h3.thin {
+    font-size: 2.3rem;
+    line-height: 1.4;
+    letter-spacing: 0rem;
   }
 }
 
@@ -17272,6 +17310,7 @@ h4, .superhead {
   font-size: 1rem;
   line-height: 1.5rem;
   letter-spacing: 0.213rem;
+  color: #282F36;
 }
 
 @media (min-width: 768px) {
@@ -17460,6 +17499,41 @@ body, p, tr {
   }
 }
 
+.covid-19-digest p, .type-policy-tools p, .type-covid-analysis p, .type-covid-events p {
+  font-family: sofia-pro,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .covid-19-digest p, .type-policy-tools p, .type-covid-analysis p, .type-covid-events p {
+    font-size: 1.4rem;
+    line-height: 1.5;
+    letter-spacing: .03rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .covid-19-digest p, .type-policy-tools p, .type-covid-analysis p, .type-covid-events p {
+    font-size: 1.45rem;
+    line-height: 1.5;
+    letter-spacing: .03rem;
+    margin-bottom: 3rem;
+  }
+}
+
+@media (min-width: 1380px) {
+  .covid-19-digest p, .type-policy-tools p, .type-covid-analysis p, .type-covid-events p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    letter-spacing: 0rem;
+  }
+}
+
 .type-labupdates b, .type-labupdates strong {
   color: #464646;
 }
@@ -17552,6 +17626,39 @@ a:hover {
 
 .plainlink.whitetext:hover svg g {
   fill: #6EC9D7 !important;
+}
+
+.covid-19-digest .plainlink, .type-policy-tools .plainlink, .type-covid-analysis .plainlink, .type-covid-events .plainlink {
+  font-family: sofia-pro,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  line-height: 2.1rem;
+}
+
+@media (min-width: 992px) {
+  .covid-19-digest .plainlink, .type-policy-tools .plainlink, .type-covid-analysis .plainlink, .type-covid-events .plainlink {
+    font-size: 1.3rem;
+    letter-spacing: 0.15rem;
+    line-height: 2.25rem;
+  }
+}
+
+@media (min-width: 1380px) {
+  .covid-19-digest .plainlink, .type-policy-tools .plainlink, .type-covid-analysis .plainlink, .type-covid-events .plainlink {
+    font-size: 1.3rem;
+    letter-spacing: 0.25rem;
+    line-height: 2.4rem;
+  }
+}
+
+.covid-19-digest .plainlink svg.rightarrow, .type-policy-tools .plainlink svg.rightarrow, .type-covid-analysis .plainlink svg.rightarrow, .type-covid-events .plainlink svg.rightarrow {
+  width: 13px;
+}
+
+.covid-19-digest .plainlink svg.rightarrow g, .type-policy-tools .plainlink svg.rightarrow g, .type-covid-analysis .plainlink svg.rightarrow g, .type-covid-events .plainlink svg.rightarrow g {
+  fill: #B26F16 !important;
 }
 
 .imgcaption {
@@ -19907,6 +20014,14 @@ body.type-events .pagination {
   font-style: normal;
   display: flex;
   justify-content: space-between;
+}
+
+.digestlist div:nth-child(2) .topdivider {
+  border: none;
+}
+
+#analysis {
+  background-color: #FFFCF6;
 }
 
 /*# sourceMappingURL=style.css.map */
