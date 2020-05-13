@@ -132,7 +132,7 @@
                         {{ if lt $index 3 }}
                             <div class="">
                                 <div class="topdivider mb-3 mb-md-4"></div>
-                                <a href="{{ .link }}" target="_blank"><h3 class="thin news mb-sm-2 mb-md-2 mb-xl-2">{{ $element.title }}</h3></a>
+                                <a href="{{ $element.link }}" target="_blank"><h3 class="thin news mb-sm-2 mb-md-2 mb-xl-2">{{ $element.title }}</h3></a>
                                 <p class="medgraytext mb-2">{{ $element.excerpt | markdownify | safeHTML }}</p>     
                                 <div class="news-item-link mb-3 mb-lg-4">
                                     <a class="plainlink bronzetext" href="{{ $element.link }}" target="_blank">VIEW {{ partial "rightarrow.html" }}</a>
