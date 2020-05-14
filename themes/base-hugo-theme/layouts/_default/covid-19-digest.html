@@ -68,7 +68,7 @@
                
                 <div class="col-12 col-md-6 col-lg-5 d-block d-md-flex flex-column digestlist mt-5 mt-md-0">
                     <div class="superhead">MOST RECENT:</div>
-                    {{ range first 3 .Site.Data.covid.covid19digest.policytools  }}
+                    {{ range first 3 .Site.Data.covid.covid19policy.policytools  }}
                         <div class="">
                             <div class="topdivider mb-3 mb-md-4"></div>
                             <a href="{{ .link }}" target="_blank"><h3 class="thin news mb-sm-2 mb-md-2 mb-xl-2">{{ .title }}</h3></a>
@@ -98,7 +98,7 @@
            
             <div class="col-12 col-md-6 col-lg-5 d-block d-md-flex flex-column digestlist mt-5 mt-md-0">
                 <div class="superhead">MOST RECENT:</div>
-                {{ range first 3 .Site.Data.covid.covid19digest.analysis  }}
+                {{ range first 3 .Site.Data.covid.covid19analysis.analysis  }}
                     <div class="">
                         <div class="topdivider mb-3 mb-md-4"></div>
                         <a href="{{ .link }}" target="_blank"><h3 class="thin news mb-sm-2 mb-md-2 mb-xl-2">{{ .title }}</h3></a>
@@ -128,7 +128,7 @@
            
             <div class="col-12 col-md-6 col-lg-5 d-block d-md-flex flex-column digestlist mt-5 mt-md-0">
                 <div class="superhead">LATEST ADDITIONS:</div>
-                {{ range $index, $element := .Site.Data.covid.covid19digest.events  }}
+                {{ range $index, $element := .Site.Data.covid.covid19events.events  }}
                     {{ if gt (time $element.date) now }}
                         {{ if lt $index 3 }}
                             <div class="">
@@ -163,7 +163,7 @@
             <div class="col-12 col-md-6 col-lg-5 d-block d-md-flex flex-column digestlist mt-5 mt-md-0">
                 <div class="superhead">LATEST ADDITIONS:</div>
                 {{ $count := 0 }}
-                {{ range .Site.Data.covid.covid19digest.events  }}
+                {{ range .Site.Data.covid.covid19events.events  }}
                     {{ if lt (time .date) now }}
                         {{ $count = (add $count 1)}}
                         {{ if lt $count 4 }}

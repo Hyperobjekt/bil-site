@@ -27,7 +27,7 @@
                 </div>
                <div class="w-100"></div>
                 <div class="col-12 col-md-8 col-lg-7 col-xl-6 mx-auto d-block d-md-flex flex-column digestsingle">
-                    {{ range .Site.Data.covid.covid19digest.policytools  }}
+                    {{ range .Site.Data.covid.covid19policy.policytools  }}
                         <div class="">
                             <div class="topdivider mb-3 mb-md-4"></div>
                             <a href="{{ .link }}" target="_blank"><h3 class="news thin mb-sm-2 mb-md-2 mb-xl-2">{{ .title }}</h3></a>
@@ -55,7 +55,7 @@
             </div>
             <div class="w-100"></div>
             <div class="col-12 col-md-8 col-lg-7 col-xl-6 mx-auto d-block d-md-flex flex-column digestsingle">
-                {{ range .Site.Data.covid.covid19digest.analysis  }}
+                {{ range .Site.Data.covid.covid19analysis.analysis  }}
                     <div class="">
                         <div class="topdivider mb-3 mb-md-4"></div>
                         <a href="{{ .link }}" target="_blank"><h3 class="news thin mb-sm-2 mb-md-2 mb-xl-2">{{ .title }}</h3></a>
@@ -83,7 +83,7 @@
             </div>
             <div class="w-100"></div>
             <div class="col-12 col-md-8 col-lg-7 col-xl-6 mx-auto d-block d-md-flex flex-column digestsingle">
-                {{ range $index, $element := .Site.Data.covid.covid19digest.events  }}
+                {{ range $index, $element := .Site.Data.covid.covid19events.events  }}
                     {{ if gt (time $element.date) now  }}
                     <div class="">
                         <div class="topdivider mb-3 mb-md-4"></div>
@@ -113,7 +113,7 @@
             </div>
             <div class="w-100"></div>
             <div class="col-12 col-md-8 col-lg-7 col-xl-6 mx-auto d-block d-md-flex flex-column digestsingle">
-                {{ range $index, $element := .Site.Data.covid.covid19digest.events  }}
+                {{ range $index, $element := .Site.Data.covid.covid19events.events  }}
                     {{ if lt (time $element.date) now }}
                         <div class="">
                             <div class="topdivider mb-3 mb-md-4"></div>
