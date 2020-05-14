@@ -117,6 +117,10 @@ html {
   .topdivider {
     border-top: 1px solid #D7D7D7;
   }
+  .fa-angle-right:before {
+    content: "\f105";
+    color: #636363;
+  } 
 
   // Basic fonts and text styles
   h1 {

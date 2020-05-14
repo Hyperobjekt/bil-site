@@ -17123,6 +17123,11 @@ nav.navbar > div {
   border-top: 1px solid #D7D7D7;
 }
 
+.fa-angle-right:before {
+  content: "\f105";
+  color: #636363;
+}
+
 h1 {
   margin-bottom: 0;
   font-family: sofia-pro,sans-serif;
