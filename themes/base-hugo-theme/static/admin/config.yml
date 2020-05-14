@@ -236,7 +236,7 @@ collections:
             - {label: Past Events Icon, required: false, name: pasticon, widget: image}
         - label: Policy Tools 
           name: digestpolicy
-          file: "data/news/covid19digest.yaml"
+          file: "data/news/covid19policy.yaml"
           preview_path: news/covid-19-digest/
           extension: "yaml"
           create: true
@@ -251,7 +251,7 @@ collections:
               - {label: Excerpt, required: false, name: excerpt, hint: Short introduction to tool, widget: string}
         - label: Analysis
           name: digestanalysis
-          file: "data/news/covid19digest.yaml"
+          file: "data/news/covid19analysis.yaml"
           preview_path: news/covid-19-digest/
           extension: "yaml"
           create: true
@@ -266,7 +266,7 @@ collections:
               - {label: Excerpt, required: false, name: excerpt, hint: Short introduction to tool, widget: string}             
         - label: Events
           name: digestevents
-          file: "data/news/covid19digest.yaml"
+          file: "data/news/covid19events.yaml"
           preview_path: news/covid-19-digest/
           extension: "yaml"
           create: true

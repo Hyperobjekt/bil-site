@@ -1,0 +1,19 @@
+policytools:
+  - excerpt: A curated summary of articles, opinion pieces, papers and Twitter threads
+    title: 'First Policy Response: Canada’s policy community response to COVID-19'
+    link: 'http://policyresponse.ca/'
+  - excerpt: Timeline of county-level responses, including social and economic interventions to mitigate the negative consequences of virus suppression measures
+    title: 'PoliMap: A global repository of policy responses to tackle COVID-19'
+    link: 'https://polimap.org/' 
+  - excerpt: "‘Living paper’ updated weekly of country-level social protection responses to COVID, including: cash transfers, universal one-off cash, childcare support, cash for work, social pensions, in-kind vouchers, school feeding, and utility and financial obligation support."
+    title: 'Social protection and jobs response to COVID-19: A real-time review of country measures'
+    link: 'http://www.ugogentilini.net/wp-content/uploads/2020/04/Country-SP-COVID-responses_April17.pdf'     
+  - excerpt: Country-level policy stringency index based on 11 indicators, including fiscal and monetary measures.
+    title: 'Oxford COVID-19 Government Response Tracker'
+    link: 'https://covidtracker.bsg.ox.ac.uk/'
+  - excerpt: "Country-level data on fiscal, monetary and macro-financial, exchange rate and balance of payments and social assistance responses."
+    title: 'IMF: Policy responses to COVID'
+    link: 'https://www.imf.org/en/Topics/imf-and-covid19/Policy-Responses-to-COVID-19'     
+  - excerpt: Rapid assessment of socioeconomic impacts of social distancing policy using private mobility and purchasing pattern data.
+    title: 'COVID-19 Observatory: An MIT collaboration with the World Bank'
+    link: 'https://c19observatory.mit.edu/'  
