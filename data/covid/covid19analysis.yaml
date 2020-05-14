@@ -1,4 +1,15 @@
 analysis:
+  - date: 2020-05-14T21:57:50.757Z
+    title: How Social Service Agencies Can Leverage Behavioral Science as Services
+      Go Virtual
+    link: https://www.urban.org/urban-wire/how-social-service-agencies-can-leverage-behavioral-science-services-go-virtual
+    excerpt: "Matthew Gerken of the Urban Institute on Poverty, Vulnerability and
+      the Safety Net "
+  - date: 2020-05-12T21:38:13.895Z
+    title: El desafío social en tiempos del COVID-19
+    link: https://www.cepal.org/es/publicaciones/45527-desafio-social-tiempos-covid-19
+    excerpt: Economic Commission for Latin America and the Caribbean (ECLAC) on the
+      social challenges during COVID-19
   - date: May 6, 2020
     title: Are we ready yet? The need for a new national direction
     link: https://nonprofitquarterly.org/are-we-ready-yet-the-need-for-a-new-policy-direction/
@@ -26,6 +37,12 @@ analysis:
       credit roll-out scenarios
     link: https://www.euromod.ac.uk/publications/evaluation-recovery-basic-income-and-sustainable-revenue-neutral-citizen%E2%80%99s-basic-income
     excerpt: Malcolm Torry, EUROMOD
+  - date: 2020-04-30T22:27:59.808Z
+    title: Why Gender-Sensitive Social Protection Is Critical to the COVID-19
+      Response in Low- and Middle-Income Countries
+    excerpt: Melissa Hidrobo, Neha Kumar, Tia Palermo, Amber Peterman and Shalini
+      Roy of the Center for Global Development
+    link: https://www.cgdev.org/blog/why-gender-sensitive-social-protection-critical-covid-19-response-low-and-middle-income
   - date: April 30, 2020
     title: Why South Africa needs to ensure income security beyond the pandemic
     link: https://theconversation.com/why-south-africa-needs-to-ensure-income-security-beyond-the-pandemic-137551
@@ -58,14 +75,3 @@ analysis:
     title: 5 lessons for using universal basic income during a pandemic
     link: https://www.brookings.edu/blog/future-development/2020/03/13/5-lessons-for-using-universal-basic-income-during-a-pandemic/
     excerpt: Ugo Gentilini, World Bank
-  - date: 2020-05-12T21:38:13.895Z
-    title: El desafío social en tiempos del COVID-19
-    link: https://www.cepal.org/es/publicaciones/45527-desafio-social-tiempos-covid-19
-    excerpt: Economic Commission for Latin America and the Caribbean (ECLAC) on the
-      social challenges during COVID-19
-  - date: 2020-05-14T21:57:50.757Z
-    title: How Social Service Agencies Can Leverage Behavioral Science as Services
-      Go Virtual
-    link: https://www.urban.org/urban-wire/how-social-service-agencies-can-leverage-behavioral-science-services-go-virtual
-    excerpt: "Matthew Gerken of the Urban Institute on Poverty, Vulnerability and
-      the Safety Net "
