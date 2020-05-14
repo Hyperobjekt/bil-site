@@ -30,7 +30,10 @@ analysistext: This section includes analysis and research from policymakers,
   income-like policies as a response to COVID-19.
 analysisicon: /images/icons/analysis.svg
 upcomingheader: Upcoming Events
-upcomingtext: This section highlights upcoming events
+upcomingtext: This section highlights upcoming events as they relate to on basic
+  income or related policies during this pandemic. All upcoming events are
+  hosted by partners of the Basic Income Lab, research institutions, policy
+  think tanks or foundations.
 policytools:
   - excerpt: A curated summary of articles, opinion pieces, papers and Twitter threads
     title: "First Policy Response: Canada’s policy community response to COVID-19"
@@ -62,7 +65,9 @@ policytools:
 upcomingicon: /images/icons/upcoming.svg
 pastheader: Past Events
 pasttext: This section provides links to past events on the intersection of
-  basic income-related topics and COVID-19. All past events have been hosted
+  basic income or related policies and COVID-19. All past events are hosted by
+  partners of the Basic Income Lab, research institutions, policy think tanks or
+  foundations.
 pasticon: /images/icons/pastevents.svg
 events:
   - date: 2020-06-10T00:00:00.000Z
