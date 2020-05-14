@@ -1,67 +1,179 @@
-herotext: 'Universal Basic Income COVID-19 Digest'
-introtext: The current COVID-19 pandemic has highlighted gaping holes in safety nets globally, leaving vulnerable and marginalized populations worse off, and those who were once secure on the verge of falling into poverty. During past economic shocks, governments have scaled up existing programs, and implemented new support programs to buffer the social and economic impact for individuals and households. Similarly, during this current shock, governments are doing the same, though with increasing calls for the implementation of a basic income-like policy. As part the Basic Income Lab’s mission to convene key stakeholders and members of the community around the politics, philosophy and economics of universal basic income, the Lab has put together a “living” digest of  tools, research on events from research institutions and think tanks on basic income during the global pandemic. We encourage you to explore the tools. Should you find something missing, feel free to email us at basicincomelab@stanford.edu.
-policyheader: 'Policy Tools'
-policytext: These policy tools lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec tempor tortor. Nunc vulputate felis non metus condimentum pulvinar. Fusce viverra eu erat sit amet porta. Etiam semper dapibus vulputate. 
-policyicon: '/images/icons/policytools.svg'
+herotext: Universal Basic Income COVID-19 Digest
+introtext: >-
+  The current COVID-19 pandemic has highlighted gaping holes in safety nets
+  globally, leaving vulnerable and marginalized populations worse off, and those
+  who were once secure on the verge of falling into poverty. During past
+  economic shocks, governments have scaled up existing cash transfer programs
+  and implemented new support programs to buffer the social and economic impact
+  for individuals and households. Similarly, during this current shock,
+  governments are doing the same, though with increasing calls for the
+  implementation of a basic income-like policy. 
+
+
+  As part of the Basic Income Lab’s mission to convene key stakeholders and members of the community around the politics, philosophy and economics of universal basic income, the Lab has put together a “living” digest of tools, research and events from our partners, research institutions and think tanks on basic income during this global pandemic. We encourage you to explore the tools. 
+
+
+  Should you find something missing or if you would like the Lab to highlight something, we encourage you to email us at basicincomelab@stanford.edu.
+policyheader: Policy Tools
+policytext: How are past policy responses to global crises informing the
+  creation of new policies in response to COVID-19? Are the new policies
+  adequate? How are governments across the globe responding to the ever-changing
+  current financial, social and health crises? The policy tools included in this
+  section address some of these questions through 'living papers' on what the
+  social protection responses have been around the world, a set of indicators to
+  measure government responses, and a global repository of policy responses to
+  address COVID-19, among others.
+policyicon: /images/icons/policytools.svg
 analysisheader: Analysis
-analysistext: These analyses tools lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec tempor tortor. Nunc vulputate felis non metus condimentum pulvinar. Fusce viverra eu erat sit amet porta. Etiam semper dapibus vulputate. 
+analysistext: This section includes analysis and research from policymakers,
+  practitioners, researchers and research institutions on the use of basic
+  income-like policies as a response to COVID-19.
 analysisicon: /images/icons/analysis.svg
 upcomingheader: Upcoming Events
-upcomingtext: These upcoming events lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec tempor tortor. Nunc vulputate felis non metus condimentum pulvinar. Fusce viverra eu erat sit amet porta. Etiam semper dapibus vulputate. 
-upcomingicon: /images/icons/upcoming.svg
-pastheader: Past Events
-pasttext: These past events lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec tempor tortor. Nunc vulputate felis non metus condimentum pulvinar. Fusce viverra eu erat sit amet porta. Etiam semper dapibus vulputate. 
-pasticon: /images/icons/pastevents.svg
+upcomingtext: This section highlights upcoming events as they relate to on basic
+  income or related policies during this pandemic. All upcoming events are
+  hosted by partners of the Basic Income Lab, research institutions, policy
+  think tanks or foundations.
 policytools:
   - excerpt: A curated summary of articles, opinion pieces, papers and Twitter threads
-    title: 'First Policy Response: Canada’s policy community response to COVID-19'
-    link: 'http://policyresponse.ca/'
-  - excerpt: Timeline of county-level responses, including social and economic interventions to mitigate the negative consequences of virus suppression measures
-    title: 'PoliMap: A global repository of policy responses to tackle COVID-19'
-    link: 'https://polimap.org/' 
-  - excerpt: "‘Living paper’ updated weekly of country-level social protection responses to COVID, including: cash transfers, universal one-off cash, childcare support, cash for work, social pensions, in-kind vouchers, school feeding, and utility and financial obligation support."
-    title: 'Social protection and jobs response to COVID-19: A real-time review of country measures'
-    link: 'http://www.ugogentilini.net/wp-content/uploads/2020/04/Country-SP-COVID-responses_April17.pdf'     
-  - excerpt: Country-level policy stringency index based on 11 indicators, including fiscal and monetary measures.
-    title: 'Oxford COVID-19 Government Response Tracker'
-    link: 'https://covidtracker.bsg.ox.ac.uk/'
-  - excerpt: "Country-level data on fiscal, monetary and macro-financial, exchange rate and balance of payments and social assistance responses."
-    title: 'IMF: Policy responses to COVID'
-    link: 'https://www.imf.org/en/Topics/imf-and-covid19/Policy-Responses-to-COVID-19'     
-  - excerpt: Rapid assessment of socioeconomic impacts of social distancing policy using private mobility and purchasing pattern data.
-    title: 'COVID-19 Observatory: An MIT collaboration with the World Bank'
-    link: 'https://c19observatory.mit.edu/'  
+    title: "First Policy Response: Canada’s policy community response to COVID-19"
+    link: http://policyresponse.ca/
+  - excerpt: Timeline of county-level responses, including social and economic
+      interventions to mitigate the negative consequences of virus suppression
+      measures
+    title: "PoliMap: A global repository of policy responses to tackle COVID-19"
+    link: https://polimap.org/
+  - excerpt: "‘Living paper’ updated weekly of country-level social protection
+      responses to COVID, including: cash transfers, universal one-off cash,
+      childcare support, cash for work, social pensions, in-kind vouchers,
+      school feeding, and utility and financial obligation support."
+    title: "Social protection and jobs response to COVID-19: A real-time review of
+      country measures"
+    link: http://www.ugogentilini.net/wp-content/uploads/2020/04/Country-SP-COVID-responses_April17.pdf
+  - excerpt: Country-level policy stringency index based on 11 indicators, including
+      fiscal and monetary measures.
+    title: Oxford COVID-19 Government Response Tracker
+    link: https://covidtracker.bsg.ox.ac.uk/
+  - excerpt: Country-level data on fiscal, monetary and macro-financial, exchange
+      rate and balance of payments and social assistance responses.
+    title: "IMF: Policy responses to COVID"
+    link: https://www.imf.org/en/Topics/imf-and-covid19/Policy-Responses-to-COVID-19
+  - excerpt: Rapid assessment of socioeconomic impacts of social distancing policy
+      using private mobility and purchasing pattern data.
+    title: "COVID-19 Observatory: An MIT collaboration with the World Bank"
+    link: https://c19observatory.mit.edu/
+upcomingicon: /images/icons/upcoming.svg
+pastheader: Past Events
+pasttext: This section provides links to past events on the intersection of
+  basic income or related policies and COVID-19. All past events are hosted by
+  partners of the Basic Income Lab, research institutions, policy think tanks or
+  foundations.
+pasticon: /images/icons/pastevents.svg
+events:
+  - date: 2020-06-10T00:00:00.000Z
+    title: Emergency Savings – Are we Re-Learning Lessons or Have we Reached its
+      Limits?
+    link: https://register.gotowebinar.com/register/4364207247828503564?source=website
+    excerpt: 10am EST. Aspen Institute, Financial Security Program
+  - date: 2020-05-14T00:00:00.000Z
+    title: "Lift the floor: Would a Universal Basic Income guarantee a good life for
+      all Canadians"
+    excerpt: "1 pm EST. Host: Broadbent Institute, Panelists: Armine Yalnizyan,
+      Economist and Atkinson Fellow on the Future of Workers and Simon Black,
+      Brock University Centre for Labour Studies"
+    link: https://www.broadbentinstitute.ca/would_a_universal_basic_income_guarantee_a_good_life_for_all_canadians
+  - date: 2020-05-13T00:00:00.000Z
+    title: "Cash Infusions: Stability Now, Security Later"
+    link: https://register.gotowebinar.com/register/6515898726827773196?source=website
+    excerpt: "1pm EST. Host: Aspen Institute, Financial Security Program, Panelists:
+      Charlie Anderson of the office of Senator Michael Bennet (D-CO); Mia
+      Birdsong, Economic Security Project; Aisha Nyandoro, Springboard To
+      Opportunities; Ameya Pawar, Former Chicago Aldermanl Prashanthi
+      Ravanavarapu, PayPal; Lauren Renaud, FII; and Helah Robinson, LIFT"
+  - date: 2020-05-06T00:00:00.000Z
+    title: "How we live next: Is UBI really fair or feasible"
+    link: https://members.tortoisemedia.com/thinkin/digital-thinkin-how-we-live-next-is-ubi-really-fair-or-feasible/content.html
+    excerpt: "6:30 EST. Host: Tortoise Media. Panelists: Micheal Pugh, Basic Income
+      Conversation at Compass and the Rt Hon Lord David Willetts, King’s College
+      London."
+  - date: 2020-04-28T00:00:00.000Z
+    title: "Impact of the COVID-19 crisis on formal sector workers: (potential)
+      social protection and employment responses"
+    link: https://socialprotection.org/impacts-covid-19-crisis-formal-sector-workers-potential-social-protection-and-employment-responses
+    excerpt: "Host: socialprotection.org, Panellists: Sebastian Konigs (OECD), Luca
+      Pellarano (ILO)"
+  - date: 2020-04-21T00:00:00.000Z
+    title: "Impact of the COVID-19 crisis on employment: (potential) solutions for
+      informal/self-employed workers, April 21"
+    link: https://socialprotection.org/impacts-covid-19-crisis-employment-potential-solutions-informal-self-employed-workers
+    excerpt: "Host: socialprotection.org; Panellists: Laura Alfers (WIEGO), Carmen
+      Roca (WIEGO), Portia Kekana (Department of small business development,
+      South Africa)"
+  - date: 2020-04-16T00:00:00.000Z
+    title: "Online event: Cash transfers for COVID-19 in Low- and Middle-Income
+      Countries"
+    link: https://www.cgdev.org/event/online-event-cash-transfers-covid-19-low-and-middle-income-countries
+    excerpt: "Host: Center for Global Development: Panelists: Laura Alfers (Director
+      of Social Protection Programme, WIEGO), Ugo Gentilini (World Bank), Joe
+      Huston (Give Directly), Gyude Moore (CGD)"
+  - date: 2020-04-13T00:00:00.000Z
+    title: What are the Impacts on Local Economies?
+    link: https://www.canurb.org/new-blog-1/2020/4/13/what-are-the-impacts-on-local-economies
+    excerpt: "Host: Canadian Urban Institute; Panelists: Mark Garner, CEO and
+      Executive Director, Downtown Yonge BIA; Bruce Katz, Director, Nowak Metro
+      Finance Lab, Drexel University; Mary Moran, President & CEO, Calgary
+      Economic Development; Patrick Sullivan, President & CEO, Halifax Chamber
+      of Commerce; and Karen Wong, Co-founder & CEO, TakuLabs."
+  - date: 2020-04-10T00:00:00.000Z
+    title: COVID-19, inequalities and policy
+    link: https://www.youtube.com/watch?time_continue=1287&v=pR79Ajkz29M&feature=emb_logo
+    excerpt: "Host: INSEAD, Panellist: Mark Stabile"
+  - date: 2020-03-31T00:00:00.000Z
+    title: "Exploring  universal basic income: lessons for COVID-19 response and
+      beyond"
+    link: https://socialprotection.org/exploring-universal-basic-income-lessons-covid-19-response-and-beyond
+    excerpt: "Host: socialprotection,org; Panellists:Ugo Gentilini (World Bank),
+      Francesca Bastagli (ODI)"
 analysis:
   - date: May 6, 2020
     title: Are we ready yet? The need for a new national direction
     link: https://nonprofitquarterly.org/are-we-ready-yet-the-need-for-a-new-policy-direction/
-    excerpt: Steve Dubb, Nonprofit Quarterly 
+    excerpt: Steve Dubb, Nonprofit Quarterly
   - date: May 6, 2020
-    title: 'In crisis, Europeans support radical positions: Climate change and social welfare issues most salient'
+    title: "In crisis, Europeans support radical positions: Climate change and
+      social welfare issues most salient"
     link: https://eupinions.eu/de/text/in-crisis-europeans-support-radical-positions
-    excerpt: Timothy Garton Ash and Antonia Zimmerman, eupinions. Link to the full survey results <a href="https://europeanmoments.com/opinions/eupinions?utm_source=miragenews&utm_medium=miragenews&utm_campaign=news" target="_blank">here</a>. 
+    excerpt: Timothy Garton Ash and Antonia Zimmerman, eupinions. Link to the full
+      survey results <a
+      href="https://europeanmoments.com/opinions/eupinions?utm_source=miragenews&utm_medium=miragenews&utm_campaign=news"
+      target="_blank">here</a>.
   - date: May 1, 2020
-    title:  Coronavirus shows key workers need better pay and protection - here’s what has to change
+    title: Coronavirus shows key workers need better pay and protection - here’s
+      what has to change
     link: https://theconversation.com/coronavirus-shows-key-workers-need-better-pay-and-protection-heres-what-has-to-change-137037
     excerpt: Patrician Harrison and Helen Collins, Liverpool John Moores University
   - date: May 1, 2020
     title: Why Americans need a guaranteed income
     link: https://www.nytimes.com/2020/05/01/opinion/universal-basic-income-coronavirus.html
-    excerpt: Chris Hughes, Economic Security Project 
+    excerpt: Chris Hughes, Economic Security Project
   - date: May 1, 2020
-    title: Evaluation of a recovery basic income, and of a sustainable revenue citizen’s basic income, with an appendix relating to different universal credit roll-out scenarios
+    title: Evaluation of a recovery basic income, and of a sustainable revenue
+      citizen’s basic income, with an appendix relating to different universal
+      credit roll-out scenarios
     link: https://www.euromod.ac.uk/publications/evaluation-recovery-basic-income-and-sustainable-revenue-neutral-citizen%E2%80%99s-basic-income
     excerpt: Malcolm Torry, EUROMOD
   - date: April 30, 2020
     title: Why South Africa needs to ensure income security beyond the pandemic
     link: https://theconversation.com/why-south-africa-needs-to-ensure-income-security-beyond-the-pandemic-137551
-    excerpt: Hannah J. Dawson, University of Witwatersrand and Elizaveta Fouksman, University of Oxford 
+    excerpt: Hannah J. Dawson, University of Witwatersrand and Elizaveta Fouksman,
+      University of Oxford
   - date: April 29, 2020
     title: Social solidarity requires a universal basic income
     link: https://steadystate.org/social-solidarity-requires-a-universal-basic-income/
     excerpt: James Magnus-Johnston, Centre for the Advancement of a Steady State Economy
   - date: April 20, 2020
-    title: We need to let economic data guide further economic policy responses to COVID-19
+    title: We need to let economic data guide further economic policy responses to
+      COVID-19
     link: https://www.brookings.edu/blog/up-front/2020/04/20/we-need-to-let-economic-data-guide-further-economic-policy-responses-to-covid-19/
     excerpt: Jay Shamgaugh, Brookings Institute
   - date: April 19, 2020
@@ -69,56 +181,16 @@ analysis:
     link: https://www.theglobeandmail.com/opinion/article-cerb-is-an-unintended-experiment-in-basic-income/
     excerpt: Evelyn Forget, University of Manitoba and Hugh Segal, Queen’s University
   - date: April 17, 2020
-    title: Universal basic income is the answer to the inequalities exposed by COVID-19
+    title: Universal basic income is the answer to the inequalities exposed by
+      COVID-19
     link: https://www.weforum.org/agenda/2020/04/covid-19-universal-basic-income-social-inequality/
     excerpt: Kanni Wignaraja and Balazs Horvath, World Economic Forum
   - date: April 13, 2020
-    title: Coronavirus has shown us why we urgently need to make a basic income a reality
+    title: Coronavirus has shown us why we urgently need to make a basic income a
+      reality
     link: https://www.weforum.org/agenda/2020/04/coronavirus-made-basic-income-vital/
     excerpt: Guy Standing, University of London
   - date: March 13, 2020
     title: 5 lessons for using universal basic income during a pandemic
     link: https://www.brookings.edu/blog/future-development/2020/03/13/5-lessons-for-using-universal-basic-income-during-a-pandemic/
-    excerpt: Ugo Gentilini, World Bank  
-events:
-  - date: 2020-06-10
-    title: Emergency Savings – Are we Re-Learning Lessons or Have we Reached its Limits?
-    link: https://register.gotowebinar.com/register/4364207247828503564?source=website
-    excerpt: 10am EST. Aspen Institute, Financial Security Program
-  - date: 2020-05-14
-    title: 'Lift the floor: Would a Universal Basic Income guarantee a good life for all Canadians'
-    excerpt: '1 pm EST. Host: Broadbent Institute, Panelists: Armine Yalnizyan, Economist and Atkinson Fellow on the Future of Workers and Simon Black, Brock University Centre for Labour Studies'
-    link: https://www.broadbentinstitute.ca/would_a_universal_basic_income_guarantee_a_good_life_for_all_canadians 
-  - date: 2020-05-13
-    title: 'Cash Infusions: Stability Now, Security Later'
-    link: https://register.gotowebinar.com/register/6515898726827773196?source=website
-    excerpt: '1pm EST. Host: Aspen Institute, Financial Security Program, Panelists: Charlie Anderson of the office of Senator Michael Bennet (D-CO); Mia Birdsong, Economic Security Project; Aisha Nyandoro, Springboard To Opportunities; Ameya Pawar, Former Chicago Aldermanl Prashanthi Ravanavarapu, PayPal; Lauren Renaud, FII; and Helah Robinson, LIFT'      
-  - date: 2020-05-06
-    title: 'How we live next: Is UBI really fair or feasible'
-    link: https://members.tortoisemedia.com/thinkin/digital-thinkin-how-we-live-next-is-ubi-really-fair-or-feasible/content.html
-    excerpt: '6:30 EST. Host: Tortoise Media. Panelists: Micheal Pugh, Basic Income Conversation at Compass and the Rt Hon Lord David Willetts, King’s College London.' 
-  - date: 2020-04-28
-    title: 'Impact of the COVID-19 crisis on formal sector workers: (potential) social protection and employment responses'
-    link: https://socialprotection.org/impacts-covid-19-crisis-formal-sector-workers-potential-social-protection-and-employment-responses
-    excerpt: 'Host: socialprotection.org, Panellists: Sebastian Konigs (OECD), Luca Pellarano (ILO)'
-  - date: 2020-04-21
-    title: 'Impact of the COVID-19 crisis on employment: (potential) solutions for informal/self-employed workers, April 21'
-    link: https://socialprotection.org/impacts-covid-19-crisis-employment-potential-solutions-informal-self-employed-workers
-    excerpt: 'Host: socialprotection.org; Panellists: Laura Alfers (WIEGO), Carmen Roca (WIEGO), Portia Kekana (Department of small business development, South Africa)'
-  - date: 2020-04-16
-    title: 'Online event: Cash transfers for COVID-19 in Low- and Middle-Income Countries'
-    link: https://www.cgdev.org/event/online-event-cash-transfers-covid-19-low-and-middle-income-countries
-    excerpt: 'Host: Center for Global Development: Panelists: Laura Alfers (Director of Social Protection Programme, WIEGO), Ugo Gentilini (World Bank), Joe Huston (Give Directly), Gyude Moore (CGD)'
-  - date: 2020-04-13
-    title: What are the Impacts on Local Economies?
-    link: https://www.canurb.org/new-blog-1/2020/4/13/what-are-the-impacts-on-local-economies
-    excerpt: 'Host: Canadian Urban Institute; Panelists: Mark Garner, CEO and Executive Director, Downtown Yonge BIA; Bruce Katz, Director, Nowak Metro Finance Lab, Drexel University; Mary Moran, President & CEO, Calgary Economic Development; Patrick Sullivan, President & CEO, Halifax Chamber of Commerce; and Karen Wong, Co-founder & CEO, TakuLabs.'
-  - date: 2020-04-10
-    title: COVID-19, inequalities and policy
-    link: https://www.youtube.com/watch?time_continue=1287&v=pR79Ajkz29M&feature=emb_logo
-    excerpt: 'Host: INSEAD, Panellist: Mark Stabile'
-  - date: 2020-03-31
-    title: 'Exploring  universal basic income: lessons for COVID-19 response and beyond'
-    link: https://socialprotection.org/exploring-universal-basic-income-lessons-covid-19-response-and-beyond
-    excerpt: 'Host: socialprotection,org; Panellists:Ugo Gentilini (World Bank), Francesca Bastagli (ODI)'
-                         
+    excerpt: Ugo Gentilini, World Bank
