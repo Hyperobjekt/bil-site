@@ -19138,8 +19138,8 @@ body.home #hp-viz {
 
 @media (min-width: 768px) {
   body.home #hp-viz {
-    background-size: 50%;
-    background-position: right center;
+    background-size: cover;
+    background-position: 68% center;
     background-repeat: no-repeat;
   }
 }
@@ -20025,7 +20025,7 @@ body.covid-19-digest .hero {
   background: url("/images/heroes/digest-hero.jpg");
   background-size: cover;
   background-position: 84% center;
-  height: 280px;
+  height: 200px;
 }
 
 @media (min-width: 768px) {
@@ -20114,6 +20114,41 @@ body.covid-19-digest .subnav .dropdown-toggle {
 
 #digest-intro, .covid-19-digest #analysis {
   background-color: #FFFCF6;
+}
+
+body.covid-19-digest #digest-intro p {
+  font-family: sofia-pro,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.45rem;
+  line-height: 2.1rem;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  body.covid-19-digest #digest-intro p {
+    font-size: 1.45rem;
+    line-height: 1.55;
+    letter-spacing: .03rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (min-width: 992px) {
+  body.covid-19-digest #digest-intro p {
+    font-size: 1.5rem;
+    line-height: 1.55;
+    letter-spacing: .03rem;
+    margin-bottom: 3rem;
+  }
+}
+
+@media (min-width: 1380px) {
+  body.covid-19-digest #digest-intro p {
+    font-size: 1.55rem;
+    line-height: 1.55;
+    letter-spacing: 0rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

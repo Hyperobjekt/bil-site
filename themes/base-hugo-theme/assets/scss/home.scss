@@ -359,9 +359,9 @@ body.home {
         background-position: center 15%;
         background-repeat: no-repeat;
         @include media-breakpoint-up(md) {
-            background-size: 50%;
-            background-position: right center;
-            background-repeat: no-repeat;
+          background-size: cover;
+          background-position: 68% center;
+          background-repeat: no-repeat;
         }
     }
     #hp-news {
