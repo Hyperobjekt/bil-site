@@ -39,7 +39,7 @@
   {{ if .Site.Data.social.twitter_via }}
     <meta name="twitter:site" content="{{ strings.TrimPrefix "@" .Site.Data.social.twitter_via }}" />
   {{ end }}
-  <meta name="twitter:title" content="Stanford Basic Income Lab | {{ .Title }} b" />
+  <meta name="twitter:title" content="Stanford Basic Income Lab | {{ .Title }}" />
   <meta name="twitter:description" content="{{ $.Scratch.Get "socialDescription" }}" />
   <meta name="twitter:image" content="https://basicincome.stanford.edu{{ $.Scratch.Get "socialImage" }}" />
 
