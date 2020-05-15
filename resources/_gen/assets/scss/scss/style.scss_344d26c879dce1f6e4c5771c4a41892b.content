@@ -19130,17 +19130,34 @@ body.home #what-is-ubi .what-is-icon#unconditional {
 }
 
 body.home #hp-viz {
-  background-image: url("/images/backgrounds/viz-vector.svg");
-  background-size: 40%;
-  background-position: center 15%;
+  background-position: center;
+  background-repeat: no-repeat;
   background-repeat: no-repeat;
 }
 
 @media (min-width: 768px) {
   body.home #hp-viz {
     background-size: cover;
-    background-position: 68% center;
+    background-position: 84% center;
     background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 992px) {
+  body.home #hp-viz {
+    background-position: 80% center;
+  }
+}
+
+body.home #hp-viz .teaser-overlay {
+  padding: 2.4rem;
+  background: #ffffffd1;
+  border-radius: 6px;
+}
+
+@media (min-width: 1380px) {
+  body.home #hp-viz .teaser-overlay {
+    padding: 3.2rem;
   }
 }
 

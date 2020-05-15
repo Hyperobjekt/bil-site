@@ -354,14 +354,25 @@ body.home {
         }
     }
     #hp-viz {
-        background-image: url('/images/backgrounds/viz-vector.svg');
-        background-size: 40%;
-        background-position: center 15%;
+        //background-image: url('/images/backgrounds/viz-vector.svg');
+        background-position: center;
+        background-repeat: no-repeat;
         background-repeat: no-repeat;
         @include media-breakpoint-up(md) {
           background-size: cover;
-          background-position: 68% center;
+          background-position: 84% center;
           background-repeat: no-repeat;
+        }
+        @include media-breakpoint-up(lg) {
+          background-position: 80% center;
+        }
+        .teaser-overlay {
+          padding: 2.4rem;
+          @include media-breakpoint-up(xl) {
+            padding: 3.2rem;
+          }
+          background: #ffffffd1;
+          border-radius: 6px;
         }
     }
     #hp-news {
