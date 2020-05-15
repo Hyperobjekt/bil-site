@@ -36,6 +36,7 @@ HUGO_ENABLEGITINFO = "true"
 from = "/about"
   to = "/about/what-is-bil"
   status = 301
+  force=true
 
 [[redirects]]
 from = "/research"
@@ -59,6 +60,7 @@ from = "/about/what-basic-income"
 from = "/about/people/leadership"
   to = "/about/people/"
   status = 301
+  force=true
 
 [[redirects]]
 from = "/about/people/current-graduate-fellows"
@@ -70,6 +72,7 @@ from = "/about/people/current-graduate-fellows"
 from = "/about/people/jos-luis-sabau"
   to = "/about/people/"
   status = 301
+  force=true
 
 [[redirects]]
 from = "/about/people/juliana-bidadanure"
@@ -87,21 +90,25 @@ from = "/about/people/former-graduate-fellows"
 from = "/about/location-and-contact"
   to = "/about/what-is-bil"
   status = 301
+  force=true
 
 [[redirects]]
 from = "/events/upcoming-events"
   to = "/events/upcoming"
   status = 301
+  force=true
 
 [[redirects]]
 from = "/events/past-events"
   to = "/events/past"
   status = 301
+  force=true
 
 [[redirects]]
 from = "/events/our-videos"
   to = "/events/videos/"
   status = 301
+  force=true
 
 [[redirects]]
 from = "/courses/search"
