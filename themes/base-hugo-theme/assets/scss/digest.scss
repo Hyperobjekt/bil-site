@@ -1,3 +1,42 @@
+body.covid-19-digest {
+    .hero {
+        background: url('/images/heroes/digest-hero.jpg');
+        background-size: cover;
+        background-position: 84% center;
+        height: 280px;
+        @include media-breakpoint-up(md) {
+            height: 320px;
+        }
+        @include media-breakpoint-up(lg) {
+            height: 400px;
+        }
+        @media (min-width: 768px) {
+            background-position: 80% center;
+        }
+        @media (min-width: 992px) {
+            background-position: 80% center;
+        }
+        @media (min-width: 1180px) {
+            background-position: center center;
+        }
+        .hero-child {
+            background: transparent;
+            h1 {
+                color: #373737;
+                width: 240px;
+                @include media-breakpoint-up(md) {
+                    width: 340px;
+                }
+            }
+        }
+    }
+    .subnav {
+        background-color: #fff;
+        .dropdown-toggle {
+            background-color: #fff;
+        }
+    }
+}
 .digestlist {
     div:nth-child(2) {
         .topdivider {

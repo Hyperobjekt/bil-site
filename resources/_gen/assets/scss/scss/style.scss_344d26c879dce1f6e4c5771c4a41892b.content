@@ -20021,6 +20021,66 @@ body.type-events .pagination {
   justify-content: space-between;
 }
 
+body.covid-19-digest .hero {
+  background: url("/images/heroes/digest-hero.jpg");
+  background-size: cover;
+  background-position: 84% center;
+  height: 280px;
+}
+
+@media (min-width: 768px) {
+  body.covid-19-digest .hero {
+    height: 320px;
+  }
+}
+
+@media (min-width: 992px) {
+  body.covid-19-digest .hero {
+    height: 400px;
+  }
+}
+
+@media (min-width: 768px) {
+  body.covid-19-digest .hero {
+    background-position: 80% center;
+  }
+}
+
+@media (min-width: 992px) {
+  body.covid-19-digest .hero {
+    background-position: 80% center;
+  }
+}
+
+@media (min-width: 1180px) {
+  body.covid-19-digest .hero {
+    background-position: center center;
+  }
+}
+
+body.covid-19-digest .hero .hero-child {
+  background: transparent;
+}
+
+body.covid-19-digest .hero .hero-child h1 {
+  color: #373737;
+  width: 240px;
+}
+
+@media (min-width: 768px) {
+  body.covid-19-digest .hero .hero-child h1 {
+    width: 340px;
+  }
+}
+
+body.covid-19-digest .subnav {
+  background-color: #fff;
+}
+
+body.covid-19-digest .subnav .dropdown-toggle {
+  background-color: #fff;
+}
+
 .digestlist div:nth-child(2) .topdivider {
   border: none;
 }
