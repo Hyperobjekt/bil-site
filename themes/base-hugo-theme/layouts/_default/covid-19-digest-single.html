@@ -1,0 +1,139 @@
+{{ define "main" }}
+
+
+<div class="row d-flex subnav">
+    <div class="col-12 col-xl-10 p-0 ml-0 ml-md-5 offset-xl-1 mx-xl-auto pl-xl-3">
+        <ul class="d-flex flex-wrap justify-content-start align-items-center pl-4 pl-md-0">
+        
+            <li class=""><a href="/">Home</a>&nbsp;&nbsp;<i class="fas fa-angle-right"></i></li>
+            <li class="">&nbsp;&nbsp;<a href="/covid-19-digest">COVID-19 Digest</a>&nbsp;&nbsp;<i class="fas fa-angle-right"></i>&nbsp;&nbsp;</li>
+            <li class="">{{ .Params.displaytitle }}</li>
+        
+        </ul>
+    </div>
+</div>
+
+<!-- /SUBNAV -->
+{{ if eq .Params.type "policy-tools"}}
+<div id="policy-tools" class="pt-sm-5 pt-md-5 pt-lg-7 pt-xl-9 pb-sm-7 pb-md-7 pb-xl-8">
+        
+            <div class="row newslist">
+                <div class="col-12 col-md-8 col-lg-7 col-xl-6 mx-auto">
+                    {{ with .Site.Data.covid.covid19digest }}
+                    <img src="{{ .policyicon }}" />
+                    <h2 class="digest thin mb-2">{{ .policyheader }}</h2>
+                    <p class="medgraytext mb-4">{{ .policytext }}</p>
+                    {{ end }}
+                </div>
+               <div class="w-100"></div>
+                <div class="col-12 col-md-8 col-lg-7 col-xl-6 mx-auto d-block d-md-flex flex-column digestsingle">
+                    {{ range .Site.Data.covid.covid19policy.policytools  }}
+                        <div class="">
+                            <div class="topdivider mb-3 mb-md-4"></div>
+                            <a href="{{ .link }}" target="_blank"><h3 class="news thin mb-sm-2 mb-md-2 mb-xl-2">{{ .title }}</h3></a>
+                            <p class="medgraytext mb-2">{{ .excerpt | markdownify | safeHTML }}</p>     
+                            <div class="news-item-link mb-3 mb-lg-4">
+                                <a class="plainlink bronzetext" href="{{ .link }}" target="_blank">VIEW &nbsp;{{ partial "rightarrow.html" }}</a>
+                            </div>    
+                        </div>
+                    {{ end }}    
+                </div>    
+            </div>
+        
+    </div> 
+{{ end }}
+{{ if eq .Params.type "covid-analysis"}}
+    <div id="analysis" class="pt-sm-5 pt-md-5 pt-lg-7 pt-xl-9 pb-sm-7 pb-md-7 pb-xl-8">
+        
+        <div class="row newslist">
+            <div class="col-12 col-md-8 col-lg-7 col-xl-6 mx-auto">
+                {{ with .Site.Data.covid.covid19digest }}
+                <img src="{{ .analysisicon }}" />
+                <h2 class="thin mb-2">{{ .analysisheader }}</h2>
+                <p class="medgraytext mb-4">{{ .analysistext }}</p>
+                {{ end }}
+            </div>
+            <div class="w-100"></div>
+            <div class="col-12 col-md-8 col-lg-7 col-xl-6 mx-auto d-block d-md-flex flex-column digestsingle">
+                {{ range .Site.Data.covid.covid19analysis.analysis  }}
+                    <div class="">
+                        <div class="topdivider mb-3 mb-md-4"></div>
+                        <a href="{{ .link }}" target="_blank"><h3 class="news thin mb-sm-2 mb-md-2 mb-xl-2">{{ .title }}</h3></a>
+                        <p class="medgraytext mb-2">{{ .excerpt | markdownify | safeHTML }}</p>     
+                        <div class="news-item-link mb-3 mb-lg-4">
+                            <a class="plainlink bronzetext" href="{{ .link }}" target="_blank">VIEW &nbsp;{{ partial "rightarrow.html" }}</a>
+                        </div>    
+                    </div>
+                {{ end }}    
+            </div>    
+        </div>
+    
+    </div>
+    {{ end }}
+{{ if eq .Params.type "covid-events"}}   
+    <div id="upcoming-events" class="pt-sm-5 pt-md-5 pt-lg-7 pt-xl-9 pb-sm-7 pb-md-7 pb-xl-8">
+        
+        <div class="row newslist">
+            <div class="col-12 col-md-8 col-lg-7 col-xl-6 mx-auto">
+                {{ with .Site.Data.covid.covid19digest }}
+                <img src="{{ .upcomingicon }}" />
+                <h2 class="thin mb-2">{{ .upcomingheader }}</h2>
+                <p class="medgraytext mb-4">{{ .upcomingtext }}</p>
+                {{ end }}
+            </div>
+            <div class="w-100"></div>
+            <div class="col-12 col-md-8 col-lg-7 col-xl-6 mx-auto d-block d-md-flex flex-column digestsingle">
+                {{ range $index, $element := .Site.Data.covid.covid19events.events  }}
+                    {{ if gt (time $element.date) now  }}
+                    <div class="">
+                        <div class="topdivider mb-3 mb-md-4"></div>
+                        <a href="{{ .link }}" target="_blank"><h3 class="news thin mb-sm-2 mb-md-2 mb-xl-2">{{ .title }}</h3></a>
+                        <div class="superhead digestdate mb-2">{{ dateFormat "January 2, 2006" .date }}</div>
+                        <p class="medgraytext mb-2">{{ .excerpt | markdownify | safeHTML }}</p>     
+                        <div class="news-item-link mb-3 mb-lg-4">
+                            <a class="plainlink bronzetext" href="{{ .link }}" target="_blank">VIEW &nbsp;{{ partial "rightarrow.html" }}</a>
+                        </div>    
+                    </div>
+                {{ end }}    
+                {{ end }}
+            </div>    
+        </div>
+    
+    </div>
+
+    <div id="past-events" class="pb-sm-7 pb-md-7 pb-xl-8">
+        
+        <div class="row newslist">
+            <div class="col-12 col-md-8 col-lg-7 col-xl-6 mx-auto">
+                {{ with .Site.Data.covid.covid19digest }}
+                <img src="{{ .pasticon }}" />
+                <h2 class="thin mb-2">{{ .pastheader }}</h2>
+                <p class="medgraytext mb-4">{{ .pasttext }}</p>
+                {{ end }}
+            </div>
+            <div class="w-100"></div>
+            <div class="col-12 col-md-8 col-lg-7 col-xl-6 mx-auto d-block d-md-flex flex-column digestsingle">
+                {{ range $index, $element := .Site.Data.covid.covid19events.events  }}
+                    {{ if lt (time $element.date) now }}
+                        <div class="">
+                            <div class="topdivider mb-3 mb-md-4"></div>
+                            <a href="{{ .link }}" target="_blank"><h3 class="news thin mb-sm-2 mb-md-2 mb-xl-2">{{ .title }}</h3></a>
+                            <div class="superhead digestdate mb-2">{{ dateFormat "January 2, 2006" .date }}</div>
+                            <p class="medgraytext mb-2">{{ .excerpt | markdownify | safeHTML }}</p>     
+                            <div class="news-item-link mb-3 mb-lg-4">
+                                <a class="plainlink bronzetext" href="{{ .link }}" target="_blank">VIEW &nbsp;{{ partial "rightarrow.html" }}</a>
+                            </div>    
+                        </div>
+                    {{ end }} 
+                {{ end }}   
+            </div>    
+        </div>
+    
+    </div>
+{{ end }}    
+    
+
+
+{{ partial "subscribe.html" .}}
+
+{{ end }}

@@ -1,0 +1,41 @@
+policytools:
+  - excerpt: Timeline of county-level responses, including social and economic
+      interventions to mitigate the negative consequences of virus suppression
+      measures
+    title: "PoliMap: A global repository of policy responses to tackle COVID-19"
+    link: https://polimap.org/
+    date: 2020-05-14T21:31:10.068Z
+  - excerpt: A curated summary of articles, opinion pieces, papers and Twitter threads
+    title: "First Policy Response: Canada’s policy community response to COVID-19"
+    link: http://policyresponse.ca/
+    date: 2020-05-14T21:31:10.038Z
+  - excerpt: "‘Living paper’ updated weekly of country-level social protection
+      responses to COVID, including: cash transfers, universal one-off cash,
+      childcare support, cash for work, social pensions, in-kind vouchers,
+      school feeding, and utility and financial obligation support."
+    title: "Social Protection and Jobs Response to COVID-19: A Real-Time Review of
+      Country Measures"
+    link: http://documents.worldbank.org/curated/en/448321588971503966/pdf/Social-Protection-and-Jobs-Responses-to-COVID-19-A-Real-Time-Review-of-Country-Measures-May-8-2020.pdf
+    date: 2020-05-14T21:31:10.086Z
+  - excerpt: Country-level policy stringency index based on 11 indicators, including
+      fiscal and monetary measures.
+    title: Oxford COVID-19 Government Response Tracker
+    link: https://covidtracker.bsg.ox.ac.uk/
+    date: 2020-05-14T21:31:10.108Z
+  - excerpt: Country-level data on fiscal, monetary and macro-financial, exchange
+      rate and balance of payments and social assistance responses.
+    title: "IMF: Policy responses to COVID"
+    link: https://www.imf.org/en/Topics/imf-and-covid19/Policy-Responses-to-COVID-19
+    date: 2020-05-14T21:31:10.123Z
+  - excerpt: Rapid assessment of socioeconomic impacts of social distancing policy
+      using private mobility and purchasing pattern data.
+    title: "COVID-19 Observatory: An MIT collaboration with the World Bank"
+    link: https://c19observatory.mit.edu/
+    date: 2020-05-14T21:31:10.138Z
+  - date: 2020-05-14T21:34:13.812Z
+    excerpt: "Analysis of policy issues and solutions in the areas of child care and
+      education, equity and inclusion, fiscal and economic policy, health and
+      health policy, housing policy, small business and community development,
+      states and localities, and workers, work supports and basic needs. "
+    link: https://www.urban.org/features/covid-19-policies-protect-people-and-communities#chapter-1
+    title: "Urban Institute: COVID-19: Policies to Protect People and Communities"

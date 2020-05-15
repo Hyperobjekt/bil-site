@@ -9,6 +9,9 @@
   border-top-left-radius: 0rem;
   border-top-right-radius: 0rem;
 }
+.subnav .dropdown-menu {
+  margin-top: 0.8rem;
+}
 .dropdown-toggle::after {
   vertical-align: 0.2em;
 }
@@ -395,8 +398,8 @@ img {
   position: -o-sticky; */
   //top: 56px;
   display: flex;
-  padding-top: 1.6rem;
-  padding-bottom: 1.6rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
   align-items: center;
   background-color: #F7F7F7;
   opacity: 1;
@@ -411,6 +414,8 @@ img {
    // height: 5rem;
     //position: sticky;
    // top: 64px;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
   }
   @include media-breakpoint-up(lg) {
   //  height: 6rem;

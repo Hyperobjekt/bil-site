@@ -115,21 +115,27 @@ unsafe = true
 
 [[menu.main]]
   parent = "News"
+  name = "COVID-19-Digest"
+  url = "/covid-19-digest/"
+  weight = 1
+
+[[menu.main]]
+  parent = "News"
   name = "In the News"
   url = "/news/"
-  weight = 1
+  weight = 2
 
 [[menu.main]]
   parent = "News"
   name = "Updates from the Lab"
   url = "/news/lab-updates/"
-  weight = 2
+  weight = 3
 
 [[menu.main]]
   parent = "News"
   name = "Newsletters"
   url = "/news/newsletters/"
-  weight = 3
+  weight = 4
 
 [permalinks]
   post = "/:year/:month/:day/:slug/"

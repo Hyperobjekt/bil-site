@@ -127,15 +127,17 @@
 </div>
 {{ end }}
 <!--/////----   Visualization   ----\\\\\-->
-<div id="hp-viz" style="background-color: #f1f1f1;">   
 {{ with .Site.Data.home.whatWeDo }}
+<div id="hp-viz" style="background-color: #f1f1f1; background-image: url('{{ .bg3}}');">   
     <div class="row">   
-    <div class="col-md-5 offset-md-1 pt-sm-20 pb-sm-6 py-md-11 py-lg-15 py-xl-16">
-        <h2 class="blacktext text-sm-center text-md-left mt-sm-4 mt-md-0 mb-1">{{ .heading3 }}</h2>
-        <p class="slatetext mt-2">{{ .subhead3 }}</p>
+    <div class="col-md-6 col-lg-5 offset-md-1 py-8 py-md-6 py-lg-9 py-xl-12">
+        <div class="teaser-overlay">
+            <h2 class="blacktext text-sm-center text-md-left mt-sm-4 mt-md-0 mb-1">{{ .heading3 }}</h2>
+            <p class="slatetext mt-2">{{ .subhead3 }}</p>
             <div class="news-item-link d-flex">
-                    <a class="plainlink coldblcktext mx-auto mx-md-0" href="/research/mapping-ubi-research">{{ .cta3 }}&nbsp;{{ partial "rightarrow.html" }}</a>
-                </div>
+                <a class="plainlink coldblcktext mx-auto mx-md-0" href="{{ .link3 }}">{{ .cta3 }}&nbsp;{{ partial "rightarrow.html" }}</a>
+            </div>
+        </div>    
     </div>
     </div>
    
