@@ -514,6 +514,12 @@ img {
     }
   }
 }
+.subnav.breadcrumb {
+  @include media-breakpoint-down(md) {
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+  }
+}
 
 // Shadow effect
 .drop-shadow {

@@ -44,6 +44,10 @@ body.covid-19-digest {
         }
     }
     .btn-primary {
+        @include media-breakpoint-down(mm) {
+            margin: auto;
+            margin-top: 4rem;
+        }
         background-color: transparent;
         border: 1px solid #A86815;
         color: #A86815;
