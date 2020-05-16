@@ -18,8 +18,8 @@
                 {{ .digesttitle }} 
         </button>
   <ul class="anchor-links dropdown-menu">
-        <li class="mb-3"><a href="/news">{{ .labupdates }}</a></li>
         <li class="mb-3"><a href="/news">{{ .inthenews }}</a></li>
+        <li class="mb-3"><a href="/news/lab-updates">{{ .labupdates }}</a></li>
         <li class="mb-3"><a href="/news/newsletters">{{ .newsletterstitle }}</a></li>
        
 </ul>
@@ -44,7 +44,7 @@
     <div class="row newslist">
         <div class="col-12 col-md-10 col-lg-8 col-xl-7 mx-auto pr-md-6 pr-lg-7 pr-xl-8">
             {{ with .Site.Data.covid.covid19digest }}
-            <div class="medgraytext mb-2 px-2">{{ .introtext | markdownify | safeHTML }}</div>
+            <div class="medgraytext mb-2 px-md-2">{{ .introtext | markdownify | safeHTML }}</div>
           
             {{ end }}
         </div>
