@@ -1,6 +1,6 @@
 body.covid-19-digest {
     .hero {
-        background: url('/images/heroes/digest-hero.jpg');
+        background: url('/images/heroes/digest-hero2.jpg');
         background-size: cover;
         background-position: 84% center;
         height: 200px;
@@ -17,7 +17,7 @@ body.covid-19-digest {
             background-position: 80% center;
         }
         @media (min-width: 1180px) {
-            background-position: center center;
+            background-position: top right;
         }
         .hero-child {
             background: transparent;
