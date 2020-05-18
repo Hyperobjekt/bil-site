@@ -355,9 +355,9 @@ body.home {
     }
     #hp-viz {
         //background-image: url('/images/backgrounds/viz-vector.svg');
-        background-position: center;
+        background-position: 54% center;
         background-repeat: no-repeat;
-        background-repeat: no-repeat;
+        background-size: cover;
         @include media-breakpoint-up(md) {
           background-size: cover;
           background-position: 84% center;
