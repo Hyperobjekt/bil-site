@@ -209,7 +209,77 @@ collections:
           - {label: In the News Section Title, name: inthenews, widget: string}
           - {label: Lab Updates Section Title, name: labupdates, widget: string}
           - {label: Newsletters Section Title, name: newsletterstitle, widget: string}
-  
+ 
+  - label: COVID-19 Digest
+    name: digest
+    files:
+        - label: Digest Page Meta 
+          name: digestmeta
+          file: "data/covid/covid19digest.yaml"
+          preview_path: news/covid-19-digest/
+          extension: "yaml"
+          create: true
+          fields:
+            - {label: Hero Text, name: herotext, widget: string}
+            - {label: Intro Text, name: introtext, widget: markdown}
+            - {label: Policy Tools Header, name: policyheader, widget: string}
+            - {label: Policy Tools Text, required: false, name: policytext, hint: Short introduction to tools, widget: markdown}
+            - {label: Policy Tools Icon, required: false, name: policyicon, widget: image}
+            - {label: Analysis Header, name: analysisheader, widget: string}
+            - {label: Analysis Text, required: false, name: analysistext, hint: Short introduction to tools, widget: markdown}
+            - {label: Analysis Icon, required: false, name: analysisicon, widget: image}
+            - {label: Upcoming Events Header, name: upcomingheader, widget: string}
+            - {label: Upcoming Events Text, required: false, name: upcomingtext, hint: Short introduction to tools, widget: markdown}
+            - {label: Upcoming Events Icon, required: false, name: upcomingicon, widget: image}
+            - {label: Past Events Header, name: pastheader, widget: string}
+            - {label: Past Events Text, required: false, name: pasttext, hint: Short introduction to tools, widget: markdown}
+            - {label: Past Events Icon, required: false, name: pasticon, widget: image}
+        - label: Policy Tools 
+          name: digestpolicy
+          file: "data/covid/covid19policy.yaml"
+          preview_path: news/covid-19-digest/
+          extension: "yaml"
+          create: true
+          fields:
+            - label: Policy Tools
+              name: policytools
+              widget: list
+              fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Date, name: date, widget: datetime, required: false}
+              - {label: Link to article, hint: please copy full link from URL bar into this space, name: link, widget: string}
+              - {label: Excerpt, required: false, name: excerpt, hint: Short introduction to tool, widget: string}
+        - label: Analysis
+          name: digestanalysis
+          file: "data/covid/covid19analysis.yaml"
+          preview_path: news/covid-19-digest/
+          extension: "yaml"
+          create: true
+          fields:
+            - label: Policy Tools
+              name: analysis
+              widget: list
+              fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Date, name: date, widget: datetime, required: false}
+              - {label: Link to article, hint: please copy full link from URL bar into this space, name: link, widget: string}
+              - {label: Excerpt, required: false, name: excerpt, hint: Short introduction to tool, widget: string}             
+        - label: Events
+          name: digestevents
+          file: "data/covid/covid19events.yaml"
+          preview_path: news/covid-19-digest/
+          extension: "yaml"
+          create: true
+          fields:
+            - label: Events
+              name: events
+              widget: list
+              fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Date, name: date, widget: datetime, required: false}
+              - {label: Link to article, hint: please copy full link from URL bar into this space, name: link, widget: string}
+              - {label: Excerpt, required: false, name: excerpt, hint: Short introduction to tool, widget: string}             
+
   - label: In the News
     name: news
     files:

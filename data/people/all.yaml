@@ -1,19 +1,4 @@
 personnel:
-  - blurb: >
-      Joan joined the Ethics in Society team in 2004 when it was just an
-      undergraduate honors program.  Originally from the great state of Rhode
-      Island, she moved to the Bay Area in the late 1990s. Joan has a BA in
-      Sociology and has worked in both academia and industry in various
-      administrative positions and as a technical writer. In addition to her
-      work with the Basic Income Lab, she also serves as the Executive Director
-      of the McCoy Family Center for Ethics in Society.
-    current: true
-    image: /uploads/jberry.jpg
-    name: Joan Berry
-    role: Leadership
-    thumb: /uploads/jberry-sm.jpg
-    title: Executive Director
-    shorttitle: Executive Director
   - blurb: >-
       <p>Juliana Bidadanure is an Assistant Professor in the department of
       Philosophy at Stanford University. Before coming to Stanford, Juliana
@@ -41,15 +26,29 @@ personnel:
       Income: Juliana started by writing on the limitations of the conditional
       benefits system in France 6 years ago and then researched how basic income
       compared to basic capital. Basic Capital is a lump sum given to all
-      individuals as they reach adulthood.</p> <p>Email:
-      j.bidadanure@stanford.edu</p>
+      individuals as they reach adulthood.</p>
     current: true
     image: /uploads/jbidadanure.png
     name: Juliana Bidadanure
     role: Leadership
-    thumb: /uploads/jbidadanure-sm.jpg
-    title: Faculty Director
     shorttitle: Faculty Director
+    thumb: /uploads/jbidadanure-sm.jpg
+    title: 'Faculty Director, j.bidadanure@stanford.edu'
+  - blurb: >
+      Joan joined the Ethics in Society team in 2004 when it was just an
+      undergraduate honors program.  Originally from the great state of Rhode
+      Island, she moved to the Bay Area in the late 1990s. Joan has a BA in
+      Sociology and has worked in both academia and industry in various
+      administrative positions and as a technical writer. In addition to her
+      work with the Basic Income Lab, she also serves as the Executive Director
+      of the McCoy Family Center for Ethics in Society.
+    current: true
+    image: /uploads/jberry.jpg
+    name: Joan Berry
+    role: Leadership
+    shorttitle: Executive Director
+    thumb: /uploads/jberry-sm.jpg
+    title: Executive Director
   - blurb: >-
       Sarah joins us from the World Bank where she was a Social Protection
       Specialist. She has over a decade of experience in developing and managing
@@ -70,15 +69,39 @@ personnel:
       Osorno, Chile researching and working with the indigenous population, the
       Mapuche. She has a BA in History from Boston College and an MA in Public
       Policy from Georgetown University.
-
-      <br/> <br/>Phone:  (650) 498-1733 Email:  sb.gonzalez@stanford.edu
     current: true
     image: /uploads/sbergergonzalez.jpg
     name: Sarah Berger Gonzalez
     role: Leadership
-    thumb: /uploads/sbergergonzalez-sm.jpg
-    title: Program Manager
     shorttitle: Program Manager
+    thumb: /uploads/sbergergonzalez-sm.jpg
+    title: 'Program Manager, sb.gonzalez@stanford.edu'
+  - blurb: "Rebecca Hasdell is a Postdoctoral Research Fellow at the Basic Income Lab (Stanford University) and an Adjunct Faculty member in the Northern Medical Program (University of British Columbia). Over the past 10 years, Rebecca has worked in program planning and strategic policy for local governments, research institutions and not-for-profit organizations in the areas of poverty reduction, food access and environmental health, including leading major social policy initiatives a City of Toronto Urban Fellow.\r\n\nRebecca’s research examines healthy public policy approaches to promote healthier communities and cities. Rebecca completed her Masters of Public Health (Health Promotion) and PhD (Social and Behavioral Health Sciences) at the Dalla Lana School of Public Health, University of Toronto. Her mixed-method PhD (2011-2018) integrated knowledge and approaches from policy studies and population health intervention research to examine population-level solutions to improve food access in smaller cities and rural and remote regions. Her research was funded by Canadian Institutes for Health Research fellowships in public health policy and knowledge translation. \r\n\nRebecca joined the team at the Basic Income Lab to lead a review of the global evidence base for cash-based transfer programs. Her interest in basic income is driven by her background working with communities and local government to address a wide variety of health and social inequities. Through this work, she has seen the potential for economic policy to improve community wellbeing. The fellowship will provide an opportunity to better understand the outcomes of cash-based transfers, with a focus on what works, for whom and under what contextual circumstances."
+    current: true
+    image: /uploads/hasdell_shorter.jpg
+    name: Rebecca Hasdell
+    role: Fellow
+    shorttitle: Postdoctoral Fellow
+    thumb: /uploads/hasdell_shorter.jpg
+    title: PhD Social and Behavioral Health Sciences
+  - blurb: >-
+      Sophia Hunt is a PhD student in the Sociology Department at Stanford. Her
+      research interests include law and society, race and ethnicity, social
+      stratification, and education. Before coming to Stanford, she obtained a
+      Bachelor of Arts from Harvard in History & Literature.
+
+
+      Sophia’s work at the Basic Income Lab focuses on reviewing the academic
+      literature on the impact of basic income on crime and racial justice. She
+      is specifically interested in how UBI influences recidivism, the racial
+      wealth gap, and expands notions of citizenship in the United States.
+    current: true
+    image: /uploads/sophia-hunt.jpg
+    name: Sophia Hunt
+    role: Fellow
+    shorttitle: Graduate Fellow
+    thumb: /uploads/sophia-hunt.jpg
+    title: 'PhD Candidate, Sociology'
   - blurb: >-
       Olga Lenczewska is a PhD student in the Philosophy Department and a
       Masters student in the Department of Political Science. Her research
@@ -94,30 +117,47 @@ personnel:
       the ethical perspectives on basic income that arise from a variety of 
       theories of justice.
     current: true
-    image: /uploads/olenczewska.jpg
+    image: /uploads/olga-lenczewska-1-sq.jpg
     name: Olga Lenczewska
     role: Fellow
-    thumb: /uploads/olenczewska-sm.jpg
-    title: 'PhD Candidate, Philosophy; Master''s Candidate, Political Science'
     shorttitle: Graduate Fellow
-  - blurb: >
+    thumb: /uploads/olga-lenczewska-1-sq.jpg
+    title: 'PhD Candidate, Philosophy; Master''s Candidate, Political Science'
+  - blurb: >-
+      Danielle is a senior majoring in philosophy. Her interest in universal
+      basic income was piqued when she took Phil 174B with Juliana Bidadanure.
+      Outside of philosophy research, she is an avid member of the debate team
+      at Stanford.
+
+
+      Danielle is currently researching alternative policies to basic income.
+    current: true
+    image: /uploads/danielle-mitalipov.jpg
+    name: Danielle Mitalipov
+    role: Fellow
+    shorttitle: 'Undergraduate Fellow '
+    thumb: /uploads/danielle-mitalipov.jpg
+    title: 'Stanford University, Class of 2020'
+  - blurb: >-
       Joan O’Bryan is a PhD student in the Department of Political Science.
       Before coming to Stanford, she taught middle school for three years, then
       attended the University of Cambridge, receiving her MPhil in Public
       Policy. These experiences sparked her interest in the connection between
       academic debates and real-world policy practice, and her research at the
-      Basic Income Lab focuses on this intersection. <br><br>As a graduate
-      research fellow for the Lab, Joan is taking part in the Lab’s research
-      visualization project and will be reviewing the UBI literature on topics
-      relating to wellbeing and alternatives to basic income (EITC, Job
-      Guarantee, Targeted Benefits, and Workfare, among others). 
+      Basic Income Lab focuses on this intersection. 
+
+
+      As a graduate research fellow for the Lab, Joan is taking part in the
+      Lab’s research visualization project and is reviewing the UBI literature
+      on topics relating to democracy, civic participation, democratization, and
+      good governance.
     current: true
     image: /uploads/jobryan.jpg
     name: Joan O’Bryan
     role: Fellow
+    shorttitle: Graduate Fellow
     thumb: /uploads/jobryan-sm.jpg
     title: 'PhD Candidate, Political Science'
-    shorttitle: Graduate Fellow
   - blurb: >
       Prach Panchakunathorn is pursuing a PhD in Philosophy, focusing on
       political philosophy and ethics. His current research project is on the
@@ -135,25 +175,27 @@ personnel:
     image: /uploads/ppanchakunathorn.jpg
     name: Prach Panchakunathorn
     role: Fellow
+    shorttitle: Graduate Fellow
     thumb: /uploads/ppanchakunathorn-sm.jpg
     title: 'PhD Candidate, Philosophy'
-    shorttitle: Graduate Fellow
-  - blurb: >
+  - blurb: >-
       Lara Spencer is a third year PhD student in the Philosophy Department.
       While most of her research is centered on the philosophy of science, she
       has become increasingly interested in the interface of philosophy and
       policy. To this end, her research on UBI lies at the intersection of basic
-      income and women’s health.<br><br>As a graduate research fellow for the
-      Lab, Lara is taking part in the Lab’s research visualization project and
-      will be reviewing the UBI literature on topics relating to community and
-      democracy. 
+      income and women’s health.
+
+
+      As a graduate research fellow for the Lab, Lara is taking part in the
+      Lab’s research visualization project and will be reviewing the UBI
+      literature on topics relating wellbeing and community.
     current: true
     image: /uploads/lspencer.jpg
     name: Lara Spencer
     role: Fellow
+    shorttitle: Graduate Fellow
     thumb: /uploads/lspencer-sm.jpg
     title: 'PhD Candidate, Philosophy'
-    shorttitle: Graduate Fellow
   - blurb: >
       José Luis Sabau is an undergraduate student at Stanford University from
       Cozumel, Mexico. He is looking to major in Political Science, focusing on
@@ -164,67 +206,69 @@ personnel:
     image: /uploads/jluissabau.jpeg
     name: José Luis Sabau
     role: Fellow
-    thumb: /uploads/jluissabau-sm.jpg
-    title: 'Undergraduate Fellow, Stanford University'
     shorttitle: Undergraduate Fellow
-  - blurb: >
+    thumb: /uploads/jluissabau-sm.jpg
+    title: 'Stanford University, Class of 2022'
+  - blurb: >-
       Neryvia Pillay Bell completed her PhD in the Economics Department and was
       a Visiting Scholar at the Institute for Advanced Study in 2018/19. Her
       research examined the ways in which government policies affect individual
       education, labor market and health outcomes. 
 
-      <br/><br/>At the Basic Income Lab, Neryvia surveyed the academic
-      literature relating to to basic income experiments around the world. She
-      mainly focused on the empirical evidence regarding the impact of basic
-      income on health and gender outcomes.
+
+
+      At the Basic Income Lab, Neryvia surveyed the academic literature relating
+      to to basic income experiments around the world. She mainly focused on the
+      empirical evidence regarding the impact of basic income on health and
+      gender outcomes.
     current: true
     image: /uploads/npillaybell.jpg
     name: Neryvia Pillay Bell
     role: Former
+    shorttitle: Graduate Fellow
     thumb: /uploads/npillaybell-sm.jpg
     title: >-
-      Visiting Scholar at the Institute for Advanced Study, 2018-19; Economics
-      PhD, Stanford University, 2018
-    shorttitle: Graduate Fellow  
+      Visiting Scholar at the Institute for Advanced Study, 2018-19; PhD
+      Economics, 2018
   - blurb: >-
       Sage was drawn to basic income initially through her background in
       technology and witnessing firsthand the wealth automation generates for
       some while leaving others behind. Headlines featuring "robot taxes",
       "impending job loss", and basic income as a future necessity perked her
-      ears to what eventually became a year of research on the topic. It turns
-      out that basic income is an old idea endorsed internationally for reasons
-      not often considered in the Bay Area -- it could encourage work, reduce
-      stress, limit societal stigma towards those receiving benefits, and
-      increase liberty for those often viewed as undeserving for factors they
-      have limited control over. Sage thinkd that basic income should not just
-      be seen as a bandaid on a dystopian future, but instead part of a support
-      structure for a more stable modern society and economy.
+      ears to what eventually became a year of research on the topic. Sage
+      thought that basic income should not just be seen as a bandaid on a
+      dystopian future, but instead part of a support structure for a more
+      stable modern society and economy.
 
 
-      Currently Sage is designing an application that runs community level UBI
-      through philanthropy. This tool will allow people to gain financial
-      consciousness of their wealth relative to the cost of living in their area
-      and how differing size donations would impact others in their community.
-      The idea for the application grew out of my concern for gentrification,
-      the slow process to actually implement experiments and create policy
-      change, and the extreme wealth inequality in the Bay Area that is mirrored
-      in other parts of the globe.
+      During her time at Stanford, Sage designed an application that ran
+      community level UBI through philanthropy. This tool allowed people to gain
+      financial consciousness of their wealth relative to the cost of living in
+      their area and how differing size donations would impact others in their
+      community. The idea for the application grew out of her concern for
+      gentrification, the slow process to actually implement experiments and
+      create policy change, and the extreme wealth inequality in the Bay Area
+      that is mirrored in other parts of the globe.
 
 
-      In order to build the application, Sage seeks to understand what makes one
-      willing and happy to give or take funds and what size community makes
+      In order to build the application, Sage sought to understand what makes
+      one willing and happy to give or take funds and what size community makes
       people the most generous and also leaves the greatest impact. These
-      questions are addressed in her master's thesis, "Automation: The Curse and
-      the Cure: Why Tech Companies have an Ethical Responsibility to Assist in
-      Economic Security," which more generally addresses problems of poverty,
+      questions were addressed in her master's thesis, "Automation: The Curse
+      and the Cure: Why Tech Companies have an Ethical Responsibility to Assist
+      in Economic Security," which more generally addresses problems of poverty,
       inequality and technology.
+
+
+      During her time at the Lab, Sage supported the organization of the large
+      Cities event and designed the Lab's original website.
     current: true
     image: /uploads/scammers-goodwin.jpg
     name: Sage Cammers-Goodwin
     role: Former
-    thumb: /uploads/scammers-goodwin-sm.jpg
-    title: 'B.S. in Computer Science 2017, M.S. in Symbolic Systems 2018'
     shorttitle: Graduate Fellow
+    thumb: /uploads/scammers-goodwin-sm.jpg
+    title: 'B.S. in Computer Science, 2017; M.S. in Symbolic Systems, 2018'
   - blurb: >
       Guillermo Gomez was a Master's student in Stanford's Computational Social
       Science program, under the Management Science & Engineering department.
@@ -240,42 +284,34 @@ personnel:
     image: /uploads/ggomez.jpg
     name: Guillermo Gomez
     role: Former
+    shorttitle: Graduate Fellow
     thumb: /uploads/ggomez-sm.jpg
     title: 'Master''s in Management Science & Engineering, 2019'
-    shorttitle: Graduate Fellow
-  - blurb: >
+  - blurb: >-
       Ye Ji is a PhD student in the Department of Economics at Stanford
       University. Her research interests include topics in labor economics and
       behavioral economics. 
 
-      <br/><br/>Before coming to Stanford, Ye Ji graduated from Wellesley
-      College in 2013 with degrees in economics and mathematics, and then she
-      worked as a research assistant at the Federal Reserve Bank of Boston and
-      the National Bureau of Economics. She reviewed the empirical literature on
-      Universal Basic Income for the initail phase of the online visual
+
+      Before coming to Stanford, Ye Ji graduated from Wellesley College in 2013
+      with degrees in economics and mathematics, and then she worked as a
+      research assistant at the Federal Reserve Bank of Boston and the National
+      Bureau of Economics. 
+
+
+      During her time with the Lab, she reviewed the empirical literature on
+      Universal Basic Income for the initial phase of the online visual
       platform.
-
-
-
-
-
-
-
-
-
-
-
-            
     current: true
     image: /uploads/yjikee.jpg
     name: Ye Ji Kee
     role: Former
-    thumb: /uploads/yjikee-sm.jpg
-    title: 'PhD Economics, 2018'
     shorttitle: Graduate Fellow
-  - blurb: >
-      Michelle Reddy is a PhD candidate in International Comparative Education
-      and completed her Master's in Political Science. Her research focuses on
+    thumb: /uploads/yjikee-sm.jpg
+    title: PhD Candidate Economics
+  - blurb: >-
+      Michelle Reddy received her PhD in International Comparative Education and
+      completed her Master's in Political Science. Her research focused on
       non-state actors and civic engagement, particularly during humanitarian
       crises such as Ebola, Zika, and the migration crisis. Michelle's
       dissertation examines how different organizational forms of nonprofits
@@ -283,39 +319,35 @@ personnel:
       domestic organizations delivering health and education services in
       developing countries.
 
-      <br/><br/>Michelle's work at the Basic Income Lab focuses on reviewing the
-      empirical literature on Universal Basic Income across 21 thematic areas.
-      She is interested in how UBI influences civic engagement, as well as in
-      the use of UBI in humanitarian crisis and disaster relief. She is also
-      collaborating with the other graduate fellows for the creation of the
-      online mapping of basic income literature.
+
+
+      At the Lab, Michelle focused on reviewing the empirical literature on
+      Universal Basic Income across 21 thematic areas. She also carried out
+      research on basic income and its potential to impact education outcomes.
     current: true
     image: /uploads/mreddy.png
     name: Michelle Reddy
     role: Former
-    thumb: /uploads/mreddy-sm.jpg
-    title: 'PhD Candidate, International Comparative Education'
     shorttitle: Graduate Fellow
+    thumb: /uploads/mreddy-sm.jpg
+    title: 'PhD International Comparative Education, 2019'
   - blurb: >-
       Avshalom Schwarz is a PhD student in the Department of Political Science
       at Stanford University.
 
 
-      As a graduate research assistant for the Basic Income Lab, Avshalom is
-      taking part in the lab’s research visualization project, which will
-      collect existing research on UBI in one place, thereby promoting more
-      methodical progress in the academic field and establishing a rigorous
-      database for the benefit of future basic-income experimenters. So far,
-      Avshalom has reviewed UBI literature on topics relating to automation, the
-      future of work, growing inequalities and environmental justice.
+      As a graduate fellow for the Basic Income Lab, Avshalom took part in the
+      Lab’s research visualization project. Avshalom reviewed the UBI literature
+      on topics relating to automation, the future of work, growing inequalities
+      and environmental justice.
     current: true
     image: /uploads/aschwartz.jpg
     name: Avshalom Schwartz
     role: Former
+    shorttitle: Graduate Fellow
     thumb: /uploads/aschwartz-sm.jpg
     title: 'PhD Candidate, Political Science'
-    shorttitle: Graduate Fellow
-  - blurb: >
+  - blurb: >-
       Having worked in and researched international development for several
       years, Catherine was inspired by growing evidence on the effectiveness of
       unconditional and conditional cash transfers on improving wellbeing,
@@ -343,10 +375,14 @@ personnel:
       assesses how such messages, in turn, differentially influence agency,
       self-investment behaviors, stigma, and support for such policies among
       low-income populations in the US and in Kenya.
+
+
+      At the Lab, Catherine was central in the authoring and publication of the
+      Toolkit for City Leaders on Basic Income.
     current: true
     image: /uploads/cthomas.jpg
     name: Catherine Thomas
     role: Former
+    shorttitle: Graduate Fellow
     thumb: /uploads/cthomas-sm.jpg
     title: 'PhD Candidate, Psychology'
-    shorttitle: Graduate Fellow

@@ -1,32 +1,51 @@
 {{ define "main" }}
 
-<div class="row d-flex subnav">
+<div class="row d-flex subnav breadcrumb">
         <div class="col-12 col-xl-10 p-0 ml-0 ml-md-5 offset-xl-1 mx-xl-auto pl-xl-3">
             <ul class="d-flex flex-wrap justify-content-start align-items-center pl-4 pl-md-0">
             
-                <li class=""><a href="/">Home</a> &nbsp;-</li>
-                <li class="">&nbsp;&nbsp;<a href="/news/lab-updates">Updates from the Lab</a>&nbsp; - &nbsp;</li>
-                <li class="">{{ .Params.title }}</li>
+                <li class=""><a href="/">Home</a>&nbsp;&nbsp;<i class="fas fa-angle-right"></i></li>
+                <li class="">&nbsp;&nbsp;<a href="/news/lab-updates">Updates from the Lab</a>&nbsp;&nbsp;<i class="fas fa-angle-right"></i></li>
+                <li class="">&nbsp;&nbsp;{{ .Params.title }}</li>
             
             </ul>
         </div>
     </div>
 <!-- /SUBNAV -->
 
-<div id="mapping-text" class="pt-sm-5 pt-md-7 pt-lg-9 pt-xl-12 pb-sm-7 pb-md-7 pb-xl-8">
-       
-            <div class="row mb-4 mb-md-4 mb-lg-8 mb-xl-12">
-                <div class="col-12 col-md-8 col-lg-7 col-xl-7 mx-md-auto ">
-                    <img src='{{ .Params.image }}' class="mb-2 mw-100" />
-                    <div class="d-block mb-5 imgcaption slatetext">{{ .Params.caption }}</div>
-                    <h4 class="news coldblcktext text-uppercase mt-2 mb-1 ">{{ .Date.Format "Monday, January 2, 2006" }}</h4>
-                    <h3 class="news mb-sm-2 mb-md-2 mb-xl-2">{{ .Params.title }}</h3>
-                    <div class="medgraytext">{{ .Content }}</div>     
-      
-                </div>
-            </div>
+<div id="mapping-text" class="pt-sm-0 pt-md-7 pt-lg-8 pt-xl-9 pb-sm-7 pb-md-7 pb-xl-8">
+    <div class="row mx-0 mx-md-2">
+        <div class="col-12 col-md-10 col-lg-9 col-xl-9 mx-md-auto px-0 px-md-2 bloghero">
+            <img src='{{ .Params.image }}' class="mb-md-2 mw-100" />
+        </div>    
+    </div>   
+    <div class="row mb-4 mb-md-4 mb-lg-8 mb-xl-12">
+        <div class="col-12 col-md-8 col-lg-7 col-xl-6 mx-md-auto ">
+            <!--<img src='{{ .Params.image }}' class="mb-2 mw-100" />-->
+            <div class="d-block mb-5 imgcaption slatetext">{{ .Params.caption }}</div>
+            <h4 class="news coldblcktext text-uppercase mt-2 mb-1 ">{{ .Date.Format "Monday, January 2, 2006" }}</h4>
+            <h3 class="news mb-sm-2 mb-md-2 mb-xl-2">{{ .Params.title }}</h3>
+            <div class="social-box mt-3 mb-4">
+                <ul class="social-sprite pl-0 d-flex">
+                    <li class="share-prompt ml-0 mr-2 ">Share:</li>
+                    <li><a class="facebook social-share-popup mr-3 " target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://basicincome.stanford.edu{{ .Permalink }}"></a></li>
+                    <li><a class="twitter social-share-popup mr-3 " target="_blank" href="https://twitter.com/intent/tweet?status={{ .Title }} https://basicincome.stanford.edu{{ .Permalink }}"></a></li>
+                    <li><a class="send-email" target="_blank" href="mailto:?subject={{ .Title }} - Stanford Basic Income Lab&body=https://basicincome.stanford.edu{{ .Permalink }}"></a></li>
+                </ul>
+              </div>
+            <div class="medgraytext">{{ .Content | safeHTML }}</div>     
+            <div class="social-box mt-7 mb-0">
+                <ul class="social-sprite pl-0 d-flex justify-content-center">
+                    <li class="share-prompt ml-0 mr-2 ">Share:</li>
+                    <li><a class="facebook social-share-popup mr-3 " target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://basicincome.stanford.edu{{ .Permalink }}"></a></li>
+                    <li><a class="twitter social-share-popup mr-3 " target="_blank" href="https://twitter.com/intent/tweet?status={{ .Title }} https://basicincome.stanford.edu{{ .Permalink }}"></a></li>
+                    <li><a class="send-email" target="_blank" href="mailto:?subject={{ .Title }} - Stanford Basic Income Lab&body=https://basicincome.stanford.edu{{ .Permalink }}"></a></li>
+                </ul>
+              </div>  
+        </div>
+    </div>
    
-    </div> 
+</div> 
 
 
 {{ partial "subscribe.html" .}}

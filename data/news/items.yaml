@@ -1,5 +1,41 @@
 newsItem:
-  - articleLink: >-
+  - align: center
+    articleLink: >-
+      https://www.abc.net.au/radionational/programs/this-working-life/is-this-the-end-of-work-as-we-know-it/11750780
+    date: 2019-12-06T21:58:40.524Z
+    excerpt: >-
+      (Juliana Bidadanure, beginning at 7:30 minutes) - The year is 2050- the
+      world's population is nearing the 10 billion mark, artificial intelligence
+      is integral to many of the jobs we do, and robots and technological
+      "personal assistants" are the new norm in the workforce.  So will there be
+      enough paid work to go around?
+    image: /uploads/work-as-we-know-it.jpg
+    outlet: 'Australian Broadcasting Company (ABC): This Working Life Podcast'
+    title: Is This the End of Work as We Know it?
+  - align: right
+    articleLink: >-
+      https://www.paloaltoonline.com/news/2019/05/17/with-artificial-intelligence-looming-debate-over-basic-income-heats-up
+    date: 2019-05-17T04:01:00.000Z
+    excerpt: >-
+      Basic Income Lab faculty director, Juliana Bidadanure, speaks to the Palo
+      Alto Daily about whether universal basic income could bring an end to
+      poverty. This article examines the challenges and different schools of
+      thought on universal basic income and why it may or may not be feasible.
+    image: /uploads/76857_full.jpg
+    outlet: Palo Alto Daily
+    title: 'With artificial intelligence looming, debate over ''basic income'' heats up'
+  - align: center
+    articleLink: 'https://news.stanford.edu/2018/12/10/lab-explores-universal-basic-income/'
+    date: 2018-12-10T05:01:00.000Z
+    excerpt: >-
+      Stanford philosopher Juliana Bidadanure is leading an initiative focused
+      on fostering discussions about universal basic income and analyzing
+      previous and ongoing unconditional cash experiments across the world.
+    image: /uploads/basicincome_getty_1_0.jpg
+    outlet: Stanford News
+    title: Stanford Lab Explores Universal Basic Income
+  - align: right
+    articleLink: >-
       https://www.nlc.org/article/national-league-of-cities-and-stanford-basic-income-lab-release-first-ever-guide-for
     date: 2018-11-08T05:01:00.000Z
     excerpt: >-
@@ -8,32 +44,6 @@ newsItem:
       basic income (UBI) in cities. The toolkit, entitled “Basic Income in
       Cities,” is meant to serve as a guide to cities considering piloting UBI,
       highlighting the ...
+    image: /uploads/nlc_bilpr.png
     outlet: National League of Cities
     title: UBI Cities Toolkit Launch
-    image: /uploads/nlc_bilpr.png
-    align: right
-  - articleLink: 'https://news.stanford.edu/2018/12/10/lab-explores-universal-basic-income/'
-    date: 2018-12-10T05:01:00.000Z
-    excerpt: >-
-      Stanford philosopher Juliana Bidadanure is leading an initiative focused
-      on fostering discussions about universal basic income and analyzing
-      previous and ongoing unconditional cash experiments across the world.
-    outlet: Stanford News
-    title: Stanford Lab Explores Universal Basic Income
-    image: /uploads/basicincome_getty_1_0.jpg
-    align: center
-  - articleLink: >-
-      https://www.paloaltoonline.com/news/2019/05/17/with-artificial-intelligence-looming-debate-over-basic-income-heats-up
-    date: 2019-05-17T04:01:00.000Z
-    excerpt: >-
-      Basic Income Lab faculty director, Juliana Bidadanure, speaks to the Palo
-      Alto Daily about whether universal basic income could bring an end to
-      poverty. This article examines the challenges and different schools of
-      thought on universal basic income and why it may or may not be feasible.
-    outlet: Palo Alto Daily
-    title: 'With artificial intelligence looming, debate over ''basic income'' heats up'
-    image: /uploads/76857_full.jpg
-    align: right
-     
-
-

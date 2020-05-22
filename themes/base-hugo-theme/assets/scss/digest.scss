@@ -1,0 +1,115 @@
+body.covid-19-digest {
+    .hero {
+        background: url('/images/heroes/digest-hero3.jpg');
+        background-size: cover;
+        background-position: 84% center;
+        height: 200px;
+        @include media-breakpoint-up(md) {
+            height: 320px;
+        }
+        @include media-breakpoint-up(lg) {
+            height: 400px;
+        }
+        @media (min-width: 768px) {
+            background-position: 80% center;
+        }
+        @media (min-width: 992px) {
+            background-position: 80% center;
+        }
+        @media (min-width: 1180px) {
+            background-position: top right;
+        }
+        .hero-child {
+            background: transparent;
+            h1 {
+                color: #373737;
+                width: 240px;
+                @include media-breakpoint-up(md) {
+                    width: 340px;
+                }
+            }
+        }
+    }
+    .subnav {
+        background-color: #fff;
+        .dropdown-toggle {
+            background-color: #fff;
+        }
+    }
+}
+.digestlist {
+    div:nth-child(2) {
+        .topdivider {
+            border: none;
+        }
+    }
+    .btn-primary {
+        @include media-breakpoint-down(mm) {
+            margin: auto;
+            margin-top: 4rem;
+        }
+        background-color: transparent;
+        border: 1px solid #A86815;
+        color: #A86815;
+        &:hover {
+            border: 1px solid #A86815;
+            background-color: #A86815;
+            color: #fff;
+        } 
+    }
+}
+.digestsingle {
+    div:nth-child(1) {
+        .topdivider {
+            border: none;
+        }
+    } 
+}
+
+.digestdate {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    @include media-breakpoint-up(md) {
+        font-size: 1.2rem;
+    }
+}
+
+#digest-intro, .covid-19-digest #analysis {
+    background-color: #FFFCF6;
+}
+.type-covid-events #past-events {
+   // background-color: #FFFCF6;
+}
+
+#past-events .row {
+    //border-top: 1px solid #999;
+}
+
+body.covid-19-digest #digest-intro {
+    p {
+    @include sofia-reg;
+      font-size: 1.45rem;
+      line-height: 2.1rem;
+      margin-bottom: 2rem;
+     
+    @include media-breakpoint-up(md) {
+        font-size: 1.45rem;
+        line-height: 1.55;
+        letter-spacing: .03rem;
+        margin-bottom: 2rem;
+    }
+    @include media-breakpoint-up(lg) {
+        font-size: 1.5rem;
+        line-height: 1.55;
+        letter-spacing: .03rem;
+        margin-bottom: 3rem;
+    }
+    @include media-breakpoint-up(xl) {
+        font-size: 1.55rem;
+        line-height: 1.55;
+        letter-spacing: 0rem;
+     
+    } 
+    }
+}
+
