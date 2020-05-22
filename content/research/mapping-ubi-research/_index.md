@@ -25,7 +25,9 @@ body2: >-
   Currently in development, this interactive network visualization will serve as
   the first-ever online platform for exploring existing research on Basic
   Income.
-url: /research/ubi-visualization/  
+url: /research/ubi-visualization/ 
+aliases:
+  - /research/mapping-ubi-research
 ---
 ## Want to learn more about UBI research?
 
