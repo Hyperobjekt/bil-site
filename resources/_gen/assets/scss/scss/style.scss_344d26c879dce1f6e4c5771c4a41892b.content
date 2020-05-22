@@ -17953,6 +17953,10 @@ input.form-control {
   border-top-right-radius: 0rem;
 }
 
+.subnav .dropdown-menu {
+  margin-top: 0.8rem;
+}
+
 .dropdown-toggle::after {
   vertical-align: 0.2em;
 }
@@ -18365,8 +18369,8 @@ img.float-left {
   position: -ms-sticky;
   position: -o-sticky; */
   display: flex;
-  padding-top: 1.6rem;
-  padding-bottom: 1.6rem;
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
   align-items: center;
   background-color: #F7F7F7;
   opacity: 1;
@@ -18379,6 +18383,13 @@ img.float-left {
 @media (min-width: 374px) {
   .subnav {
     top: 64px;
+  }
+}
+
+@media (min-width: 768px) {
+  .subnav {
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
   }
 }
 
@@ -18483,6 +18494,13 @@ img.float-left {
   text-decoration: none;
   border-bottom: 1px solid #9a6013;
   padding-bottom: 1px;
+}
+
+@media (max-width: 991.98px) {
+  .subnav.breadcrumb {
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+  }
 }
 
 .drop-shadow {
@@ -19130,9 +19148,9 @@ body.home #what-is-ubi .what-is-icon#unconditional {
 }
 
 body.home #hp-viz {
-  background-position: center;
+  background-position: 54% center;
   background-repeat: no-repeat;
-  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media (min-width: 768px) {
@@ -19153,6 +19171,7 @@ body.home #hp-viz .teaser-overlay {
   padding: 2.4rem;
   background: #ffffffd1;
   border-radius: 6px;
+  box-shadow: 1px 2px 5px 1px #0000000d;
 }
 
 @media (min-width: 1380px) {
@@ -19888,38 +19907,38 @@ body.mapping-ubi-research #hp-viz {
   }
 }
 
-body.basic-income-experiments .hero {
+body.global-map-of-basic-income-experiments .hero {
   background: url("/images/heroes/juliana-audience-hero.jpg");
   background-size: cover;
   background-position: center center;
 }
 
-body.basic-income-experiments .subnav {
+body.global-map-of-basic-income-experiments .subnav {
   padding-top: 0;
   padding-bottom: 0;
 }
 
-body.basic-income-experiments .subnav .dropdown-menu {
+body.global-map-of-basic-income-experiments .subnav .dropdown-menu {
   margin-top: 0;
 }
 
-body.basic-income-experiments #bil-map-target iframe {
+body.global-map-of-basic-income-experiments #bil-map-target iframe {
   width: 100vw;
-  height: 86vh;
+  height: 92vh;
   border: none;
 }
 
 @media (max-width: 600px) {
-  body.basic-income-experiments #bil-map-target {
+  body.global-map-of-basic-income-experiments #bil-map-target {
     height: 78vh;
   }
 }
 
-body.basic-income-experiments th:last-child {
+body.global-map-of-basic-income-experiments th:last-child {
   display: none;
 }
 
-body.basic-income-experiments tr td:last-child {
+body.global-map-of-basic-income-experiments tr td:last-child {
   display: none;
 }
 
@@ -20060,7 +20079,7 @@ body.type-events .pagination {
 }
 
 body.covid-19-digest .hero {
-  background: url("/images/heroes/digest-hero.jpg");
+  background: url("/images/heroes/digest-hero3.jpg");
   background-size: cover;
   background-position: 84% center;
   height: 200px;
@@ -20092,7 +20111,7 @@ body.covid-19-digest .hero {
 
 @media (min-width: 1180px) {
   body.covid-19-digest .hero {
-    background-position: center center;
+    background-position: top right;
   }
 }
 
@@ -20127,6 +20146,13 @@ body.covid-19-digest .subnav .dropdown-toggle {
   background-color: transparent;
   border: 1px solid #A86815;
   color: #A86815;
+}
+
+@media (max-width: 767.98px) {
+  .digestlist .btn-primary {
+    margin: auto;
+    margin-top: 4rem;
+  }
 }
 
 .digestlist .btn-primary:hover {
