@@ -82,9 +82,9 @@ unsafe = true
 
 [[menu.main]]
   parent = "Research"
-  name = "Mapping Research"
-  url = "/research/mapping-ubi-research"
-  weight = 1
+  name = "Research Visualization"
+  url = "/research/ubi-visualization"
+  weight = 3
 
 [[menu.main]]
   parent = "Research"
@@ -94,9 +94,9 @@ unsafe = true
 
 [[menu.main]]
   parent = "Research"
-  name = "Experiments"
-  url = "/research/basic-income-experiments"
-  weight = 3
+  name = "Experiments Map"
+  url = "/research/experiments-map"
+  weight = 1
 
 [[menu.main]]
   name = "Fellowships"

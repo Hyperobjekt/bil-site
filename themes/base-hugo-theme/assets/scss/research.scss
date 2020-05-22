@@ -40,17 +40,38 @@ body.mapping-ubi-research {
     }
 }   
 
-body.basic-income-experiments {
+body.global-map-of-basic-income-experiments {
     .hero {
         background: url('/images/heroes/juliana-audience-hero.jpg');
         background-size: cover;
         background-position: center center;
+    }
+    .subnav {
+        padding-top: 0;
+        padding-bottom: 0;
+        .dropdown-menu {
+            margin-top: 0;
+        }
+    }
+    #bil-map-target {
+        iframe {
+            width: 100vw;
+            height: 92vh;
+            border: none;
+        }
+        @media (max-width: 600px) {
+            height: 78vh;
+        }
     }
     th:last-child  {
         display: none;
     }
     tr td:last-child {
         display: none;
+    }
+    footer{
+     //   display: none !important;
+    //  min-height: 100vh;
     }
 } 
 
