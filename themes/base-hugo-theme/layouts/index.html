@@ -130,19 +130,19 @@
 {{ with .Site.Data.home.whatWeDo }}
 
 <div id="hp-viz" class="row mx-0">  
-    <div id="hpviz1" class="col-md-6 px-0 pt-20 pt-md-16 pt-lg-18 pt-xl-20" style="background-color: #f1f1f1; background-image: url('{{ .bg4 }}');">
+    <div id="hpviz1" class="col-md-6 px-0" style="background-color: #f1f1f1; background-image: url('{{ .bg4 }}');">
         <div class="teaser-overlay">
             <h2 class="blacktext text-sm-center text-md-left mt-0 mb-1">{{ .heading4 }}</h2>
-            <p class="slatetext mt-2">{{ .subhead4 }}</p>
+            <p class="slatetext my-2">{{ .subhead4 }}</p>
             <div class="news-item-link d-flex">
                 <a class="plainlink coldblcktext mx-auto mx-md-0" href="{{ .link4 }}">{{ .cta3 }}&nbsp;{{ partial "rightarrow.html" }}</a>
             </div>
         </div>      
     </div>    
-    <div id="hpviz2" class="col-md-6 pt-20 px-0 pt-md-16 pt-lg-18 pt-xl-20" style="background-color: #f1f1f1; background-image: url('{{ .bg3 }}');">
+    <div id="hpviz2" class="col-md-6 px-0" style="background-color: #f1f1f1; background-image: url('{{ .bg3 }}');">
         <div class="teaser-overlay">
             <h2 class="blacktext text-sm-center text-md-left mt-0 mb-1">{{ .heading3 }}</h2>
-            <p class="slatetext mt-2">{{ .subhead3 }}</p>
+            <p class="slatetext my-2">{{ .subhead3 }}</p>
             <div class="news-item-link d-flex">
                 <a class="plainlink coldblcktext mx-auto mx-md-0" href="{{ .link3 }}">{{ .cta3 }}&nbsp;{{ partial "rightarrow.html" }}</a>
             </div>
