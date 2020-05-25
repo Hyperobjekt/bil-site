@@ -128,25 +128,32 @@
 {{ end }}
 <!--/////----   Visualization   ----\\\\\-->
 {{ with .Site.Data.home.whatWeDo }}
-<div id="hp-viz" style="background-color: #f1f1f1; background-image: url('{{ .bg3}}');">   
-    <div class="row">   
-    <div class="col-md-6 col-lg-5 offset-md-1 py-8 py-md-6 py-lg-9 py-xl-12">
+
+<div id="hp-viz" class="row mx-0">  
+    <div id="hpviz1" class="col-md-6 px-0 pt-20 pt-md-16 pt-lg-18 pt-xl-20" style="background-color: #f1f1f1; background-image: url('{{ .bg4 }}');">
         <div class="teaser-overlay">
-            <h2 class="blacktext text-sm-center text-md-left mt-sm-4 mt-md-0 mb-1">{{ .heading3 }}</h2>
+            <h2 class="blacktext text-sm-center text-md-left mt-0 mb-1">{{ .heading4 }}</h2>
+            <p class="slatetext mt-2">{{ .subhead4 }}</p>
+            <div class="news-item-link d-flex">
+                <a class="plainlink coldblcktext mx-auto mx-md-0" href="{{ .link4 }}">{{ .cta3 }}&nbsp;{{ partial "rightarrow.html" }}</a>
+            </div>
+        </div>      
+    </div>    
+    <div id="hpviz2" class="col-md-6 pt-20 px-0 pt-md-16 pt-lg-18 pt-xl-20" style="background-color: #f1f1f1; background-image: url('{{ .bg3 }}');">
+        <div class="teaser-overlay">
+            <h2 class="blacktext text-sm-center text-md-left mt-0 mb-1">{{ .heading3 }}</h2>
             <p class="slatetext mt-2">{{ .subhead3 }}</p>
             <div class="news-item-link d-flex">
                 <a class="plainlink coldblcktext mx-auto mx-md-0" href="{{ .link3 }}">{{ .cta3 }}&nbsp;{{ partial "rightarrow.html" }}</a>
             </div>
-        </div>    
-    </div>
-    </div>
-   
+        </div>      
+    </div>  
 </div>
 <!--/////----   Homepage Recent News   ----\\\\\-->
 <div id="hp-news" class="mt-sm-6 mt-md-8 mt-lg-9 mt-xl-10">
         <div class="row">
             <div class="col-12 ">
-                <h2 class="text-center blactext mb-2 mb-md-3 mb-lg-5 mb-xl-7">{{ .heading4 }}</h2>
+                <h2 class="text-center blactext mb-2 mb-md-3 mb-lg-5 mb-xl-7">{{ .heading5 }}</h2>
             </div>
         </div>
         {{ end }}

@@ -19167,16 +19167,45 @@ body.home #hp-viz {
   }
 }
 
+body.home #hp-viz #hpviz1, body.home #hp-viz #hpviz2 {
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  background-repeat: no-repeat;
+}
+
+body.home #hp-viz #hpviz1 {
+  background-size: cover;
+  background-position: left bottom;
+}
+
+@media (min-width: 992px) {
+  body.home #hp-viz #hpviz1 {
+    background-size: 150%;
+    background-position: left top;
+  }
+}
+
+body.home #hp-viz #hpviz2 {
+  background-size: cover;
+  background-position: right 80%;
+}
+
 body.home #hp-viz .teaser-overlay {
   padding: 2.4rem;
   background: #ffffffd1;
-  border-radius: 6px;
-  box-shadow: 1px 2px 5px 1px #0000000d;
+}
+
+@media (min-width: 992px) {
+  body.home #hp-viz .teaser-overlay {
+    padding: 4rem;
+  }
 }
 
 @media (min-width: 1380px) {
   body.home #hp-viz .teaser-overlay {
-    padding: 3.2rem;
+    padding: 4.8rem;
   }
 }
 

@@ -366,14 +366,36 @@ body.home {
         @include media-breakpoint-up(lg) {
           background-position: 80% center;
         }
+        #hpviz1, #hpviz2 {
+          background-color: #f1f1f1;
+          display: flex;
+          justify-content: flex-end;
+          flex-direction: column;
+          background-repeat: no-repeat;
+        }  
+        #hpviz1 {
+          background-size: cover;
+            background-position: left bottom;
+          @include media-breakpoint-up(lg) {
+            background-size: 150%;
+            background-position: left top;
+          }
+        }
+        #hpviz2 {
+          background-size: cover;
+          background-position: right 80%;
+        }
         .teaser-overlay {
           padding: 2.4rem;
+          @include media-breakpoint-up(lg) {
+            padding: 4rem;
+          }
           @include media-breakpoint-up(xl) {
-            padding: 3.2rem;
+            padding: 4.8rem;
           }
           background: #ffffffd1;
-          border-radius: 6px;
-          box-shadow: 1px 2px 5px 1px #0000000d;
+         // border-radius: 6px;
+         // box-shadow: 1px 2px 5px 1px #0000000d;
         }
     }
     #hp-news {
