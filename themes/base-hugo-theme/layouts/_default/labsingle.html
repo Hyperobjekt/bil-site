@@ -21,9 +21,8 @@
                 <img src='{{ .Params.image }}' class="mb-md-2 mw-100" />
             </div>    
         </div>  
-    {{ end }} 
-    {{ if .Params.largeimage }}
-        <div class="row mx-0">
+    {{ else if .Params.largeimage }}
+        <div class="row mt-4 mt-md-0 mx-0">
             <div class="col-12 mx-0 px-0 bloghero">
                 <img src='{{ .Params.largeimage }}' class="mb-md-2 mw-100" />
             </div>    
