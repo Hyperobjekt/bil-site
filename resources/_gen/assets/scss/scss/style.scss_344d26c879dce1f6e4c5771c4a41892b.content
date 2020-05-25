@@ -20072,6 +20072,10 @@ body.type-news .hero {
   }
 }
 
+body.type-labupdates .breadcrumb {
+  margin-bottom: 0;
+}
+
 @media (min-width: 768px) {
   .position-apply {
     margin-top: 13%;
