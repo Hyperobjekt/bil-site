@@ -13,16 +13,26 @@
     </div>
 <!-- /SUBNAV -->
 
-<div id="mapping-text" class="pt-sm-0 pt-md-7 pt-lg-8 pt-xl-9 pb-sm-7 pb-md-7 pb-xl-8">
-    <div class="row mx-0 mx-md-2">
-        <div class="col-12 col-md-10 col-lg-9 col-xl-9 mx-md-auto px-0 px-md-2 bloghero">
-            <img src='{{ .Params.image }}' class="mb-md-2 mw-100" />
-        </div>    
-    </div>   
+<!--<div id="mapping-text" class="pt-sm-0 pt-md-7 pt-lg-8 pt-xl-9 pb-sm-7 pb-md-7 pb-xl-8">-->
+    <div id="mapping-text" class="pt-sm-0">
+    {{ if .Params.image }}
+        <div class="row mx-0 pt-3 pt-md-6">
+            <div class="col-12 mx-md-auto px-0 bloghero">
+                <img src='{{ .Params.image }}' class="mb-md-2 mw-100" />
+            </div>    
+        </div>  
+    {{ end }} 
+    {{ if .Params.largeimage }}
+        <div class="row mx-0">
+            <div class="col-12 mx-0 px-0 bloghero">
+                <img src='{{ .Params.largeimage }}' class="mb-md-2 mw-100" />
+            </div>    
+        </div>  
+    {{ end }} 
     <div class="row mb-4 mb-md-4 mb-lg-8 mb-xl-12">
         <div class="col-12 col-md-8 col-lg-7 col-xl-6 mx-md-auto ">
             <!--<img src='{{ .Params.image }}' class="mb-2 mw-100" />-->
-            <div class="d-block mb-5 imgcaption slatetext">{{ .Params.caption }}</div>
+            <div class="d-block mt-1 mb-5 imgcaption slatetext">{{ .Params.caption }}</div>
             <h4 class="news coldblcktext text-uppercase mt-2 mb-1 ">{{ .Date.Format "Monday, January 2, 2006" }}</h4>
             <h3 class="news mb-sm-2 mb-md-2 mb-xl-2">{{ .Params.title }}</h3>
             <div class="social-box mt-3 mb-4">
