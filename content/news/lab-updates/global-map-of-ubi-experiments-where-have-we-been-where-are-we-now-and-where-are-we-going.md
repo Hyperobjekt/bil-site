@@ -19,6 +19,8 @@ social_description: "How and where have Universal Basic Income (UBI) and policie
   between these programs and which features do they share with an ideal UBI
   policy? What impacts can be measured when giving individuals unconditional
   cash on a regular basis?"
+aliases:
+  - /ubi-experiments-map-overview  
 ---
 Over the last sixty years, countries around the world have implemented versions of basic income experiments, pilots, programs and policies. Basic income experiments are testing some of the [various features](https://basicincome.stanford.edu/about/what-is-ubi/) of a universal basic income including the regular disbursement of unconditional cash to individuals. These experiments are important since they engage communities in innovative ways, and they also capture information and data on key processes, impact, and outcomes that seek to inform the development of a basic income-like policy. These experiments help us approximate what Universal Basic Income could reasonably achieve if it were to be implemented.
 
