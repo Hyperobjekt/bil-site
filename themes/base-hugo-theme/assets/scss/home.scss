@@ -405,7 +405,7 @@ body.home {
           }
           padding: 2.4rem;
           @include media-breakpoint-up(lg) {
-            padding: 2.4rem 4rem;
+            padding: 2.4rem 4rem 3.2rem 4rem;
           }
           @include media-breakpoint-up(xl) {
             padding: 3.2rem 4.8rem;
