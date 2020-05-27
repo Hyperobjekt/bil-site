@@ -1,17 +1,22 @@
 newsletters:
+  - align:
+      - center
+    link: https://conta.cc/2XzMOpk
+    title: Spring 2020
+    image: /uploads/experiments-map-thumb.jpg
   - align: center
     image: /uploads/Screen Shot 2019-02-14 at 4.02.31 PM.png
-    link: 'https://conta.cc/34aOg3q'
+    link: https://conta.cc/34aOg3q
     title: Spring 2019
   - align: center
     image: /uploads/Screen Shot 2019-02-14 at 4.04.47 PM.png
-    link: 'https://conta.cc/2r1sjp0'
+    link: https://conta.cc/2r1sjp0
     title: Winter 2018
   - align: center
     image: /uploads/Untitled design _3_.png
-    link: 'https://conta.cc/2KzRbuO'
+    link: https://conta.cc/2KzRbuO
     title: Fall 2018
   - align: center
     image: /uploads/31967439234_67b0cb23a0_o.jpg
-    link: 'https://conta.cc/2Kv9ykv'
+    link: https://conta.cc/2Kv9ykv
     title: Spring 2017
