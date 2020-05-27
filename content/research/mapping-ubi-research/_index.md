@@ -16,7 +16,7 @@ body1: >-
   The online platform will provide pertinent summaries of articles, research papers, books produced on UBI to date, highlighting important findings from each and ensuring that core areas such as health, crime, race, stigma, childhood poverty and gender equity are covered.
 
 
-  In Spring 2020, we will unveil the finished platform at a large-scale event. Stay tuned for more updates on our progress!
+  In Summer 2020, we will unveil the finished platform at a large-scale event. Stay tuned for more updates on our progress!
 heading2: Coming Summer 2020
 body2: Currently in development, this interactive network visualization will
   serve as the first-ever online platform for exploring existing research on
