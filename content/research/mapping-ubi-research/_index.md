@@ -2,6 +2,7 @@
 layout: mapping-ubi-research
 title: Mapping UBI Research
 herotext: Research Conducted by the Stanford Basic Income Lab
+url: /research/ubi-visualization/
 heading1: Visualizing UBI Research
 body1: >-
   Despite the growing UBI research effort over the past 30 years, there does not
@@ -12,23 +13,17 @@ body1: >-
   basic-income experimenters, researchers, students, and policy-makers.
 
 
-  The online platform will provide pertinent summaries of articles, research
-  papers, books produced on UBI to date, highlighting important findings from
-  each and ensuring that core areas such as health, crime, race, stigma,
-  childhood poverty and gender equity are covered.
+  The online platform will provide pertinent summaries of articles, research papers, books produced on UBI to date, highlighting important findings from each and ensuring that core areas such as health, crime, race, stigma, childhood poverty and gender equity are covered.
 
 
-  In Spring 2020, we will unveil the finished platform at a large-scale event.
-  Stay tuned for more updates on our progress!
-heading2: Coming Spring 2020
-body2: >-
-  Currently in development, this interactive network visualization will serve as
-  the first-ever online platform for exploring existing research on Basic
-  Income.
-url: /research/ubi-visualization/ 
+  In Spring 2020, we will unveil the finished platform at a large-scale event. Stay tuned for more updates on our progress!
+heading2: Coming Summer 2020
+body2: Currently in development, this interactive network visualization will
+  serve as the first-ever online platform for exploring existing research on
+  Basic Income.
 aliases:
   - /research/mapping-ubi-research
 ---
-## Want to learn more about UBI research?
+## Want to learn more about UBI experiments?
 
-The Basic Income Lab has created a [list of current North American Basic Income pilots](/research/basic-income-experiments/).
+The Basic Income Lab has created a [global map of basic income experiments](https://basicincome.stanford.edu/experiments-map/).
