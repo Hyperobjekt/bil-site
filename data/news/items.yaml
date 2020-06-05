@@ -1,4 +1,12 @@
 newsItem:
+  - align: right
+    date: 2020-06-04T23:36:31.012Z
+    articleLink: https://www.stanforddaily.com/2020/06/04/social-psychology-ph-d-student-shares-research-on-universal-basic-income/
+    title: Social psychology Ph.D. student shares research on universal basic income
+    outlet: The Stanford Daily
+    excerpt: Former Stanford Basic Income Lab Fellow, Catherine Thomas, talks about
+      Universal Basic Income.
+    image: /uploads/ug-senate-428.webp
   - align: center
     articleLink: https://www.abc.net.au/radionational/programs/this-working-life/is-this-the-end-of-work-as-we-know-it/11750780
     date: 2019-12-06T21:58:40.524Z
@@ -41,11 +49,3 @@ newsItem:
     image: /uploads/nlc_bilpr.png
     outlet: National League of Cities
     title: UBI Cities Toolkit Launch
-  - align: right
-    date: 2020-06-04T23:36:31.012Z
-    articleLink: https://www.stanforddaily.com/2020/06/04/social-psychology-ph-d-student-shares-research-on-universal-basic-income/
-    title: Social psychology Ph.D. student shares research on universal basic income
-    outlet: The Stanford Daily
-    excerpt: Former Stanford Basic Income Lab Fellow, Catherine Thomas, talks about
-      Universal Basic Income.
-    image: /uploads/ug-senate-428.webp
