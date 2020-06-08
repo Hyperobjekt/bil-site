@@ -38,7 +38,7 @@
                 <ul class="social-sprite pl-0 d-flex">
                     <li class="share-prompt ml-0 mr-2 ">Share:</li>
                     <li><a class="facebook social-share-popup mr-3 " target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://basicincome.stanford.edu{{ .Permalink }}"></a></li>
-                    <li><a class="twitter social-share-popup mr-3 " target="_blank" href="https://twitter.com/intent/tweet?status={{ .Title }} https://basicincome.stanford.edu{{ .Permalink }}"></a></li>
+                    <li><a class="twitter twittershare social-share-popup mr-3 " data-text="{{ .Title }}" data-url="https://basicincome.stanford.edu{{ .RelPermalink }}" href="#"></a></li>
                     <li><a class="send-email" target="_blank" href="mailto:?subject={{ .Title }} - Stanford Basic Income Lab&body=https://basicincome.stanford.edu{{ .Permalink }}"></a></li>
                 </ul>
               </div>
@@ -47,7 +47,7 @@
                 <ul class="social-sprite pl-0 d-flex justify-content-center">
                     <li class="share-prompt ml-0 mr-2 ">Share:</li>
                     <li><a class="facebook social-share-popup mr-3 " target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https://basicincome.stanford.edu{{ .Permalink }}"></a></li>
-                    <li><a class="twitter social-share-popup mr-3 " target="_blank" href="https://twitter.com/intent/tweet?status={{ .Title }} https://basicincome.stanford.edu{{ .Permalink }}"></a></li>
+                    <li><a class="twitter twittershare social-share-popup mr-3 " target="_blank" href="https://twitter.com/intent/tweet?status={{ .Title }} https://basicincome.stanford.edu{{ .RelPermalink }}"></a></li>
                     <li><a class="send-email" target="_blank" href="mailto:?subject={{ .Title }} - Stanford Basic Income Lab&body=https://basicincome.stanford.edu{{ .Permalink }}"></a></li>
                 </ul>
               </div>  
