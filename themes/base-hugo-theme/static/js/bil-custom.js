@@ -215,7 +215,7 @@
       text: this.getAttribute('data-text'),
       url: this.getAttribute('data-url'),
     }
-    window.open('https://twitter.com/share?'+jQuery.param(field_list), '_blank', 'width=550,height=420').focus();
+    window.open('https://twitter.com/share?'+$.param(field_list), '_blank', 'width=550,height=420').focus();
   });
 
 
