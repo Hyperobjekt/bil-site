@@ -19168,7 +19168,7 @@ body.home #hp-viz {
 }
 
 body.home #hp-viz #hpviz1, body.home #hp-viz #hpviz2 {
-  background-color: #f1f1f1;
+  background-color: #ffffffb5;
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
@@ -19207,8 +19207,8 @@ body.home #hp-viz #hpviz1 {
 }
 
 body.home #hp-viz #hpviz2 {
-  background-size: cover;
-  background-position: right 80%;
+  background-size: 140%;
+  background-position: right 0%;
 }
 
 body.home #hp-viz .teaser-overlay {
@@ -19229,7 +19229,7 @@ body.home #hp-viz .teaser-overlay h2 {
 
 @media (min-width: 992px) {
   body.home #hp-viz .teaser-overlay {
-    padding: 2.4rem 4rem;
+    padding: 2.4rem 4rem 3.2rem 4rem;
   }
 }
 
@@ -20001,6 +20001,23 @@ body.global-map-of-basic-income-experiments tr td:last-child {
   display: none;
 }
 
+body.research-papers .hero {
+  background: url("/images/heroes/WarrenBirdsong2-edit.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+body.research-papers .list-pic {
+  width: 140px;
+  height: fit-content;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+body.research-papers .newslist:nth-of-type(1) .topdivider {
+  border-top: none !important;
+}
+
 body.basic-income-experiments table th {
   background-color: #FFFBF5;
   color: #A36514;
@@ -20070,6 +20087,10 @@ body.type-news .hero {
   body.type-news h2 {
     max-width: 90%;
   }
+}
+
+body.type-news .newslist:nth-of-type(1) .topdivider {
+  border-top: none !important;
 }
 
 body.type-labupdates .breadcrumb {
@@ -20276,6 +20297,15 @@ body.covid-19-digest #digest-intro p {
     line-height: 1.55;
     letter-spacing: 0rem;
   }
+}
+
+.btn-w-bg .bg-overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+  background-color: #72bbc324;
+  width: 100%;
+  height: auto;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -84,7 +84,13 @@ unsafe = true
   parent = "Research"
   name = "Research Visualization"
   url = "/research/ubi-visualization"
-  weight = 3
+  weight = 4
+
+[[menu.main]]
+  parent = "Research"
+  name = "Papers"
+  url = "/research/papers"
+  weight = 3  
 
 [[menu.main]]
   parent = "Research"

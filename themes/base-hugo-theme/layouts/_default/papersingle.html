@@ -1,0 +1,52 @@
+{{ define "main" }}
+{{ with .Page.Params }}
+
+<div class="row d-flex subnav breadcrumb">
+    <div class="col-12 col-xl-10 p-0 ml-0 ml-md-5 offset-xl-1 mx-xl-auto pl-xl-3">
+        <ul class="d-flex flex-wrap justify-content-start align-items-center pl-4 pl-md-0">
+        
+            <li class=""><a href="/">Home</a>&nbsp;&nbsp;<i class="fas fa-angle-right"></i></li>
+            <li class="">&nbsp;&nbsp;<a href="/research/papers">Research Papers</a>&nbsp;&nbsp;<i class="fas fa-angle-right"></i></li>
+            <li class="">&nbsp;&nbsp;{{ .title }}</li>
+        
+        </ul>
+    </div>
+</div>
+
+<!-- /SUBNAV -->
+
+
+<!--/////       BASIC INCOME TOOLKIT      \\\\\-->
+<div id="what-is-text" class="pt-sm-5 pt-md-7 pt-lg-9 pt-xl-12 pb-sm-7 pb-md-7 pb-xl-8">
+    <div class="row">
+        <a href="{{ .link }}">
+            <div class="col-md-3 offset-md-2 mt-md-2 d-flex flex-column justify-content-start align-items-sm-center align-items-md-end">
+                {{ $img := strings.TrimPrefix "/uploads/" .image }}
+                {{ $alt := .Params.alt }}
+                {{ with site.GetPage "uploads/_index.md" }}
+                    {{ with .Resources.GetMatch $img }}
+                        {{ $options := "270x600 q90" }} {{/* Options for 1x devices */}}
+                        {{ $options2x := "540x1200 q80" }} {{/* Options for 2x devices */}}
+                        {{ $sizes := "(min-width: 270px) 100vw, 100vw"}} {{/* Sizes attr options for 2x devices */}}
+                        {{ $processed := .Fit $options }} {{/* This line processes the image with the regular res opts */}}
+                        {{ $processed2x := .Fit $options2x }} {{/* This line processes the image with the high res opts */}}    
+    
+                <img class="drop-shadow" src="{{ $processed.RelPermalink }}" alt="{{ $alt }}" sizes="{{ $sizes }}" width="{{ $processed.Width }}" height="{{ $processed.Height}}" alt="{{ $alt }}" srcset="{{ $processed.RelPermalink }}, {{ $processed2x.RelPermalink }} 2x" style="height: auto;">
+                <p class="medgraytext mt-1 mt-md-2 text-center"><em>Click image to download paper.</em></p>
+                {{ end }}
+                {{ end }}
+            </a>
+            
+        </div>
+        <div class="col-md-5 mt-4 mt-md-0 pl-md-3 pl-xl-5">
+            <h2 class="mb-sm-4 mb-md-4 mb-xl-5">{{ .title }}</h2>
+            <span class="medgraytext mt-md-1">{{ .abstract | markdownify }}</span>
+                
+        </div>
+    </div>
+</div>
+
+{{ end }}
+{{ partial "subscribe.html" .}}
+
+{{ end }}

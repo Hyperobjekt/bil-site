@@ -75,3 +75,25 @@ body.global-map-of-basic-income-experiments {
     }
 } 
 
+body.research-papers {
+    .hero {
+        background: url('/images/heroes/WarrenBirdsong2-edit.jpg');
+        background-size: cover;
+        background-position: center center;
+    }
+    .list-pic {
+        width: 140px;
+        height: fit-content;
+        background-repeat: no-repeat;
+        background-size: contain;
+        img {
+            
+        }
+    }
+    .newslist:nth-of-type(1) {
+        .topdivider {
+            border-top: none !important;
+        }
+    }
+}
+
