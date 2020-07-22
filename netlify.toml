@@ -133,3 +133,9 @@ from = "/fellowships/postdoctoral-research-fellow"
   to = "/fellowships/postdoctoral-fellow"
   status = 301
   force=true
+
+[[redirects]]
+from = "/research/ubi-cities-toolkit/"
+  to = "/research/papers/ubi-cities-toolkit/"
+  status = 301
+  force=true  

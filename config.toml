@@ -94,12 +94,6 @@ unsafe = true
 
 [[menu.main]]
   parent = "Research"
-  name = "Cities Toolkit"
-  url = "/research/ubi-cities-toolkit"
-  weight = 2
-
-[[menu.main]]
-  parent = "Research"
   name = "Experiments Map"
   url = "/research/experiments-map"
   weight = 1

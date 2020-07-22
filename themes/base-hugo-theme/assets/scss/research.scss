@@ -95,5 +95,22 @@ body.research-papers {
             border-top: none !important;
         }
     }
+    .superhead {
+        @include media-breakpoint-up(lg) {
+            font-size: 1.4rem;
+            line-height: 1.7;
+            letter-spacing: 0.213rem;
+        }
+    }
+}
+
+body.type-papers {
+    .superhead {
+        @include media-breakpoint-up(lg) {
+            font-size: 1.4rem;
+            line-height: 1.7;
+            letter-spacing: 0.213rem;
+        }
+    }
 }
 

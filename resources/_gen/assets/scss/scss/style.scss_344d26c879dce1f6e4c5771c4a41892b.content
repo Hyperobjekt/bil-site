@@ -20018,6 +20018,22 @@ body.research-papers .newslist:nth-of-type(1) .topdivider {
   border-top: none !important;
 }
 
+@media (min-width: 992px) {
+  body.research-papers .superhead {
+    font-size: 1.4rem;
+    line-height: 1.7;
+    letter-spacing: 0.213rem;
+  }
+}
+
+@media (min-width: 992px) {
+  body.type-papers .superhead {
+    font-size: 1.4rem;
+    line-height: 1.7;
+    letter-spacing: 0.213rem;
+  }
+}
+
 body.basic-income-experiments table th {
   background-color: #FFFBF5;
   color: #A36514;
