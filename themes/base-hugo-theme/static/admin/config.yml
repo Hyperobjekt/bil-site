@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: production # Branch to update (optional; defaults to master)
+  branch: feature/papers # Branch to update (optional; defaults to master)
 
 publish_mode: editorial_workflow
 
@@ -130,6 +130,25 @@ collections:
               - {label: Bio, name: blurb, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}     
 
   #RESEARCH PAGES
+  - label: Papers
+    name: papers_content
+    folder: "content/research/papers/"
+    preview_path: research/papers/
+    extension: "md"
+    filter: {field: "is_index", value: false}
+    fields:
+      - {label: is_index, name: is_index, widget: hidden, default: "false"}
+      - {label: type, name: type, widget: hidden, default: "papers"}
+      - {label: layout, name: layout, widget: hidden, default: "papersingle"}
+      - {label: Page Title, name: title, widget: string}
+      - {label: Author, name: author, widget: string, required: false}
+      - {label: Date, name: date, hint: "Date determines paper's order in list", widget: datetime}
+      - {label: Excerpt, name: excerpt, hint: Appears on papers index page, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+      - {label: Paper image, name: image, widget: image, hint: "Image of paper's cover goes here", required: false} 
+      - {label: Paper, name: link, widget: file}
+      - {label: Paper Abstract or Introduction, name: abstract, hint: Appears on individual paper page, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+      - {label: Social share description, name: social_description, widget: string, required: false}
+      - {label: Social share image, name: social_image, widget: image, required: false}
   - label: "Research"
     name: research
     files:
@@ -147,22 +166,6 @@ collections:
             - {label: Visualization Panel Heading, name: heading2, widget: string}
             - {label: Visualization Panel Body Text, name: body2, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
             - {label: Basic Income Pilots Teaser, name: body, widget: markdown, buttons: [heading-two, bold, italic, link, bulleted-list, numbered-list]}
-        - label: UBI Cities Toolkit
-          name: ubi_cities_toolkit_content
-          file: "content/research/ubi-cities-toolkit/_index.md"
-          preview_path: research/ubi-cities-toolkit/
-          extension: "md"
-          fields:
-            - {label: layout, name: layout, widget: hidden, default: "ubi-cities-toolkit"}
-            - {label: pageTitle, name: title, widget: hidden, default: "UBI Cities Toolkit"}
-            - {label: Hero Image Text, name: herotext, widget: string}
-            - {label: Toolkit link, name: toolkitlink, widget: file}
-            - {label: Panel 1 Heading, name: heading1, widget: string}
-            - {label: Panel 1 Body text, name: body1, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
-            - {label: Panel 2 Heading, name: heading2, widget: string}
-            - {label: Recommendation 1, name: rec1, widget: string}
-            - {label: Recommendation 2, name: rec2, widget: string}
-            - {label: Recommendation 3, name: rec3, widget: string}
         - label: Basic Income Experiments
           name: experiments_content
           file: "data/experiments/content.yaml"
