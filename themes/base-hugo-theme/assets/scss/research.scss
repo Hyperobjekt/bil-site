@@ -83,16 +83,23 @@ body.research-papers {
     }
     .list-pic {
         width: 140px;
-        height: fit-content;
+        height: auto;
         background-repeat: no-repeat;
         background-size: contain;
         img {
             
         }
     }
+    .newslist .topdivider {
+        @include media-breakpoint-down(mm) {
+            border-top: none;
+        }
+    }
     .newslist:nth-of-type(1) {
         .topdivider {
-            border-top: none !important;
+            @include media-breakpoint-up(md) {
+                border-top: none !important;
+            }
         }
     }
     .superhead {
