@@ -131,11 +131,12 @@ collections:
 
   #RESEARCH PAGES
   - label: Papers
-    name: papers_content
-    folder: "content/research/papers/"
+    name: paperscontent
+    folder: "content/research/papers"
     preview_path: research/papers/
     extension: "md"
     filter: {field: "is_index", value: false}
+    create: true
     fields:
       - {label: is_index, name: is_index, widget: hidden, default: "false"}
       - {label: type, name: type, widget: hidden, default: "papers"}
