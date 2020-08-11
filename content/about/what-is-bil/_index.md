@@ -53,4 +53,6 @@ heading6: Sponsors
 body6: The Basic Income Lab receives the support of the Robert Wood Johnson
   Foundation, the Jain Family Institute, the Economic Security Project, and the
   McCoy Family Center for Ethics in Society.
+social_image: /uploads/what-is-bil-social.jpg
+social_description: "The Basic Income Lab reviews the vast interdisciplinary research produced on UBI, identify under-explored research questions, and help shape future directions in basic income research"   
 ---
