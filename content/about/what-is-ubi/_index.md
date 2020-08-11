@@ -91,5 +91,7 @@ item5head: Unconditional
 item5text: >-
   It involves no work requirement or sanctions; it is accessible to those in
   work and out of work, voluntarily or not.
+social_image: /uploads/what-is-ubi-social.jpg
+social_description: "Universal basic income takes on distinct forms in different historical and geographic contexts. It varies based on the funding proposal, the level of payment, the frequency of payment, and the particular policies proposed around it." 
 ---
 
