@@ -88,4 +88,38 @@ nav.navbar.sticky-top {
       }
     }
   }
+
+  #text-panel {
+    position: absolute;
+    right: 0;
+    width: 300px;
+    transition: transform ease 1s;
+    &.closed {
+      transform: translateX(100%);
+      .close-icon {
+        display: none;
+      }
+      .open-icon {
+        display: block;
+      }
+    }
+    .close-icon {
+      display: block;
+    }
+    .open-icon {
+      display: none;
+    }
+
+    .toggle {
+      cursor: pointer;
+      position: absolute;
+      left: 0;
+      background: white;
+      border: solid .5px rgba(55, 55, 55, 0.125);
+      padding: 10px;
+      z-index: 100000;
+      transform: translateX(-100%);
+      top: 10px;
+    }
+  }
 }
