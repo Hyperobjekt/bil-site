@@ -297,6 +297,12 @@ jQuery('#viz-space').hover(function() {
   jQuery(document).unbind('mousewheel DOMMouseScroll');
 });
 
+jQuery('#text-panel .toggle').click(function(e){
+  console.log(e, '!')
+  jQuery('#text-panel').toggleClass('closed')
+})
+// console.log($panelToggle)
+
 // Init eCharts
 viz.chart = echarts.init(document.getElementById('viz-space'));
 viz.chart.showLoading();
