@@ -179,12 +179,13 @@ viz.rebuild = () => {
   (setup.nodes).push(root);
   setup.colorIndex++;
   // Build parent nodes
-  viz.parents.forEach(function(el) {
+  viz.parents.forEach(function(el, idx) {
     // console.log(el.title);
     if (!!el.display) {
       // Add item to nodes array
       const item = {
         id: el.id,
+        // dataIndex: idx+1, TODO: fix and replace hard-coded values in parentNodes.yml
         name: el.title,
         value: el.title,
         category: el.id,
@@ -339,6 +340,15 @@ viz.chart.hideLoading();
 // console.log(viz.chart);
 viz.zoomLevel = null;
 // Item click listener
+
+// viz.chart.dispatchAction({
+//   type: 'focusNodeAdjacency',
+//   seriesName: 'UBI',
+//   // name: _item_obj.title,
+//   dataIndex: 7,
+//   // edgeDataIndex: 9,
+// })
+
 viz.chart.on('click', function(e) {
   // console.log('click');
   // console.log(e);
@@ -354,10 +364,24 @@ viz.chart.on('click', function(e) {
     console.log('nodeId: ', nodeID);
     
     var _item_obj = viz.getItemObj(nodeID);
-    var textSection = _item_obj.type === 'child' ? _item_obj.parent : nodeID
 
+    var parentId = nodeID 
+    var dataIndex = _item_obj.dataIndex
+    if (_item_obj.type === 'child') {
+      parentId = _item_obj.parent
+      var _parent_obj = viz.getItemObj(parentId)
+      dataIndex = _parent_obj.dataIndex
+    }
+
+    viz.chart.dispatchAction({
+      type: 'focusNodeAdjacency',
+      seriesName: 'UBI',
+      dataIndex: dataIndex,
+    })
+    
     jQuery('#text-panel').removeClass('closed')
-    jQuery('#text-panel #collapse-'+textSection).collapse({ toggle: true })
+    // TODO: only works once(?)
+    jQuery('#text-panel #collapse-'+parentId).collapse({ toggle: true })
 
     // var offset = e.data.symbolSize + (e.data.symbolSize * viz.zoomlevel * 400);
     // var _item_obj = viz.getItemObj(e.data.id);
