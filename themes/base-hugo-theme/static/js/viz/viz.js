@@ -1,3 +1,27 @@
+// # sync selection
+//   # on click of node OR panel section: 
+//     # -open panel section √√√
+//     # -glow correct node √√
+//     # -move graph ??? 
+//     # -
+
+// #   viz.chart.dispatchAction({
+// #     type: 'downplay/highlight', 
+// #     name: 'Work',
+// # })
+
+// # viz.chart.dispatchAction({
+// #     type: 'focusNodeAdjacency',
+
+// #     // Use seriesId or seriesIndex or seriesName to specify
+// #     // the target series.
+
+// #     // Use either `dataIndex` or `edgeDataIndex` to specify
+// #     // the target node or target edge.
+// #     dataIndex: 14,
+// # })
+
+
 console.log('viz.js loaded');
 // console.log(viz.theme);
 // console.log(viz.parents);
@@ -192,6 +216,10 @@ viz.rebuild = () => {
     if (!!el.display && !!_viz_parent[0].display) {
       // console.log('display is on');
       // Add item to nodes array
+      // const label = { ...subtopicLabel }
+      // if (el.id === viz.active.hovered || el.id === viz.active.clicked) {
+      //   label.normal.show = true;
+      // }
       const item = {
         id: el.id,
         name: el.title,
@@ -205,7 +233,7 @@ viz.rebuild = () => {
           color: _parent[0].itemStyle.color,
         },
         tooltip: subtopicTooltip,
-        label: subtopicLabel
+        label: subtopicLabel // label
       };
       (setup.nodes).push(item);
     }
@@ -323,148 +351,155 @@ viz.chart.on('click', function(e) {
     var vSp = jQuery('#viz-space');
     viz.active.clicked = e.data.id;
     var evt = window.event;
-    // console.log(evt);
-    var offset = e.data.symbolSize + (e.data.symbolSize * viz.zoomlevel * 400);
-    var _item_obj = viz.getItemObj(e.data.id);
-    // console.log('_item_obj')
-    // console.log(_item_obj);
-    var _item_links = viz.getItemLinks(e.data.id);
-    var _style = 'style="max-height:' + (jQuery(window).height() * 0.75) + 'px;overflow-y:scroll;"';
-    let _tooltip = '<div class="tip">';
-    // Set up accordion content.
-    if (_item_obj.type === 'parent') {
-      // console.log('it\'s a parent');
-      _tooltip += '<span class="subtext">' + setup.strings.theme + '</span>' +
-      '<div class="theme title">' + e.data.name + '</div>';
-      // If there are links, render them.
-      if (_item_links.length >= 1) {
-        _tooltip += '<span class="subtext">' + setup.strings.subthemes + '</span>';
-        _item_links.forEach(function(item) {
-          const related = viz.getItemObj(item.target);
-        _tooltip += '<div class="related title">' + related.title + '</div>';
-        });
-      }
+    console.log('nodeId: ', nodeID);
+    
+    var _item_obj = viz.getItemObj(nodeID);
+    var textSection = _item_obj.type === 'child' ? _item_obj.parent : nodeID
 
-      var parentNodes = Object.values(viz.parents);
-      var parentNode = parentNodes.filter(function(el) {
-        return el.id == nodeID
-      })
-      // console.log('parentNode');
-      // console.log(parentNode);
-      if (parentNode[0].bibliography) {
-        _tooltip += '<a class="toggle-info" data-toggle="collapse" href="#collapseBib" role="button" aria-expanded="false" aria-controls="collapseBib">' +
-          '<span class="label">' +
-            setup.strings.bibliography +
-          '</span>' +
-          '<span class="icon">&plus;</span>' +
-        '</a>' +
-        '<div class="collapse" id="collapseBib">' +
-          '<div class="card card-body">' +
-            '<p>' + parentNode[0].bibliography + '</p>' +
-          '</div>' +
-        '</div>';
-      }
-    }
-    if (_item_obj.type === 'child') {
-      // console.log('it\'s a child');
-      const parentTitle = viz.getItemObj(_item_obj.parent).title;
-      // console.log('Parent is ' + parentTitle);
-      _tooltip += '<span class="subtext">' + setup.strings.theme + '</span>' +
-        '<div class="theme title">' + parentTitle + '</div>';
-      _tooltip += '<span class="subtext">' + setup.strings.subtheme + '</span>' +
-        '<div class="theme title">' + e.data.name + '</div>';
+    jQuery('#text-panel').removeClass('closed')
+    jQuery('#text-panel #collapse-'+textSection).collapse({ toggle: true })
 
-      if (_item_obj.summary) {
-        _tooltip += '<a class="toggle-info" data-toggle="collapse" href="#collapseSumm" role="button" aria-expanded="false" aria-controls="collapseSumm">' +
-          '<span class="label">' +
-            setup.strings.summary +
-          '</span>' +
-          '<span class="icon">&plus;</span>' +
-        '</a>' +
-        '<div class="collapse" id="collapseSumm">' +
-          '<div class="card card-body">' +
-            '<p>' + _item_obj.summary + '</p>' +
-          '</div>' +
-        '</div>';
-      }
+    // var offset = e.data.symbolSize + (e.data.symbolSize * viz.zoomlevel * 400);
+    // var _item_obj = viz.getItemObj(e.data.id);
+    // // console.log('_item_obj')
+    // // console.log(_item_obj);
+    // var _item_links = viz.getItemLinks(e.data.id);
+    // var _style = 'style="max-height:' + (jQuery(window).height() * 0.75) + 'px;overflow-y:scroll;"';
+    // let _tooltip = '<div class="tip">';
+    // // Set up accordion content.
+    // if (_item_obj.type === 'parent') {
+    //   // console.log('it\'s a parent');
+    //   _tooltip += '<span class="subtext">' + setup.strings.theme + '</span>' +
+    //   '<div class="theme title">' + e.data.name + '</div>';
+    //   // If there are links, render them.
+    //   if (_item_links.length >= 1) {
+    //     _tooltip += '<span class="subtext">' + setup.strings.subthemes + '</span>';
+    //     _item_links.forEach(function(item) {
+    //       const related = viz.getItemObj(item.target);
+    //     _tooltip += '<div class="related title">' + related.title + '</div>';
+    //     });
+    //   }
 
-      if (_item_obj.claims) {
-        _tooltip += '<a class="toggle-info" data-toggle="collapse" href="#collapseClaims" role="button" aria-expanded="false" aria-controls="collapseClaims">' +
-          '<span class="label">' +
-            setup.strings.claims +
-          '</span>' +
-          '<span class="icon">&plus;</span>' +
-        '</a>' +
-        '<div class="collapse" id="collapseClaims">' +
-          '<div class="card card-body">' +
-            '<p>' + _item_obj.claims + '</p>' +
-          '</div>' +
-        '</div>';
-      }
+    //   var parentNodes = Object.values(viz.parents);
+    //   var parentNode = parentNodes.filter(function(el) {
+    //     return el.id == nodeID
+    //   })
+    //   // console.log('parentNode');
+    //   // console.log(parentNode);
+    //   if (parentNode[0].bibliography) {
+    //     _tooltip += '<a class="toggle-info" data-toggle="collapse" href="#collapseBib" role="button" aria-expanded="false" aria-controls="collapseBib">' +
+    //       '<span class="label">' +
+    //         setup.strings.bibliography +
+    //       '</span>' +
+    //       '<span class="icon">&plus;</span>' +
+    //     '</a>' +
+    //     '<div class="collapse" id="collapseBib">' +
+    //       '<div class="card card-body">' +
+    //         '<p>' + parentNode[0].bibliography + '</p>' +
+    //       '</div>' +
+    //     '</div>';
+    //   }
+    // }
+    // if (_item_obj.type === 'child') {
+    //   // console.log('it\'s a child');
+    //   const parentTitle = viz.getItemObj(_item_obj.parent).title;
+    //   // console.log('Parent is ' + parentTitle);
+    //   _tooltip += '<span class="subtext">' + setup.strings.theme + '</span>' +
+    //     '<div class="theme title">' + parentTitle + '</div>';
+    //   _tooltip += '<span class="subtext">' + setup.strings.subtheme + '</span>' +
+    //     '<div class="theme title">' + e.data.name + '</div>';
 
-      if (_item_obj.relatedTopics) {
-        _tooltip += '<a class="toggle-info" data-toggle="collapse" href="#collapseRelatedTopics" role="button" aria-expanded="false" aria-controls="collapseRelatedTopics">' +
-          '<span class="label">' +
-            setup.strings.relatedTopics +
-          '</span>' +
-          '<span class="icon">&plus;</span>' +
-        '</a>' +
-        '<div class="collapse" id="collapseRelatedTopics">' +
-          '<div class="card card-body">' +
-            '<ul>';
-              _item_obj.relatedTopics.forEach((el) => {
-                _tooltip += '<li>' + el + '</li>';
-              });
-            _tooltip += '</ul>' +
-          '</div>' +
-        '</div>';
-      }
+    //   if (_item_obj.summary) {
+    //     _tooltip += '<a class="toggle-info" data-toggle="collapse" href="#collapseSumm" role="button" aria-expanded="false" aria-controls="collapseSumm">' +
+    //       '<span class="label">' +
+    //         setup.strings.summary +
+    //       '</span>' +
+    //       '<span class="icon">&plus;</span>' +
+    //     '</a>' +
+    //     '<div class="collapse" id="collapseSumm">' +
+    //       '<div class="card card-body">' +
+    //         '<p>' + _item_obj.summary + '</p>' +
+    //       '</div>' +
+    //     '</div>';
+    //   }
 
-      if (_item_obj.readMore) {
-        _tooltip += '<a class="toggle-info" data-toggle="collapse" href="#collapseReadMore" role="button" aria-expanded="false" aria-controls="collapseReadMore">' +
-          '<span class="label">' +
-            setup.strings.readMore +
-          '</span>' +
-          '<span class="icon">&plus;</span>' +
-        '</a>' +
-        '<div class="collapse" id="collapseReadMore">' +
-          '<div class="card card-body">' +
-            '<p>' + _item_obj.readMore + '</p>' +
-          '</div>' +
-        '</div>';
-      }
-    }
-    _tooltip += '</div>';
+    //   if (_item_obj.claims) {
+    //     _tooltip += '<a class="toggle-info" data-toggle="collapse" href="#collapseClaims" role="button" aria-expanded="false" aria-controls="collapseClaims">' +
+    //       '<span class="label">' +
+    //         setup.strings.claims +
+    //       '</span>' +
+    //       '<span class="icon">&plus;</span>' +
+    //     '</a>' +
+    //     '<div class="collapse" id="collapseClaims">' +
+    //       '<div class="card card-body">' +
+    //         '<p>' + _item_obj.claims + '</p>' +
+    //       '</div>' +
+    //     '</div>';
+    //   }
 
-    // Build dialog
-    $dialog = jQuery('#dialog');
-    _dialog_width = $dialog.width();
-    // console.log('width = ' + _dialog_width);
-    var _left = 0;
-    if ((evt.pageX + _dialog_width) > jQuery(window).width()) {
-      // console.log('too far to the right');
-      _left = evt.pageX - 450;
-    } else {
-      _left = evt.pageX;
-    }
-    $dialog.find('.dialog-body').html(_tooltip);
-    $dialog
-      .css({
-        'top': evt.pageY - offset * 2,
-        'left': _left,
-        'padding': offset,
-        'width': '450px',
-        'z-index': 2998
-      })
-      .fadeIn('slow');
-    $dialog.on('mouseenter', function() {
-      // console.log('mouseenter');
-      $dialog.bind('mouseleave', function() {
-        // console.log('mouseleave');
-          $dialog.fadeOut('slow');
-          $dialog.unbind('mouseenter mouseleave');
-      })
-    })
+    //   if (_item_obj.relatedTopics) {
+    //     _tooltip += '<a class="toggle-info" data-toggle="collapse" href="#collapseRelatedTopics" role="button" aria-expanded="false" aria-controls="collapseRelatedTopics">' +
+    //       '<span class="label">' +
+    //         setup.strings.relatedTopics +
+    //       '</span>' +
+    //       '<span class="icon">&plus;</span>' +
+    //     '</a>' +
+    //     '<div class="collapse" id="collapseRelatedTopics">' +
+    //       '<div class="card card-body">' +
+    //         '<ul>';
+    //           _item_obj.relatedTopics.forEach((el) => {
+    //             _tooltip += '<li>' + el + '</li>';
+    //           });
+    //         _tooltip += '</ul>' +
+    //       '</div>' +
+    //     '</div>';
+    //   }
+
+    //   if (_item_obj.readMore) {
+    //     _tooltip += '<a class="toggle-info" data-toggle="collapse" href="#collapseReadMore" role="button" aria-expanded="false" aria-controls="collapseReadMore">' +
+    //       '<span class="label">' +
+    //         setup.strings.readMore +
+    //       '</span>' +
+    //       '<span class="icon">&plus;</span>' +
+    //     '</a>' +
+    //     '<div class="collapse" id="collapseReadMore">' +
+    //       '<div class="card card-body">' +
+    //         '<p>' + _item_obj.readMore + '</p>' +
+    //       '</div>' +
+    //     '</div>';
+    //   }
+    // }
+    // _tooltip += '</div>';
+
+    // // Build dialog
+    // $dialog = jQuery('#dialog');
+    // _dialog_width = $dialog.width();
+    // // console.log('width = ' + _dialog_width);
+    // var _left = 0;
+    // if ((evt.pageX + _dialog_width) > jQuery(window).width()) {
+    //   // console.log('too far to the right');
+    //   _left = evt.pageX - 450;
+    // } else {
+    //   _left = evt.pageX;
+    // }
+    // $dialog.find('.dialog-body').html(_tooltip);
+    // $dialog
+    //   .css({
+    //     'top': evt.pageY - offset * 2,
+    //     'left': _left,
+    //     'padding': offset,
+    //     'width': '450px',
+    //     'z-index': 2998
+    //   })
+    //   .fadeIn('slow');
+    // $dialog.on('mouseenter', function() {
+    //   // console.log('mouseenter');
+    //   $dialog.bind('mouseleave', function() {
+    //     // console.log('mouseleave');
+    //       $dialog.fadeOut('slow');
+    //       $dialog.unbind('mouseenter mouseleave');
+    //   })
+    // })
   }
 });
 viz.zoomlevel = 0;

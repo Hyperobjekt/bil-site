@@ -19707,6 +19707,7 @@ nav.navbar.sticky-top {
 }
 
 .viz-parent #text-panel .toggle {
+  cursor: pointer;
   position: absolute;
   left: 0;
   background: white;
