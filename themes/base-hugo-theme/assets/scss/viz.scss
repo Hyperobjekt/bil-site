@@ -1,4 +1,4 @@
-$TEXT_PANEL_WIDTH: 800px;
+$TEXT_PANEL_WIDTH: 700px;
 $VIZ_HEIGHT: 600px;
 
 nav.navbar.sticky-top {
@@ -112,12 +112,18 @@ nav.navbar.sticky-top {
       overflow: scroll;
     }
 
+    .card-body .nav-pills .nav-link.active {
+      background-color: transparent;
+      color: black;
+      font-weight: bold;
+    }
+
     .close-icon {
-        display: none;
-      }
-      .open-icon {
-        display: block;
-      }
+      display: none;
+    }
+    .open-icon {
+      display: block;
+    }
 
     .toggle {
       cursor: pointer;

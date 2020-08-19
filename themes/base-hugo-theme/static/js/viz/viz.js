@@ -330,7 +330,7 @@ jQuery('#viz-space').hover(function() {
 
 // open and close text-panel
 jQuery('#text-panel .toggle').click(function(){
-  jQuery('#viz-parent').toggleClass('text-panel-open')
+  jQuery('#viz-parent').toggleClass('text-panel-open');
   setTimeout(() => {
     viz.chart.resize();
   }, 300);
@@ -342,7 +342,7 @@ jQuery('#text-panel .collapse').on('hide.bs.collapse', function(e) {
     type: 'unfocusNodeAdjacency',
     seriesName: 'UBI',
   });
-})
+});
 
 // focus node when opening corresponding text-panel section
 jQuery('#text-panel .collapse').on('show.bs.collapse', function(e) {
@@ -358,7 +358,7 @@ jQuery('#text-panel .collapse').on('show.bs.collapse', function(e) {
       dataIndex: _item_obj.dataIndex,
     });
   }, 200);
-})
+});
 
 window.onresize = function(){
   viz.chart.resize();
@@ -367,7 +367,6 @@ window.onresize = function(){
     seriesName: 'UBI',
   });
 };
-
 
 // Init eCharts
 viz.chart = echarts.init(document.getElementById('viz-space'));
@@ -392,22 +391,25 @@ viz.chart.on('click', function(e) {
     
     var _item_obj = viz.getItemObj(nodeID);
 
-    var parentId = nodeID 
-    var dataIndex = _item_obj.dataIndex
+    var parentId = nodeID;
+    var dataIndex = _item_obj.dataIndex;
     if (_item_obj.type === 'child') {
-      parentId = _item_obj.parent
-      var _parent_obj = viz.getItemObj(parentId)
-      dataIndex = _parent_obj.dataIndex
+      parentId = _item_obj.parent;
+      var _parent_obj = viz.getItemObj(parentId);
+      dataIndex = _parent_obj.dataIndex;
     }
     
     // make sure text-panel is open
-    jQuery('#viz-parent').addClass('text-panel-open')
+    jQuery('#viz-parent').addClass('text-panel-open');
 
-    // TODO: only works once(?)
     // open the corresponding text-panel section
-
+    // TODO: only works once(?)
     // jQuery.prototype.trigger = jQuery.prototype.triggerHandler;
-    jQuery(`#text-panel .collapse[data-id='${parentId}'`).collapse()
+    jQuery(`#text-panel .collapse[data-id='${parentId}'`).collapse();
+
+    if (_item_obj.type === 'child') {
+      jQuery(`#text-panel a[href="#pills-${nodeID}"]`).tab('show');
+    }
 
     // wait a beat...
     setTimeout(() => {
@@ -419,7 +421,14 @@ viz.chart.on('click', function(e) {
         type: 'focusNodeAdjacency',
         seriesName: 'UBI',
         dataIndex: dataIndex,
-      })
+      });
+
+      // scroll to the section in the text-panel (https://stackoverflow.com/a/2906009/13174944)
+      var $container = jQuery('#text-panel .content'),
+        $scrollTo = jQuery('#heading-' + parentId);
+      $container.animate({
+        scrollTop: $scrollTo.offset().top - $container.offset().top + $container.scrollTop()
+      });
     }, 300);
 
     // var offset = e.data.symbolSize + (e.data.symbolSize * viz.zoomlevel * 400);

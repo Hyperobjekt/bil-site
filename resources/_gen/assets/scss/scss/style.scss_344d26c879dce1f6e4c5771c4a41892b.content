@@ -20198,7 +20198,7 @@ nav.navbar.sticky-top {
 }
 
 .viz-parent.text-panel-open #viz-space {
-  width: calc(100% - 800px);
+  width: calc(100% - 700px);
 }
 
 .viz-parent .dialog {
@@ -20299,7 +20299,7 @@ nav.navbar.sticky-top {
   z-index: 2999;
   position: absolute;
   right: 0;
-  width: 800px;
+  width: 700px;
   transition: transform ease .8s;
   transform: translateX(100%);
 }
@@ -20307,6 +20307,12 @@ nav.navbar.sticky-top {
 .viz-parent #text-panel .content {
   height: 600px;
   overflow: scroll;
+}
+
+.viz-parent #text-panel .card-body .nav-pills .nav-link.active {
+  background-color: transparent;
+  color: black;
+  font-weight: bold;
 }
 
 .viz-parent #text-panel .close-icon {
