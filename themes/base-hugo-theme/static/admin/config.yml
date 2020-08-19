@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: production # Branch to update (optional; defaults to master)
+  branch: cms-dev # Branch to update (optional; defaults to master)
 
 publish_mode: editorial_workflow
 

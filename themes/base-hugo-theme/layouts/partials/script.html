@@ -5,8 +5,9 @@
 {{ end }}
 <script src="{{ "js/bil-custom.js" | absURL }}"></script>
 {{ template "_internal/google_analytics_async.html" . }}
-<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-
-{{ if eq .Page.Type "posts" }}
-    {{ partial "scatterplot-scripts.html" . }}
+{{ if not .Site.Params.offline }}
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+{{ end }}
+{{ if eq .Page.Layout "mapping-ubi-research" }}
+    {{ partial "viz-scripts.html" . }}
 {{ end }}

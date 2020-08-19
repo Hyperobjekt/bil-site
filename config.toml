@@ -21,6 +21,7 @@ unsafe = true
   showActiveNav=true
   paginage=5
   dateFormat = "January 2, 2006"
+  offline=false # default = false
 
 # main menu
 

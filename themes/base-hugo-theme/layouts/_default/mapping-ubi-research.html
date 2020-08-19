@@ -1,19 +1,19 @@
 {{ define "main" }}
-{{ with .Page.Params }}
-<div id="hero" class="hero">
+
+<!--<div id="hero" class="hero">
     <div class="hero-child row">
-        
+
         <div class="hero-copy col-10 col-md-8 offset-md-1 d-flex align-items-center">
-        
-            <h1 class="page-hero">{{ .herotext }}</h1>
-            
+
+            <h1 class="page-hero">Research Conducted by the Stanford Basic Income Lab</h1>
+
         </div>
     </div>
-</div>
+</div>-->
 
-<div class="row subnav d-md-none small-tab-nav">
+<!--<div class="row subnav d-md-none small-tab-nav">
         <div class="dropdown d-flex justify-content-center align-items-center">
-            <div>Research:</div> 
+            <div>Research:</div>
             <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 UBI Research Visualization
             </button>
@@ -27,40 +27,57 @@
 <div class="row d-sm-none d-md-flex subnav">
     <div class="col-12 col-md-10 offset-md-1">
         <ul class="d-flex justify-content-center align-items-center pl-md-0">
-        
-            <li class=""><a href="/research/experiments-map/">Experiments Map</a></li>
-            <li class="mx-md-5"><a href="/research/papers">Papers</a></li>
-            <li class="active">UBI Research Visualization</a></li>
-        
-          
+
+            <li class="active">Mapping UBI Research</a></li>
+            <li class="mx-md-5"><a href="/research/ubi-cities-toolkit">UBI Cities Toolkit</a></li>
+            <li class=""><a href="/research/basic-income-experiments/">Basic Income Experiments</a></li>
+
         </ul>
     </div>
-</div>
+</div>-->
 <!-- /SUBNAV -->
 
+<!-- VISUALIZATION ---------------------------------- -->
+<!-- <div id="" class="gray-bg pt-sm-14 pt-md-14 pt-lg-14 pt-xl-14 pb-sm-14 mr-0 ml-0 row">
+
+</div> -->
+<!-- Load fonts because typekit fonts are not utilized by eCharts -->
+
+<!-- End load fonts -->
+<div id="viz-parent" class="row viz-parent mr-0 ml-0">
+<div id="viz-space" class="mr-0 ml-0" style="width:100%;height:600px;"></div>
+<div id="dialog" class="dialog" style="display:none;position:absolute;z-index:3500;">
+  <div class="dialog-body">
+    <h3>Test dialog</h3>
+    <p>Testing dialog</p>
+  </div>
+</div>
+</div>
+<!-- SPONSORS ---------------------------------------- -->
+
 <div id="mapping-text" class="pt-sm-5 pt-md-7 pt-lg-9 pt-xl-12 pb-sm-7 pb-md-7 pb-xl-8">
-        <div class="row">
-            <div class="col-md-4 mt-md-11 offset-md-1 col-lg-3 offset-lg-2 mt-0 d-flex flex-column justify-content-start align-items-sm-center align-items-md-end" style="background-image: url('/images/backgrounds/UBI-viz-close-crop.jpg'); background-size: contain; background-repeat: no-repeat; background-position: right top;">
-                
-            </div>
-            <div class="col-md-6 ml-md-3 col-lg-5">
-                <h2 class="mb-sm-4 mb-md-4 mb-xl-5">{{ .heading1 }}</h2>
-                <span class="medgraytext mt-md-1">{{ .body1 | markdownify }}</span>
-            </div>
+    <div class="row">
+        <div class="col-md-3 mt-md-11 offset-md-2 mt-0 d-flex flex-column justify-content-start align-items-sm-center align-items-md-end" style="background-image: url('/images/backgrounds/UBI-viz-close-crop.jpg'); background-size: contain; background-repeat: no-repeat; background-position: right top;">
+
+        </div>
+        <div class="col-md-5 ml-md-3">
+            <h2 class="mb-sm-4 mb-md-4 mb-xl-5">Mapping UBI Research</h2>
+            <p class="medgraytext mt-md-1">Despite the growing UBI research effort over the past 30 years, there does not exist an online tool that conveniently brings together the existing research in one place. The Basic Income Lab is working to develop the first such visualization, thus promoting more methodical progress in the academic field of UBI, and building a rigorous platform for the benefit of future basic-income experimenters, researchers, students, and policy-makers.
+                </p>
+
+            <p class="medgraytext">The online platform will provide pertinent summaries of articles, research papers, books produced on UBI to date, highlighting important findings from each and ensuring that core areas such as health, crime, stigma, childhood poverty and gender equity are covered.
+                </p>
+            <p class="medgraytext">To construct this platform, our team of four Stanford graduate researchers started reviewing the UBI scholarship in January 2018 through an interdisciplinary lens. Specifically, an economics student surveyed past and current UBI experiments; two political theorists are surveying the conceptual and normative literature on UBI; and a computer scientist is helping us design the online platform and city toolkit in collaboration with a data visualization team.
+                </p>
+            <p class="medgraytext">In 2019, we will unveil the finished platform at a large-scale event. Stay tuned for more updates on our progress!
+
+                </p>
+
         </div>
     </div>
+</div>
 
-<!--/////----   Visualization   ----\\\\\-->
-<div id="hp-viz" style="background-color: #f1f1f1;">   
-        <div class="row">   
-        <div class="col-md-5 offset-md-1 pt-sm-20 pb-sm-6 py-md-11 py-lg-15 py-xl-16">
-            <h2 class="blacktext text-sm-center text-md-left mt-sm-4 mt-md-0 mb-1">{{ .heading2 }}</h2>
-            <span class="slatetext mt-2">{{ .body2 | markdownify }}</span>    
-        </div>
-        </div>
-    </div>  
-<!-- SPONSORS ---------------------------------------- -->
-{{ end }}
+
 <div id="sponsors">
         <div class="row">
             <div class="col-md-6 col-lg-6 mx-auto d-flex flex-column align-items-center text-center my-sm-5 my-md-8 my-lg-9 my-xl-11 user-entry">
@@ -68,10 +85,19 @@
                 {{ .Content }}
             </div>
         </div>
-        
-       
-     
-    </div>  
+        <div class="row mb-5 mb-md-4 mb-lg-9 mb-xl-11 d-flex align-items-center">
+                <div class="col-0 col-md-1"></div>
+                <div class="col-12 col-md pb-4 px-8 px-md-0 pb-md-0"><img alt="Robert Wood Johnson Foundation Logo" src="/images/icons/rwjflogo.png" width="100%" /></div>
+                <div class="col-12 col-md pb-4 px-8 px-md-0 pb-md-0"><img alt="Economic Security Foundation Logo" src="/images/icons/esp-logo.png" width="100%" /></div>
+                <div class="col-12 col-md pb-4 px-8 px-md-0 pb-md-0 d-flex justify-content-center"><img alt="Jain Family Institute Logo" src="/images/icons/jain-logo.png" width="50%" height="50%" /></div>
+                <div class="col-12 col-md pb-4 px-8 px-md-0 pb-md-0"><img alt="McCoy Family Center for Ethics in Society Logo" src="/images/icons/mc-logo.png" width="100%" /></div>
+                <div class="col-0 col-md-1"></div>
+
+
+        </div>
+
+
+    </div>
 
 {{ partial "subscribe.html" .}}
 

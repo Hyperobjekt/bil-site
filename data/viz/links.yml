@@ -1,0 +1,187 @@
+- source: root
+  target: gender
+# - source: gender
+#   target: family
+# - source: gender
+#   target: welfare
+- source: gender
+  target: the-household
+- source: gender
+  target: care-work
+- source: gender
+  target: women-in-the-labor-market
+- source: gender
+  target: gendered-welfare
+# Family 
+- source: root
+  target: family
+- source: root
+  target: welfare
+- source: root
+  target: wellbeing
+# Wellbeing
+- source: wellbeing
+  target: access-to-leisure
+- source: wellbeing
+  target: freedom-from-demeaning-jobs
+- source: wellbeing
+  target: happiness
+- source: wellbeing
+  target: loneliness
+# Inequality 
+- source: root
+  target: inequality
+- source: inequality
+  target: income-inequality
+- source: inequality
+  target: wealth-inequality
+- source: inequality
+  target: inequality-in-political-power-and-influence
+# Democracy
+- source: root
+  target: democracy
+- source: democracy
+  target: civic-participation
+- source: democracy
+  target: democratization
+- source: democracy
+  target: democratic-justifications-for-ubi
+- source: democracy
+  target: good-governance  
+# Childhood  
+- source: root
+  target: childhood
+- source: childhood
+  target: child-education
+- source: childhood
+  target: poverty-and-child-development
+# Environment  
+- source: root
+  target: environment
+- source: environment
+  target: co-ownership-of-land-and-natural-resources
+- source: environment
+  target: carbon-tax
+- source: environment
+  target: post-productivism
+- source: environment
+  target: sustainability
+# Crime  
+- source: root
+  target: crime
+- source: crime
+  target: unemployment-and-mass-incarceration
+# Political Feasibility  
+- source: root
+  target: political-feasibility
+- source: political-feasibility
+  target: political-support-for-ubi-and-coalition-building
+- source: political-feasibility
+  target: conditional-and-unconditional-cash-policies
+- source: political-feasibility
+  target: ubi-or-job-guarantee
+# Economic Feasibility  
+- source: root
+  target: economic-feasibility
+- source: economic-feasibility
+  target: how-do-we-fund-ubi
+- source: economic-feasibility
+  target: bureaucratic-efficiency
+- source: economic-feasibility
+  target: proposed-sum
+# Poverty  
+- source: root
+  target: poverty
+- source: poverty
+  target: working-poor
+- source: poverty
+  target: poverty-trap
+# Development  
+- source: root
+  target: development
+# Theories of justice  
+- source: root
+  target: theories-of-justice
+- source: theories-of-justice
+  target: ubi-and-liberal-egalitarianism
+- source: theories-of-justice
+  target: ubi-and-right-libertarianism
+- source: theories-of-justice
+  target: ubi-and-marxism-socialism
+- source: theories-of-justice
+  target: ubi-and-republicanism
+- source: theories-of-justice
+  target: ubi-and-utilitarianism
+# Community  
+- source: root
+  target: community
+- source: community
+  target: trust
+- source: community
+  target: cooperation
+- source: community
+  target: community-work
+- source: community
+  target: community-cohesiveness
+# Education  
+- source: root
+  target: education
+- source: education
+  target: dropout
+- source: education
+  target: education-as-a-public-good
+- source: education
+  target: opportunities
+# Automation  
+- source: root
+  target: automation
+- source: automation
+  target: job-loss-and-technological-unemployment
+- source: automation
+  target: inequality-and-wealth-concentration
+- source: automation
+  target: post-work-or-freedom-from-work 
+# Economic effects  
+- source: root
+  target: economic-effects
+- source: economic-effects
+  target: inflation
+- source: economic-effects
+  target: consumption
+- source: economic-effects
+  target: migration
+- source: economic-effects
+  target: labor-market
+- source: economic-effects
+  target: savings
+# Health  
+- source: root
+  target: health
+- source: health
+  target: mental-health
+- source: health
+  target: physical-health
+- source: health
+  target: access-to-health-services
+# Work  
+- source: root
+  target: work
+- source: work
+  target: job-precariousness
+- source: work
+  target: collective-bargaining
+- source: work
+  target: informal-labor-care-giving-and-community-work
+- source: work
+  target: unemployment
+- source: work
+  target: work-beyond-jobs
+# Race  
+- source: root
+  target: race
+- source: race
+  target: racialized-welfare-stereotypes
+- source: race
+  target: racial-economic-inequality
+- source: race
+  target: guaranteed-income-in-african-american-history

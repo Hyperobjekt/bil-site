@@ -130,6 +130,20 @@
 {{ with .Site.Data.home.whatWeDo }}
 
 <div id="hp-viz" class="row mx-0">  
+
+    <!-- {{ with .Site.Data.home.vizCta }}
+    <div class="row">
+        <div class="col-md-5 offset-md-1 pt-sm-20 pb-sm-6 py-md-11 py-lg-15 py-xl-16">
+            <h2 class="blacktext text-sm-center text-md-left mt-sm-4 mt-md-0 mb-1">{{ .heading }}</h2>
+            <p class="slatetext mt-2">{{ .subhead }}</p>
+            <div class="news-item-link">
+                <a class="plainlink coldblcktext" href="/research/mapping-ubi-research">{{ .cta }}
+                    {{ partial "rightarrow.html" }}</a>
+            </div>
+        </div>
+    </div>
+    {{ end }} -->
+    
     <div id="hpviz1" class="col-md-6 px-0" style="background-color: #f1f1f1; background-image: url('{{ .bg4 }}');">
         <div class="teaser-overlay">
             <h2 class="blacktext text-sm-center text-md-left mt-0 mb-1">{{ .heading4 }}</h2>
