@@ -20191,8 +20191,14 @@ nav.navbar.sticky-top {
   height: 600px;
 }
 
-.viz-parent .viz-space {
+.viz-parent #viz-space {
   z-index: 2998;
+  width: 100%;
+  height: 100%;
+}
+
+.viz-parent.text-panel-open #viz-space {
+  width: calc(100% - 800px);
 }
 
 .viz-parent .dialog {
@@ -20287,6 +20293,51 @@ nav.navbar.sticky-top {
   font-size: 1.4rem;
   line-height: 2.1rem;
   letter-spacing: 0.024rem;
+}
+
+.viz-parent #text-panel {
+  z-index: 2999;
+  position: absolute;
+  right: 0;
+  width: 800px;
+  transition: transform ease .8s;
+  transform: translateX(100%);
+}
+
+.viz-parent #text-panel .content {
+  height: 600px;
+  overflow: scroll;
+}
+
+.viz-parent #text-panel .close-icon {
+  display: none;
+}
+
+.viz-parent #text-panel .open-icon {
+  display: block;
+}
+
+.viz-parent #text-panel .toggle {
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  background: white;
+  border: solid 0.5px rgba(55, 55, 55, 0.125);
+  padding: 10px;
+  transform: translateX(-100%);
+  top: 10px;
+}
+
+.viz-parent.text-panel-open #text-panel {
+  transform: translateX(0);
+}
+
+.viz-parent.text-panel-open #text-panel .close-icon {
+  display: block;
+}
+
+.viz-parent.text-panel-open #text-panel .open-icon {
+  display: none;
 }
 
 body.type-events .hero {
