@@ -2,7 +2,6 @@
 // _ make sure label appears on hover ... could tooltip
 //   _ and for all focused?
 // _ make masked opacity higher (issue) ... could "highlight"
-// _ fix single-fire js collapse handler (https://stackoverflow.com/a/17202426/13174944)
 // _ zoom controls
 // _ X implement tabbed subthemes
 // _ export
@@ -89,32 +88,7 @@ viz.getItemLinks = (id) => {
   )
   return _links;
 };
-// // Tooltip for topics and subtopics
-// const topicTooltip = {
-//   show: false,
-//   position: 'right',
-//   contain: false,
-//   backgroundColor: 'transparent',
-//   textStyle: {
-//     color: '#000',
-//     fontWeight: 'bold',
-//     fontFace: 'sofia-pro'
-//   }
-// }
-// const subtopicTooltip = {
-//   show: false,
-//   position: 'right',
-//   contain: false,
-//   // itemStyle: {
-//     // color: '#000',
-//   backgroundColor: 'transparent',
-//   textStyle: {
-//     color: '#000',
-//     fontWeight: '300',
-//     fontFace: 'sofia-pro',
-//     fontSize: 16
-//   }
-// }
+
 // Label for topics and subtopics
 const topicLabel = {
   normal: {
@@ -128,18 +102,17 @@ const topicLabel = {
       lineHeight: 43.2
     },
   },
-  formatter: function(el) {
-    console.log('formatter', el);
-    if (el.data.id === viz.active.hovered) {
-      return el.data.value + '<br>Click for more';
-    } else {
-      return el.data.value + 'blah';
-    }
-  }
+  // formatter: function(el) {
+  //   console.log('formatter', el);
+  //   if (el.data.id === viz.active.hovered) {
+  //     return el.data.value + '<br>Click for more';
+  //   } else {
+  //     return el.data.value + 'blah';
+  //   }
+  // }
 }
 viz.showSubtopicLabel = false;
 let subtopicLabel = {
-  // show: false,
   normal: {
     show: viz.showSubtopicLabel,
     position: 'right',
@@ -171,9 +144,6 @@ viz.rebuild = () => {
     y: 0,
     itemStyle: {
       color: viz.theme[setup.colorIndex]
-    },
-    tooltip: {
-      show: false
     },
     label: {
       show: true,
@@ -231,18 +201,12 @@ viz.rebuild = () => {
       let label = subtopicLabel
 
       // TODO: figure out why we can't set an individual label to show
-      // // const label = { ...subtopicLabel };
-      // // const newNormal = { ...label.normal };
-      // console.log('el.id: ', el.id);
       // if (el.id === viz.active.hovered || el.id === viz.active.clicked) {
-      //   // newNormal.show = true;
-      //   // label.normal = newNormal;
       //   label = jQuery.extend(true, {}, label);
       //   label.normal.show = true;
+      //   console.log("! ", el.id, label);
       // }
 
-      // label.show = label.show || el.id === viz.active.clicked
-      console.log('||: ', el.id, label.normal.show);
       const item = {
         id: el.id,
         name: el.title,
@@ -255,7 +219,10 @@ viz.rebuild = () => {
         itemStyle: {
           color: _parent[0].itemStyle.color,
         },
-        // tooltip: subtopicTooltip,
+        tooltip: {
+          show: true,
+          formatter: '{c}',
+        },
         label: label
       };
       (setup.nodes).push(item);
@@ -378,7 +345,6 @@ jQuery('#text-panel .collapse').on('shown.bs.collapse', function(e) {
   viz.active.clicked = id;
   var _item_obj = viz.getItemObj(id);
   
-  console.log()
   viz.chart.dispatchAction({
     type: 'focusNodeAdjacency',
     seriesName: 'UBI',
@@ -386,18 +352,17 @@ jQuery('#text-panel .collapse').on('shown.bs.collapse', function(e) {
   });
 });
 
-window.onresize = function(){
+// wait for user to finish resizing before adjusting
+window.onresize = debounce(function(){
   viz.chart.resize();
 
-  setTimeout(() => {
-    var _parent_obj = viz.getParentItemObj(viz.active.clicked);
-    viz.chart.dispatchAction({
-      type: 'focusNodeAdjacency',
-      seriesName: 'UBI',
-      dataIndex: _parent_obj.dataIndex
-    });
-  }, 100);
-};
+  var _parent_obj = viz.getParentItemObj(viz.active.clicked);
+  viz.chart.dispatchAction({
+    type: 'focusNodeAdjacency',
+    seriesName: 'UBI',
+    dataIndex: _parent_obj.dataIndex
+  });
+}, 100);
 
 // Init eCharts
 viz.chart = echarts.init(document.getElementById('viz-space'));
@@ -415,10 +380,11 @@ viz.chart.on('mouseover', function(e) {
       return;
     }
     // console.log('me')
-    // viz.active.hovered = e.data.id;
+    viz.active.hovered = e.data.id;
     // viz.rebuild();
     // viz.chart.setOption(setup.options);
-    // viz.chart.resize();
+
+
   }
 })
     
@@ -468,8 +434,6 @@ viz.chart.on('click', function(e) {
 
     // wait a beat...
     setTimeout(() => {
-
-
       // and scroll to the section in the text-panel (https://stackoverflow.com/a/2906009/13174944)
       var $container = jQuery('#text-panel .content'),
         $scrollTo = jQuery('#heading-' + parentId);
@@ -505,3 +469,18 @@ viz.chart.on('graphRoam', function(e) {
     }
   }
 });
+
+function debounce(func, wait, immediate) {
+  var timeout;
+  return function () {
+    var context = this, args = arguments;
+    var later = function () {
+      timeout = null;
+      if (!immediate) func.apply(context, args);
+    };
+    var callNow = immediate && !timeout;
+    clearTimeout(timeout);
+    timeout = setTimeout(later, wait);
+    if (callNow) func.apply(context, args);
+  };
+};
