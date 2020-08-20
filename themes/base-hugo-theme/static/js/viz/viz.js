@@ -1,11 +1,11 @@
 // TODOS_
-// _ make sure label appears on highlight
+// _ make sure label appears on hover ... could tooltip
 //   _ and for all focused?
-// _ make masked opacity higher (issue)
+// _ make masked opacity higher (issue) ... could "highlight"
 // _ fix single-fire js collapse handler (https://stackoverflow.com/a/17202426/13174944)
-// _ merge master
-// _ implement tabbed subthemes
-// _ 
+// _ zoom controls
+// _ X implement tabbed subthemes
+// _ export
 // 
 // 
 // 
@@ -73,6 +73,15 @@ viz.getItemObj = (id) => {
     return false;
   }
 };
+viz.getParentItemObj = (id) => {
+  var _obj = viz.getItemObj(id);
+  if (_obj.type === 'parent') {
+    return _obj;
+  } else {
+    var parentId = _obj.parent;
+    return viz.getItemObj(parentId);
+  }
+}
 viz.getItemLinks = (id) => {
   // let _obj = null;
   const _links = viz.links.filter(
@@ -277,6 +286,7 @@ setup.options = {
   coordinateSystem: 'cartesian2d',
   animation: true,
   animationDuration: 1500,
+  animationDurationUpdate: 1000, // resize duration
   animationEasingUpdate: 'quinticInOut',
   tooltip: {
     show: false,
@@ -340,15 +350,20 @@ jQuery('#viz-space').hover(function() {
 });
 
 // open and close text-panel
-jQuery('#text-panel .toggle').click(function(){
+jQuery('#text-panel .toggle').click(function(e){
   jQuery('#viz-parent').toggleClass('text-panel-open');
+  
+  // only needs to happen on close, but when toggle is clicked to open nothing should be active anyways
+  jQuery(`#text-panel .collapse[data-id='${viz.active.clicked}'`).collapse('hide');
+
   setTimeout(() => {
     viz.chart.resize();
-  }, 300);
+  }, 0);
 });
 
 // remove node focus when closing text-panel section
 jQuery('#text-panel .collapse').on('hide.bs.collapse', function(e) {
+  viz.active.clicked = null;
   viz.chart.dispatchAction({
     type: 'unfocusNodeAdjacency',
     seriesName: 'UBI',
@@ -356,27 +371,32 @@ jQuery('#text-panel .collapse').on('hide.bs.collapse', function(e) {
 });
 
 // focus node when opening corresponding text-panel section
-jQuery('#text-panel .collapse').on('show.bs.collapse', function(e) {
+// use 'shown' rather than 'show' so it doesn't firebefore hide.bs.collapse's
+// 'unfocusNodeAdjacency', which would immediately undo this focus
+jQuery('#text-panel .collapse').on('shown.bs.collapse', function(e) {
   const id = e.currentTarget.dataset.id;
+  viz.active.clicked = id;
   var _item_obj = viz.getItemObj(id);
-
-  // without setTimeout, this may fire before hide.bs.collapse's 'unfocusNodeAdjacency',
-  // so user wouldn't see the new node focused
-  setTimeout(() => {
-    viz.chart.dispatchAction({
-      type: 'focusNodeAdjacency',
-      seriesName: 'UBI',
-      dataIndex: _item_obj.dataIndex,
-    });
-  }, 200);
+  
+  console.log()
+  viz.chart.dispatchAction({
+    type: 'focusNodeAdjacency',
+    seriesName: 'UBI',
+    dataIndex: _item_obj.dataIndex,
+  });
 });
 
 window.onresize = function(){
   viz.chart.resize();
-  viz.chart.dispatchAction({
-    type: 'unfocusNodeAdjacency',
-    seriesName: 'UBI',
-  });
+
+  setTimeout(() => {
+    var _parent_obj = viz.getParentItemObj(viz.active.clicked);
+    viz.chart.dispatchAction({
+      type: 'focusNodeAdjacency',
+      seriesName: 'UBI',
+      dataIndex: _parent_obj.dataIndex
+    });
+  }, 100);
 };
 
 // Init eCharts
@@ -422,45 +442,41 @@ viz.chart.on('click', function(e) {
     
     var _item_obj = viz.getItemObj(nodeID);
 
-    var parentId = nodeID;
-    var dataIndex = _item_obj.dataIndex;
-    if (_item_obj.type === 'child') {
-      parentId = _item_obj.parent;
-      var _parent_obj = viz.getItemObj(parentId);
-      dataIndex = _parent_obj.dataIndex;
-    }
+    var _parent_obj = viz.getParentItemObj(nodeID);
+    var parentId = _parent_obj.id;
+    var dataIndex = _parent_obj.dataIndex;
     
     // make sure text-panel is open
     jQuery('#viz-parent').addClass('text-panel-open');
 
     // open the corresponding text-panel section
-    // TODO: only works once(?)
-    // jQuery.prototype.trigger = jQuery.prototype.triggerHandler;
-    jQuery(`#text-panel .collapse[data-id='${parentId}'`).collapse();
+    jQuery(`#text-panel .collapse[data-id='${parentId}'`).collapse('show');
 
     if (_item_obj.type === 'child') {
       jQuery(`#text-panel a[href="#pills-${nodeID}"]`).tab('show');
     }
 
+    // resize chart (in case panel just opened)
+    viz.chart.resize();
+
+    // then focus the corresponding node
+    viz.chart.dispatchAction({
+      type: 'focusNodeAdjacency',
+      seriesName: 'UBI',
+      dataIndex: dataIndex,
+    });
+
     // wait a beat...
     setTimeout(() => {
-      // then resize chart (in case panel just opened)
-      viz.chart.resize();
 
-      // and focus the corresponding node
-      viz.chart.dispatchAction({
-        type: 'focusNodeAdjacency',
-        seriesName: 'UBI',
-        dataIndex: dataIndex,
-      });
 
-      // scroll to the section in the text-panel (https://stackoverflow.com/a/2906009/13174944)
+      // and scroll to the section in the text-panel (https://stackoverflow.com/a/2906009/13174944)
       var $container = jQuery('#text-panel .content'),
         $scrollTo = jQuery('#heading-' + parentId);
       $container.animate({
         scrollTop: $scrollTo.offset().top - $container.offset().top + $container.scrollTop()
       });
-    }, 300);
+    }, 100);
   }
 });
 viz.zoomlevel = 0;
