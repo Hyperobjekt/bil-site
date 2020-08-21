@@ -6,6 +6,7 @@ nav.navbar.sticky-top {
   z-index: 3000;
 }
 .viz-parent {
+  position: relative;
   box-shadow: inset 0px -1px 7px 0px rgba(0, 0, 0, 0.1);
   background-color: #f7f7f759;
   //height: 76vh;
@@ -98,6 +99,12 @@ nav.navbar.sticky-top {
         }
       }
     }
+  }
+
+  .control-panel {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
   }
 
   #text-panel {
