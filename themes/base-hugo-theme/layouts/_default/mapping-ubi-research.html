@@ -221,20 +221,20 @@
                                 </li>
                             </ul>
                             <div class="tab-content" id="pills-tabContent">
-                                <div class="tab-pane fade show active" id="pills-mental-health" role="tabpanel" aria-labelledby="pills-mental-health-tab">
-                                    Mental Health
-                                    <br /><strong>Summary</strong><br />
-                                    Mental Health is...
+                                <div class="tab-pane fade show active" id="pills-mental-health" role="tabpanel" aria-labelledby="pills-mental-health-tab">                                    
+                                    {{ with .Site.Data.vizcontent.health }}
+                                        {{ .mentalhealth | markdownify }}
+                                    {{ end }}    
                                 </div>
                                 <div class="tab-pane fade" id="pills-physical-health" role="tabpanel" aria-labelledby="pills-physical-health-tab">
-                                    Physical Health
-                                    <br /><strong>Summary</strong><br />
-                                    Physical Health is...
+                                    {{ with .Site.Data.vizcontent.health }}
+                                        {{ .physicalhealth | markdownify }}
+                                    {{ end }} 
                                 </div>
                                 <div class="tab-pane fade" id="pills-access-to-health-services" role="tabpanel" aria-labelledby="pills-access-to-health-services-tab">
-                                    Access to Health Services
-                                    <br /><strong>Summary</strong><br />
-                                    Access to Health Services is...
+                                    {{ with .Site.Data.vizcontent.health }}
+                                        {{ .accesshealth | markdownify }}
+                                    {{ end }} 
                                 </div>
                             </div>
 
