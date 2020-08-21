@@ -20186,7 +20186,6 @@ nav.navbar.sticky-top {
 }
 
 .viz-parent {
-  position: relative;
   box-shadow: inset 0px -1px 7px 0px rgba(0, 0, 0, 0.1);
   background-color: #f7f7f759;
   height: 600px;
@@ -20294,12 +20293,6 @@ nav.navbar.sticky-top {
   font-size: 1.4rem;
   line-height: 2.1rem;
   letter-spacing: 0.024rem;
-}
-
-.viz-parent .control-panel {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
 }
 
 .viz-parent #text-panel {

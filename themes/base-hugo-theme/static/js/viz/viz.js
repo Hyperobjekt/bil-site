@@ -12,7 +12,13 @@
 //     name: 'Work',
 //    })
 
-const ZOOM_CONST = 2;
+const ZOOM_MAX = 10;
+const ZOOM_MIN = .3;
+const ZOOM_INITIAL = 1;
+const ZOOM_LABEL_CUTOFF = 1.75;
+// how much to change zoom on zoom in/out click (as a proportion, so should be > 1)
+const ZOOM_FACTOR = 2;
+// viz.zoomLevel = 1;
 
 console.log('viz.js loaded');
 // console.log(viz.theme);
@@ -251,15 +257,35 @@ setup.options = {
         title: ' ',
         icon: 'M13.388,9.624h-3.011v-3.01c0-0.208-0.168-0.377-0.376-0.377S9.624,6.405,9.624,6.613v3.01H6.613c-0.208,0-0.376,0.168-0.376,0.376s0.168,0.376,0.376,0.376h3.011v3.01c0,0.208,0.168,0.378,0.376,0.378s0.376-0.17,0.376-0.378v-3.01h3.011c0.207,0,0.377-0.168,0.377-0.376S13.595,9.624,13.388,9.624z M10,1.344c-4.781,0-8.656,3.875-8.656,8.656c0,4.781,3.875,8.656,8.656,8.656c4.781,0,8.656-3.875,8.656-8.656C18.656,5.219,14.781,1.344,10,1.344z M10,17.903c-4.365,0-7.904-3.538-7.904-7.903S5.635,2.096,10,2.096S17.903,5.635,17.903,10S14.365,17.903,10,17.903z',
         onclick: function () {
-          const options = viz.chart.getOption();
-          viz.zoomLevel = options.series[0].zoom *= ZOOM_CONST;
+          // figure out new zoom level
+          let zoomLevel = getZoomLevel() * ZOOM_FACTOR;
+          zoomLevel = (zoomLevel > ZOOM_MAX) ? ZOOM_MAX : zoomLevel;
+
+          // decide whether to show subtheme labels based on zoom level
+          const showLabels = (zoomLevel > ZOOM_LABEL_CUTOFF);
+          if (showLabels !== subtopicLabel.normal.show) {
+            subtopicLabel.normal.show = showLabels;
+            viz.rebuild();
+          }
+
+          // set zoom on cloned options as not to mutate original with zoomLevel
+          const options = jQuery.extend(true, {}, setup.options);
+          options.series[0].zoom = zoomLevel;
+          viz.chart.setOption(options);
           
+          console.log('zoomLevel = ' + zoomLevel);
+
           viz.chart.setOption(options);
           // TODO: reset focus, 
-          // viz.chart.dispatchAction({
-          //   type: 'focusNodeAdjacency',
-          //   dataIndex: viz.active.clicked
-          // })
+          const activeId = viz.active.clicked;
+          if (activeId) {
+            var _item_obj = viz.getItemObj(activeId);
+            viz.chart.dispatchAction({
+              type: 'focusNodeAdjacency',
+              seriesName: 'UBI',
+              dataIndex: _item_obj.dataIndex,
+            });
+          }
         }
       },
       myZoomOut: {
@@ -267,15 +293,34 @@ setup.options = {
         title: ' ',
         icon: 'M10,1.344c-4.781,0-8.656,3.875-8.656,8.656c0,4.781,3.875,8.656,8.656,8.656c4.781,0,8.656-3.875,8.656-8.656C18.656,5.219,14.781,1.344,10,1.344z M10,17.903c-4.365,0-7.904-3.538-7.904-7.903S5.635,2.096,10,2.096S17.903,5.635,17.903,10S14.365,17.903,10,17.903z M13.388,9.624H6.613c-0.208,0-0.376,0.168-0.376,0.376s0.168,0.376,0.376,0.376h6.775c0.207,0,0.377-0.168,0.377-0.376S13.595,9.624,13.388,9.624z',
         onclick: function () {
-          const options = viz.chart.getOption();
-          viz.zoomLevel = options.series[0].zoom /= ZOOM_CONST;
-          
+          // figure out new zoom level
+          let zoomLevel = getZoomLevel() / ZOOM_FACTOR;
+          zoomLevel = (zoomLevel < ZOOM_MIN) ? ZOOM_MIN : zoomLevel;
+
+          // decide whether to show subtheme labels based on zoom level
+          const showLabels = (zoomLevel > ZOOM_LABEL_CUTOFF);
+          if (showLabels !== subtopicLabel.normal.show) {
+            subtopicLabel.normal.show = showLabels;
+            viz.rebuild();
+          }
+
+          // set zoom on cloned options as not to mutate original with zoomLevel
+          const options = jQuery.extend(true, {}, setup.options);
+          options.series[0].zoom = zoomLevel;
           viz.chart.setOption(options);
+
+          console.log('zoomLevel = ' + zoomLevel);
+
           // TODO: reset focus, 
-          // viz.chart.dispatchAction({
-          //   type: 'focusNodeAdjacency',
-          //   dataIndex: viz.active.clicked
-          // })
+          const activeId = viz.active.clicked;
+          if (activeId) {
+            var _item_obj = viz.getItemObj(activeId);
+            viz.chart.dispatchAction({
+              type: 'focusNodeAdjacency',
+              seriesName: 'UBI',
+              dataIndex: _item_obj.dataIndex,
+            });
+          }
         }
       },
       myRestore: {
@@ -284,9 +329,20 @@ setup.options = {
         title: 'Restore',
         icon: 'M3.254,6.572c0.008,0.072,0.048,0.123,0.082,0.187c0.036,0.07,0.06,0.137,0.12,0.187C3.47,6.957,3.47,6.978,3.484,6.988c0.048,0.034,0.108,0.018,0.162,0.035c0.057,0.019,0.1,0.066,0.164,0.066c0.004,0,0.01,0,0.015,0l2.934-0.074c0.317-0.007,0.568-0.271,0.56-0.589C7.311,6.113,7.055,5.865,6.744,5.865c-0.005,0-0.01,0-0.015,0L5.074,5.907c2.146-2.118,5.604-2.634,7.971-1.007c2.775,1.912,3.48,5.726,1.57,8.501c-1.912,2.781-5.729,3.486-8.507,1.572c-0.259-0.18-0.618-0.119-0.799,0.146c-0.18,0.262-0.114,0.621,0.148,0.801c1.254,0.863,2.687,1.279,4.106,1.279c2.313,0,4.591-1.1,6.001-3.146c2.268-3.297,1.432-7.829-1.867-10.101c-2.781-1.913-6.816-1.36-9.351,1.058L4.309,3.567C4.303,3.252,4.036,3.069,3.72,3.007C3.402,3.015,3.151,3.279,3.16,3.597l0.075,2.932C3.234,6.547,3.251,6.556,3.254,6.572z',
         onclick: function () {
-          viz.chart.dispatchAction({
-            type: 'restore',
-          });
+
+          // reset zoom
+          viz.rebuild();
+          const options = jQuery.extend(true, {}, setup.options);
+          options.series[0].zoom = ZOOM_INITIAL;
+          // options.series[0].center = null;
+          viz.chart.setOption(options);
+
+          // reset pan (doesn't center properly without timeout)
+          setTimeout(() => {
+            viz.chart.dispatchAction({
+              type: 'restore',
+            });
+          }, 10);
 
           jQuery(`#text-panel .collapse[data-id='${viz.active.clicked}'`).collapse('hide');
           viz.active.clicked = null;
@@ -315,6 +371,7 @@ setup.options = {
   // },
   series: [
     {
+      // zoom: 1,
       name: 'UBI',
       type: 'graph',
       zlevel: 1000,
@@ -422,8 +479,6 @@ viz.chart.showLoading();
 viz.chart.setOption(setup.options);
 viz.chart.hideLoading();
 
-viz.zoomLevel = null;
-
 // Item click listeners
 viz.chart.on('mouseover', function(e) {
   // TODO
@@ -487,38 +542,61 @@ viz.chart.on('click', function(e) {
       // and scroll to the section in the text-panel (https://stackoverflow.com/a/2906009/13174944)
       var $container = jQuery('#text-panel .content'),
         $scrollTo = jQuery('#heading-' + parentId);
-      $container.animate({
-        scrollTop: $scrollTo.offset().top - $container.offset().top + $container.scrollTop()
+        $container.animate({
+          scrollTop: $scrollTo.offset().top - $container.offset().top + $container.scrollTop()
       });
     }, 100);
   }
 });
-viz.zoomLevel = 0;
+
 // Zoom event listener
 viz.chart.on('graphRoam', function(e) {
   console.log('zoomed');
+  
   // console.log(e);
   if (e.zoom) {
-    // console.log('has zoom node');
-    // Update zoom level
-    if (e.zoom < 1) {
-      viz.zoomLevel = viz.zoomLevel - Math.abs( e.zoom - 1 );
-    } else {
-      viz.zoomLevel = viz.zoomLevel + Math.abs( e.zoom - 1 );
-    }
-    console.log('viz.zoomLevel = ' + viz.zoomLevel);
-    // Update label display based on zoom level
-    if (viz.zoomLevel > 0.75) {
-      subtopicLabel.normal.show = true;
+
+    let zoomLevel = getZoomLevel();
+    console.log('zoomLevel = ' + zoomLevel);
+    
+    // Update label display based on zoom level, if needed
+    const showLabels = (zoomLevel > ZOOM_LABEL_CUTOFF);
+    if (showLabels !== subtopicLabel.normal.show) {
+      subtopicLabel.normal.show = showLabels;
       viz.rebuild();
       viz.chart.setOption(setup.options);
+    } else if (zoomLevel < ZOOM_MIN) { // cap at min
+      const options = jQuery.extend(true, {}, setup.options);
+      options.series[0].zoom = ZOOM_MIN;
+      options.series[0].center = null; // otherwise can center incorrectly
+      viz.chart.setOption(options);
+    } else if (zoomLevel > ZOOM_MAX) { // cap at max
+      const options = jQuery.extend(true, {}, setup.options);
+      options.series[0].zoom = ZOOM_MAX;
+      viz.chart.setOption(options);
     } else {
-      subtopicLabel.normal.show = false;
-      viz.rebuild();
-      viz.chart.setOption(setup.options);
+      return; // don't need to refocus if no rebuild
     }
+
+    // refocus if necessary
+    const activeId = viz.active.clicked;
+    if (activeId) {
+      var _item_obj = viz.getItemObj(activeId);
+      viz.chart.dispatchAction({
+        type: 'focusNodeAdjacency',
+        seriesName: 'UBI',
+        dataIndex: _item_obj.dataIndex,
+      });
+    }
+
   }
 });
+
+// _HELPERS__
+function getZoomLevel() {
+  console.log('zoom: ', viz.chart.getOption().series[0].zoom);
+  return viz.chart.getOption().series[0].zoom;
+}
 
 function debounce(func, wait, immediate) {
   var timeout;
@@ -534,3 +612,37 @@ function debounce(func, wait, immediate) {
     if (callNow) func.apply(context, args);
   };
 };
+
+// function clone(obj) {
+//   var copy;
+
+//   // Handle the 3 simple types, and null or undefined
+//   if (null == obj || "object" != typeof obj) return obj;
+
+//   // Handle Date
+//   if (obj instanceof Date) {
+//     copy = new Date();
+//     copy.setTime(obj.getTime());
+//     return copy;
+//   }
+
+//   // Handle Array
+//   if (obj instanceof Array) {
+//     copy = [];
+//     for (var i = 0, len = obj.length; i < len; i++) {
+//       copy[i] = clone(obj[i]);
+//     }
+//     return copy;
+//   }
+
+//   // Handle Object
+//   if (obj instanceof Object) {
+//     copy = {};
+//     for (var attr in obj) {
+//       if (obj.hasOwnProperty(attr)) copy[attr] = clone(obj[attr]);
+//     }
+//     return copy;
+//   }
+
+//   throw new Error("Unable to copy obj! Its type isn't supported.");
+// }
