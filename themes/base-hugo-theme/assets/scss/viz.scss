@@ -1,11 +1,16 @@
+$VIZ_HEIGHT: 600px;
+$VIZ_HEIGHT_TABLET: 300px;
 
 $TEXT_PANEL_WIDTH: 600px;
-$VIZ_HEIGHT: 600px;
+$TEXT_PANEL_HEIGHT_TABLET: 400px;
+
+$VIZ_AREA_HEIGHT_TABLET: $VIZ_HEIGHT_TABLET + $TEXT_PANEL_HEIGHT_TABLET;
 
 nav.navbar.sticky-top {
   z-index: 3000;
 }
 .viz-parent {
+  position: relative;
   box-shadow: inset 0px -1px 7px 0px rgba(0, 0, 0, 0.1);
   background-color: #f7f7f759;
   //height: 76vh;
@@ -147,6 +152,33 @@ nav.navbar.sticky-top {
       .open-icon {
         display: none;
       }
+    }
+  }
+
+  @include media-breakpoint-between(mm, md) {
+    height: $VIZ_AREA_HEIGHT_TABLET !important;
+    &.text-panel-open #viz-space {
+      // display: none;
+      width: 100% !important;
+      height: $VIZ_HEIGHT_TABLET;
+    }
+    #text-panel {
+      position: absolute;
+      bottom: 0%;
+      width: calc(100% - 30px);
+      .content {
+        height: $TEXT_PANEL_HEIGHT_TABLET;
+      }
+    }
+  }
+
+  @include media-breakpoint-down(smm) {
+    #viz-space {
+      display: none;
+    }
+    #text-panel {
+      transform: translateX(0);
+      width: 100%;
     }
   }
 }

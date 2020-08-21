@@ -1,9 +1,9 @@
 // TODOS_
-// _ make sure label appears on hover ... could tooltip
-//   _ and for all focused?
+// X _ make sure label appears on hover ... could tooltip
+//   _ and for all focused? ... could just text panel
 // _ make masked opacity higher (issue) ... could "highlight"
-// _ zoom controls
-// _ X implement tabbed subthemes
+// X _ zoom controls
+// X _ implement tabbed subthemes
 // _ export
 // 
 
@@ -275,8 +275,7 @@ setup.options = {
           
           console.log('zoomLevel = ' + zoomLevel);
 
-          viz.chart.setOption(options);
-          // TODO: reset focus, 
+          // reset focus if necessary 
           const activeId = viz.active.clicked;
           if (activeId) {
             var _item_obj = viz.getItemObj(activeId);
@@ -311,7 +310,7 @@ setup.options = {
 
           console.log('zoomLevel = ' + zoomLevel);
 
-          // TODO: reset focus, 
+          // reset focus if necessary 
           const activeId = viz.active.clicked;
           if (activeId) {
             var _item_obj = viz.getItemObj(activeId);

@@ -20186,6 +20186,7 @@ nav.navbar.sticky-top {
 }
 
 .viz-parent {
+  position: relative;
   box-shadow: inset 0px -1px 7px 0px rgba(0, 0, 0, 0.1);
   background-color: #f7f7f759;
   height: 600px;
@@ -20344,6 +20345,34 @@ nav.navbar.sticky-top {
 
 .viz-parent.text-panel-open #text-panel .open-icon {
   display: none;
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .viz-parent {
+    height: 700px !important;
+  }
+  .viz-parent.text-panel-open #viz-space {
+    width: 100% !important;
+    height: 300px;
+  }
+  .viz-parent #text-panel {
+    position: absolute;
+    bottom: 0%;
+    width: calc(100% - 30px);
+  }
+  .viz-parent #text-panel .content {
+    height: 400px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .viz-parent #viz-space {
+    display: none;
+  }
+  .viz-parent #text-panel {
+    transform: translateX(0);
+    width: 100%;
+  }
 }
 
 body.type-events .hero {
