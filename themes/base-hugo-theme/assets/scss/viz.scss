@@ -6,6 +6,34 @@ $TEXT_PANEL_HEIGHT_TABLET: 400px;
 
 $VIZ_AREA_HEIGHT_TABLET: $VIZ_HEIGHT_TABLET + $TEXT_PANEL_HEIGHT_TABLET;
 
+// colors - keep in sync with theme.yaml
+$UBI_COLOR: #00505C;
+$DEMOCRACY_COLOR: #DB8311;
+$GENDER_COLOR: #AF690C;
+$HEALTH_COLOR: #F5CF9E;
+$AUTOMATION_COLOR: #36BFD4;
+$WORK_COLOR: #CFF9FF;
+$RACE_COLOR: #737579;
+$ECONOMY_COLOR: #E8E7E7;
+
+$DEMOCRACY_THEME: ( "id": "democracy", "color": $DEMOCRACY_COLOR );
+$GENDER_THEME: ( "id": "gender", "color": $GENDER_COLOR );
+$HEALTH_THEME: ( "id": "health", "color": $HEALTH_COLOR );
+$AUTOMATION_THEME: ( "id": "automation", "color": $AUTOMATION_COLOR );
+$WORK_THEME: ( "id": "work", "color": $WORK_COLOR );
+$RACE_THEME: ( "id": "race", "color": $RACE_COLOR );
+$ECONOMY_THEME: ( "id": "economic-effects", "color": $ECONOMY_COLOR );
+
+$THEMES: (
+  $DEMOCRACY_THEME,
+  $GENDER_THEME,
+  $HEALTH_THEME,
+  $AUTOMATION_THEME,
+  $WORK_THEME,
+  $RACE_THEME,
+  $ECONOMY_THEME
+);
+
 nav.navbar.sticky-top {
   z-index: 3000;
 }
@@ -25,85 +53,85 @@ nav.navbar.sticky-top {
     width: calc(100% - #{$TEXT_PANEL_WIDTH});
   }
 
-  .dialog {
-    position: absolute;
-    background-color: transparent;
-    width: 450px;
-    z-index: 2999;
-    .dialog-body {
-      max-height: 800px;
-      overflow-y: scroll;
-      background-color: white;
-      color: #3B3B3B;
-      border: 0.5px solid rgba(79, 79, 79, 0.38); // #979797;
-      box-shadow: 0 1px 4px rgba(79, 79, 79, 0.18);
-      border-radius: 4px;
-      padding: 30px;
-      .subtext,
-      .toggle-info {
-        @include sofia-reg;
-        font-size: 1.2rem;
-        color: #757575;
-        line-height: 2.7rem;
-        letter-spacing: .363rem;
-        text-transform: uppercase;
-      }
-      .title {
-        @include sofia-bold;
-        font-size: 1.8rem;
-        color: #3B3B3B;
-        line-height: 2.7rem;
-        letter-spacing: .018rem;
-      }
-      .title:last-of-type {
-        padding-top: 20px;
-      }
-      // .related.title:last-child {
-      //   padding-bottom: 17.5rem;
-      // }
-      .toggle-info.first {
+  // .dialog {
+  //   position: absolute;
+  //   background-color: transparent;
+  //   width: 450px;
+  //   z-index: 2999;
+  //   .dialog-body {
+  //     max-height: 800px;
+  //     overflow-y: scroll;
+  //     background-color: white;
+  //     color: #3B3B3B;
+  //     border: 0.5px solid rgba(79, 79, 79, 0.38); // #979797;
+  //     box-shadow: 0 1px 4px rgba(79, 79, 79, 0.18);
+  //     border-radius: 4px;
+  //     padding: 30px;
+  //     .subtext,
+  //     .toggle-info {
+  //       @include sofia-reg;
+  //       font-size: 1.2rem;
+  //       color: #757575;
+  //       line-height: 2.7rem;
+  //       letter-spacing: .363rem;
+  //       text-transform: uppercase;
+  //     }
+  //     .title {
+  //       @include sofia-bold;
+  //       font-size: 1.8rem;
+  //       color: #3B3B3B;
+  //       line-height: 2.7rem;
+  //       letter-spacing: .018rem;
+  //     }
+  //     .title:last-of-type {
+  //       padding-top: 20px;
+  //     }
+  //     // .related.title:last-child {
+  //     //   padding-bottom: 17.5rem;
+  //     // }
+  //     .toggle-info.first {
 
-        padding-top: 20px;
-      }
-      .toggle-info {
-        padding-top: 15px;
-        display: block;
-        width: 100%;
-        border-bottom: 0.5px solid #D8D8D8;
-        padding-bottom: 5px;
-        .label {
-          padding-left: 3px;
-        }
-        .icon {
-          float: right;
-        }
-      }
+  //       padding-top: 20px;
+  //     }
+  //     .toggle-info {
+  //       padding-top: 15px;
+  //       display: block;
+  //       width: 100%;
+  //       border-bottom: 0.5px solid #D8D8D8;
+  //       padding-bottom: 5px;
+  //       .label {
+  //         padding-left: 3px;
+  //       }
+  //       .icon {
+  //         float: right;
+  //       }
+  //     }
 
-      .card {
-        @include sofia-reg;
-        font-size: 1.4rem;
-        line-height: 2.1rem;
-        letter-spacing: 0.024rem;
-        border: 0;
-        padding-left: 0;
-        padding-right: 0;
-        padding-bottom: 0;
-        p {
-          margin-bottom: 1.5rem;
-          font-size: 1.4rem;
-          line-height: 2.1rem;
-          letter-spacing: 0.024rem;
-        }
-        ul,
-        li {
-          @include sofia-reg;
-          font-size: 1.4rem;
-          line-height: 2.1rem;
-          letter-spacing: 0.024rem;
-        }
-      }
-    }
-  }
+  //     .card {
+  //       @include sofia-reg;
+  //       font-size: 1.4rem;
+  //       line-height: 2.1rem;
+  //       letter-spacing: 0.024rem;
+  //       border: 0;
+  //       padding-left: 0;
+  //       padding-right: 0;
+  //       padding-bottom: 0;
+  //       p {
+  //         margin-bottom: 1.5rem;
+  //         font-size: 1.4rem;
+  //         line-height: 2.1rem;
+  //         letter-spacing: 0.024rem;
+  //       }
+  //       ul,
+  //       li {
+  //         @include sofia-reg;
+  //         font-size: 1.4rem;
+  //         line-height: 2.1rem;
+  //         letter-spacing: 0.024rem;
+  //       }
+  //     }
+  //   }
+  // }
 
   #text-panel {
     z-index: 2999;
@@ -112,6 +140,51 @@ nav.navbar.sticky-top {
     width: $TEXT_PANEL_WIDTH;
     transition: transform ease .8s;
     transform: translateX(100%);
+
+    .card-header {
+      height: 65px;
+      .text {
+        // display: inline-block;
+        font-size: 20px;
+      }
+
+      .btn {
+        text-align: start;
+        position: relative;
+        width: 100%;
+        
+        .icon {
+          position: absolute;
+          right: 0;
+        }
+        &.collapsed {
+          .collapse-icon {
+            display: none;
+          }
+        }
+        &:not(.collapsed) {
+          .expand-icon {
+            display: none;
+          }
+        }
+      }
+
+      .btn-link:hover {
+          color: unset;
+          text-decoration: unset;
+      }
+
+      @each $theme in $THEMES {
+        &#heading-#{map-get($theme, "id")} .theme-orb {
+          height: 16px;
+          width: 16px;
+          margin-right: 9px;
+          border-radius: 50%;
+          display: inline-block;
+          background-color: #{map-get($theme, "color")};
+        }
+      }
+    }
 
     .content {
       height: $VIZ_HEIGHT;
@@ -157,17 +230,29 @@ nav.navbar.sticky-top {
 
   @include media-breakpoint-between(mm, md) {
     height: $VIZ_AREA_HEIGHT_TABLET !important;
-    &.text-panel-open #viz-space {
-      // display: none;
-      width: 100% !important;
-      height: $VIZ_HEIGHT_TABLET;
+    &.text-panel-open {
+      #viz-space {
+        // display: none;
+        width: 100% !important;
+        height: $VIZ_HEIGHT_TABLET;
+      }
+
+      #text-panel .toggle {
+        top: 0;
+        transform: translate(0, -90%); // shift toggle to above text-panel, slid slightly under it
+      }
     }
+
     #text-panel {
       position: absolute;
       bottom: 0%;
-      width: calc(100% - 30px);
+      // width: calc(100% - 30px);
+      width: 100%;
       .content {
         height: $TEXT_PANEL_HEIGHT_TABLET;
+      }
+      .toggle {
+        transition: translate ease 1s;
       }
     }
   }

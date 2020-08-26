@@ -20202,100 +20202,6 @@ nav.navbar.sticky-top {
   width: calc(100% - 600px);
 }
 
-.viz-parent .dialog {
-  position: absolute;
-  background-color: transparent;
-  width: 450px;
-  z-index: 2999;
-}
-
-.viz-parent .dialog .dialog-body {
-  max-height: 800px;
-  overflow-y: scroll;
-  background-color: white;
-  color: #3B3B3B;
-  border: 0.5px solid rgba(79, 79, 79, 0.38);
-  box-shadow: 0 1px 4px rgba(79, 79, 79, 0.18);
-  border-radius: 4px;
-  padding: 30px;
-}
-
-.viz-parent .dialog .dialog-body .subtext,
-.viz-parent .dialog .dialog-body .toggle-info {
-  font-family: sofia-pro,sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 1.2rem;
-  color: #757575;
-  line-height: 2.7rem;
-  letter-spacing: .363rem;
-  text-transform: uppercase;
-}
-
-.viz-parent .dialog .dialog-body .title {
-  font-family: sofia-pro,sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 1.8rem;
-  color: #3B3B3B;
-  line-height: 2.7rem;
-  letter-spacing: .018rem;
-}
-
-.viz-parent .dialog .dialog-body .title:last-of-type {
-  padding-top: 20px;
-}
-
-.viz-parent .dialog .dialog-body .toggle-info.first {
-  padding-top: 20px;
-}
-
-.viz-parent .dialog .dialog-body .toggle-info {
-  padding-top: 15px;
-  display: block;
-  width: 100%;
-  border-bottom: 0.5px solid #D8D8D8;
-  padding-bottom: 5px;
-}
-
-.viz-parent .dialog .dialog-body .toggle-info .label {
-  padding-left: 3px;
-}
-
-.viz-parent .dialog .dialog-body .toggle-info .icon {
-  float: right;
-}
-
-.viz-parent .dialog .dialog-body .card {
-  font-family: sofia-pro,sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 1.4rem;
-  line-height: 2.1rem;
-  letter-spacing: 0.024rem;
-  border: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-}
-
-.viz-parent .dialog .dialog-body .card p {
-  margin-bottom: 1.5rem;
-  font-size: 1.4rem;
-  line-height: 2.1rem;
-  letter-spacing: 0.024rem;
-}
-
-.viz-parent .dialog .dialog-body .card ul,
-.viz-parent .dialog .dialog-body .card li {
-  font-family: sofia-pro,sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 1.4rem;
-  line-height: 2.1rem;
-  letter-spacing: 0.024rem;
-}
-
 .viz-parent #text-panel {
   z-index: 2999;
   position: absolute;
@@ -20303,6 +20209,101 @@ nav.navbar.sticky-top {
   width: 600px;
   transition: transform ease .8s;
   transform: translateX(100%);
+}
+
+.viz-parent #text-panel .card-header {
+  height: 65px;
+}
+
+.viz-parent #text-panel .card-header .text {
+  font-size: 20px;
+}
+
+.viz-parent #text-panel .card-header .btn {
+  text-align: start;
+  position: relative;
+  width: 100%;
+}
+
+.viz-parent #text-panel .card-header .btn .icon {
+  position: absolute;
+  right: 0;
+}
+
+.viz-parent #text-panel .card-header .btn.collapsed .collapse-icon {
+  display: none;
+}
+
+.viz-parent #text-panel .card-header .btn:not(.collapsed) .expand-icon {
+  display: none;
+}
+
+.viz-parent #text-panel .card-header .btn-link:hover {
+  color: unset;
+  text-decoration: unset;
+}
+
+.viz-parent #text-panel .card-header#heading-democracy .theme-orb {
+  height: 16px;
+  width: 16px;
+  margin-right: 9px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #DB8311;
+}
+
+.viz-parent #text-panel .card-header#heading-gender .theme-orb {
+  height: 16px;
+  width: 16px;
+  margin-right: 9px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #AF690C;
+}
+
+.viz-parent #text-panel .card-header#heading-health .theme-orb {
+  height: 16px;
+  width: 16px;
+  margin-right: 9px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #F5CF9E;
+}
+
+.viz-parent #text-panel .card-header#heading-automation .theme-orb {
+  height: 16px;
+  width: 16px;
+  margin-right: 9px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #36BFD4;
+}
+
+.viz-parent #text-panel .card-header#heading-work .theme-orb {
+  height: 16px;
+  width: 16px;
+  margin-right: 9px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #CFF9FF;
+}
+
+.viz-parent #text-panel .card-header#heading-race .theme-orb {
+  height: 16px;
+  width: 16px;
+  margin-right: 9px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #737579;
+}
+
+.viz-parent #text-panel .card-header#heading-economic-effects .theme-orb {
+  height: 16px;
+  width: 16px;
+  margin-right: 9px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #E8E7E7;
 }
 
 .viz-parent #text-panel .content {
@@ -20355,13 +20356,20 @@ nav.navbar.sticky-top {
     width: 100% !important;
     height: 300px;
   }
+  .viz-parent.text-panel-open #text-panel .toggle {
+    top: 0;
+    transform: translate(0, -90%);
+  }
   .viz-parent #text-panel {
     position: absolute;
     bottom: 0%;
-    width: calc(100% - 30px);
+    width: 100%;
   }
   .viz-parent #text-panel .content {
     height: 400px;
+  }
+  .viz-parent #text-panel .toggle {
+    transition: translate ease 1s;
   }
 }
 
