@@ -20213,6 +20213,7 @@ nav.navbar.sticky-top {
 
 .viz-parent #text-panel .card-header {
   height: 65px;
+  background: white;
 }
 
 .viz-parent #text-panel .card-header .text {
@@ -20317,34 +20318,52 @@ nav.navbar.sticky-top {
   font-weight: bold;
 }
 
-.viz-parent #text-panel .close-icon {
-  display: none;
-}
-
-.viz-parent #text-panel .open-icon {
-  display: block;
-}
-
 .viz-parent #text-panel .toggle {
   cursor: pointer;
   position: absolute;
-  left: 0;
+  left: 1px;
+  top: 24px;
+  width: 61px;
+  height: 69px;
   background: white;
   border: solid 0.5px rgba(55, 55, 55, 0.125);
   padding: 10px;
   transform: translateX(-100%);
-  top: 10px;
+  border-radius: 2px;
+}
+
+.viz-parent #text-panel .toggle .group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+
+.viz-parent #text-panel .toggle .group p {
+  font-size: 12px;
+  font-weight: 300;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.viz-parent #text-panel .toggle .group.close-group {
+  display: none;
+}
+
+.viz-parent #text-panel .toggle .group.open-group {
+  display: flex;
 }
 
 .viz-parent.text-panel-open #text-panel {
   transform: translateX(0);
 }
 
-.viz-parent.text-panel-open #text-panel .close-icon {
-  display: block;
+.viz-parent.text-panel-open #text-panel .close-group.group {
+  display: flex;
 }
 
-.viz-parent.text-panel-open #text-panel .open-icon {
+.viz-parent.text-panel-open #text-panel .open-group.group {
   display: none;
 }
 

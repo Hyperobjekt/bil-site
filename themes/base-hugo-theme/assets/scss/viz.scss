@@ -143,6 +143,7 @@ nav.navbar.sticky-top {
 
     .card-header {
       height: 65px;
+      background: white;
       .text {
         // display: inline-block;
         font-size: 20px;
@@ -197,32 +198,49 @@ nav.navbar.sticky-top {
       font-weight: bold;
     }
 
-    .close-icon {
-      display: none;
-    }
-    .open-icon {
-      display: block;
-    }
-
     .toggle {
       cursor: pointer;
       position: absolute;
-      left: 0;
+      left: 1px;
+      top: 24px;
+      width: 61px;
+      height: 69px;
       background: white;
       border: solid .5px rgba(55, 55, 55, 0.125);
       padding: 10px;
       transform: translateX(-100%);
-      top: 10px;
+      border-radius: 2px;
+
+      .group {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 100%;
+
+        p {
+          font-size: 12px;
+          font-weight: $font-weight-light;
+          margin: 0;
+          text-transform: uppercase;
+        }
+        &.close-group {
+          display: none;
+        }
+        &.open-group {
+          display: flex;
+        }
+      }
     }
   }
 
   &.text-panel-open {
     #text-panel {
       transform: translateX(0);
-      .close-icon {
-        display: block;
+      .close-group.group {
+        display: flex;
       }
-      .open-icon {
+      .open-group.group {
         display: none;
       }
     }

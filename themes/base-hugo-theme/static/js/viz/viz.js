@@ -242,7 +242,7 @@ viz.rebuild();
 setup.options = {
   toolbox: {
     show: true,
-    bottom: 20,
+    top: 20,
     left: 20,
     orient: 'vertical',
     // showTitle: false,
