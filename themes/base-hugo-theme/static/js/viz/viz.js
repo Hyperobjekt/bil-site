@@ -438,7 +438,16 @@ jQuery('#text-panel .toggle').click(function(e){
 
 // remove node highlight when closing text-panel section
 jQuery('#text-panel .collapse').on('hide.bs.collapse', function(e) {
-  viz.active.clicked = null;
+  const id = e.currentTarget.dataset.id;
+
+  const activeParent = viz.getParentItemObj(viz.active.clicked);
+  if (id === activeParent.id) {
+    // only allow this event to cancel out the active clicked item if *this section* is the one
+    // marked active (could've already been overwritten if this collapse was triggered by a click
+    // to another node/section header). ensures we make the proper check below in shown.bs.collapse  
+    viz.active.clicked = null;
+  }
+  
   viz.chart.dispatchAction({
     type: 'downplay',
     seriesName: 'UBI',
@@ -446,10 +455,20 @@ jQuery('#text-panel .collapse').on('hide.bs.collapse', function(e) {
 });
 
 // highlight node when opening corresponding text-panel section
-// use 'shown' rather than 'show' so it doesn't firebefore hide.bs.collapse's
+// use 'shown' rather than 'show' so it doesn't fire before hide.bs.collapse's
 // 'downplay', which would immediately undo this highlight
 jQuery('#text-panel .collapse').on('shown.bs.collapse', function(e) {
   const id = e.currentTarget.dataset.id;
+
+  const activeParent = viz.getParentItemObj(viz.active.clicked);
+  if (id === activeParent.id) {
+    // this event *may* have been triggered by the clicking of a subtheme viz node
+    // (which then triggered the showing of this parent theme section)
+    // in that case we don't want to overwrite our newly active subtheme id
+    console.log('return?')
+    return;
+  }
+  
   viz.active.clicked = id;
   highlightNodeGroup(id);
 });
@@ -489,46 +508,47 @@ viz.chart.on('click', function(e) {
       return;
     }
     
-    var nodeID = e.data.id;
-    var vSp = jQuery('#viz-space');
-    viz.active.clicked = e.data.id;
-    var evt = window.event;
+    const nodeId = e.data.id;
+    // const vSp = jQuery('#viz-space');
+    viz.active.clicked = nodeId;
+    // const evt = window.event;
 
     // TODO: need to rebuild to show appropriate labels
     // viz.rebuild();
     // viz.chart.setOption(setup.options);
     
-    var _item_obj = viz.getItemObj(nodeID);
+    const _item_obj = viz.getItemObj(nodeId);
 
-    var _parent_obj = viz.getParentItemObj(nodeID);
-    var parentId = _parent_obj.id;
-    // var dataIndex = _parent_obj.dataIndex;
+    const _parent_obj = viz.getParentItemObj(nodeId);
+    const parentId = _parent_obj.id;
+
+    let childId = nodeId;
+    if (_item_obj.type === 'parent') {
+      childId = _item_obj.childrenIds[0];
+    }
     
     // make sure text-panel is open
     jQuery('#viz-parent').addClass('text-panel-open');
 
-    // open the corresponding text-panel section
+    // open the corresponding text-panel section and subtheme tab
     jQuery(`#text-panel .collapse[data-id='${parentId}'`).collapse('show');
+    jQuery(`#text-panel a[href="#pills-${childId}"]`).tab('show');
 
-    if (_item_obj.type === 'child') {
-      jQuery(`#text-panel a[href="#pills-${nodeID}"]`).tab('show');
-    }
-
+    highlightNodeGroup(nodeId);
     // resize chart (in case panel just opened)
     viz.chart.resize();
 
     // then highlight the corresponding node group
-    highlightNodeGroup(parentId);
-
+    
     // wait a beat...
     setTimeout(() => {
       // and scroll to the section in the text-panel (https://stackoverflow.com/a/2906009/13174944)
-      var $container = jQuery('#text-panel .content'),
-        $scrollTo = jQuery('#heading-' + parentId);
-        $container.animate({
-          scrollTop: $scrollTo.offset().top - $container.offset().top + $container.scrollTop()
+      const $container = jQuery('#text-panel .content'),
+      $scrollTo = jQuery('#heading-' + parentId);
+      $container.animate({
+        scrollTop: $scrollTo.offset().top - $container.offset().top + $container.scrollTop()
       });
-    }, 100);
+    }, 500); // if we don't wait, the scroll lands at the wrong place due to dynamically collapsing/expanding sections
   }
 });
 
@@ -573,19 +593,25 @@ viz.chart.on('graphRoam', function(e) {
 // _HELPERS__
 
 function highlightNodeGroup(elId) {
-  const parent = viz.getParentItemObj(elId);
   viz.chart.dispatchAction({
-    type: 'highlight',
+    type: 'downplay',
     seriesName: 'UBI',
-    name: parent.title, // node name has same value as obj item title
   });
   
-  parent.childrenIds.forEach(childId => {
-    const child = viz.getItemObj(childId);
+  const el = viz.getItemObj(elId);
+  const elsToHighlight = [el];
+  if (el.type === 'parent') { // parent node was clicked - highlight first child as well
+    const child = viz.getItemObj(el.childrenIds[0]);
+    elsToHighlight.push(child);
+  } else {
+    const parent = viz.getParentItemObj(elId);
+    elsToHighlight.push(parent);
+  }
+  elsToHighlight.forEach(elem => {
     viz.chart.dispatchAction({
       type: 'highlight',
       seriesName: 'UBI',
-      name: child.title,
+      name: elem.title, // node name has same value as obj item title
     });
   })
 }
