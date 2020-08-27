@@ -157,7 +157,7 @@ viz.rebuild = () => {
   (setup.nodes).push(root);
   setup.colorIndex++;
   // Build parent nodes
-  viz.parents.forEach(function(el, idx) {
+  viz.parents.forEach(function(el) {
     // console.log(el.title);
     if (!!el.display) {
       // Add item to nodes array
@@ -186,13 +186,17 @@ viz.rebuild = () => {
     // console.log(el.title);
     const _parent = setup.nodes.filter(
       function(value){ return value.id === el.parent }
-    )
+    )[0]
     const _viz_parent = viz.parents.filter(
       function(value){ return value.id === el.parent }
-    )
-    // console.log('_parent');
-    // console.log(_parent);
-    if (!!el.display && !!_viz_parent[0].display) {
+    )[0]
+
+    if (!_viz_parent.childrenIds) {
+      _viz_parent.childrenIds = [];
+    }
+    _viz_parent.childrenIds.push(el.id);
+
+    if (!!el.display && !!_viz_parent.display) {
       
       // Add item to nodes array
       let label = subtopicLabel
@@ -206,7 +210,7 @@ viz.rebuild = () => {
 
       const item = {
         id: el.id,
-        name: el.title,
+        name: el.title, // node name has same value as obj item title (for highlighting)
         value: el.title,
         category: el.id,
         x: el.xAxis,
@@ -214,7 +218,7 @@ viz.rebuild = () => {
         symbol: 'circle',
         symbolSize: 15,
         itemStyle: {
-          color: _parent[0].itemStyle.color,
+          color: _parent.itemStyle.color,
         },
         tooltip: {
           show: true,
@@ -275,15 +279,10 @@ setup.options = {
           
           console.log('zoomLevel = ' + zoomLevel);
 
-          // reset focus if necessary 
+          // reset highlight if necessary 
           const activeId = viz.active.clicked;
           if (activeId) {
-            var _item_obj = viz.getItemObj(activeId);
-            viz.chart.dispatchAction({
-              type: 'focusNodeAdjacency',
-              seriesName: 'UBI',
-              dataIndex: _item_obj.dataIndex,
-            });
+            highlightNodeGroup(activeId);
           }
         }
       },
@@ -310,15 +309,10 @@ setup.options = {
 
           console.log('zoomLevel = ' + zoomLevel);
 
-          // reset focus if necessary 
+          // reset highlight if necessary 
           const activeId = viz.active.clicked;
           if (activeId) {
-            var _item_obj = viz.getItemObj(activeId);
-            viz.chart.dispatchAction({
-              type: 'focusNodeAdjacency',
-              seriesName: 'UBI',
-              dataIndex: _item_obj.dataIndex,
-            });
+            highlightNodeGroup(activeId);
           }
         }
       },
@@ -388,6 +382,11 @@ setup.options = {
           borderWidth: 1,
           shadowBlur: 10,
           shadowColor: 'rgba(0, 0, 0, 0.3)'
+        },
+        emphasis: {
+          borderColor: 'rgb(180,180,180)',
+          shadowBlur: 14,
+          shadowColor: 'rgba(0, 0, 0, 0.5)'
         }
       },
       lineStyle: {
@@ -437,40 +436,28 @@ jQuery('#text-panel .toggle').click(function(e){
   }, 0);
 });
 
-// remove node focus when closing text-panel section
+// remove node highlight when closing text-panel section
 jQuery('#text-panel .collapse').on('hide.bs.collapse', function(e) {
   viz.active.clicked = null;
   viz.chart.dispatchAction({
-    type: 'unfocusNodeAdjacency',
+    type: 'downplay',
     seriesName: 'UBI',
   });
 });
 
-// focus node when opening corresponding text-panel section
+// highlight node when opening corresponding text-panel section
 // use 'shown' rather than 'show' so it doesn't firebefore hide.bs.collapse's
-// 'unfocusNodeAdjacency', which would immediately undo this focus
+// 'downplay', which would immediately undo this highlight
 jQuery('#text-panel .collapse').on('shown.bs.collapse', function(e) {
   const id = e.currentTarget.dataset.id;
   viz.active.clicked = id;
-  var _item_obj = viz.getItemObj(id);
-  
-  viz.chart.dispatchAction({
-    type: 'focusNodeAdjacency',
-    seriesName: 'UBI',
-    dataIndex: _item_obj.dataIndex,
-  });
+  highlightNodeGroup(id);
 });
 
 // wait for user to finish resizing before adjusting
 window.onresize = debounce(function(){
   viz.chart.resize();
-
-  var _parent_obj = viz.getParentItemObj(viz.active.clicked);
-  viz.chart.dispatchAction({
-    type: 'focusNodeAdjacency',
-    seriesName: 'UBI',
-    dataIndex: _parent_obj.dataIndex
-  });
+  highlightNodeGroup(viz.active.clicked);
 }, 100);
 
 // Init eCharts
@@ -515,7 +502,7 @@ viz.chart.on('click', function(e) {
 
     var _parent_obj = viz.getParentItemObj(nodeID);
     var parentId = _parent_obj.id;
-    var dataIndex = _parent_obj.dataIndex;
+    // var dataIndex = _parent_obj.dataIndex;
     
     // make sure text-panel is open
     jQuery('#viz-parent').addClass('text-panel-open');
@@ -530,12 +517,8 @@ viz.chart.on('click', function(e) {
     // resize chart (in case panel just opened)
     viz.chart.resize();
 
-    // then focus the corresponding node
-    viz.chart.dispatchAction({
-      type: 'focusNodeAdjacency',
-      seriesName: 'UBI',
-      dataIndex: dataIndex,
-    });
+    // then highlight the corresponding node group
+    highlightNodeGroup(parentId);
 
     // wait a beat...
     setTimeout(() => {
@@ -575,24 +558,38 @@ viz.chart.on('graphRoam', function(e) {
       options.series[0].zoom = ZOOM_MAX;
       viz.chart.setOption(options);
     } else {
-      return; // don't need to refocus if no rebuild
+      return; // don't need to rehighlight if no rebuild
     }
 
-    // refocus if necessary
+    // rehighlight if necessary
     const activeId = viz.active.clicked;
     if (activeId) {
-      var _item_obj = viz.getItemObj(activeId);
-      viz.chart.dispatchAction({
-        type: 'focusNodeAdjacency',
-        seriesName: 'UBI',
-        dataIndex: _item_obj.dataIndex,
-      });
+      highlightNodeGroup(activeId);
     }
-
+    
   }
 });
 
 // _HELPERS__
+
+function highlightNodeGroup(elId) {
+  const parent = viz.getParentItemObj(elId);
+  viz.chart.dispatchAction({
+    type: 'highlight',
+    seriesName: 'UBI',
+    name: parent.title, // node name has same value as obj item title
+  });
+  
+  parent.childrenIds.forEach(childId => {
+    const child = viz.getItemObj(childId);
+    viz.chart.dispatchAction({
+      type: 'highlight',
+      seriesName: 'UBI',
+      name: child.title,
+    });
+  })
+}
+
 function getZoomLevel() {
   console.log('zoom: ', viz.chart.getOption().series[0].zoom);
   return viz.chart.getOption().series[0].zoom;
