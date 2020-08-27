@@ -1,14 +1,6 @@
 // TODOS_
-// X _ make sure label appears on hover ... could tooltip
-//   _ and for all focused? ... could just text panel
-// _ make masked opacity higher (issue) ... could "highlight"
 // _ export
 // 
-
-//   viz.chart.dispatchAction({
-//     type: 'downplay/highlight', 
-//     name: 'Work',
-//    })
 
 const ZOOM_MAX = 10;
 const ZOOM_MIN = .7;
@@ -338,9 +330,7 @@ setup.options = {
             });
           }, 10);
 
-          jQuery(`#text-panel .collapse[data-id='${viz.active.clicked}'`).collapse('hide');
-          viz.active.clicked = null;
-
+          collapsePanelSections();
         }
       },
     },
@@ -429,7 +419,7 @@ jQuery('#text-panel .toggle').click(function(e){
   jQuery('#viz-parent').toggleClass('text-panel-open');
   
   // only needs to happen on close, but when toggle is clicked to open nothing should be active anyways
-  jQuery(`#text-panel .collapse[data-id='${viz.active.clicked}'`).collapse('hide');
+  collapsePanelSections();
 
   setTimeout(() => {
     viz.chart.resize();
@@ -473,6 +463,16 @@ jQuery('#text-panel .collapse').on('shown.bs.collapse', function(e) {
   highlightNodeGroup(id);
 });
 
+// highlight subtheme node when its tab is clicked
+jQuery('#text-panel .nav-link').on('shown.bs.tab', function(e) {
+  // will also fire when subtheme node is clicked directly, leading to an "echoed" call of
+  // highlightNodeGroup/repeat setting of active.clicked, but with same value so with no impact
+  const id = e.currentTarget.dataset.id;
+  
+  viz.active.clicked = id;
+  highlightNodeGroup(id);
+});
+
 // wait for user to finish resizing before adjusting
 window.onresize = debounce(function(){
   viz.chart.resize();
@@ -489,10 +489,11 @@ viz.chart.hideLoading();
 viz.chart.on('mouseover', function(e) {
   // TODO
   if (e.dataType === 'node') {
+
     if (e.data.id === 'root') {
       return;
     }
-    // console.log('me')
+
     viz.active.hovered = e.data.id;
     // viz.rebuild();
     // viz.chart.setOption(setup.options);
@@ -505,6 +506,13 @@ viz.chart.on('click', function(e) {
   if (e.dataType === 'node') {
 
     if (e.data.id === 'root') {
+      collapsePanelSections();
+
+      viz.chart.dispatchAction({
+        type: 'downplay',
+        seriesName: 'UBI',
+      });
+
       return;
     }
     
@@ -614,6 +622,12 @@ function highlightNodeGroup(elId) {
       name: elem.title, // node name has same value as obj item title
     });
   })
+}
+
+function collapsePanelSections() {
+  const parent = viz.getParentItemObj(viz.active.clicked);
+  jQuery(`#text-panel .collapse[data-id='${parent.id}'`).collapse('hide');
+  viz.active.clicked = null;
 }
 
 function getZoomLevel() {
