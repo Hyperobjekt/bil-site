@@ -20185,11 +20185,21 @@ nav.navbar.sticky-top {
   z-index: 3000;
 }
 
+.scroll-button {
+  height: 30px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.scroll-button p {
+  display: inline-block;
+}
+
 .viz-parent {
   position: relative;
   box-shadow: inset 0px -1px 7px 0px rgba(0, 0, 0, 0.1);
   background-color: #f7f7f759;
-  height: 600px;
+  height: calc(100vh - 6.4rem - (30px * 2));
 }
 
 .viz-parent #viz-space {
@@ -20308,7 +20318,7 @@ nav.navbar.sticky-top {
 }
 
 .viz-parent #text-panel .content {
-  height: 600px;
+  height: calc(100vh - 6.4rem - (30px * 2));
   overflow: scroll;
 }
 
@@ -20369,11 +20379,11 @@ nav.navbar.sticky-top {
 
 @media (min-width: 576px) and (max-width: 991.98px) {
   .viz-parent {
-    height: 700px !important;
+    height: calc(100vh - 6.4rem - (30px * 2)) !important;
   }
   .viz-parent.text-panel-open #viz-space {
     width: 100% !important;
-    height: 300px;
+    height: calc(calc(100vh - 6.4rem - (30px * 2)) - 400px);
   }
   .viz-parent.text-panel-open #text-panel .toggle {
     top: 0;

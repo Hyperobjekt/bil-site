@@ -1,10 +1,12 @@
-$VIZ_HEIGHT: 600px;
-$VIZ_HEIGHT_TABLET: 300px;
+$SCROLL_BUTTON_HEIGHT: 30px;
+
+$VIZ_HEIGHT: calc(#{100vh} - #{$NAVBAR_HEIGHT} - (#{$SCROLL_BUTTON_HEIGHT} * 2));
+$VIZ_AREA_HEIGHT_TABLET: $VIZ_HEIGHT;
 
 $TEXT_PANEL_WIDTH: 600px;
 $TEXT_PANEL_HEIGHT_TABLET: 400px;
+$VIZ_HEIGHT_TABLET: calc(#{$VIZ_AREA_HEIGHT_TABLET} - #{$TEXT_PANEL_HEIGHT_TABLET});
 
-$VIZ_AREA_HEIGHT_TABLET: $VIZ_HEIGHT_TABLET + $TEXT_PANEL_HEIGHT_TABLET;
 
 // colors - keep in sync with theme.yaml
 $UBI_COLOR: #00505C;
@@ -37,6 +39,16 @@ $THEMES: (
 nav.navbar.sticky-top {
   z-index: 3000;
 }
+
+.scroll-button {
+  height: $SCROLL_BUTTON_HEIGHT;
+  display: inline-block;
+  cursor: pointer;
+  p {
+    display: inline-block;
+  }
+}
+
 .viz-parent {
   position: relative;
   box-shadow: inset 0px -1px 7px 0px rgba(0, 0, 0, 0.1);

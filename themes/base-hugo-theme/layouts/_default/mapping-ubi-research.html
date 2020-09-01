@@ -20,7 +20,7 @@
       <ul class="anchor-links dropdown-menu">
         <li class="mb-3"><a href="/research/experiments-map/">Experiments Map</a></li>
         <li class="mb-3"><a href="/research/papers/">Papers</a></li>
-           
+
     </ul>
   </div>
 </div>
@@ -37,6 +37,43 @@
 </div>-->
 <!-- /SUBNAV -->
 
+<div id="mapping-text" class="pt-sm-5 pt-md-7 pt-lg-9 pt-xl-12 pb-sm-7 pb-md-7 pb-xl-8">
+<div class="row">
+    <div class="col-md-3 mt-md-11 offset-md-2 mt-0 d-flex flex-column justify-content-start align-items-sm-center align-items-md-end"
+        style="background-image: url('/images/backgrounds/UBI-viz-close-crop.jpg'); background-size: contain; background-repeat: no-repeat; background-position: right top;">
+
+    </div>
+    <div class="col-md-5 ml-md-3">
+        <h2 class="mb-sm-4 mb-md-4 mb-xl-5">Mapping UBI Research</h2>
+        <p class="medgraytext mt-md-1">Despite the growing UBI research effort over the past 30 years, there does not
+            exist an online tool that conveniently brings together the existing research in one place. The Basic Income
+            Lab is working to develop the first such visualization, thus promoting more methodical progress in the
+            academic field of UBI, and building a rigorous platform for the benefit of future basic-income
+            experimenters, researchers, students, and policy-makers.
+        </p>
+
+        <p class="medgraytext">The online platform will provide pertinent summaries of articles, research papers, books
+            produced on UBI to date, highlighting important findings from each and ensuring that core areas such as
+            health, crime, stigma, childhood poverty and gender equity are covered.
+        </p>
+        <p class="medgraytext">To construct this platform, our team of four Stanford graduate researchers started
+            reviewing the UBI scholarship in January 2018 through an interdisciplinary lens. Specifically, an economics
+            student surveyed past and current UBI experiments; two political theorists are surveying the conceptual and
+            normative literature on UBI; and a computer scientist is helping us design the online platform and city
+            toolkit in collaboration with a data visualization team.
+        </p>
+        <p class="medgraytext">In 2019, we will unveil the finished platform at a large-scale event. Stay tuned for more
+            updates on our progress!
+
+        </p>
+        <div class="scroll-button" data-target="#viz-section">
+            <p>Explore the visualization</p>
+            <i class="fa fa-chevron-down"></i>
+        </div>
+    </div>
+</div>
+</div>
+
 <!-- VISUALIZATION ---------------------------------- -->
 <!-- <div id="" class="gray-bg pt-sm-14 pt-md-14 pt-lg-14 pt-xl-14 pb-sm-14 mr-0 ml-0 row">
 
@@ -44,216 +81,44 @@
 <!-- Load fonts because typekit fonts are not utilized by eCharts -->
 
 <!-- End load fonts -->
-<div id="viz-parent" class="row viz-parent mr-0 ml-0">
+<div id="viz-section">
+    <div class="scroll-button" data-target="#mapping-text">
+        <p>Back to introduction</p>
+        <i class="fa fa-chevron-up"></i>
+    </div>
+    <div id="viz-parent" class="row viz-parent mr-0 ml-0">
 
-    <div id="viz-space" data-echart-responsive="true" class="mr-0 ml-0"></div>
+        <div id="viz-space" data-echart-responsive="true" class="mr-0 ml-0"></div>
 
-    <!-- <div id="dialog" class="dialog" style="display:none;position:absolute;z-index:3500;">
-        <div class="dialog-body">
-        <h3>Test dialog</h3>
-        <p>Testing dialog</p>
-        </div>
-    </div> -->
-
-    <div id="text-panel">
-        <div class="content">
-            
-            <div class="toggle">
-                <div class="close-group group">
-                    <i class="fa fa-chevron-right"></i>
-                    <p>close</p>
-                </div>
-                <div class="open-group group">
-                    <i class="fa fa-chevron-left"></i>
-                    <p>open</p>
-                </div>
+        <!-- <div id="dialog" class="dialog" style="display:none;position:absolute;z-index:3500;">
+            <div class="dialog-body">
+            <h3>Test dialog</h3>
+            <p>Testing dialog</p>
             </div>
+        </div> -->
 
-            <div class="accordion" id="accordionExample">
+        <div id="text-panel">
+            <div class="content">
 
-                <div class="card">
-                    <div class="card-header" id="heading-gender">
-
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse-gender"
-                            aria-expanded="true" aria-controls="collapse-gender">
-                            <span class="theme-orb"></span><span class="text">Gender</span>
-                            <svg class="expand-icon icon" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <line y1="17.5" x2="36" y2="17.5" stroke="#84868B" />
-                                <line x1="17.5" y1="36" x2="17.5" y2="2.18557e-08" stroke="#84868B" />
-                            </svg>
-
-                            <svg class="collapse-icon icon" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <line y1="17.5" x2="36" y2="17.5" stroke="#84868B" />
-                            </svg>
-                        </button>
-
+                <div class="toggle">
+                    <div class="close-group group">
+                        <i class="fa fa-chevron-right"></i>
+                        <p>close</p>
                     </div>
-
-                    <div id="collapse-gender" data-id="gender" class="collapse" aria-labelledby="heading-gender" data-parent="#accordionExample">
-                        <div class="card-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
-                        officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
-                        moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim
-                        keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
-                        butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably
-                        haven't heard of them accusamus labore sustainable VHS.
-                        </div>
+                    <div class="open-group group">
+                        <i class="fa fa-chevron-left"></i>
+                        <p>open</p>
                     </div>
                 </div>
 
-                <div class="card">
-                    <div class="card-header" id="heading-democracy">
+                <div class="accordion" id="accordionExample">
 
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse-democracy"
-                            aria-expanded="false" aria-controls="collapse-democracy">
-                            <span class="theme-orb"></span><span class="text">Democracy</span>
-                            <svg class="expand-icon icon" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <line y1="17.5" x2="36" y2="17.5" stroke="#84868B" />
-                                <line x1="17.5" y1="36" x2="17.5" y2="2.18557e-08" stroke="#84868B" />
-                            </svg>
+                    <div class="card">
+                        <div class="card-header" id="heading-gender">
 
-                            <svg class="collapse-icon icon" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <line y1="17.5" x2="36" y2="17.5" stroke="#84868B" />
-                            </svg>
-                        </button>
-
-                    </div>
-                    <div id="collapse-democracy" data-id="democracy" class="collapse" aria-labelledby="heading-democracy" data-parent="#accordionExample">
-                        <div class="card-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
-                        officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
-                        moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim
-                        keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
-                        butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably
-                        haven't heard of them accusamus labore sustainable VHS.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-header" id="heading-race">
-
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse-race"
-                            aria-expanded="false" aria-controls="collapse-race">
-                            <span class="theme-orb"></span><span class="text">Race</span>
-                            <svg class="expand-icon icon" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <line y1="17.5" x2="36" y2="17.5" stroke="#84868B" />
-                                <line x1="17.5" y1="36" x2="17.5" y2="2.18557e-08" stroke="#84868B" />
-                            </svg>
-
-                            <svg class="collapse-icon icon" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <line y1="17.5" x2="36" y2="17.5" stroke="#84868B" />
-                            </svg>
-                        </button>
-
-                    </div>
-                    <div id="collapse-race" data-id="race" class="collapse" aria-labelledby="heading-race" data-parent="#accordionExample">
-                        <div class="card-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
-                        officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
-                        moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim
-                        keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
-                        butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably
-                        haven't heard of them accusamus labore sustainable VHS.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-header" id="heading-work">
-
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse-work"
-                            aria-expanded="false" aria-controls="collapse-work">
-                            <span class="theme-orb"></span><span class="text">Work</span>
-                            <svg class="expand-icon icon" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <line y1="17.5" x2="36" y2="17.5" stroke="#84868B" />
-                                <line x1="17.5" y1="36" x2="17.5" y2="2.18557e-08" stroke="#84868B" />
-                            </svg>
-
-                            <svg class="collapse-icon icon" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <line y1="17.5" x2="36" y2="17.5" stroke="#84868B" />
-                            </svg>
-                        </button>
-
-                    </div>
-                    <div id="collapse-work" data-id="work" class="collapse" aria-labelledby="heading-work" data-parent="#accordionExample">
-                        <div class="card-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
-                        officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
-                        moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim
-                        keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
-                        butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably
-                        haven't heard of them accusamus labore sustainable VHS.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-header" id="heading-economic-effects">
-
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse-economic-effects"
-                            aria-expanded="false" aria-controls="collapse-economic-effects">
-                            <span class="theme-orb"></span><span class="text">Economic Effects</span>
-                            <svg class="expand-icon icon" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <line y1="17.5" x2="36" y2="17.5" stroke="#84868B" />
-                                <line x1="17.5" y1="36" x2="17.5" y2="2.18557e-08" stroke="#84868B" />
-                            </svg>
-
-                            <svg class="collapse-icon icon" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <line y1="17.5" x2="36" y2="17.5" stroke="#84868B" />
-                            </svg>
-                        </button>
-
-                    </div>
-                    <div id="collapse-economic-effects" data-id="economic-effects" class="collapse" aria-labelledby="heading-economic-effects" data-parent="#accordionExample">
-                        <div class="card-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
-                        officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
-                        moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim
-                        keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
-                        butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably
-                        haven't heard of them accusamus labore sustainable VHS.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-header" id="heading-automation">
-
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse-automation"
-                            aria-expanded="false" aria-controls="collapse-automation">
-                            <span class="theme-orb"></span><span class="text">Automation</span>
-                            <svg class="expand-icon icon" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <line y1="17.5" x2="36" y2="17.5" stroke="#84868B" />
-                                <line x1="17.5" y1="36" x2="17.5" y2="2.18557e-08" stroke="#84868B" />
-                            </svg>
-
-                            <svg class="collapse-icon icon" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <line y1="17.5" x2="36" y2="17.5" stroke="#84868B" />
-                            </svg>
-                        </button>
-
-                    </div>
-                    <div id="collapse-automation" data-id="automation" class="collapse" aria-labelledby="heading-automation" data-parent="#accordionExample">
-                        <div class="card-body">
-                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
-                        officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
-                        moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim
-                        keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
-                        butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably
-                        haven't heard of them accusamus labore sustainable VHS.
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <div class="card-header" id="heading-health">
-                        
-                        
-                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse-health"
-                        aria-expanded="false" aria-controls="collapse-health">
-                        
-                                <span class="theme-orb"></span><span class="text">Health</span>
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse-gender"
+                                aria-expanded="true" aria-controls="collapse-gender">
+                                <span class="theme-orb"></span><span class="text">Gender</span>
                                 <svg class="expand-icon icon" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <line y1="17.5" x2="36" y2="17.5" stroke="#84868B" />
                                     <line x1="17.5" y1="36" x2="17.5" y2="2.18557e-08" stroke="#84868B" />
@@ -262,83 +127,246 @@
                                 <svg class="collapse-icon icon" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <line y1="17.5" x2="36" y2="17.5" stroke="#84868B" />
                                 </svg>
-
                             </button>
 
-                    </div>
-                    <div id="collapse-health" data-id="health" class="collapse" aria-labelledby="heading-health" data-parent="#accordionExample">
-                        <div class="card-body">
+                        </div>
 
-                            <p>SUB-THEMES</p>
-
-                            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                                <li class="nav-item">
-                                    <a class="nav-link active" id="pills-mental-health-tab" data-toggle="pill" data-id="mental-health" href="#pills-mental-health" role="tab"
-                                        aria-controls="pills-mental-health" aria-selected="true">Mental Health</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="pills-physical-health-tab" data-toggle="pill" data-id="physical-health" href="#pills-physical-health" role="tab"
-                                        aria-controls="pills-physical-health" aria-selected="false">Physical Health</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" id="pills-access-to-health-services-tab" data-toggle="pill" data-id="access-to-health-services" href="#pills-access-to-health-services" role="tab"
-                                        aria-controls="pills-access-to-health-services" aria-selected="false">Access to Health Services</a>
-                                </li>
-                            </ul>
-                            <div class="tab-content" id="pills-tabContent">
-                                <div class="tab-pane fade show active" id="pills-mental-health" role="tabpanel" aria-labelledby="pills-mental-health-tab">                                    
-                                    {{ with .Site.Data.vizcontent.health }}
-                                        {{ .mentalhealth | markdownify }}
-                                    {{ end }}    
-                                </div>
-                                <div class="tab-pane fade" id="pills-physical-health" role="tabpanel" aria-labelledby="pills-physical-health-tab">
-                                    {{ with .Site.Data.vizcontent.health }}
-                                        {{ .physicalhealth | markdownify }}
-                                    {{ end }} 
-                                </div>
-                                <div class="tab-pane fade" id="pills-access-to-health-services" role="tabpanel" aria-labelledby="pills-access-to-health-services-tab">
-                                    {{ with .Site.Data.vizcontent.health }}
-                                        {{ .accesshealth | markdownify }}
-                                    {{ end }} 
-                                </div>
+                        <div id="collapse-gender" data-id="gender" class="collapse" aria-labelledby="heading-gender" data-parent="#accordionExample">
+                            <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
+                            officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
+                            moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim
+                            keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+                            butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably
+                            haven't heard of them accusamus labore sustainable VHS.
                             </div>
+                        </div>
+                    </div>
 
+                    <div class="card">
+                        <div class="card-header" id="heading-democracy">
+
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse-democracy"
+                                aria-expanded="false" aria-controls="collapse-democracy">
+                                <span class="theme-orb"></span><span class="text">Democracy</span>
+                                <svg class="expand-icon icon" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <line y1="17.5" x2="36" y2="17.5" stroke="#84868B" />
+                                    <line x1="17.5" y1="36" x2="17.5" y2="2.18557e-08" stroke="#84868B" />
+                                </svg>
+
+                                <svg class="collapse-icon icon" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <line y1="17.5" x2="36" y2="17.5" stroke="#84868B" />
+                                </svg>
+                            </button>
+
+                        </div>
+                        <div id="collapse-democracy" data-id="democracy" class="collapse" aria-labelledby="heading-democracy" data-parent="#accordionExample">
+                            <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
+                            officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
+                            moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim
+                            keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+                            butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably
+                            haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="heading-race">
+
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse-race"
+                                aria-expanded="false" aria-controls="collapse-race">
+                                <span class="theme-orb"></span><span class="text">Race</span>
+                                <svg class="expand-icon icon" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <line y1="17.5" x2="36" y2="17.5" stroke="#84868B" />
+                                    <line x1="17.5" y1="36" x2="17.5" y2="2.18557e-08" stroke="#84868B" />
+                                </svg>
+
+                                <svg class="collapse-icon icon" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <line y1="17.5" x2="36" y2="17.5" stroke="#84868B" />
+                                </svg>
+                            </button>
+
+                        </div>
+                        <div id="collapse-race" data-id="race" class="collapse" aria-labelledby="heading-race" data-parent="#accordionExample">
+                            <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
+                            officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
+                            moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim
+                            keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+                            butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably
+                            haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="heading-work">
+
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse-work"
+                                aria-expanded="false" aria-controls="collapse-work">
+                                <span class="theme-orb"></span><span class="text">Work</span>
+                                <svg class="expand-icon icon" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <line y1="17.5" x2="36" y2="17.5" stroke="#84868B" />
+                                    <line x1="17.5" y1="36" x2="17.5" y2="2.18557e-08" stroke="#84868B" />
+                                </svg>
+
+                                <svg class="collapse-icon icon" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <line y1="17.5" x2="36" y2="17.5" stroke="#84868B" />
+                                </svg>
+                            </button>
+
+                        </div>
+                        <div id="collapse-work" data-id="work" class="collapse" aria-labelledby="heading-work" data-parent="#accordionExample">
+                            <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
+                            officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
+                            moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim
+                            keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+                            butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably
+                            haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="heading-economic-effects">
+
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse-economic-effects"
+                                aria-expanded="false" aria-controls="collapse-economic-effects">
+                                <span class="theme-orb"></span><span class="text">Economic Effects</span>
+                                <svg class="expand-icon icon" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <line y1="17.5" x2="36" y2="17.5" stroke="#84868B" />
+                                    <line x1="17.5" y1="36" x2="17.5" y2="2.18557e-08" stroke="#84868B" />
+                                </svg>
+
+                                <svg class="collapse-icon icon" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <line y1="17.5" x2="36" y2="17.5" stroke="#84868B" />
+                                </svg>
+                            </button>
+
+                        </div>
+                        <div id="collapse-economic-effects" data-id="economic-effects" class="collapse" aria-labelledby="heading-economic-effects" data-parent="#accordionExample">
+                            <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
+                            officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
+                            moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim
+                            keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+                            butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably
+                            haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="heading-automation">
+
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse-automation"
+                                aria-expanded="false" aria-controls="collapse-automation">
+                                <span class="theme-orb"></span><span class="text">Automation</span>
+                                <svg class="expand-icon icon" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <line y1="17.5" x2="36" y2="17.5" stroke="#84868B" />
+                                    <line x1="17.5" y1="36" x2="17.5" y2="2.18557e-08" stroke="#84868B" />
+                                </svg>
+
+                                <svg class="collapse-icon icon" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <line y1="17.5" x2="36" y2="17.5" stroke="#84868B" />
+                                </svg>
+                            </button>
+
+                        </div>
+                        <div id="collapse-automation" data-id="automation" class="collapse" aria-labelledby="heading-automation" data-parent="#accordionExample">
+                            <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon
+                            officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf
+                            moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim
+                            keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+                            butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably
+                            haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header" id="heading-health">
+
+
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse-health"
+                            aria-expanded="false" aria-controls="collapse-health">
+
+                                    <span class="theme-orb"></span><span class="text">Health</span>
+                                    <svg class="expand-icon icon" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <line y1="17.5" x2="36" y2="17.5" stroke="#84868B" />
+                                        <line x1="17.5" y1="36" x2="17.5" y2="2.18557e-08" stroke="#84868B" />
+                                    </svg>
+
+                                    <svg class="collapse-icon icon" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <line y1="17.5" x2="36" y2="17.5" stroke="#84868B" />
+                                    </svg>
+
+                                </button>
+
+                        </div>
+                        <div id="collapse-health" data-id="health" class="collapse" aria-labelledby="heading-health" data-parent="#accordionExample">
+                            <div class="card-body">
+
+                                <p>SUB-THEMES</p>
+
+                                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" id="pills-mental-health-tab" data-toggle="pill" data-id="mental-health" href="#pills-mental-health" role="tab"
+                                            aria-controls="pills-mental-health" aria-selected="true">Mental Health</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="pills-physical-health-tab" data-toggle="pill" data-id="physical-health" href="#pills-physical-health" role="tab"
+                                            aria-controls="pills-physical-health" aria-selected="false">Physical Health</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="pills-access-to-health-services-tab" data-toggle="pill" data-id="access-to-health-services" href="#pills-access-to-health-services" role="tab"
+                                            aria-controls="pills-access-to-health-services" aria-selected="false">Access to Health Services</a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content" id="pills-tabContent">
+                                    <div class="tab-pane fade show active" id="pills-mental-health" role="tabpanel" aria-labelledby="pills-mental-health-tab">
+                                        {{ with .Site.Data.vizcontent.health }}
+                                            {{ .mentalhealth | markdownify }}
+                                        {{ end }}
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-physical-health" role="tabpanel" aria-labelledby="pills-physical-health-tab">
+                                        {{ with .Site.Data.vizcontent.health }}
+                                            {{ .physicalhealth | markdownify }}
+                                        {{ end }}
+                                    </div>
+                                    <div class="tab-pane fade" id="pills-access-to-health-services" role="tabpanel" aria-labelledby="pills-access-to-health-services-tab">
+                                        {{ with .Site.Data.vizcontent.health }}
+                                            {{ .accesshealth | markdownify }}
+                                        {{ end }}
+                                    </div>
+                                </div>
+
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <div class="scroll-button" data-target="#sponsors">
+        <p>See our sponsors</p>
+        <i class="fa fa-chevron-down"></i>
+    </div>
 </div>
 <!-- SPONSORS ---------------------------------------- -->
 
-<div id="mapping-text" class="pt-sm-5 pt-md-7 pt-lg-9 pt-xl-12 pb-sm-7 pb-md-7 pb-xl-8">
-    <div class="row">
-        <div class="col-md-3 mt-md-11 offset-md-2 mt-0 d-flex flex-column justify-content-start align-items-sm-center align-items-md-end" style="background-image: url('/images/backgrounds/UBI-viz-close-crop.jpg'); background-size: contain; background-repeat: no-repeat; background-position: right top;">
-
-        </div>
-        <div class="col-md-5 ml-md-3">
-            <h2 class="mb-sm-4 mb-md-4 mb-xl-5">Mapping UBI Research</h2>
-            <p class="medgraytext mt-md-1">Despite the growing UBI research effort over the past 30 years, there does not exist an online tool that conveniently brings together the existing research in one place. The Basic Income Lab is working to develop the first such visualization, thus promoting more methodical progress in the academic field of UBI, and building a rigorous platform for the benefit of future basic-income experimenters, researchers, students, and policy-makers.
-                </p>
-
-            <p class="medgraytext">The online platform will provide pertinent summaries of articles, research papers, books produced on UBI to date, highlighting important findings from each and ensuring that core areas such as health, crime, stigma, childhood poverty and gender equity are covered.
-                </p>
-            <p class="medgraytext">To construct this platform, our team of four Stanford graduate researchers started reviewing the UBI scholarship in January 2018 through an interdisciplinary lens. Specifically, an economics student surveyed past and current UBI experiments; two political theorists are surveying the conceptual and normative literature on UBI; and a computer scientist is helping us design the online platform and city toolkit in collaboration with a data visualization team.
-                </p>
-            <p class="medgraytext">In 2019, we will unveil the finished platform at a large-scale event. Stay tuned for more updates on our progress!
-
-                </p>
-
-        </div>
-    </div>
-</div>
-
-
 <div id="sponsors">
+        <div class="scroll-button" data-target="#viz-section">
+            <p>Back to visualization</p>
+            <i class="fa fa-chevron-up"></i>
+        </div>
         <div class="row">
             <div class="col-md-6 col-lg-6 mx-auto d-flex flex-column align-items-center text-center my-sm-5 my-md-8 my-lg-9 my-xl-11 user-entry">
-                
+
                 {{ .Content }}
             </div>
         </div>

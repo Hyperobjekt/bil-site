@@ -2,17 +2,21 @@
 // _ export
 // 
 
+// _______ CONSTS _______
 const ZOOM_MAX = 10;
 const ZOOM_MIN = .7;
 const ZOOM_INITIAL = 1;
 const ZOOM_LABEL_CUTOFF = 1.75;
+const SHOW_SUBTOPIC_LABEL_DEFAULT = ZOOM_INITIAL > ZOOM_LABEL_CUTOFF;
 // how much to change zoom on zoom in/out click (as a proportion, so should be > 1)
 const ZOOM_FACTOR = 2;
 
-const SHOW_SUBTOPIC_LABEL_DEFAULT = ZOOM_INITIAL > ZOOM_LABEL_CUTOFF;
+// keep in sync with bil-custom.scss $NAVBAR_HEIGHT (in rem)
+const NAVBAR_HEIGHT = 64;
 
 // viz.zoomLevel = 1;
 
+// _______ SETUP CHARTS _______
 console.log('viz.js loaded');
 // console.log(viz.theme);
 // console.log(viz.parents);
@@ -392,92 +396,6 @@ setup.options = {
     }
   ]
 };
-/**
- * Stops scrolling over the eCharts div
- * @param  Object e Event object
- * @return null
- */
-function stopWheel(e){
-  if(!e){ /* IE7, IE8, Chrome, Safari */
-    e = window.event;
-  }
-  if(e.preventDefault) { /* Chrome, Safari, Firefox */
-    e.preventDefault();
-  }
-  e.returnValue = false; /* IE7, IE8 */
-}
-jQuery('#viz-space').hover(function() {
-  jQuery(document).bind('mousewheel DOMMouseScroll', function(){
-    stopWheel();
-  });
-}, function() {
-  jQuery(document).unbind('mousewheel DOMMouseScroll');
-});
-
-// open and close text-panel
-jQuery('#text-panel .toggle').click(function(e){
-  jQuery('#viz-parent').toggleClass('text-panel-open');
-  
-  // only needs to happen on close, but when toggle is clicked to open nothing should be active anyways
-  collapsePanelSections();
-
-  setTimeout(() => {
-    viz.chart.resize();
-  }, 0);
-});
-
-// remove node highlight when closing text-panel section
-jQuery('#text-panel .collapse').on('hide.bs.collapse', function(e) {
-  const id = e.currentTarget.dataset.id;
-
-  const activeParent = viz.getParentItemObj(viz.active.clicked);
-  if (id === activeParent.id) {
-    // only allow this event to cancel out the active clicked item if *this section* is the one
-    // marked active (could've already been overwritten if this collapse was triggered by a click
-    // to another node/section header). ensures we make the proper check below in shown.bs.collapse  
-    viz.active.clicked = null;
-  }
-  
-  viz.chart.dispatchAction({
-    type: 'downplay',
-    seriesName: 'UBI',
-  });
-});
-
-// highlight node when opening corresponding text-panel section
-// use 'shown' rather than 'show' so it doesn't fire before hide.bs.collapse's
-// 'downplay', which would immediately undo this highlight
-jQuery('#text-panel .collapse').on('shown.bs.collapse', function(e) {
-  const id = e.currentTarget.dataset.id;
-
-  const activeParent = viz.getParentItemObj(viz.active.clicked);
-  if (id === activeParent.id) {
-    // this event *may* have been triggered by the clicking of a subtheme viz node
-    // (which then triggered the showing of this parent theme section)
-    // in that case we don't want to overwrite our newly active subtheme id
-    console.log('return?')
-    return;
-  }
-  
-  viz.active.clicked = id;
-  highlightNodeGroup(id);
-});
-
-// highlight subtheme node when its tab is clicked
-jQuery('#text-panel .nav-link').on('shown.bs.tab', function(e) {
-  // will also fire when subtheme node is clicked directly, leading to an "echoed" call of
-  // highlightNodeGroup/repeat setting of active.clicked, but with same value so with no impact
-  const id = e.currentTarget.dataset.id;
-  
-  viz.active.clicked = id;
-  highlightNodeGroup(id);
-});
-
-// wait for user to finish resizing before adjusting
-window.onresize = debounce(function(){
-  viz.chart.resize();
-  highlightNodeGroup(viz.active.clicked);
-}, 100);
 
 // Init eCharts
 viz.chart = echarts.init(document.getElementById('viz-space'));
@@ -485,7 +403,8 @@ viz.chart.showLoading();
 viz.chart.setOption(setup.options);
 viz.chart.hideLoading();
 
-// Item click listeners
+
+// _______ ECHARTS EVENT LISTENERS _______
 viz.chart.on('mouseover', function(e) {
   // TODO
   if (e.dataType === 'node') {
@@ -499,7 +418,6 @@ viz.chart.on('mouseover', function(e) {
     // viz.chart.setOption(setup.options);
   }
 })
-    
 
 viz.chart.on('click', function(e) {
 
@@ -556,7 +474,7 @@ viz.chart.on('click', function(e) {
       $container.animate({
         scrollTop: $scrollTo.offset().top - $container.offset().top + $container.scrollTop()
       });
-    }, 500); // if we don't wait, the scroll lands at the wrong place due to dynamically collapsing/expanding sections
+    }, 300); // if we don't wait, the scroll lands at the wrong place due to dynamically collapsing/expanding sections
   }
 });
 
@@ -598,9 +516,113 @@ viz.chart.on('graphRoam', function(e) {
   }
 });
 
-// _HELPERS__
+// _______ OTHER VIZ ELEMENTS LISTENERS _______
+/**
+ * Stops scrolling over the eCharts div
+ * @param  Object e Event object
+ * @return null
+ */
+function stopWheel(e) {
+  if (!e) { /* IE7, IE8, Chrome, Safari */
+    e = window.event;
+  }
+  if (e.preventDefault) { /* Chrome, Safari, Firefox */
+    e.preventDefault();
+  }
+  e.returnValue = false; /* IE7, IE8 */
+}
+jQuery('#viz-space').hover(function () {
+  jQuery(document).bind('mousewheel DOMMouseScroll', function () {
+    stopWheel();
+  });
+}, function () {
+  jQuery(document).unbind('mousewheel DOMMouseScroll');
+});
 
+// open and close text-panel
+jQuery('#text-panel .toggle').click(function (e) {
+  jQuery('#viz-parent').toggleClass('text-panel-open');
+
+  // only needs to happen on close, but when toggle is clicked to open nothing should be active anyways
+  collapsePanelSections();
+
+  setTimeout(() => {
+    viz.chart.resize();
+  }, 0);
+});
+
+// remove node highlight when closing text-panel section
+jQuery('#text-panel .collapse').on('hide.bs.collapse', function (e) {
+  const id = e.currentTarget.dataset.id;
+
+  const activeParent = viz.getParentItemObj(viz.active.clicked);
+  if (id === activeParent.id) {
+    // only allow this event to cancel out the active clicked item if *this section* is the one
+    // marked active (could've already been overwritten if this collapse was triggered by a click
+    // to another node/section header). ensures we make the proper check below in shown.bs.collapse  
+    viz.active.clicked = null;
+  }
+
+  viz.chart.dispatchAction({
+    type: 'downplay',
+    seriesName: 'UBI',
+  });
+});
+
+// highlight node when opening corresponding text-panel section
+// use 'shown' rather than 'show' so it doesn't fire before hide.bs.collapse's
+// 'downplay', which would immediately undo this highlight
+jQuery('#text-panel .collapse').on('shown.bs.collapse', function (e) {
+  const id = e.currentTarget.dataset.id;
+
+  const activeParent = viz.getParentItemObj(viz.active.clicked);
+  if (id === activeParent.id) {
+    // this event *may* have been triggered by the clicking of a subtheme viz node
+    // (which then triggered the showing of this parent theme section)
+    // in that case we don't want to overwrite our newly active subtheme id
+    console.log('return?')
+    return;
+  }
+
+  viz.active.clicked = id;
+  highlightNodeGroup(id);
+});
+
+// highlight subtheme node when its tab is clicked
+jQuery('#text-panel .nav-link').on('shown.bs.tab', function (e) {
+  // will also fire when subtheme node is clicked directly, leading to an "echoed" call of
+  // highlightNodeGroup/repeat setting of active.clicked, but with same value so with no impact
+  const id = e.currentTarget.dataset.id;
+
+  viz.active.clicked = id;
+  highlightNodeGroup(id);
+});
+
+// wait for user to finish resizing before adjusting
+window.onresize = debounce(function () {
+  viz.chart.resize();
+
+  if (viz.active.clicked) {
+    highlightNodeGroup(viz.active.clicked);
+  }
+}, 100);
+
+jQuery('.scroll-button').click(function(e) {
+  const $container = jQuery('html');
+  const $scrollTo = jQuery(this.dataset.target);
+  console.log('TARGET: ', this.dataset.target);
+
+  $container.animate({
+    scrollTop: $scrollTo.offset().top - NAVBAR_HEIGHT
+  }, 700);
+})
+
+// _______ HELPERS _______
 function highlightNodeGroup(elId) {
+  if (!elId) {
+    return;
+  }
+
   viz.chart.dispatchAction({
     type: 'downplay',
     seriesName: 'UBI',
