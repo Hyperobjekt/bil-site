@@ -20197,7 +20197,6 @@ nav.navbar.sticky-top {
 
 .viz-parent {
   position: relative;
-  box-shadow: inset 0px -1px 7px 0px rgba(0, 0, 0, 0.1);
   background-color: #f7f7f759;
   height: calc(100vh - 6.4rem - (30px * 2));
 }
@@ -20206,6 +20205,7 @@ nav.navbar.sticky-top {
   z-index: 2998;
   width: 100%;
   height: 100%;
+  background-color: #FBFAF7;
 }
 
 .viz-parent.text-panel-open #viz-space {
@@ -20221,9 +20221,23 @@ nav.navbar.sticky-top {
   transform: translateX(100%);
 }
 
+.viz-parent #text-panel .card {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 1px solid #EEEEEE;
+  margin-left: 4.8rem;
+  margin-right: 4.8rem;
+}
+
+.viz-parent #text-panel .card:last-of-type {
+  border-bottom: none;
+}
+
 .viz-parent #text-panel .card-header {
   height: 65px;
   background: white;
+  padding: 0.75rem 0;
 }
 
 .viz-parent #text-panel .card-header .text {
@@ -20234,6 +20248,7 @@ nav.navbar.sticky-top {
   text-align: start;
   position: relative;
   width: 100%;
+  padding: 0.375rem 0.75rem 0.375rem 0;
 }
 
 .viz-parent #text-panel .card-header .btn .icon {
@@ -20317,6 +20332,14 @@ nav.navbar.sticky-top {
   background-color: #E8E7E7;
 }
 
+.viz-parent #text-panel .card-body .nav-link {
+  padding: 0.5rem 1.6rem 0.5rem 0;
+}
+
+.viz-parent #text-panel .card-body p {
+  color: #6d6d6d;
+}
+
 .viz-parent #text-panel .content {
   height: calc(100vh - 6.4rem - (30px * 2));
   overflow: scroll;
@@ -20336,7 +20359,6 @@ nav.navbar.sticky-top {
   width: 61px;
   height: 69px;
   background: white;
-  border: solid 0.5px rgba(55, 55, 55, 0.125);
   padding: 10px;
   transform: translateX(-100%);
   border-radius: 2px;
