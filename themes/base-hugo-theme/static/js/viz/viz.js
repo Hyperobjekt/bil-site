@@ -89,10 +89,10 @@ const topicLabel = {
     position: 'right',
     show: true,
     textStyle: {
-      color: '#000',
+      color: '#6C6349',
       // fontWeight: '600',
       fontFamily: 'SofiaPro-Regular',
-      fontSize: 18,
+      fontSize: 16,
       lineHeight: 43.2
     },
   },
@@ -110,7 +110,7 @@ let subtopicLabel = {
     show: SHOW_SUBTOPIC_LABEL_DEFAULT,
     position: 'right',
     textStyle: {
-      color: '#000',
+      color: '#6C6349',
       fontWeight: '100',
       fontFamily: 'SofiaPro-Regular',
       fontSize: 16,
