@@ -4,7 +4,7 @@
   parent: gender
   title: The Household
   xAxis: -500
-  yAxis: -300
+  yAxis: -230
   summary: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
@@ -30,8 +30,8 @@
   display: 1
   parent: gender
   title: Care Work
-  xAxis: -500
-  yAxis: -380
+  xAxis: -530
+  yAxis: -370
   summary: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
@@ -113,8 +113,8 @@
   id: civic-participation
   display: 1
   title: Civic Participation
-  xAxis: -80
-  yAxis: -640
+  xAxis: -90
+  yAxis: -620
   summary: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
@@ -254,7 +254,7 @@
   display: 1
   title: Inequality and wealth concentration
   xAxis: -480
-  yAxis: 410
+  yAxis: 400
   summary: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
@@ -280,8 +280,8 @@
   id: post-work-or-freedom-from-work
   display: 1
   title: Post work or freedom from work
-  xAxis: -580
-  yAxis: 300
+  xAxis: -560
+  yAxis: 250
   summary: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
@@ -310,7 +310,7 @@
   display: 1
   title: Inflation
   xAxis: 360
-  yAxis: -420
+  yAxis: -410
   summary: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
@@ -640,7 +640,7 @@
   display: 1
   title: Racialized Welfare Stereotypes
   xAxis: 710
-  yAxis: -190
+  yAxis: -210
   summary: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
