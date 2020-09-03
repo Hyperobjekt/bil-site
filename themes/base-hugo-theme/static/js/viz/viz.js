@@ -555,6 +555,12 @@ jQuery('#text-panel .toggle').click(function (e) {
 
 // remove node highlight when closing text-panel section
 jQuery('#text-panel .collapse').on('hide.bs.collapse', function (e) {
+  // scroll up the text-panel before section closes to avoid the collapse causing page scroll on Chrome
+  const $container = jQuery('#text-panel .content');
+  $container.animate({
+    scrollTop: 0
+  }, 100);
+
   const id = e.currentTarget.dataset.id;
 
   const activeParent = viz.getParentItemObj(viz.active.clicked);
