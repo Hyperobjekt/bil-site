@@ -20197,7 +20197,7 @@ nav.navbar.sticky-top {
 
 .viz-parent {
   position: relative;
-  background-color: #f7f7f759;
+  background-color: #FBFAF7;
   height: calc(100vh - 6.4rem - (30px * 2));
 }
 
@@ -20214,6 +20214,7 @@ nav.navbar.sticky-top {
 
 .viz-parent #text-panel {
   z-index: 2999;
+  background-color: #fff;
   position: absolute;
   right: 0;
   width: 600px;
@@ -20330,6 +20331,10 @@ nav.navbar.sticky-top {
   border-radius: 50%;
   display: inline-block;
   background-color: #E8E7E7;
+}
+
+.viz-parent #text-panel .card-body {
+  color: #6d6d6d;
 }
 
 .viz-parent #text-panel .card-body .nav-link {

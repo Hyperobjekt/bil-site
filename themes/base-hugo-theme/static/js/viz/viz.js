@@ -384,9 +384,11 @@ setup.options = {
         }
       },
       lineStyle: {
-        color: 'source',
+        //color: 'source',
+        color: '#DED8C7',
         curveness: 0.2,
-        width: 1.5
+        //width: 1.5
+        width: 2,
       },
       // emphasis: {
       //   lineStyle: {
