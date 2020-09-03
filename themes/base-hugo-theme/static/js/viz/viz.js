@@ -365,7 +365,7 @@ setup.options = {
       zlevel: 1000,
       layout: 'none',
       nodeScaleRatio: 0.35,
-      roam: true,
+      roam: 'pan',
       draggable: true,
       data: setup.nodes,
       links: setup.links,
