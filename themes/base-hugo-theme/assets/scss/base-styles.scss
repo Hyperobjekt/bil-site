@@ -122,6 +122,13 @@ html {
     color: #636363;
   } 
 
+  // Other utilities 
+  .col-count-2 {
+    @include media-breakpoint-up(md) {
+      column-count: 2;
+    }
+  }
+
   // Basic fonts and text styles
   h1 {
     margin-bottom: 0;

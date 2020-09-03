@@ -40,6 +40,15 @@ nav.navbar.sticky-top {
   z-index: 3000;
 }
 
+#visualizing-intro {
+  #visualizing-intro__columns {
+    column-gap: 48px;
+    @include media-breakpoint-up(xl) {
+      column-gap: 56px;
+    }
+  }
+}
+
 .scroll-button {
   height: $SCROLL_BUTTON_HEIGHT;
   display: inline-block;
