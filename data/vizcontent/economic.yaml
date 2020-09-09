@@ -132,3 +132,203 @@ themes:
 
 
       White, S. (2011). Basic income versus basic capital: Can we resolve the disagreement? Policy & Politics. https://www.researchgate.net/publication/233711322_Basic_income_versus_basic_capital_Can_we_resolve_the_disagreement
+  - theme: Migration
+    id: migration
+    body: >-
+      This subtheme discusses UBI’s potential effects on migration.
+
+
+      **Summary**
+
+
+
+      We use the term ‘migration’ to describe movement of persons within their own country or across international borders. It can be temporary or permanent moves, and it can happen for a variety of reasons. When it comes to UBI, researchers question how the policy might “push” or “pull” individuals into or out of a region, especially since migration is generally on the rise. In 2019, more than 270 million individuals were international migrants, accounting for 3.5 percent of the world’s population, up from 2.3 percent in 1970 (International Organization for Migration, 2018). Internal migration within countries is also increasing, largely driven by industrialization and urbanization (Skeldon, 2018).
+
+
+      \
+
+      Some researchers have raised concerns that UBI could have a “pull effect,” pulling in migrants from other areas. The theory is that people will be attracted to regions or countries where benefits are more generous, and so they would be pulled into UBI zones. But empirical evidence from high-income countries on internal migration between regions with more or less generous benefits systems indicates that this fear is likely misplaced. Changes or differences in benefit structures generally result in only limited (Kaestner et al., 2003; Levine & Zimmerman, 1999; Schwartz & Sommers, 2014) or small effects on migration (McKinnish, 2005). For example, there was no evidence of migration effects following expansions to Medicaid in Arizona, Maine, Massachusetts and New York in the United States (Schwartz & Sommers, 2014). Larger effects have been observed in cities very near the border of states where benefits are expanded—as was the case with Health Care Reform in Massachusetts—however there are no significant effects beyond 15 kms from the border (Alm & Enami, 2017). 
+
+
+      A UBI could also have a push effect, either by relaxing liquidity constraints—meaning individuals have the cash needed to make a potentially costly move—or by giving people the flexibility to move to areas with higher rates of unemployment and limited labour demand. In the first scenario, it is likely this push effect would be seen more among low-income populations and into areas with high upfront migration costs (e.g., major metropolitan areas) (Cai, 2020). In a study of Alaska’s Permanent Fund Dividend, for example, large cash transfers induced migration from rural to urban areas by providing funds to support the migration project (Kurland, 2017). While the size of the effect was small in the short-term, the long-term effects of such programs could be larger, and the full range of social and economic consequences remain unclear. Once a number of people have moved out to a city, it becomes easier for new migrants to follow due to network effects (Kurland, 2017). This may have adverse effects on some services within rural areas. In the case of Alaska, for instance, out-migration of women and children from very small Northern Native villages led first to school closure and then the eventual disappearance of the village (Martin, 2009). 
+
+
+      A UBI, however, may also allow people to remain where they are despite poor economic prospects, or, in the second potential push effect, allow them to move to regions with lower rates of employment. A study of unconditional cash transfer programs in four African countries, for instance, showed that cash transfer helped farmers diversify their sources of income, making them less prone to environmental risks and mitigating their need to migrate out (Deshingkar et al., 2015). In Ethiopia and Malawi, farmers have used cash transfers to stay in their communities and endure worsening conditions (Deshingkar et al., 2015).
+
+
+
+      There is far less evidence on how UBI may impact international migration. An individual’s decision to migrate depends on many factors, such as job prospects, language, social networks, cultural compatibility, and historical and institutional links. Welfare spending does not have a large effect on where someone choses to live and is generally outweighed by other factors (Boso & Vancea, 2012). Having access to a UBI in one’s own country could decrease the need to migrate to another country. A study of Mexico’s conditional cash transfer program, Progresa, for example, found that cash transfers there reduced migration to the United States (Stecklov et al., 2005). Other studies, by contrast, report net push effects. One found that cash transfers actually increased migration from Mexico to the United States by providing funds to facilitate a move (Angelucci, 2015). A study in China found that an income-guarantee program had only a small effect on out-migration, because the amount was too small to fund out-migration. 
+
+
+
+      The benefits from migration to host countries are multifold. Migrants fill important niches in industries, contribute to labor market flexibility, generally contribute more to taxes than the state benefits they receive, and contribute to flows of knowledge and innovation (OECD, 2014). But, given growing nationalist sentiments globally, some researchers worry that more generous benefit systems—like a UBI—could stoke anti-immigration sentiments due to concerns about heavier use of the welfare state. A recent Pew research survey, for example, found that in Hungary, Greece, South Africa, Israel and Russia, an overwhelming majority view immigrants as a “burden on our country” (Pew Research Center, 2019). A UBI tied to citizenship could ultimately make it harder for migrants to become naturalized citizens. A UBI tied to residency could make it harder for migrants to be allowed in the host country in the first place.
+
+
+
+      Much is still unknown about the impact of a UBI policy on migration.  Evidence is highly variable across country contexts, suggesting that UBI may interact with other factors to produce different effects in different places. The size of both the pull and the push effects may also depend on the residency requirements that people must satisfy in order to receive UBI, the numbers and categories of immigrants granted entry to a country, and the generosity of the welfare or income guarantee. More research is needed on the demographic profile of individuals who are more or less likely to migrate in or out as a result of UBI, and on factors such as seasonality and distance on migration patterns.
+    related: |-
+      * UBI’s impact on labor supply (in Economic Effects of UBI)
+      * UBI’s impact on savings and investment (in Economic Effects of UBI)
+      * UBI’s impact on economic inequality (in Economic Effects of UBI)
+    citations: >-
+      Alm, J., & Enami, A. (2017). Do government subsidies to low-income
+      individuals affect interstate migration? Evidence from the Massachusetts
+      Health Care Reform. Regional Science and Urban Economics, 66(C), 119–131.
+
+
+
+      Angelucci, M. (2015). Migration and Financial Constraints: Evidence from Mexico. Review of Economics and Statistics, 97(1), 224–228. https://doi.org/10.1162/REST_a_00487
+
+
+
+      Boso, À., & Vancea, M. (2012). Basic Income for Immigrants? The Pull Effect of Social Benefits on Migration. Basic Income Studies, 7(1). https://doi.org/10.1515/1932-0183.1234
+
+
+
+      Cai, S. (2020). Migration under liquidity constraints: Evidence from randomized credit access in China. Journal of Development Economics, 142, 102247. https://doi.org/10.1016/j.jdeveco.2018.06.005
+
+
+
+      Deshingkar, D., Wood, R. G., & Béné, C. (2015). Adaptive Social Protection and Migration: The Case of Cash Transfers in Ethiopia, Kenya, Tanzania and Malawi. https://assets.publishing.service.gov.uk/media/57a0897ced915d3cfd000280/61459-Adaptive_Social_Protection_and_Migration_Report.pdf
+
+
+
+      Howell, A. (2017). Direct and Spillover Effects of Targeted Cash Transfers on Ethnic Rural-Urban Migration in China (SSRN Scholarly Paper ID 3056120). Social Science Research Network. https://papers.ssrn.com/abstract=3056120
+
+      International Organization for Migration. (2018). World Migration Report 2018. United Nations Publications.
+
+
+
+      Kaestner, R., Kaushal, N., & Van Ryzin, G. (2003). Migration consequences of welfare reform. Journal of Urban Economics, 53(3), 357–376.
+
+
+
+      Kurland, S. (2017). Effects of Transfer Income on Migration and Rural Unemployment: Evidence from the Alaska Permanent Fund Dividend. 113.
+
+
+
+      Levine, P. B., & Zimmerman, D. J. (1999). An empirical analysis of the welfare magnet debate using the NLSY. Journal of Population Economics, 12(3), 391–409. https://doi.org/10.1007/s001480050105
+
+
+
+      Martin, S. (2009). The effects of female out-migration on Alaska villages. Polar Geography, 32(1–2), 61–67. https://doi.org/10.1080/10889370903000455
+
+
+
+      McKinnish, T. (2005). Importing the Poor: Welfare Magnetism and Cross-Border Welfare Migration. The Journal of Human Resources, 15(1), 57–76. https://doi.org/10.3368/jhr.XL.1.57
+
+      OECD. (2014, May). Is Migration Good for the Economy? The Migration Debate.
+
+
+
+      Pew Research Center. (2019, March). Global Opinions of Immigrants. https://www.pewresearch.org/global/2019/03/14/around-the-world-more-say-immigrants-are-a-strength-than-a-burden/
+
+
+
+      Schwartz, A. L., & Sommers, B. D. (2014). Moving For Medicaid? Recent Eligibility Expansions Did Not Induce Migration From Other States. Health Affairs, 33(1), 88–94. https://doi.org/10.1377/hlthaff.2013.0910
+
+
+
+      Skeldon, R. (2018). International Migration, Internal Migration, Mobility and Urbanization: Towards more Integrated Approaches (No. 53; Migration Research Series). International Organization for Migration.
+
+
+
+      Stecklov, G., Winters, P., Stampini, M., & Davis, B. (2005). Do Conditional Cash Transfers Influence Migration? A Study Using Experimental Data From the Mexican PROGRESA Program. Demography, 42(4), 769–790. https://doi.org/10.1353/dem.2005.0037
+  - theme: Impact on Labor Supply
+    body: >-
+      This subtheme discusses UBI’s potential impact on labor supply and
+      individual’s use of time.
+
+
+      **Summary**
+
+
+
+      A common worry about universal basic income is that it could reduce people’s incentive to work, thus causing a number of domino effects in the economy. The disincentive effect, for instance, could reduce productivity and the number of goods produced and increase the number of individuals who only rely on assistance to survive. The disincentive effect could also lead to inflation as businesses would need to pay higher wages to retain workers, and the higher wages would push production costs up, translating into increased costs for consumers. The evidence from existing UBI related schemes, however, negates many of these concerns and, overall, indicates that UBI-related programs have marginal effects on labor market participation.
+
+
+
+      Much of the concern about work incentives comes from four negative income tax programs in the United States and the “Mincome” program in Canada in the 1970s. These experiments had mixed results, with some economists pointing to negligible effects on labor supply (Hum & Simpson, 1993) and others pointing to large negative effects, namely from the Seattle-Denver experiment (Anderson & Block, 1993). The polarized literature divides roughly along ideological lines and is perhaps partly a result of the explicit political goals of the 1970s experiments (Widerquist, 2005). Later reviews of the literature point out that early studies tended to emphasize different parts of the results, and that the actual effects were likely complex (Widerquist, 2018). 
+
+
+
+      What is clear from the North American experiments, however, is that a basic income guarantee could have different effects on different groups’ decisions to work. In cases where UBI led to a reduction in work, evidence often showed that individuals redirected the time they gained to other valued activities. For example, data from the Mincome program (Forget, 2011) found that female heads of household with young children dropped out of work at the highest rate to take longer maternity leaves. In both Gary, Illinois, (McDonald & Stephenson, 1979) and Manitoba, Canada, (Forget, 2018; Prescott et al., 1986) younger men reduced work hours to remain in school longer. 
+
+
+
+      Evidence from more recent experiments confirms findings of minimal labour market effects in both low-income and high-income economies. Evidence from Alaska’s Permanent Fund Dividend and from the recent UBI experiment in Finland, for example, shows no significant effect on labor supply, employment level or working hours (Guettabi, 2019; Kela & the Ministry of Social Affairs and Health, 2019). In the case of the Alaska PFD, one explanation is that any disincentive effects from cash transfers might be offset by increased spending, which leads to increased demand for workers (Jones & Marinescu, 2018). There are some disputes, however, as to the extent that the Alaska PDF increases consumption (Hsieh, 2003; Kueng, 2015, 2018). 
+
+
+      In low-income contexts, results from both UBI and other cash transfer programs consistently show no negative impact on labor supply. In some cases, there has even been positive impacts from investments in small businesses or from economic spill-overs to the local economy. A report from a basic income pilot in Namibia, for example, found a significant increase in income-generating activities among recipients of the cash transfers (Haarmann et al., 2009). In Kenya, adult labor supply was found to increase, and child labor found to decrease in response to the Cash Transfer Program for Orphans and Vulnerable Children (Asfew, 2013). Similar boosts in workforce participation and employment were reported for South Africa’s three targeted unconditional cash transfer programs (Samson et al., 2004).
+
+
+      The studies reviewed here provide insight into possible labor effects, however there have been significant changes to the labour market since many of the experiments were carried out. These changes make it difficult to predict whether similar outcomes would be observed in contemporary experiments. More research is needed to disentangle the complex relationship between labor supply and demand, and more data is needed on the differential impacts between demographic groups. More evidence is also needed on how factors in the local economy where a UBI is introduced impacts outcomes like labor market participation.
+    related: "-"
+    id: labor-market
+    citations: >-
+      Anderson, G. M., & Block, W. (1993). Comment on Hum and Simpson. Journal
+      of Labor Economics, 11(1, Part 2), 17.
+
+
+
+      Asfew, S. (2013). The impact of the Kenya CT-OVC programme on productive activities and labour allocation. Working Paper. https://www.researchgate.net/publication/265347184_The_impact_of_the_Kenya_CT-OVC_programme_on_productive_activities_and_labour_allocation
+
+
+
+      Forget, E. L. (2011). The Town with No Poverty: The Health Effects of a Canadian Guaranteed Annual Income Field Experiment. Canadian Public Policy, 37(3), 283–305. https://doi.org/10.3138/cpp.37.3.283
+
+
+
+      Forget, E. L. (2018). Basic Income for Canadians: The key to a healthier, happier, more secure life for all. James Lorimer & Company.
+
+
+
+      Guettabi, M. (2019). What do we know about the eﬀects of the Alaska Permanent Fund Dividend? Working Paper.
+
+
+
+      Haarmann, C., Haarmann, D., Jauch, H., Shindondola-Mote, H., Nattrass, N., van Niekerk, I., & Samson, M. (2009). Making the difference! The BIG in Namibia. Friedrich Ebert Foundation.
+
+
+
+      Hsieh, C.-T. (2003). Do Consumers React to Anticipated Income Changes? Evidence from the Alaska Permanent Fund. American Economic Review, 93(1), 397–405. https://doi.org/10.1257/000282803321455377
+
+
+
+      Hum, D., & Simpson, W. (1993). Economic Response to a Guaranteed Annual Income: Experience from Canada and the United States. Journal of Labor Economics, 11(1, Part 2), S263–S296. https://doi.org/10.1086/298335
+
+
+
+      Jones, D., & Marinescu, I. (2018). The Labor Market Impacts of Universal and Permanent Cash Transfers: Evidence from the Alaska Permanent Fund (Working Paper No. 24312). National Bureau of Economic Research. https://doi.org/10.3386/w24312
+
+
+
+      Kela & the Ministry of Social Affairs and Health. (2019, February 8). Preliminary results of the basic income experiment: Self-perceived wellbeing improved, during the first year no effects on employment. https://www.kela.fi/web/en/news-archive/-/asset_publisher/lN08GY2nIrZo/content/preliminary-results-of-the-basic-income-experiment-self-perceived-wellbeing-improved-during-the-first-year-no-effects-on-employment
+
+
+
+      Kueng, L. (2015). Revisiting the Response of Household Spending to the Alaska Permanent Fund Dividend Using CE Data (SSRN Scholarly Paper ID 2634005). Social Science Research Network. https://papers.ssrn.com/abstract=2634005
+
+
+
+      Kueng, L. (2018). Excess Sensitivity of High-Income Consumers* | The Quarterly Journal of Economics | Oxford Academic. Quarterly Journal of Economics, 133(4). https://academic.oup.com/qje/article/133/4/1693/5036538
+
+
+
+      McDonald, J. F., & Stephenson, S. P. (1979). The Effect of Income Maintenance on the School-Enrollment and Labor-Supply Decisions of Teenagers. The Journal of Human Resources, 14(4), 488. https://doi.org/10.2307/145319
+
+
+
+      Prescott, D., Swidinsky, R., & Wilton, D. A. (1986). Labour Supply Estimates for Low-Income Female Heads of Household Using Mincome Data. The Canadian Journal of Economics, 19(1), 134. https://doi.org/10.2307/135175
+
+
+
+      Samson, M., Lee, U., Ndlebe, A., MacQuene, K., & van Niekerk, I. (2004). Final Report: The Social and Economic Impact of South Africa’s Social Security System (p. 290).
+
+
+
+      Widerquist, K. (2005). A failure to communicate: What (if anything) can we learn from the negative income tax experiments? The Journal of Socio-Economics, 34(1), 49–81. https://doi.org/10.1016/j.socec.2004.09.050
+
+
+
+      Widerquist, K. (2018). A Critical Analysis of Basic Income Experiments for Researchers, Policymakers, and Citizens. Springer International Publishing. https://doi.org/10.1007/978-3-030-03849-6
