@@ -389,7 +389,7 @@
 - parent: economic-effects
   id: labor-market
   display: 1
-  title: Labor Market
+  title: Impact on Labor Supply
   xAxis: 570
   yAxis: -420
   summary: >
@@ -440,6 +440,12 @@
     Totam eveniet vel quia. Quia numquam aut inventore sit qui numquam. Illo et molestiae rerum voluptate qui sunt dolores sed. Voluptas inventore modi natus inventore est. Pariatur rerum qui impedit et.
 
     Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
+- parent: economic-effects
+  id: economic-inequality
+  display: 1
+  title: Economic Inequality
+  xAxis: 300
+  yAxis: -360
 
 # Health
 - parent: health
