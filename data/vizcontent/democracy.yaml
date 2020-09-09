@@ -1,0 +1,125 @@
+themeid: democracy
+themename: Democracy
+themes:
+  - theme: Good Governance
+    id: good-governance
+    body: >-
+      <i>This section explores how UBI might improve governance in democracies, in particular by examining how UBI may 
+      impact democratic accountability and legitimacy.</i>
+      
+      As a regime type, democracy is often valued for certain intrinsic characteristics, such as how it manifests citizen equality. 
+      But there are also instrumental reasons for valuing democracy, including the fact that it may result in better governance. 
+      Democracies may be both more legitimate and more accountable than other forms of government, resulting in policies that 
+      are better for citizens. If democracies fail to be accountable or legitimate—that is, to embody these values of good 
+      governance—it may contribute to democratic dissatisfaction and the desire for alternative regime types. Globally, 
+      dissatisfaction with how democracy is working is on the rise; across 27 countries polled, a median of 51 percent 
+      of people were dissatisfied with the current functioning of democracy in their countries (Richard Wike et al., 2019). 
+      People who considered their governments to be unaccountable (corrupt or unable to improve standards of living) or 
+      illegitimate (untrustworthy or unwilling to respect basic rights) were more likely to be dissatisfied.If we value 
+      democracy because of its association with good governance, we may ask what impact UBI would have on the ability 
+      of democracies to govern well. Evidence from cash transfers offers insights on accountability and legitimacy—the 
+      two values thought necessary for good governance.How might UBI impact the ability of citizens to hold their governments 
+      accountable? Insofar as a UBI is likely to increase voter turnout or citizen participation, it could very well 
+      increase government accountability. However, it is not enough that citizens merely participate; in order to 
+      ensure good governance, how they participate matters as well. “Unhealthy” political engagement, when citizens 
+      select and sanction leaders on the basis of their provision of private goods, can damage the state’s ability 
+      to govern (Khemani, 2015). Unhealthy civic participation, for example, can be seen in special interests’ 
+      groups who mobilize to extract benefits from policies at the expense of public interest. Civic participation 
+      is “healthy” when citizens select and sanction leaders on their ability to provide public goods. An example of 
+      healthy participation might include sanctioning leaders for corruption by voting them out of office. UBI, which is 
+      both a public and a private good, complicates the boundary between healthy and unhealthy civic engagement. 
+      On the one hand, reduced economic dependency may empower citizens to monitor their government and to elect 
+      responsive leadership. Yet evidence from conditional cash transfers has shown there are also cases in which 
+      the policy could reduce the independence of voters, making them more likely to vote for the incumbent 
+      (Baez et al., 2012). Vote-buying—the process of offering gifts or money in exchange for votes—is robustly 
+      correlated with lower quality of public services across countries (World Bank, 2016). If politicians use the 
+      direct benefit of UBI to ‘buy’ votes (for example, by promising increased payments), it may hinder the ability of 
+      citizens to remove those leaders in the case of other infractions. It is possible, however, that such an effect 
+      could be mitigated by UBI’s universality; the fact that even higher-income citizens would receive the benefit might 
+      prevent the emergence of a “Curley effect”—a phenomenon whereby politicians increase the size of their political base, 
+      ensuring reelection, via policies that provide distortionary benefits (Glaeser & Shleifer, 2002). A related fear 
+      regarding UBI and accountability is that voter interest in UBI might outweigh other important concerns regarding 
+      the public good. Some have argued, for instance, that the annual dividend from Alaska’s Permanent Fund has “warped” 
+      local politics, because residents vote to protect their individual payments to the detriment of public services 
+      such as schools and universities (Sundlee, 2019). This is important since, when policies provide targeted benefits, 
+      as a cash transfer does, there may often be fewer resources available for other types of services, such as public 
+      health or education (Khemani, 2019). Evidence is mixed, however, as recent polls demonstrate that voters would be 
+      willing to consider capping their Permanent Fund dividend payments or directing additional earnings from the Permanent 
+      Fund towards public services and programs (Stalzer, 2015). More research is required to understand the relationship 
+      between UBI and voter interest in the provision of public goods.A large part of the perception of a government as 
+      legitimate relies on citizen perception that the government is accountable. So, insofar as UBI were to increase 
+      democratic accountability, it would also increase democratic legitimacy.But another axis of democratic legitimacy is 
+      social cohesion, which is known in some scholarly work as social capital or social connectedness. Social cohesion has 
+      been found in empirical studies to impact the health of democracies, as it is often associated with improved institutional 
+      performance, economic prosperity, increased mobilization and participation, and general sense of citizen efficacy 
+      (Campbell, 2013; Putnam et al., 1994; Rosenstone & Hansen, 2009). Economic inequality, such as highly unequal incomes, 
+      and social inequality, such as the existence of unequal rewards and opportunities for various social positions, have 
+      been found in empirical research to negatively impact social cohesion (Khambule & Siswana, 2017; Vergolini, 2011; 
+      Wilkinson, 1997). Insofar as UBI may be able to reduce economic and social inequalities, it could possibly contribute 
+      to increase social cohesion.Another way in which UBI might increase social cohesion is by changing how people use their 
+      time. If people have more time for activities in which they engage with others, such as getting an education or 
+      participating in volunteer work, they may have wider social networks and thus create more social cohesion. But a UBI 
+      could also have a negative impact on social cohesion. Recipients of a UBI may decide to spend more time at home or 
+      in networks that they already have, which could possibly decrease social cohesion. So, because there is no empirical 
+      research on what types of activities people might be expected to participate in should they receive a UBI, it is difficult 
+      to estimate the impact it could have on social cohesion. Moreover, it has been argued that workplaces play a critical 
+      integrative role within democracies; economic necessity forces people of diverse backgrounds and ethnicities to work 
+      together, and this daily interaction causes them to build personal ties across social divisions and practice the skills 
+      of compromise and consensus (Estlund, 2003). If a UBI means that people are no longer required to work with those with 
+      whom they would not otherwise choose to associate, it could, in the long run, decrease social cohesion and thus negatively 
+      impact social cohesion and democratic legitimacy. UBI’s potential impact on social cohesion is therefore highly variable, 
+      and there is a dearth of evidence to support any oneconclusion. More research is needed.UBI might also impact the trust 
+      that citizens have in the state, which is yet another axis of democratic legitimacy. A basic income that is truly universal 
+      creates a service that is accessed by every citizen, from the least to most well off. Consistent citizen engagement with 
+      government services may serve to increase the legitimacy of the state as a whole, especially if those services are 
+      considered particularly important or competent. The Bolsa Familia program in Brazil demonstrated that transfer recipients 
+      showed increased trust in core state institutions, local government, and incumbent actors (Layton et al., 2017). A 
+      randomized control trial in Tanzania showed that conditional cash transfers significantly increased trust inelected 
+      leaders with a concomitant rise in the perception of government responsiveness to citizen concerns and perceived honesty 
+      of leaders (Evans et al., 2018). However, in this trial, the cash transfers were in part implemented via in-person 
+      monitoring by elected officials and were conditional on accessing other services, such as healthcare. It is possible that 
+      some of the impact on legitimacy is a result of these direct citizen-to-government interactions; if this is the case, 
+      an online UBI might actually decrease social trust as citizens engage less often with various government bureaucracies. 
+      It may not be necessary for there to be personal contact between citizens and government officials for there to be 
+      increased legitimacy, however; digitized or online services that are sufficiently competent might have the same effect. 
+      Indeed, an online UBI might even improve perceptions of government legitimacy more, as it removes some possibilities for 
+      corruption and micro-domination in service-provision. First, such a UBI “shortens the chain” between government and 
+      citizens; removing hands through which the money must pass can result in more transparency and less corruption 
+      (World Bank, 2003). Second, it may make service-provision more equitable. “Street level” bureaucrats, those at the 
+      forefront of service provision, can be perceived by recipients as making arbitrary decisions about who canaccess 
+      benefits, for what reasons, and when. Removing this element of discretion in personal interaction may actually 
+      improve citizen-government interactions, and the net impact of UBI might be an increase in democratic trust. 
+      Preliminary results from the Finnish basic income experiment support such a conclusion, as researchers there found 
+      that basic income recipients had a small but significant increase in trust in politicians and the legal system 
+      relative to the control group (Kangas et al., 2019). The leveling of economic inequality may also contribute to 
+      such an effect; because citizens in a democracy are serviced by other citizens, micro-domination weakens social trust 
+      and the overarching legitimacy of the political community. If micro-domination is more likely to impact low-income 
+      citizens, then reduced inequality may make other forms of service provision—from schooling to healthcare—seem fairer, 
+      and the state itself more legitimate.
+    related: >-
+      Related topics
+      Civic participation (in UBI and Democracy)
+      Inequality in political power (in UBI and Inequality) 
+      Gendered welfare (in UBI and Gender) 
+      Racialized welfare stereotypes (in UBI and Race)
+      Freedom from demeaning jobs (in UBI and Wellbeing)
+    citations: >-
+      Read more:
+      
+      Baez, J. E., Camacho, A., Conover, E., & Zárate, R. A. (2012). Conditional Cash Transfers, Political Participation, and Voting Behavior. The World Bank. https://doi.org/10.1596/1813-9450-6215
+      Campbell, D. E. (2013). Social Networks and Political Participation. Annual Review of Political Science, 16(1), 33–48. https://doi.org/10.1146/annurev-polisci-033011-201728
+      Estlund, C. (2003). Working together: How workplace bonds strengthen a diverse democracy. Oxford University Press.
+      Evans, D. K., Holtemeyer, B., & Kosec, K. (2018). Cash Transfers Increase Trust in Local Government. The World Bank. https://doi.org/10.1596/1813-9450-8333
+      Glaeser, E. L., & Shleifer, A. (2002). The Curley Effect (NBER Working Paper No. 8942). National Bureau of Economic Research. https://www.nber.org/papers/w8942
+      Kangas, O., Jauhiainen, S., Simanainen, M., & Ylikännö, M. (2019). The basic income experiment 2017–2018 in Finland Preliminary results. 34.
+      Khambule, I., & Siswana, B. (2017). How Inequalities undermine Social Cohesion: A Case Study of South Africa [Policy Brief]. G20 Insights. https://www.g20-insights.org/policy_briefs/inequalities-undermine-social-cohesion-case-study-south-africa/
+      Khemani, S. (2015). Buying votes versus supplying public services: Political incentives to under-invest inpro-poor policies. Journal of Development Economics, 117, 84–93. https://doi.org/10.1016/j.jdeveco.2015.07.002
+      Khemani, S. (2019, April 19). Outsized Focus on Cash Transfers is Missing the Point. Brookings Institute Blog. https://www.brookings.edu/blog/future-development/2019/04/19/outsized-focus-on-cash-transfers-is-missing-the-point/
+      Layton, M. L., Donaghy, M. M., & Rennó, L. R. (2017). Does Welfare Provision Promote Democratic State Legitimacy? Evidence from Brazil’s Bolsa Família Program. Latin American Politics and Society, 59(4), 99–120. https://doi.org/10.1111/laps.12035
+      Putnam, R. D., Leonardi, R., & Nonetti, R. Y. (1994). Making Democracy Work: Civic Traditions in Modern Italy. Princeton University Press. https://doi.org/10.2307/j.ctt7s8r7
+      Richard Wike, Laura Silver, & Alexandra Castillo. (2019). Many Across the Globe Are Dissatisfied With How Democracy Is Working. Pew Research Center. https://www.pewresearch.org/global/2019/04/29/many-across-the-globe-are-dissatisfied-with-how-democracy-is-working/
+      Rosenstone, S. J., & Hansen, J. M. (2009). Mobilization, Participation, and Democracy in America. Pearson College Division.Stalzer, C. (2015, August 13). Alaskans support new revenue to help address the state’s budget shortfall. Rasmuson Foundation. https://www.rasmuson.org/news/press-releases/alaskans-support-new-revenue-to-help-address-the-states-budget-shortfall/
+      Sundlee, R. (2019, September 5). Alaska’s universal basic income problem. Vox. https://www.vox.com/future-perfect/2019/9/5/20849020/alaska-permanent-fund-universal-basic-income
+      Vergolini, L. (2011). Social cohesion in Europe: How do the different dimensions of inequality affect social cohesion? International Journal of Comparative Sociology, 52(3), 197–214. https://doi.org/10.1177/0020715211405421
+      Wilkinson, R. G. (1997). Comment: Income, inequality, and social cohesion. American Journal of Public Health, 87(9), 1504–1506. https://doi.org/10.2105/AJPH.87.9.1504World Bank. (2003). World Development Report 2004: Making Services Work for Poor People. The World Bank. https://doi.org/10.1596/0-8213-5468-X
+      World Bank. (2016). Making Politics Work for Development: Harnessing Transparency and Citizen Engagement. The World Bank. https://doi.org/10.1596/978-1-4648-0771-8
