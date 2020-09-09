@@ -506,3 +506,67 @@ themes:
 
 
       The Guardian. (2017, September 15). The Guardian view on universal basic income: Tax data giants to pay for it. https://www.theguardian.com/commentisfree/2017/sep/15/the-guardian-view-on-universal-basic-income-tax-data-giants-to-pay-for-it
+  - theme: Consumption
+    id: Consumption
+    body: >-
+      This sub-theme discusses UBI’s potential effects on consumption.
+
+
+      **Summary**
+
+
+      How might a UBI policy affect an individual or household’s consumption behavior? On the one hand, there is the question of whether a UBI would increase or decrease consumption expenditure. This question is of interest because consumption expenditure is often used as a proxy for well-being and is thought to boost economic growth, which has multiplier effects. UBI’s potential impact on consumption can also be viewed through the lens of what kinds of goods are purchased or consumed. Will the cash be used to purchase luxuries or necessities? Assets or non-durable goods? “Temptation goods”—such as alcohol, tobacco, or even drugs—or everyday household goods? The latter set of questions has been central to policymakers’ decisions on whether to favor cash over in-kind goods.
+
+
+      Most findings from developing economies show significant positive impact on consumption expenditures in the short-term. A study on GiveDirectly’s UBI program in Kenya finds that monthly cash transfers were spent mostly on food (Haushofer & Shapiro, 2016). This is consistent with evidence from targeted, unconditional cash transfer programs. A review of evidence in four African countries finds that relatively large, regular and predictable unconditional cash transfers significantly increased the quantity and quality of food consumed (Tiwari et al., 2016). Evidence suggests that these impacts may last beyond the short term. A follow-up study on the GiveDirectly program three years after the first transfer found that recipients still consumed 25 percent more compared to those who didn’t receive the transfers (Haushofer & Shapiro, 2018). Similarly, a study of two unconditional cash transfer programs in Zambia showed a strong long-term positive impact on consumption and food security, with households spending on average 67 percent more than the value of the transfers received (Handa et al., 2018).
+
+
+      It is less clear that UBI leads to consumption changes in high-income countries. This is not surprising, as fewer credit constraints likely smooth consumption in high-income contexts as compared to low- and middle-income settings where credit is less available. A review of evidence from the negative income tax experiments in the United States in the 1970s found that the programs had no or small effects on consumption (Hanushek, 1987). In the case of housing, the guaranteed income merely altered the timing of already planned purchases (Hanushek, 1987). This could be, in part, a result of people expecting these programs to be temporary, or it could be that more access to credit allows them to more easily smooth their consumption over time. Limited impacts on consumption are also observed in the regularly distributed Alaska Permanent Dividend program (Hsieh, 2003), although findings are inconsistent (Kueng, 2015).
+
+
+      Regarding what individuals consume, evidence suggests that the size and regularity of the transfer matters.  In the GiveDirectly experiment in Kenya, monthly transfers were spent mostly on food, while lump-sum transfers were spent more on durables, such as metal roofs (Haushofer & Shapiro, 2016). In unconditional cash transfer programs across four African countries, regular and predictable cash transfers increased food consumption, while lump sum and irregular transfers did not, at least in the short run (Tiwari et al., 2016). Households that received irregular cash transfers, such as those in a program in Ghana, were found to spend differently from households that received regular transfers (Food and Agricultural Organization, 2016). Evidence from high-income economies is scarce on the question of what individuals consume or how they spend their cash, but preliminary results from a small-scale guaranteed income demonstration in Stockton, California, suggests that, of the $500 per month UBI, about 40 percent went toward food, 25 percent toward merchandise, and 12 percent toward utilities (Holder, 2019). 
+
+
+
+      As to whether UBI will increase consumption of “temptation goods,” such as alcohol and tobacco, studies give a nearly unanimous answer: no. Evidence from Namibia (Haarmann et al., 2009) and India (Davala et al., 2017) show no effect of cash transfers on alcohol sale. A comprehensive review of 19 studies—covering evidence from both conditional and unconditional cash transfer programs in Latin America, Africa and Asia—finds that, almost without exception, cash transfers had either no significant impact or a significant negative impact on consumption of temptation goods, and that where spending increased the magnitude was small (Evans & Popova, 2014).
+
+
+      \
+
+      In general, evidence suggests that cash transfer programs tend to increase consumption expenditure significantly in developing economies, both in the short run and the long run.  Evidence from UBI programs is consistent with this more general result. The effects of cash transfers in advanced economies are more ambivalent. More research is needed, especially from advanced economies, as to the kinds of goods that people would spend their UBI on, and what factors might determine their spending. The concern that UBI might increase consumption of temptation goods, however, has been shown to be untrue.
+    related: |-
+      * UBI’s impact on savings and investment (in Economic Effects of UBI)
+      * UBI’s impact on inflation (in Economic Effects of UBI)
+      * UBI and well-being
+      * UBI and health
+    citations: >-
+      Davala, S., Jhabvala, R., Standing, G., Badgaiyan, N., & Bharat, S.
+      (2017). *Piloting Basic Income A Legacy Study Final Report* (p. 52). SEWA
+      Bharat and INBI.
+
+
+      Evans, D. K., & Popova, A. (2014). *Cash Transfers and Temptation Goods: A Review of Global Evidence*. 36.
+
+
+      Food and Agricultural Organization. (2016). *Cash transfers: Their economic and productive impacts: Evidence from Programmes in Sub-Saharan Africa*. 4.
+
+
+      Haarmann, C., Haarmann, D., Jauch, H., Shindondola-Mote, H., Nattrass, N., van Niekerk, I., & Samson, M. (2009). *Making the difference! The BIG in Namibia*. Friedrich Ebert Foundation.
+
+
+      Handa, S., Natali, L., Seidenfeld, D., Tembo, G., & Davis, B. (2018). Can unconditional cash transfers raise long-term living standards? Evidence from Zambia. *Journal of Development Economics*, *133*, 42–65. https://doi.org/10.1016/j.jdeveco.2018.01.008
+
+
+      Hanushek, E. A. (1987). Non-Labor-Supply Responses to the Income Maintenance Experiments. In *Lessons from the Income Maintenance Experiments*. Federal Reserve Bank of Boston and the Brookings Institution.
+
+
+      Haushofer, J., & Shapiro, J. (2016). The Short-term Impact of Unconditional Cash Transfers to the Poor: ExperimentalEvidence from Kenya*. *The Quarterly Journal of Economics*, *131*(4), 1973–2042. https://doi.org/10.1093/qje/qjw025
+
+
+      Haushofer, J., & Shapiro, J. (2018). The Long-Term Impact of Unconditional Cash Tranfers: Experimental Evidence from Kenya. *Working Paper*, 64.
+
+
+      Holder, S. (2019, October 3). *In Stockton, Early Clues Emerge About Impact of Guaranteed Income*. CityLab. https://www.citylab.com/equity/2019/10/stockton-universal-basic-income-pilot-economic-empowerment/599152/
+
+
+      Tiwari, S., Daidone, S., Ruvalcaba, M. A., Prifti, E., Handa, S., Davis, B., Niang, O., Pellerano, L., Quarles van Ufford, P., & Seidenfeld, D. (2016). Impact of cash transfer programs on food security and nutrition in sub-Saharan Africa: A cross-country analysis. *Global Food Security*, *11*, 72–83. https://doi.org/10.1016/j.gfs.2016.07.009
