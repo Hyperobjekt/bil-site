@@ -2,7 +2,7 @@ themeid: health
 themename: Health
 themes:
   - theme: Access to Health Services
-    id: access-health
+    id: access-to-health-services
     body: >-
       This section discusses how UBI could potentially increase access to health care services, therefore
       contributing to healthier communities.
@@ -146,7 +146,7 @@ themes:
       Organization, 83(9), 644. https://doi.org//S0042-96862005000900004
 
   - theme: Physical Health
-    id: physicalhealth
+    id: physical-health
     body: >-
       This section discusses ways in which UBI might lead to an improvement in physical health through addressing the socioeconomic determinants of health.
       
@@ -285,7 +285,7 @@ themes:
       longevity/view/full_report
 
   - theme: Mental Health
-    id: mentalhealth
+    id: mental-health
     body: >-
       This section discusses the effects UBI could have on some of social determinants that contribute to
       negative mental health outcomes.

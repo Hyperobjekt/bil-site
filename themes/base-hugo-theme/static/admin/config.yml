@@ -451,3 +451,26 @@ collections:
           - {label: "Social media description", name: "social_description", widget: string}
           - {label: Social media image, name: social_image, widget: image, hint: 'Optimum resolution is 1200x675 pixels'}
           
+  #VISUALIZATION CONTENT
+  - label: "Network Visualization Content"
+    name: vizcontent
+    files:
+        - label: Automation
+          name: automation_content
+          file: "data/vizcontent/automation.yaml"
+          preview_path: research/ubi-visualization/
+          extension: "yaml"
+          fields:
+            - {label: Theme ID, name: themeid, widget: string, hint: "Please do not change"}
+            - {label: Theme Name, name: themename, widget: string}
+            - label: Sub-Themes
+              name: themes
+              widget: list
+              create: true
+              fields:
+                - {label: Sub Theme, name: theme, widget: string}
+                - {label: Sub Theme ID, name: id, widget: string, hint: "Please do not change"}
+                - {label: Body Text, name: body, widget: markdown}
+                - {label: Related Topics, name: related, widget: markdown}
+                - {label: Citations, name: citations, widget: markdown}
+                
