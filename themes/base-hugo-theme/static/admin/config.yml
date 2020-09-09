@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: cms-dev # Branch to update (optional; defaults to master)
+  branch: add-viz-cms # Branch to update (optional; defaults to master)
 
 publish_mode: editorial_workflow
 
