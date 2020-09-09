@@ -4,514 +4,218 @@ themes:
   - theme: Access to Health Services
     id: access-to-health-services
     body: >-
-      This section discusses how UBI could potentially increase access to health care services, therefore
-      contributing to healthier communities.
+      This section discusses how UBI could potentially increase access to health
+      care services, therefore contributing to healthier communities.
 
-      
+
       **Summary**
-      
-      
-      Access to health care services is central to promoting and maintaining one’s health, preventing and
-      managing illness and disease, reducing unnecessary disability and premature death, and achieving health
-      equity (Office of Disease Prevention and Health Promotion, n.d.) . Research has shown that access to care
-      (inclusive of dental care) varies by race and ethnicity, income, age, gender, geographic or residential
-      location, and sexual orientation (Agency for Healthcare Research and Quality, 2018; Chattopadhyay,
-      2008) . Barriers in access to health services—including high cost of care, inadequate or no insurance
-      coverage, lack of availability of services, or lack of culturally competent care—often contribute to
-      variation across these different groups.
-      
-      
-      Many of the social determinants of health intersect with these barriers (Bhatt &amp; Bathija, 2018) . In 2015,
-      23.4 percent of adults (18–64 years) living in poverty or just above the poverty line in the United States
-      cited cost as the top reason for not obtaining needed medical care at least once during the last 12 months
-      (Martinez &amp; Ward, 2016) . Those living in poverty face economic insecurity and therefore have limited
-      capacity to pay out-of-pocket health care costs (Lauren Frohlich et al., 2015) . Moreover, despite the
-      Affordable Care Act of 2010 that mandated medical insurance for all in the United States, in 2017, over
-      10 percent of adults had no medical insurance. In that same year, 61.6 percent had prescriptive drug
-      insurance, and only 54.5 percent had dental insurance (Office of Disease Prevention and Health
-      Promotion, n.d.) . Access to health care services is also complicated by where one lives and the
-      availability of services. In rural parts of the United States, where poverty is the greatest, there are 40
-      physicians per 100,000 persons compared to nearly 54 physicians per 100,000 in urban areas (Hostetter &amp;
-      Klein, 2017) .
-      
-      
-      Acknowledging the complexity of health care insurance markets and the variation in quality health care
-      services available, an increase in an individual’s income could plausibly have an impact on access to
-      health care services. While more research is needed to understand whether and how UBI could boost
-      access to healthcare, especially in the United States, UBI could improve access to preventative health care
-      services thus reducing the incidence of disease and more expensive health care services (Ruckert et al.,
-      2018) .
-      
-      
-      India and Namibia’s basic income experiments both contributed to increased access to health care
-      services. In the Madhya Pradesh experiment, the basic income led to an increase in private health care use
-      (from 50 percent to 65 percent) because of geographic proximity to the village and because the quality of
-      the care was perceived to be better. These rates of use were sustained well after the experiment (Davala et
-      al., 2017) . In Namibia, prior to the experiment, poverty prevented many in Otijivero-Omitara from
-      seeking services. During the experiment, though, expenditures at the local health clinic increased by an
-      average of five times each month than what was normally spent without the additional income (Haarmann
-      et al., 2009) . Finally, even in countries where universal healthcare is publicly funded, a basic income
-      would give individuals an opportunity to access more specialized care beyond the health services and
-      medications available to them under universal healthcare.
-      
-      
-      A UBI could also possibly guarantee more equitable access to drugs in countries where no public or
-      private drug insurance plans are available (Ruckert et al., 2018) . In the United States, given the
-      exponential rise in cost of lifesaving drugs, access to appropriate medication is increasingly difficult to
-      afford (Kesselheim et al., 2016) . As such, a universal income could reduce some of the barriers to
-      accessing necessary medicines and make access to medicine more equitable (Ruckert et al., 2018) . In the
-      Namibia basic income experiment, there was an increase in antiretroviral (ARV) treatment among
-      patients with HIV (from 3 to 36 individuals). While this increase is notable, it is important to
-      acknowledge that during the experiment, the government was also implementing an ARV rollout. As aresult, it is difficult to attribute this increase in use of lifesaving drugs to the basic income intervention
-      itself. Additional research and data are needed to determine what sort of impact a basic income could
-      have on access to medicine.
-      
-      
-      Finally, a UBI may increase one’s access to dental health services and therefore reduce the risk factors
-      associated with oral diseases and other chronic diseases (Chen &amp; Quiñonez, 2018) . While many
-      developed countries provide universal healthcare, universal coverage of dental health care schemes is
-      rare; Austria, Mexico, Poland, Spain, Turkey, Denmark, Finland, Greece, Italy, and the United Kingdom,
-      for example, do not offer universal dental health care. Moreover, it is often the case that countries who do
-      cover dental services often neglect critical services (Biggs, 2012) . Many of the risk factors associated
-      with chronic diseases are also applicable for oral diseases, such as diet and hygiene, smoking, alcohol,
-      risky behaviors causing injuries, and stress (Sheiham, 2005) . A UBI could reduce the aforementioned risk
-      factors through improving an individual’s income security, thus allowing them to have more time and
-      resources to access both mitigative and responsive oral health care services (Chen &amp; Quiñonez, 2018) .
-      
-      
-
-      **Related Topics:**
-
-      - Mental health (in UBI &amp; Health)
-
-      - Physical Health (in UBI &amp; Health)
-
-      - The working poor (in UBI and Poverty)
-
-      - Wellbeing (in UBI and Wellbeing)
-      
-      
-
-      **Read More:**
 
 
-      - Agency for Healthcare Research and Quality. (2018). Access and Disparities in Access to Health Care.
-      Department of Health and Human Services.
+      Access to health care services is central to promoting and maintaining one’s health, preventing and managing illness and disease, reducing unnecessary disability and premature death, and achieving health equity (Office of Disease Prevention and Health Promotion, n.d.) . Research has shown that access to care (inclusive of dental care) varies by race and ethnicity, income, age, gender, geographic or residential location, and sexual orientation (Agency for Healthcare Research and Quality, 2018; Chattopadhyay, 2008) . Barriers in access to health services—including high cost of care, inadequate or no insurance coverage, lack of availability of services, or lack of culturally competent care—often contribute to variation across these different groups.
+
+
+      Many of the social determinants of health intersect with these barriers (Bhatt &amp; Bathija, 2018) . In 2015, 23.4 percent of adults (18–64 years) living in poverty or just above the poverty line in the United States cited cost as the top reason for not obtaining needed medical care at least once during the last 12 months (Martinez &amp; Ward, 2016) . Those living in poverty face economic insecurity and therefore have limited capacity to pay out-of-pocket health care costs (Lauren Frohlich et al., 2015) . Moreover, despite the Affordable Care Act of 2010 that mandated medical insurance for all in the United States, in 2017, over 10 percent of adults had no medical insurance. In that same year, 61.6 percent had prescriptive drug insurance, and only 54.5 percent had dental insurance (Office of Disease Prevention and Health Promotion, n.d.) . Access to health care services is also complicated by where one lives and the availability of services. In rural parts of the United States, where poverty is the greatest, there are 40 physicians per 100,000 persons compared to nearly 54 physicians per 100,000 in urban areas (Hostetter &amp; Klein, 2017) .
+
+
+      Acknowledging the complexity of health care insurance markets and the variation in quality health care services available, an increase in an individual’s income could plausibly have an impact on access to health care services. While more research is needed to understand whether and how UBI could boost access to healthcare, especially in the United States, UBI could improve access to preventative health care services thus reducing the incidence of disease and more expensive health care services (Ruckert et al., 2018) .
+
+
+      India and Namibia’s basic income experiments both contributed to increased access to health care services. In the Madhya Pradesh experiment, the basic income led to an increase in private health care use (from 50 percent to 65 percent) because of geographic proximity to the village and because the quality of the care was perceived to be better. These rates of use were sustained well after the experiment (Davala et al., 2017) . In Namibia, prior to the experiment, poverty prevented many in Otijivero-Omitara from seeking services. During the experiment, though, expenditures at the local health clinic increased by an average of five times each month than what was normally spent without the additional income (Haarmann et al., 2009) . Finally, even in countries where universal healthcare is publicly funded, a basic income would give individuals an opportunity to access more specialized care beyond the health services and medications available to them under universal healthcare.
+
+
+      A UBI could also possibly guarantee more equitable access to drugs in countries where no public or private drug insurance plans are available (Ruckert et al., 2018) . In the United States, given the exponential rise in cost of lifesaving drugs, access to appropriate medication is increasingly difficult to afford (Kesselheim et al., 2016) . As such, a universal income could reduce some of the barriers to accessing necessary medicines and make access to medicine more equitable (Ruckert et al., 2018) . In the Namibia basic income experiment, there was an increase in antiretroviral (ARV) treatment among patients with HIV (from 3 to 36 individuals). While this increase is notable, it is important to acknowledge that during the experiment, the government was also implementing an ARV rollout. As aresult, it is difficult to attribute this increase in use of lifesaving drugs to the basic income intervention itself. Additional research and data are needed to determine what sort of impact a basic income could have on access to medicine.
+
+
+      Finally, a UBI may increase one’s access to dental health services and therefore reduce the risk factors associated with oral diseases and other chronic diseases (Chen &amp; Quiñonez, 2018) . While many developed countries provide universal healthcare, universal coverage of dental health care schemes is rare; Austria, Mexico, Poland, Spain, Turkey, Denmark, Finland, Greece, Italy, and the United Kingdom, for example, do not offer universal dental health care. Moreover, it is often the case that countries who do cover dental services often neglect critical services (Biggs, 2012) . Many of the risk factors associated with chronic diseases are also applicable for oral diseases, such as diet and hygiene, smoking, alcohol, risky behaviors causing injuries, and stress (Sheiham, 2005) . A UBI could reduce the aforementioned risk factors through improving an individual’s income security, thus allowing them to have more time and resources to access both mitigative and responsive oral health care services (Chen &amp; Quiñonez, 2018) .
+    related: |-
+      * Mental health (in UBI &amp; Health)
+      * Physical Health (in UBI &amp; Health)
+      * The working poor (in UBI and Poverty)
+      * Wellbeing (in UBI and Wellbeing)
+    citations: >-
+      * Agency for Healthcare Research and Quality. (2018). Access and
+      Disparities in Access to Health Care. Department of Health and Human
+      Services.
       https://www.ahrq.gov/research/findings/nhqrdr/nhqdr15/access.html
 
-      - Bhatt, J., &amp; Bathija, P. (2018). Ensuring Access to Quality Health Care in Vulnerable Communities:
-      Academic Medicine, 93(9), 1271–1275. https://doi.org/10.1097/ACM.0000000000002254
-      
-      - Biggs, A. (2012). Dental Reform: An Overview of Universal Dental Schemes (Social Policy Section, p.
-      13) [Background Note]. Parliament of Australia, Department of Parliamentary Services.
-      https://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library/p
-      ubs/BN/2011-2012/DentalSchemes
-      
-      - Chattopadhyay, A. (2008). Oral Health Disparities in the United States. Dental Clinics of North America,
-      52(2), 297–318. https://doi.org/10.1016/j.cden.2007.11.001
-      
-      - Chen, Y.-A., &amp; Quiñonez, C. (2018). Basic income guarantee: A review of implications for oral health.
-      Journal of Public Health Dentistry, 78(1), 56–62. https://doi.org/10.1111/jphd.12239
-      Davala, S., Jhabvala, R., Standing, G., &amp; Badgaiyan, N. (2017). Piloting Basic Income A Legacy Study
-      Final Report (p. 52). SEWA Bharat and INBI. http://sewabharat.org/wp-
-      content/uploads/2019/02/Legacy-Study-Final-Report-a.pdf
-      
-      - Haarmann, C., Haarmann, D., Jauch, H., Shindondola-Mote, H., Nattrass, N., van Niekerk, I., &amp; Samson,
-      M. (2009). Making the difference! The BIG in Namibia. Friedrich Ebert Foundation.
-      Hostetter, M., &amp; Klein, S. (2017). In Focus: Reimagining Rural Health Care (Transforming Care:
-      Reporting Health System Improvement). The Commonwealth Fund.
-      https://www.commonwealthfund.org/publications/newsletter-article/2017/mar/focus-reimagining-
-      rural-health-care
-      
-      - Kesselheim, A. S., Avorn, J., &amp; Sarpatwari, A. (2016). The High Cost of Prescription Drugs in the United
-      States: Origins and Prospects for Reform. JAMA, 316(8), 858–871.
-      https://doi.org/10.1001/jama.2016.11237
-      
-      - Lauren Frohlich, Susan Hauan, Kendall Swenson, Sharon Wolf, &amp; Suzanne Macartney. (2015). Financial
-      Condition and Health Care Burdens of People in Deep Poverty. Office of the Assistant Secretary
-      for Planning and Evaluation. https://aspe.hhs.gov/basic-report/financial-condition-and-health-
-      care-burdens-people-deep-poverty
+      * Bhatt, J., &amp; Bathija, P. (2018). Ensuring Access to Quality Health Care in Vulnerable Communities: Academic Medicine, 93(9), 1271–1275. https://doi.org/10.1097/ACM.0000000000002254
 
-      - Martinez, M., &amp; Ward, B. (2016). Health Care Access and Utilization Among Adults Aged 18–64, by
-      Poverty Level: United States, 2013–2015 (p. 8) [262]. National Center for Health Statistics.
-      https://www.cdc.gov/nchs/data/databriefs/db262.pdf
-      
-      - Office of Disease Prevention and Health Promotion. (n.d.). Access to Health Services.
-      Healthypeople.Gov. Retrieved November 3, 2019, from
-      https://www.healthypeople.gov/2020/topics-objectives/topic/Access-to-Health-Services
-      
-      - Ruckert, A., Huynh, C., &amp; Labonté, R. (2018). Reducing health inequities: Is universal basic income the
-      way forward? Journal of Public Health, 40(1), 3–7. https://doi.org/10.1093/pubmed/fdx006
-      Sheiham, A. (2005). Oral health, general health and quality of life. Bulletin of the World Health
-      Organization, 83(9), 644. https://doi.org//S0042-96862005000900004
+      * Biggs, A. (2012). Dental Reform: An Overview of Universal Dental Schemes (Social Policy Section, p. 13) \[Background Note]. Parliament of Australia, Department of Parliamentary Services. https://www.aph.gov.au/About_Parliament/Parliamentary_Departments/Parliamentary_Library/p ubs/BN/2011-2012/DentalSchemes
 
+      * Chattopadhyay, A. (2008). Oral Health Disparities in the United States. Dental Clinics of North America, 52(2), 297–318. https://doi.org/10.1016/j.cden.2007.11.001
+
+      * Chen, Y.-A., &amp; Quiñonez, C. (2018). Basic income guarantee: A review of implications for oral health. Journal of Public Health Dentistry, 78(1), 56–62. https://doi.org/10.1111/jphd.12239 Davala, S., Jhabvala, R., Standing, G., &amp; Badgaiyan, N. (2017). Piloting Basic Income A Legacy Study Final Report (p. 52). SEWA Bharat and INBI. http://sewabharat.org/wp- content/uploads/2019/02/Legacy-Study-Final-Report-a.pdf
+
+      * Haarmann, C., Haarmann, D., Jauch, H., Shindondola-Mote, H., Nattrass, N., van Niekerk, I., &amp; Samson, M. (2009). Making the difference! The BIG in Namibia. Friedrich Ebert Foundation. Hostetter, M., &amp; Klein, S. (2017). In Focus: Reimagining Rural Health Care (Transforming Care: Reporting Health System Improvement). The Commonwealth Fund. https://www.commonwealthfund.org/publications/newsletter-article/2017/mar/focus-reimagining- rural-health-care
+
+      * Kesselheim, A. S., Avorn, J., &amp; Sarpatwari, A. (2016). The High Cost of Prescription Drugs in the United States: Origins and Prospects for Reform. JAMA, 316(8), 858–871. https://doi.org/10.1001/jama.2016.11237
+
+      * Lauren Frohlich, Susan Hauan, Kendall Swenson, Sharon Wolf, &amp; Suzanne Macartney. (2015). Financial Condition and Health Care Burdens of People in Deep Poverty. Office of the Assistant Secretary for Planning and Evaluation. https://aspe.hhs.gov/basic-report/financial-condition-and-health- care-burdens-people-deep-poverty
+
+      * Martinez, M., &amp; Ward, B. (2016). Health Care Access and Utilization Among Adults Aged 18–64, by Poverty Level: United States, 2013–2015 (p. 8) \[262]. National Center for Health Statistics. https://www.cdc.gov/nchs/data/databriefs/db262.pdf
+
+      * Office of Disease Prevention and Health Promotion. (n.d.). Access to Health Services. Healthypeople.Gov. Retrieved November 3, 2019, from https://www.healthypeople.gov/2020/topics-objectives/topic/Access-to-Health-Services
+
+      * Ruckert, A., Huynh, C., &amp; Labonté, R. (2018). Reducing health inequities: Is universal basic income the way forward? Journal of Public Health, 40(1), 3–7. https://doi.org/10.1093/pubmed/fdx006 Sheiham, A. (2005). Oral health, general health and quality of life. Bulletin of the World Health Organization, 83(9), 644. https://doi.org//S0042-96862005000900004
   - theme: Physical Health
     id: physical-health
     body: >-
-      This section discusses ways in which UBI might lead to an improvement in physical health through addressing the socioeconomic determinants of health.
-      
-      
+      This section discusses ways in which UBI might lead to an improvement in
+      physical health through addressing the socioeconomic determinants of
+      health.
+
+
       **Summary**
 
 
-      Adults in the United States living in poverty are more than five times as likely to report fair or poor health
-      as adults with a median income (Braveman &amp; Egerter, 2013; Office of the Assistant Secretary for
-      Planning and Evaluation, 2019) . Low-income adults in the United States have higher rates of heart
-      disease, diabetes, stroke, coronary heart disease, chronic arthritis and other chronic diseases compared to
-      wealthier individuals in the United States (Schiller et al., 2012) . This burden is shared by children living
-      in poverty who experience higher rates of asthma, heart conditions, hearing problems, digestive disorders,
-      and elevated blood levels. Children living in poverty are also more exposed to risk factors for medical
-      conditions such as childhood obesity than children in higher income households (Woolf et al., 2015).
+      Adults in the United States living in poverty are more than five times as likely to report fair or poor health as adults with a median income (Braveman &amp; Egerter, 2013; Office of the Assistant Secretary for Planning and Evaluation, 2019) . Low-income adults in the United States have higher rates of heart disease, diabetes, stroke, coronary heart disease, chronic arthritis and other chronic diseases compared to wealthier individuals in the United States (Schiller et al., 2012) . This burden is shared by children living in poverty who experience higher rates of asthma, heart conditions, hearing problems, digestive disorders, and elevated blood levels. Children living in poverty are also more exposed to risk factors for medical conditions such as childhood obesity than children in higher income households (Woolf et al., 2015).
 
 
-      Strong evidence suggests that an absolute increase in an individual’s income floor would directly improve
-      health outcomes (Benzeval et al., 2014; Braveman et al., 2010, 2011; Woolf et al., 2015) . There remains
-      much debate, however, about the specific causal pathways that link income and health. The pathways are
-      complex both between income groups and across the life cycle; they intersect with where an individual
-      lives (geographical location), the access they have to services, and the cultural context of an individual’s
-      life (school, work, community). The pathways are also bi-directional and inter-generational (Benzeval et
-      al., 2014) . While complex, individuals with greater income tend to be able to afford health care services
-      and health insurance, engage in healthier lifestyles, live in more advantageous communities, and have
-      income for coping from ill health (Benzeval et al., 2014; Woolf et al., 2015).
+      Strong evidence suggests that an absolute increase in an individual’s income floor would directly improve health outcomes (Benzeval et al., 2014; Braveman et al., 2010, 2011; Woolf et al., 2015) . There remains much debate, however, about the specific causal pathways that link income and health. The pathways are complex both between income groups and across the life cycle; they intersect with where an individual lives (geographical location), the access they have to services, and the cultural context of an individual’s life (school, work, community). The pathways are also bi-directional and inter-generational (Benzeval et al., 2014) . While complex, individuals with greater income tend to be able to afford health care services and health insurance, engage in healthier lifestyles, live in more advantageous communities, and have income for coping from ill health (Benzeval et al., 2014; Woolf et al., 2015).
 
 
-      Recognizing the complexities of the casual pathways that link income and health, a UBI could still serve
-      as a key component to addressing some of the challenges in population health. A UBI could possibly
-      minimize the health risks associated with higher rates of chronic disease and illness among adults and
-      children by addressing the underlying socioeconomic and environmental circumstances (Mah, 2017) .
-      These health risks include increased tobacco use, raised blood pressure, physical inactivity, unhealthy
-      diet, and harmful use of alcohol (Public Health Agency Canada, 2015). Economic insecurity, among other
-      socioeconomic circumstances, has been shown to contribute to chronic stress, and therefore to impact
-      these risks and result in worse health outcomes (Forget, 2018).
+      Recognizing the complexities of the casual pathways that link income and health, a UBI could still serve as a key component to addressing some of the challenges in population health. A UBI could possibly minimize the health risks associated with higher rates of chronic disease and illness among adults and children by addressing the underlying socioeconomic and environmental circumstances (Mah, 2017) . These health risks include increased tobacco use, raised blood pressure, physical inactivity, unhealthy diet, and harmful use of alcohol (Public Health Agency Canada, 2015). Economic insecurity, among other socioeconomic circumstances, has been shown to contribute to chronic stress, and therefore to impact these risks and result in worse health outcomes (Forget, 2018).
 
 
-      UBI could minimize these risks because it serves as a form of income security or insurance, whether or
-      not an individual works (Forget, 2011) . For those receiving the basic income in the Finland basic income
-      experiment (2017–2018), for example, self-perceived levels of stress were lower than for those not
-      participating. Because 54.8 percent of participants considered their health to be very good or good relative
-      to 46.2 percent of nonparticipants, it is possible that lower stress contributed to a better perception of
-      one’s overall health and wellbeing (Kangas et al., 2019) . Moreover, empirical data from the Canadian
-      MINCOME (1975–1978) showed an 8.5 percent decline in hospitalizations related to accidents and
-      injuries (Forget, 2011) - including those injuries that are highly correlated with income insecurity induced
-      stress, such as, car accidents, children suffering from accidents while parents are out harvesting, and
-      alcohol induced injuries.
+      UBI could minimize these risks because it serves as a form of income security or insurance, whether or not an individual works (Forget, 2011) . For those receiving the basic income in the Finland basic income experiment (2017–2018), for example, self-perceived levels of stress were lower than for those not participating. Because 54.8 percent of participants considered their health to be very good or good relative to 46.2 percent of nonparticipants, it is possible that lower stress contributed to a better perception of one’s overall health and wellbeing (Kangas et al., 2019) . Moreover, empirical data from the Canadian MINCOME (1975–1978) showed an 8.5 percent decline in hospitalizations related to accidents and injuries (Forget, 2011) - including those injuries that are highly correlated with income insecurity induced stress, such as, car accidents, children suffering from accidents while parents are out harvesting, and alcohol induced injuries.
 
 
-      One’s health is also determined by social factors such as where one lives and the civic and economic
-      vitality of one’s community. But, increasingly, income inequality is making it difficult for individuals to
-      afford to live in healthier, more advantageous communities (Forget, 2018) . Those who live in less
-      advantageous communities often experience higher levels of chronic stress and face challenges with a
-      number of community-level health-related factors (access to healthy food, affordable housing,
-      transportation, school systems, jobs and health care, environmental pollution, among others) (Benzeval et
-      al., 2014; Woolf et al., 2015).
+      One’s health is also determined by social factors such as where one lives and the civic and economic vitality of one’s community. But, increasingly, income inequality is making it difficult for individuals to afford to live in healthier, more advantageous communities (Forget, 2018) . Those who live in less advantageous communities often experience higher levels of chronic stress and face challenges with a number of community-level health-related factors (access to healthy food, affordable housing, transportation, school systems, jobs and health care, environmental pollution, among others) (Benzeval et al., 2014; Woolf et al., 2015).
 
 
-      If a UBI was funded progressively, it could reduce some of the health inequities among individuals living
-      in low income communities by allowing for increased access to quality services and housing (Ruckert et
-      al., 2018) . Results from the U.S.-run New Jersey Income Maintenance Experiment (1968–1972), the Gary
-      Maintenance Income Experiment (1971–1974), and the Denver and Seattle Maintenance Income
-      Experiments (1971–1982) showed that those receiving the income transfer tended to have higher mobility
-      rates than households in the control groups (positive effects on private rental expenses) (Kaluzny, 1979) .
-      In the Gary experiment, poor housing conditions and dissatisfaction with current dwelling conditions
-      were positively related to mobility (Kaluzny, 1979).
+      If a UBI was funded progressively, it could reduce some of the health inequities among individuals living in low income communities by allowing for increased access to quality services and housing (Ruckert et al., 2018) . Results from the U.S.-run New Jersey Income Maintenance Experiment (1968–1972), the Gary Maintenance Income Experiment (1971–1974), and the Denver and Seattle Maintenance Income Experiments (1971–1982) showed that those receiving the income transfer tended to have higher mobility rates than households in the control groups (positive effects on private rental expenses) (Kaluzny, 1979) . In the Gary experiment, poor housing conditions and dissatisfaction with current dwelling conditions were positively related to mobility (Kaluzny, 1979).
 
-      While there is a relationship between income and health outcomes, additional research is needed to
-      understand how a basic income dispersed universally would play out on health disparities across different
-      income levels and in different country contexts with varying healthcare systems.
-      
-      
-      **Related Topics:**
+      While there is a relationship between income and health outcomes, additional research is needed to understand how a basic income dispersed universally would play out on health disparities across different income levels and in different country contexts with varying healthcare systems.
+    related: |-
+      * Mental health (in UBI & Health)
 
-      - Mental health (in UBI & Health)
+      * Access to Health Care/Services (in UBI &amp; Health)
 
-      - Access to Health Care/Services (in UBI &amp; Health)
-
-      - The working poor (in UBI and Poverty)
-
-
-      **Read More:**
-      
-      
-      - Benzeval, M., Lorenc, T., Petticrew, M., Campbell, M., Egan, M., Bond, L., &amp; Petticrew, M. (2014). How
-      Does Money Influence Health? (p. 70). Joseph Rowntree Foundation.
+      * The working poor (in UBI and Poverty)
+    citations: >-
+      * Benzeval, M., Lorenc, T., Petticrew, M., Campbell, M., Egan, M., Bond,
+      L., &amp; Petticrew, M. (2014). How Does Money Influence Health? (p. 70).
+      Joseph Rowntree Foundation.
       https://www.jrf.org.uk/sites/default/files/jrf/migrated/files/income-health-poverty-full.pdf
-      
-      - Braveman, P. A., Cubbin, C., Egerter, S., Williams, D. R., &amp; Pamuk, E. (2010). Socioeconomic
-      Disparities in Health in the United States: What the Patterns Tell Us. American Journal of Public
-      Health, 100(S1), S186–S196. https://doi.org/10.2105/AJPH.2009.166082
-      
-      - Braveman, P. A., &amp; Egerter, S. (2013). Overcoming Obstacles to Health in 2013 and Beyond [RWJF
-      Commission to Build A Healthier America]. Robert Wood Johnson Foundation.
-      https://www.uab.edu/midsouthtcc/images/pdfs/RWJF_Overcoming_Obstacles_to_Health_in_201
-      3_and_Beyond.pdf
-      
-      - Braveman, P. A., Egerter, S., &amp; Braclay, C. (2011). Income, Wealth and Health (Series Number 4;
-      Exploring the Social Determinants of Health). Robert Wood Johnson Foundation.
-      https://www.rwjf.org/en/library/research/2011/04/how-social-factors-shape-health1.html
-      
-      - Forget, E. L. (2011). The Town with No Poverty: The Health Effects of a Canadian Guaranteed Annual
-      Income Field Experiment. Canadian Public Policy, 37(3), 283–305.
-      https://doi.org/10.3138/cpp.37.3.283
-      
-      - Forget, E. L. (2018). Basic income for Canadians: The key to a healthier, happier, more secure life for
-      all. James Lorimer &amp; Company Ltd., Publishers.
-      Kaluzny, R. L. (1979). Changes in the Consumption of Housing Services: The Gary Experiment. The
-      Journal of Human Resources, 14(4), 496. https://doi.org/10.2307/145320
-      
-      - Kangas, O., Jauhiainen, S., Simanainen, M., &amp; Ylikännö, M. (2019). The basic income experiment
-      2017–2018 in Finland Preliminary results. 34.
-      
-      - Mah, S. (2017, October 12). Is Basic Income the next big population health intervention? [Basic Income
-      Earth Network]. https://basicincome.org/news/2017/10/basic-income-next-big-population-health-
-      intervention/
-      
-      - Office of the Assistant Secretary for Planning and Evaluation. (2019). 2019 Poverty Guidelines.
-      Department of Health and Human Services. https://aspe.hhs.gov/2019-poverty-guidelines
-      
-      - Public Health Agency Canada. (2015, April 9). Chronic Disease Risk Factors. Government of Canada.
-      https://www.canada.ca/en/public-health/services/chronic-diseases/chronic-disease-risk-
-      factors.html
-      
-      - Ruckert, A., Huynh, C., &amp; Labonté, R. (2018). Reducing health inequities: Is universal basic income the
-      way forward? Journal of Public Health, 40(1), 3–7. https://doi.org/10.1093/pubmed/fdx006
 
-      - Schiller, J., Lucas, J., &amp; Peregoy, J. (2012). Summary Health Statistics for U.S.Adults: National Health
-      Interview Survey, 2011 (Series 10, Report 256; Vital and Health Statistics). National Center for
-      Health Statistics. https://www.cdc.gov/nchs/data/series/sr_10/sr10_256.pdf
-      
-      - Woolf, S., Simon, S., Aron, L., Zimmerman, E., Dubay, L., &amp; Luk, K. (2015). How Are income and
-      Wealth Linked to Health and Longevity? (No. 1; Income and Health Initiative). Urban Institute.
-      https://www.urban.org/research/publication/how-are-income-and-wealth-linked-health-and-
-      longevity/view/full_report
+      * Braveman, P. A., Cubbin, C., Egerter, S., Williams, D. R., &amp; Pamuk, E. (2010). Socioeconomic Disparities in Health in the United States: What the Patterns Tell Us. American Journal of Public Health, 100(S1), S186–S196. https://doi.org/10.2105/AJPH.2009.166082
 
+      * Braveman, P. A., &amp; Egerter, S. (2013). Overcoming Obstacles to Health in 2013 and Beyond \[RWJF Commission to Build A Healthier America]. Robert Wood Johnson Foundation. https://www.uab.edu/midsouthtcc/images/pdfs/RWJF_Overcoming_Obstacles_to_Health_in_201 3_and_Beyond.pdf
+
+      * Braveman, P. A., Egerter, S., &amp; Braclay, C. (2011). Income, Wealth and Health (Series Number 4; Exploring the Social Determinants of Health). Robert Wood Johnson Foundation. https://www.rwjf.org/en/library/research/2011/04/how-social-factors-shape-health1.html
+
+      * Forget, E. L. (2011). The Town with No Poverty: The Health Effects of a Canadian Guaranteed Annual Income Field Experiment. Canadian Public Policy, 37(3), 283–305. https://doi.org/10.3138/cpp.37.3.283
+
+      * Forget, E. L. (2018). Basic income for Canadians: The key to a healthier, happier, more secure life for all. James Lorimer &amp; Company Ltd., Publishers. Kaluzny, R. L. (1979). Changes in the Consumption of Housing Services: The Gary Experiment. The Journal of Human Resources, 14(4), 496. https://doi.org/10.2307/145320
+
+      * Kangas, O., Jauhiainen, S., Simanainen, M., &amp; Ylikännö, M. (2019). The basic income experiment 2017–2018 in Finland Preliminary results. 34.
+
+      * Mah, S. (2017, October 12). Is Basic Income the next big population health intervention? \[Basic Income Earth Network]. https://basicincome.org/news/2017/10/basic-income-next-big-population-health- intervention/
+
+      * Office of the Assistant Secretary for Planning and Evaluation. (2019). 2019 Poverty Guidelines. Department of Health and Human Services. https://aspe.hhs.gov/2019-poverty-guidelines
+
+      * Public Health Agency Canada. (2015, April 9). Chronic Disease Risk Factors. Government of Canada. https://www.canada.ca/en/public-health/services/chronic-diseases/chronic-disease-risk- factors.html
+
+      * Ruckert, A., Huynh, C., &amp; Labonté, R. (2018). Reducing health inequities: Is universal basic income the way forward? Journal of Public Health, 40(1), 3–7. https://doi.org/10.1093/pubmed/fdx006
+
+      * Schiller, J., Lucas, J., &amp; Peregoy, J. (2012). Summary Health Statistics for U.S.Adults: National Health Interview Survey, 2011 (Series 10, Report 256; Vital and Health Statistics). National Center for Health Statistics. https://www.cdc.gov/nchs/data/series/sr_10/sr10_256.pdf
+
+      * Woolf, S., Simon, S., Aron, L., Zimmerman, E., Dubay, L., &amp; Luk, K. (2015). How Are income and Wealth Linked to Health and Longevity? (No. 1; Income and Health Initiative). Urban Institute. https://www.urban.org/research/publication/how-are-income-and-wealth-linked-health-and- longevity/view/full_report
   - theme: Mental Health
     id: mental-health
     body: >-
-      This section discusses the effects UBI could have on some of social determinants that contribute to
-      negative mental health outcomes.
-      
-      
+      This section discusses the effects UBI could have on some of social
+      determinants that contribute to negative mental health outcomes.
+
+
       **Summary**
 
 
-      Mental health disorders have become increasingly common in the United States. In 2017, nearly one in
-      five adults aged 18 or older (or 18.9 percent of all adults) were living with a mental illness. Of those
-      individuals, 4.5 percent had a serious mental illness with greater prevalence among women and young
-      adults under 25 (National Institute of Mental Health, 2019) . Mental health problems and disorders are
-      complex outcomes, shaped by biological and psychological factors and by the social, economic, and
-      physical environments in which people live (Lund, 2018) . Communities facing stark social inequalities,
-      financial strain, limited education, unemployment, and adverse neighborhood characteristics are
-      associated with an increased risk of developing a variety of mental disorders, including depression,
-      anxiety, posttraumatic stress disorder or substance use disorder (Allen et al., 2014; Silva et al., 2016).
+      Mental health disorders have become increasingly common in the United States. In 2017, nearly one in five adults aged 18 or older (or 18.9 percent of all adults) were living with a mental illness. Of those individuals, 4.5 percent had a serious mental illness with greater prevalence among women and young adults under 25 (National Institute of Mental Health, 2019) . Mental health problems and disorders are complex outcomes, shaped by biological and psychological factors and by the social, economic, and physical environments in which people live (Lund, 2018) . Communities facing stark social inequalities, financial strain, limited education, unemployment, and adverse neighborhood characteristics are associated with an increased risk of developing a variety of mental disorders, including depression, anxiety, posttraumatic stress disorder or substance use disorder (Allen et al., 2014; Silva et al., 2016).
 
 
-      Mental health disorders have wide-ranging social, economic and health consequences for individuals and
-      families as well as local and larger communities. The social and economic costs of mental illness, both
-      direct (medication, clinic visits, or hospitalization) and indirect (reduced labor supply, public income
-      support payments, reduced educational attainment, or costs associated with homelessness and
-      incarceration) (Insel, 2008) are shared widely and have lasting and profound effects. On a macro level,
-      serious mental disorders cost the United States an estimated $200 billion in lost earnings per year (Insel,
-      2008) ; and, in 2013, the United States spent $71 billion to treat depressive disorders—the most costly
-      among mental health and substance abuse disorders (Dieleman et al., 2016) . In 2017, the City of San
-      Francisco was spending an estimated $370 million a year providing behavioral health services to more
-      than 30,000 individuals (Tipping Point Community &amp; University of California, San Francisco, 2019).
+      Mental health disorders have wide-ranging social, economic and health consequences for individuals and families as well as local and larger communities. The social and economic costs of mental illness, both direct (medication, clinic visits, or hospitalization) and indirect (reduced labor supply, public income support payments, reduced educational attainment, or costs associated with homelessness and incarceration) (Insel, 2008) are shared widely and have lasting and profound effects. On a macro level, serious mental disorders cost the United States an estimated $200 billion in lost earnings per year (Insel, 2008) ; and, in 2013, the United States spent $71 billion to treat depressive disorders—the most costly among mental health and substance abuse disorders (Dieleman et al., 2016) . In 2017, the City of San Francisco was spending an estimated $370 million a year providing behavioral health services to more than 30,000 individuals (Tipping Point Community &amp; University of California, San Francisco, 2019).
 
 
-      Addressing, managing, and reducing mental health disorders would necessarily require a multi-pronged
-      approach. It would be a mistake to think that a cash program alone could resolve such a profound issue.
-      But UBI can, nonetheless, help improve mental health and reduce the risk of mental health disorders by
-      improving an individual’s financial security and mobility.
+      Addressing, managing, and reducing mental health disorders would necessarily require a multi-pronged approach. It would be a mistake to think that a cash program alone could resolve such a profound issue. But UBI can, nonetheless, help improve mental health and reduce the risk of mental health disorders by improving an individual’s financial security and mobility.
 
 
-      First, a generous UBI program could reduce economic insecurity, thereby decreasing stress (Ruckert et
-      al., 2018) . Economic insecurity is increasingly cited as one of the key socioeconomic determinants of
-      mental health (Allen et al., 2014; Kopasker et al., 2018; Lund, 2018) . The basic income experiment in
-      Finland (2017–2018), albeit brief, showed signs of stress reduction among participants relative to non-
-      participants: 54.8 percent of participants reported little to no stress relative to 45.6 percent of non-basic
-      income recipients (Kangas et al., 2019).
+      First, a generous UBI program could reduce economic insecurity, thereby decreasing stress (Ruckert et al., 2018) . Economic insecurity is increasingly cited as one of the key socioeconomic determinants of mental health (Allen et al., 2014; Kopasker et al., 2018; Lund, 2018) . The basic income experiment in Finland (2017–2018), albeit brief, showed signs of stress reduction among participants relative to non- participants: 54.8 percent of participants reported little to no stress relative to 45.6 percent of non-basic income recipients (Kangas et al., 2019).
 
 
-      Results from negative income tax experiments, dividends, and unconditional cash transfers (UCTs) also
-      highlight the positive effects of increased economic security on self-esteem, stress, anxiety and worry.
-      The Mincome experiment in Manitoba, Canada, in the late 1970s showed an 8.5 percent decline in
-      hospitalization rates largely due to a decline in mental health issues related to alcohol consumption
-      (Forget, 2011, 2013) . More recent qualitative data from the prematurely cancelled Ontario Basic Income
-      Pilot indicated reductions in posttraumatic stress and chronic health problems (Forget, 2019) .
-      
-      
-      Other regularly dispersed unconditional cash transfer programs have also improved mental health. A
-      longitudinal study on the Eastern Band of Cherokee Indians examined the psychiatric outcomes following
-      the opening of a casino and bi-yearly income payments; it found that those families who were poor before
-      the casino and came out of poverty after it opened had a notable reduction in children’s psychiatric
-      disorders (symptoms of conduct and oppositional defiant disorders) (Costello et al., 2003) .
-      
-      
-      Research from low- and middle-income countries also points to the positive impact of unconditional cash
-      on mental health. In the pilot implemented by the NGO Give Directly in Western Kenya between 2011
-      and 2012, the cash transfer contributed to increases in happiness and life satisfaction as well as a reduction in stress. In the same pilot, large single lump-sum transfers (rather than regular monthly
-      transfers) led to a reduction in levels of cortisol, the stress hormone. Women also experienced a greater
-      “reduction in worries and increase in self-esteem” relative to men, when receiving the transfer (Haushofer
-      &amp; Shapiro, 2016) . Finally, a UCT Program for Orphans and Vulnerable Children in Kenya showed a
-      reduction in depressive symptoms by 24 percent among young persons living in households that received
-      cash transfers, relative to those who did not (Kilburn et al., 2016).
+      Results from negative income tax experiments, dividends, and unconditional cash transfers (UCTs) also highlight the positive effects of increased economic security on self-esteem, stress, anxiety and worry. The Mincome experiment in Manitoba, Canada, in the late 1970s showed an 8.5 percent decline in hospitalization rates largely due to a decline in mental health issues related to alcohol consumption (Forget, 2011, 2013) . More recent qualitative data from the prematurely cancelled Ontario Basic Income Pilot indicated reductions in posttraumatic stress and chronic health problems (Forget, 2019) .
 
 
-      Moreover, unlike conditional cash transfer programs or traditional welfare programs, the unconditional
-      feature of a UBI policy could also have important effects on individuals’ mental health. When recipients
-      know that they will receive the cash without having to meet any conditions—and that they are able to
-      choose what they want to do with it—UBI may reduce anxiety and stress (Mah, 2017) . For instance, the
-      recipients of the Canadian unconditional income grant for senior citizens (Old Age Supplement, or OAS)
-      self-reported better mental health outcomes than the recipients of conditional Canadian assistance
-      programs (McIntyre et al., 2016) . Data indicated that the stringent eligibility criteria of some of the
-      current income assistance programs in Canada often left individuals dependent on these programs feeling
-      stressed, marginalized, disempowered and hopeless. In contrast, low-income seniors who received the
-      OAS faced less administrative restrictions (McIntyre et al., 2016).
+      Other regularly dispersed unconditional cash transfer programs have also improved mental health. A longitudinal study on the Eastern Band of Cherokee Indians examined the psychiatric outcomes following the opening of a casino and bi-yearly income payments; it found that those families who were poor before the casino and came out of poverty after it opened had a notable reduction in children’s psychiatric disorders (symptoms of conduct and oppositional defiant disorders) (Costello et al., 2003) .
 
 
-      A cash transfer experiment in Malawi also found that schoolgirls who received an unconditional cash
-      transfer were approximately 14 percentage points less likely to be suffering from psychological distress
-      relative to the control group. Schoolgirls receiving the cash transfer conditional on regular school
-      attendance, however, only had a 6-percentage point decline in psychological distress (Baird et al., 2013) .
-      The data suggests that the higher level of psychological distress among girls with the school attendance
-      conditionality may be attributed to the burden of meeting the conditions (Baird et al., 2013) .
-      
-      
-      UBI may also indirectly impact wellbeing by reducing workers’ dependence on insecure or low-wage
-      jobs. Precariousness represents a significant mental burden and can increase levels of anger, anomie,
-      anxiety, and alienation (Standing, 2016) . Over the last few decades in the United States, the rise of the gig
-      economy, the outsourcing of jobs, and the decline in real wage earnings have been shown to contribute to
-      outcomes associated with negative mental wellness, including an increase in alcoholic liver disease, drug
-      poisoning, and suicide among less educated (high school or less) white Americans (Case &amp; Deaton,
-      2020) . In the United Kingdom, males facing work-related insecurity (or the threat of workplace
-      insecurity) often had the highest rate of mental health related illnesses (Kopasker et al., 2018) . A UBI
-      would only have a limited impact in reducing the occupational insecurities associated with outsourcing or
-      the gig economy, but if it were to help transform precocity and unemployment from a state of insecurity
-      to a state of voluntary flexibility, then it could plausibly also improve mental health (Srnicek &amp; Williams,
-      2015).
+      Research from low- and middle-income countries also points to the positive impact of unconditional cash on mental health. In the pilot implemented by the NGO Give Directly in Western Kenya between 2011 and 2012, the cash transfer contributed to increases in happiness and life satisfaction as well as a reduction in stress. In the same pilot, large single lump-sum transfers (rather than regular monthly transfers) led to a reduction in levels of cortisol, the stress hormone. Women also experienced a greater “reduction in worries and increase in self-esteem” relative to men, when receiving the transfer (Haushofer &amp; Shapiro, 2016) . Finally, a UCT Program for Orphans and Vulnerable Children in Kenya showed a reduction in depressive symptoms by 24 percent among young persons living in households that received cash transfers, relative to those who did not (Kilburn et al., 2016).
 
 
-      Where one lives is also a critical social determinant of mental health. Those who live in adverse
-      neighborhoods with higher levels of violence and crime, stark social inequalities, and fewer employment
-      and educational opportunities have less community connectedness and greater social isolation,
-      contributing to an increase in mental health issues (Silva et al., 2016) . A UBI could possibly give people
-      increased access to housing in neighborhoods with higher quality community services and community
-      participation. Results from the U.S.-run Gary Maintenance Income Experiment between 1971 and 1974
-      showed that those receiving the income transfer tended to move to neighborhoods with better housing and
-      health providers, thereby reducing the risks to mental health outlined above (Ruckert et al., 2018) . That
-      said, it is difficult to infer that the data from the income experiments would necessarily contribute to that
-      type of mobility under a UBI, given that all households would be receiving the same income. Additional
-      research designs are needed to determine the effects of universal programs on communities as a whole.
-      
-      
-      Finally, the payment frequency of a UBI may impact mental health outcomes. While the pathways are
-      complex, research has shown that when some individuals with mental health disorders are already highly
-      indebted, they have a propensity for manic, nihilistic, social value, comfort, impulsive, and addictive
-      spending (Holkar &amp; Mackenzie, 2016) . If a UBI payment were to be more regular and predictable (as opposed to irregular large cash payments or a single lump sum) it may contribute to a reduction in poor
-      outcomes and financial stress, and therefore improved mental health. Evidence from a cousin of basic
-      income (Chicago Earned Income Tax Credit periodic payment pilot) has shown that regular, predictable
-      payments contributed to a reduction of financial stress and an increase in overall wellbeing (Kramer et al.,
-      2019) . Additional research is needed, though, to fully understand how, if at all, the frequency of a UBI
-      would impact mental wellbeing and what wrap-around services, if any, would need to accompany the
-      transfer.
+      Moreover, unlike conditional cash transfer programs or traditional welfare programs, the unconditional feature of a UBI policy could also have important effects on individuals’ mental health. When recipients know that they will receive the cash without having to meet any conditions—and that they are able to choose what they want to do with it—UBI may reduce anxiety and stress (Mah, 2017) . For instance, the recipients of the Canadian unconditional income grant for senior citizens (Old Age Supplement, or OAS) self-reported better mental health outcomes than the recipients of conditional Canadian assistance programs (McIntyre et al., 2016) . Data indicated that the stringent eligibility criteria of some of the current income assistance programs in Canada often left individuals dependent on these programs feeling stressed, marginalized, disempowered and hopeless. In contrast, low-income seniors who received the OAS faced less administrative restrictions (McIntyre et al., 2016).
 
 
-      **Related Topics:**
-      
-      - Physical health (in UBI &amp; Health)
-
-      - Happiness (in UBI &amp; Wellbeing)
-
-      - Loneliness (in UBI &amp; Wellbeing)
+      A cash transfer experiment in Malawi also found that schoolgirls who received an unconditional cash transfer were approximately 14 percentage points less likely to be suffering from psychological distress relative to the control group. Schoolgirls receiving the cash transfer conditional on regular school attendance, however, only had a 6-percentage point decline in psychological distress (Baird et al., 2013) . The data suggests that the higher level of psychological distress among girls with the school attendance conditionality may be attributed to the burden of meeting the conditions (Baird et al., 2013) .
 
 
-      **Read More:**
+      UBI may also indirectly impact wellbeing by reducing workers’ dependence on insecure or low-wage jobs. Precariousness represents a significant mental burden and can increase levels of anger, anomie, anxiety, and alienation (Standing, 2016) . Over the last few decades in the United States, the rise of the gig economy, the outsourcing of jobs, and the decline in real wage earnings have been shown to contribute to outcomes associated with negative mental wellness, including an increase in alcoholic liver disease, drug poisoning, and suicide among less educated (high school or less) white Americans (Case &amp; Deaton, 2020) . In the United Kingdom, males facing work-related insecurity (or the threat of workplace insecurity) often had the highest rate of mental health related illnesses (Kopasker et al., 2018) . A UBI would only have a limited impact in reducing the occupational insecurities associated with outsourcing or the gig economy, but if it were to help transform precocity and unemployment from a state of insecurity to a state of voluntary flexibility, then it could plausibly also improve mental health (Srnicek &amp; Williams, 2015).
 
 
-      - Allen, J., Marmot, M., World Health Organization, &amp; Fundação Calouste Gulbenkian. (2014). Social
-      determinants of mental health.
+      Where one lives is also a critical social determinant of mental health. Those who live in adverse neighborhoods with higher levels of violence and crime, stark social inequalities, and fewer employment and educational opportunities have less community connectedness and greater social isolation, contributing to an increase in mental health issues (Silva et al., 2016) . A UBI could possibly give people increased access to housing in neighborhoods with higher quality community services and community participation. Results from the U.S.-run Gary Maintenance Income Experiment between 1971 and 1974 showed that those receiving the income transfer tended to move to neighborhoods with better housing and health providers, thereby reducing the risks to mental health outlined above (Ruckert et al., 2018) . That said, it is difficult to infer that the data from the income experiments would necessarily contribute to that type of mobility under a UBI, given that all households would be receiving the same income. Additional research designs are needed to determine the effects of universal programs on communities as a whole.
+
+
+      Finally, the payment frequency of a UBI may impact mental health outcomes. While the pathways are complex, research has shown that when some individuals with mental health disorders are already highly indebted, they have a propensity for manic, nihilistic, social value, comfort, impulsive, and addictive spending (Holkar &amp; Mackenzie, 2016) . If a UBI payment were to be more regular and predictable (as opposed to irregular large cash payments or a single lump sum) it may contribute to a reduction in poor outcomes and financial stress, and therefore improved mental health. Evidence from a cousin of basic income (Chicago Earned Income Tax Credit periodic payment pilot) has shown that regular, predictable payments contributed to a reduction of financial stress and an increase in overall wellbeing (Kramer et al., 2019) . Additional research is needed, though, to fully understand how, if at all, the frequency of a UBI would impact mental wellbeing and what wrap-around services, if any, would need to accompany the transfer.
+    related: |-
+      * Physical health (in UBI &amp; Health)
+      * Happiness (in UBI &amp; Wellbeing)
+      * Loneliness (in UBI &amp; Wellbeing)
+    citations: >-
+      * Allen, J., Marmot, M., World Health Organization, &amp; Fundação
+      Calouste Gulbenkian. (2014). Social determinants of mental health.
       http://apps.who.int/iris/bitstream/10665/112828/1/9789241506809_eng.pdf?ua=1
 
-      - Baird, S., Hoop, J. de, &amp; Özler, B. (2013). Income Shocks and Adolescent Mental Health. Journal of
-      Human Resources, 48(2), 370–403. https://doi.org/10.3368/jhr.48.2.370
-      
-      - Case, A., &amp; Deaton, A. (2020). Deaths of despair and the future of capitalism. Princeton University
-      Press.
-      
-      - Costello, E. J., Compton, S. N., Keeler, G., &amp; Angold, A. (2003). Relationships Between Poverty and
-      Psychopathology: A Natural Experiment. JAMA, 290(15), 2023–2029.
-      https://doi.org/10.1001/jama.290.15.2023
-      
-      - Dieleman, J. L., Baral, R., Birger, M., Bui, A. L., Bulchis, A., Chapin, A., Hamavid, H., Horst, C.,
-      Johnson, E. K., Joseph, J., Lavado, R., Lomsadze, L., Reynolds, A., Squires, E., Campbell, M.,
-      DeCenso, B., Dicker, D., Flaxman, A. D., Gabert, R., … Murray, C. J. L. (2016). US Spending on
-      Personal Health Care and Public Health, 1996-2013. JAMA, 316(24), 2627–2646.
-      https://doi.org/10.1001/jama.2016.16885z
-      
-      - Forget, E. L. (2011). The Town with No Poverty: The Health Effects of a Canadian Guaranteed Annual
-      Income Field Experiment. Canadian Public Policy, 37(3), 283–305.
-      https://doi.org/10.3138/cpp.37.3.283
-      
-      - Forget, E. L. (2013). New questions, new data, old interventions: The health effects of a guaranteed
-      annual income. Preventive Medicine, 57(6), 925–928.
-      https://doi.org/10.1016/j.ypmed.2013.05.029
-      
-      - Forget, E. L. (2019, May 21). The Basic Income Path to a Healthier Society. Stanford Basic Income Lab,
-      Stanford University.
-      
-      - Haushofer, J., &amp; Shapiro, J. (2016). The Short-term Impact of Unconditional Cash Transfers to the Poor:
-      Experimental Evidence from Kenya. The Quarterly Journal of Economics, 131(4), 1973–2042.
-      https://doi.org/10.1093/qje/qjw025
-      
-      - Holkar, M., &amp; Mackenzie, P. (2016). Money on your mind. Money and Mental Health Policy Institute.
-      https://www.moneyandmentalhealth.org/link-between-money-and-mental-health/
-      
-      - Insel, T. R. (2008). Assessing the Economic Costs of Serious Mental Illness. American Journal of
-      Psychiatry, 165(6), 663–665. https://doi.org/10.1176/appi.ajp.2008.08030366
-      
-      - Kangas, O., Jauhiainen, S., Simanainen, M., &amp; Ylikännö, M. (2019). The basic income experiment
-      2017–2018 in Finland Preliminary results. 34.
-      
-      - Kilburn, K., Thirumurthy, H., Halpern, C. T., Pettifor, A., &amp; Handa, S. (2016). Effects of a large-scale
-      unconditional cash transfer program on mental health outcomes of young people in Kenya. The
-      Journal of Adolescent Health : Official Publication of the Society for Adolescent Medicine, 58(2),
-      223–229. https://doi.org/10.1016/j.jadohealth.2015.09.023
+      * Baird, S., Hoop, J. de, &amp; Özler, B. (2013). Income Shocks and Adolescent Mental Health. Journal of Human Resources, 48(2), 370–403. https://doi.org/10.3368/jhr.48.2.370
 
-      - Kopasker, D., Montagna, C., &amp; Bender, K. A. (2018). Economic insecurity: A socioeconomic
-      determinant of mental health. SSM - Population Health, 6, 184–194.
-      https://doi.org/10.1016/j.ssmph.2018.09.006
-      
-      - Kramer, K. Z., Andrade, F. C. D., Greenlee, A. J., Mendenhall, R., Bellisle, D., &amp; Lemons Blanks, R.
-      (2019). Periodic Earned Income Tax Credit (EITC) Payment, Financial Stress and Wellbeing: A
-      Longitudinal Study. Journal of Family and Economic Issues, 40(3), 511–523.
-      https://doi.org/10.1007/s10834-019-09618-2
-      
-      - Lund, C. (2018). Social determinants of mental disorders and the Sustainable Development Goals: A
-      systematic review of reviews. 5, 13.
-      
-      - Mah, S. (2017, October 12). Is Basic Income the next big population health intervention? [Basic Income
-      Earth Network]. https://basicincome.org/news/2017/10/basic-income-next-big-population-health-
-      intervention/
-      
-      - McIntyre, L., Kwok, C., Emery, J. C. H., &amp; Dutton, D. J. (2016). Impact of a guaranteed annual income
-      program on Canadian seniors’ physical, mental and functional health. Canadian Journal of Public
-      Health, 107(2), e176–e182. https://doi.org/10.17269/cjph.107.5372
-      
-      - National Institute of Mental Health. (2019, February). Mental Ilness. Mental Health Information.
-      https://www.nimh.nih.gov/health/statistics/mental-illness.shtml#part_154785
-      
-      - Ruckert, A., Huynh, C., &amp; Labonté, R. (2018). Reducing health inequities: Is universal basic income the
-      way forward? Journal of Public Health, 40(1), 3–7. https://doi.org/10.1093/pubmed/fdx006
-      
-      - Silva, M., Loureiro, A., &amp; Cardoso, G. (2016). Social determinants of mental health: A review of the
-      evidence. The European Journal of Psychiatry, 30(4), 259–292.
-      
-      - Srnicek, N., &amp; Williams, A. (2015). Inventing the Future: Postcapitalism and a World Without Work.
-      Verso Books.
-      
-      - Standing, G. (2016). The Precariat: The New Dangerous Class (Reprint edition). Bloomsbury Academic.
-      
-      - Tipping Point Community, &amp; University of California, San Francisco. (2019). Behavioral Health and
-      Homelessness in San Francisco: Needs and Opportunities. http://chi.tippingpoint.org/wp-
-      content/uploads/2019/09/JSI_SF-BH-and-Homelessness_2019.pdf
+      * Case, A., &amp; Deaton, A. (2020). Deaths of despair and the future of capitalism. Princeton University Press.
 
-        
+      * Costello, E. J., Compton, S. N., Keeler, G., &amp; Angold, A. (2003). Relationships Between Poverty and Psychopathology: A Natural Experiment. JAMA, 290(15), 2023–2029. https://doi.org/10.1001/jama.290.15.2023
+
+      * Dieleman, J. L., Baral, R., Birger, M., Bui, A. L., Bulchis, A., Chapin, A., Hamavid, H., Horst, C., Johnson, E. K., Joseph, J., Lavado, R., Lomsadze, L., Reynolds, A., Squires, E., Campbell, M., DeCenso, B., Dicker, D., Flaxman, A. D., Gabert, R., … Murray, C. J. L. (2016). US Spending on Personal Health Care and Public Health, 1996-2013. JAMA, 316(24), 2627–2646. https://doi.org/10.1001/jama.2016.16885z
+
+      * Forget, E. L. (2011). The Town with No Poverty: The Health Effects of a Canadian Guaranteed Annual Income Field Experiment. Canadian Public Policy, 37(3), 283–305. https://doi.org/10.3138/cpp.37.3.283
+
+      * Forget, E. L. (2013). New questions, new data, old interventions: The health effects of a guaranteed annual income. Preventive Medicine, 57(6), 925–928. https://doi.org/10.1016/j.ypmed.2013.05.029
+
+      * Forget, E. L. (2019, May 21). The Basic Income Path to a Healthier Society. Stanford Basic Income Lab, Stanford University.
+
+      * Haushofer, J., &amp; Shapiro, J. (2016). The Short-term Impact of Unconditional Cash Transfers to the Poor: Experimental Evidence from Kenya. The Quarterly Journal of Economics, 131(4), 1973–2042. https://doi.org/10.1093/qje/qjw025
+
+      * Holkar, M., &amp; Mackenzie, P. (2016). Money on your mind. Money and Mental Health Policy Institute. https://www.moneyandmentalhealth.org/link-between-money-and-mental-health/
+
+      * Insel, T. R. (2008). Assessing the Economic Costs of Serious Mental Illness. American Journal of Psychiatry, 165(6), 663–665. https://doi.org/10.1176/appi.ajp.2008.08030366
+
+      * Kangas, O., Jauhiainen, S., Simanainen, M., &amp; Ylikännö, M. (2019). The basic income experiment 2017–2018 in Finland Preliminary results. 34.
+
+      * Kilburn, K., Thirumurthy, H., Halpern, C. T., Pettifor, A., &amp; Handa, S. (2016). Effects of a large-scale unconditional cash transfer program on mental health outcomes of young people in Kenya. The Journal of Adolescent Health : Official Publication of the Society for Adolescent Medicine, 58(2), 223–229. https://doi.org/10.1016/j.jadohealth.2015.09.023
+
+      * Kopasker, D., Montagna, C., &amp; Bender, K. A. (2018). Economic insecurity: A socioeconomic determinant of mental health. SSM - Population Health, 6, 184–194. https://doi.org/10.1016/j.ssmph.2018.09.006
+
+      * Kramer, K. Z., Andrade, F. C. D., Greenlee, A. J., Mendenhall, R., Bellisle, D., &amp; Lemons Blanks, R. (2019). Periodic Earned Income Tax Credit (EITC) Payment, Financial Stress and Wellbeing: A Longitudinal Study. Journal of Family and Economic Issues, 40(3), 511–523. https://doi.org/10.1007/s10834-019-09618-2
+
+      * Lund, C. (2018). Social determinants of mental disorders and the Sustainable Development Goals: A systematic review of reviews. 5, 13.
+
+      * Mah, S. (2017, October 12). Is Basic Income the next big population health intervention? \[Basic Income Earth Network]. https://basicincome.org/news/2017/10/basic-income-next-big-population-health- intervention/
+
+      * McIntyre, L., Kwok, C., Emery, J. C. H., &amp; Dutton, D. J. (2016). Impact of a guaranteed annual income program on Canadian seniors’ physical, mental and functional health. Canadian Journal of Public Health, 107(2), e176–e182. https://doi.org/10.17269/cjph.107.5372
+
+      * National Institute of Mental Health. (2019, February). Mental Ilness. Mental Health Information. https://www.nimh.nih.gov/health/statistics/mental-illness.shtml#part_154785
+
+      * Ruckert, A., Huynh, C., &amp; Labonté, R. (2018). Reducing health inequities: Is universal basic income the way forward? Journal of Public Health, 40(1), 3–7. https://doi.org/10.1093/pubmed/fdx006
+
+      * Silva, M., Loureiro, A., &amp; Cardoso, G. (2016). Social determinants of mental health: A review of the evidence. The European Journal of Psychiatry, 30(4), 259–292.
+
+      * Srnicek, N., &amp; Williams, A. (2015). Inventing the Future: Postcapitalism and a World Without Work. Verso Books.
+
+      * Standing, G. (2016). The Precariat: The New Dangerous Class (Reprint edition). Bloomsbury Academic.
+
+      * Tipping Point Community, &amp; University of California, San Francisco. (2019). Behavioral Health and Homelessness in San Francisco: Needs and Opportunities. http://chi.tippingpoint.org/wp- content/uploads/2019/09/JSI_SF-BH-and-Homelessness_2019.pdf
