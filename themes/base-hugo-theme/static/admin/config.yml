@@ -473,4 +473,112 @@ collections:
                 - {label: Body Text, name: body, widget: markdown}
                 - {label: Related Topics, name: related, widget: markdown}
                 - {label: Citations, name: citations, widget: markdown}
+        - label: Democracy
+          name: democracy
+          file: "data/vizcontent/democracy.yaml"
+          preview_path: research/ubi-visualization/
+          extension: "yaml"
+          fields:
+            - {label: Theme ID, name: themeid, widget: string, hint: "Please do not change"}
+            - {label: Theme Name, name: themename, widget: string}
+            - label: Sub-Themes
+              name: themes
+              widget: list
+              create: true
+              fields:
+                - {label: Sub Theme, name: theme, widget: string}
+                - {label: Sub Theme ID, name: id, widget: string, hint: "Please do not change"}
+                - {label: Body Text, name: body, widget: markdown}
+                - {label: Related Topics, name: related, widget: markdown}
+                - {label: Citations, name: citations, widget: markdown} 
+        - label: Economic Effects
+          name: economic_content
+          file: "data/vizcontent/economic.yaml"
+          preview_path: research/ubi-visualization/
+          extension: "yaml"
+          fields:
+            - {label: Theme ID, name: themeid, widget: string, hint: "Please do not change"}
+            - {label: Theme Name, name: themename, widget: string}
+            - label: Sub-Themes
+              name: themes
+              widget: list
+              create: true
+              fields:
+                - {label: Sub Theme, name: theme, widget: string}
+                - {label: Sub Theme ID, name: id, widget: string, hint: "Please do not change"}
+                - {label: Body Text, name: body, widget: markdown}
+                - {label: Related Topics, name: related, widget: markdown}
+                - {label: Citations, name: citations, widget: markdown}
+        - label: Gender
+          name: gender_content
+          file: "data/vizcontent/gender.yaml"
+          preview_path: research/ubi-visualization/
+          extension: "yaml"
+          fields:
+            - {label: Theme ID, name: themeid, widget: string, hint: "Please do not change"}
+            - {label: Theme Name, name: themename, widget: string}
+            - label: Sub-Themes
+              name: themes
+              widget: list
+              create: true
+              fields:
+                - {label: Sub Theme, name: theme, widget: string}
+                - {label: Sub Theme ID, name: id, widget: string, hint: "Please do not change"}
+                - {label: Body Text, name: body, widget: markdown}
+                - {label: Related Topics, name: related, widget: markdown}
+                - {label: Citations, name: citations, widget: markdown}
+        - label: Health
+          name: health_content
+          file: "data/vizcontent/health.yaml"
+          preview_path: research/ubi-visualization/
+          extension: "yaml"
+          fields:
+            - {label: Theme ID, name: themeid, widget: string, hint: "Please do not change"}
+            - {label: Theme Name, name: themename, widget: string}
+            - label: Sub-Themes
+              name: themes
+              widget: list
+              create: true
+              fields:
+                - {label: Sub Theme, name: theme, widget: string}
+                - {label: Sub Theme ID, name: id, widget: string, hint: "Please do not change"}
+                - {label: Body Text, name: body, widget: markdown}
+                - {label: Related Topics, name: related, widget: markdown}
+                - {label: Citations, name: citations, widget: markdown} 
+        - label: Race
+          name: race_content
+          file: "data/vizcontent/race.yaml"
+          preview_path: research/ubi-visualization/
+          extension: "yaml"
+          fields:
+            - {label: Theme ID, name: themeid, widget: string, hint: "Please do not change"}
+            - {label: Theme Name, name: themename, widget: string}
+            - label: Sub-Themes
+              name: themes
+              widget: list
+              create: true
+              fields:
+                - {label: Sub Theme, name: theme, widget: string}
+                - {label: Sub Theme ID, name: id, widget: string, hint: "Please do not change"}
+                - {label: Body Text, name: body, widget: markdown}
+                - {label: Related Topics, name: related, widget: markdown}
+                - {label: Citations, name: citations, widget: markdown}  
+        - label: Work
+          name: work_content
+          file: "data/vizcontent/work.yaml"
+          preview_path: research/ubi-visualization/
+          extension: "yaml"
+          fields:
+            - {label: Theme ID, name: themeid, widget: string, hint: "Please do not change"}
+            - {label: Theme Name, name: themename, widget: string}
+            - label: Sub-Themes
+              name: themes
+              widget: list
+              create: true
+              fields:
+                - {label: Sub Theme, name: theme, widget: string}
+                - {label: Sub Theme ID, name: id, widget: string, hint: "Please do not change"}
+                - {label: Body Text, name: body, widget: markdown}
+                - {label: Related Topics, name: related, widget: markdown}
+                - {label: Citations, name: citations, widget: markdown}                                                  
                 
