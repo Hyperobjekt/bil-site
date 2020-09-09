@@ -1,83 +1,94 @@
 themeid: automation
 themename: Automation
 themes:
-  - theme: Good Governance
-    id: good-governance
+  - theme: Automation and the Future of Work
+    id: automation-and-future-of-work
     body: >-
-      This section explores how UBI might improve governance in democracies, in
-      particular by examining how UBI may  impact democratic accountability and
-      legitimacy.
+      This section discusses the potential threats posed by automation to the
+      future of work and how UBI might address some of these challenges.
 
 
       **Summary**
 
 
-      As a regime type, democracy is often valued for certain intrinsic characteristics, such as how it manifests citizen equality. But there are also instrumental reasons for valuing democracy, including the fact that it may result in better governance. Democracies may be both more legitimate and more accountable than other forms of government, resulting in policies that are better for citizens. If democracies fail to be accountable or legitimate—that is, to embody these values of good governance—it may contribute to democratic dissatisfaction and the desire for alternative regime types. Globally, dissatisfaction with how democracy is working is on the rise; across 27 countries polled, a median of 51 percent of people were dissatisfied with the current functioning of democracy in their countries (Richard Wike et al., 2019). People who considered their governments to be unaccountable (corrupt or unable to improve standards of living) or illegitimate (untrustworthy or unwilling to respect basic rights) were more likely to be dissatisfied.
+      In   recent   years,   there   have   been   growing   concerns   about   the   potential   societal   effects   of automation   and   artificial   intelligence   (AI)—especially   the   threat   of   unprecedented   job displacement   and   large-scale   unemployment.  A  recent   poll,   for   example,   suggests   that   most adults (73 percent) think that “an increased use of AI will eliminate more jobs than it creates,” a worry that is especially high among younger respondents (78 percent for individuals between the ages   of   18   to   35)   and   among   workers   holding   blue-collar   jobs   (82   percent)  (Gallup   andNortheastern University, 2018).If we value democracy because of its association with good governance, we may ask what impact UBI would have on the ability of democracies to govern well. Evidence from cash transfers offers insights on accountability and legitimacy—the two values thought necessary for good governance.
 
 
-      If we value democracy because of its association with good governance, we may ask what impact UBI would have on the ability of democracies to govern well. Evidence from cash transfers offers insights on accountability and legitimacy—the two values thought necessary for good governance.
+      UBI appears to be an attractive solution to this threat. In fact, automation is the most frequently cited topic connected to the discussion of UBI, and in the same Northeastern and Gallup poll, 48percent of respondents support a basic income for individuals who lose their jobs as a result of automation. Among supporters of UBI, 80 percent agree with the idea of taxing businesses to fund it. More specifically, they agree with the statement that companies who benefit from the adoption of AI should pay for a UBI for those displaced by this economic shift  (Gallup andNortheastern University, 2018).
 
 
-      How might UBI impact the ability of citizens to hold their governments accountable? Insofar as a UBI is likely to increase voter turnout or citizen participation, it could very well increase government accountability. However, it is not enough that citizens merely participate; in order to ensure good governance, how they participate matters as well. “Unhealthy” political engagement, when citizens select and sanction leaders on the basis of their provision of private goods, can damage the state’s ability to govern (Khemani, 2015). Unhealthy civic participation, for example, can be seen in special interests’ groups who mobilize to extract benefits from policies at the expense of public interest. Civic participationis “healthy” when citizens select and sanction leaders on their ability to provide public goods. An exampleof healthy participation might include sanctioning leaders for corruption by voting them out of office.
+      At the same time, there is wide disagreement about the seriousness of the threat posed by current developments in automation and artificial intelligence. Among the many potential future scenarios, three can be considered: (1) large-scale and long-term unemployment; (2) short-term unemployment and long-term recovery of the labor market; (3) large changes to the labor market in unpredictable and unprecedented ways. Depending on the scenario we privilege, a universal basic income may appear unequally pertinent, with different advantages and limitations.
 
 
-      UBI, which is both a public and a private good, complicates the boundary between healthy and unhealthy civic engagement. On the one hand, reduced economic dependency may empower citizens to monitor their government and to elect responsive leadership. Yet evidence from conditional cash transfers has shown there are also cases in which the policy could reduce the independence of voters, making them more likely to vote for the incumbent (Baez et al., 2012). Vote-buying—the process of offering gifts or money in exchange for votes—is robustly correlated with lower quality of public services across countries (World Bank, 2016). If politicians use the direct benefit of UBI to ‘buy’ votes (for example, by promising increased payments), it may hinder the ability of citizens to remove those leaders in the case of other infractions. It is possible, however, that such an effect could be mitigated by UBI’s universality; the fact that even higher-income citizens would receive the benefit might prevent the emergence of a “Curley effect”—a phenomenon whereby politicians increase the size of their political base, ensuring reelection, via policies that provide distortionary benefits (Glaeser & Shleifer, 2002).
+      According to the first scenario, current trends in automation and developments in artificial intelligence are likely to result in massive job loss and in large-scale and long-term unemployment. Some estimate that anywhere between 47 and 80 percent of current jobs could be automated in the next two decades (McKinsey Global Institute, 2017; Slaughter et al., 2017; Srnicek & Williams, 2015). If this estimate is plausible, there is indeed very serious grounds to fear unprecedented job loss and workers’ displacement (Ford, 2015; Stern, 2016). UBI might then appear to be an efficient—and even necessary—policy to provide a safety net for workers who would lose their jobs, either while they attempt to find a new one and retrain, or as a permanent replacement for their salary in case there are no new jobs available. If funded through some of the wealth produced by automation, UBI would further enable communities to harness some of the profits of automation to keep a stable and generous income floor across society under conditions of large technological unemployment (Sandbu, 2017; Walker, 2016). UBI could further enable individuals to engage in productive activities beyond paid labor (including caregiving and volunteering, but also starting a business project of one’s own) which would be especially valuable in an economy where formal jobs become scarce. Importantly though, UBI would not provide a solution for technological unemployment itself. It would rather allow political communities to mitigate some of its negative effects. Since employment is an important part of human life and can deliver goods beyond money, such as the ability to make a social contribution, feel part of a community, achieve excellence and social recognition (Gheaus & Herzog, 2016; Hughes, 2018), it is implausible to think that UBI can fully compensate individuals for the loss of a job. 
 
 
-      A related fear regarding UBI and accountability is that voter interest in UBI might outweigh other important concerns regarding the public good. Some have argued, for instance, that the annual dividend from Alaska’s Permanent Fund has “warped” local politics, because residents vote to protect their individual payments to the detriment of public services such as schools and universities (Sundlee, 2019). This is important since, when policies provide targeted benefits, as a cash transfer does, there may often be fewer resources available for other types of services, such as public health or education (Khemani, 2019). Evidence is mixed, however, as recent polls demonstrate that voters would be willing to consider capping their Permanent Fund dividend payments or directing additional earnings from the Permanent Fund towards public services and programs (Stalzer, 2015). More research is required to understand the relationship between UBI and voter interest in the provision of public goods.
+      According to the second scenario, while automation and AI are likely to contribute to some level of short-term unemployment, the economy will eventually adapt, and the labor market will recover. There is historical evidence in support of this scenario. While every major technological change throughout history resulted in job loss and workers’ displacement, the long-term demand for labor remained constant or even increased over time (Ford, 2015; Stern, 2016). In this case, we should anticipate large disruptions in the short-term, and overall stabilization in the long-term. If the current wave of technological changes indeed resulted only in short-term job loss, it might still take time for the economy to adapt to these changes, and many individuals and communities will find themselves on the losing end of those changes (since 2000, automation has already contributed to the elimination of millions of manufacturing jobs in the United States). In this case, UBI may prove a critical means to smooth the transition (McKinsey Global Institute, 2017; Walker, 2016). Workers and communities who stand to lose need to have access to a more generous, robust and less bureaucratic safety net than currently available. A UBI would ensure that those communities aren't left behind entirely. Moreover, a UBI for all could lead to a reduction of working hours among those who still have a job, which could then free up positions for those out of work, thus facilitating job-sharing. It is important to note, however, that a fully universal basic income may not be needed in this second scenario. A targeted basic income specifically for those who lose their jobs could be a suitable solution, as long as it is delivered efficiently, and that access is maximized. 
 
 
-      A large part of the perception of a government as legitimate relies on citizen perception that the government is accountable. So, insofar as UBI were to increase democratic accountability, it would also increase democratic legitimacy.But another axis of democratic legitimacy is social cohesion, which is known in some scholarly work as social capital or social connectedness.
+      Finally, according to the third scenario, automation and AI will result in large changes in the labor market that would cause unprecedented transformation. For example, even if automation does not cause massive unemployment, it might lead to an increase in the number of individuals who rely on the “gig economy” as their main source of income. In the least optimistic versions of this scenario, more and more individuals would have to rely on temporary, precarious, and insecure jobs in order to piece together their income and benefits (Slaughter et al., 2017). The range of jobs and activities that will be potentially impacted by automation and AI is quite wide. Some estimates suggest that about 60 percent of all occupations include at least 30 percent of activities that are likely to be automated (McKinsey Global Institute, 2017). The universal and unconditional nature of UBI allows for a better preparation for such wide and uncertain effects and could enhance existing safety net programs to accommodate individuals who are affected by these changes, whether unemployed or not (Bidadanure, 2019). UBI offers a more adequate answer to the large-scale precariousness and insecurity that are associated with these changes, many of which we are already seen today (Srnicek & Williams, 2015; Standing, 2012). 
 
 
-      Social cohesion has been found in empirical studies to impact the health of democracies, as it is often associated with improved institutional performance, economic prosperity, increased mobilization and participation, and general sense of citizen efficacy (Campbell, 2013; Putnam et al., 1994; Rosenstone & Hansen, 2009). Economic inequality, such as highly unequal incomes, and social inequality, such as the existence of unequal rewards and opportunities for various social positions, have been found in empirical research to negatively impact social cohesion (Khambule & Siswana, 2017; Vergolini, 2011; Wilkinson, 1997). Insofar as UBI may be able to reduce economic and social inequalities, it could possibly contributeto increase social cohesion.
-
-
-      Another way in which UBI might increase social cohesion is by changing how people use their time. If people have more time for activities in which they engage with others, such as getting an education or participating in volunteer work, they may have wider social networks and thus create more social cohesion. But a UBI could also have a negative impact on social cohesion. Recipients of a UBI may decide to spend more time at home or in networks that they already have, which could possibly decrease social cohesion. So, because there is no empirical research on what types of activities people might be expected to participate in should they receive a UBI, it is difficult to estimate the impact it could have on social cohesion. Moreover, it has been argued that workplaces play a critical integrative role within democracies; economic necessity forces people of diverse backgrounds and ethnicities to work together, and this daily interaction causes them to build personal ties across social divisions and practice the skills of compromise and consensus (Estlund, 2003). If a UBI means that people are no longer required to work with those with whom they would not otherwise choose to associate, it could, in the long run, decrease social cohesion and thus negatively impact social cohesion and democratic legitimacy. UBI’s potential impact on social cohesion is therefore highly variable, and there is a dearth of evidence to support any oneconclusion. More research is needed.
-
-
-      UBI might also impact the trust that citizens have in the state, which is yet another axis of democratic legitimacy. A basic income that is truly universal creates a service that is accessed by every citizen, from the least to most well off. Consistent citizen engagement with government services may serve to increase the legitimacy of the state as a whole, especially if those services are considered particularly important or competent. The Bolsa Familia program in Brazil demonstrated that transfer recipients showed increased trust in core state institutions, local government, and incumbent actors (Layton et al., 2017). A randomized control trial in Tanzania showed that conditional cash transfers significantly increased trust inelected leaders with a concomitant rise in the perception of government responsiveness to citizen concerns and perceived honesty of leaders (Evans et al., 2018). However, in this trial, the cash transfers were in part implemented via in-person monitoring by elected officials and were conditional on accessing other services, such as healthcare. It is possible that some of the impact on legitimacy is a result of these direct citizen-to-government interactions; if this is the case, an online UBI might actually decrease social trust as citizens engage less often with various government bureaucracies.
-
-
-      It may not be necessary for there to be personal contact between citizens and government officials for there to be increased legitimacy, however; digitized or online services that are sufficiently competent might have the same effect. Indeed, an online UBI might even improve perceptions of government legitimacy more, as it removes some possibilities for corruption and micro-domination in service-provision. First, such a UBI “shortens the chain” between government and citizens; removing hands through which the money must pass can result in more transparency and less corruption(World Bank, 2003). Second, it may make service-provision more equitable. “Street level” bureaucrats, those at the forefront of service provision, can be perceived by recipients as making arbitrary decisions about who canaccess benefits, for what reasons, and when. Removing this element of discretion in personal interaction may actually improve citizen-government interactions, and the net impact of UBI might be an increase in democratic trust. Preliminary results from the Finnish basic income experiment support such a conclusion, as researchers there found that basic income recipients had a small but significant increase in trust in politicians and the legal system relative to the control group (Kangas et al., 2019). The leveling of economic inequality may also contribute to such an effect; because citizens in a democracy are serviced by other citizens, micro-domination weakens social trust and the overarching legitimacy of the political community. If micro-domination is more likely to impact low-income citizens, then reduced inequality may make other forms of service provision—from schooling to healthcare—seem fairer, and the state itself more legitimate.
+      UBI thus seems pertinent in a range of likely scenarios related to the future of work. But UBI is no panacea either and it cannot fix alone all that is lost when workers lose their jobs. Some also argue that the current debate around the threats of automation may not be a necessary part of the case for UBI. Today, the United States is already seeing a significant trend of economic dislocation and wealth concentration, which may be sufficient to justify UBI as a redistributive measure even without the hypothetical threat to future jobs (Hughes, 2018). Furthermore, the current focus on the threats of automation may distract policymakers from the various other reasons we already have to support UBI, such as the need for efficient and respectful poverty alleviation and for more adequate compensation of caregivers (Ruben, 2017).
     related: |-
-      * Related topics Civic participation (in UBI and Democracy)
-
-      * Inequality in political power (in UBI and Inequality) 
-
-      * Gendered welfare (in UBI and Gender) 
-
-      * Racialized welfare stereotypes (in UBI and Race)
-
-      * Freedom from demeaning jobs (in UBI and Wellbeing)
+      * Job precariousness and insecurity (in UBI and Work)
+      * Unemployment (in UBI and Work)
+      * Income Inequality (in UBI and Inequality)
+      * Wealth Inequality (in UBI and Inequality)
     citations: >-
-      Baez, J. E., Camacho, A., Conover, E., & Zárate, R. A. (2012). Conditional
-      Cash Transfers, Political Participation, and Voting Behavior. The World
-      Bank. https://doi.org/10.1596/1813-9450-6215
+      Bidadanure, Juliana. 2020. “The Political Theory of Universal Basic
+      Income,” Annual Review of Economics. Vol 22 (March 2019): 481-501.
 
 
-      Campbell, D. E. (2013). Social Networks and Political Participation. Annual Review of Political Science, 16(1), 33–48. https://doi.org/10.1146/annurev-polisci-033011-201728
+      Ford, Martin. 2015. Rise of the Robots: Technology and the Threat of a Jobless Future. New York: Basic Books
 
 
-      Estlund, C. (2003). Working together: How workplace bonds strengthen a diverse democracy. Oxford University Press.
+      Gheaus, Anca and Lisa Herzog. 2016. “The Goods of Work (Other Than Money!),” Journal of Social Philosophy. Vol 47, no. 1 (Spring 2016): 70-89. 
 
 
-      Evans, D. K., Holtemeyer, B., & Kosec, K. (2018). Cash Transfers Increase Trust in Local Government. The World Bank. https://doi.org/10.1596/1813-9450-8333
+      Harvey, Philip. 2013. More for Less: The Job Guarantee Strategy,” Basic Income Studies 7(2): 3-18. 
 
 
-      Glaeser, E. L., & Shleifer, A. (2002). The Curley Effect (NBER Working Paper No. 8942). National Bureau of Economic Research. https://www.nber.org/papers/w8942
+      Hughes, Chris. 2018. Fair Shot: Rethinking Inequality and How We Earn. New York: St. Martin’s Books.
 
 
-      Kangas, O., Jauhiainen, S., Simanainen, M., & Ylikännö, M. (2019). The basic income experiment 2017–2018 in Finland Preliminary results. 34.
+      McKinsey Global Institute. 2017. “A Future that Works: Automation, Employment, and Productivity”
 
 
-      Khambule, I., & Siswana, B. (2017). How Inequalities undermine Social Cohesion: A Case Study of South Africa \[Policy Brief]. G20 Insights. https://www.g20-insights.org/policy_briefs/inequalities-undermine-social-cohesion-case-study-south-africa/
+      Metz, Cade. 2015. “Why WhatsApp Only Needs 50 Engineers for its 900M users.” Wired Magazine09/15/15. https://www.wired.com/2015/09/whatsapp-serves-900-million-users-50-engineers
 
 
-      Khemani, S. (2015). Buying votes versus supplying public services: Political incentives to under-invest inpro-poor policies. Journal of Development Economics, 117, 84–93. https://doi.org/10.1016/j.jdeveco.2015.07.002
+      Northeastern University & Gallup. 2018. “Optimism and Anxiety: Views on the Impact of Artificial Intelligence and Higher Education Response”
 
 
-      Khemani, S. (2019, April 19). Outsized Focus on Cash Transfers is Missing the Point. Brookings Institute Blog. https://www.brookings.edu/blog/future-development/2019/04/19/outsized-focus-on-cash-transfers-is-missing-the-point/
+      Reich, Robert B. 2016. Saving Capitalism: For the Many, Not the Few. New York: Vintage Books.
 
 
-      Layton, M. L., Donaghy, M. M., & Rennó, L. R. (2017). Does Welfare Provision Promote Democratic State Legitimacy? Evidence from Brazil’s Bolsa Família Program. Latin American Politics and Society, 59(4), 99–120. https://doi.org/10.1111/laps.12035
+      Rogers, Brishen. 2018. "Basic Income in a Just Society", Boston Review (online), 1/31/2018.
+
+
+      Ruben, Adam. 2017. “What Does the Debate on Automation Mean for Basic Income.” Economic Security Project, 3/24/2017. https://medium.com/economicsecproj/what-does-the-debate-on-automation-mean-for-basic-income-c68df5bc6245
+
+
+      Sandbu, Martin. "Money Can Buy You Work," Financial Times (2017)
+
+
+      Shift: The Commission on Work, Workers, and Technology. 2017. Report of Finding. https://shiftcommission.work/findings-of-shift-the-commission-on-work-workers-and-technology-a071bc169df0
+
+
+      Srnicek, Nick and Alex Williams. Inventing the Future: Postcapitalism and a World Without Work. London and New York: Verso Books, 2015.
+
+
+      Standing, Guy. 2011. The Precariat: The New Dangerous Class. London: Bloomsbury. 
+
+
+      Stern, Andy. Raising the Floor: How a Universal Basic Income Can Renew our Economy and Rebuild the American Dream. New York: Public Affairs, 2016.
+
+
+      Tcherneva, Pavlina R. 2013. “The Job Guarantee: Delivering the Benefits That Basic Income Only Promises – A Response to Guy Standing,” Basic Income Studies 7 (2): 66-87.\
+
+
+      Yang, Andrew. 2018. The War on Normal People: The Truth About America’s Disappearing Jobs and Why Universal Basic Income is Our Future. New York: Hachette Books.\
+
+
+      Walker, Mark. Free Money for All. A Basic Income Guarantee Solution for the Twenty-First Century. Palgrave Macmillan (2016).
