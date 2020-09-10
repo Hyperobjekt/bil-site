@@ -22,14 +22,14 @@
             <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
                 {{ range first 1 .themes }}
                     <li class="nav-item">
-                        <a class="nav-link active" id="pills-mental-health-tab" data-toggle="pill" data-id="{{ .id }}" href="#pills-{{ .id }}" role="tab"
-                            aria-controls="pills-mental-health" aria-selected="true">{{ .theme }}</a>
+                        <a class="nav-link active" id="pills-{{ .id }}-tab" data-toggle="pill" data-id="{{ .id }}" href="#pills-{{ .id }}" role="tab"
+                            aria-controls="pills-{{ .id }}" aria-selected="true">{{ .theme }}</a>
                     </li>
                 {{ end }}
                 {{ range after 1 .themes }}
                 <li class="nav-item">
                     <a class="nav-link" id="pills-{{ .id }}-tab" data-toggle="pill" data-id="{{ .id }}" href="#pills-{{ .id }}" role="tab"
-                        aria-controls="pills-physical-health" aria-selected="false">{{ .theme }}</a>
+                        aria-controls="pills-{{ .id }}" aria-selected="false">{{ .theme }}</a>
                 </li>
                 {{ end }}
             </ul>

@@ -223,65 +223,11 @@
 # Automation
 
 - parent: automation
-  id: job-loss-and-technological-unemployment
-  display: 1
-  title: Job loss and technological unemployment
-  xAxis: -360
-  yAxis: 450
-  summary: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-  claims: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
-  relatedTopics:
-    - family
-    - welfare
-  readMore: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-
-    Molestiae sit et qui tenetur. Omnis voluptas dolores explicabo. In fugiat mollitia nihil reiciendis eaque dolor. Dolor ex exercitationem commodi voluptate labore deleniti maiores.
-
-    Totam eveniet vel quia. Quia numquam aut inventore sit qui numquam. Illo et molestiae rerum voluptate qui sunt dolores sed. Voluptas inventore modi natus inventore est. Pariatur rerum qui impedit et.
-
-    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
-- parent: automation
-  id: inequality-and-wealth-concentration
-  display: 1
-  title: Inequality and wealth concentration
-  xAxis: -480
-  yAxis: 400
-  summary: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-  claims: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
-  relatedTopics:
-    - family
-    - welfare
-  readMore: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-
-    Molestiae sit et qui tenetur. Omnis voluptas dolores explicabo. In fugiat mollitia nihil reiciendis eaque dolor. Dolor ex exercitationem commodi voluptate labore deleniti maiores.
-
-    Totam eveniet vel quia. Quia numquam aut inventore sit qui numquam. Illo et molestiae rerum voluptate qui sunt dolores sed. Voluptas inventore modi natus inventore est. Pariatur rerum qui impedit et.
-
-    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
-- parent: automation
   id: automation-and-future-of-work
   display: 1
   title: Automation and the Future of Work
-  xAxis: -560
-  yAxis: 250
+  xAxis: -520
+  yAxis: 480
   summary: >
     Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
 
