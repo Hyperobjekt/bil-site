@@ -362,7 +362,7 @@
 - parent: economic-effects
   id: savings
   display: 1
-  title: Savings
+  title: Savings & Investment
   xAxis: 720
   yAxis: -360
   summary: >
