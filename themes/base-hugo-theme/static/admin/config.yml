@@ -477,7 +477,6 @@ collections:
           name: democracy
           file: "data/vizcontent/democracy.yaml"
           preview_path: research/ubi-visualization/
-          extension: "yaml"
           fields:
             - {label: Theme ID, name: themeid, widget: string, hint: "Please do not change"}
             - {label: Theme Name, name: themename, widget: string}
