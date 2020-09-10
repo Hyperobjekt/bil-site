@@ -1,125 +1,267 @@
 themeid: race
 themename: Race
 themes:
-  - theme: Good Governance
-    id: good-governance
+  - theme: Racial Economic Inequality
+    id: racial-economic-inequality
     body: >-
-      <i>This section explores how UBI might improve governance in democracies, in particular by examining how UBI may 
-      impact democratic accountability and legitimacy.</i>
-      
-      As a regime type, democracy is often valued for certain intrinsic characteristics, such as how it manifests citizen equality. 
-      But there are also instrumental reasons for valuing democracy, including the fact that it may result in better governance. 
-      Democracies may be both more legitimate and more accountable than other forms of government, resulting in policies that 
-      are better for citizens. If democracies fail to be accountable or legitimate—that is, to embody these values of good 
-      governance—it may contribute to democratic dissatisfaction and the desire for alternative regime types. Globally, 
-      dissatisfaction with how democracy is working is on the rise; across 27 countries polled, a median of 51 percent 
-      of people were dissatisfied with the current functioning of democracy in their countries (Richard Wike et al., 2019). 
-      People who considered their governments to be unaccountable (corrupt or unable to improve standards of living) or 
-      illegitimate (untrustworthy or unwilling to respect basic rights) were more likely to be dissatisfied.If we value 
-      democracy because of its association with good governance, we may ask what impact UBI would have on the ability 
-      of democracies to govern well. Evidence from cash transfers offers insights on accountability and legitimacy—the 
-      two values thought necessary for good governance.How might UBI impact the ability of citizens to hold their governments 
-      accountable? Insofar as a UBI is likely to increase voter turnout or citizen participation, it could very well 
-      increase government accountability. However, it is not enough that citizens merely participate; in order to 
-      ensure good governance, how they participate matters as well. “Unhealthy” political engagement, when citizens 
-      select and sanction leaders on the basis of their provision of private goods, can damage the state’s ability 
-      to govern (Khemani, 2015). Unhealthy civic participation, for example, can be seen in special interests’ 
-      groups who mobilize to extract benefits from policies at the expense of public interest. Civic participation 
-      is “healthy” when citizens select and sanction leaders on their ability to provide public goods. An example of 
-      healthy participation might include sanctioning leaders for corruption by voting them out of office. UBI, which is 
-      both a public and a private good, complicates the boundary between healthy and unhealthy civic engagement. 
-      On the one hand, reduced economic dependency may empower citizens to monitor their government and to elect 
-      responsive leadership. Yet evidence from conditional cash transfers has shown there are also cases in which 
-      the policy could reduce the independence of voters, making them more likely to vote for the incumbent 
-      (Baez et al., 2012). Vote-buying—the process of offering gifts or money in exchange for votes—is robustly 
-      correlated with lower quality of public services across countries (World Bank, 2016). If politicians use the 
-      direct benefit of UBI to ‘buy’ votes (for example, by promising increased payments), it may hinder the ability of 
-      citizens to remove those leaders in the case of other infractions. It is possible, however, that such an effect 
-      could be mitigated by UBI’s universality; the fact that even higher-income citizens would receive the benefit might 
-      prevent the emergence of a “Curley effect”—a phenomenon whereby politicians increase the size of their political base, 
-      ensuring reelection, via policies that provide distortionary benefits (Glaeser & Shleifer, 2002). A related fear 
-      regarding UBI and accountability is that voter interest in UBI might outweigh other important concerns regarding 
-      the public good. Some have argued, for instance, that the annual dividend from Alaska’s Permanent Fund has “warped” 
-      local politics, because residents vote to protect their individual payments to the detriment of public services 
-      such as schools and universities (Sundlee, 2019). This is important since, when policies provide targeted benefits, 
-      as a cash transfer does, there may often be fewer resources available for other types of services, such as public 
-      health or education (Khemani, 2019). Evidence is mixed, however, as recent polls demonstrate that voters would be 
-      willing to consider capping their Permanent Fund dividend payments or directing additional earnings from the Permanent 
-      Fund towards public services and programs (Stalzer, 2015). More research is required to understand the relationship 
-      between UBI and voter interest in the provision of public goods.A large part of the perception of a government as 
-      legitimate relies on citizen perception that the government is accountable. So, insofar as UBI were to increase 
-      democratic accountability, it would also increase democratic legitimacy.But another axis of democratic legitimacy is 
-      social cohesion, which is known in some scholarly work as social capital or social connectedness. Social cohesion has 
-      been found in empirical studies to impact the health of democracies, as it is often associated with improved institutional 
-      performance, economic prosperity, increased mobilization and participation, and general sense of citizen efficacy 
-      (Campbell, 2013; Putnam et al., 1994; Rosenstone & Hansen, 2009). Economic inequality, such as highly unequal incomes, 
-      and social inequality, such as the existence of unequal rewards and opportunities for various social positions, have 
-      been found in empirical research to negatively impact social cohesion (Khambule & Siswana, 2017; Vergolini, 2011; 
-      Wilkinson, 1997). Insofar as UBI may be able to reduce economic and social inequalities, it could possibly contribute 
-      to increase social cohesion.Another way in which UBI might increase social cohesion is by changing how people use their 
-      time. If people have more time for activities in which they engage with others, such as getting an education or 
-      participating in volunteer work, they may have wider social networks and thus create more social cohesion. But a UBI 
-      could also have a negative impact on social cohesion. Recipients of a UBI may decide to spend more time at home or 
-      in networks that they already have, which could possibly decrease social cohesion. So, because there is no empirical 
-      research on what types of activities people might be expected to participate in should they receive a UBI, it is difficult 
-      to estimate the impact it could have on social cohesion. Moreover, it has been argued that workplaces play a critical 
-      integrative role within democracies; economic necessity forces people of diverse backgrounds and ethnicities to work 
-      together, and this daily interaction causes them to build personal ties across social divisions and practice the skills 
-      of compromise and consensus (Estlund, 2003). If a UBI means that people are no longer required to work with those with 
-      whom they would not otherwise choose to associate, it could, in the long run, decrease social cohesion and thus negatively 
-      impact social cohesion and democratic legitimacy. UBI’s potential impact on social cohesion is therefore highly variable, 
-      and there is a dearth of evidence to support any oneconclusion. More research is needed.UBI might also impact the trust 
-      that citizens have in the state, which is yet another axis of democratic legitimacy. A basic income that is truly universal 
-      creates a service that is accessed by every citizen, from the least to most well off. Consistent citizen engagement with 
-      government services may serve to increase the legitimacy of the state as a whole, especially if those services are 
-      considered particularly important or competent. The Bolsa Familia program in Brazil demonstrated that transfer recipients 
-      showed increased trust in core state institutions, local government, and incumbent actors (Layton et al., 2017). A 
-      randomized control trial in Tanzania showed that conditional cash transfers significantly increased trust inelected 
-      leaders with a concomitant rise in the perception of government responsiveness to citizen concerns and perceived honesty 
-      of leaders (Evans et al., 2018). However, in this trial, the cash transfers were in part implemented via in-person 
-      monitoring by elected officials and were conditional on accessing other services, such as healthcare. It is possible that 
-      some of the impact on legitimacy is a result of these direct citizen-to-government interactions; if this is the case, 
-      an online UBI might actually decrease social trust as citizens engage less often with various government bureaucracies. 
-      It may not be necessary for there to be personal contact between citizens and government officials for there to be 
-      increased legitimacy, however; digitized or online services that are sufficiently competent might have the same effect. 
-      Indeed, an online UBI might even improve perceptions of government legitimacy more, as it removes some possibilities for 
-      corruption and micro-domination in service-provision. First, such a UBI “shortens the chain” between government and 
-      citizens; removing hands through which the money must pass can result in more transparency and less corruption 
-      (World Bank, 2003). Second, it may make service-provision more equitable. “Street level” bureaucrats, those at the 
-      forefront of service provision, can be perceived by recipients as making arbitrary decisions about who canaccess 
-      benefits, for what reasons, and when. Removing this element of discretion in personal interaction may actually 
-      improve citizen-government interactions, and the net impact of UBI might be an increase in democratic trust. 
-      Preliminary results from the Finnish basic income experiment support such a conclusion, as researchers there found 
-      that basic income recipients had a small but significant increase in trust in politicians and the legal system 
-      relative to the control group (Kangas et al., 2019). The leveling of economic inequality may also contribute to 
-      such an effect; because citizens in a democracy are serviced by other citizens, micro-domination weakens social trust 
-      and the overarching legitimacy of the political community. If micro-domination is more likely to impact low-income 
-      citizens, then reduced inequality may make other forms of service provision—from schooling to healthcare—seem fairer, 
-      and the state itself more legitimate.
-    related: >-
-      Related topics
-      Civic participation (in UBI and Democracy)
-      Inequality in political power (in UBI and Inequality) 
-      Gendered welfare (in UBI and Gender) 
-      Racialized welfare stereotypes (in UBI and Race)
-      Freedom from demeaning jobs (in UBI and Wellbeing)
+      This section discusses how UBI could possibly reduce some racial economic
+      inequalities in the United States.
+
+
+      **Summary** 
+
+
+
+      Since the founding of the United States, unequal policies have restricted financial opportunities for many and perpetuated the intergenerational transmission of poverty and racial economic inequality. Federal policies, like the G.I. Bill and the process of “redlining,” helped mostly white Americans obtain college degrees and purchase homes, the bedrock of wealth-creation, while systematically excluding African-Americans (Bhattacharya, 2019; Traub et al., 2017). Black households, instead, had to endure school segregation, limited access to financial institutions and racialized mass incarceration practices. Additionally, they were forced into predatory mortgage agreements, confined to impoverished neighborhoods, and excluded from other essential goods and governmental services (Alexander & West, 2020; Bertocchi & Dimico, 2011; Coates, 2014). 
+
+
+
+      These processes combined with lower wages and income have contributed to large economic inequalities and a glaring wealth gap. Today, in the U.S., the median white family has a net wealth of $171,000, whereas the median Black family has a net wealth of roughly $17,000 (Oliver & Shapiro, 2019). Neither obtaining a college degree nor working full time closes the divide (Traub et al., 2017). The gap is not explained by fiscal irresponsibility either: white households in fact tend to consume more than Black households of the same income (Traub et al., 2017). 
+
+
+
+      This wealth gap is concerning for the injustices it reveals, but also for its consequences. Wealth creates opportunities for individuals and households to invest in education and entrepreneurial ventures, maintain savings, transition between jobs, and handle unforeseen expenses. It also affords choice and self-empowerment, and it gives access to power. The lack of wealth and economic opportunities, conversely, minimizes the chance of upward mobility and economic stability (Hanks et al., 2018). Black households, therefore, are more likely to be ill-equipped for future investments—such as college tuition or a down payment—as well as unanticipated financial shocks such as a medical emergency or layoff. Without transformative policy interventions, it would take at least 200 years to end the Black-white wealth gap in the United States (Hanks et al., 2018).
+
+
+
+      A single policy cannot counteract economic inequalities grounded in centuries-long oppression, but a UBI could at least ensure that households meet their basic needs and possibly reduce their debt. First, a universal basic income would most benefit those at the bottom of the income distribution, because it would represent a larger proportional boost in a household’s overall income. This includes those who are formally incarcerated who have historically been left out of welfare programs or forced to meet onerous conditions (Bhattacharya, 2019; Warren, 2016). Second, a basic income funded through redistribution could potentially help mitigate some of the effects of discrimination in labor markets, which disproportionately disadvantages Black Americans. Racial prejudice in the employment process—hiring, promoting, compensating—means many Americans of color make only a fraction of what white Americans make: at median income, Black Americans earned 65 percent as much as white Americans in 2016 (Kochhar & Cilluffo, 2018). As a result, those racialized as Black often find themselves disproportionately vulnerable to economic insecurity. Black Americans are about twice as likely to be behind on bill payments as white Americans. Recent evidence from the Magnolia Mother’s Trust experiment in Jackson, Mississippi, showed that within a year, a cash transfer of $1,000 a month allowed 80 percent of participants to pay their bills without additional support, an increase from 37 percent at the start of the experiment (Springboard To Opportunities, 2020).
+
+
+
+      The implementation of a generous basic income ensures that all Americans, regardless of employment status, can cover basic necessities, especially during periods of precarious employment and income irregularities. But a UBI may also increase the ability of Black households to save, which could then be used to invest in educational or entrepreneurial pursuits. It would enable wealth-building opportunities often impossible on income from labor alone. A progressively funded UBI could then directly address the disparities of income and wealth between Black and white Americans (Warren, 2016). Moreover, since white Americans typically earn more than Black Americans, a larger proportion of their UBI would be taxed back.  This is another reason why Black Americans may disproportionately benefit from a UBI even though it is a universal policy (of course, this is only true of UBI programs that are funded at least in part by progressive income taxes). This would essentially amount to a form of reparation that corrects for some of the previous wealth hoarding among white Americans as the result of racially-discriminatory governmental policies (Warren, 2016).
+
+
+
+      Even more straightforwardly relevant to racial economic injustice, a UBI “Plus” has been proposed as a potential policy to directly address the racial economic disparities brought on by structural racism in the United States (Warren, 2017). The modified version of this idea, Universal PLUS Basic Income (U+BI), parallels most basic income proposals—an unconditional cash transfer provided to everyone on a regular basis. However, U+BI also includes a pro-rated additional amount for Black Americans for a specific time period, potentially funded through a divestment from carceral institutions. This portion of U+BI would function as reparations: it would serve to acknowledge the systemic disadvantages African Americans faced under Jim Crow and slavery and to restitute a group that is worse off as a result (Warren, 2017). U+BI would likely face popular opposition given its explicit emphasis on racial equity and reparations. The additional payment to Black Americans could provoke racial resentment and further perpetuate the existing stigmatization of Black Americans as welfare recipients. This may be a barrier to political feasibility. But, clearly, the U+BI proposal does more directly and frontally address the racial wealth gap than a redistributive UBI program.
+
+
+
+      While there is great potential for UBI, a basic income policy alone cannot close the racial wealth gap. Critics of UBI have argued that other policies—such as baby bonds, student debt forgiveness, and a federal jobs guarantee, or a mix of those proposals—would better address racial economic inequities (Ackerman & Alstott, 2004; Oliver & Shapiro, 2019). Since UBI focuses largely on stabilizing income (Oliver & Shapiro, 2019), the extent to which it could decrease wealth disparities has yet to be tested and would depend on the specific way the policy is funded, as well as on  whether it replaces or supplements other safety net programs. Closing the racial income and wealth gap, in a timely fashion, would also require eliminating workplace discrimination and mass-incarceration as well as implementing reparations.
+    related: |-
+      * Racialized welfare stereotypes (in UBI & Race)
+      * Wealth inequality (UBI & Inequality)
+      * The poverty trap (UBI & Poverty)
     citations: >-
-      Read more:
-      
-      Baez, J. E., Camacho, A., Conover, E., & Zárate, R. A. (2012). Conditional Cash Transfers, Political Participation, and Voting Behavior. The World Bank. https://doi.org/10.1596/1813-9450-6215
-      Campbell, D. E. (2013). Social Networks and Political Participation. Annual Review of Political Science, 16(1), 33–48. https://doi.org/10.1146/annurev-polisci-033011-201728
-      Estlund, C. (2003). Working together: How workplace bonds strengthen a diverse democracy. Oxford University Press.
-      Evans, D. K., Holtemeyer, B., & Kosec, K. (2018). Cash Transfers Increase Trust in Local Government. The World Bank. https://doi.org/10.1596/1813-9450-8333
-      Glaeser, E. L., & Shleifer, A. (2002). The Curley Effect (NBER Working Paper No. 8942). National Bureau of Economic Research. https://www.nber.org/papers/w8942
-      Kangas, O., Jauhiainen, S., Simanainen, M., & Ylikännö, M. (2019). The basic income experiment 2017–2018 in Finland Preliminary results. 34.
-      Khambule, I., & Siswana, B. (2017). How Inequalities undermine Social Cohesion: A Case Study of South Africa [Policy Brief]. G20 Insights. https://www.g20-insights.org/policy_briefs/inequalities-undermine-social-cohesion-case-study-south-africa/
-      Khemani, S. (2015). Buying votes versus supplying public services: Political incentives to under-invest inpro-poor policies. Journal of Development Economics, 117, 84–93. https://doi.org/10.1016/j.jdeveco.2015.07.002
-      Khemani, S. (2019, April 19). Outsized Focus on Cash Transfers is Missing the Point. Brookings Institute Blog. https://www.brookings.edu/blog/future-development/2019/04/19/outsized-focus-on-cash-transfers-is-missing-the-point/
-      Layton, M. L., Donaghy, M. M., & Rennó, L. R. (2017). Does Welfare Provision Promote Democratic State Legitimacy? Evidence from Brazil’s Bolsa Família Program. Latin American Politics and Society, 59(4), 99–120. https://doi.org/10.1111/laps.12035
-      Putnam, R. D., Leonardi, R., & Nonetti, R. Y. (1994). Making Democracy Work: Civic Traditions in Modern Italy. Princeton University Press. https://doi.org/10.2307/j.ctt7s8r7
-      Richard Wike, Laura Silver, & Alexandra Castillo. (2019). Many Across the Globe Are Dissatisfied With How Democracy Is Working. Pew Research Center. https://www.pewresearch.org/global/2019/04/29/many-across-the-globe-are-dissatisfied-with-how-democracy-is-working/
-      Rosenstone, S. J., & Hansen, J. M. (2009). Mobilization, Participation, and Democracy in America. Pearson College Division.Stalzer, C. (2015, August 13). Alaskans support new revenue to help address the state’s budget shortfall. Rasmuson Foundation. https://www.rasmuson.org/news/press-releases/alaskans-support-new-revenue-to-help-address-the-states-budget-shortfall/
-      Sundlee, R. (2019, September 5). Alaska’s universal basic income problem. Vox. https://www.vox.com/future-perfect/2019/9/5/20849020/alaska-permanent-fund-universal-basic-income
-      Vergolini, L. (2011). Social cohesion in Europe: How do the different dimensions of inequality affect social cohesion? International Journal of Comparative Sociology, 52(3), 197–214. https://doi.org/10.1177/0020715211405421
-      Wilkinson, R. G. (1997). Comment: Income, inequality, and social cohesion. American Journal of Public Health, 87(9), 1504–1506. https://doi.org/10.2105/AJPH.87.9.1504World Bank. (2003). World Development Report 2004: Making Services Work for Poor People. The World Bank. https://doi.org/10.1596/0-8213-5468-X
-      World Bank. (2016). Making Politics Work for Development: Harnessing Transparency and Citizen Engagement. The World Bank. https://doi.org/10.1596/978-1-4648-0771-8
+      Ackerman, B., & Alstott, A. (2004). Why Stakeholding? *Politics &
+      Society*, *32*(1), 41–60. https://doi.org/10.1177/0032329203261096
+
+
+      Alexander, M., & West, C. (2020). *The new Jim Crow: Mass incarceration in the age of colorblindness*.
+
+
+      Bertocchi, G., & Dimico, A. (2011). *The Evolution of the Racial Gap in Education and the Legacy of Slavery* (No. 6192; Discussion Paper Series). Forschungsinstitut zur Zukunft der Arbeit Institute for the Study of Labor. http://ftp.iza.org/dp6192.pdf
+
+
+      Bhattacharya, J. (2019). *Exploring Basic Income through a Race and Gender Justice Lens*. Roosevelt Institute.
+
+
+      Coates, T.-N. (2014). The Case for Reparations. *The Atlantic*. https://www.theatlantic.com/magazine/archive/2014/06/the-case-for-reparations/361631/
+
+
+      Hanks, A., Solomon, D., & Weller, C. (2018). *Systematic Inequality: How America’s Structural Racism Helped Create the Black-White Wealth Gap* (Race and Ethnicity). Center for American Progress. https://www.americanprogress.org/issues/race/reports/2018/02/21/447051/systematic-inequality/
+
+
+      Kochhar, R., & Cilluffo, A. (2018, July 12). Racial and ethnic income inequality in America: 5 key findings. *Pew Research Center: FactTank News in the Numbers*. https://www.pewresearch.org/fact-tank/2018/07/12/key-findings-on-the-rise-in-income-inequality-within-americas-racial-and-ethnic-groups/
+
+
+      Oliver, M. L., & Shapiro, T. M. (2019). Disrupting the Racial Wealth Gap. *Contexts*, *18*(1), 16–21. https://doi.org/10.1177/1536504219830672
+
+
+      Springboard To Opportunities. (2020). *Magnolia Mother’s Trust, Initial Pilot Report* (p. 1). Springboard To Opportunities. http://springboardto.org/index.php/page/the-magnolia-mothers-trust
+
+
+      Traub, A., Sullivan, L., Meschede, T., & Shapiro, T. (2017). *The Asset Value of Whiteness: Understanding the Racial Wealth Gap*. Demos. https://www.demos.org/research/asset-value-whiteness-understanding-racial-wealth-gap
+
+
+      Warren, D. (2016). Universal Basic Income and Black Communities in the United States. *Working Paper*. https://drive.google.com/file/d/0BzQSUaxtfgvIWmRMVEhCdS1nR1hYV2RpelB4TkJVbUtSZXo4/view
+
+
+      Warren, D. (2017). Reparations and Basic Income. *Boston Review*, 56–60.
+  - theme: Racialized Welfare Stereotypes
+    id: racialized-welfare-stereotypes
+    body: >-
+      This section considers how UBI could help displace racialized welfare
+      stereotypes in the United States.
+
+
+      **Summary** 
+
+
+
+      During the twentieth century, welfare and antipoverty policies were repeatedly tainted by negative racialized stereotypes, which contributed to policies prone to exacerbating social and racial inequities rather than alleviating them (Bhattacharya, 2019). In the 1930s, under the New Deal, welfare in the United States, also known as the Aid to Dependent Children, was created to offer financial assistance to women whose husbands couldn’t work, were absent or dead. The architects designed the policies assuming that most beneficiaries would be white widows. When poor Black women applied, they were systematically discriminated: their claims were rejected or additional conditions were imposed on them to qualify (Nadasen, 2005). 
+
+
+
+      Beginning in the 1950s and 1960s, with poverty on the rise, civil rights movements began demanding radical changes to the welfare system in the form of a guaranteed income. But, at the same time, organized groups started developing rhetoric that connected blackness with welfare abuse. In 1965, Daniel Patrick Moynihan’s The Negro Family: The Case for National Action listed a series of ills, including welfare dependency, that he argued directly contributed to poverty in Black America (Moynihan, 1965). In 1976, Ronald Reagan, while campaigning in the presidential primaries, introduced the case of a woman in Chicago who was fraudulently taking advantage of public welfare. 
+
+
+      The woman had 80 different names, 30 addresses, 12 social security cards, and drove a pink Cadillac around to cash her various welfare checks. While Reagan never mentioned that she was Black, he didn’t have to—the narrative fit the perception that many white, working-class Americans had at the time (Cammett, 2014; Primuth, 2016). The story helped craft the myth of the “Welfare Queen,” which demonizes Black women as lazy, promiscuous, negligent mothers who free-ride on public assistance and have no self-discipline or work ethic (Covert, 2019; Masters et al., 2014). Reagan and other politicians would go on to use the trope of the welfare queen, as well as other racialized stereotypes, to decrease overall support for public assistance and to enforce policies that systematically excluded African American citizens (Black & Sprague, 2017; Neubeck & Cazenave, 2001; Primuth, 2016). 
+
+      Today, despite the fact that most welfare recipients are white or Latinx, racialized stereotypes are still pervasive, undermining access to welfare and perpetuating racial disparities in the United States (Black & Sprague, 2017). The ratios of Temporary Assistance for Needy Families (TANF) grants to the number of families with children in poverty are the lowest in the states with the largest share of Black Americans: almost 40 percent of the nation’s Black population lives in states with ratios (known as TPRs) of 10 or less, compared to only 28 percent of the white population. Therefore, nationally, Black families are less likely than white families to have access to TANF assistance when they fall into crisis (Floyd et al., 2018). By failing to ensure that the Black community has access to basic necessities, inadequate government welfare policies perpetuate racial and gender injustices. The disinvestment in welfare policies as a result of anti-blackness further harms other communities living in poverty since it contributes to undermining support for public assistance more generally.
+
+
+
+      A UBI could potentially mitigate some of the consequences of racialized welfare stereotypes. A UBI, unlike other welfare reforms, normalizes social assistance because it is administered universally to each citizen, regardless of individual financial status, thus making it more difficult to fuel the myth that recipients are disproportionately Black and female (Bidadanure, 2019; Shelby, 2017; Warren, 2016). If every citizen receives universal benefits from the government, it may become more difficult to vilify certain groups as scroungers, and it may disrupt the way welfare is coded in the United States. The historical processes that have associated welfare with free riding have undermined support for assistance and made it harder for recipients to preserve dignity and respect. Turning all residents of a national community into a recipient could potentially alleviate some of the stigma connected with receiving public assistance. 
+
+
+      Anti-blackness, however, is a far more pervasive problem than the resulting consequence of racialized welfare stigmatization. It is entirely reasonable to expect the deeply rooted phenomenon would find other ways to manifest itself and continue to undermine economic and social equality. Various efforts to induce a larger cultural shift away from structural racism and racist representations is also key to witnessing positive change. 
+
+
+
+      More indirectly, but very importantly, UBI could help challenge the current racial and gendered narratives about the importance of other types of work, including caregiving (such as caring for an older adult, disabled person or child) which is currently largely performed by women of color (Nadasen, 2005). A sufficiently high UBI would make dedicating time to care-work within one’s own family or community more financially viable and, in turn, destigmatize it and help it regain the centrality it deserves (Robeyns, 2001; Zelleke, 2008). As we noted previously, it would be naïve to expect these narrative changes to happen without a concerted effort to also challenge cultural and discursive tenets more directly. But, by potentially removing some barriers to access associated with the conditions currently placed on public welfare benefits (e.g. employment status, marital status, drug testing, among others, used to specifically exclude particular groups) and by facilitating the choice of caring for one’s own family without living in abject poverty, UBI could nonetheless have a positive impact on racial justice.
+
+
+
+      It is, of course, impossible for a single policy to reverse decades of intentionally manufactured negative public perception around welfare itself. For all the potential a UBI policy has in countering racial tropes, it also has its limitations, as we have already pointed out. Net-beneficiaries of UBI might still be resented by those who are net contributors, and so patterns of stigmatization and demonization could survive the change. Changing attitudes, narratives and perceptions would require other systemic changes alongside a UBI to guarantee success on this front (Roberts, 1996). Nonetheless, programs like the Magnolia Mothers Trust in Jackson, Mississippi, that tackle head on taboos around Black motherhood and cash are leading the way in helping shift narrative around deservingness, solidarity and equity (Black & Sprague, 2017).
+    related: "# Racial economic inequality (in UBI & Race)\r
+
+      # Care work (UBI & Gender)\r
+
+      # Bargaining power (in UBI & Work)\r"
+    citations: >-
+      Bhattacharya, J. (2019). *Exploring Basic Income through a Race and Gender
+      Justice Lens*. Roosevelt Institute.
+
+
+      Bidadanure, J. U. (2019). The Political Theory of Universal Basic Income. *Annual Review of Political Science*, *22*(1), 481–501. https://doi.org/10.1146/annurev-polisci-050317-070954
+
+
+      Black, R., & Sprague, A. (2017). *Becoming Visible. Race, Economic Security, and Political Voice in Jackson, Mississippi*. New America, Springboard to Opportunities. https://www.jacksonfreepress.com/documents/2017/nov/29/becoming-visible-report-new-america-springboard-op/
+
+
+      Cammett, A. (2014). Deadbeat Dads & Welfare Queens: How Metaphor Shapes Poverty Law. *Boston College Journal of Law and Social Justice*, *34*(2), 233–265.
+
+
+      Covert, B. (2019). The Myth of the Welfare Queen. *The New Republic*. https://newrepublic.com/article/154404/myth-welfare-queen
+
+
+      Floyd, I., Burnside, A., & Schott, L. (2018). *TANF Reaching Few Poor Families*. Center on Budget and Policy Priorities. https://www.cbpp.org/research/family-income-support/tanf-reaching-few-poor-families
+
+
+      Masters, N. T., Lindhorst, T. P., & Meyers, M. K. (2014). Jezebel at the Welfare Office: How Racialized Stereotypes of Poor Women’s Reproductive Decisions and Relationships Shape Policy Implementation. *Journal of Poverty*, *18*(2), 109–129. https://doi.org/10.1080/10875549.2013.833159
+
+
+      Moynihan, D. P. (1965). *The Moynihan report: The negro family--the case for national action*. Cosimo Reports.
+
+
+      Nadasen, P. (2005). *Welfare warriors: The welfare rights movement in the United States*. Routledge.
+
+
+      Neubeck, K. J., & Cazenave, N. A. (2001). *Welfare racism: Playing the race card against America’s poor*. Routledge.
+
+
+      Primuth, R. (2016). Ronald Reagan’s Use of Race in the 1976 and 1980 Presidential Elections. *Georgia Historical Quarterly*, *100*(1), 36–66.
+
+
+      Roberts, D. (1996). Welfare and the Problem of Black Citizenship. *The Yale Law Journal*, *105*, 1563–1602.
+
+
+      Robeyns, I. (2001). Will a Basic Income Do Justice to Women? *Analyse & Kritik*, *23*(1), 88–105. https://doi.org/10.1515/auk-2001-0108
+
+
+      Shelby, T. (2017). A Blow to Ghettoization. *Boston Review*, 41–46.
+
+
+      Warren, D. (2016). Universal Basic Income and Black Communities in the United States. *Working Paper*. https://drive.google.com/file/d/0BzQSUaxtfgvIWmRMVEhCdS1nR1hYV2RpelB4TkJVbUtSZXo4/view
+
+
+      Zelleke, A. (2008). Institutionalizing the Universal Caretaker Through a Basic Income? *Basic Income Studies*, *3*(3), 1–9. https://doi.org/10.2202/1932-0183.1133
+  - theme: Guaranteed Income in African American History
+    id: guaranteed-income-in-african-american-history
+    body: >-
+      This section discusses the history of guaranteed income in African
+      American History and how it has evolved today as one of many proposals to
+      actualize economic justice for the Black community in the United States. 
+
+
+
+      **Summary**
+
+
+
+      The proposal for a guaranteed income in the U.S. was popular in the 1960s, and again very recently, as a potential policy instrument to respond to growing economic racial inequalities across the country. In the history of UBI, many are familiar with Martin Luther King Jr.’s support for the policy, but few realize the diversity and extent of the support for a guaranteed income in African American History.
+
+
+
+      During the 1960s, the pervasiveness of economic inequality and insecurity in the Black community, coupled with a movement to overhaul an inadequate and exclusionary welfare system, led to the call for a guaranteed annual income (GAI) (Steensland, 2018). In 1966, the National Welfare Rights Organization (NWRO)—a conglomerate of single Black mothers on welfare, civil rights organizations, and antipoverty groups—was created with the aim of changing the approach to ending poverty (Demby, 2019). Under the anti-poverty programs of the Great Society of the 1960s and 1970s, the elderly, the disabled, and the widowed were deemed worthy of governmental financial assistance, while single mothers and the unemployed poor were blamed for their own poverty. African Americans were often deemed unworthy of assistance and routinely restricted from accessing benefits even when they were eligible (Cammett, 2014; Nadasen, 2005). In order to transform the welfare system, many of the Black women leading the NWRO—including Beulah Sanders, Jennette Washington, and Johnnie Tillmon—pushed for a guaranteed income: an income-support that was unconditional, provided generous levels of benefits, and would be granted to all those in need, including unemployed fathers, the working poor, childless couples, and single individuals (Kornbluh, 2007; Steensland, 2018). By acknowledging unremunerated domestic work and also enabling women to achieve economic independence from their partners, the NWRO’s mission and advocacy for a GAI was aimed at reducing the negative impacts of racially discriminatory welfare practices (Nadasen, 2005). 
+
+
+
+      Between 1966 and 1967, the Poor People’s Campaign, a movement fighting for economic justice for disenfranchised and marginalized Black communities, also advocated for a guaranteed income to replace some of the existing policies aimed at addressing poverty. Under the leadership of Martin Luther King, Jr., and the Southern Christian Leadership Conference, the Poor People’s Campaign was fueled by the notion that every citizen had a right to a decent standard of life (King, 1967). In 1967, King argued that society needed to create an unconditional guaranteed income program or guaranteed employment to ensure that  potential would not be wasted (King, 1967). King argued for an adequately high income—one that reflected the median income and increased over time to reflect economic inflation in order to avoid perpetuating poverty and social and racial inequities (King, 1967). The Black Panther Party also advocated for a guaranteed income, stating in their ambitious Ten-Point Manifesto that the government was required to provide every citizen with employment or a guaranteed income (The Black Panther Party, 1966). The Black Panthers believed that either one of the policies would increase the freedom of Blacks to determine their own destiny.
+
+
+
+      In the midst of these calls for change and a rise in popularity for a GAI policy, there was also a paradigm shift within the Department of Health, Education and Welfare’s Office of Economic Opportunity (OEO). Social workers started promoting a family allowance while economists touted a more ‘innovative’ and ‘efficient’ approach of delivering welfare: a negative income tax (NIT) (Steensland, 2018). In 1967, Governor Nelson A. Rockefeller of New York brought together 100 of the nation's leaders in industry, labor, news media, philanthropic foundations and government to help plan new approaches to public welfare in the United States. Known as the Arden House Conference, this group selected twelve men, primarily representing U.S. private sector corporations, to form an ad hoc steering committee that would author the findings and recommendations from the conference. An income maintenance program in the form of an NIT was subsequently recommended to the U.S. Government’s Committee for Economic Development (Income Maintenance Programs, 1968). 
+
+
+
+      This recommendation and the others from the Arden House Conference ultimately divided support for guaranteed income as a basic right, and ultimately, none of the proposals got very far (Steensland, 2018). Already struggling African Americans had no choice but to rely on existing means-tested social programs which continued to link work and welfare including the Aid to Families with Dependent Children (AFDC), Food Stamps, and Medicaid (Stoesz, 1993). The costs of these programs skyrocketed as a strained economy saw an exponential increase of participating families (AFDC more than doubled between 1966 and 1971, from just under five million to more than ten million), and African Americans and poor minority communities were further scapegoated for society’s ills (Stoesz, 1993). 
+
+
+
+      In 1981, the Reagan administration took office with a plan to dramatically cut welfare (Stoesz, 1993). Reagan manufactured the myth of the welfare queen, which was used to demonize Black women as lazy, promiscuous, negligent mothers who free-ride on public assistance and have no self-discipline and work ethic (Covert, 2019; Masters et al., 2014). His administration’s changes to welfare caused many families to become ineligible or to see their benefits slashed because they had found work or were receiving other benefits. In 1983 alone, 408,000 families were cut from the AFDC and 299,000 saw their benefits reduced (Stoesz, 1993). The scale back of welfare during the 1980s and early 1990s was compounded by the lack of tying benefits to inflation, causing the amount of the benefit to be inadequate and ultimately resulting in an even greater widening of the income and asset gap between African Americans and whites (Stoesz, 1993). 
+
+
+
+      In 1996, the Clinton Administration enacted the Temporary Assistance for Needy Families (TANF) block grant through the Personal Responsibility and Work Opportunity Reconciliation Act, replacing the AFDC. TANF set out new goals for welfare recipients, which could not have been further from King’s proposal for a Guaranteed Income. Among those included: ending the dependence of needy parents on government benefits by promoting job preparation, work, and marriage; preventing and reducing the incidence of out of wedlock pregnancies and establishing annual numerical goals for preventing and reducing the incidence of these pregnancies; and, encouraging the formation and maintenance of two-parent families (Center on Budget and Policy Priorities, 2020). Today, TANF benefits leave families living in poverty well below the poverty line and stigmatized, hindering many from seeking such benefits (Center on Budget and Policy Priorities, 2020). 
+
+
+
+      Recognizing the ongoing social and economic injustices and economic insecurity in Black communities and acknowledging the long history of struggle for a guaranteed income before them, the Movement for Black Lives advocated in 2016 for a guaranteed minimum livable income for all Black Americans as a form of reparations for the continued “divestment from, discrimination towards and exploitation of our communities” (The Movement for Black Lives, 2016). The manifesto goes on to state that the guaranteed livable income would not only meet basic human needs while providing a floor of economic security, but would also serve as a tool for racial emancipation, freedom, and the eradication of poverty in a non-stigmatizing fashion (The Movement for Black Lives, 2016). If UBI is funded progressively, it is also hoped that people of color, because they find themselves disproportionally represented in low-income communities, would benefit most from the policy. In his discussion of UBI, Dorian Warren expressed the hope that the universality of the program would also make it more difficult to exclude formerly incarcerated people who could immensely benefit from income support as they leave prison and suffer labor market discrimination (Warren, 2016).
+
+      Parallel to this call for a guaranteed income has been a policy proposal to even more directly address the racial economic disparities brought on by structural racism in the United States: UBI “Plus” (Warren, 2017). The modified version of this idea, Universal PLUS Basic Income (U+BI), parallels most basic income proposals—an unconditional cash transfer provided to everyone on a regular basis—but it also includes a pro-rated additional amount for Black Americans over a specified time period. This portion of U+BI would be more directly reparatory: it would acknowledge and serve as restitution for Jim Crow and slavery (Warren, 2017). 
+
+
+
+      As renewed calls for basic income and guaranteed income come about, it is important to understand this long legacy of support for universal basic income, its primary motivations, and its connections with curtailing racial oppression through discrimination and stigmatization. Awareness of this rich history of successes and failures can also help us pre-empt future injustices. Current basic income experiments, including the Stockton Economic Empowerment Project and Magnolia Mother’s Trust, both draw on this history, placing race at the center of the equation. They help inform the ways in which we can better design a guaranteed income policy that leads to greater racial equity and ultimately undermines the negative racial stereotypes engrained in welfare policies (Bhattacharya, 2019).
+    related: "# Care Work (in UBI & Gender)\r
+
+      # Welfare Systems (in UBI & Gendered Welfare)\r
+
+      # Racial Income and Asset Inequality (in UBI and Racial Economic
+      Inequality)\r"
+    citations: >-
+      Bhattacharya, J. (2019). *Exploring Basic Income through a Race and Gender
+      Justice Lens*. Roosevelt Institute.
+
+
+      Cammett, A. (2014). Deadbeat Dads & Welfare Queens: How Metaphor Shapes Poverty Law. *Boston College Journal of Law and Social Justice*, *34*(2), 233–265.
+
+
+      Center on Budget and Policy Priorities. (2020). *Policy Basics: Temporary Assistance for Needy Families* (p. 7). Center on Budget and Policy Priorities. https://www.cbpp.org/research/family-income-support/temporary-assistance-for-needy-families
+
+
+      Covert, B. (2019). The Myth of the Welfare Queen. *The New Republic*. https://newrepublic.com/article/154404/myth-welfare-queen
+
+
+      Demby, G. (2019, June 9). The Mothers Who Fought To Radically Reimagine Welfare \[National Public Radio]. *Code Switch: Race and Identity, Remixed*. https://www.npr.org/sections/codeswitch/2019/06/09/730684320/the-mothers-who-fought-to-radically-reimagine-welfare
+
+
+      King, M. L. (1967). *Where do we go from here: Chaos or community?* (1st ed.). Harper & Row.
+
+
+      Kornbluh, F. A. (2007). *The battle for welfare rights: Politics and poverty in modern America*. Univ. of Pennsylvania Press.
+
+
+      Masters, N. T., Lindhorst, T. P., & Meyers, M. K. (2014). Jezebel at the Welfare Office: How Racialized Stereotypes of Poor Women’s Reproductive Decisions and Relationships Shape Policy Implementation. *Journal of Poverty*, *18*(2), 109–129. https://doi.org/10.1080/10875549.2013.833159
+
+
+      Nadasen, P. (2005). *Welfare warriors: The welfare rights movement in the United States*. Routledge.
+
+
+      Steensland, B. (2018). *The failed welfare revolution: America’s struggle over guaranteed income policy*. Princeton University Press.
+
+
+      Stoesz, D. (1993). Poor Policy: The Legacy of the Kerner Commission for Social Welfare. *North Carolina Law Review*, *71*(5), 1675–1691.
+
+
+      The Black Panther Party. (1966). *The Ten-Point Program*. The Black Panther Party.
+
+
+      *The Movement for Black Lives*. (2016). The Movement for Black Lives. <https://m4bl.org/policy-platforms/reparations/>
+
+
+      Warren, D. (2016). Universal Basic Income and Black Communities in the United States. *Working Paper*. https://drive.google.com/file/d/0BzQSUaxtfgvIWmRMVEhCdS1nR1hYV2RpelB4TkJVbUtSZXo4/view
+
+
+      Warren, D. (2017). Reparations and Basic Income. *Boston Review*, 56–60.
