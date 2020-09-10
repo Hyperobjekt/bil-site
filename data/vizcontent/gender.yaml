@@ -40,14 +40,11 @@ themes:
 
 
       These three experiments offer a glimpse into how an individual UBI might impact gender dynamics in the household, but additional research is needed, especially in higher-income countries. Given that household compositions and gender roles are changing at rapid rates, it would be especially beneficial for the new wave of experiments and pilots in the Global North to take gender equity effects explicitly into account.
-    related: >-
-      # Related topics Civic participation (in UBI and Democracy)
-
-      # Inequality in political power (in UBI and Inequality)
-
-      # Gendered welfare (in UBI and Gender)
-
-      # Racialized welfare stereotypes (in UBI and Race) Freedom from demeaning jobs (in UBI and Wellbeing)
+    related: |-
+      * Related topics Civic participation (in UBI and Democracy)
+      * Inequality in political power (in UBI and Inequality)
+      * Gendered welfare (in UBI and Gender)
+      * Racialized welfare stereotypes (in UBI and Race) Freedom from demeaning jobs (in UBI and Wellbeing)
     citations: >-
       Baxter, J., & Kane, E. W. (1995). Dependence and Independence: A
       Cross-National Analysis of Gender Inequality and Gender Attitudes. *Gender
@@ -120,13 +117,11 @@ themes:
 
 
       Evidence from Canada’s Mincome experiment in the 1970s suggests that guaranteed income caused female spouses to finance longer maternity leaves, to reduce their work hours, and to take longer breaks from employment later in their careers (Forget, 2011). There are difficulties in interpreting these results, however. Gender norms have changed significantly since the 1970s, making it difficult to extrapolate from these results to the present. Moreover, the results do not discuss how breaks in employment might be used for purposes other than childrearing, such as caring for elderly.  As such, more research, especially on UBI’s long-term effects on labor demand (Widerquist, 2018) is needed to predict how men and women would engage in care work.
-    related: "# The household (in UBI and Gender)\r
-
-      # Women in the labor market (in UBI and Gender)\r
-
-      # Bargaining power (in UBI and Work)\r
-
-      # Work beyond jobs (in UBI and Work)\r"
+    related: |-
+      * The household (in UBI and Gender)
+      * Women in the labor market (in UBI and Gender)
+      * Bargaining power (in UBI and Work)
+      * Work beyond jobs (in UBI and Work)
     citations: >-
       Bureau of Labor Statistics. (2019). *Occupational Outlook Handbook: Home
       Health Aides and Personal Care Aides*. U.S. Department of Labor.
@@ -211,15 +206,12 @@ themes:
 
 
       There is a small body of empirical research on the effects of UBI on women’s labor force participation in low- and middle-income contexts. Existing empirical evidence on this subject is limited mostly to the Madhya Pradesh experiment, which concluded that basic income contributed to an increase and diversification of female participation in formal economic activities, especially jobs that involved hard manual labor. Nonetheless, women were paid less than men for the same jobs (Davala et al., 2015). The SEWA study (SEWA Bharat, 2014) also notes that, when given a cash transfer, women in the tribal villages shifted to paid, casual manual labor because it gave them more control over their time and production. Notably, the percentage of women who worked primarily in farming rose to 66 percent from 39 percent. This increase was largely attributed to women being able to buy farming materials, seed, and livestock with the cash transfer. The experiment also caused more people, especially women, to take on additional jobs (own-account activity) through giving them more control over their time and production, thus significantly increasing the total number of hours worked by recipients (Davala et al., 2015). These effects were found to extend even four years beyond the study with women’s labor participation increased by 16 percent and no change among male participants (SEWA Bharat, 2014). The authors of the study didn’t conclude whether this increase was advantageous or not (Davala et al., 2015), highlighting the need for more experiments and pilot programs to test these contrasting hypotheses on UBI’s effects on women in the labor force. Results are more mixed when programs that meet some and not all characteristics of a UBI are included in the analysis. An umbrella review of different types of cash transfers that share features with UBI found reductions in labor market participation for women with care responsibilities and married women with children (Hasdell, 2020). In higher-income contexts, the income and substitution effects of a UBI are more complex. Income and substitution effects – or the extent to which people ‘spend’ part of their unearned income on increased leisure or make ‘trade-offs’ between more work and lost benefits – are quite small in both the 1970’s negative income tax experiments and for the Alaska Permanent Fund, however are more significant for women than men (Hoynes & Rothstein, 2019; Marinescu, 2018). In contrast to the small reductions in work hours in universal and unconditional programs, there are some increases in labor market participation for households that receive in-work credits, such as the Earned Income Tax Credit (EITC) (Hoynes & Rothstein, 2019).
-    related: "# Care work (in UBI and Gender)\r
-
-      # Freedom from demeaning jobs (in UBI and Wellbeing)\r
-
-      # Income inequality (in UBI and Inequality)\r
-
-      # Employees’ bargaining power (in UBI and Work)\r
-
-      # The working poor (in UBI and Poverty)\r"
+    related: |-
+      * Care work (in UBI and Gender)
+      * Freedom from demeaning jobs (in UBI and Wellbeing)
+      * Income inequality (in UBI and Inequality)
+      * Employees’ bargaining power (in UBI and Work)
+      * The working poor (in UBI and Poverty)
     citations: >-
       Barbulescu, R., & Bidwell, M. (2013). Do Women Choose Different Jobs from
       Men? Mechanisms of Application Segregation in the Market for Managerial
@@ -253,5 +245,5 @@ themes:
   - theme: Gendered Welfare
     id: gendered-welfare
     body: "*Coming soon.*"
-    related: "-"
-    citations: "-"
+    related: 
+    citations: 

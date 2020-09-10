@@ -36,7 +36,7 @@ themes:
       \
 
       More research is needed to help answer some questions. First, the relationship between UBI and other economic effects, such as wealth accumulation and access to credit, is not yet understood. The gap-reducing effect may be lessened if UBI enables those on the higher end of the income distribution to invest their payment in ways that generate more returns. Second, so far, UBI pilots have been in areas with high rates of poverty (Davala et al. 2017). To predict impacts on income inequality, more studies need to be done in economies with significant numbers of both low- and high-income individuals.
-    related: \-
+    related: 
     citations: >-
       Anderson, E. (1999). What Is the Point of Equality? *Ethics*, *109*(2).
       https://www.researchgate.net/publication/248422963_What_Is_the_Point_of_Equality
@@ -334,7 +334,7 @@ themes:
 
 
       The studies reviewed here provide insight into possible labor effects, however there have been significant changes to the labour market since many of the experiments were carried out. These changes make it difficult to predict whether similar outcomes would be observed in contemporary experiments. More research is needed to disentangle the complex relationship between labor supply and demand, and more data is needed on the differential impacts between demographic groups. More evidence is also needed on how factors in the local economy where a UBI is introduced impacts outcomes like labor market participation.
-    related: "-"
+    related: 
     id: labor-market
     citations: >-
       Anderson, G. M., & Block, W. (1993). Comment on Hum and Simpson. *Journal
@@ -418,7 +418,7 @@ themes:
 
 
       Overall, while more evidence from advanced economies is needed, the evidence on UBI’s positive effects on savings and investment is promising. More research is also needed on how program factors (such as frequency of payment) affect savings and investment, and on which groups (based on factors such as income, gender, or family composition) see the largest effects.
-    related: \-
+    related: 
     citations: >-
       
       Alstott, A., & Ackerman, B. (1999). *The Stakeholder Society*. Yale University Press. https://www.jstor.org/stable/j.ctt32bmzf
