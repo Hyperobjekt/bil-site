@@ -507,7 +507,7 @@
 - parent: work
   id: collective-bargaining
   display: 1
-  title: Collective Bargaining 
+  title: Bargaining Power 
   xAxis: 420
   yAxis: 460
   summary: >

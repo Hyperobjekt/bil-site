@@ -1,0 +1,268 @@
+themeid: democracy
+themename: Democracy
+themes:
+  - theme: Good Governance
+    id: good-governance
+    body: >-
+      This section explores how UBI might improve governance in democracies, in
+      particular by examining how UBI may  impact democratic accountability and
+      legitimacy.
+
+
+      **Summary**
+
+
+      As a regime type, democracy is often valued for certain intrinsic characteristics, such as how it manifests citizen equality. But there are also instrumental reasons for valuing democracy, including the fact that it may result in better governance. Democracies may be both more legitimate and more accountable than other forms of government, resulting in policies that are better for citizens. If democracies fail to be accountable or legitimate—that is, to embody these values of good governance—it may contribute to democratic dissatisfaction and the desire for alternative regime types. Globally, dissatisfaction with how democracy is working is on the rise; across 27 countries polled, a median of 51 percent of people were dissatisfied with the current functioning of democracy in their countries (Richard Wike et al., 2019). People who considered their governments to be unaccountable (corrupt or unable to improve standards of living) or illegitimate (untrustworthy or unwilling to respect basic rights) were more likely to be dissatisfied.
+
+
+      If we value democracy because of its association with good governance, we may ask what impact UBI would have on the ability of democracies to govern well. Evidence from cash transfers offers insights on accountability and legitimacy—the two values thought necessary for good governance.
+
+
+      How might UBI impact the ability of citizens to hold their governments accountable? Insofar as a UBI is likely to increase voter turnout or citizen participation, it could very well increase government accountability. However, it is not enough that citizens merely participate; in order to ensure good governance, how they participate matters as well. “Unhealthy” political engagement, when citizens select and sanction leaders on the basis of their provision of private goods, can damage the state’s ability to govern (Khemani, 2015). Unhealthy civic participation, for example, can be seen in special interests’ groups who mobilize to extract benefits from policies at the expense of public interest. Civic participationis “healthy” when citizens select and sanction leaders on their ability to provide public goods. An exampleof healthy participation might include sanctioning leaders for corruption by voting them out of office.
+
+
+      UBI, which is both a public and a private good, complicates the boundary between healthy and unhealthy civic engagement. On the one hand, reduced economic dependency may empower citizens to monitor their government and to elect responsive leadership. Yet evidence from conditional cash transfers has shown there are also cases in which the policy could reduce the independence of voters, making them more likely to vote for the incumbent (Baez et al., 2012). Vote-buying—the process of offering gifts or money in exchange for votes—is robustly correlated with lower quality of public services across countries (World Bank, 2016). If politicians use the direct benefit of UBI to ‘buy’ votes (for example, by promising increased payments), it may hinder the ability of citizens to remove those leaders in the case of other infractions. It is possible, however, that such an effect could be mitigated by UBI’s universality; the fact that even higher-income citizens would receive the benefit might prevent the emergence of a “Curley effect”—a phenomenon whereby politicians increase the size of their political base, ensuring reelection, via policies that provide distortionary benefits (Glaeser & Shleifer, 2002).
+
+
+      A related fear regarding UBI and accountability is that voter interest in UBI might outweigh other important concerns regarding the public good. Some have argued, for instance, that the annual dividend from Alaska’s Permanent Fund has “warped” local politics, because residents vote to protect their individual payments to the detriment of public services such as schools and universities (Sundlee, 2019). This is important since, when policies provide targeted benefits, as a cash transfer does, there may often be fewer resources available for other types of services, such as public health or education (Khemani, 2019). Evidence is mixed, however, as recent polls demonstrate that voters would be willing to consider capping their Permanent Fund dividend payments or directing additional earnings from the Permanent Fund towards public services and programs (Stalzer, 2015). More research is required to understand the relationship between UBI and voter interest in the provision of public goods.
+
+
+      A large part of the perception of a government as legitimate relies on citizen perception that the government is accountable. So, insofar as UBI were to increase democratic accountability, it would also increase democratic legitimacy.But another axis of democratic legitimacy is social cohesion, which is known in some scholarly work as social capital or social connectedness.
+
+
+      Social cohesion has been found in empirical studies to impact the health of democracies, as it is often associated with improved institutional performance, economic prosperity, increased mobilization and participation, and general sense of citizen efficacy (Campbell, 2013; Putnam et al., 1994; Rosenstone & Hansen, 2009). Economic inequality, such as highly unequal incomes, and social inequality, such as the existence of unequal rewards and opportunities for various social positions, have been found in empirical research to negatively impact social cohesion (Khambule & Siswana, 2017; Vergolini, 2011; Wilkinson, 1997). Insofar as UBI may be able to reduce economic and social inequalities, it could possibly contributeto increase social cohesion.
+
+
+      Another way in which UBI might increase social cohesion is by changing how people use their time. If people have more time for activities in which they engage with others, such as getting an education or participating in volunteer work, they may have wider social networks and thus create more social cohesion. But a UBI could also have a negative impact on social cohesion. Recipients of a UBI may decide to spend more time at home or in networks that they already have, which could possibly decrease social cohesion. So, because there is no empirical research on what types of activities people might be expected to participate in should they receive a UBI, it is difficult to estimate the impact it could have on social cohesion. Moreover, it has been argued that workplaces play a critical integrative role within democracies; economic necessity forces people of diverse backgrounds and ethnicities to work together, and this daily interaction causes them to build personal ties across social divisions and practice the skills of compromise and consensus (Estlund, 2003). If a UBI means that people are no longer required to work with those with whom they would not otherwise choose to associate, it could, in the long run, decrease social cohesion and thus negatively impact social cohesion and democratic legitimacy. UBI’s potential impact on social cohesion is therefore highly variable, and there is a dearth of evidence to support any oneconclusion. More research is needed.
+
+
+      UBI might also impact the trust that citizens have in the state, which is yet another axis of democratic legitimacy. A basic income that is truly universal creates a service that is accessed by every citizen, from the least to most well off. Consistent citizen engagement with government services may serve to increase the legitimacy of the state as a whole, especially if those services are considered particularly important or competent. The Bolsa Familia program in Brazil demonstrated that transfer recipients showed increased trust in core state institutions, local government, and incumbent actors (Layton et al., 2017). A randomized control trial in Tanzania showed that conditional cash transfers significantly increased trust inelected leaders with a concomitant rise in the perception of government responsiveness to citizen concerns and perceived honesty of leaders (Evans et al., 2018). However, in this trial, the cash transfers were in part implemented via in-person monitoring by elected officials and were conditional on accessing other services, such as healthcare. It is possible that some of the impact on legitimacy is a result of these direct citizen-to-government interactions; if this is the case, an online UBI might actually decrease social trust as citizens engage less often with various government bureaucracies.
+
+
+      It may not be necessary for there to be personal contact between citizens and government officials for there to be increased legitimacy, however; digitized or online services that are sufficiently competent might have the same effect. Indeed, an online UBI might even improve perceptions of government legitimacy more, as it removes some possibilities for corruption and micro-domination in service-provision. First, such a UBI “shortens the chain” between government and citizens; removing hands through which the money must pass can result in more transparency and less corruption(World Bank, 2003). Second, it may make service-provision more equitable. “Street level” bureaucrats, those at the forefront of service provision, can be perceived by recipients as making arbitrary decisions about who canaccess benefits, for what reasons, and when. Removing this element of discretion in personal interaction may actually improve citizen-government interactions, and the net impact of UBI might be an increase in democratic trust. Preliminary results from the Finnish basic income experiment support such a conclusion, as researchers there found that basic income recipients had a small but significant increase in trust in politicians and the legal system relative to the control group (Kangas et al., 2019). The leveling of economic inequality may also contribute to such an effect; because citizens in a democracy are serviced by other citizens, micro-domination weakens social trust and the overarching legitimacy of the political community. If micro-domination is more likely to impact low-income citizens, then reduced inequality may make other forms of service provision—from schooling to healthcare—seem fairer, and the state itself more legitimate.
+    related: |-
+      * Related topics Civic participation (in UBI and Democracy)
+
+      * Inequality in political power (in UBI and Inequality) 
+
+      * Gendered welfare (in UBI and Gender) 
+
+      * Racialized welfare stereotypes (in UBI and Race)
+
+      * Freedom from demeaning jobs (in UBI and Wellbeing)
+    citations: >-
+      Baez, J. E., Camacho, A., Conover, E., & Zárate, R. A. (2012). Conditional
+      Cash Transfers, Political Participation, and Voting Behavior. The World
+      Bank. https://doi.org/10.1596/1813-9450-6215
+
+
+      Campbell, D. E. (2013). Social Networks and Political Participation. Annual Review of Political Science, 16(1), 33–48. https://doi.org/10.1146/annurev-polisci-033011-201728
+
+
+      Estlund, C. (2003). Working together: How workplace bonds strengthen a diverse democracy. Oxford University Press.
+
+
+      Evans, D. K., Holtemeyer, B., & Kosec, K. (2018). Cash Transfers Increase Trust in Local Government. The World Bank. https://doi.org/10.1596/1813-9450-8333
+
+
+      Glaeser, E. L., & Shleifer, A. (2002). The Curley Effect (NBER Working Paper No. 8942). National Bureau of Economic Research. https://www.nber.org/papers/w8942
+
+
+      Kangas, O., Jauhiainen, S., Simanainen, M., & Ylikännö, M. (2019). The basic income experiment 2017–2018 in Finland Preliminary results. 34.
+
+
+      Khambule, I., & Siswana, B. (2017). How Inequalities undermine Social Cohesion: A Case Study of South Africa \[Policy Brief]. G20 Insights. https://www.g20-insights.org/policy_briefs/inequalities-undermine-social-cohesion-case-study-south-africa/
+
+
+      Khemani, S. (2015). Buying votes versus supplying public services: Political incentives to under-invest inpro-poor policies. Journal of Development Economics, 117, 84–93. https://doi.org/10.1016/j.jdeveco.2015.07.002
+
+
+      Khemani, S. (2019, April 19). Outsized Focus on Cash Transfers is Missing the Point. Brookings Institute Blog. https://www.brookings.edu/blog/future-development/2019/04/19/outsized-focus-on-cash-transfers-is-missing-the-point/
+
+
+      Layton, M. L., Donaghy, M. M., & Rennó, L. R. (2017). Does Welfare Provision Promote Democratic State Legitimacy? Evidence from Brazil’s Bolsa Família Program. Latin American Politics and Society, 59(4), 99–120. https://doi.org/10.1111/laps.12035
+  - theme: Democratic Justifications for UBI
+    id: democratic-justifications-for-ubi
+    body: >-
+      This section explains how democratic theorists have sought to justify
+      UBI. 
+
+
+      **Summary**
+
+
+      One argument proponents of UBI make is that subsistence, like political participation, is a fundamental democratic right. Scholars make two cases for such a view. The first regards UBI’s instrumental value. It seeks to demonstrate that rights are interconnected, which means that rights concerning political participation (e.g., enfranchisement, freedom of speech, freedom of assembly) cannot be maintained without the equal protection of rights related to economic independence. Therefore, UBI is necessary to support other democratic rights. The second argument concerns UBI’s intrinsic value. This argument makes an analogy between subsistence and suffrage, claiming that both are fundamental rights due to democratic citizens. In this paradigm, arguing against universal basic income is like arguing against universal suffrage, that is, it is intrinsically anti-democratic. 
+
+
+      UBI is seen as instrumentally valuable to a variety of democratic rights from both an individual perspective and a collective perspective. The most common argument from the individual perspective is that rights are intertwined: the violation of any given right also damages other rights. For instance, one cannot practice freedom of religion without freedom of assembly (Shue, 1996). Proponents of this claim argue that the violation of what they consider one’s economic rights results in the violation of other political rights. Free speech, for example, is undermined if your economic dependency means you cannot express political disagreement with your boss. UBI as an economic right thus likely protects one’s political rights, at least insofar as it is robust enough to grant real exit options (Goodhart, 2008).
+
+
+      Less commonly argued is that UBI has an instrumental role to play in the collective provision of rights. Some fundamental democratic rights rely on what are known as “participatory resources” (Scholzman et al., 2018). Voting, for instance, requires a colossal infrastructure for which no single person is responsible. Elections require voting booths, voting software, polling locations, registration and registration assistance, and other logistical resources, such as roads and traffic management on routes to and from polling locations. Some countries even make election days mandated holidays. In this framework, UBI is valuable not just for how it removes economic barriers to participation, but also for how it actively and collectively contributes to the provision of resources necessary to participate: time, money, and motivation. 
+
+
+      Some theorists see UBI as valuable not merely because it promotes political rights, but because they believe it to be a political right in and of itself (Pateman, 2004)—similar to voting. While there are many instrumental arguments for why voting is valuable—better policy outcomes or holding elected officials accountable—many democratic theorists argue that voting is also intrinsically valuable. Voting, this argument goes, is a symbolic act of political equality; even if people don’t participate evenly, the mere fact of universal access demonstrates that a democracy is rule by all the people, for all the people (Chapman, 2019). The intrinsic arguments for universal basic income are similar. Even if UBI is not shown to increase people’s electoral participation or use of other rights, some scholars argue that it is a right in and of itself because of its symbolic demonstration of equal public standing—the idea that all individuals in a polity are valued the same and considered equal participants in public life (Pateman, 2004).
+    id: democratic-justifications-for-ubi
+    related: |-
+      * Civic participation (in UBI and Democracy) 
+      * Good governance (in UBI and Democracy) 
+      * Inequality in political power (in UBI and Inequality) 
+      * Gendered welfare (in UBI and Gender) 
+      * Racialized welfare stereotypes (in UBI and Race) 
+      * Freedom from demeaning jobs (in UBI and Wellbeing)
+    citations: >-
+      Chapman, E. B. (2019). The Distinctive Value of Elections and the Case for
+      Compulsory Voting. American Journal of Political Science, 63(1), 101–112.
+      https://doi.org/10.1111/ajps.12393
+
+      \
+
+      Goodhart, M. (2008). A Democratic Defense of Universal Basic Income. In Illusion of Consent: Engaging with Carole Pateman (pp. 139–162). Penn State University Press.
+
+      \
+
+      Pateman, C. (2004). Democratizing Citizenship: Some Advantages of a Basic Income. Politics & Society, 32(1), 89–105. https://doi.org/10.1177/0032329203261100
+
+      \
+
+      Scholzman, K. L., Brady, H., & Verba, S. (2018). Unequal and Unrepresented: Political inequality and the people’s voice in the new gilded age. Princeton University Press.
+
+      \
+
+      Shue, H. (1996). Basic Rights: Subsistence, Affluence, and U.S. Foreign Policy (2. ed). Princeton Univ. Press.
+  - theme: Democratization
+    id: democratization
+    body: >-
+      This section discusses how UBI might result in the democratization of
+      spheres of life outside of political institutions, such as the workplace
+      or the household. 
+
+
+      **Summary**\
+
+      \
+
+      Democratization is the process of making something—a regime, a culture, or a decision-making process—more “democratic,” that is, more reflective of the values of freedom and equality. One way of democratizing is by increasing access to democratic institutions, such as voting. But one can also democratize by increasing people’s ability to take advantage of the institutions to which they already have access; for instance, by making people more knowledgeable about the kinds of policies they vote for.
+
+
+      When democratic theorists consider the potential for UBI, they are especially interested in this type of democratization (Goodhart, 2008; Pateman, 2004). Democratic theorists often worry about the impact of economic dependency on democracy. Most obviously, individuals who are dependent in the private sphere may be more likely to be coerced in the public sphere. An authoritarian employer or husband could control how one votes or how much they donate. However, there are also subtler ways in which dependency could impact how one practices citizenship. For example, if one spends too much time working or at the service of their superiors, they might be prevented from engaging in the type of thinking and education necessary to productively participate in public life. Dependency might also impact one’s character, making one more “slavish” and less willing to think for themselves. Even Friedrich von Hayek, a defender of capitalism, wrote in the mid-twentieth century that workers—those who depend on capitalists for their subsistence—were “in many respects ... alien and inimical to much that constitutes the driving force of a free society” (Hayek, 2010).
+
+
+      Insofar as UBI alleviates economic dependency, it could contribute to reducing this problem. If one is economically independent, the thinking goes, one is more likely to be politically independent as well. The empirical evidence for this claim is more than uncertain though. Although theorists have posited that economic dependency has a negative impact on one’s democratic character, the effect of increased economic security through a program like UBI has not been measured. There are also many other, perhaps more significant, causes of “bad” democratic character, such as media misinformation or ideological segregation. In addition, employer pressure on political participation is already illegal and may not be widespread. 
+
+
+      There is some limited evidence that UBI may result in individuals engaging in activities that could make them more independent citizens. For instance, there is some evidence of young adults receiving a basic income replacing workforce participation with education (McDonald & Stephenson, 1979). If increased education—or the other activities that are substituted for work—turn individuals into better citizens, then UBI could have a positive impact on democratization in at least this indirect way. 
+
+
+      Economic dependency is primarily worrisome because it may put some at the mercy of malicious actors, such as bad bosses or domineering family members, but democratic theorists have other considerations as well when it comes to increasing people’s ability to participate in democratic institutions. Even if there is no individual bad behavior, for example, the overarching way an institution is structured can impact the types of habits individuals build. Authoritarian institutions might cause individuals to develop submissive characters (Pateman, 2004). If the family and the workplace are inegalitarian, the argument goes, people will develop traits that make them unable to participate effectively in their democracies. 
+
+
+      Proponents of UBI argue that so long as the transfer is large enough, the policy would have a democratizing effect (Pateman, 2004). By enabling people to choose whether to work and who to work for, and by increasing their exit options, a basic income may prevent individuals from entering undemocratic or inegalitarian contracts. When individual actors have more economic security, undemocratic institutions could be reimagined and redesigned from the inside to become more democratic: workplaces and households could become more egalitarian, and workers and family members might be more likely to practice the virtues required for autonomous decision making. 
+
+
+      These positive outcomes are largely speculative though. There is little evidence as to whether economic independence would in fact lead to workers choosing workplaces wherein they can practice democratic virtues, or whether the threat of exit would force employers to reform their internal governance structures. However, there are some promising indicators. The basic income experiments in Madhya Pradesh, India resulted in anecdotal evidence regarding an increase in collective work, describing nascent workers’ collectives. In addition, there was a significant switch among individuals from wage-labor to ‘own-account’ work (that is, work done for one’s own profit) (SEWA Bharat, 2014). If becoming “one’s own boss” inculcates or develops democratic virtues, then such a switch would not only be empowering for the individuals, but also beneficial for the polity. As for making families more egalitarian, there is some evidence that cash transfers do improve the standing of women within households, making them more economically independent and/or giving them greater power in household decision-making (SEWA Bharat, 2014). This may result in more “democratized” homes (Pateman, 2004).
+
+
+      But there may be reasons to question whether UBI can democratize in the ways its proponents propose. Opponents of UBI argue that it may provide economic independence but would not result in democratizing reforms of the workplace (Gourevitch, 2016). In particular, they argue that basic income only reduces power asymmetries in the workplace for individuals who have an instrumental reason to work; that is, for individuals who work because they depend on its income. But individuals have many other reasons for working; for instance, they may depend on a position for meaning or social connectedness. These workers may remain locked into authoritarian workplaces because the mere “freedom to exit” does not necessarily yield alternative satisfactory opportunities. More generally, democratic reforms do not necessarily logically follow from the right to exit. Since UBI treats workers as separate market participants, it may reduce workers’ ability to organize collectively, decreasing both their access to that particular democratic avenue, hindering their ability to reform organizations. More research is thus required to understand better the relationship between UBI and the democratization of the workplace.
+    related: |-
+      * Democratic justifications for UBI (in UBI and Democracy) 
+      * The household (in UBI and Gender)
+      * Gendered welfare (in UBI and Gender) 
+      * Racialized welfare stereotypes (in UBI and Race) 
+      * Freedom from demeaning jobs (in UBI and Wellbeing) 
+      * Employees bargaining power (in UBI and Work) 
+      * Jobs as determining human worth (in UBI and Work)
+      * Inequality in political power (in UBI and Inequality)
+    citations: >-
+      Goodhart, M. (2008). A Democratic Defense of Universal Basic Income. In
+      Illusion of Consent: Engaging with Carole Pateman (pp. 139–162). Penn
+      State University Press.
+
+      \
+
+      Gourevitch, A. (2016). The Limits of a Basic Income: Means and Ends of Workplace Democracy. Basic Income Studies, 11(1), 17–28. https://doi.org/10.1515/bis-2016-0008
+
+      \
+
+      Hayek, F. A. von. (2010). The Constitution of Liberty. Routledge.
+
+      \
+
+      McDonald, J. F., & Stephenson, S. P. (1979). The Effect of Income Maintenance on the School-Enrollment and Labor-Supply Decisions of Teenagers. The Journal of Human Resources, 14(4), 488. https://doi.org/10.2307/145319
+
+      \
+
+      Pateman, C. (2004). Democratizing Citizenship: Some Advantages of a Basic Income. Politics & Society, 32(1), 89–105. https://doi.org/10.1177/0032329203261100
+
+      \
+
+      SEWA Bharat. (2014). A Little More, How Much It Is: Piloting Basic Income Transfers in Madhya Pradesh, India (p. 512) \[Report on Unconditional Cash Transfer Pilot Project]. SEWA and UNICEF. http://sewabharat.org/wp-content/uploads/2015/07/Report-on-Unconditional-Cash-Transfer-Pilot-Project-in-Madhya-Pradesh.pdf
+  - theme: Civic Participation
+    id: "civic-participation"
+    body: >-
+      This section discusses how UBI may impact citizens’ political
+      participation, especially voter turnout. 
+
+
+      **Summary**
+
+
+      Civic participation is the process of citizen engagement in the political life of a community. There are many forms of participation, including voting, volunteering, and campaigning, among others. The following summary first looks at the potential implications of UBI on citizens’ participation as a whole. It then narrows its focus to low-income citizens, who have historically evidenced low participation rates. Although UBI holds promise for increasing civic participation, the empirical evidence is scarce and uncertain.
+
+
+      Some democratic theorists hold civic participation to be key to a successfully functioning democracy (Skocpol & Fiorina, 2004). They worry about decreased civic participation in the form of declining voting rates and the shrinking presence of civic groups, such as volunteer organizations or unions. One potential cause of decreased participation may be increased time constraints on employed citizens. Indeed, there is some evidence that the amount of time college-educated Americans spend at work has been increasing (The Economist, 2014). Another potential explanation for the decline in civic associations in the United States is the increased labor force participation of upper and middle class women, whose unpaid labor in earlier generations may have been essential to the robustness of American civic life (Putnam, 2001).
+
+
+      If UBI impacts labor force participation, for instance by enabling a reduction of hours of formal labor, it may free up citizens’ time to engage in civic participation. There is some evidence that a UBI would enable individuals to exchange time spent at work for other activities they consider to be more valuable, such as education or child-rearing. Whether a UBI would increase civic participation among middle- and high-income citizens has yet to be empirically investigated. 
+
+
+      Democratic theorists are primarily worried about the participation of low-income citizens, whose levels have never been high to begin with. There is a strong literature demonstrating a correlation between political participation and level of income (Ojeda, 2018). In particular, the likelihood that one will vote is strongly correlated with socio-economic status and voter turnout increases with income level (Akee et al., 2018; Scholzman et al., 2018). The impact of income on participation is curvilinear, meaning that the effect of income on turnout is largest at the lower end of the income distribution (Ojeda, 2018; Rosenstone & Hansen, 2009). In the political science literature, four causal mechanisms for this phenomenon have been articulated. First, low-income families may lack the skills and resources necessary for participation (Scholzman et al., 2018) second, mobilization efforts by campaigns and other organizations tend to ignore low-income communities (Rosenstone & Hansen, 2009) third, policy agendas do not emphasize issues relevant to the them (Piven & Cloward, 1988) and fourth, restrictions such as voter ID laws or felony disenfranchisement may disproportionately impact low-income citizens (Hershey, 2009).
+
+
+      A UBI could address some of these causal mechanisms, resulting in increased participation. If low-income citizens do not participate because of economic barriers, such as the inability to take time off from work or to find childcare on election day, then a significant UBI would help increase opportunities for electoral participation. It is also worth noting that a UBI could be a policy issue of direct significance to low-income citizens, which may in turn help create a class of voters that are more easily mobilized, similar to how the passing of social security legislation led to the emergence of elderly citizens as a political class (Campbell, 2011). There is also some evidence that the children of those who exit poverty are more likely to vote (Akee et al., 2018)which suggests a robust UBI could have long reaching effects on political participation. 
+
+
+      But while UBI would remove some economic barriers, it would likely not remove barriers of language, political knowledge, or even interest. UBI, then, may be of limited impact as a solution to low and unequal civic participation. Moreover, versions of the UBI proposal that include cuts to other important services such as public education may actually negatively impact participation rather than boost it. UBI would of course also be unlikely to impact institutional barriers to participation, such as laws intended to restrict enfranchisement.
+    related: |-
+      * Good governance (in UBI and Democracy) 
+      * Democratic justifications (in UBI and Democracy)
+      * Income Inequality (in UBI and Inequality) 
+      * Wealth Inequality (in UBI and inequality)
+    citations: >-
+      Akee, R., Copeland, W., Costello, E. J., Holbein, J., & Simeonova, E.
+      (2018). Family Income and the Intergenerational Transmission of Voting
+      Behavior: Evidence from an Income Intervention (No. w24770; p. w24770).
+      National Bureau of Economic Research. https://doi.org/10.3386/w24770
+
+      \
+
+      Campbell, A. L. (2011). How Policies Make Citizens: Senior Political Activism and the American Welfare State. Princeton University Press.
+
+      \
+
+      Hershey, M. R. (2009). What We Know about Voter-ID Laws, Registration, and Turnout. PS: Political Science and Politics, 42(1), 87–91. JSTOR.
+
+      \
+
+      Ojeda, C. (2018). The Two Income-Participation Gaps. American Journal of Political Science, 62(4), 813–829. https://doi.org/10.1111/ajps.12375
+
+      \
+
+      Piven, F. F., & Cloward, R. A. (1988). Why Americans don’t vote (1st ed). Pantheon Books.
+
+      Putnam, R. D. (2001). Bowling alone: The collapse and revival of American community (1. touchstone ed). Simon & Schuster.
+
+      \
+
+      Rosenstone, S. J., & Hansen, J. M. (2009). Mobilization, Participation, and Democracy in America. Longman.
+
+      \
+
+      Scholzman, K. L., Brady, H., & Verba, S. (2018). Unequal and Unrepresented: Political inequality and the people’s voice in the new gilded age. Princeton University Press.
+
+      \
+
+      Skocpol, T., & Fiorina, M. P. (2004). Civic engagement in American democracy. Brookings Institution Press ; Russell Sage Foundation.
+
+      \
+
+      The Economist. (2014, April 22). Nice work if you can get out. The Economist. https://www.economist.com/finance-and-economics/2014/04/22/nice-work-if-you-can-get-out
