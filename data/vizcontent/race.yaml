@@ -1,82 +1,6 @@
 themeid: race
 themename: Race
 themes:
-  - theme: Racial Economic Inequality
-    id: racial-economic-inequality
-    body: >-
-      This section discusses how UBI could possibly reduce some racial economic
-      inequalities in the United States.
-
-
-      **Summary** 
-
-
-
-      Since the founding of the United States, unequal policies have restricted financial opportunities for many and perpetuated the intergenerational transmission of poverty and racial economic inequality. Federal policies, like the G.I. Bill and the process of “redlining,” helped mostly white Americans obtain college degrees and purchase homes, the bedrock of wealth-creation, while systematically excluding African-Americans (Bhattacharya, 2019; Traub et al., 2017). Black households, instead, had to endure school segregation, limited access to financial institutions and racialized mass incarceration practices. Additionally, they were forced into predatory mortgage agreements, confined to impoverished neighborhoods, and excluded from other essential goods and governmental services (Alexander & West, 2020; Bertocchi & Dimico, 2011; Coates, 2014). 
-
-
-
-      These processes combined with lower wages and income have contributed to large economic inequalities and a glaring wealth gap. Today, in the U.S., the median white family has a net wealth of $171,000, whereas the median Black family has a net wealth of roughly $17,000 (Oliver & Shapiro, 2019). Neither obtaining a college degree nor working full time closes the divide (Traub et al., 2017). The gap is not explained by fiscal irresponsibility either: white households in fact tend to consume more than Black households of the same income (Traub et al., 2017). 
-
-
-
-      This wealth gap is concerning for the injustices it reveals, but also for its consequences. Wealth creates opportunities for individuals and households to invest in education and entrepreneurial ventures, maintain savings, transition between jobs, and handle unforeseen expenses. It also affords choice and self-empowerment, and it gives access to power. The lack of wealth and economic opportunities, conversely, minimizes the chance of upward mobility and economic stability (Hanks et al., 2018). Black households, therefore, are more likely to be ill-equipped for future investments—such as college tuition or a down payment—as well as unanticipated financial shocks such as a medical emergency or layoff. Without transformative policy interventions, it would take at least 200 years to end the Black-white wealth gap in the United States (Hanks et al., 2018).
-
-
-
-      A single policy cannot counteract economic inequalities grounded in centuries-long oppression, but a UBI could at least ensure that households meet their basic needs and possibly reduce their debt. First, a universal basic income would most benefit those at the bottom of the income distribution, because it would represent a larger proportional boost in a household’s overall income. This includes those who are formally incarcerated who have historically been left out of welfare programs or forced to meet onerous conditions (Bhattacharya, 2019; Warren, 2016). Second, a basic income funded through redistribution could potentially help mitigate some of the effects of discrimination in labor markets, which disproportionately disadvantages Black Americans. Racial prejudice in the employment process—hiring, promoting, compensating—means many Americans of color make only a fraction of what white Americans make: at median income, Black Americans earned 65 percent as much as white Americans in 2016 (Kochhar & Cilluffo, 2018). As a result, those racialized as Black often find themselves disproportionately vulnerable to economic insecurity. Black Americans are about twice as likely to be behind on bill payments as white Americans. Recent evidence from the Magnolia Mother’s Trust experiment in Jackson, Mississippi, showed that within a year, a cash transfer of $1,000 a month allowed 80 percent of participants to pay their bills without additional support, an increase from 37 percent at the start of the experiment (Springboard To Opportunities, 2020).
-
-
-
-      The implementation of a generous basic income ensures that all Americans, regardless of employment status, can cover basic necessities, especially during periods of precarious employment and income irregularities. But a UBI may also increase the ability of Black households to save, which could then be used to invest in educational or entrepreneurial pursuits. It would enable wealth-building opportunities often impossible on income from labor alone. A progressively funded UBI could then directly address the disparities of income and wealth between Black and white Americans (Warren, 2016). Moreover, since white Americans typically earn more than Black Americans, a larger proportion of their UBI would be taxed back.  This is another reason why Black Americans may disproportionately benefit from a UBI even though it is a universal policy (of course, this is only true of UBI programs that are funded at least in part by progressive income taxes). This would essentially amount to a form of reparation that corrects for some of the previous wealth hoarding among white Americans as the result of racially-discriminatory governmental policies (Warren, 2016).
-
-
-
-      Even more straightforwardly relevant to racial economic injustice, a UBI “Plus” has been proposed as a potential policy to directly address the racial economic disparities brought on by structural racism in the United States (Warren, 2017). The modified version of this idea, Universal PLUS Basic Income (U+BI), parallels most basic income proposals—an unconditional cash transfer provided to everyone on a regular basis. However, U+BI also includes a pro-rated additional amount for Black Americans for a specific time period, potentially funded through a divestment from carceral institutions. This portion of U+BI would function as reparations: it would serve to acknowledge the systemic disadvantages African Americans faced under Jim Crow and slavery and to restitute a group that is worse off as a result (Warren, 2017). U+BI would likely face popular opposition given its explicit emphasis on racial equity and reparations. The additional payment to Black Americans could provoke racial resentment and further perpetuate the existing stigmatization of Black Americans as welfare recipients. This may be a barrier to political feasibility. But, clearly, the U+BI proposal does more directly and frontally address the racial wealth gap than a redistributive UBI program.
-
-
-
-      While there is great potential for UBI, a basic income policy alone cannot close the racial wealth gap. Critics of UBI have argued that other policies—such as baby bonds, student debt forgiveness, and a federal jobs guarantee, or a mix of those proposals—would better address racial economic inequities (Ackerman & Alstott, 2004; Oliver & Shapiro, 2019). Since UBI focuses largely on stabilizing income (Oliver & Shapiro, 2019), the extent to which it could decrease wealth disparities has yet to be tested and would depend on the specific way the policy is funded, as well as on  whether it replaces or supplements other safety net programs. Closing the racial income and wealth gap, in a timely fashion, would also require eliminating workplace discrimination and mass-incarceration as well as implementing reparations.
-    related: |-
-      * Racialized welfare stereotypes (in UBI & Race)
-      * Wealth inequality (UBI & Inequality)
-      * The poverty trap (UBI & Poverty)
-    citations: >-
-      Ackerman, B., & Alstott, A. (2004). Why Stakeholding? *Politics &
-      Society*, *32*(1), 41–60. https://doi.org/10.1177/0032329203261096
-
-
-      Alexander, M., & West, C. (2020). *The new Jim Crow: Mass incarceration in the age of colorblindness*.
-
-
-      Bertocchi, G., & Dimico, A. (2011). *The Evolution of the Racial Gap in Education and the Legacy of Slavery* (No. 6192; Discussion Paper Series). Forschungsinstitut zur Zukunft der Arbeit Institute for the Study of Labor. http://ftp.iza.org/dp6192.pdf
-
-
-      Bhattacharya, J. (2019). *Exploring Basic Income through a Race and Gender Justice Lens*. Roosevelt Institute.
-
-
-      Coates, T.-N. (2014). The Case for Reparations. *The Atlantic*. https://www.theatlantic.com/magazine/archive/2014/06/the-case-for-reparations/361631/
-
-
-      Hanks, A., Solomon, D., & Weller, C. (2018). *Systematic Inequality: How America’s Structural Racism Helped Create the Black-White Wealth Gap* (Race and Ethnicity). Center for American Progress. https://www.americanprogress.org/issues/race/reports/2018/02/21/447051/systematic-inequality/
-
-
-      Kochhar, R., & Cilluffo, A. (2018, July 12). Racial and ethnic income inequality in America: 5 key findings. *Pew Research Center: FactTank News in the Numbers*. https://www.pewresearch.org/fact-tank/2018/07/12/key-findings-on-the-rise-in-income-inequality-within-americas-racial-and-ethnic-groups/
-
-
-      Oliver, M. L., & Shapiro, T. M. (2019). Disrupting the Racial Wealth Gap. *Contexts*, *18*(1), 16–21. https://doi.org/10.1177/1536504219830672
-
-
-      Springboard To Opportunities. (2020). *Magnolia Mother’s Trust, Initial Pilot Report* (p. 1). Springboard To Opportunities. http://springboardto.org/index.php/page/the-magnolia-mothers-trust
-
-
-      Traub, A., Sullivan, L., Meschede, T., & Shapiro, T. (2017). *The Asset Value of Whiteness: Understanding the Racial Wealth Gap*. Demos. https://www.demos.org/research/asset-value-whiteness-understanding-racial-wealth-gap
-
-
-      Warren, D. (2016). Universal Basic Income and Black Communities in the United States. *Working Paper*. https://drive.google.com/file/d/0BzQSUaxtfgvIWmRMVEhCdS1nR1hYV2RpelB4TkJVbUtSZXo4/view
-
-
-      Warren, D. (2017). Reparations and Basic Income. *Boston Review*, 56–60.
   - theme: Racialized Welfare Stereotypes
     id: racialized-welfare-stereotypes
     body: >-
@@ -165,6 +89,82 @@ themes:
 
 
       Zelleke, A. (2008). Institutionalizing the Universal Caretaker Through a Basic Income? *Basic Income Studies*, *3*(3), 1–9. https://doi.org/10.2202/1932-0183.1133
+  - theme: Racial Economic Inequality
+    id: racial-economic-inequality
+    body: >-
+      This section discusses how UBI could possibly reduce some racial economic
+      inequalities in the United States.
+
+
+      **Summary** 
+
+
+
+      Since the founding of the United States, unequal policies have restricted financial opportunities for many and perpetuated the intergenerational transmission of poverty and racial economic inequality. Federal policies, like the G.I. Bill and the process of “redlining,” helped mostly white Americans obtain college degrees and purchase homes, the bedrock of wealth-creation, while systematically excluding African-Americans (Bhattacharya, 2019; Traub et al., 2017). Black households, instead, had to endure school segregation, limited access to financial institutions and racialized mass incarceration practices. Additionally, they were forced into predatory mortgage agreements, confined to impoverished neighborhoods, and excluded from other essential goods and governmental services (Alexander & West, 2020; Bertocchi & Dimico, 2011; Coates, 2014). 
+
+
+
+      These processes combined with lower wages and income have contributed to large economic inequalities and a glaring wealth gap. Today, in the U.S., the median white family has a net wealth of $171,000, whereas the median Black family has a net wealth of roughly $17,000 (Oliver & Shapiro, 2019). Neither obtaining a college degree nor working full time closes the divide (Traub et al., 2017). The gap is not explained by fiscal irresponsibility either: white households in fact tend to consume more than Black households of the same income (Traub et al., 2017). 
+
+
+
+      This wealth gap is concerning for the injustices it reveals, but also for its consequences. Wealth creates opportunities for individuals and households to invest in education and entrepreneurial ventures, maintain savings, transition between jobs, and handle unforeseen expenses. It also affords choice and self-empowerment, and it gives access to power. The lack of wealth and economic opportunities, conversely, minimizes the chance of upward mobility and economic stability (Hanks et al., 2018). Black households, therefore, are more likely to be ill-equipped for future investments—such as college tuition or a down payment—as well as unanticipated financial shocks such as a medical emergency or layoff. Without transformative policy interventions, it would take at least 200 years to end the Black-white wealth gap in the United States (Hanks et al., 2018).
+
+
+
+      A single policy cannot counteract economic inequalities grounded in centuries-long oppression, but a UBI could at least ensure that households meet their basic needs and possibly reduce their debt. First, a universal basic income would most benefit those at the bottom of the income distribution, because it would represent a larger proportional boost in a household’s overall income. This includes those who are formally incarcerated who have historically been left out of welfare programs or forced to meet onerous conditions (Bhattacharya, 2019; Warren, 2016). Second, a basic income funded through redistribution could potentially help mitigate some of the effects of discrimination in labor markets, which disproportionately disadvantages Black Americans. Racial prejudice in the employment process—hiring, promoting, compensating—means many Americans of color make only a fraction of what white Americans make: at median income, Black Americans earned 65 percent as much as white Americans in 2016 (Kochhar & Cilluffo, 2018). As a result, those racialized as Black often find themselves disproportionately vulnerable to economic insecurity. Black Americans are about twice as likely to be behind on bill payments as white Americans. Recent evidence from the Magnolia Mother’s Trust experiment in Jackson, Mississippi, showed that within a year, a cash transfer of $1,000 a month allowed 80 percent of participants to pay their bills without additional support, an increase from 37 percent at the start of the experiment (Springboard To Opportunities, 2020).
+
+
+
+      The implementation of a generous basic income ensures that all Americans, regardless of employment status, can cover basic necessities, especially during periods of precarious employment and income irregularities. But a UBI may also increase the ability of Black households to save, which could then be used to invest in educational or entrepreneurial pursuits. It would enable wealth-building opportunities often impossible on income from labor alone. A progressively funded UBI could then directly address the disparities of income and wealth between Black and white Americans (Warren, 2016). Moreover, since white Americans typically earn more than Black Americans, a larger proportion of their UBI would be taxed back.  This is another reason why Black Americans may disproportionately benefit from a UBI even though it is a universal policy (of course, this is only true of UBI programs that are funded at least in part by progressive income taxes). This would essentially amount to a form of reparation that corrects for some of the previous wealth hoarding among white Americans as the result of racially-discriminatory governmental policies (Warren, 2016).
+
+
+
+      Even more straightforwardly relevant to racial economic injustice, a UBI “Plus” has been proposed as a potential policy to directly address the racial economic disparities brought on by structural racism in the United States (Warren, 2017). The modified version of this idea, Universal PLUS Basic Income (U+BI), parallels most basic income proposals—an unconditional cash transfer provided to everyone on a regular basis. However, U+BI also includes a pro-rated additional amount for Black Americans for a specific time period, potentially funded through a divestment from carceral institutions. This portion of U+BI would function as reparations: it would serve to acknowledge the systemic disadvantages African Americans faced under Jim Crow and slavery and to restitute a group that is worse off as a result (Warren, 2017). U+BI would likely face popular opposition given its explicit emphasis on racial equity and reparations. The additional payment to Black Americans could provoke racial resentment and further perpetuate the existing stigmatization of Black Americans as welfare recipients. This may be a barrier to political feasibility. But, clearly, the U+BI proposal does more directly and frontally address the racial wealth gap than a redistributive UBI program.
+
+
+
+      While there is great potential for UBI, a basic income policy alone cannot close the racial wealth gap. Critics of UBI have argued that other policies—such as baby bonds, student debt forgiveness, and a federal jobs guarantee, or a mix of those proposals—would better address racial economic inequities (Ackerman & Alstott, 2004; Oliver & Shapiro, 2019). Since UBI focuses largely on stabilizing income (Oliver & Shapiro, 2019), the extent to which it could decrease wealth disparities has yet to be tested and would depend on the specific way the policy is funded, as well as on  whether it replaces or supplements other safety net programs. Closing the racial income and wealth gap, in a timely fashion, would also require eliminating workplace discrimination and mass-incarceration as well as implementing reparations.
+    related: |-
+      * Racialized welfare stereotypes (in UBI & Race)
+      * Wealth inequality (UBI & Inequality)
+      * The poverty trap (UBI & Poverty)
+    citations: >-
+      Ackerman, B., & Alstott, A. (2004). Why Stakeholding? *Politics &
+      Society*, *32*(1), 41–60. https://doi.org/10.1177/0032329203261096
+
+
+      Alexander, M., & West, C. (2020). *The new Jim Crow: Mass incarceration in the age of colorblindness*.
+
+
+      Bertocchi, G., & Dimico, A. (2011). *The Evolution of the Racial Gap in Education and the Legacy of Slavery* (No. 6192; Discussion Paper Series). Forschungsinstitut zur Zukunft der Arbeit Institute for the Study of Labor. http://ftp.iza.org/dp6192.pdf
+
+
+      Bhattacharya, J. (2019). *Exploring Basic Income through a Race and Gender Justice Lens*. Roosevelt Institute.
+
+
+      Coates, T.-N. (2014). The Case for Reparations. *The Atlantic*. https://www.theatlantic.com/magazine/archive/2014/06/the-case-for-reparations/361631/
+
+
+      Hanks, A., Solomon, D., & Weller, C. (2018). *Systematic Inequality: How America’s Structural Racism Helped Create the Black-White Wealth Gap* (Race and Ethnicity). Center for American Progress. https://www.americanprogress.org/issues/race/reports/2018/02/21/447051/systematic-inequality/
+
+
+      Kochhar, R., & Cilluffo, A. (2018, July 12). Racial and ethnic income inequality in America: 5 key findings. *Pew Research Center: FactTank News in the Numbers*. https://www.pewresearch.org/fact-tank/2018/07/12/key-findings-on-the-rise-in-income-inequality-within-americas-racial-and-ethnic-groups/
+
+
+      Oliver, M. L., & Shapiro, T. M. (2019). Disrupting the Racial Wealth Gap. *Contexts*, *18*(1), 16–21. https://doi.org/10.1177/1536504219830672
+
+
+      Springboard To Opportunities. (2020). *Magnolia Mother’s Trust, Initial Pilot Report* (p. 1). Springboard To Opportunities. http://springboardto.org/index.php/page/the-magnolia-mothers-trust
+
+
+      Traub, A., Sullivan, L., Meschede, T., & Shapiro, T. (2017). *The Asset Value of Whiteness: Understanding the Racial Wealth Gap*. Demos. https://www.demos.org/research/asset-value-whiteness-understanding-racial-wealth-gap
+
+
+      Warren, D. (2016). Universal Basic Income and Black Communities in the United States. *Working Paper*. https://drive.google.com/file/d/0BzQSUaxtfgvIWmRMVEhCdS1nR1hYV2RpelB4TkJVbUtSZXo4/view
+
+
+      Warren, D. (2017). Reparations and Basic Income. *Boston Review*, 56–60.
   - theme: Guaranteed Income in African American History
     id: guaranteed-income-in-african-american-history
     body: >-
@@ -213,9 +213,11 @@ themes:
 
 
       As renewed calls for basic income and guaranteed income come about, it is important to understand this long legacy of support for universal basic income, its primary motivations, and its connections with curtailing racial oppression through discrimination and stigmatization. Awareness of this rich history of successes and failures can also help us pre-empt future injustices. Current basic income experiments, including the Stockton Economic Empowerment Project and Magnolia Mother’s Trust, both draw on this history, placing race at the center of the equation. They help inform the ways in which we can better design a guaranteed income policy that leads to greater racial equity and ultimately undermines the negative racial stereotypes engrained in welfare policies (Bhattacharya, 2019).
-    related: |-
+    related: >-
       * Care Work (in UBI & Gender)\r
+
       * Welfare Systems (in UBI & Gendered Welfare)\r
+
       * Racial Income and Asset Inequality (in UBI and Racial Economic Inequality)
     citations: >-
       Bhattacharya, J. (2019). *Exploring Basic Income through a Race and Gender
