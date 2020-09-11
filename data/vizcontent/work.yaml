@@ -1,126 +1,69 @@
 themeid: work
 themename: Work
 themes:
-  - theme: Unemployment
-    id: unemployment
+  - theme: Job Precariousness
+    id: job-precariousness
     body: >-
-      This section is about how UBI might help tackle unemployment traps and
-      mitigate other issues relating to unemployment.  
-
-
-      **Summary** 
-
-
-      Unemployment is a major social concern for policymakers and activists alike. It is associated with lower economic growth rates, a loss in human capital, higher levels of social unrest, and various individual and social effects, such as depression and other adverse physical and mental health outcomes (Renahy et al., 2018). The economic impact of the 2020 coronavirus pandemic alone caused the percentage of persons jobless 15 to 26 weeks to increase from 11.1 percent in March 2020 to 39.4 percent in July 2020 (Bureau of Labor Statistics, 2020). While UBI, in itself, is not expected to reduce unemployment rates, it may reduce the poverty and economic insecurity that typically enfolds (Lewis, 2012).
-
-
-      Two pervasive problems tend to stump policymakers: the unemployment trap and low take-up rates of unemployment benefits. The unemployment trap occurs when unemployed individuals face low or negative incentives to return to the labor market due to a potential loss of benefits and overall decrease in net income (Clark & Kavanagh, 1996). This problem has been pervasive in particular in some European countries with reasonably generous out of work benefits designed in such a way that an unemployed individual is assured to lose all their benefits when they accept employment. That threat makes unemployed individuals are more likely to remain unemployed for longer. UBI is expected to help mitigate this problem. Since it does not involve means-testing and is independent of one’s level of work, individuals can attempt to return to the labor force without fear of losing existing benefits. The basic income experiment in Finland between 2017–2018 essentially tried to capture this potential impact of conditional unemployment benefits vs. a basic income. Additional research and empirical data from the final report (expected in 2020) will hopefully shed some light onto UBI’s ability to reduce unemployment traps. 
-
-
-      UBI might also be an effective solution to the problems associated with low take-up rates of unemployment benefits. Stigma, institutional barriers, and lack of information all contribute to the fact that many individuals who are eligible for benefits do not claim or receive them (Currie, 2004). This phenomenon has led many to question the effectiveness and desirability of targeted and means-tested programs. The universal and unconditional nature of UBI can be expected to increase take-up rates, since it would reduce the stigma associated with existing benefits and reduce institutional barriers and lack of information (Van Parijs & Vanderborght, 2017). Thus, it might reduce the poverty and financial insecurity that are associated with unemployment. 
-
-
-      Other policies, such as a Job Guarantee, might prove more effective in dealing with the problem of unemployment than UBI. Advocates of a Job Guarantee argue that it would provide the benefits of a UBI at a significantly lower cost and with less destabilizing macroeconomic effects, and that it would also increase overall happiness by providing every individual with access to decent and stable jobs (Harvey, 2012; Tcherneva, 2012). The ability to offer a Guaranteed Job, though, might be undermined by technological developments. Computers and robots might significantly reduce the need for human labor over the next 20–30 years, thus causing a significant increase in unemployment (Walker, 2016). And unlike previous technological disruptions, there are reasons to believe that the current wave of automation will not result in a full recovery of the labor market (Ford, 2015). In a world with fewer available jobs, a Job Guarantee might prove overmatched. In this case, while UBI might not solve the problem of unemployment, it might nonetheless offer to stabilize income across communities (Sandbu, 2017).
-    related: |-
-      * Racial economic inequality (in UBI and Race)
-      * Job precariousness and insecurity (in UBI and Work)
-      * Unemployment & mass incarceration (in UBI and Crime)
-      * Job loss and technological unemployment (in UBI and Automation)
-      * Consumption and the threat to the capitalist economy (in UBI and Automation)
-      * Displacement of workers (in UBI and Automation)
-      * The poverty trap (in UBI and Poverty)
-    citations: >-
-      Bureau of Labor Statistics. (2020). *The Employment Situation- July 2020*.
-      U.S. Department of Labor. https://www.bls.gov/news.release/pdf/empsit.pdf
-
-
-      Clark, C. M. A., & Kavanagh, C. (1996). Basic Income, Inequality, and Unemployment: Rethinking the Linkage between Work and Welfare. *Journal of Economic Issues*, *30*(2), 399–406. https://doi.org/10.1080/00213624.1996.11505803
-
-
-      Currie, J. (2004). *The Take Up of Social Benefits* (No. w10488). Institute for the Study of Labor. https://doi.org/10.3386/w10488
-
-
-      Ford, M. (2015). *Rise of the Robots: Technology and the Threat of a Jobless Future* (1st ed.). Basic Books.
-
-
-      Harvey, P. (2012). More for Less: The Job Guarantee Strategy. *Basic Income Studies*, *7*(2). https://doi.org/10.1515/bis-2013-0006
-
-
-      Lewis, M. (2012). Cost, Compensation, Freedom, and the Basic Income – Guaranteed Jobs Debate. In *Basic Income Studies* (Vol. 7, pp. 41–51). De Gruyter.
-
-
-      Renahy, E., Mitchell, C., Molnar, A., Muntaner, C., Ng, E., Ali, F., & O’Campo, P. (2018). Connections between unemployment insurance, poverty and health: A systematic review. *European Journal of Public Health*, *28*(2), 269–275. https://doi.org/10.1093/eurpub/ckx235
-
-
-      Sandbu, M. (2017, April 6). Money can buy you work. *Financial Times*. https://www.ft.com/content/041c0efa-1ab0-11e7-a266-12672483791a
-
-
-      Tcherneva, P. R. (2012). The Job Guarantee: Delivering the Benefits That Basic Income Only Promises – A Response to Guy Standing. *Basic Income Studies*, *7*(2). https://doi.org/10.1515/bis-2013-0010
-
-
-      Van Parijs, P., & Vanderborght, Y. (2017). *Basic Income: A Radical Proposal for a Free Society and a Sane Economy* (1st ed.). Harvard University Press.
-
-
-      Walker, M. (2016). *Free Money for All: A Basic Income Guarantee Solution for the Twenty-First Century*. Springer.
-  - theme: "Work beyond Jobs "
-    id: work-beyond-jobs
-    body: >-
-      This section discusses how UBI might enable individuals to choose
-      activities beyond formal jobs and wage labor. 
+      This section discusses the increasingly precarious nature of work and how
+      UBI might address the issue.
 
 
       **Summary**
 
 
-      Our societies tend to treat waged labor as the principal form of valued activity, which often leads us to view activities beyond jobs as unproductive or unworthy. Despite being essential and meaningful, other forms of work such as caregiving and community work are often undervalued and underpaid; individuals who engage in such activities are more likely to face financial insecurity and lack financial independence. The prioritization of formal labor also comes at the expense of volunteer and community work. Given the prevalence of formal labor in our day-to-day lives, most individuals simply do not have the time to engage in such activities. The current structure of the labor market and the social norms attached to it tend to generate a very limited conception of what is considered “valuable” or “productive” human activity. 
+
+      Individuals in precarious jobs lack traditional forms of labor security, such as salaried employment and income security (Standing, 2016). In today’s economy, an increasing number of individuals are self-employed, work part-time, or rely on flexible but temporary and insecure jobs in the “gig economy” as their main source of income. The number of workers who engage in alternative forms of work—such as freelancing, temporary help agency, and on-call jobs—rose from 10.7 percent in 2005 to 15.8 percent in 2015 (Katz & Krueger, 2018). In the United States in 2018, 3 out of 10 adults were engaged in a gig-economy related job or activity; 15 percent were engaged in a service activity (e.g., child care, elder care, driving/ride-sharing, paid online tasks) and 17 percent engaged in a goods activity (e.g., selling online, flea market, consignment store) (Board of Governors of the Federal Reserve System, 2020). On average, these ‘alternative workers’ work fewer hours and have lower earnings compared to individuals employed in traditional forms of labor (Katz & Krueger, 2018). Some workers choose these jobs voluntarily —they provide a critical source of flexibility in households with or without care responsibility— and some can be well compensated. In many cases, however, individuals who engage in such alternative forms of work have little choice and would choose a ‘traditional’ and secure job if it were available to them. 
 
 
-      UBI has the potential to indirectly contribute to a broadening of what counts as productive work. Contrary to most existing income support programs, UBI would provide each individual with a basic income regardless of employment, and so it would increase financial security among unwaged caregivers and reduce their current financial dependence on working spouses (Robeyns, 2001; Standing, 2012). Furthermore, if set sufficiently high to cover basic needs, UBI would empower individuals to make their own choices, such as spending more time taking care of a sick child or aging parent. Such a high UBI could also alter a rigid gendered division into full-time caregivers and full-time employees by allowing a greater number of individuals to engage in both activities part-time (Fraser, 1997). UBI could transform the labor market by allowing people to shift from seeing jobs as a mere means of acquiring money to seeing them as a way to express personal engagement, interest, and commitment (Reich, 2016). UBI could potentially allow individuals to choose the lifestyle they want for themselves and their families, and to engage in a wider range of activities such as art, volunteering, community gardens and eco-villages, participating in after school classes, and joining community or neighborhood associations and other cultural projects (Fraser, 1997). Importantly, this is only plausible with a UBI set sufficiently high to cover basic needs.
+      The precarious nature of some of these jobs represents a significant mental burden and can increase levels of anxiety and anger (Standing, 2016). Many of these alternative jobs, for instance, do not provide basic health and retirement benefits. Thus, individuals who rely on gig economy jobs as their primary source of income are extremely financially vulnerable if they get sick or hurt (Stern, 2016) and have a higher risk of experiencing anxiety and depression (Srnicek & Williams, 2015). Some predict that the phenomenon of job precariousness and insecurity will continue to expand in the future. Specifically, current trends in automation, technological advancement, and the growing sophistication of artificial intelligence could plausibly have a negative effect on the overall quality of jobs available, leading to a decrease in the number of traditional full-time and secure jobs and an increase in the number of precarious and insecure jobs (Ford, 2015; Hughes, 2018).
 
 
-      Empirical evidence from the U.S. and Canada’s negative income tax experiments in the 1970s indicate a reduction in work hours, though not a complete withdrawal from the labor market, specifically among women (single or married). In the Seattle-Denver Income Maintenance Experiment (SIME/DIME), two-parent households receiving the negative income tax saw a reduction in wives’ workload between zero and 27 percent and single-mothers between 15 and 30 percent (Widerquist, 2005). Similar effects were found in Canada’s Mincome experiment, where there was an 11.3 percentage point reduction in labor market participation (Calnitsky & Latner, 2017). However, in the case of Mincome, qualitative evidence showed that many of these young single women cited care work, disability and illness, uneven employment opportunities, or educational investment as reasons for the reduction (Calnitsky & Latner, 2017). This evidence may point to UBI’s potential to increase forms of informal labor at the expense of traditional, formal labor. It is less clear what the impact would be on the gendered division of care work.     
+      The introduction of a basic income, in itself, cannot fix the structural problems of today’s labor market, and it is unlikely to have a direct effect on the loss of more secure jobs. But basic income programs could possibly help reduce some of the problems that are associated with these alternative forms of labor. If set sufficiently high, UBI would reduce workers’ dependence on precarious jobs for economic security. In the United States, the poverty line is $12,000 for a single individual and $16,000 for a couple. A UBI of $1,000 a month, then, could go a long way in boosting financial security (a couple would jointly receive $24,000 a year, placing them significantly above the poverty line for couples). This is especially true for workers in alternative jobs, with median weekly earnings of only $500 (Katz & Krueger, 2018). 
 
 
-      Some argue, however, that if the UBI is set too low, it might risk leaving informal laborers in relative poverty compared to those in the formal market. Even a sufficiently high UBI would not equalize the earnings of these two groups, nor would it necessarily offer a fair compensation for those who are engaged in informal activities such as caregiving and community work. Moreover, since social norms are a major element in explaining what kind of activities we find meaningful, it is not clear that UBI would be sufficient to encourage people to engage in informal labor.
+      By empowering workers and increasing workers’ independence, it could also help transform unemployment from a state of insecurity to a state of voluntary flexibility, allowing individuals to choose when and how much to work without imposing on them the financial insecurity that is associated with the gig economy. It could thus increase the number of individuals who voluntarily engage in alternative forms of work and take advantage of the flexibility it can afford. By reducing financial insecurity and instability, UBI has the further potential to reduce the negative mental health outcomes that are associated with the precariousness of the current labor market (Srnicek & Williams, 2015). 
+
+
+      Empirical data on how basic income could help reduce workers’ dependence on precarious jobs come primarily from the Madhya Pradesh experiment in India (2011-2012). At the time of the experiment, most individuals worked as casual wage farm laborers (noted as a form of bonded labor for a landlord within the naukar system), while some did their own-account farming and others migrated outside the village to do other labor (Davala et al., 2015). The introduction of basic income was associated with a notable shift away from casual waged labor to own-account work, including own-account farming and small-scale business. In villages receiving basic income, the proportion of individuals reporting own-account farming as their main occupation rose from 40 percent to 62 percent during the tribal village pilot. The share of participants reporting that they were a wage laborer fell from 55 percent to 27 percent. In contrast, the level of self-employment in non-recipient villages actually decreased during this time, from 42 percent to 36 percent, and the percentage of wage laborers increased from 50 to 51 percent.
+
+
+      This shift among recipients of basic income suggests a greater sense of autonomy and independence as well as the flexibility to create more sustainable livelihoods. The move away from wage laborer to own-account farming and small businesses was largely among women, who used the basic income to purchase equipment, livestock, and productive assets (e.g., pumps, pipes, tractors, machine tools, carts and sewing machines) (Davala et al., 2015). Although these findings are notable, it is important to understand that this experiment took place in a context where women were already organized into women’s associations, and so these results may not translate to contexts where such organizational support is lacking. Additional research is needed in the United States and other parts of the world to determine if UBI would cause individuals to leave precarious work and for what other activities, as well as to identify under which conditions the cash injection could boost workers’ bargaining power.  
+
+
+      While basic income may reduce the financial insecurity that is often associated with precarious and non-traditional forms of labor, it is limited in its ability to deal with the root causes of job precariousness. UBI does not replace the need for workplace regulations that prevent the labor market from becoming too precarious in the first place. In addition, there are scenarios in which a standalone UBI could even worsen the problem if it played the role of a wage subsidy and was used by employers as an excuse to replace the need for adequate workers’ compensation and health, retirement and other benefits. This suggests that a broader policy package, including perhaps minimum wage regulations, needs to be designed in order to ensure that UBI can play a truly positive role in undermining both job insecurity and economic insecurity.
     related: |-
-      * The household (in UBI and Gender)
-      * Freedom from demeaning jobs (in UBI and Wellbeing)
-      * Post-productivism (in UBI and the Environment)
-      * Post-work, or freedom from work (in UBI and Automation)
+      * Employees’ bargaining power (in UBI and Work)
+      * Mental health (in UBI and Health)
+      * Job loss and technological unemployment (in UBI and Automation)
+      * The working poor (in UBI and Poverty)
+      * Safety net (in UBI and Poverty)
+      * Labor supply & demand (in the Economic Effects of UBI)
     citations: >-
-      Barnes, P. (2014). *With Liberty and Dividends for All: How to Save Our
-      Middle Class When Jobs Don’t Pay Enough* (First Edition). Berrett-Koehler
-      Publishers.
+      Board of Governors of the Federal Reserve System. (2020). *Report on the
+      Economic Well-Being of U.S. Households in 2019, Featuring Supplemental
+      Data from April 2020*. Board of Governors of the Federal Reserve System.
+      https://www.federalreserve.gov/publications.htm
 
 
-      Calnitsky, D., & Latner, J. P. (2017). Basic Income in a Small Town: Understanding the Elusive Effects on Work. *Social Problems*, *64*(3), 456–456. https://doi.org/10.1093/socpro/spx024
+      Davala, S., Renana Jhabvala, Guy Standing, & Soumya Kapoor Mehta. (2015). *Basic Income: A Transformative Policy for India*. Bloomsbury Academic.
 
 
-      Fraser, N. (1997). *Justice interruptus: Critical reflections on the “postsocialist” condition*. Routledge.
+      Ford, M. (2015). *Rise of the Robots: Technology and the Threat of a Jobless Future* (1st ed.). Basic Books.
 
 
-      Pateman, C. (2004). Democratizing Citizenship: Some Advantages of a Basic Income. *Politics & Society*, *32*(1), 89–105. https://doi.org/10.1177/0032329203261100
+      Hughes, C. (2018). *Fair Shot: Rethinking Inequality and How We Earn* (1st ed.). St. Martin’s Press.
 
 
-      Reich, R. B. (2016). *Saving Capitalism: For the Many, Not the Few* (1st ed.). Vintage Books, a Division of Penguin Random House LLC.
+      Katz, L. F., & Krueger, A. B. (2018). The Rise and Nature of Alternative Work Arrangements in the United States, 1995–2015. *ILR Review*, *72*(2), 382–416. https://doi.org/10.1177/0019793918820008
 
 
-      Robeyns, I. (2001). Will a Basic Income Do Justice to Women? *Analyse & Kritik*, *23*(1), 88–105. https://doi.org/10.1515/auk-2001-0108
+      Srnicek, N., & Williams, A. (2015). *Inventing the Future: Postcapitalism and a World Without Work*. Verso Books.
 
 
-      Standing, G. (2012). Why a Basic Income Is Necessary for a Right to Work. *Basic Income Studies*, *7*(2), 19–40. https://doi.org/10.1515/bis-2013-0007
+      Standing, G. (2016). *The Precariat: The New Dangerous Class* (Reprint edition). Bloomsbury Academic.
 
 
-      Stern, A. (2016). *Raising the Floor: How a Universal Basic Income Can Renew Our Economy and Rebuild the American Dream* (1st ed.). PublicAffairs.
-
-
-      Van Parijs, P., & Vanderborght, Y. (2017). *Basic Income: A Radical Proposal for a Free Society and a Sane Economy* (1st ed.). Harvard University Press.
-
-
-      Widerquist, K. (2005). A failure to communicate: What (if anything) can we learn from the negative income tax experiments? *The Journal of Socio-Economics*, *34*(1), 49–81. https://doi.org/10.1016/j.socec.2004.09.050
-
-
-      Zelleke, A. (2008). Institutionalizing the Universal Caretaker Through a Basic Income? *Basic Income Studies*, *3*(3), 1–9. https://doi.org/10.2202/1932-0183.1133
+      Stern, A. (2016). *Raising the Floor: How a Universal Basic Income Can Renew Our Economy and Rebuild the American Dream* (1st ed.). Public Affairs.
   - theme: Bargaining Power
     id: collective-bargaining
     body: >-
@@ -192,66 +135,129 @@ themes:
 
 
       Zelleke, A. (2014, January 27). *The Liberal Case for a Basic Income*. Basic Income Earth Network. https://basicincome.org/news/2014/01/opinion-the-liberal-case-for-a-basic-income/
-  - theme: Job Precariousness
-    id: job-precariousness
+  - theme: "Work beyond Jobs "
+    id: work-beyond-jobs
     body: >-
-      This section discusses the increasingly precarious nature of work and how
-      UBI might address the issue.
+      This section discusses how UBI might enable individuals to choose
+      activities beyond formal jobs and wage labor. 
 
 
       **Summary**
 
 
-
-      Individuals in precarious jobs lack traditional forms of labor security, such as salaried employment and income security (Standing, 2016). In today’s economy, an increasing number of individuals are self-employed, work part-time, or rely on flexible but temporary and insecure jobs in the “gig economy” as their main source of income. The number of workers who engage in alternative forms of work—such as freelancing, temporary help agency, and on-call jobs—rose from 10.7 percent in 2005 to 15.8 percent in 2015 (Katz & Krueger, 2018). In the United States in 2018, 3 out of 10 adults were engaged in a gig-economy related job or activity; 15 percent were engaged in a service activity (e.g., child care, elder care, driving/ride-sharing, paid online tasks) and 17 percent engaged in a goods activity (e.g., selling online, flea market, consignment store) (Board of Governors of the Federal Reserve System, 2020). On average, these ‘alternative workers’ work fewer hours and have lower earnings compared to individuals employed in traditional forms of labor (Katz & Krueger, 2018). Some workers choose these jobs voluntarily —they provide a critical source of flexibility in households with or without care responsibility— and some can be well compensated. In many cases, however, individuals who engage in such alternative forms of work have little choice and would choose a ‘traditional’ and secure job if it were available to them. 
-
-
-      The precarious nature of some of these jobs represents a significant mental burden and can increase levels of anxiety and anger (Standing, 2016). Many of these alternative jobs, for instance, do not provide basic health and retirement benefits. Thus, individuals who rely on gig economy jobs as their primary source of income are extremely financially vulnerable if they get sick or hurt (Stern, 2016) and have a higher risk of experiencing anxiety and depression (Srnicek & Williams, 2015). Some predict that the phenomenon of job precariousness and insecurity will continue to expand in the future. Specifically, current trends in automation, technological advancement, and the growing sophistication of artificial intelligence could plausibly have a negative effect on the overall quality of jobs available, leading to a decrease in the number of traditional full-time and secure jobs and an increase in the number of precarious and insecure jobs (Ford, 2015; Hughes, 2018).
+      Our societies tend to treat waged labor as the principal form of valued activity, which often leads us to view activities beyond jobs as unproductive or unworthy. Despite being essential and meaningful, other forms of work such as caregiving and community work are often undervalued and underpaid; individuals who engage in such activities are more likely to face financial insecurity and lack financial independence. The prioritization of formal labor also comes at the expense of volunteer and community work. Given the prevalence of formal labor in our day-to-day lives, most individuals simply do not have the time to engage in such activities. The current structure of the labor market and the social norms attached to it tend to generate a very limited conception of what is considered “valuable” or “productive” human activity. 
 
 
-      The introduction of a basic income, in itself, cannot fix the structural problems of today’s labor market, and it is unlikely to have a direct effect on the loss of more secure jobs. But basic income programs could possibly help reduce some of the problems that are associated with these alternative forms of labor. If set sufficiently high, UBI would reduce workers’ dependence on precarious jobs for economic security. In the United States, the poverty line is $12,000 for a single individual and $16,000 for a couple. A UBI of $1,000 a month, then, could go a long way in boosting financial security (a couple would jointly receive $24,000 a year, placing them significantly above the poverty line for couples). This is especially true for workers in alternative jobs, with median weekly earnings of only $500 (Katz & Krueger, 2018). 
+      UBI has the potential to indirectly contribute to a broadening of what counts as productive work. Contrary to most existing income support programs, UBI would provide each individual with a basic income regardless of employment, and so it would increase financial security among unwaged caregivers and reduce their current financial dependence on working spouses (Robeyns, 2001; Standing, 2012). Furthermore, if set sufficiently high to cover basic needs, UBI would empower individuals to make their own choices, such as spending more time taking care of a sick child or aging parent. Such a high UBI could also alter a rigid gendered division into full-time caregivers and full-time employees by allowing a greater number of individuals to engage in both activities part-time (Fraser, 1997). UBI could transform the labor market by allowing people to shift from seeing jobs as a mere means of acquiring money to seeing them as a way to express personal engagement, interest, and commitment (Reich, 2016). UBI could potentially allow individuals to choose the lifestyle they want for themselves and their families, and to engage in a wider range of activities such as art, volunteering, community gardens and eco-villages, participating in after school classes, and joining community or neighborhood associations and other cultural projects (Fraser, 1997). Importantly, this is only plausible with a UBI set sufficiently high to cover basic needs.
 
 
-      By empowering workers and increasing workers’ independence, it could also help transform unemployment from a state of insecurity to a state of voluntary flexibility, allowing individuals to choose when and how much to work without imposing on them the financial insecurity that is associated with the gig economy. It could thus increase the number of individuals who voluntarily engage in alternative forms of work and take advantage of the flexibility it can afford. By reducing financial insecurity and instability, UBI has the further potential to reduce the negative mental health outcomes that are associated with the precariousness of the current labor market (Srnicek & Williams, 2015). 
+      Empirical evidence from the U.S. and Canada’s negative income tax experiments in the 1970s indicate a reduction in work hours, though not a complete withdrawal from the labor market, specifically among women (single or married). In the Seattle-Denver Income Maintenance Experiment (SIME/DIME), two-parent households receiving the negative income tax saw a reduction in wives’ workload between zero and 27 percent and single-mothers between 15 and 30 percent (Widerquist, 2005). Similar effects were found in Canada’s Mincome experiment, where there was an 11.3 percentage point reduction in labor market participation (Calnitsky & Latner, 2017). However, in the case of Mincome, qualitative evidence showed that many of these young single women cited care work, disability and illness, uneven employment opportunities, or educational investment as reasons for the reduction (Calnitsky & Latner, 2017). This evidence may point to UBI’s potential to increase forms of informal labor at the expense of traditional, formal labor. It is less clear what the impact would be on the gendered division of care work.     
 
 
-      Empirical data on how basic income could help reduce workers’ dependence on precarious jobs come primarily from the Madhya Pradesh experiment in India (2011-2012). At the time of the experiment, most individuals worked as casual wage farm laborers (noted as a form of bonded labor for a landlord within the naukar system), while some did their own-account farming and others migrated outside the village to do other labor (Davala et al., 2015). The introduction of basic income was associated with a notable shift away from casual waged labor to own-account work, including own-account farming and small-scale business. In villages receiving basic income, the proportion of individuals reporting own-account farming as their main occupation rose from 40 percent to 62 percent during the tribal village pilot. The share of participants reporting that they were a wage laborer fell from 55 percent to 27 percent. In contrast, the level of self-employment in non-recipient villages actually decreased during this time, from 42 percent to 36 percent, and the percentage of wage laborers increased from 50 to 51 percent.
-
-
-      This shift among recipients of basic income suggests a greater sense of autonomy and independence as well as the flexibility to create more sustainable livelihoods. The move away from wage laborer to own-account farming and small businesses was largely among women, who used the basic income to purchase equipment, livestock, and productive assets (e.g., pumps, pipes, tractors, machine tools, carts and sewing machines) (Davala et al., 2015). Although these findings are notable, it is important to understand that this experiment took place in a context where women were already organized into women’s associations, and so these results may not translate to contexts where such organizational support is lacking. Additional research is needed in the United States and other parts of the world to determine if UBI would cause individuals to leave precarious work and for what other activities, as well as to identify under which conditions the cash injection could boost workers’ bargaining power.  
-
-
-      While basic income may reduce the financial insecurity that is often associated with precarious and non-traditional forms of labor, it is limited in its ability to deal with the root causes of job precariousness. UBI does not replace the need for workplace regulations that prevent the labor market from becoming too precarious in the first place. In addition, there are scenarios in which a standalone UBI could even worsen the problem if it played the role of a wage subsidy and was used by employers as an excuse to replace the need for adequate workers’ compensation and health, retirement and other benefits. This suggests that a broader policy package, including perhaps minimum wage regulations, needs to be designed in order to ensure that UBI can play a truly positive role in undermining both job insecurity and economic insecurity.
+      Some argue, however, that if the UBI is set too low, it might risk leaving informal laborers in relative poverty compared to those in the formal market. Even a sufficiently high UBI would not equalize the earnings of these two groups, nor would it necessarily offer a fair compensation for those who are engaged in informal activities such as caregiving and community work. Moreover, since social norms are a major element in explaining what kind of activities we find meaningful, it is not clear that UBI would be sufficient to encourage people to engage in informal labor.
     related: |-
-      * Employees’ bargaining power (in UBI and Work)
-      * Mental health (in UBI and Health)
-      * Job loss and technological unemployment (in UBI and Automation)
-      * The working poor (in UBI and Poverty)
-      * Safety net (in UBI and Poverty)
-      * Labor supply & demand (in the Economic Effects of UBI)
+      * The household (in UBI and Gender)
+      * Freedom from demeaning jobs (in UBI and Wellbeing)
+      * Post-productivism (in UBI and the Environment)
+      * Post-work, or freedom from work (in UBI and Automation)
     citations: >-
-      Board of Governors of the Federal Reserve System. (2020). *Report on the
-      Economic Well-Being of U.S. Households in 2019, Featuring Supplemental
-      Data from April 2020*. Board of Governors of the Federal Reserve System.
-      https://www.federalreserve.gov/publications.htm
+      Barnes, P. (2014). *With Liberty and Dividends for All: How to Save Our
+      Middle Class When Jobs Don’t Pay Enough* (First Edition). Berrett-Koehler
+      Publishers.
 
 
-      Davala, S., Renana Jhabvala, Guy Standing, & Soumya Kapoor Mehta. (2015). *Basic Income: A Transformative Policy for India*. Bloomsbury Academic.
+      Calnitsky, D., & Latner, J. P. (2017). Basic Income in a Small Town: Understanding the Elusive Effects on Work. *Social Problems*, *64*(3), 456–456. https://doi.org/10.1093/socpro/spx024
+
+
+      Fraser, N. (1997). *Justice interruptus: Critical reflections on the “postsocialist” condition*. Routledge.
+
+
+      Pateman, C. (2004). Democratizing Citizenship: Some Advantages of a Basic Income. *Politics & Society*, *32*(1), 89–105. https://doi.org/10.1177/0032329203261100
+
+
+      Reich, R. B. (2016). *Saving Capitalism: For the Many, Not the Few* (1st ed.). Vintage Books, a Division of Penguin Random House LLC.
+
+
+      Robeyns, I. (2001). Will a Basic Income Do Justice to Women? *Analyse & Kritik*, *23*(1), 88–105. https://doi.org/10.1515/auk-2001-0108
+
+
+      Standing, G. (2012). Why a Basic Income Is Necessary for a Right to Work. *Basic Income Studies*, *7*(2), 19–40. https://doi.org/10.1515/bis-2013-0007
+
+
+      Stern, A. (2016). *Raising the Floor: How a Universal Basic Income Can Renew Our Economy and Rebuild the American Dream* (1st ed.). PublicAffairs.
+
+
+      Van Parijs, P., & Vanderborght, Y. (2017). *Basic Income: A Radical Proposal for a Free Society and a Sane Economy* (1st ed.). Harvard University Press.
+
+
+      Widerquist, K. (2005). A failure to communicate: What (if anything) can we learn from the negative income tax experiments? *The Journal of Socio-Economics*, *34*(1), 49–81. https://doi.org/10.1016/j.socec.2004.09.050
+
+
+      Zelleke, A. (2008). Institutionalizing the Universal Caretaker Through a Basic Income? *Basic Income Studies*, *3*(3), 1–9. https://doi.org/10.2202/1932-0183.1133
+  - theme: Unemployment
+    id: unemployment
+    body: >-
+      This section is about how UBI might help tackle unemployment traps and
+      mitigate other issues relating to unemployment.  
+
+
+      **Summary** 
+
+
+      Unemployment is a major social concern for policymakers and activists alike. It is associated with lower economic growth rates, a loss in human capital, higher levels of social unrest, and various individual and social effects, such as depression and other adverse physical and mental health outcomes (Renahy et al., 2018). The economic impact of the 2020 coronavirus pandemic alone caused the percentage of persons jobless 15 to 26 weeks to increase from 11.1 percent in March 2020 to 39.4 percent in July 2020 (Bureau of Labor Statistics, 2020). While UBI, in itself, is not expected to reduce unemployment rates, it may reduce the poverty and economic insecurity that typically enfolds (Lewis, 2012).
+
+
+      Two pervasive problems tend to stump policymakers: the unemployment trap and low take-up rates of unemployment benefits. The unemployment trap occurs when unemployed individuals face low or negative incentives to return to the labor market due to a potential loss of benefits and overall decrease in net income (Clark & Kavanagh, 1996). This problem has been pervasive in particular in some European countries with reasonably generous out of work benefits designed in such a way that an unemployed individual is assured to lose all their benefits when they accept employment. That threat makes unemployed individuals are more likely to remain unemployed for longer. UBI is expected to help mitigate this problem. Since it does not involve means-testing and is independent of one’s level of work, individuals can attempt to return to the labor force without fear of losing existing benefits. The basic income experiment in Finland between 2017–2018 essentially tried to capture this potential impact of conditional unemployment benefits vs. a basic income. Additional research and empirical data from the final report (expected in 2020) will hopefully shed some light onto UBI’s ability to reduce unemployment traps. 
+
+
+      UBI might also be an effective solution to the problems associated with low take-up rates of unemployment benefits. Stigma, institutional barriers, and lack of information all contribute to the fact that many individuals who are eligible for benefits do not claim or receive them (Currie, 2004). This phenomenon has led many to question the effectiveness and desirability of targeted and means-tested programs. The universal and unconditional nature of UBI can be expected to increase take-up rates, since it would reduce the stigma associated with existing benefits and reduce institutional barriers and lack of information (Van Parijs & Vanderborght, 2017). Thus, it might reduce the poverty and financial insecurity that are associated with unemployment. 
+
+
+      Other policies, such as a Job Guarantee, might prove more effective in dealing with the problem of unemployment than UBI. Advocates of a Job Guarantee argue that it would provide the benefits of a UBI at a significantly lower cost and with less destabilizing macroeconomic effects, and that it would also increase overall happiness by providing every individual with access to decent and stable jobs (Harvey, 2012; Tcherneva, 2012). The ability to offer a Guaranteed Job, though, might be undermined by technological developments. Computers and robots might significantly reduce the need for human labor over the next 20–30 years, thus causing a significant increase in unemployment (Walker, 2016). And unlike previous technological disruptions, there are reasons to believe that the current wave of automation will not result in a full recovery of the labor market (Ford, 2015). In a world with fewer available jobs, a Job Guarantee might prove overmatched. In this case, while UBI might not solve the problem of unemployment, it might nonetheless offer to stabilize income across communities (Sandbu, 2017).
+    related: >-
+      * Racial economic inequality (in UBI and Race)
+
+      * Job precariousness and insecurity (in UBI and Work)
+
+      * Unemployment & mass incarceration (in UBI and Crime)
+
+      * Job loss and technological unemployment (in UBI and Automation)
+
+      * Consumption and the threat to the capitalist economy (in UBI and Automation)
+
+      * Displacement of workers (in UBI and Automation)
+
+      * The poverty trap (in UBI and Poverty)
+    citations: >-
+      Bureau of Labor Statistics. (2020). *The Employment Situation- July 2020*.
+      U.S. Department of Labor. https://www.bls.gov/news.release/pdf/empsit.pdf
+
+
+      Clark, C. M. A., & Kavanagh, C. (1996). Basic Income, Inequality, and Unemployment: Rethinking the Linkage between Work and Welfare. *Journal of Economic Issues*, *30*(2), 399–406. https://doi.org/10.1080/00213624.1996.11505803
+
+
+      Currie, J. (2004). *The Take Up of Social Benefits* (No. w10488). Institute for the Study of Labor. https://doi.org/10.3386/w10488
 
 
       Ford, M. (2015). *Rise of the Robots: Technology and the Threat of a Jobless Future* (1st ed.). Basic Books.
 
 
-      Hughes, C. (2018). *Fair Shot: Rethinking Inequality and How We Earn* (1st ed.). St. Martin’s Press.
+      Harvey, P. (2012). More for Less: The Job Guarantee Strategy. *Basic Income Studies*, *7*(2). https://doi.org/10.1515/bis-2013-0006
 
 
-      Katz, L. F., & Krueger, A. B. (2018). The Rise and Nature of Alternative Work Arrangements in the United States, 1995–2015. *ILR Review*, *72*(2), 382–416. https://doi.org/10.1177/0019793918820008
+      Lewis, M. (2012). Cost, Compensation, Freedom, and the Basic Income – Guaranteed Jobs Debate. In *Basic Income Studies* (Vol. 7, pp. 41–51). De Gruyter.
 
 
-      Srnicek, N., & Williams, A. (2015). *Inventing the Future: Postcapitalism and a World Without Work*. Verso Books.
+      Renahy, E., Mitchell, C., Molnar, A., Muntaner, C., Ng, E., Ali, F., & O’Campo, P. (2018). Connections between unemployment insurance, poverty and health: A systematic review. *European Journal of Public Health*, *28*(2), 269–275. https://doi.org/10.1093/eurpub/ckx235
 
 
-      Standing, G. (2016). *The Precariat: The New Dangerous Class* (Reprint edition). Bloomsbury Academic.
+      Sandbu, M. (2017, April 6). Money can buy you work. *Financial Times*. https://www.ft.com/content/041c0efa-1ab0-11e7-a266-12672483791a
 
 
-      Stern, A. (2016). *Raising the Floor: How a Universal Basic Income Can Renew Our Economy and Rebuild the American Dream* (1st ed.). Public Affairs.
+      Tcherneva, P. R. (2012). The Job Guarantee: Delivering the Benefits That Basic Income Only Promises – A Response to Guy Standing. *Basic Income Studies*, *7*(2). https://doi.org/10.1515/bis-2013-0010
+
+
+      Van Parijs, P., & Vanderborght, Y. (2017). *Basic Income: A Radical Proposal for a Free Society and a Sane Economy* (1st ed.). Harvard University Press.
+
+
+      Walker, M. (2016). *Free Money for All: A Basic Income Guarantee Solution for the Twenty-First Century*. Springer.
