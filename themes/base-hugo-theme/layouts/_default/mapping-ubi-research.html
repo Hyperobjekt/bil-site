@@ -113,16 +113,16 @@
                 {{ with .Site.Data.vizcontent.democracy }}
                     {{ partial "vizthemetext" . }}
                 {{ end }}
+<!-- ECONOMIC EFFECTS ------------------------------------------------------------------------>
+                {{ with .Site.Data.vizcontent.economic }}
+                {{ partial "vizthemetext" . }}
+                {{ end }}                
 <!-- RACE ------------------------------------------------------------------------>
                 {{ with .Site.Data.vizcontent.race }}
                     {{ partial "vizthemetext" . }}
                 {{ end }}
 <!-- WORK ------------------------------------------------------------------------>
                 {{ with .Site.Data.vizcontent.work }}
-                    {{ partial "vizthemetext" . }}
-                {{ end }}
-<!-- ECONOMIC EFFECTS ------------------------------------------------------------------------>
-                {{ with .Site.Data.vizcontent.economic }}
                     {{ partial "vizthemetext" . }}
                 {{ end }}
 <!-- AUTOMATION ------------------------------------------------------------------------>
