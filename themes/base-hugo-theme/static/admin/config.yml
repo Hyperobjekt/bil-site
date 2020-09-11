@@ -579,5 +579,5 @@ collections:
                 - {label: Sub Theme ID, name: id, widget: string, hint: "Please do not change"}
                 - {label: Body Text, name: body, widget: markdown}
                 - {label: Related Topics, name: related, widget: markdown, required: false}
-                - {label: Citations, name: citations, widget: markdow, required: falsen}                                                  
+                - {label: Citations, name: citations, widget: markdown, required: false}                                                  
                 
