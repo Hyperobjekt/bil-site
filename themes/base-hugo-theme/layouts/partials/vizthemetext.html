@@ -23,13 +23,13 @@
                 {{ range first 1 .themes }}
                     <li class="nav-item">
                         <a class="nav-link active" id="pills-{{ .id }}-tab" data-toggle="pill" data-id="{{ .id }}" href="#pills-{{ .id }}" role="tab"
-                            aria-controls="pills-{{ .id }}" aria-selected="true">{{ .theme }}</a>
+                            aria-controls="pills-{{ .id }}" aria-selected="true">{{ .theme }}<div class="underbar"></div></a>
                     </li>
                 {{ end }}
                 {{ range after 1 .themes }}
                 <li class="nav-item">
                     <a class="nav-link" id="pills-{{ .id }}-tab" data-toggle="pill" data-id="{{ .id }}" href="#pills-{{ .id }}" role="tab"
-                        aria-controls="pills-{{ .id }}" aria-selected="false">{{ .theme }}</a>
+                        aria-controls="pills-{{ .id }}" aria-selected="false">{{ .theme }}<div class="underbar"></div></a>
                 </li>
                 {{ end }}
             </ul>

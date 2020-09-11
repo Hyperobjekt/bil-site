@@ -4,6 +4,7 @@ $VIZ_HEIGHT: calc(#{100vh} - #{$NAVBAR_HEIGHT} - (#{$SCROLL_BUTTON_HEIGHT} * 2))
 $VIZ_AREA_HEIGHT_TABLET: $VIZ_HEIGHT;
 
 $TEXT_PANEL_WIDTH: 600px;
+$TEXT_PANEL_WIDTH_XL: 680px;
 $TEXT_PANEL_HEIGHT_TABLET: 400px;
 $VIZ_HEIGHT_TABLET: calc(#{$VIZ_AREA_HEIGHT_TABLET} - #{$TEXT_PANEL_HEIGHT_TABLET});
 
@@ -73,6 +74,9 @@ nav.navbar.sticky-top {
   }
   &.text-panel-open #viz-space {
     width: calc(100% - #{$TEXT_PANEL_WIDTH});
+    @include media-breakpoint-up(xl) {
+      width: calc(100% - #{$TEXT_PANEL_WIDTH_XL});
+    }
   }
 
   // .dialog {
@@ -161,6 +165,9 @@ nav.navbar.sticky-top {
     position: absolute;
     right: 0;
     width: $TEXT_PANEL_WIDTH;
+    @include media-breakpoint-up(xl) {
+      width: $TEXT_PANEL_WIDTH_XL;
+    }
     transition: transform ease .8s;
     transform: translateX(100%);
     .card {
@@ -224,6 +231,13 @@ nav.navbar.sticky-top {
       color:#6d6d6d;
       .nav-link {
         padding: 0.5rem 1.6rem 0.5rem 0;
+        .underbar {
+          width: 56px;
+          height: 3px;
+          margin-top: 8px;
+          background-color: black;
+          opacity: 0;
+        }
       }
       p {
         color:#6d6d6d;
@@ -236,8 +250,15 @@ nav.navbar.sticky-top {
 
     .card-body .nav-pills .nav-link.active {
       background-color: transparent;
-      color: black;
-      font-weight: bold;
+      color: #9a6013;
+      //font-weight: bold;
+      .underbar {
+        width: 56px;
+        height: 3px;
+        margin-top: 8px;
+        background-color: #9a6013;
+        opacity: 1;
+      }
     }
 
     .toggle {
