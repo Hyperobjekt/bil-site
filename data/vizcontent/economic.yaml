@@ -4,8 +4,8 @@ themes:
   - theme: Economic Inequality
     id: economic-inequality
     body: >-
-      *This sub-theme explores UBI's possible impact on reducing income and
-      wealth inequalities.* 
+      *This section explores UBI's possible impact on reducing income and wealth
+      inequalities.* 
 
 
       Income inequality is the unequal distribution of income in a society, fueled by social and economic forces that unevenly distribute economic opportunities. Income inequality is problematic for several reasons.  Evidence shows that high levels of income inequality lead to crime (Kelly, 2000), bad health (Pickett & Wilkinson, 2015), and low population-wide happiness (Layard, 2003). Political theorists who advocate for republican freedom—that is, freedom from domination by others—worry that severe income inequality may allow some individuals to dominate others (Pettit, 1997). Similarly, political theorists who advocate for democratic equality—that is, equality in social status among individuals—worry that severe income inequality may reduce the social status of those who have less compared to those who have a more (Anderson, 1999). Lastly, some believe that income inequality is undesirable in itself and unjust (Phillips, 2004).
@@ -79,7 +79,7 @@ themes:
       The Guardian. (2017, September 15). *The Guardian view on universal basic income: Tax data giants to pay for it*. https://www.theguardian.com/commentisfree/2017/sep/15/the-guardian-view-on-universal-basic-income-tax-data-giants-to-pay-for-it
   - theme: Inflation
     body: >-
-      *This sub-theme discusses the effects UBI could have on inflation.*
+      *This section discusses the effects UBI could have on inflation.*
 
 
       Inflation is a sustained general increase in the prices of goods and services. It should be distinguished from an increase in the prices of some specific goods—such as oil—as well as a temporary rise in prices, such as hand sanitzer during a pandemic. Inflation comes in different degrees of severity: it may be low/moderate or high/hyper. High and hyperinflation can disrupt the economy, with destructive consequences. It can also lead to hoarding, shortages of goods, closures of businesses, and social unrest. Low/moderate inflation can have similar negative effects to a lesser degree, but it can also have some positive effects, such as stimulating lending and investment as a substitute for holding cash (Mundell, 1963; Tobin, 1965), and allowing wages to fall in real terms, hence lowering unemployment (Tobin, 1995).
@@ -139,7 +139,7 @@ themes:
   - theme: Consumption
     id: consumption
     body: >-
-      *This sub-theme discusses UBI’s potential effects on consumption.*
+      *This section discusses UBI’s potential effects on consumption.*
 
 
       How might a UBI policy affect an individual or household’s consumption behavior? On the one hand, there is the question of whether a UBI would increase or decrease consumption expenditure. This question is of interest because consumption expenditure is often used as a proxy for well-being and is thought to boost economic growth, which has multiplier effects. UBI’s potential impact on consumption can also be viewed through the lens of what kinds of goods are purchased or consumed. Will the cash be used to purchase luxuries or necessities? Assets or non-durable goods? “Temptation goods”—such as alcohol, tobacco, or even drugs—or everyday household goods? The latter set of questions has been central to policymakers’ decisions on whether to favor cash over in-kind goods.
@@ -199,7 +199,7 @@ themes:
   - theme: Migration
     id: migration
     body: >-
-      *This sub-theme discusses UBI’s potential effects on migration.*
+      *This section discusses UBI’s potential effects on migration.*
 
 
       We use the term ‘migration’ to describe movement of persons within their own country or across international borders. It can be temporary or permanent moves, and it can happen for a variety of reasons. When it comes to UBI, researchers question how the policy might “push” or “pull” individuals into or out of a region, especially since migration is generally on the rise. In 2019, more than 270 million individuals were international migrants, accounting for 3.5 percent of the world’s population, up from 2.3 percent in 1970 (International Organization for Migration, 2018). Internal migration within countries is also increasing, largely driven by industrialization and urbanization (Skeldon, 2018).
@@ -282,7 +282,7 @@ themes:
       Stecklov, G., Winters, P., Stampini, M., & Davis, B. (2005). Do Conditional Cash Transfers Influence Migration? A Study Using Experimental Data From the Mexican PROGRESA Program. *Demography*, *42*(4), 769–790. https://doi.org/10.1353/dem.2005.0037
   - theme: Impact on Labor Supply
     body: >-
-      *This sub-theme discusses UBI’s potential impact on labor supply and
+      *This section discusses UBI’s potential impact on labor supply and
       individual’s use of time.*
 
 
@@ -358,7 +358,7 @@ themes:
   - theme: Savings & investment
     id: savings
     body: >-
-      *This sub-theme discusses UBI’s potential effects on savings and
+      *This section discusses UBI’s potential effects on savings and
       investment.*
 
 
