@@ -4,21 +4,11 @@ themes:
   - theme: Economic Inequality
     id: economic-inequality
     body: >-
-      Income inequality is the unequal distribution of income in a society,
-      fueled by social and economic forces that unevenly distribute economic
-      opportunities. Income inequality is problematic for several
-      reasons.  Evidence shows that high levels of income inequality lead to
-      crime (Kelly, 2000), bad health (Pickett & Wilkinson, 2015), and low
-      population-wide happiness (Layard, 2003). Political theorists who advocate
-      for republican freedom—that is, freedom from domination by others—worry
-      that severe income inequality may allow some individuals to dominate
-      others (Pettit, 1997). Similarly, political theorists who advocate for
-      democratic equality—that is, equality in social status among
-      individuals—worry that severe income inequality may reduce the social
-      status of those who have less compared to those who have a more (Anderson,
-      1999). Lastly, some believe that income inequality is undesirable in
-      itself and unjust (Phillips, 2004).
+      *This sub-theme explores UBI's possible impact on reducing income and
+      wealth inequalities.* 
 
+
+      Income inequality is the unequal distribution of income in a society, fueled by social and economic forces that unevenly distribute economic opportunities. Income inequality is problematic for several reasons.  Evidence shows that high levels of income inequality lead to crime (Kelly, 2000), bad health (Pickett & Wilkinson, 2015), and low population-wide happiness (Layard, 2003). Political theorists who advocate for republican freedom—that is, freedom from domination by others—worry that severe income inequality may allow some individuals to dominate others (Pettit, 1997). Similarly, political theorists who advocate for democratic equality—that is, equality in social status among individuals—worry that severe income inequality may reduce the social status of those who have less compared to those who have a more (Anderson, 1999). Lastly, some believe that income inequality is undesirable in itself and unjust (Phillips, 2004).
 
 
       A UBI could reduce income inequality in at least four ways. First, the payment will represent a larger share of an individual’s total income for poorer households than for those who are higher on the income distribution, thus reducing relative inequities (Atkinson, 2013; Goldsmith, 2001; Humphreys et al., 2007).  Second, a UBI could reduce income inequality if its funding mechanism had a gap-reducing effect—for example, if the UBI was funded through a progressive tax, such as wealth taxes (Henry, 2014) and “data taxes” (The Guardian, 2017). Third, a UBI provides income security that may allow individuals to pursue education or to change their employment, thus growing long-term income. Finally, a UBI could reduce income inequality by allowing low-income individuals to invest in crucial property and financial assets that grow in value over time. In recent decades, increases in income inequality has driven wealth inequality, although these gaps are largely driven by wealth concentration among the very highest earners (Saez and Zucman, 2016).
@@ -29,14 +19,13 @@ themes:
       The gap reducing effect has been examined in conditional cash transfers programs in low- and middle-income countries. In Brazil, 4.7 percent of the 21 percent fall in the Brazilian Gini index between 1995 and 2004 was attributed to the Bolsa Familiar Program, despite cash transfers representing only 0.5 percent of the average household income (F. V. Soares & Soares, 2006). Similarly, in Mexico, the Oportunidades cash transfer program was responsible for 21 percent of the 5 percent fall in the Gini index between 1996 and 2004 (Soares et al., 2018).  The researchers did not speculate why the cash transfers had such a strong gap-reducing effect, but one study found that the Oportunidades cash transfers allowed poor Mexicans to invest in productive assets, which increased their agricultural income by 10 percent after 18 months (Gertler et al., 2012). This increase may explain a large part of the dramatic reduction in the Mexican Gini index over the eight-year period between 1996 and 2004. 
 
 
-
       Evidence from high-income countries is scarce but tells a different story than what has been observed in low- and middle-income countries. For example, Alaska’s Permanent Fund Dividend (PFD) increased, rather than decreased, economic inequality both in the short run and in the long run (Kozminski & Baek, 2017). The researchers attribute this finding to differences in spending patterns across income gradients, with low-income households spending more of the dividend fund on household consumption, while high-income households might be able to direct the payment to investments. However, other research on the Alaska PDF demonstrated that higher-income households are likely to spend a larger proportion of their extra income on consumption than lower-income households (Kueng, 2018).
 
 
       \
 
       More research is needed to help answer some questions. First, the relationship between UBI and other economic effects, such as wealth accumulation and access to credit, is not yet understood. The gap-reducing effect may be lessened if UBI enables those on the higher end of the income distribution to invest their payment in ways that generate more returns. Second, so far, UBI pilots have been in areas with high rates of poverty (Davala et al. 2017). To predict impacts on income inequality, more studies need to be done in economies with significant numbers of both low- and high-income individuals.
-    related: 
+    related: null
     citations: >-
       Anderson, E. (1999). What Is the Point of Equality? *Ethics*, *109*(2).
       https://www.researchgate.net/publication/248422963_What_Is_the_Point_of_Equality
@@ -90,10 +79,7 @@ themes:
       The Guardian. (2017, September 15). *The Guardian view on universal basic income: Tax data giants to pay for it*. https://www.theguardian.com/commentisfree/2017/sep/15/the-guardian-view-on-universal-basic-income-tax-data-giants-to-pay-for-it
   - theme: Inflation
     body: >-
-      This sub-theme discusses the effects UBI could have on inflation.
-
-
-      **Summary**
+      *This sub-theme discusses the effects UBI could have on inflation.*
 
 
       Inflation is a sustained general increase in the prices of goods and services. It should be distinguished from an increase in the prices of some specific goods—such as oil—as well as a temporary rise in prices, such as hand sanitzer during a pandemic. Inflation comes in different degrees of severity: it may be low/moderate or high/hyper. High and hyperinflation can disrupt the economy, with destructive consequences. It can also lead to hoarding, shortages of goods, closures of businesses, and social unrest. Low/moderate inflation can have similar negative effects to a lesser degree, but it can also have some positive effects, such as stimulating lending and investment as a substitute for holding cash (Mundell, 1963; Tobin, 1965), and allowing wages to fall in real terms, hence lowering unemployment (Tobin, 1995).
@@ -153,10 +139,7 @@ themes:
   - theme: Consumption
     id: consumption
     body: >-
-      This sub-theme discusses UBI’s potential effects on consumption.
-
-
-      **Summary**
+      *This sub-theme discusses UBI’s potential effects on consumption.*
 
 
       How might a UBI policy affect an individual or household’s consumption behavior? On the one hand, there is the question of whether a UBI would increase or decrease consumption expenditure. This question is of interest because consumption expenditure is often used as a proxy for well-being and is thought to boost economic growth, which has multiplier effects. UBI’s potential impact on consumption can also be viewed through the lens of what kinds of goods are purchased or consumed. Will the cash be used to purchase luxuries or necessities? Assets or non-durable goods? “Temptation goods”—such as alcohol, tobacco, or even drugs—or everyday household goods? The latter set of questions has been central to policymakers’ decisions on whether to favor cash over in-kind goods.
@@ -169,7 +152,6 @@ themes:
 
 
       Regarding what individuals consume, evidence suggests that the size and regularity of the transfer matters.  In the GiveDirectly experiment in Kenya, monthly transfers were spent mostly on food, while lump-sum transfers were spent more on durables, such as metal roofs (Haushofer & Shapiro, 2016). In unconditional cash transfer programs across four African countries, regular and predictable cash transfers increased food consumption, while lump sum and irregular transfers did not, at least in the short run (Tiwari et al., 2016). Households that received irregular cash transfers, such as those in a program in Ghana, were found to spend differently from households that received regular transfers (Food and Agricultural Organization, 2016). Evidence from high-income economies is scarce on the question of what individuals consume or how they spend their cash, but preliminary results from a small-scale guaranteed income demonstration in Stockton, California, suggests that, of the $500 per month UBI, about 40 percent went toward food, 25 percent toward merchandise, and 12 percent toward utilities (Holder, 2019). 
-
 
 
       As to whether UBI will increase consumption of “temptation goods,” such as alcohol and tobacco, studies give a nearly unanimous answer: no. Evidence from Namibia (Haarmann et al., 2009) and India (Davala et al., 2017) show no effect of cash transfers on alcohol sale. A comprehensive review of 19 studies—covering evidence from both conditional and unconditional cash transfer programs in Latin America, Africa and Asia—finds that, almost without exception, cash transfers had either no significant impact or a significant negative impact on consumption of temptation goods, and that where spending increased the magnitude was small (Evans & Popova, 2014).
@@ -217,11 +199,7 @@ themes:
   - theme: Migration
     id: migration
     body: >-
-      This subtheme discusses UBI’s potential effects on migration.
-
-
-      **Summary**
-
+      *This sub-theme discusses UBI’s potential effects on migration.*
 
 
       We use the term ‘migration’ to describe movement of persons within their own country or across international borders. It can be temporary or permanent moves, and it can happen for a variety of reasons. When it comes to UBI, researchers question how the policy might “push” or “pull” individuals into or out of a region, especially since migration is generally on the rise. In 2019, more than 270 million individuals were international migrants, accounting for 3.5 percent of the world’s population, up from 2.3 percent in 1970 (International Organization for Migration, 2018). Internal migration within countries is also increasing, largely driven by industrialization and urbanization (Skeldon, 2018).
@@ -238,13 +216,10 @@ themes:
       A UBI, however, may also allow people to remain where they are despite poor economic prospects, or, in the second potential push effect, allow them to move to regions with lower rates of employment. A study of unconditional cash transfer programs in four African countries, for instance, showed that cash transfer helped farmers diversify their sources of income, making them less prone to environmental risks and mitigating their need to migrate out (Deshingkar et al., 2015). In Ethiopia and Malawi, farmers have used cash transfers to stay in their communities and endure worsening conditions (Deshingkar et al., 2015).
 
 
-
       There is far less evidence on how UBI may impact international migration. An individual’s decision to migrate depends on many factors, such as job prospects, language, social networks, cultural compatibility, and historical and institutional links. Welfare spending does not have a large effect on where someone choses to live and is generally outweighed by other factors (Boso & Vancea, 2012). Having access to a UBI in one’s own country could decrease the need to migrate to another country. A study of Mexico’s conditional cash transfer program, Progresa, for example, found that cash transfers there reduced migration to the United States (Stecklov et al., 2005). Other studies, by contrast, report net push effects. One found that cash transfers actually increased migration from Mexico to the United States by providing funds to facilitate a move (Angelucci, 2015). A study in China found that an income-guarantee program had only a small effect on out-migration, because the amount was too small to fund out-migration. 
 
 
-
       The benefits from migration to host countries are multifold. Migrants fill important niches in industries, contribute to labor market flexibility, generally contribute more to taxes than the state benefits they receive, and contribute to flows of knowledge and innovation (OECD, 2014). But, given growing nationalist sentiments globally, some researchers worry that more generous benefit systems—like a UBI—could stoke anti-immigration sentiments due to concerns about heavier use of the welfare state. A recent Pew research survey, for example, found that in Hungary, Greece, South Africa, Israel and Russia, an overwhelming majority view immigrants as a “burden on our country” (Pew Research Center, 2019). A UBI tied to citizenship could ultimately make it harder for migrants to become naturalized citizens. A UBI tied to residency could make it harder for migrants to be allowed in the host country in the first place.
-
 
 
       Much is still unknown about the impact of a UBI policy on migration.  Evidence is highly variable across country contexts, suggesting that UBI may interact with other factors to produce different effects in different places. The size of both the pull and the push effects may also depend on the residency requirements that people must satisfy in order to receive UBI, the numbers and categories of immigrants granted entry to a country, and the generosity of the welfare or income guarantee. More research is needed on the demographic profile of individuals who are more or less likely to migrate in or out as a result of UBI, and on factors such as seasonality and distance on migration patterns.
@@ -307,24 +282,17 @@ themes:
       Stecklov, G., Winters, P., Stampini, M., & Davis, B. (2005). Do Conditional Cash Transfers Influence Migration? A Study Using Experimental Data From the Mexican PROGRESA Program. *Demography*, *42*(4), 769–790. https://doi.org/10.1353/dem.2005.0037
   - theme: Impact on Labor Supply
     body: >-
-      This subtheme discusses UBI’s potential impact on labor supply and
-      individual’s use of time.
-
-
-      **Summary**
-
+      *This sub-theme discusses UBI’s potential impact on labor supply and
+      individual’s use of time.*
 
 
       A common worry about universal basic income is that it could reduce people’s incentive to work, thus causing a number of domino effects in the economy. The disincentive effect, for instance, could reduce productivity and the number of goods produced and increase the number of individuals who only rely on assistance to survive. The disincentive effect could also lead to inflation as businesses would need to pay higher wages to retain workers, and the higher wages would push production costs up, translating into increased costs for consumers. The evidence from existing UBI related schemes, however, negates many of these concerns and, overall, indicates that UBI-related programs have marginal effects on labor market participation.
 
 
-
       Much of the concern about work incentives comes from four negative income tax programs in the United States and the “Mincome” program in Canada in the 1970s. These experiments had mixed results, with some economists pointing to negligible effects on labor supply (Hum & Simpson, 1993) and others pointing to large negative effects, namely from the Seattle-Denver experiment (Anderson & Block, 1993). The polarized literature divides roughly along ideological lines and is perhaps partly a result of the explicit political goals of the 1970s experiments (Widerquist, 2005). Later reviews of the literature point out that early studies tended to emphasize different parts of the results, and that the actual effects were likely complex (Widerquist, 2018). 
 
 
-
       What is clear from the North American experiments, however, is that a basic income guarantee could have different effects on different groups’ decisions to work. In cases where UBI led to a reduction in work, evidence often showed that individuals redirected the time they gained to other valued activities. For example, data from the Mincome program (Forget, 2011) found that female heads of household with young children dropped out of work at the highest rate to take longer maternity leaves. In both Gary, Illinois, (McDonald & Stephenson, 1979) and Manitoba, Canada, (Forget, 2018; Prescott et al., 1986) younger men reduced work hours to remain in school longer. 
-
 
 
       Evidence from more recent experiments confirms findings of minimal labour market effects in both low-income and high-income economies. Evidence from Alaska’s Permanent Fund Dividend and from the recent UBI experiment in Finland, for example, shows no significant effect on labor supply, employment level or working hours (Guettabi, 2019; Kela & the Ministry of Social Affairs and Health, 2019). In the case of the Alaska PFD, one explanation is that any disincentive effects from cash transfers might be offset by increased spending, which leads to increased demand for workers (Jones & Marinescu, 2018). There are some disputes, however, as to the extent that the Alaska PDF increases consumption (Hsieh, 2003; Kueng, 2015, 2018). 
@@ -334,7 +302,7 @@ themes:
 
 
       The studies reviewed here provide insight into possible labor effects, however there have been significant changes to the labour market since many of the experiments were carried out. These changes make it difficult to predict whether similar outcomes would be observed in contemporary experiments. More research is needed to disentangle the complex relationship between labor supply and demand, and more data is needed on the differential impacts between demographic groups. More evidence is also needed on how factors in the local economy where a UBI is introduced impacts outcomes like labor market participation.
-    related: 
+    related: null
     id: labor-market
     citations: >-
       Anderson, G. M., & Block, W. (1993). Comment on Hum and Simpson. *Journal
@@ -390,10 +358,8 @@ themes:
   - theme: Savings & investment
     id: savings
     body: >-
-      This section discusses UBI’s potential effects on savings and investment.
-
-
-      **Summary**
+      *This sub-theme discusses UBI’s potential effects on savings and
+      investment.*
 
 
       For many people, one of the most important objectives of UBI is to reduce poverty. The hope is that UBI would not only help people meet their daily needs, but also provide the basis for a more secure life by facilitating investments in asset accumulation and human capital development, both of which provide pathways out of poverty. 
@@ -418,7 +384,7 @@ themes:
 
 
       Overall, while more evidence from advanced economies is needed, the evidence on UBI’s positive effects on savings and investment is promising. More research is also needed on how program factors (such as frequency of payment) affect savings and investment, and on which groups (based on factors such as income, gender, or family composition) see the largest effects.
-    related: 
+    related: null
     citations: >-
       
       Alstott, A., & Ackerman, B. (1999). *The Stakeholder Society*. Yale University Press. https://www.jstor.org/stable/j.ctt32bmzf
