@@ -178,14 +178,30 @@ nav.navbar.sticky-top {
       border-bottom: 1px solid #EEEEEE;
       margin-left: 4.8rem;
       margin-right: 4.8rem;
+      overflow: unset;
       &:last-of-type {
         border-bottom: none;
+      }
+      &:focus {
+        .card-header {
+          position: sticky;
+          top: 0;
+        }
       }
     }
     .card-header {
       height: 65px;
       background: white;
       padding: 0.75rem 0;
+      z-index: 1;
+      &.card-header-sticky {
+        position: sticky;
+        to: 54x;
+        @include media-breakpoint-up(md) {
+          top: 0;
+        }
+        
+      }
       .text {
         // display: inline-block;
         font-size: 20px;
