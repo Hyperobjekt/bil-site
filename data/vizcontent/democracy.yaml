@@ -4,14 +4,11 @@ themes:
   - theme: Civic Participation
     id: civic-participation
     body: >-
-      Civic participation is the process of citizen engagement in the political
-      life of a community. There are many forms of participation, including
-      voting, volunteering, and campaigning, among others. The following summary
-      first looks at the potential implications of UBI on citizens’
-      participation as a whole. It then narrows its focus to low-income
-      citizens, who have historically evidenced low participation rates.
-      Although UBI holds promise for increasing civic participation, the
-      empirical evidence is scarce and uncertain.
+      *This section discusses how UBI may impact citizens' political
+      participation, especially voter turnout.*
+
+
+      Civic participation is the process of citizen engagement in the political life of a community. There are many forms of participation, including voting, volunteering, and campaigning, among others. The following summary first looks at the potential implications of UBI on citizens’ participation as a whole. It then narrows its focus to low-income citizens, who have historically evidenced low participation rates. Although UBI holds promise for increasing civic participation, the empirical evidence is scarce and uncertain.
 
 
       Some democratic theorists hold civic participation to be key to a successfully functioning democracy (Skocpol & Fiorina, 2004). They worry about decreased civic participation in the form of declining voting rates and the shrinking presence of civic groups, such as volunteer organizations or unions. One potential cause of decreased participation may be increased time constraints on employed citizens. Indeed, there is some evidence that the amount of time college-educated Americans spend at work has been increasing (The Economist, 2014). Another potential explanation for the decline in civic associations in the United States is the increased labor force participation of upper and middle class women, whose unpaid labor in earlier generations may have been essential to the robustness of American civic life (Putnam, 2001).
@@ -67,9 +64,9 @@ themes:
   - theme: Democratization
     id: democratization
     body: >-
-      **Summary**\
-
-      *This section discusses how UBI might result in the democratization of spheres of life outside of political institutions, such as the workplace or the household.* 
+      *This section discusses how UBI might result in the democratization of
+      spheres of life outside of political institutions, such as the workplace
+      or the household.* 
 
 
       Democratization is the process of making something—a regime, a culture, or a decision-making process—more “democratic,” that is, more reflective of the values of freedom and equality. One way of democratizing is by increasing access to democratic institutions, such as voting. But one can also democratize by increasing people’s ability to take advantage of the institutions to which they already have access; for instance, by making people more knowledgeable about the kinds of policies they vote for.
@@ -125,7 +122,8 @@ themes:
   - theme: Democratic Justifications for UBI
     id: democratic-justifications-for-ubi
     body: >-
-      **Summary**
+      *This section explains how democratic theorists have sought to justify
+      UBI.*
 
 
       One argument proponents of UBI make is that subsistence, like political participation, is a fundamental democratic right. Scholars make two cases for such a view. The first regards UBI’s instrumental value. It seeks to demonstrate that rights are interconnected, which means that rights concerning political participation (e.g., enfranchisement, freedom of speech, freedom of assembly) cannot be maintained without the equal protection of rights related to economic independence. Therefore, UBI is necessary to support other democratic rights. The second argument concerns UBI’s intrinsic value. This argument makes an analogy between subsistence and suffrage, claiming that both are fundamental rights due to democratic citizens. In this paradigm, arguing against universal basic income is like arguing against universal suffrage, that is, it is intrinsically anti-democratic. 
@@ -164,10 +162,9 @@ themes:
   - theme: Good Governance
     id: good-governance
     body: >-
-      **Summary**
-
-
-      *This section explores how UBI might improve governance in democracies, in particular by examining how UBI may  impact democratic accountability and legitimacy.*
+      *This section explores how UBI might improve governance in democracies, in
+      particular by examining how UBI may  impact democratic accountability and
+      legitimacy.*
 
 
       As a regime type, democracy is often valued for certain intrinsic characteristics, such as how it manifests citizen equality. But there are also instrumental reasons for valuing democracy, including the fact that it may result in better governance. Democracies may be both more legitimate and more accountable than other forms of government, resulting in policies that are better for citizens. If democracies fail to be accountable or legitimate—that is, to embody these values of good governance—it may contribute to democratic dissatisfaction and the desire for alternative regime types. Globally, dissatisfaction with how democracy is working is on the rise; across 27 countries polled, a median of 51 percent of people were dissatisfied with the current functioning of democracy in their countries (Richard Wike et al., 2019). People who considered their governments to be unaccountable (corrupt or unable to improve standards of living) or illegitimate (untrustworthy or unwilling to respect basic rights) were more likely to be dissatisfied.
