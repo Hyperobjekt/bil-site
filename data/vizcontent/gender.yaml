@@ -4,47 +4,33 @@ themes:
   - theme: The Household
     id: the-household
     body: >-
-      This section discusses how UBI might affect economically dependent
-      spouses.
-
-
-      **Summary**
+      *This section discusses how UBI might affect economically dependent
+      spouses.*
 
 
       At any given point in time, a significant proportion of women are economically reliant on their male spouse. Among opposite-sex married couples in the United States, only 6.8 percent reported that only the wife was employed while 18.5 percent reported that only the husband was employed (Bureau of Labor Statistics, 2020). These “dependent” spouses rely on a partner as their sole source of income, but even when both partners work, women still face substantial intra-household inequalities in earnings: husbands earn more than wives in approximately three-quarters of all American marriages (Heggeness & Murray-Close, 2018).
 
 
-
       This economic dependency within the household, scholars and activists argue, is a major source of gender inequality (Baxter & Kane, 1995; Orloff, 2013). Economic dependency, for example, can create problematic power dynamics within the household, as the spouse who earns the most may also have more control over the household finances and decisions. It can also limit the dependent spouse’s exit options, which is particularly concerning in cases of domestic abuse (Conner, 2014). Structurally, the gendered nature of economic dependency may also affect societal attitudes. As some scholars have argued, men and women have fewer egalitarian attitudes in contexts where there is more economic dependency: it contributes to the sense that house- and care-work is “women’s work” (Baxter & Kane, 1995).
-
 
 
       By providing a baseline individual income, a generous UBI program could empower spouses who are economically dependent. Since most existing welfare benefits are assessed at the household level, financially dependent spouses are often left out. By contrast, a UBI would apply to each spouse, thus potentially leveling intra-household power dynamics and limiting the ways in which current economic and legal systems (e.g., citizenship restrictions and employment discrimination) reinforce one another to trap women in dependent relationships (Pateman, 2004). The security provided by UBI could be critical for facilitating exit options for spouses in undesirable or abusive relationships (Elgarte, 2008; Orloff, 2013; Robeyns, 2001; Zelleke, 2008).
 
 
-
       UBI’s impact on household gender equity has not yet been studied in high-income countries, but existing empirical evidence in developing countries has been positive. In a 2008–2009 Namibia experiment, for example, basic income transfers seemed to reduce the dependency of young women on men for their survival. Women participants reported more control over their own sexuality, freeing them to some extent from the pressure to engage in transactional sex; but, the study did not discuss these results in greater depth (Haarmann et al., 2009).
-
 
 
       The 2011-2013 Kenya Give Directly experiment, which provided cash transfers to both male and female heads of household, showed that basic income transfers given to female heads of households improved women’s status as measured by the female empowerment index (Haushofer & Shapiro, 2016). The study also indicated that gendered differences were seen in the psychological well-being index, suggesting that women’s well-being was highly correlated with female empowerment (Haushofer & Shapiro, 2016).
 
 
-
       Perhaps the most revealing study to date on UBI’s gender impact was a 2011–2012 randomized control trial in Madhya Pradesh, India. The experiment set out to see whether an individual basic income payment, particularly when combined with membership in a women’s union (the Self-Employed Women’s Association or SEWA), enabled women to develop a greater sense of empowerment and a broader identity (SEWA Bharat, 2014). In the general pilot, 20 villages participated: eight received a monthly basic income transfer and 12 did not (control group). Of the eight receiving the transfers, SEWA had a presence in four of the villages; and, of the control group, SEWA was engaged in six villages. In the tribal pilot, SEWA was present in both villages, though only one received individual cash transfer (SEWA Bharat, 2014). SEWA’s engagement with women under the age of 14 in these villages included opening bank accounts, granting access to employment, or facilitating an income generation program (SEWA Bharat, 2014). For those receiving cash, women also received the basic income grants of their children, which was intended to give mothers greater autonomy over the family’s spending decisions (SEWA Bharat, 2014). 
-
 
 
       The results were overwhelmingly positive: 85 percent of surveyed participants believed that basic income improved the position of women in the household and gave women more power over how income was spent (Davala et al., 2015). Additionally, more than 1,600 women were given access to financial services, up from 365 women before the pilot, through the opening of individual or SEWA cooperative bank accounts, which in turn established an independent legal identity for them and led to a greater sense of empowerment (SEWA Bharat, 2014). Finally, more than half of the women receiving basic income in SEWA villages also reported that their household income (cash transfer or other) was more equitably distributed among members of the household, compared to 39 percent in the control group, resulting in improvements in girls nutrition and increases in girls enrollment in secondary education (SEWA Bharat, 2014).
 
 
-
       These three experiments offer a glimpse into how an individual UBI might impact gender dynamics in the household, but additional research is needed, especially in higher-income countries. Given that household compositions and gender roles are changing at rapid rates, it would be especially beneficial for the new wave of experiments and pilots in the Global North to take gender equity effects explicitly into account.
-    related: |-
-      * Related topics Civic participation (in UBI and Democracy)
-      * Inequality in political power (in UBI and Inequality)
-      * Gendered welfare (in UBI and Gender)
-      * Racialized welfare stereotypes (in UBI and Race) Freedom from demeaning jobs (in UBI and Wellbeing)
+    related: "* Care Work  (in UBI and Gender)"
     citations: >-
       Baxter, J., & Kane, E. W. (1995). Dependence and Independence: A
       Cross-National Analysis of Gender Inequality and Gender Attitudes. *Gender
@@ -242,4 +228,3 @@ themes:
 
 
       Marinescu, I. (2018). *No strings attached: The behavioral effects of U.S. unconditional cash transfer programs* (Working Paper No. 24337). National Bureau of Economic Research. https://www.nber.org/papers/w24312.pdf
-  
