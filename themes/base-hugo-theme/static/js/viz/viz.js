@@ -609,9 +609,7 @@ jQuery('#text-panel .nav-link').on('shown.bs.tab', function (e) {
 
 // Give cards sticky headers when open
 
-
- // jQuery('.btn-link.collapsed').parent().removeClass('card-header-sticky');
-  jQuery('.btn-link').parent().addClass('card-header-sticky');
+jQuery('.btn-link').parent().addClass('card-header-sticky');
 
 
 // wait for user to finish resizing before adjusting

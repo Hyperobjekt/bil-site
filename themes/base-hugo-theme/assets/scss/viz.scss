@@ -196,7 +196,7 @@ nav.navbar.sticky-top {
       z-index: 1;
       &.card-header-sticky {
         position: sticky;
-        to: 54x;
+        top: 54x;
         @include media-breakpoint-up(md) {
           top: 0;
         }
