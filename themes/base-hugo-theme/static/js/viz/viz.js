@@ -606,6 +606,12 @@ jQuery('#text-panel .nav-link').on('shown.bs.tab', function (e) {
   highlightNodeGroup(id);
 });
 
+
+// Give cards sticky headers when open
+
+jQuery('.btn-link').parent().addClass('card-header-sticky');
+
+
 // wait for user to finish resizing before adjusting
 window.onresize = debounce(function () {
   viz.chart.resize();

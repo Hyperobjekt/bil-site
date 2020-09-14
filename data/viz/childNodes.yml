@@ -3,111 +3,30 @@
   display: 1
   parent: gender
   title: The Household
-  xAxis: -500
-  yAxis: -230
-  summary: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-  claims: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
-  relatedTopics:
-    - family
-    - welfare
-  readMore: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-
-    Molestiae sit et qui tenetur. Omnis voluptas dolores explicabo. In fugiat mollitia nihil reiciendis eaque dolor. Dolor ex exercitationem commodi voluptate labore deleniti maiores.
-
-    Totam eveniet vel quia. Quia numquam aut inventore sit qui numquam. Illo et molestiae rerum voluptate qui sunt dolores sed. Voluptas inventore modi natus inventore est. Pariatur rerum qui impedit et.
-
-    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
+  xAxis: -540
+  yAxis: -300
+  
 - id: care-work
   display: 1
   parent: gender
   title: Care Work
-  xAxis: -530
-  yAxis: -370
-  summary: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-  claims: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
-  relatedTopics:
-    - family
-    - welfare
-  readMore: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-
-    Molestiae sit et qui tenetur. Omnis voluptas dolores explicabo. In fugiat mollitia nihil reiciendis eaque dolor. Dolor ex exercitationem commodi voluptate labore deleniti maiores.
-
-    Totam eveniet vel quia. Quia numquam aut inventore sit qui numquam. Illo et molestiae rerum voluptate qui sunt dolores sed. Voluptas inventore modi natus inventore est. Pariatur rerum qui impedit et.
-
-    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
+  xAxis: -500
+  yAxis: -460
+  
 - id: women-in-the-labor-market
   display: 1
   parent: gender
   title: Women in the labor market
-  xAxis: -460
-  yAxis: -460
-  summary: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-  claims: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
-  relatedTopics:
-    - family
-    - welfare
-  readMore: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-
-    Molestiae sit et qui tenetur. Omnis voluptas dolores explicabo. In fugiat mollitia nihil reiciendis eaque dolor. Dolor ex exercitationem commodi voluptate labore deleniti maiores.
-
-    Totam eveniet vel quia. Quia numquam aut inventore sit qui numquam. Illo et molestiae rerum voluptate qui sunt dolores sed. Voluptas inventore modi natus inventore est. Pariatur rerum qui impedit et.
-
-    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
-- id: gendered-welfare
-  parent: gender
-  display: 1
-  title: Gendered Welfare
   xAxis: -340
   yAxis: -560
-  summary: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-  claims: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
-  relatedTopics:
-    - family
-    - welfare
-  readMore: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-
-    Molestiae sit et qui tenetur. Omnis voluptas dolores explicabo. In fugiat mollitia nihil reiciendis eaque dolor. Dolor ex exercitationem commodi voluptate labore deleniti maiores.
-
-    Totam eveniet vel quia. Quia numquam aut inventore sit qui numquam. Illo et molestiae rerum voluptate qui sunt dolores sed. Voluptas inventore modi natus inventore est. Pariatur rerum qui impedit et.
-
-    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
-
+  
+#- id: gendered-welfare
+#  parent: gender
+#  display: 1
+#  title: Gendered Welfare
+#  xAxis: -340
+#  yAxis: -560
+  
 # Democracy --------------------------------------------------- 
 - parent: democracy
   id: civic-participation
@@ -115,331 +34,82 @@
   title: Civic Participation
   xAxis: -90
   yAxis: -620
-  summary: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-  claims: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
-  relatedTopics:
-    - family
-    - welfare
-  readMore: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-
-    Molestiae sit et qui tenetur. Omnis voluptas dolores explicabo. In fugiat mollitia nihil reiciendis eaque dolor. Dolor ex exercitationem commodi voluptate labore deleniti maiores.
-
-    Totam eveniet vel quia. Quia numquam aut inventore sit qui numquam. Illo et molestiae rerum voluptate qui sunt dolores sed. Voluptas inventore modi natus inventore est. Pariatur rerum qui impedit et.
-
-    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
+  
 - parent: democracy
   id: democratization
   display: 1
   title: Democratization
   xAxis: -10
   yAxis: -720
-  summary: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-  claims: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
-  relatedTopics:
-    - family
-    - welfare
-  readMore: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-
-    Molestiae sit et qui tenetur. Omnis voluptas dolores explicabo. In fugiat mollitia nihil reiciendis eaque dolor. Dolor ex exercitationem commodi voluptate labore deleniti maiores.
-
-    Totam eveniet vel quia. Quia numquam aut inventore sit qui numquam. Illo et molestiae rerum voluptate qui sunt dolores sed. Voluptas inventore modi natus inventore est. Pariatur rerum qui impedit et.
-
-    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
+  
 - parent: democracy
   id: democratic-justifications-for-ubi
   display: 1
   title: Democratic Justifications for UBI
   xAxis: 120
   yAxis: -660
-  summary: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-  claims: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
-  relatedTopics:
-    - family
-    - welfare
-  readMore: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-
-    Molestiae sit et qui tenetur. Omnis voluptas dolores explicabo. In fugiat mollitia nihil reiciendis eaque dolor. Dolor ex exercitationem commodi voluptate labore deleniti maiores.
-
-    Totam eveniet vel quia. Quia numquam aut inventore sit qui numquam. Illo et molestiae rerum voluptate qui sunt dolores sed. Voluptas inventore modi natus inventore est. Pariatur rerum qui impedit et.
-
-    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
-
+  
 - parent: democracy
   id: good-governance
   display: 1
   title: Good Governance
   xAxis: 240
   yAxis: -620
-  summary: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-  claims: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
-  relatedTopics:
-    - family
-    - welfare
-  readMore: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-
-    Molestiae sit et qui tenetur. Omnis voluptas dolores explicabo. In fugiat mollitia nihil reiciendis eaque dolor. Dolor ex exercitationem commodi voluptate labore deleniti maiores.
-
-    Totam eveniet vel quia. Quia numquam aut inventore sit qui numquam. Illo et molestiae rerum voluptate qui sunt dolores sed. Voluptas inventore modi natus inventore est. Pariatur rerum qui impedit et.
-
-    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
-
+  
 
 # Automation
 
 - parent: automation
-  id: job-loss-and-technological-unemployment
+  id: automation-and-future-of-work
   display: 1
-  title: Job loss and technological unemployment
-  xAxis: -360
-  yAxis: 450
-  summary: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-  claims: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
-  relatedTopics:
-    - family
-    - welfare
-  readMore: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-
-    Molestiae sit et qui tenetur. Omnis voluptas dolores explicabo. In fugiat mollitia nihil reiciendis eaque dolor. Dolor ex exercitationem commodi voluptate labore deleniti maiores.
-
-    Totam eveniet vel quia. Quia numquam aut inventore sit qui numquam. Illo et molestiae rerum voluptate qui sunt dolores sed. Voluptas inventore modi natus inventore est. Pariatur rerum qui impedit et.
-
-    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
-- parent: automation
-  id: inequality-and-wealth-concentration
-  display: 1
-  title: Inequality and wealth concentration
-  xAxis: -480
-  yAxis: 400
-  summary: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-  claims: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
-  relatedTopics:
-    - family
-    - welfare
-  readMore: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-
-    Molestiae sit et qui tenetur. Omnis voluptas dolores explicabo. In fugiat mollitia nihil reiciendis eaque dolor. Dolor ex exercitationem commodi voluptate labore deleniti maiores.
-
-    Totam eveniet vel quia. Quia numquam aut inventore sit qui numquam. Illo et molestiae rerum voluptate qui sunt dolores sed. Voluptas inventore modi natus inventore est. Pariatur rerum qui impedit et.
-
-    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
-- parent: automation
-  id: post-work-or-freedom-from-work
-  display: 1
-  title: Post work or freedom from work
-  xAxis: -560
-  yAxis: 250
-  summary: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-  claims: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
-  relatedTopics:
-    - family
-    - welfare
-  readMore: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-
-    Molestiae sit et qui tenetur. Omnis voluptas dolores explicabo. In fugiat mollitia nihil reiciendis eaque dolor. Dolor ex exercitationem commodi voluptate labore deleniti maiores.
-
-    Totam eveniet vel quia. Quia numquam aut inventore sit qui numquam. Illo et molestiae rerum voluptate qui sunt dolores sed. Voluptas inventore modi natus inventore est. Pariatur rerum qui impedit et.
-
-    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
+  title: Automation and the Future of Work
+  xAxis: -520
+  yAxis: 480
+  
 
 # Economic Effects
+- parent: economic-effects
+  id: economic-inequality
+  display: 1
+  title: Economic Inequality
+  xAxis: 240
+  yAxis: -340
+
 - parent: economic-effects
   id: inflation
   display: 1
   title: Inflation
-  xAxis: 360
-  yAxis: -410
-  summary: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-  claims: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
-  relatedTopics:
-    - family
-    - welfare
-  readMore: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-
-    Molestiae sit et qui tenetur. Omnis voluptas dolores explicabo. In fugiat mollitia nihil reiciendis eaque dolor. Dolor ex exercitationem commodi voluptate labore deleniti maiores.
-
-    Totam eveniet vel quia. Quia numquam aut inventore sit qui numquam. Illo et molestiae rerum voluptate qui sunt dolores sed. Voluptas inventore modi natus inventore est. Pariatur rerum qui impedit et.
-
-    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
+  xAxis: 330
+  yAxis: -440
+  
 - parent: economic-effects
   id: consumption
   display: 1
   title: Consumption
   xAxis: 450
   yAxis: -450
-  summary: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-  claims: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
-  relatedTopics:
-    - family
-    - welfare
-  readMore: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-
-    Molestiae sit et qui tenetur. Omnis voluptas dolores explicabo. In fugiat mollitia nihil reiciendis eaque dolor. Dolor ex exercitationem commodi voluptate labore deleniti maiores.
-
-    Totam eveniet vel quia. Quia numquam aut inventore sit qui numquam. Illo et molestiae rerum voluptate qui sunt dolores sed. Voluptas inventore modi natus inventore est. Pariatur rerum qui impedit et.
-
-    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
+  
 - parent: economic-effects
   id: migration
   display: 1
   title: Migration
   xAxis: 600
   yAxis: -500
-  summary: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-  claims: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
-  relatedTopics:
-    - family
-    - welfare
-  readMore: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-
-    Molestiae sit et qui tenetur. Omnis voluptas dolores explicabo. In fugiat mollitia nihil reiciendis eaque dolor. Dolor ex exercitationem commodi voluptate labore deleniti maiores.
-
-    Totam eveniet vel quia. Quia numquam aut inventore sit qui numquam. Illo et molestiae rerum voluptate qui sunt dolores sed. Voluptas inventore modi natus inventore est. Pariatur rerum qui impedit et.
-
-    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
+  
 - parent: economic-effects
   id: labor-market
   display: 1
-  title: Labor Market
+  title: Impact on Labor Supply
   xAxis: 570
   yAxis: -420
-  summary: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-  claims: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
-  relatedTopics:
-    - family
-    - welfare
-  readMore: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-
-    Molestiae sit et qui tenetur. Omnis voluptas dolores explicabo. In fugiat mollitia nihil reiciendis eaque dolor. Dolor ex exercitationem commodi voluptate labore deleniti maiores.
-
-    Totam eveniet vel quia. Quia numquam aut inventore sit qui numquam. Illo et molestiae rerum voluptate qui sunt dolores sed. Voluptas inventore modi natus inventore est. Pariatur rerum qui impedit et.
-
-    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
+  
 - parent: economic-effects
   id: savings
   display: 1
-  title: Savings
+  title: Savings & Investment
   xAxis: 720
   yAxis: -360
-  summary: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-  claims: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
-  relatedTopics:
-    - family
-    - welfare
-  readMore: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-
-    Molestiae sit et qui tenetur. Omnis voluptas dolores explicabo. In fugiat mollitia nihil reiciendis eaque dolor. Dolor ex exercitationem commodi voluptate labore deleniti maiores.
-
-    Totam eveniet vel quia. Quia numquam aut inventore sit qui numquam. Illo et molestiae rerum voluptate qui sunt dolores sed. Voluptas inventore modi natus inventore est. Pariatur rerum qui impedit et.
-
-    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
+  
 
 # Health
 - parent: health
@@ -448,27 +118,7 @@
   title: Mental health
   xAxis: -800
   yAxis: 60
-  summary: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-  claims: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
-  relatedTopics:
-    - family
-    - welfare
-  readMore: >
-    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
-
-    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
-
-    Molestiae sit et qui tenetur. Omnis voluptas dolores explicabo. In fugiat mollitia nihil reiciendis eaque dolor. Dolor ex exercitationem commodi voluptate labore deleniti maiores.
-
-    Totam eveniet vel quia. Quia numquam aut inventore sit qui numquam. Illo et molestiae rerum voluptate qui sunt dolores sed. Voluptas inventore modi natus inventore est. Pariatur rerum qui impedit et.
-
-    Recusandae nobis et et rerum repellat. Ut et voluptatibus dolores. Possimus totam eos voluptatem doloremque modi. Non quaerat id error molestiae temporibus quasi ipsa.
+  
 - parent: health
   id: access-to-health-services
   display: 1
@@ -555,7 +205,7 @@
 - parent: work
   id: collective-bargaining
   display: 1
-  title: Collective Bargaining 
+  title: Bargaining Power 
   xAxis: 420
   yAxis: 460
   summary: >

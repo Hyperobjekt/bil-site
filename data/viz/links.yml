@@ -135,12 +135,12 @@
 # Automation  
 - source: root
   target: automation
+#- source: automation
+#  target: job-loss-and-technological-unemployment
+#- source: automation
+#  target: inequality-and-wealth-concentration
 - source: automation
-  target: job-loss-and-technological-unemployment
-- source: automation
-  target: inequality-and-wealth-concentration
-- source: automation
-  target: post-work-or-freedom-from-work 
+  target: automation-and-future-of-work
 # Economic effects  
 - source: root
   target: economic-effects
@@ -154,6 +154,8 @@
   target: labor-market
 - source: economic-effects
   target: savings
+- source: economic-effects
+  target: economic-inequality  
 # Health  
 - source: root
   target: health

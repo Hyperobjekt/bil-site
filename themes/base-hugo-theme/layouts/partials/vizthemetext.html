@@ -1,0 +1,66 @@
+<div class="card">
+    <div class="card-header" id="heading-{{ .themeid }}">
+
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse-{{ .themeid }}"
+            aria-expanded="false" aria-controls="collapse-{{ .themeid }}">
+            <span class="theme-orb"></span><span class="text">{{ .themename }}</span>
+            <svg class="expand-icon icon" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line y1="17.5" x2="36" y2="17.5" stroke="#84868B" />
+                <line x1="17.5" y1="36" x2="17.5" y2="2.18557e-08" stroke="#84868B" />
+            </svg>
+
+            <svg class="collapse-icon icon" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <line y1="17.5" x2="36" y2="17.5" stroke="#84868B" />
+            </svg>
+        </button>
+
+    </div>
+    <div id="collapse-{{ .themeid }}" data-id="{{ .themeid }}" class="collapse" aria-labelledby="heading-{{ .themeid }}" data-parent="#accordionExample">
+        <div class="card-body">
+            <p>SUB-THEMES</p>
+
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                {{ range first 1 .themes }}
+                    <li class="nav-item">
+                        <a class="nav-link active" id="pills-{{ .id }}-tab" data-toggle="pill" data-id="{{ .id }}" href="#pills-{{ .id }}" role="tab"
+                            aria-controls="pills-{{ .id }}" aria-selected="true">{{ .theme }}<div class="underbar"></div></a>
+                    </li>
+                {{ end }}
+                {{ range after 1 .themes }}
+                <li class="nav-item">
+                    <a class="nav-link" id="pills-{{ .id }}-tab" data-toggle="pill" data-id="{{ .id }}" href="#pills-{{ .id }}" role="tab"
+                        aria-controls="pills-{{ .id }}" aria-selected="false">{{ .theme }}<div class="underbar"></div></a>
+                </li>
+                {{ end }}
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+                {{ range first 1 .themes }}
+                    <div class="tab-pane fade show active" id="pills-{{ .id }}" role="tabpanel" aria-labelledby="pills-{{ .id }}-tab">  
+                        {{ .body | markdownify | safeHTML }}<br/><br/>
+                        {{ if .related }}
+                            <p><b>Related topics</b></p>
+                            {{ .related | markdownify | safeHTML }}<br/><br/>
+                        {{ end }}    
+                        {{ if .citations }}
+                            <p><b>Read more</b></p>
+                            {{ .citations | markdownify | safeHTML }}<br/><br/>
+                        {{ end }}  
+                    </div>
+                {{ end }}
+                {{ range after 1 .themes }}
+                    <div class="tab-pane fade" id="pills-{{ .id }}" role="tabpanel" aria-labelledby="pills-{{ .id }}-tab">
+                        {{ .body | markdownify | safeHTML }}<br/><br/>
+                        {{ if .related }}
+                            <p><b>Related topics</b></p>
+                            {{ .related | markdownify | safeHTML }}<br/><br/>
+                        {{ end }}    
+                        {{ if .citations }}
+                            <p><b>Read more</b></p>
+                            {{ .citations | markdownify | safeHTML }}<br/><br/>
+                        {{ end }}  
+                    </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</div>

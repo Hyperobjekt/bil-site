@@ -3,7 +3,8 @@ $SCROLL_BUTTON_HEIGHT: 30px;
 $VIZ_HEIGHT: calc(#{100vh} - #{$NAVBAR_HEIGHT} - (#{$SCROLL_BUTTON_HEIGHT} * 2));
 $VIZ_AREA_HEIGHT_TABLET: $VIZ_HEIGHT;
 
-$TEXT_PANEL_WIDTH: 600px;
+$TEXT_PANEL_WIDTH: 640px;
+$TEXT_PANEL_WIDTH_XL: 760px;
 $TEXT_PANEL_HEIGHT_TABLET: 400px;
 $VIZ_HEIGHT_TABLET: calc(#{$VIZ_AREA_HEIGHT_TABLET} - #{$TEXT_PANEL_HEIGHT_TABLET});
 
@@ -73,6 +74,9 @@ nav.navbar.sticky-top {
   }
   &.text-panel-open #viz-space {
     width: calc(100% - #{$TEXT_PANEL_WIDTH});
+    @include media-breakpoint-up(xl) {
+      width: calc(100% - #{$TEXT_PANEL_WIDTH_XL});
+    }
   }
 
   // .dialog {
@@ -161,6 +165,10 @@ nav.navbar.sticky-top {
     position: absolute;
     right: 0;
     width: $TEXT_PANEL_WIDTH;
+    @include media-breakpoint-up(xl) {
+      width: 50%;
+      max-width: $TEXT_PANEL_WIDTH_XL;
+    }
     transition: transform ease .8s;
     transform: translateX(100%);
     .card {
@@ -170,14 +178,30 @@ nav.navbar.sticky-top {
       border-bottom: 1px solid #EEEEEE;
       margin-left: 4.8rem;
       margin-right: 4.8rem;
+      overflow: unset;
       &:last-of-type {
         border-bottom: none;
+      }
+      &:focus {
+        .card-header {
+          position: sticky;
+          top: 0;
+        }
       }
     }
     .card-header {
       height: 65px;
       background: white;
       padding: 0.75rem 0;
+      z-index: 1;
+      &.card-header-sticky {
+        position: sticky;
+        top: 54x;
+        @include media-breakpoint-up(md) {
+          top: 0;
+        }
+        
+      }
       .text {
         // display: inline-block;
         font-size: 20px;
@@ -185,6 +209,7 @@ nav.navbar.sticky-top {
 
       .btn {
         text-align: start;
+        text-decoration: none;
         position: relative;
         width: 100%;
         padding: 0.375rem 0.75rem 0.375rem 0;
@@ -220,10 +245,67 @@ nav.navbar.sticky-top {
         }
       }
     }
+    .card {
+      a.nav-link:before {
+        content: "•";
+        font-size: 32px;
+        margin-right: 8px;
+        position: relative;
+        top: 2px;
+      }
+      #collapse-gender {
+        a.nav-link:before {
+          color: #AF690C;
+        }
+      }
+      #collapse-economic-effects {
+        a.nav-link:before {
+          color: #dcdcdc;
+        }
+      }
+      #collapse-democracy {
+        a.nav-link:before {
+          color: #DB8311;
+        }
+      }
+      #collapse-race {
+        a.nav-link:before {
+          color: #747579;
+        }
+      }
+      #collapse-work {
+        .underbar {
+         // background-color: #cff9ff;
+        }
+        a.nav-link:before {
+          color: #CFF9FF;
+        }
+      }
+      #collapse-automation {
+        a.nav-link:before {
+          color: #36BFD4;
+        }
+      }
+      #collapse-health {
+        a.nav-link:before {
+          color: #F5CF9E;
+        }
+      }
+    }
     .card-body {
       color:#6d6d6d;
       .nav-link {
-        padding: 0.5rem 1.6rem 0.5rem 0;
+        padding: 0rem 1.6rem 0rem 0;
+        margin-right: .8rem;
+        .underbar {
+          width: 56px;
+          height: 3px;
+          margin-top: 8px;
+          background-color: black;
+          opacity: 0;
+          transition: opacity .3s ease;
+          margin-left: 24px;
+        }
       }
       p {
         color:#6d6d6d;
@@ -233,11 +315,28 @@ nav.navbar.sticky-top {
       height: $VIZ_HEIGHT;
       overflow: scroll;
     }
-
+    .card-body .nav-pills .nav-link {
+      color: #6d6d6d;
+      font-weight: 500;
+      border-radius: 10px;
+      &:hover {
+        color: #9a6013;
+      }
+    }
     .card-body .nav-pills .nav-link.active {
-      background-color: transparent;
-      color: black;
-      font-weight: bold;
+      background: transparent;
+      color: #9a6013;
+      //color: #6d6d6d;
+      font-weight: 500;
+      border-radius: 10px;
+      .underbar {
+        width: 56px;
+        height: 3px;
+        margin-top: 8px;
+        background-color: #9a6013;
+        //background-color: #6d6d6d;
+        opacity: 1;
+      } 
     }
 
     .toggle {
