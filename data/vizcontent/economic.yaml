@@ -103,9 +103,9 @@ themes:
 
       Overall, there is a discrepancy between the popular concern about UBI’s impact on inflation and the extent and strength of the evidence to support this claim.  Despite extensive studies on many aspects of the Alaskan Permanent Fund Dividend program, for instance, little attention has been paid to its impact on inflation.  Part of the reason for the discrepancy is that few economists think that the worry is valid. But a more limited version of the worry—not that UBI would generate high or hyperinflation, but that UBI might lead either to low/moderate inflation, or to an increase in the prices of some important goods, such as housing and medicines—is worth investigating more thoroughly through modeling or simulations.  Existing studies have focused on the impact of cash transfers on food prices in low-income economies. More evidence on other types of goods, especially from advanced economies, is needed. Additional research is also needed on how particular financing mechanisms will impact inflation differently. One paid through a progressive income tax-financed program is going to potentially have different effects than one paid for through a value-added tax (VAT).
     id: inflation
-    related: "* UBI’s impact on labor supply (in Economic Effects of UBI)\r
+    related: "* UBI’s impact on labor supply (in UBI and Economic Effects)\r
 
-      * UBI’s impact on consumption (in Economic Effects of UBI)\r"
+      * UBI’s impact on consumption (in UBI and Economic Effects)\r"
     citations: >-
       Arab Economies: Throwing Money at the Street. (2011, March 10). *The
       Economist*.
@@ -160,9 +160,9 @@ themes:
 
       In general, evidence suggests that cash transfer programs tend to increase consumption expenditure significantly in developing economies, both in the short run and the long run.  Evidence from UBI programs is consistent with this more general result. The effects of cash transfers in advanced economies are more ambivalent. More research is needed, especially from advanced economies, as to the kinds of goods that people would spend their UBI on, and what factors might determine their spending. The concern that UBI might increase consumption of temptation goods, however, has been shown to be untrue.
     related: |-
-      * UBI’s impact on savings and investment (in Economic Effects of UBI)
-      * UBI’s impact on inflation (in Economic Effects of UBI)
-      * UBI and health (in Access to Health Services)
+      * UBI’s impact on savings and investment (in UBI and Economic Effects)
+      * UBI’s impact on inflation (in UBI and Economic Effects)
+      * Access to Health Services (in UBI and Health)
     citations: >-
       Davala, S., Jhabvala, R., Standing, G., Badgaiyan, N., & Bharat, S.
       (2017). *Piloting Basic Income A Legacy Study Final Report* (p. 52). SEWA
@@ -220,9 +220,9 @@ themes:
 
       Much is still unknown about the impact of a UBI policy on migration.  Evidence is highly variable across country contexts, suggesting that UBI may interact with other factors to produce different effects in different places. The size of both the pull and the push effects may also depend on the residency requirements that people must satisfy in order to receive UBI, the numbers and categories of immigrants granted entry to a country, and the generosity of the welfare or income guarantee. More research is needed on the demographic profile of individuals who are more or less likely to migrate in or out as a result of UBI, and on factors such as seasonality and distance on migration patterns.
     related: |-
-      * UBI’s impact on labor supply (in Economic Effects of UBI)
-      * UBI’s impact on savings and investment (in Economic Effects of UBI)
-      * UBI’s impact on economic inequality (in Economic Effects of UBI)
+      * UBI’s impact on labor supply (in UBI and Economic Effects)
+      * UBI’s impact on savings and investment (in UBI and Economic Effects)
+      * UBI’s impact on economic inequality (in UBI and Economic Effects)
     citations: >-
       Alm, J., & Enami, A. (2017). Do government subsidies to low-income
       individuals affect interstate migration? Evidence from the Massachusetts
