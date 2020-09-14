@@ -298,7 +298,11 @@ themes:
 
 
       The studies reviewed here provide insight into possible labor effects, however there have been significant changes to the labour market since many of the experiments were carried out. These changes make it difficult to predict whether similar outcomes would be observed in contemporary experiments. More research is needed to disentangle the complex relationship between labor supply and demand, and more data is needed on the differential impacts between demographic groups. More evidence is also needed on how factors in the local economy where a UBI is introduced impacts outcomes like labor market participation.
-    related: "* UBI’s impact on economic inequality (in Economic Effects of UBI)"
+    related: |-
+      * UBI’s impact on economic inequality (in UBI and Economic Effects)
+      * Work beyond jobs (in UBI and Work)
+      * Bargaining Power (in UBI and Work)
+      * Care work (in UBI and Work)
     id: labor-market
     citations: >-
       Anderson, G. M., & Block, W. (1993). Comment on Hum and Simpson. *Journal
