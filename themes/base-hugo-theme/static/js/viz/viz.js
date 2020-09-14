@@ -524,22 +524,22 @@ viz.chart.on('graphRoam', function(e) {
  * @param  Object e Event object
  * @return null
  */
-function stopWheel(e) {
-  if (!e) { /* IE7, IE8, Chrome, Safari */
-    e = window.event;
-  }
-  if (e.preventDefault) { /* Chrome, Safari, Firefox */
-    e.preventDefault();
-  }
-  e.returnValue = false; /* IE7, IE8 */
-}
-jQuery('#viz-space').hover(function () {
-  jQuery(document).bind('mousewheel DOMMouseScroll', function () {
-    stopWheel();
-  });
-}, function () {
-  jQuery(document).unbind('mousewheel DOMMouseScroll');
-});
+// function stopWheel(e) {
+//   if (!e) { /* IE7, IE8, Chrome, Safari */
+//     e = window.event;
+//   }
+//   if (e.preventDefault) { /* Chrome, Safari, Firefox */
+//     e.preventDefault();
+//   }
+//   e.returnValue = false; /* IE7, IE8 */
+// }
+// jQuery('#viz-space').hover(function () {
+//   jQuery(document).bind('mousewheel DOMMouseScroll', function () {
+//     stopWheel();
+//   });
+// }, function () {
+//   jQuery(document).unbind('mousewheel DOMMouseScroll');
+// });
 
 // open and close text-panel
 jQuery('#text-panel .toggle').click(function (e) {
@@ -617,8 +617,9 @@ window.onresize = debounce(function () {
 
 jQuery('.scroll-button').click(function(e) {
   const $container = jQuery('html');
-  const $scrollTo = jQuery(this.dataset.target);
-  console.log('TARGET: ', this.dataset.target);
+  const targetId = jQuery(e.currentTarget).attr('data-target');
+  const $scrollTo = jQuery(targetId);
+  console.log('TARGET: ', targetId);
 
   $container.animate({
     scrollTop: $scrollTo.offset().top - NAVBAR_HEIGHT
