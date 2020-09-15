@@ -27,6 +27,26 @@ body.mapping-ubi-research {
         background-size: cover;
         background-position: center center;
     }
+    h5 {
+        @include media-breakpoint-up(lg) {
+            max-width: 60%;
+        }
+        
+    }
+    #visualizing-intro, #visualization-attributions {
+        #visualizing-intro__columns {
+          column-gap: 48px;
+          @include media-breakpoint-up(xl) {
+            column-gap: 56px;
+          }
+        }
+      }
+    #visualization-attributions {  
+        column-gap: 48px;
+          @include media-breakpoint-up(xl) {
+            column-gap: 56px;
+          }
+    }
     #hp-viz {
         background-image: url('/images/backgrounds/viz-vector.svg');
         background-size: 40%;
