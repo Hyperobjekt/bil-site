@@ -17,7 +17,7 @@ body1: >-
   philanthropic organizations, among others) with just-in-time access to UBI
   research. It is the result of two years of research led by the Faculty
   Director and Program Manager and carried out by a large team of Lab fellows
-  since 2018. Central to the comprehensive summaries presented below is the
+  since 2018. Central to the extensive summaries presented below is the
   commitment to bridging the gap between facts and values. The summaries present
   existing empirical facts and data around UBI and the broad value-based
   questions and arguments that surround UBI along critical themes like gender,
