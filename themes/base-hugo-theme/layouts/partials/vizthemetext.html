@@ -36,27 +36,27 @@
             <div class="tab-content" id="pills-tabContent">
                 {{ range first 1 .themes }}
                     <div class="tab-pane fade show active" id="pills-{{ .id }}" role="tabpanel" aria-labelledby="pills-{{ .id }}-tab">  
-                        {{ .body | markdownify | safeHTML }}<br/><br/>
+                        {{ .body | markdownify | safeHTML }}<br/>
                         {{ if .related }}
                             <p><b>Related topics</b></p>
-                            {{ .related | markdownify | safeHTML }}<br/><br/>
+                            {{ .related | markdownify | safeHTML }}<br/>
                         {{ end }}    
                         {{ if .citations }}
                             <p><b>Read more</b></p>
-                            {{ .citations | markdownify | safeHTML }}<br/><br/>
+                            {{ .citations | markdownify | safeHTML }}<br/>
                         {{ end }}  
                     </div>
                 {{ end }}
                 {{ range after 1 .themes }}
                     <div class="tab-pane fade" id="pills-{{ .id }}" role="tabpanel" aria-labelledby="pills-{{ .id }}-tab">
-                        {{ .body | markdownify | safeHTML }}<br/><br/>
+                        {{ .body | markdownify | safeHTML }}<br/>
                         {{ if .related }}
                             <p><b>Related topics</b></p>
-                            {{ .related | markdownify | safeHTML }}<br/><br/>
+                            {{ .related | markdownify | safeHTML }}<br/>
                         {{ end }}    
                         {{ if .citations }}
                             <p><b>Read more</b></p>
-                            {{ .citations | markdownify | safeHTML }}<br/><br/>
+                            {{ .citations | markdownify | safeHTML }}<br/>
                         {{ end }}  
                     </div>
                 {{ end }}

@@ -162,11 +162,13 @@ collections:
             - {label: layout, name: layout, widget: hidden, default: "mapping-ubi-research"}
             - {label: pageTitle, name: title, widget: hidden, default: "Mapping UBI Research"}
             - {label: Hero Image Text, name: herotext, widget: string}
-            - {label: Panel 1 Heading, name: heading1, widget: string}
-            - {label: Panel 1 Body text, name: body1, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
-            - {label: Visualization Panel Heading, name: heading2, widget: string}
-            - {label: Visualization Panel Body Text, name: body2, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
-            - {label: Basic Income Pilots Teaser, name: body, widget: markdown, buttons: [heading-two, bold, italic, link, bulleted-list, numbered-list]}
+            - {label: Intro Panel Heading, name: heading1, widget: string}
+            - {label: Intro Panel Subheading, name: subhead, widget: string}
+            - {label: Intro Panel Body text, name: body1, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+            - {label: Attributions Panel Body text, name: body, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+            # - {label: Visualization Panel Heading, name: heading2, widget: string}
+            # - {label: Visualization Panel Body Text, name: body2, widget: markdown, buttons: [bold, italic, link, bulleted-list, numbered-list]}
+            # - {label: Basic Income Pilots Teaser, name: body, widget: markdown, buttons: [heading-two, bold, italic, link, bulleted-list, numbered-list]}
         - label: Basic Income Experiments
           name: experiments_content
           file: "data/experiments/content.yaml"
