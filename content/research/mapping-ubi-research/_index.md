@@ -3,7 +3,7 @@ layout: mapping-ubi-research
 herotext: Research Conducted by the Stanford Basic Income Lab
 heading1: Visualizing UBI Research
 subhead: Explore our new tool which compiles extensive research and shows the
-  connections between UBI and various facets of life and society.
+  connections between UBI and a variety of social issues.
 url: /research/ubi-visualization/
 body1: >-
   The UBI Research Visualization bolsters basic income research by presenting
@@ -17,7 +17,7 @@ body1: >-
   philanthropic organizations, among others) with just-in-time access to UBI
   research. It is the result of two years of research led by the Faculty
   Director and Program Manager and carried out by a large team of Lab fellows
-  since 2018. Central to the comprehensive summaries presented below is the
+  since 2018. Central to the extensive summaries presented below is the
   commitment to bridging the gap between facts and values. The summaries present
   existing empirical facts and data around UBI and the broad value-based
   questions and arguments that surround UBI along critical themes like gender,
