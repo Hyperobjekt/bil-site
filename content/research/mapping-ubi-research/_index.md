@@ -37,6 +37,6 @@ aliases:
 
 The Basic Income Lab also relied on the careful scrutiny of a range of UBI experts for reviewing the research and providing timely suggestions to strengthen the work, including Jhumpa Bhattacharya (Insight Center for Community Economic Development), Emilee Booth Chapman (Stanford University), Evelyn Forget (University of Manitoba), and Almaz Zelleke (New York University).
 
-**Sponsors**: This research visualization was made possible with the support of the Robert Wood Johnson Foundation, The Jain Family Institute and the Economic Security Project.
+**Sponsors**: This Research Visualization was made possible with the support of the Robert Wood Johnson Foundation, the Jain Family Institute and the Economic Security Project.
 
-**Suggested citation for online research visualization:** Stanford Basic Income Lab (2020). << *Name of Theme: Name of Subtheme* >>. Online Research Visualization. Accessed on (DATE).
+**Suggested citation for the Research Visualization:** Stanford Basic Income Lab (2020). << *Name of Theme: Name of Subtheme* >>. Online Research Visualization. Accessed on (DATE).
