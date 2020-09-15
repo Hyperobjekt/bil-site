@@ -20213,6 +20213,7 @@ nav.navbar.sticky-top {
 }
 
 .viz-parent {
+  overflow: hidden;
   position: relative;
   background-color: #FBFAF7;
   height: calc(100vh - 6.4rem - (30px * 2));
@@ -20238,6 +20239,7 @@ nav.navbar.sticky-top {
 .viz-parent #viz-space {
   z-index: 2998;
   width: 100%;
+  min-width: 660px;
   height: 100%;
   background-color: #FBFAF7;
 }
@@ -20536,7 +20538,7 @@ nav.navbar.sticky-top {
   display: none;
 }
 
-@media (min-width: 576px) and (max-width: 991.98px) {
+@media (max-width: 991.98px) {
   .viz-parent {
     height: calc(100vh - 6.4rem - (30px * 2)) !important;
   }
@@ -20558,16 +20560,6 @@ nav.navbar.sticky-top {
   }
   .viz-parent #text-panel .toggle {
     transition: translate ease 1s;
-  }
-}
-
-@media (max-width: 575.98px) {
-  .viz-parent #viz-space {
-    display: none;
-  }
-  .viz-parent #text-panel {
-    transform: translateX(0);
-    width: 100%;
   }
 }
 

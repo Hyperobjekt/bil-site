@@ -8,6 +8,7 @@ $TEXT_PANEL_WIDTH_XL: 760px;
 $TEXT_PANEL_HEIGHT_TABLET: 400px;
 $VIZ_HEIGHT_TABLET: calc(#{$VIZ_AREA_HEIGHT_TABLET} - #{$TEXT_PANEL_HEIGHT_TABLET});
 
+$MIN_VIZ_CANVAS_WIDTH: 660px;
 
 // colors - keep in sync with theme.yaml
 $UBI_COLOR: #00505C;
@@ -60,6 +61,8 @@ nav.navbar.sticky-top {
 }
 
 .viz-parent {
+  // for when viz-space min-width is wider than screen (may need to make this rule more specific)
+  overflow: hidden;
   position: relative;
   //box-shadow: inset 0px -1px 7px 0px rgba(0, 0, 0, 0.1);
   background-color: #FBFAF7;
@@ -86,6 +89,7 @@ nav.navbar.sticky-top {
   #viz-space {
     z-index: 2998;
     width: 100%;
+    min-width: $MIN_VIZ_CANVAS_WIDTH;
     height: 100%;
     background-color: #FBFAF7;
     // transition: width ease 1s;
@@ -405,7 +409,7 @@ nav.navbar.sticky-top {
     }
   }
 
-  @include media-breakpoint-between(mm, md) {
+  @include media-breakpoint-down(md) {
     height: $VIZ_AREA_HEIGHT_TABLET !important;
     &.text-panel-open {
       #viz-space {
@@ -435,12 +439,12 @@ nav.navbar.sticky-top {
   }
 
   @include media-breakpoint-down(smm) {
-    #viz-space {
-      display: none;
-    }
-    #text-panel {
-      transform: translateX(0);
-      width: 100%;
-    }
+    // #viz-space {
+    //   display: none;
+    // }
+    // #text-panel {
+    //   transform: translateX(0);
+    //   width: 100%;
+    // }
   }
 }
