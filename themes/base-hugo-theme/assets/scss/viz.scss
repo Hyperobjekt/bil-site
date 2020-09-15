@@ -65,6 +65,24 @@ nav.navbar.sticky-top {
   background-color: #FBFAF7;
   //height: 76vh;
   height: $VIZ_HEIGHT;
+
+  .click-hint {
+    z-index: 2999; // above chart, below nav
+    position: absolute;
+    width: 130px;
+    left: calc(50% - 65px);
+    top: 65px;
+    padding: 20px;
+    text-align: center;
+    border: .5px solid black;
+    background: white;
+    color: black;
+
+    &.dismissed {
+      display: none;
+    }
+  }
+  
   #viz-space {
     z-index: 2998;
     width: 100%;

@@ -424,6 +424,7 @@ viz.chart.on('mouseover', function(e) {
 viz.chart.on('click', function(e) {
 
   if (e.dataType === 'node') {
+    jQuery('.click-hint').addClass('dismissed')
 
     if (e.data.id === 'root') {
       collapsePanelSections();
@@ -543,6 +544,7 @@ viz.chart.on('graphRoam', function(e) {
 
 // open and close text-panel
 jQuery('#text-panel .toggle').click(function (e) {
+  jQuery('.click-hint').addClass('dismissed')
   jQuery('#viz-parent').toggleClass('text-panel-open');
 
   // only needs to happen on close, but when toggle is clicked to open nothing should be active anyways

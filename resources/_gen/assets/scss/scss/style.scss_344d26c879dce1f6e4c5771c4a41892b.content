@@ -20218,6 +20218,23 @@ nav.navbar.sticky-top {
   height: calc(100vh - 6.4rem - (30px * 2));
 }
 
+.viz-parent .click-hint {
+  z-index: 2999;
+  position: absolute;
+  width: 130px;
+  left: calc(50% - 65px);
+  top: 65px;
+  padding: 20px;
+  text-align: center;
+  border: .5px solid black;
+  background: white;
+  color: black;
+}
+
+.viz-parent .click-hint.dismissed {
+  display: none;
+}
+
 .viz-parent #viz-space {
   z-index: 2998;
   width: 100%;
@@ -20280,7 +20297,7 @@ nav.navbar.sticky-top {
 
 .viz-parent #text-panel .card-header.card-header-sticky {
   position: sticky;
-  to: 54x;
+  top: 54x;
 }
 
 @media (min-width: 768px) {
