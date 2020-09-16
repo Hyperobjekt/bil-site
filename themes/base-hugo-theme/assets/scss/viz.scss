@@ -1,11 +1,16 @@
 $SCROLL_BUTTON_HEIGHT: 30px;
+$TOGGLE_PANEL_BUTTON_HEIGHT: 69px;
 
-$VIZ_HEIGHT: calc(#{100vh} - #{$NAVBAR_HEIGHT} - (#{$SCROLL_BUTTON_HEIGHT} * 2));
-$VIZ_AREA_HEIGHT_TABLET: $VIZ_HEIGHT;
+$VIZ_AREA_HEIGHT: calc(#{100vh} - #{$NAVBAR_HEIGHT} - (#{$SCROLL_BUTTON_HEIGHT} * 2));
+$VIZ_AREA_HEIGHT_TABLET: $VIZ_AREA_HEIGHT;
 
 $TEXT_PANEL_WIDTH: 640px;
 $TEXT_PANEL_WIDTH_XL: 760px;
+
+$TEXT_PANEL_HEIGHT_MOBILE: calc(#{$VIZ_AREA_HEIGHT} - #{$TOGGLE_PANEL_BUTTON_HEIGHT});
 $TEXT_PANEL_HEIGHT_TABLET: 400px;
+
+$VIZ_HEIGHT: $VIZ_AREA_HEIGHT;
 $VIZ_HEIGHT_TABLET: calc(#{$VIZ_AREA_HEIGHT_TABLET} - #{$TEXT_PANEL_HEIGHT_TABLET});
 
 $MIN_VIZ_CANVAS_WIDTH: 660px;
@@ -255,6 +260,7 @@ nav.navbar.sticky-top {
       }
     }
     .content {
+      // max-height: 100%;
       height: $VIZ_HEIGHT;
       overflow: scroll;
     }
@@ -288,7 +294,7 @@ nav.navbar.sticky-top {
       left: 1px;
       top: 24px;
       width: 61px;
-      height: 69px;
+      height: $TOGGLE_PANEL_BUTTON_HEIGHT;
       background: white;
       //border: solid .5px rgba(55, 55, 55, 0.125);
       padding: 10px;
@@ -370,9 +376,15 @@ nav.navbar.sticky-top {
     /* #viz-space {
       display: none;
     } */
-   /* #text-panel {
-      transform: translateX(0);
-      width: 100%;
-    } */
+    #text-panel {
+      // transform: translateX(0);
+      // width: 100%;
+      .content {
+        height: $TEXT_PANEL_HEIGHT_MOBILE;
+      }
+      .toggle {
+        top: 0;
+      }
+    }
   } 
 }

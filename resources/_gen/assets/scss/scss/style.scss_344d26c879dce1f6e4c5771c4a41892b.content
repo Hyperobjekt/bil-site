@@ -20606,10 +20606,12 @@ nav.navbar.sticky-top {
     /* #viz-space {
       display: none;
     } */
-    /* #text-panel {
-      transform: translateX(0);
-      width: 100%;
-    } */
+  }
+  .viz-parent #text-panel .content {
+    height: calc(calc(100vh - 6.4rem - (30px * 2)) - 69px);
+  }
+  .viz-parent #text-panel .toggle {
+    top: 0;
   }
 }
 
