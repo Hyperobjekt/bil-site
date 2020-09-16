@@ -20595,6 +20595,7 @@ nav.navbar.sticky-top {
   }
   .viz-parent #text-panel .content {
     height: 400px;
+    overscroll-behavior: contain;
   }
   .viz-parent #text-panel .toggle {
     transition: translate ease 1s;

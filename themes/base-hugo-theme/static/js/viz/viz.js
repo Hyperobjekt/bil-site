@@ -139,8 +139,8 @@ viz.rebuild = () => {
   // Add root node
   const root = {
     id: 'root',
-    name: "ubi",
-    value: "UBI",
+    name: 'ubi',
+    value: 'UBI',
     category: 'root',
     // fixed: true,
     symbol: 'circle',
@@ -475,7 +475,7 @@ viz.chart.on('click', function(e) {
 
     // open the corresponding text-panel section and subtheme tab
     jQuery(`#text-panel .collapse[data-id='${parentId}'`).collapse('show');
-    jQuery(`#text-panel a[href="#pills-${childId}"]`).tab('show');
+    jQuery(`#text-panel a[href='#pills-${childId}']`).tab('show');
 
     highlightNodeGroup(nodeId);
     // resize chart (in case panel just opened)
@@ -604,7 +604,6 @@ jQuery('#text-panel .collapse').on('shown.bs.collapse', function (e) {
     // this event *may* have been triggered by the clicking of a subtheme viz node
     // (which then triggered the showing of this parent theme section)
     // in that case we don't want to overwrite our newly active subtheme id
-    console.log('return?')
     return;
   }
 
@@ -735,9 +734,9 @@ function initOnceScrolled(e) {
   
   if ((innerHeight + pageYOffset) > (vizThreshold + buffer)) {
     init();
-    jQuery(window).off("scroll", initOnceScrolled); // no longer needed
+    jQuery(window).off('scroll', initOnceScrolled); // no longer needed
   }
 }
 
-jQuery(window).on("scroll", initOnceScrolled);
+jQuery(window).on('scroll', initOnceScrolled);
 initOnceScrolled(); // in case page loads already scrolled

@@ -365,6 +365,7 @@ nav.navbar.sticky-top {
       width: 100%;
       .content {
         height: $TEXT_PANEL_HEIGHT_TABLET;
+        overscroll-behavior: contain; // prevent "scroll-chaining" to parent elements (where supported)
       }
       .toggle {
         transition: translate ease 1s;
