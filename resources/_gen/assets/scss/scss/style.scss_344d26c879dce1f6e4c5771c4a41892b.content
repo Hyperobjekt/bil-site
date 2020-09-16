@@ -20247,11 +20247,11 @@ nav.navbar.sticky-top {
   z-index: 2999;
   position: absolute;
   width: 136px;
-  left: calc(50% - 70px);
+  left: calc(24% - 70px);
   top: 65px;
   padding: 20px;
   text-align: center;
-  border: .5px solid black;
+  border-radius: 4px;
   background: white;
   color: black;
 }
@@ -20264,7 +20264,6 @@ nav.navbar.sticky-top {
   z-index: 2998;
   width: 100%;
   min-width: 660px;
-  min-height: 260px;
   height: 100%;
   background-color: #FBFAF7;
 }
@@ -20572,13 +20571,18 @@ nav.navbar.sticky-top {
   display: none;
 }
 
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .viz-parent.text-panel-open #viz-space {
+    height: calc(calc(100vh - 6.4rem - (30px * 2)) - 400px);
+  }
+}
+
 @media (max-width: 991.98px) {
   .viz-parent {
     height: calc(100vh - 6.4rem - (30px * 2)) !important;
   }
   .viz-parent.text-panel-open #viz-space {
     width: 100% !important;
-    height: calc(calc(100vh - 6.4rem - (30px * 2)) - 400px);
   }
   .viz-parent.text-panel-open #text-panel .toggle {
     top: 0;
