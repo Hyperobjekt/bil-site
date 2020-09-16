@@ -9,6 +9,7 @@ $TEXT_PANEL_HEIGHT_TABLET: 400px;
 $VIZ_HEIGHT_TABLET: calc(#{$VIZ_AREA_HEIGHT_TABLET} - #{$TEXT_PANEL_HEIGHT_TABLET});
 
 $MIN_VIZ_CANVAS_WIDTH: 660px;
+$MIN_VIZ_CANVAS_HEIGHT: 260px;
 
 // colors - keep in sync with theme.yaml
 $UBI_COLOR: #00505C;
@@ -82,6 +83,7 @@ nav.navbar.sticky-top {
     z-index: 2998;
     width: 100%;
     min-width: $MIN_VIZ_CANVAS_WIDTH;
+    min-height: $MIN_VIZ_CANVAS_HEIGHT;
     height: 100%;
     background-color: #FBFAF7;
     // transition: width ease 1s;

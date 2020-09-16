@@ -20264,6 +20264,7 @@ nav.navbar.sticky-top {
   z-index: 2998;
   width: 100%;
   min-width: 660px;
+  min-height: 260px;
   height: 100%;
   background-color: #FBFAF7;
 }
