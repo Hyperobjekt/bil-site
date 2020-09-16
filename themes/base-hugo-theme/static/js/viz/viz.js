@@ -477,7 +477,7 @@ viz.chart.on('click', function(e) {
       $container.animate({
         scrollTop: $scrollTo.offset().top - $container.offset().top + $container.scrollTop()
       });
-    }, 300); // if we don't wait, the scroll lands at the wrong place due to dynamically collapsing/expanding sections
+    }, 450); // if we don't wait long enough, the scroll lands at the wrong place due to dynamically collapsing/expanding sections (bumped from 300)
   }
 });
 
