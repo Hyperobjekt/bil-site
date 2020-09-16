@@ -1,7 +1,23 @@
-// TODOS_
-// _ export
-// 
+// ___________ LOGIC NEEDED PRE-INIT ___________
+const NAVBAR_HEIGHT = 64; // keep in sync with bil-custom.scss $NAVBAR_HEIGHT (in rem)
 
+jQuery('.scroll-button').click(function (e) {
+  const $container = jQuery('html');
+  const targetId = jQuery(e.currentTarget).attr('data-target');
+  const $scrollTo = jQuery(targetId);
+  console.log('TARGET: ', targetId);
+
+  $container.animate({
+    scrollTop: $scrollTo.offset().top - NAVBAR_HEIGHT
+  }, 700);
+})
+// ___________ END PRE-INIT LOGIC ___________
+
+/*
+ * wait to init until viz scrolled into view
+ * anything not needed on page load goes inside this function
+ */
+const init = () => {
 // _______ CONSTS _______
 const ZOOM_MAX = 10;
 const ZOOM_MIN = .7;
@@ -10,9 +26,6 @@ const ZOOM_LABEL_CUTOFF = 1.75;
 const SHOW_SUBTOPIC_LABEL_DEFAULT = ZOOM_INITIAL > ZOOM_LABEL_CUTOFF;
 // how much to change zoom on zoom in/out click (as a proportion, so should be > 1)
 const ZOOM_FACTOR = 2;
-
-// keep in sync with bil-custom.scss $NAVBAR_HEIGHT (in rem)
-const NAVBAR_HEIGHT = 64;
 
 // viz.zoomLevel = 1;
 
@@ -349,6 +362,7 @@ setup.options = {
   coordinateSystem: 'cartesian2d',
   animation: true,
   animationDuration: 1500,
+  animationDelay: 700, // wait a beat before initial animation
   animationDurationUpdate: 1000, // resize duration
   animationEasingUpdate: 'quinticInOut',
   tooltip: {
@@ -623,17 +637,6 @@ window.onresize = debounce(function () {
   }
 }, 100);
 
-jQuery('.scroll-button').click(function(e) {
-  const $container = jQuery('html');
-  const targetId = jQuery(e.currentTarget).attr('data-target');
-  const $scrollTo = jQuery(targetId);
-  console.log('TARGET: ', targetId);
-
-  $container.animate({
-    scrollTop: $scrollTo.offset().top - NAVBAR_HEIGHT
-  }, 700);
-})
-
 // _______ HELPERS _______
 function highlightNodeGroup(elId) {
   if (!elId) {
@@ -722,3 +725,19 @@ function debounce(func, wait, immediate) {
 
 //   throw new Error("Unable to copy obj! Its type isn't supported.");
 // }
+}
+// ___________ END INIT ___________
+
+function initOnceScrolled(e) {
+  const { innerHeight, pageYOffset } = window;
+  const vizThreshold = jQuery('#viz-section').offset().top;
+  const buffer = 25; // must pass vizThreshold by at least this much to trigger init
+  
+  if ((innerHeight + pageYOffset) > (vizThreshold + buffer)) {
+    init();
+    jQuery(window).off("scroll", initOnceScrolled); // no longer needed
+  }
+}
+
+jQuery(window).on("scroll", initOnceScrolled);
+initOnceScrolled(); // in case page loads already scrolled
