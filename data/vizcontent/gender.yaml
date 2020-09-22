@@ -31,18 +31,18 @@ themes:
 
       These three experiments offer a glimpse into how an individual UBI might impact gender dynamics in the household, but additional research is needed, especially in higher-income countries. Given that household compositions and gender roles are changing at rapid rates, it would be especially beneficial for the new wave of experiments and pilots in the Global North to take gender equity effects explicitly into account.
     related:
-    	- id: care-work
-				text: Care Work
-    	- id: women-in-the-labor-market
-				text: Women in the Labor Market
-    	- id: job-precariousness
-				text: Job Precariousness
-    	- id: work-beyond-jobs
-				text: Work beyond Jobs
-    	- id: economic-inequality
-				text: Economic inequality
-    	- id: racialized-welfare-stereotypes
-				text: Racialized welfare stereotypes
+      - id: care-work
+        text: Care Work
+      - id: women-in-the-labor-market
+        text: Women in the Labor Market
+      - id: job-precariousness
+        text: Job Precariousness
+      - id: work-beyond-jobs
+        text: Work beyond Jobs
+      - id: economic-inequality
+        text: Economic inequality
+      - id: racialized-welfare-stereotypes
+        text: Racialized welfare stereotypes
     citations: >-
       Baxter, J., & Kane, E. W. (1995). Dependence and Independence: A
       Cross-National Analysis of Gender Inequality and Gender Attitudes. *Gender
@@ -107,16 +107,16 @@ themes:
 
       Evidence from Canada’s Mincome experiment in the 1970s suggests that guaranteed income caused female spouses to finance longer maternity leaves, to reduce their work hours, and to take longer breaks from employment later in their careers (Forget, 2011). There are difficulties in interpreting these results, however. Gender norms have changed significantly since the 1970s, making it difficult to extrapolate from these results to the present. Moreover, the results do not discuss how breaks in employment might be used for purposes other than childrearing, such as caring for elderly.  As such, more research, especially on UBI’s long-term effects on labor demand (Widerquist, 2018) is needed to predict how men and women would engage in care work.
     related:
-    	- id: the-household
-				text: The household
-    	- id: women-in-the-labor-market
-				text: Women in the labor market
-    	- id: collective-bargaining
-				text: Bargaining power
-    	- id: work-beyond-jobs
-				text: Work beyond jobs
-    	- id: racialized-welfare-stereotypes
-				text: Racialized welfare stereotypes
+      - id: the-household
+        text: The household
+      - id: women-in-the-labor-market
+        text: Women in the labor market
+      - id: collective-bargaining
+        text: Bargaining power
+      - id: work-beyond-jobs
+        text: Work beyond jobs
+      - id: racialized-welfare-stereotypes
+        text: Racialized welfare stereotypes
     citations: >-
       Bureau of Labor Statistics. (2019). *Occupational Outlook Handbook: Home
       Health Aides and Personal Care Aides*. U.S. Department of Labor.

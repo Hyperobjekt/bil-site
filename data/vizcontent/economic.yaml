@@ -22,16 +22,16 @@ themes:
 
       More research is needed to help answer some questions. First, the relationship between UBI and other economic effects, such as wealth accumulation and access to credit, is not yet understood. The gap-reducing effect may be lessened if UBI enables those on the higher end of the income distribution to invest their payment in ways that generate more returns. Second, so far, UBI pilots have been in areas with high rates of poverty (Davala et al. 2017). To predict impacts on income inequality, more studies need to be done in economies with significant numbers of both low- and high-income individuals.
     related:
-    	- id: racial-economic-inequality
-				text: Racial economic inequality
-    	- id: racialized-welfare-stereotypes
-				text: Racialized welfare stereotypes
-    	- id: consumption
-				text: Consumption
-    	- id: savings
-				text: Savings and investment
-    	- id: labor-market
-				text: Labor supply effects
+      - id: racial-economic-inequality
+        text: Racial economic inequality
+      - id: racialized-welfare-stereotypes
+        text: Racialized welfare stereotypes
+      - id: consumption
+        text: Consumption
+      - id: savings
+        text: Savings and investment
+      - id: labor-market
+        text: Labor supply effects
     citations: >-
       Anderson, E. (1999). What Is the Point of Equality? *Ethics*, *109*(2).
       https://www.researchgate.net/publication/248422963_What_Is_the_Point_of_Equality
@@ -109,12 +109,12 @@ themes:
       Overall, there is a discrepancy between the popular concern about UBI’s impact on inflation and the extent and strength of the evidence to support this claim.  Despite extensive studies on many aspects of the Alaskan Permanent Fund Dividend program, for instance, little attention has been paid to its impact on inflation.  Part of the reason for the discrepancy is that few economists think that the worry is valid. But a more limited version of the worry—not that UBI would generate high or hyperinflation, but that UBI might lead either to low/moderate inflation, or to an increase in the prices of some important goods, such as housing and medicines—is worth investigating more thoroughly through modeling or simulations.  Existing studies have focused on the impact of cash transfers on food prices in low-income economies. More evidence on other types of goods, especially from advanced economies, is needed. Additional research is also needed on how particular financing mechanisms will impact inflation differently. One paid through a progressive income tax-financed program is going to potentially have different effects than one paid for through a value-added tax (VAT).
     id: inflation
     related:
-			- id: labor-market
-				text: Impact on labor supply
-    	- id: consumption
-				text: Consumption
-    	- id: savings
-				text: Savings and investment
+      - id: labor-market
+        text: Impact on labor supply
+      - id: consumption
+        text: Consumption
+      - id: savings
+        text: Savings and investment
     citations: >-
       Arab Economies: Throwing Money at the Street. (2011, March 10). *The
       Economist*.
@@ -169,12 +169,12 @@ themes:
 
       In general, evidence suggests that cash transfer programs tend to increase consumption expenditure significantly in developing economies, both in the short run and the long run.  Evidence from UBI programs is consistent with this more general result. The effects of cash transfers in advanced economies are more ambivalent. More research is needed, especially from advanced economies, as to the kinds of goods that people would spend their UBI on, and what factors might determine their spending. The concern that UBI might increase consumption of temptation goods, however, has been shown to be untrue.
     related:
-    	- id: savings
-				text: Savings and investment
-    	- id: inflation
-				text: Inflation
-    	- id: access-to-health-services
-				text: Access to Health Services
+      - id: savings
+        text: Savings and investment
+      - id: inflation
+        text: Inflation
+      - id: access-to-health-services
+        text: Access to Health Services
     citations: >-
       Davala, S., Jhabvala, R., Standing, G., Badgaiyan, N., & Bharat, S.
       (2017). *Piloting Basic Income A Legacy Study Final Report* (p. 52). SEWA
@@ -232,12 +232,12 @@ themes:
 
       Much is still unknown about the impact of a UBI policy on migration.  Evidence is highly variable across country contexts, suggesting that UBI may interact with other factors to produce different effects in different places. The size of both the pull and the push effects may also depend on the residency requirements that people must satisfy in order to receive UBI, the numbers and categories of immigrants granted entry to a country, and the generosity of the welfare or income guarantee. More research is needed on the demographic profile of individuals who are more or less likely to migrate in or out as a result of UBI, and on factors such as seasonality and distance on migration patterns.
     related:
-    	- id: labor-market
-				text: Impact on labor supply
-    	- id: savings
-				text: Savings and investment
-    	- id: economic-inequality
-				text: Economic inequality
+      - id: labor-market
+        text: Impact on labor supply
+      - id: savings
+        text: Savings and investment
+      - id: economic-inequality
+        text: Economic inequality
     citations: >-
       Alm, J., & Enami, A. (2017). Do government subsidies to low-income
       individuals affect interstate migration? Evidence from the Massachusetts
@@ -314,16 +314,16 @@ themes:
 
       The studies reviewed here provide insight into possible labor effects, however there have been significant changes to the labour market since many of the experiments were carried out. These changes make it difficult to predict whether similar outcomes would be observed in contemporary experiments. More research is needed to disentangle the complex relationship between labor supply and demand, and more data is needed on the differential impacts between demographic groups. More evidence is also needed on how factors in the local economy where a UBI is introduced impacts outcomes like labor market participation.
     related:
-    	- id: economic-inequality
-				text: Economic inequality
-    	- id: work-beyond-jobs
-				text: Work beyond jobs
-    	- id: collective-bargaining
-				text: Bargaining Power
-    	- id: care-work
-				text: Care work
-    	- id: women-in-the-labor-market
-				text: Women in the labor market
+      - id: economic-inequality
+        text: Economic inequality
+      - id: work-beyond-jobs
+        text: Work beyond jobs
+      - id: collective-bargaining
+        text: Bargaining Power
+      - id: care-work
+        text: Care work
+      - id: women-in-the-labor-market
+        text: Women in the labor market
     id: labor-market
     citations: >-
       Anderson, G. M., & Block, W. (1993). Comment on Hum and Simpson. *Journal
@@ -406,14 +406,14 @@ themes:
 
       Overall, while more evidence from advanced economies is needed, the evidence on UBI’s positive effects on savings and investment is promising. More research is also needed on how program factors (such as frequency of payment) affect savings and investment, and on which groups (based on factors such as income, gender, or family composition) see the largest effects.
     related:
-    	- id: consumption
-				text: Consumption
-    	- id: economic-inequality
-				text: Economic Inequality
-    	- id: racial-economic-inequality
-				text: Racial economic inequality
-    	- id: racialized-welfare-stereotypes
-				text: Racialized welfare stereotypes
+      - id: consumption
+        text: Consumption
+      - id: economic-inequality
+        text: Economic Inequality
+      - id: racial-economic-inequality
+        text: Racial economic inequality
+      - id: racialized-welfare-stereotypes
+        text: Racialized welfare stereotypes
     citations: >-
       
       Alstott, A., & Ackerman, B. (1999). *The Stakeholder Society*. Yale University Press. https://www.jstor.org/stable/j.ctt32bmzf

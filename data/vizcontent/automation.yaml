@@ -30,12 +30,12 @@ themes:
     related:
       - id: job-precariousness
         text: Job precariousness
-    	- id: unemployment
-				text: Unemployment
-    	- id: work-beyond-jobs
-				text: Work beyond Jobs
-    	- id: economic-inequality
-				text: Economic Inequality
+      - id: unemployment
+        text: Unemployment
+      - id: work-beyond-jobs
+        text: Work beyond Jobs
+      - id: economic-inequality
+        text: Economic Inequality
     citations: >-
       Bidadanure, Juliana. 2020. “The Political Theory of Universal Basic
       Income,” Annual Review of Economics. Vol 22 (March 2019): 481-501.

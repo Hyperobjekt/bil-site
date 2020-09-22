@@ -28,16 +28,16 @@ themes:
 
       It is, of course, impossible for a single policy to reverse decades of intentionally manufactured negative public perception around welfare itself. For all the potential a UBI policy has in countering racial tropes, it also has its limitations. Net-beneficiaries of UBI might still be resented by those who are net contributors, and so patterns of stigmatization and demonization could survive the change. Changing attitudes, narratives and perceptions would require other systemic changes alongside a UBI to guarantee success on this front (Roberts, 1996). Nonetheless, programs like the Magnolia Mothers Trust in Jackson, Mississippi, that tackle head on taboos around Black motherhood and cash are leading the way in helping shift narrative around deservingness, solidarity and equity (Black & Sprague, 2017).
     related:
-    	- id: racial-economic-inequality
-				text: Racial economic inequality
-    	- id: guaranteed-income-in-african-american-history
-				text: Guaranteed income in African American history
-    	- id: economic-inequality
-				text: Economic inequality
-    	- id: care-work
-				text: Care work
-    	- id: collective-bargaining
-				text: Bargaining power
+      - id: racial-economic-inequality
+        text: Racial economic inequality
+      - id: guaranteed-income-in-african-american-history
+        text: Guaranteed income in African American history
+      - id: economic-inequality
+        text: Economic inequality
+      - id: care-work
+        text: Care work
+      - id: collective-bargaining
+        text: Bargaining power
     citations: >-
       Bhattacharya, J. (2019). *Exploring Basic Income through a Race and Gender
       Justice Lens*. Roosevelt Institute.
@@ -113,12 +113,12 @@ themes:
 
       While there is great potential for UBI, a basic income policy alone cannot close the racial wealth gap. Critics of UBI have argued that other policies—such as baby bonds, student debt forgiveness, and a federal jobs guarantee, or a mix of those proposals—would better address racial economic inequities (Ackerman & Alstott, 2004; Oliver & Shapiro, 2019). Since UBI focuses largely on stabilizing income (Oliver & Shapiro, 2019), the extent to which it could decrease wealth disparities has yet to be tested and would depend on the specific way the policy is funded, as well as on  whether it replaces or supplements other safety net programs. Closing the racial income and wealth gap, in a timely fashion, would also require eliminating workplace discrimination and mass-incarceration as well as implementing reparations.
     related:
-    	- id: racialized-welfare-stereotypes
-				text: Racialized welfare stereotypes
-    	- id: economic-inequality
-				text: Economic inequality
-    	- id: guaranteed-income-in-african-american-history
-				text: Guaranteed income in African American history
+      - id: racialized-welfare-stereotypes
+        text: Racialized welfare stereotypes
+      - id: economic-inequality
+        text: Economic inequality
+      - id: guaranteed-income-in-african-american-history
+        text: Guaranteed income in African American history
     citations: >-
       Ackerman, B., & Alstott, A. (2004). Why Stakeholding? *Politics &
       Society*, *32*(1), 41–60. https://doi.org/10.1177/0032329203261096
@@ -192,14 +192,14 @@ themes:
 
       As renewed calls for basic income and guaranteed income come about, it is important to understand this long legacy of support for the policy, its primary motivations, and its connections with curtailing racial oppression through discrimination and stigmatization. Awareness of this rich history of successes and failures can also help pre-empt future injustices. Current basic income experiments, including the Stockton Economic Empowerment Project and Magnolia Mother’s Trust, both draw on this history, placing race at the center. They help inform the ways in which society can better design a policy that leads to greater racial equity and ultimately undermines the negative racial stereotypes engrained in welfare policies (Bhattacharya, 2019).
     related:
-    	- id: care-work
-				text: Care Work
-    	- id: the-household
-				text: The household
-    	- id: racialized-welfare-stereotypes
-				text: Racialized welfare stereotypes
-    	- id: racial-economic-inequality
-				text: Racial economic inequality
+      - id: care-work
+        text: Care Work
+      - id: the-household
+        text: The household
+      - id: racialized-welfare-stereotypes
+        text: Racialized welfare stereotypes
+      - id: racial-economic-inequality
+        text: Racial economic inequality
     citations: >-
       Bhattacharya, J. (2019). *Exploring Basic Income through a Race and Gender
       Justice Lens*. Roosevelt Institute.
