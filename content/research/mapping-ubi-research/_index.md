@@ -12,16 +12,10 @@ body1: >-
   papers, and books produced on UBI to date; enables viewers to see the
   diversity of approaches that have been taken on testing UBI and related
   policies; and allows users to get a good sense of the key tenets of the
-  debate. The user-friendly platform aspires to provide a wide variety of
-  stakeholders (researchers and students, experimenters, policymakers and
-  philanthropic organizations, among others) with just-in-time access to UBI
-  research. It is the result of two years of research led by the Faculty
-  Director and Program Manager and carried out by a large team of Lab fellows
-  since 2018. Central to the extensive summaries presented below is the
-  commitment to bridging the gap between facts and values. The summaries present
-  existing empirical facts and data around UBI and the broad value-based
-  questions and arguments that surround UBI along critical themes like gender,
-  race and health.
+  debate. 
+
+
+  The user-friendly platform aspires to provide a wide variety of stakeholders (researchers and students, experimenters, policymakers and philanthropic organizations, among others) with just-in-time access to UBI research. It is the result of two years of research led by the Faculty Director and Program Manager and carried out by a large team of Lab fellows since 2018. Central to the extensive summaries presented below is the commitment to bridging the gap between facts and values. The summaries present existing empirical facts and data around UBI and the broad value-based questions and arguments that surround UBI along critical themes like gender, race and health.
 
 
   Click the button below to interact with the tool. Click on the themes (represented by colored circles) within the visualization to learn about the ways basic income connects with each of these areas of life and society.
