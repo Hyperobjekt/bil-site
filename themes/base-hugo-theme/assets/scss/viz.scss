@@ -258,6 +258,14 @@ nav.navbar.sticky-top {
         color:#6d6d6d;
         margin-bottom: 1.6rem;
       }
+
+      .related-link a {
+        color: #04143c;
+        cursor: pointer;
+        &:hover {
+          color: #9a6013;
+        }
+      }
     }
     .content {
       // max-height: 100%;

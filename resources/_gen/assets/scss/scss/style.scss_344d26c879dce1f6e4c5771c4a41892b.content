@@ -20493,6 +20493,15 @@ nav.navbar.sticky-top {
   margin-bottom: 1.6rem;
 }
 
+.viz-parent #text-panel .card-body .related-link a {
+  color: #04143c;
+  cursor: pointer;
+}
+
+.viz-parent #text-panel .card-body .related-link a:hover {
+  color: #9a6013;
+}
+
 .viz-parent #text-panel .content {
   height: calc(100vh - 6.4rem - (30px * 2));
   overflow: scroll;

@@ -39,13 +39,15 @@
                         {{ .body | markdownify | safeHTML }}<br/>
                         {{ if .related }}
                             <p><b>Related topics</b></p>
-                            {{ range .related }}
-                                <ul>
+                            <ul>
+                                {{ range .related }}
                                     <li class="related-link" data-target="{{ .id }}">
-                                        {{ .text | markdownify | safeHTML }}
+                                        <a>
+                                            {{ .text | markdownify | safeHTML }}
+                                        </a>
                                     </li>
-                                </ul>
-                            {{ end }}
+                                {{ end }}
+                            </ul>
                             <br />
                         {{ end }}    
                         {{ if .citations }}
@@ -59,13 +61,15 @@
                         {{ .body | markdownify | safeHTML }}<br/>
                         {{ if .related }}
                             <p><b>Related topics</b></p>
-                            {{ range .related }}
                             <ul>
-                                <li class="related-link" data-target="{{ .id }}">
-                                    {{ .text | markdownify | safeHTML }}
-                                </li>
+                                {{ range .related }}
+                                    <li class="related-link" data-target="{{ .id }}">
+                                        <a>
+                                            {{ .text | markdownify | safeHTML }}
+                                        </a>
+                                    </li>
+                                {{ end }}
                             </ul>
-                            {{ end }}
                             <br />
                         {{ end }}
                         {{ if .citations }}
