@@ -24,10 +24,13 @@ themes:
 
 
       But while UBI would remove some economic barriers, it would likely not remove barriers of language, political knowledge, or even interest. UBI, then, may be of limited impact as a solution to low and unequal civic participation. Moreover, versions of the UBI proposal that include cuts to other important services such as public education may actually negatively impact participation rather than boost it. UBI would of course also be unlikely to impact institutional barriers to participation, such as laws intended to restrict enfranchisement.
-    related: |
-      * Good Governance (in UBI and Democracy) 
-      * Democratic justifications for UBI (in UBI and Democracy)
-      * Economic Inequality (in UBI and Economic Effects) 
+    related:
+			- id: good-governance
+				text: Good Governance
+			- id: democratic-justifications-for-ubi
+				text: Democratic justifications for UBI
+			- id: economic-inequality
+				text: Economic Inequality
     citations: >-
       Akee, R., Copeland, W., Costello, E. J., Holbein, J., & Simeonova, E.
       (2018). *Family Income and the Intergenerational Transmission of Voting
@@ -90,12 +93,17 @@ themes:
 
 
       But there may be reasons to question whether UBI can democratize in the ways its proponents propose. Opponents of UBI argue that it may provide economic independence but would not result in democratizing reforms of the workplace (Gourevitch, 2016). In particular, they argue that basic income only reduces power asymmetries in the workplace for individuals who have an instrumental reason to work; that is, for individuals who work because they depend on its income. But individuals have many other reasons for working; for instance, they may depend on a position for meaning or social connectedness. These workers may remain locked into authoritarian workplaces because the mere “freedom to exit” does not necessarily yield alternative satisfactory opportunities. More generally, democratic reforms do not necessarily logically follow from the right to exit. Since UBI treats workers as separate market participants, it may reduce workers’ ability to organize collectively, decreasing both their access to that particular democratic avenue, hindering their ability to reform organizations. More research is thus required to understand better the relationship between UBI and the democratization of the workplace.
-    related: |
-      * Democratic justifications for UBI (in UBI and Democracy) 
-      * The household (in UBI and Gender)
-      * Racialized welfare stereotypes (in UBI and Race) 
-      * Bargaining power (in UBI and Work) 
-      * Work beyond Jobs (in UBI and Work)
+    related:
+    	- id: democratic-justifications-for-ubi
+				text: Democratic justifications for UBI
+    	- id: the-household
+				text: The household
+    	- id: racialized-welfare-stereotypes
+				text: Racialized welfare stereotypes
+    	- id: collective-bargaining
+				text: Bargaining power
+    	- id: work-beyond-jobs
+				text: Work beyond Jobs
     citations: >-
       Goodhart, M. (2008). A Democratic Defense of Universal Basic Income. In
       *Illusion of Consent: Engaging with Carole Pateman* (pp. 139–162). Penn
@@ -132,11 +140,15 @@ themes:
 
 
       Some theorists see UBI as valuable not merely because it promotes political rights, but because they believe it to be a political right in and of itself (Pateman, 2004)—similar to voting. While there are many instrumental arguments for why voting is valuable—better policy outcomes or holding elected officials accountable—many democratic theorists argue that voting is also intrinsically valuable. Voting, this argument goes, is a symbolic act of political equality; even if people don’t participate evenly, the mere fact of universal access demonstrates that a democracy is rule by all the people, for all the people (Chapman, 2019). The intrinsic arguments for universal basic income are similar. Even if UBI is not shown to increase people’s electoral participation or use of other rights, some scholars argue that it is a right in and of itself because of its symbolic demonstration of equal public standing—the idea that all individuals in a polity are valued the same and considered equal participants in public life (Pateman, 2004).
-    related: |-
-      * Civic participation (in UBI and Democracy) 
-      * Good governance (in UBI and Democracy) 
-      * Racialized welfare stereotypes (in UBI and Race) 
-      * Work beyond Jobs (in UBI and Work)
+    related:
+    	- id: civic-participation
+				text: Civic participation
+    	- id: good-governance
+				text: Good governance
+    	- id: racialized-welfare-stereotypes
+				text: Racialized welfare stereotypes
+    	- id: work-beyond-jobs
+				text: Work beyond Jobs
     citations: >-
       Chapman, E. B. (2019). The Distinctive Value of Elections and the Case for
       Compulsory Voting. *American Journal of Political Science*, *63*(1),
@@ -189,10 +201,13 @@ themes:
 
 
       It may not be necessary for there to be personal contact between citizens and government officials for there to be increased legitimacy, however; digitized or online services that are sufficiently competent might have the same effect. Indeed, an online UBI might even improve perceptions of government legitimacy more, as it removes some possibilities for corruption and micro-domination in service-provision. First, such a UBI “shortens the chain” between government and citizens; removing hands through which the money must pass can result in more transparency and less corruption(World Bank, 2003). Second, it may make service-provision more equitable. “Street level” bureaucrats, those at the forefront of service provision, can be perceived by recipients as making arbitrary decisions about who canaccess benefits, for what reasons, and when. Removing this element of discretion in personal interaction may actually improve citizen-government interactions, and the net impact of UBI might be an increase in democratic trust. Preliminary results from the Finnish basic income experiment support such a conclusion, as researchers there found that basic income recipients had a small but significant increase in trust in politicians and the legal system relative to the control group (Kangas et al., 2019). The leveling of economic inequality may also contribute to such an effect; because citizens in a democracy are serviced by other citizens, micro-domination weakens social trust and the overarching legitimacy of the political community. If micro-domination is more likely to impact low-income citizens, then reduced inequality may make other forms of service provision—from schooling to healthcare—seem fairer, and the state itself more legitimate.
-    related: |-
-      * Civic participation (in UBI and Democracy)
-      * Racialized welfare stereotypes (in UBI and Race)
-      * Work beyond Jobs (in UBI and Work)
+    related:
+    	- id: civic-participation
+				text: Civic participation
+    	- id: racialized-welfare-stereotypes
+				text: Racialized welfare stereotypes
+    	- id: work-beyond-jobs
+				text: Work beyond Jobs
     citations: >-
       Baez, J. E., Camacho, A., Conover, E., & Zárate, R. A. (2012).
       *Conditional Cash Transfers, Political Participation, and Voting

@@ -27,11 +27,15 @@ themes:
 
 
       UBI thus seems pertinent in a range of likely scenarios related to the future of work. But UBI is no panacea either and it cannot fix alone all that is lost when workers lose their jobs. Some also argue that the current debate around the threats of automation may not be a necessary part of the case for UBI. Today, the United States is already seeing a significant trend of economic dislocation and wealth concentration, which may be sufficient to justify UBI as a redistributive measure even without the hypothetical threat to future jobs (Hughes, 2018). Furthermore, the current focus on the threats of automation may distract policymakers from the various other reasons we already have to support UBI, such as the need for efficient and respectful poverty alleviation and for more adequate compensation of caregivers (Ruben, 2017).
-    related: |
-      * Job precariousness (in UBI and Work)
-      * Unemployment (in UBI and Work)
-      * Work beyond Jobs (in UBI and Work)
-      * Economic Inequality (in UBI and Economic Effects)
+    related:
+      - id: job-precariousness
+        text: Job precariousness
+    	- id: unemployment
+				text: Unemployment
+    	- id: work-beyond-jobs
+				text: Work beyond Jobs
+    	- id: economic-inequality
+				text: Economic Inequality
     citations: >-
       Bidadanure, Juliana. 2020. “The Political Theory of Universal Basic
       Income,” Annual Review of Economics. Vol 22 (March 2019): 481-501.

@@ -438,8 +438,6 @@ viz.chart.on('mouseover', function(e) {
 viz.chart.on('click', function(e) {
 
   if (e.dataType === 'node') {
-    jQuery('.click-hint').addClass('dismissed')
-
     if (e.data.id === 'root') {
       collapsePanelSections();
 
@@ -450,48 +448,18 @@ viz.chart.on('click', function(e) {
 
       return;
     }
+    jQuery('.click-hint').addClass('dismissed')
     
     const nodeId = e.data.id;
-    // const vSp = jQuery('#viz-space');
-    viz.active.clicked = nodeId;
-    // const evt = window.event;
-
-    // TODO: need to rebuild to show appropriate labels
-    // viz.rebuild();
-    // viz.chart.setOption(setup.options);
-    
     const _item_obj = viz.getItemObj(nodeId);
-
-    const _parent_obj = viz.getParentItemObj(nodeId);
-    const parentId = _parent_obj.id;
-
-    let childId = nodeId;
+    
+    let subthemeId = nodeId;
     if (_item_obj.type === 'parent') {
-      childId = _item_obj.childrenIds[0];
+      // navigate to first subtheme if it's a parent
+      subthemeId = _item_obj.childrenIds[0];
     }
-    
-    // make sure text-panel is open
-    jQuery('#viz-parent').addClass('text-panel-open');
 
-    // open the corresponding text-panel section and subtheme tab
-    jQuery(`#text-panel .collapse[data-id='${parentId}'`).collapse('show');
-    jQuery(`#text-panel a[href='#pills-${childId}']`).tab('show');
-
-    highlightNodeGroup(nodeId);
-    // resize chart (in case panel just opened)
-    viz.chart.resize();
-
-    // then highlight the corresponding node group
-    
-    // wait a beat...
-    setTimeout(() => {
-      // and scroll to the section in the text-panel (https://stackoverflow.com/a/2906009/13174944)
-      const $container = jQuery('#text-panel .content'),
-      $scrollTo = jQuery('#heading-' + parentId);
-      $container.animate({
-        scrollTop: $scrollTo.offset().top - $container.offset().top + $container.scrollTop()
-      });
-    }, 450); // if we don't wait long enough, the scroll lands at the wrong place due to dynamically collapsing/expanding sections (bumped from 300)
+    navigateToSubtheme(subthemeId);
   }
 });
 
@@ -621,9 +589,14 @@ jQuery('#text-panel .nav-link').on('shown.bs.tab', function (e) {
   highlightNodeGroup(id);
 });
 
+// navigate to related topics
+jQuery('.related-link').click(function (e) {
+  const { target } = e.currentTarget.dataset;
+
+  navigateToSubtheme(target);
+})
 
 // Give cards sticky headers when open
-
 jQuery('.btn-link').parent().addClass('card-header-sticky');
 
 
@@ -663,6 +636,63 @@ function highlightNodeGroup(elId) {
       name: elem.title, // node name has same value as obj item title
     });
   })
+}
+
+function navigateToSubtheme(subthemeId) {
+  if (subthemeId === viz.active.clicked) {
+    return; // nothing to do here
+  }
+
+  const _parent_obj = viz.getParentItemObj(subthemeId);
+  const parentId = _parent_obj.id;
+  
+  const sameParent = viz.active.clicked &&
+    parentId === viz.getParentItemObj(viz.active.clicked).id;
+
+  viz.active.clicked = subthemeId; // now we can update
+
+  
+  const $container = jQuery('#text-panel .content');
+  const $scrollTo = jQuery('#heading-' + parentId);
+  
+  if (sameParent) {
+    jQuery(`#text-panel a[href='#pills-${subthemeId}']`).tab('show');
+    
+    // technically redundant, as it will also be triggered by bs.tab.shown
+    highlightNodeGroup(subthemeId);
+
+    // use the card's offset - otherwise if user has scrolled down in the subtheme,
+    // that scroll offset will be preserved. we want to scroll to theme's top
+    $container.animate({
+      scrollTop: $scrollTo.parent('.card').offset().top - $container.offset().top + $container.scrollTop()
+    });
+
+    return
+  }
+
+  // make sure text-panel is open
+  jQuery('#viz-parent').addClass('text-panel-open');
+
+  // open the corresponding text-panel section and subtheme tab
+  jQuery(`#text-panel .collapse[data-id='${parentId}'`).collapse('show');
+  jQuery(`#text-panel a[href='#pills-${subthemeId}']`).tab('show');
+
+  // resize chart (in case panel just opened)
+  viz.chart.resize();
+
+  // then highlight the corresponding node group
+  highlightNodeGroup(subthemeId);
+
+  // wait a beat...
+  setTimeout(() => {
+    // and scroll to the section in the text-panel (https://stackoverflow.com/a/2906009/13174944)
+    
+    $container.animate({
+      // we could use parent card here as well, but not necessary since
+      // newly opened theme will be scrolled up all the way
+      scrollTop: $scrollTo.offset().top - $container.offset().top + $container.scrollTop()
+    });
+  }, 450); // if we don't wait long enough, the scroll lands at the wrong place due to dynamically collapsing/expanding sections (bumped from 300)
 }
 
 function collapsePanelSections() {

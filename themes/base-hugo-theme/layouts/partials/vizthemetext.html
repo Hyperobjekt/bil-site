@@ -39,7 +39,14 @@
                         {{ .body | markdownify | safeHTML }}<br/>
                         {{ if .related }}
                             <p><b>Related topics</b></p>
-                            {{ .related | markdownify | safeHTML }}<br/>
+                            {{ range .related }}
+                                <ul>
+                                    <li class="related-link" data-target="{{ .id }}">
+                                        {{ .text | markdownify | safeHTML }}
+                                    </li>
+                                </ul>
+                            {{ end }}
+                            <br />
                         {{ end }}    
                         {{ if .citations }}
                             <p><b>Read more</b></p>
@@ -52,8 +59,15 @@
                         {{ .body | markdownify | safeHTML }}<br/>
                         {{ if .related }}
                             <p><b>Related topics</b></p>
-                            {{ .related | markdownify | safeHTML }}<br/>
-                        {{ end }}    
+                            {{ range .related }}
+                            <ul>
+                                <li class="related-link" data-target="{{ .id }}">
+                                    {{ .text | markdownify | safeHTML }}
+                                </li>
+                            </ul>
+                            {{ end }}
+                            <br />
+                        {{ end }}
                         {{ if .citations }}
                             <p><b>Read more</b></p>
                             {{ .citations | markdownify | safeHTML }}<br/>
