@@ -20257,7 +20257,8 @@ nav.navbar.sticky-top {
 }
 
 .viz-parent .click-hint.dismissed {
-  display: none;
+  transition: ease .5s opacity;
+  opacity: 0;
 }
 
 .viz-parent #viz-space {

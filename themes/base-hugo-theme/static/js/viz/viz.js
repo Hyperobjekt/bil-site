@@ -55,7 +55,7 @@ setup.childAngle = 18;
 const symbolSizeBase = 20;
 // Track who is hovered
 viz.active = {};
-viz.active.hovered = null;
+// viz.active.hovered = null;
 viz.active.clicked = null;
 // viz.showTip = false;
 viz.getItemObj = (id) => {
@@ -421,34 +421,14 @@ viz.chart.hideLoading();
 
 
 // _______ ECHARTS EVENT LISTENERS _______
-viz.chart.on('mouseover', function(e) {
-  // TODO
-  if (e.dataType === 'node') {
-
-    if (e.data.id === 'root') {
-      return;
-    }
-
-    viz.active.hovered = e.data.id;
-    // viz.rebuild();
-    // viz.chart.setOption(setup.options);
-  }
-})
-
 viz.chart.on('click', function(e) {
 
   if (e.dataType === 'node') {
     if (e.data.id === 'root') {
-      collapsePanelSections();
-
-      viz.chart.dispatchAction({
-        type: 'downplay',
-        seriesName: 'UBI',
-      });
-
+      togglePanel()
       return;
     }
-    jQuery('.click-hint').addClass('dismissed')
+    fadeAndRemove('.click-hint')
     
     const nodeId = e.data.id;
     const _item_obj = viz.getItemObj(nodeId);
@@ -502,39 +482,10 @@ viz.chart.on('graphRoam', function(e) {
 });
 
 // _______ OTHER VIZ ELEMENTS LISTENERS _______
-/**
- * Stops scrolling over the eCharts div
- * @param  Object e Event object
- * @return null
- */
-// function stopWheel(e) {
-//   if (!e) { /* IE7, IE8, Chrome, Safari */
-//     e = window.event;
-//   }
-//   if (e.preventDefault) { /* Chrome, Safari, Firefox */
-//     e.preventDefault();
-//   }
-//   e.returnValue = false; /* IE7, IE8 */
-// }
-// jQuery('#viz-space').hover(function () {
-//   jQuery(document).bind('mousewheel DOMMouseScroll', function () {
-//     stopWheel();
-//   });
-// }, function () {
-//   jQuery(document).unbind('mousewheel DOMMouseScroll');
-// });
 
 // open and close text-panel
 jQuery('#text-panel .toggle').click(function (e) {
-  jQuery('.click-hint').addClass('dismissed')
-  jQuery('#viz-parent').toggleClass('text-panel-open');
-
-  // only needs to happen on close, but when toggle is clicked to open nothing should be active anyways
-  collapsePanelSections();
-
-  setTimeout(() => {
-    viz.chart.resize();
-  }, 0);
+  togglePanel();
 });
 
 // remove node highlight when closing text-panel section
@@ -683,14 +634,15 @@ function navigateToSubtheme(subthemeId) {
   jQuery(`#text-panel .collapse[data-id='${parentId}'`).collapse('show');
   jQuery(`#text-panel a[href='#pills-${subthemeId}']`).tab('show');
 
-  // resize chart (in case panel just opened)
-  viz.chart.resize();
-
+  
   // then highlight the corresponding node group
   highlightNodeGroup(subthemeId);
-
+  
   // wait a beat...
   setTimeout(() => {
+    // resize chart (in case panel just opened)
+    viz.chart.resize();
+
     // and scroll to the section in the text-panel (https://stackoverflow.com/a/2906009/13174944)
     
     $container.animate({
@@ -707,9 +659,30 @@ function collapsePanelSections() {
   viz.active.clicked = null;
 }
 
+function togglePanel() {
+  fadeAndRemove('.click-hint')
+  jQuery('#viz-parent').toggleClass('text-panel-open');
+
+  // only needs to happen on close, but when toggle is clicked to open nothing should be active anyways
+  collapsePanelSections();
+
+  setTimeout(() => {
+    viz.chart.resize();
+  }, 450); // gives panel enough time to expand (on open) to avoid showing an awkward gap in the page
+}
+
 function getZoomLevel() {
   console.log('zoom: ', viz.chart.getOption().series[0].zoom);
   return viz.chart.getOption().series[0].zoom;
+}
+
+function fadeAndRemove(selector, duration=1000) {
+  const $elem = jQuery(selector)
+  $elem.animate({
+    opacity: 0
+  }, duration, () => {
+    $elem.remove();
+  })
 }
 
 function debounce(func, wait, immediate) {
@@ -727,39 +700,6 @@ function debounce(func, wait, immediate) {
   };
 };
 
-// function clone(obj) {
-//   var copy;
-
-//   // Handle the 3 simple types, and null or undefined
-//   if (null == obj || "object" != typeof obj) return obj;
-
-//   // Handle Date
-//   if (obj instanceof Date) {
-//     copy = new Date();
-//     copy.setTime(obj.getTime());
-//     return copy;
-//   }
-
-//   // Handle Array
-//   if (obj instanceof Array) {
-//     copy = [];
-//     for (var i = 0, len = obj.length; i < len; i++) {
-//       copy[i] = clone(obj[i]);
-//     }
-//     return copy;
-//   }
-
-//   // Handle Object
-//   if (obj instanceof Object) {
-//     copy = {};
-//     for (var attr in obj) {
-//       if (obj.hasOwnProperty(attr)) copy[attr] = clone(obj[attr]);
-//     }
-//     return copy;
-//   }
-
-//   throw new Error("Unable to copy obj! Its type isn't supported.");
-// }
 }
 // ___________ END INIT ___________
 
