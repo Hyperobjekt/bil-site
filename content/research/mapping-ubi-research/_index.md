@@ -12,19 +12,13 @@ body1: >-
   papers, and books produced on UBI to date; enables viewers to see the
   diversity of approaches that have been taken on testing UBI and related
   policies; and allows users to get a good sense of the key tenets of the
-  debate. The user-friendly platform aspires to provide a wide variety of
-  stakeholders (researchers and students, experimenters, policymakers and
-  philanthropic organizations, among others) with just-in-time access to UBI
-  research. It is the result of two years of research led by the Faculty
-  Director and Program Manager and carried out by a large team of Lab fellows
-  since 2018. Central to the extensive summaries presented below is the
-  commitment to bridging the gap between facts and values. The summaries present
-  existing empirical facts and data around UBI and the broad value-based
-  questions and arguments that surround UBI along critical themes like gender,
-  race and health.
+  debate. 
 
 
-  Click the button below to interact with the tool. Click on the themes (represented by colored circles) within the visualization to learn about the ways basic income connects with each of these areas of life and society.
+  The user-friendly platform aspires to provide a wide variety of stakeholders (researchers and students, experimenters, policymakers and philanthropic organizations, among others) with just-in-time access to UBI research. It is the result of two years of research led by the Faculty Director and Program Manager and carried out by a large team of Lab fellows since 2018. Central to the extensive summaries presented below is the commitment to bridging the gap between facts and values. The summaries present existing empirical facts and data around UBI and the broad value-based questions and arguments that surround UBI along critical themes like gender, race and health.
+
+
+  Click the button below to scroll down to the tool. Click on the themes (represented by colored circles) within the visualization to learn about the ways basic income connects with each of these areas of life and society.
 heading2: Coming Summer 2020
 body2: Currently in development, this interactive network visualization will
   serve as the first-ever online platform for exploring existing research on
@@ -33,7 +27,7 @@ title: Mapping UBI Research
 aliases:
   - /research/mapping-ubi-research
 ---
-**Attributions:** The research and design processes and the written summaries presented in the visualization included contributions from Faculty Director and PI for this project, Juliana Bidadanure; Program Manager, Sarah Berger Gonzalez; graduate fellows Guillermo Gomez, Sophia Hunt, Yi Jee Kee, Olga Lenczewska, Joan O’Bryan, Prach Panchakunathorn, Neryvia Pillay Bell, Michelle Reddy, Avshalom Schwratz and Lara Spencer; and, postdoctoral fellow, Rebecca Hasdell. 
+**Attributions:** The research and design processes and the written summaries presented in the visualization included contributions from faculty director and PI for this project, Juliana Bidadanure; program manager, Sarah Berger Gonzalez; postdoctoral fellow, Rebecca Hasdell; and, graduate fellows Neryvia Pillay Bell, Guillermo Gomez, Sophia Hunt, Yi Jee Kee, Olga Lenczewska, Joan O’Bryan, Prach Panchakunathorn, Michelle Reddy, Avshalom Schwratz and Lara Spencer.
 
 The Basic Income Lab also relied on the careful scrutiny of a range of UBI experts for reviewing the research and providing timely suggestions to strengthen the work, including Jhumpa Bhattacharya (Insight Center for Community Economic Development), Emilee Booth Chapman (Stanford University), Evelyn Forget (University of Manitoba), and Almaz Zelleke (New York University).
 
