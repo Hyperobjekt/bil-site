@@ -58,6 +58,17 @@ body.mapping-ubi-research {
             background-repeat: no-repeat;
         }
     }
+    #viz-section {
+        .scroll-button.btn-primary {
+            width: auto;
+            height:auto;
+            padding: 0.8rem 1.6rem;
+            i {
+                position: relative;
+                top: 7px;
+            }
+        }
+    }
 }   
 
 body.global-map-of-basic-income-experiments {
