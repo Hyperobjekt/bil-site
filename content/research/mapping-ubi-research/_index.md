@@ -27,7 +27,7 @@ title: Mapping UBI Research
 aliases:
   - /research/mapping-ubi-research
 ---
-**Attributions:** The research and design processes and the written summaries presented in the visualization included contributions from Faculty Director and PI for this project, Juliana Bidadanure; Program Manager, Sarah Berger Gonzalez; graduate fellows Guillermo Gomez, Sophia Hunt, Yi Jee Kee, Olga Lenczewska, Joan O’Bryan, Prach Panchakunathorn, Neryvia Pillay Bell, Michelle Reddy, Avshalom Schwratz and Lara Spencer; and, postdoctoral fellow, Rebecca Hasdell. 
+**Attributions:** The research and design processes and the written summaries presented in the visualization included contributions from faculty director and PI for this project, Juliana Bidadanure; program manager, Sarah Berger Gonzalez; postdoctoral fellow, Rebecca Hasdell; and, graduate fellows Neryvia Pillay Bell, Guillermo Gomez, Sophia Hunt, Yi Jee Kee, Olga Lenczewska, Joan O’Bryan, Prach Panchakunathorn, Michelle Reddy, Avshalom Schwratz and Lara Spencer.
 
 The Basic Income Lab also relied on the careful scrutiny of a range of UBI experts for reviewing the research and providing timely suggestions to strengthen the work, including Jhumpa Bhattacharya (Insight Center for Community Economic Development), Emilee Booth Chapman (Stanford University), Evelyn Forget (University of Manitoba), and Almaz Zelleke (New York University).
 
