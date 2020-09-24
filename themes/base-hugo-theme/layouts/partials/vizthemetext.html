@@ -51,8 +51,10 @@
                             <br />
                         {{ end }}    
                         {{ if .citations }}
+                        <div class="citations">
                             <p><b>Read more</b></p>
                             {{ .citations | markdownify | safeHTML }}<br/>
+                        </div>
                         {{ end }}  
                     </div>
                 {{ end }}

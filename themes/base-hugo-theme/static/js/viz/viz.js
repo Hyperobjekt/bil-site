@@ -596,6 +596,12 @@ jQuery('.related-link').click(function (e) {
   navigateToSubtheme(target);
 })
 
+// open citation links in new tab
+jQuery('.citations a').click(function (e) {
+  window.open(e.currentTarget.href);
+  return false;
+})
+
 // Give cards sticky headers when open
 jQuery('.btn-link').parent().addClass('card-header-sticky');
 
