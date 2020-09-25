@@ -39,6 +39,14 @@ body.mapping-ubi-research {
           @include media-breakpoint-up(xl) {
             column-gap: 56px;
           }
+          p:last-child {
+            padding: 2.4rem 2rem;
+            margin-bottom: 0;
+            background-color: #f7fafb;
+            //background-color: #00505c;
+            color: $black;
+            font-style: italic;
+          }
         }
       }
     #visualization-attributions {  
