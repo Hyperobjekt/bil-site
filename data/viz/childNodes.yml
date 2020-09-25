@@ -2,8 +2,10 @@
 - id: the-household
   display: 1
   parent: gender
-  title: The Household
-  xAxis: -540
+  title: |
+    The 
+    Household
+  xAxis: -580
   yAxis: -300
   
 - id: care-work
@@ -16,7 +18,9 @@
 - id: women-in-the-labor-market
   display: 1
   parent: gender
-  title: Women in the labor market
+  title: | 
+    Women in the
+    labor market
   xAxis: -340
   yAxis: -560
   
@@ -31,7 +35,9 @@
 - parent: democracy
   id: civic-participation
   display: 1
-  title: Civic Participation
+  title: |
+    Civic
+    Participation
   xAxis: -120
   yAxis: -660
   
@@ -40,7 +46,7 @@
   display: 1
   title: Democratization
   xAxis: -10
-  yAxis: -720
+  yAxis: -740
   
 - parent: democracy
   id: democratic-justifications-for-ubi
@@ -73,7 +79,7 @@
   display: 1
   title: Economic Inequality
   xAxis: 240
-  yAxis: -340
+  yAxis: -380
 
 - parent: economic-effects
   id: inflation
@@ -87,14 +93,14 @@
   display: 1
   title: Consumption
   xAxis: 450
-  yAxis: -450
+  yAxis: -490
   
 - parent: economic-effects
   id: migration
   display: 1
   title: Migration
   xAxis: 600
-  yAxis: -500
+  yAxis: -540
   
 - parent: economic-effects
   id: labor-market
@@ -180,7 +186,10 @@
 - parent: race
   id: guaranteed-income-in-african-american-history
   display: 1
-  title: Guaranteed Income in African American History
+  title: |
+    Guaranteed Income
+    in African American 
+    History
   xAxis: 1120
   yAxis: -80
   
