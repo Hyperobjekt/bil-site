@@ -71,9 +71,15 @@ body.mapping-ubi-research {
             width: auto;
             height:auto;
             padding: 0.8rem 1.6rem;
+            background-color: #f3f3f3;
+            color: #5d5d5d;
+            margin-top: 1.1rem;
+            &:active {
+                background-color: #c3c3c3 !important;
+            }
             i {
                 position: relative;
-                top: 7px;
+                top: 6px;
             }
         }
     }
