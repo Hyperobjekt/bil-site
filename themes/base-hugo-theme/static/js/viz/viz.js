@@ -388,13 +388,13 @@ setup.options = {
         normal: {
           borderColor: '#fff',
           borderWidth: 1,
-          shadowBlur: 10,
+          shadowBlur: 16,
           shadowColor: 'rgba(0, 0, 0, 0.3)'
         },
         emphasis: {
           borderColor: 'rgb(180,180,180)',
-          shadowBlur: 14,
-          shadowColor: 'rgba(0, 0, 0, 0.5)'
+          shadowBlur: 16,
+          shadowColor: 'rgba(0, 0, 0, 0.4)'
         }
       },
       lineStyle: {
