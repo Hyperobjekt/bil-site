@@ -37,28 +37,37 @@
 </div>-->
 <!-- /SUBNAV -->
 
-<div id="visualizing-intro" class="pt-sm-4 pt-md-6 pt-lg-8 pb-sm-7 pb-md-7 pb-xl-8">
-<div class="row">
+<div
+  id="visualizing-intro"
+  class="pt-sm-4 pt-md-6 pt-lg-8 pb-sm-7 pb-md-7 pb-xl-8"
+>
+  <div class="row">
     <!--<div class="col-md-3 mt-md-11 offset-md-2 mt-0 d-flex flex-column justify-content-start align-items-sm-center align-items-md-end"
         style="background-image: url('/images/backgrounds/UBI-viz-close-crop.jpg'); background-size: contain; background-repeat: no-repeat; background-position: right top;">
    
     </div> -->
     <div class="col-12 col-md-10 offset-md-1">
-        <h2 class="mb-sm-2 mb-xl-3">Visualizing UBI Research</h2>
-        <h5 class="mb-sm-5 mb-xl-6">{{ .Params.subhead }}</h5>
+      <h2 class="mb-sm-2 mb-xl-3">Visualizing UBI Research</h2>
+      <h5 class="mb-sm-5 mb-xl-6">{{ .Params.subhead }}</h5>
     </div>
-    <div id="visualizing-intro__columns" class="col-12 col-md-10 offset-md-1 col-count-2 medgraytext">
-        
-        {{ .Params.body1 | markdownify }}
-        
+    <div
+      id="visualizing-intro__columns"
+      class="col-12 col-md-10 offset-md-1 col-count-2 medgraytext"
+    >
+      {{ .Params.body1 | markdownify }}
     </div>
     <div class="col-12 d-flex my-5 my-xl-6">
-        <div class="scroll-button mx-auto" data-target="#viz-section">
-            <button class="d-flex flex-column justify-content-center align-items-center btn btn-primary py-4">Explore the visualization <br><i class="fa fa-chevron-down d-block"></i></button>
-            
-        </div>
+      <div class="scroll-button mx-auto" data-target="#viz-section">
+        <button
+          class="d-flex flex-column justify-content-center align-items-center btn btn-primary py-4"
+        >
+          Explore the visualization <br /><i
+            class="fa fa-chevron-down d-block"
+          ></i>
+        </button>
+      </div>
     </div>
-</div>
+  </div>
 </div>
 
 <!-- VISUALIZATION ---------------------------------- -->
@@ -68,94 +77,86 @@
 <!-- Load fonts because typekit fonts are not utilized by eCharts -->
 
 <!-- End load fonts -->
-<div id="viz-section">
-    <!--<div class="scroll-button" data-target="#mapping-text">
-        <p>Back to introduction</p>
-        <i class="fa fa-chevron-up"></i>
-    </div>-->
-    <div id="viz-parent" class="row viz-parent mr-0 ml-0">
-        <div class="click-hint hint drop-shadow">Click a circle to begin</div>
-        <div id="viz-space" data-echart-responsive="true" class="mr-0 ml-0"></div>
-
-        <!-- <div id="dialog" class="dialog" style="display:none;position:absolute;z-index:3500;">
-            <div class="dialog-body">
-            <h3>Test dialog</h3>
-            <p>Testing dialog</p>
-            </div>
-        </div> -->
-
-        <div id="text-panel">
-            <div class="content">
-
-                <div class="toggle">
-                    <div class="close-group group">
-                        <i class="fa fa-chevron-right"></i>
-                        <p>close</p>
-                    </div>
-                    <div class="open-group group">
-                        <i class="fa fa-chevron-left"></i>
-                        <p>open</p>
-                    </div>
-                </div>
-
-                <div class="accordion" id="accordionExample">
-<!-- GENDER ------------------------------------------------------------------------>
-                {{ with .Site.Data.vizcontent.gender }}
-                {{ partial "vizthemetext" . }}
-                {{ end }}
-<!-- DEMOCRACY ------------------------------------------------------------------------>
-                {{ with .Site.Data.vizcontent.democracy }}
-                    {{ partial "vizthemetext" . }}
-                {{ end }}
-<!-- ECONOMIC EFFECTS ------------------------------------------------------------------------>
-                {{ with .Site.Data.vizcontent.economic }}
-                {{ partial "vizthemetext" . }}
-                {{ end }}                
-<!-- RACE ------------------------------------------------------------------------>
-                {{ with .Site.Data.vizcontent.race }}
-                    {{ partial "vizthemetext" . }}
-                {{ end }}
-<!-- WORK ------------------------------------------------------------------------>
-                {{ with .Site.Data.vizcontent.work }}
-                    {{ partial "vizthemetext" . }}
-                {{ end }}
-<!-- AUTOMATION ------------------------------------------------------------------------>
-                {{ with .Site.Data.vizcontent.automation }}
-                    {{ partial "vizthemetext" . }}
-                {{ end }}
-<!-- HEALTH ------------------------------------------------------------------------>
-                {{ with .Site.Data.vizcontent.health }}
-                    {{ partial "vizthemetext" . }}
-                {{ end }}
-<!-- END CARDS ------------------------------------------------------->
-                </div>
-            </div>
-        </div>
+<div id="viz-section" class="viz-section">
+  <div id="viz-parent" class="viz-parent scrollytell">
+    <div class="click-hint hint drop-shadow">Click a circle to begin</div>
+    <div class="viz-wrapper scrollytell__fixed">
+      <div id="viz-space" class="viz-space" data-echart-responsive="true" class="mr-0 ml-0"></div>
     </div>
-    <button class="scroll-button btn-primary mx-auto d-flex justify-content-center" data-target="#sponsors">
-        View attributions & citation &nbsp;<i class="fa fa-chevron-down"></i>
-        
-    </button>
+    <div id="text-panel" class="viz-content scrollytell__content">
+      <div class="viz-content-heading">
+        <h1>Research Categories</h1>
+      </div>
+      <button id="panelToggle" class="toggle">
+        <div class="close-group group">
+            <i class="fa fa-chevron-right"></i>
+            <p>close</p>
+        </div>
+        <div class="open-group group">
+            <i class="fa fa-chevron-left"></i>
+            <p>open</p>
+        </div>
+      </button>
+      <div class="accordion" id="accordionExample">
+        <!-- GENDER ------------------------------------------------------------------------>
+        {{ with .Site.Data.vizcontent.gender }} 
+        {{ partial "vizthemetext" . }}
+        {{ end }}
+        <!-- DEMOCRACY ------------------------------------------------------------------------>
+        {{ with .Site.Data.vizcontent.democracy }} 
+        {{ partial "vizthemetext" . }}
+        {{ end }}
+        <!-- ECONOMIC EFFECTS ------------------------------------------------------------------------>
+        {{ with .Site.Data.vizcontent.economic }} 
+        {{ partial "vizthemetext" .}} 
+        {{ end }}
+        <!-- RACE ------------------------------------------------------------------------>
+        {{ with .Site.Data.vizcontent.race }} 
+        {{ partial "vizthemetext" . }}
+        {{ end }}
+        <!-- WORK ------------------------------------------------------------------------>
+        {{ with .Site.Data.vizcontent.work }} 
+        {{ partial "vizthemetext" . }}
+        {{ end }}
+        <!-- AUTOMATION ------------------------------------------------------------------------>
+        {{ with .Site.Data.vizcontent.automation }} 
+        {{ partial "vizthemetext" . }} 
+        {{ end }}
+        <!-- HEALTH ------------------------------------------------------------------------>
+        {{ with .Site.Data.vizcontent.health }} 
+        {{ partial "vizthemetext" . }}
+        {{ end }}
+        <!-- END CARDS ------------------------------------------------------->
+      </div>
+    </div>
+  </div>
+  <button
+    class="scroll-button btn-primary mx-auto d-flex justify-content-center"
+    data-target="#sponsors"
+  >
+    View attributions & citation &nbsp;<i class="fa fa-chevron-down"></i>
+  </button>
 </div>
 <!-- SPONSORS ---------------------------------------- -->
 
 <div id="sponsors">
-        <!--<div class="scroll-button" data-target="#viz-section">
+  <!--<div class="scroll-button" data-target="#viz-section">
             <p>Back to visualization</p>
             <i class="fa fa-chevron-up"></i>
         </div>-->
-        <div class="row pt-sm-5 pt-md-7 pt-lg-9 pt-xl-9 pb-sm-7 pb-md-7 pb-xl-8">
-            <!--<div class="col-md-6 col-lg-6 mx-auto d-flex flex-column align-items-center text-center my-sm-5 my-md-8 my-lg-9 my-xl-11 user-entry">
+  <div class="row pt-sm-5 pt-md-7 pt-lg-9 pt-xl-9 pb-sm-7 pb-md-7 pb-xl-8">
+    <!--<div class="col-md-6 col-lg-6 mx-auto d-flex flex-column align-items-center text-center my-sm-5 my-md-8 my-lg-9 my-xl-11 user-entry">
 
                 {{ .Content }}
             </div>-->
-            <div id="visualization-attributions" class="col-12 col-md-10 offset-md-1 col-count-2 medgraytext">
-        
-                {{ .Content | markdownify }}
-                
-            </div>
-        </div>
-        <!--<div class="row mb-5 mb-md-4 mb-lg-9 mb-xl-11 d-flex align-items-center">
+    <div
+      id="visualization-attributions"
+      class="col-12 col-md-10 offset-md-1 col-count-2 medgraytext"
+    >
+      {{ .Content | markdownify }}
+    </div>
+  </div>
+  <!--<div class="row mb-5 mb-md-4 mb-lg-9 mb-xl-11 d-flex align-items-center">
                 <div class="col-0 col-md-1"></div>
                 <div class="col-12 col-md pb-4 px-8 px-md-0 pb-md-0"><img alt="Robert Wood Johnson Foundation Logo" src="/images/icons/rwjflogo.png" width="100%" /></div>
                 <div class="col-12 col-md pb-4 px-8 px-md-0 pb-md-0"><img alt="Economic Security Foundation Logo" src="/images/icons/esp-logo.png" width="100%" /></div>
@@ -165,10 +166,6 @@
 
 
         </div>-->
+</div>
 
-
-    </div>
-
-{{ partial "subscribe.html" .}}
-
-{{ end }}
+{{ partial "subscribe.html" .}} {{ end }}

@@ -484,16 +484,21 @@ viz.chart.on('graphRoam', function(e) {
 // _______ OTHER VIZ ELEMENTS LISTENERS _______
 
 // open and close text-panel
-jQuery('#text-panel .toggle').click(function (e) {
+jQuery('#panelToggle').click(function (e) {
   togglePanel();
 });
+
+jQuery("#panelClose").click(function(e) {
+  togglePanel();
+})
 
 // remove node highlight when closing text-panel section
 jQuery('#text-panel .collapse').on('hide.bs.collapse', function (e) {
   // scroll up the text-panel before section closes to avoid the collapse causing page scroll on Chrome
-  const $container = jQuery('#text-panel .content');
+  const $container = window.innerWidth > 1200 ? jQuery("html, body") : jQuery('#text-panel');
+  const scrollPos = window.innerWidth > 1200 ? jQuery("#text-panel").offset().top : 0;
   $container.animate({
-    scrollTop: 0
+    scrollTop: scrollPos
   }, 100);
 
   const id = e.currentTarget.dataset.id;
@@ -519,6 +524,7 @@ jQuery('#text-panel .collapse').on('shown.bs.collapse', function (e) {
   const id = e.currentTarget.dataset.id;
 
   const activeParent = viz.getParentItemObj(viz.active.clicked);
+
   if (id === activeParent.id) {
     // this event *may* have been triggered by the clicking of a subtheme viz node
     // (which then triggered the showing of this parent theme section)
@@ -608,10 +614,6 @@ function navigateToSubtheme(subthemeId) {
 
   viz.active.clicked = subthemeId; // now we can update
 
-  
-  const $container = jQuery('#text-panel .content');
-  const $scrollTo = jQuery('#heading-' + parentId);
-  
   if (sameParent) {
     jQuery(`#text-panel a[href='#pills-${subthemeId}']`).tab('show');
     
@@ -620,15 +622,15 @@ function navigateToSubtheme(subthemeId) {
 
     // use the card's offset - otherwise if user has scrolled down in the subtheme,
     // that scroll offset will be preserved. we want to scroll to theme's top
-    $container.animate({
-      scrollTop: $scrollTo.parent('.card').offset().top - $container.offset().top + $container.scrollTop()
-    });
+    // $container.animate({
+    //   scrollTop: $scrollTo.parent('.card').offset().top - $container.offset().top + $container.scrollTop()
+    // });
 
     return
   }
 
   // make sure text-panel is open
-  jQuery('#viz-parent').addClass('text-panel-open');
+  jQuery('body').addClass('text-panel-open');
 
   // open the corresponding text-panel section and subtheme tab
   jQuery(`#text-panel .collapse[data-id='${parentId}'`).collapse('show');
@@ -643,12 +645,15 @@ function navigateToSubtheme(subthemeId) {
     // resize chart (in case panel just opened)
     viz.chart.resize();
 
-    // and scroll to the section in the text-panel (https://stackoverflow.com/a/2906009/13174944)
-    
+    // scroll container depends on width
+    const $container = window.innerWidth > 1200 ? jQuery("html, body") : jQuery('#text-panel');
+    const $scrollTo = jQuery('#heading-' + parentId);
+    const scrollPos = window.innerWidth > 1200 ? 
+      $scrollTo.parent('.card').offset().top - 64 :
+      $scrollTo.offset().top - $container.offset().top + $container.scrollTop() - 64
+
     $container.animate({
-      // we could use parent card here as well, but not necessary since
-      // newly opened theme will be scrolled up all the way
-      scrollTop: $scrollTo.offset().top - $container.offset().top + $container.scrollTop()
+      scrollTop: scrollPos
     });
   }, 450); // if we don't wait long enough, the scroll lands at the wrong place due to dynamically collapsing/expanding sections (bumped from 300)
 }
@@ -661,7 +666,7 @@ function collapsePanelSections() {
 
 function togglePanel() {
   fadeAndRemove('.click-hint')
-  jQuery('#viz-parent').toggleClass('text-panel-open');
+  jQuery('body').toggleClass('text-panel-open');
 
   // only needs to happen on close, but when toggle is clicked to open nothing should be active anyways
   collapsePanelSections();

@@ -1,38 +1,67 @@
+$TOP_OFFSET: 64px;
+
 $SCROLL_BUTTON_HEIGHT: 30px;
 $TOGGLE_PANEL_BUTTON_HEIGHT: 69px;
 
-$VIZ_AREA_HEIGHT: calc(#{100vh} - #{$NAVBAR_HEIGHT} - (#{$SCROLL_BUTTON_HEIGHT} * 2));
+$VIZ_AREA_HEIGHT: calc(
+  #{100vh} - #{$NAVBAR_HEIGHT} - (#{$SCROLL_BUTTON_HEIGHT} * 2)
+);
 $VIZ_AREA_HEIGHT_TABLET: $VIZ_AREA_HEIGHT;
 
 $TEXT_PANEL_WIDTH: 640px;
 $TEXT_PANEL_WIDTH_XL: 760px;
 
-$TEXT_PANEL_HEIGHT_MOBILE: calc(#{$VIZ_AREA_HEIGHT} - #{$TOGGLE_PANEL_BUTTON_HEIGHT});
+$TEXT_PANEL_HEIGHT_MOBILE: calc(
+  #{$VIZ_AREA_HEIGHT} - #{$TOGGLE_PANEL_BUTTON_HEIGHT}
+);
 $TEXT_PANEL_HEIGHT_TABLET: 400px;
 
 $VIZ_HEIGHT: $VIZ_AREA_HEIGHT;
-$VIZ_HEIGHT_TABLET: calc(#{$VIZ_AREA_HEIGHT_TABLET} - #{$TEXT_PANEL_HEIGHT_TABLET});
+$VIZ_HEIGHT_TABLET: calc(
+  #{$VIZ_AREA_HEIGHT_TABLET} - #{$TEXT_PANEL_HEIGHT_TABLET}
+);
 
 $MIN_VIZ_CANVAS_WIDTH: 660px;
 $MIN_VIZ_CANVAS_HEIGHT: 260px;
 
 // colors - keep in sync with theme.yaml
-$UBI_COLOR: #00505C;
-$DEMOCRACY_COLOR: #DB8311;
-$GENDER_COLOR: #AF690C;
-$HEALTH_COLOR: #F5CF9E;
-$AUTOMATION_COLOR: #36BFD4;
-$WORK_COLOR: #CFF9FF;
+$UBI_COLOR: #00505c;
+$DEMOCRACY_COLOR: #db8311;
+$GENDER_COLOR: #af690c;
+$HEALTH_COLOR: #f5cf9e;
+$AUTOMATION_COLOR: #36bfd4;
+$WORK_COLOR: #cff9ff;
 $RACE_COLOR: #737579;
-$ECONOMY_COLOR: #E8E7E7;
+$ECONOMY_COLOR: #e8e7e7;
 
-$DEMOCRACY_THEME: ( "id": "democracy", "color": $DEMOCRACY_COLOR );
-$GENDER_THEME: ( "id": "gender", "color": $GENDER_COLOR );
-$HEALTH_THEME: ( "id": "health", "color": $HEALTH_COLOR );
-$AUTOMATION_THEME: ( "id": "automation", "color": $AUTOMATION_COLOR );
-$WORK_THEME: ( "id": "work", "color": $WORK_COLOR );
-$RACE_THEME: ( "id": "race", "color": $RACE_COLOR );
-$ECONOMY_THEME: ( "id": "economic-effects", "color": $ECONOMY_COLOR );
+$DEMOCRACY_THEME: (
+  "id": "democracy",
+  "color": $DEMOCRACY_COLOR,
+);
+$GENDER_THEME: (
+  "id": "gender",
+  "color": $GENDER_COLOR,
+);
+$HEALTH_THEME: (
+  "id": "health",
+  "color": $HEALTH_COLOR,
+);
+$AUTOMATION_THEME: (
+  "id": "automation",
+  "color": $AUTOMATION_COLOR,
+);
+$WORK_THEME: (
+  "id": "work",
+  "color": $WORK_COLOR,
+);
+$RACE_THEME: (
+  "id": "race",
+  "color": $RACE_COLOR,
+);
+$ECONOMY_THEME: (
+  "id": "economic-effects",
+  "color": $ECONOMY_COLOR,
+);
 
 $THEMES: (
   $DEMOCRACY_THEME,
@@ -48,7 +77,6 @@ nav.navbar.sticky-top {
   z-index: 3000;
 }
 
-
 .scroll-button {
   height: $SCROLL_BUTTON_HEIGHT;
   display: inline-block;
@@ -58,341 +86,354 @@ nav.navbar.sticky-top {
   }
 }
 
-.viz-parent {
-  // for when viz-space min-width is wider than screen (may need to make this rule more specific)
-  overflow: hidden;
-  position: relative;
-  //box-shadow: inset 0px -1px 7px 0px rgba(0, 0, 0, 0.1);
-  background-color: #FBFAF7;
-  //height: 76vh;
-  height: $VIZ_HEIGHT;
-
-  .click-hint {
-    z-index: 2999; // above chart, below nav
-    position: absolute;
-    width: 136px;
-    left: calc(24% - 70px);
-    top: 120px;
-    @include media-breakpoint-up(md) {
-      top: 65px;
-    }
-    padding: 20px;
-    text-align: center;
-    border-radius: 4px;
-    //border: .5px solid black;
-    background: white;
-    color: black;
+// button to toggle open / close
+.toggle {
+  cursor: pointer;
+  position: absolute;
+  left: 1px;
+  top: 24px;
+  width: 61px;
+  height: $TOGGLE_PANEL_BUTTON_HEIGHT;
+  background: white;
+  //border: solid .5px rgba(55, 55, 55, 0.125);
+  padding: 10px;
+  transform: translateX(-100%);
+  border-radius: 2px;
+  border: none;
+  &:hover {
+    background: #eee;
   }
-
-  #viz-space {
-    z-index: 2998;
-    width: 100%;
-    min-width: $MIN_VIZ_CANVAS_WIDTH;
-    // min-height: $MIN_VIZ_CANVAS_HEIGHT;
+  .group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
     height: 100%;
-    background-color: #FBFAF7;
-    // transition: width ease 1s;
-  }
-  &.text-panel-open #viz-space {
-    width: calc(100% - #{$TEXT_PANEL_WIDTH});
-    @include media-breakpoint-up(xl) {
-      width: calc(100% - #{$TEXT_PANEL_WIDTH_XL});
-    }
-  }
 
-  #text-panel {
-    z-index: 2999;
-    background-color: #fff;
-    position: absolute;
-    right: 0;
-    width: $TEXT_PANEL_WIDTH;
-    @include media-breakpoint-up(xl) {
-      width: 50%;
-      max-width: $TEXT_PANEL_WIDTH_XL;
+    p {
+      font-size: 12px;
+      font-weight: $font-weight-light;
+      margin: 0;
+      text-transform: uppercase;
     }
-    transition: transform ease .8s;
+    &.close-group {
+      display: none;
+    }
+    &.open-group {
+      display: flex;
+    }
+  }
+}
+
+
+.viz-section * {
+  // box-shadow: inset 0 0 1px #f00;
+}
+.viz-parent {
+  display: block;
+  background-color: #fbfaf7;
+}
+.viz-space {
+  z-index: 2998;
+  background-color: #fbfaf7;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.viz-content {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right:0;
+  left:auto;
+  height: 100%;
+  width: 100%;
+  max-width: 640px;
+  z-index: 9999;
+  background: #fff;
+  overflow:auto;
+  transform: translateX(100%);
+  transition: transform 0.4s cubic-bezier(0.075, 0.82, 0.165, 1)
+}
+.viz-content-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 3.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #fff;
+  height: 65px;
+}
+.viz-content .accordion {
+  margin-top: -1 * $TOGGLE_PANEL_BUTTON_HEIGHT - 48px;
+}
+.viz-content .accordion > .card {
+  overflow: visible;
+  .card-header-sticky {
+    top: 68px; // top offset to clear heading
+  }
+}
+.viz-content .accordion > .card .card-header {
+  margin-bottom:0;
+}
+.viz-content .toggle {
+  position: sticky;
+  left:0;
+  top:64px;
+  margin-bottom: 48px;
+  transform: translate(-100%, 24px);
+}
+
+.text-panel-open {
+  overflow:hidden;
+  .viz-content { transform: translateX(0%); }
+  // switch toggle
+  .toggle .close-group.group {
+    display: flex;
+  }
+  .toggle .open-group.group {
+    display: none;
+  }
+}
+
+@media(min-width: 1200px) {
+  .viz-content {
+    position: relative;
+    margin-top: calc(-100vh + #{$TOP_OFFSET});
     transform: translateX(100%);
-    .card {
-      border-left: none;
-      border-right: none;
-      border-top: none;
-      border-bottom: 1px solid #EEEEEE;
-      margin-left: 3.2rem;
-      margin-right: 3.2rem;
-      @include media-breakpoint-up(md) {
-        margin-left: 4.8rem;
-        margin-right: 4.8rem;
-      }
-      overflow: unset;
-      &:last-of-type {
-        border-bottom: none;
-      }
-      &:focus {
-        .card-header {
-          position: sticky;
-          top: 0;
-        }
-      }
-    }
-    .card-header {
-      height: 65px;
-      background: white;
-      padding: 0.75rem 0;
-      z-index: 1;
-      &.card-header-sticky {
-        position: sticky;
-        top: 0px;
-        @include media-breakpoint-up(md) {
-          top: 0;
-        }
-        
-      }
-      .text {
-        // display: inline-block;
-        font-size: 20px;
-      }
-
-      .btn {
-        text-align: start;
-        text-decoration: none;
-        position: relative;
-        width: 100%;
-        padding: 0.375rem 0.75rem 0.375rem 0;
-        .icon {
-          position: absolute;
-          right: 0;
-        }
-        &.collapsed {
-          .collapse-icon {
-            display: none;
-          }
-        }
-        &:not(.collapsed) {
-          .expand-icon {
-            display: none;
-          }
-        }
-      }
-
-      .btn-link:hover {
-          color: unset;
-          text-decoration: unset;
-      }
-
-      @each $theme in $THEMES {
-        &#heading-#{map-get($theme, "id")} .theme-orb {
-          height: 16px;
-          width: 16px;
-          margin-right: 9px;
-          border-radius: 50%;
-          display: inline-block;
-          background-color: #{map-get($theme, "color")};
-        }
-      }
-    }
-    .card {
-      a.nav-link:before {
-        content: "•";
-        font-size: 32px;
-        margin-right: 8px;
-        position: relative;
-        top: 2px;
-      }
-      #collapse-gender {
-        a.nav-link:before {
-          color: #AF690C;
-        }
-      }
-      #collapse-economic-effects {
-        a.nav-link:before {
-          color: #dcdcdc;
-        }
-      }
-      #collapse-democracy {
-        a.nav-link:before {
-          color: #DB8311;
-        }
-      }
-      #collapse-race {
-        a.nav-link:before {
-          color: #747579;
-        }
-      }
-      #collapse-work {
-        .underbar {
-         // background-color: #cff9ff;
-        }
-        a.nav-link:before {
-          color: #CFF9FF;
-        }
-      }
-      #collapse-automation {
-        a.nav-link:before {
-          color: #36BFD4;
-        }
-      }
-      #collapse-health {
-        a.nav-link:before {
-          color: #F5CF9E;
-        }
-      }
-    }
-    .card-body {
-      color:#6d6d6d;
-      padding: 1.6rem 0;
-      .nav-link {
-        padding: 0rem 1.6rem 0rem 0;
-        margin-right: .8rem;
-        .underbar {
-          width: 56px;
-          height: 3px;
-          margin-top: 8px;
-          background-color: black;
-          opacity: 0;
-          transition: opacity .3s ease;
-          margin-left: 24px;
-        }
-      }
-      p {
-        color:#6d6d6d;
-        margin-bottom: 1.6rem;
-      }
-
-      .related-link a {
-        color: #04143c;
-        cursor: pointer;
-        &:hover {
-          color: #9a6013;
-        }
-      }
-    }
-    .content {
-      // max-height: 100%;
-      height: $VIZ_HEIGHT;
-      overflow: scroll;
-    }
-    .card-body .nav-pills .nav-link {
-      color: #6d6d6d;
-      font-weight: 500;
-      border-radius: 10px;
-      &:hover {
-        color: #9a6013;
-      }
-    }
-    .card-body .nav-pills .nav-link.active {
-      background: transparent;
-      color: #9a6013;
-      //color: #6d6d6d;
-      font-weight: 500;
-      border-radius: 10px;
-      .underbar {
-        width: 56px;
-        height: 3px;
-        margin-top: 8px;
-        background-color: #9a6013;
-        //background-color: #6d6d6d;
-        opacity: 1;
-      } 
-    }
-
-    .toggle {
-      cursor: pointer;
-      position: absolute;
-      left: 1px;
-      top: 24px;
-      width: 61px;
-      height: $TOGGLE_PANEL_BUTTON_HEIGHT;
-      background: white;
-      //border: solid .5px rgba(55, 55, 55, 0.125);
-      padding: 10px;
-      transform: translateX(-100%);
-      border-radius: 2px;
-
-      .group {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: center;
-        height: 100%;
-
-        p {
-          font-size: 12px;
-          font-weight: $font-weight-light;
-          margin: 0;
-          text-transform: uppercase;
-        }
-        &.close-group {
-          display: none;
-        }
-        &.open-group {
-          display: flex;
-        }
-      }
+    overflow:visible;
+    z-index:1;
+    margin-left: auto;
+    min-height: calc(100vh - #{$TOP_OFFSET});
+  }
+  .viz-content-heading {
+    display:none;
+  }
+  .viz-content .accordion > .card .card-header-sticky {
+    top: 64px;
+  }
+  .text-panel-open {
+    overflow:auto;
+    overflow-x:hidden;
+    .viz-content { transform: translateX(0%); }
+    .viz-space {
+      width: calc(100% - 640px);
     }
   }
+}
 
-  &.text-panel-open {
-    #text-panel {
-      transform: translateX(0);
-      .close-group.group {
-        display: flex;
+
+.click-hint {
+  z-index: 2999; // above chart, below nav
+  position: absolute;
+  width: 136px;
+  left: calc(24% - 70px);
+  top: 120px;
+  @include media-breakpoint-up(md) {
+    top: 65px;
+  }
+  padding: 20px;
+  text-align: center;
+  border-radius: 4px;
+  //border: .5px solid black;
+  background: white;
+  color: black;
+}
+
+.card {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 1px solid #eeeeee;
+  margin-left: 3.2rem;
+  margin-right: 3.2rem;
+  @include media-breakpoint-up(md) {
+    margin-left: 4.8rem;
+    margin-right: 4.8rem;
+  }
+  overflow: unset;
+  &:last-of-type {
+    border-bottom: none;
+  }
+  &:focus {
+    .card-header {
+      position: sticky;
+      top: 0;
+    }
+  }
+}
+.card-header {
+  height: 65px;
+  background: white;
+  padding: 0.75rem 0;
+  z-index: 1;
+  &.card-header-sticky {
+    position: sticky;
+    top: 0px;
+    @include media-breakpoint-up(md) {
+      top: 0;
+    }
+  }
+  .text {
+    // display: inline-block;
+    font-size: 20px;
+  }
+
+  .btn {
+    text-align: start;
+    text-decoration: none;
+    position: relative;
+    width: 100%;
+    padding: 0.375rem 0.75rem 0.375rem 0;
+    .icon {
+      position: absolute;
+      right: 0;
+    }
+    &.collapsed {
+      .collapse-icon {
+        display: none;
       }
-      .open-group.group {
+    }
+    &:not(.collapsed) {
+      .expand-icon {
         display: none;
       }
     }
   }
 
+  .btn-link:hover {
+    color: unset;
+    text-decoration: unset;
+  }
+
+  @each $theme in $THEMES {
+    &#heading-#{map-get($theme, "id")} .theme-orb {
+      height: 16px;
+      width: 16px;
+      margin-right: 9px;
+      border-radius: 50%;
+      display: inline-block;
+      background-color: #{map-get($theme, "color")};
+    }
+  }
+}
+.card {
+  a.nav-link:before {
+    content: "•";
+    font-size: 32px;
+    margin-right: 8px;
+    position: relative;
+    top: 2px;
+  }
+  #collapse-gender {
+    a.nav-link:before {
+      color: #af690c;
+    }
+  }
+  #collapse-economic-effects {
+    a.nav-link:before {
+      color: #dcdcdc;
+    }
+  }
+  #collapse-democracy {
+    a.nav-link:before {
+      color: #db8311;
+    }
+  }
+  #collapse-race {
+    a.nav-link:before {
+      color: #747579;
+    }
+  }
+  #collapse-work {
+    .underbar {
+      // background-color: #cff9ff;
+    }
+    a.nav-link:before {
+      color: #cff9ff;
+    }
+  }
+  #collapse-automation {
+    a.nav-link:before {
+      color: #36bfd4;
+    }
+  }
+  #collapse-health {
+    a.nav-link:before {
+      color: #f5cf9e;
+    }
+  }
+}
+.card-body {
+  color: #6d6d6d;
+  padding: 1.6rem 0;
+  .nav-link {
+    padding: 0rem 1.6rem 0rem 0;
+    margin-right: 0.8rem;
+    .underbar {
+      width: 56px;
+      height: 3px;
+      margin-top: 8px;
+      background-color: black;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      margin-left: 24px;
+    }
+  }
+  p {
+    color: #6d6d6d;
+    margin-bottom: 1.6rem;
+  }
+
+  .related-link a {
+    color: #04143c;
+    cursor: pointer;
+    &:hover {
+      color: #9a6013;
+    }
+  }
+}
+.card-body .nav-pills .nav-link {
+  color: #6d6d6d;
+  font-weight: 500;
+  border-radius: 10px;
+  &:hover {
+    color: #9a6013;
+  }
+}
+.card-body .nav-pills .nav-link.active {
+  background: transparent;
+  color: #9a6013;
+  //color: #6d6d6d;
+  font-weight: 500;
+  border-radius: 10px;
+  .underbar {
+    width: 56px;
+    height: 3px;
+    margin-top: 8px;
+    background-color: #9a6013;
+    //background-color: #6d6d6d;
+    opacity: 1;
+  }
+}
+
+
+.scrollytell {
+  position:relative;
+  width: 100%;
+}
+
+.scrollytell__fixed {
+  overflow: hidden;
+  position: sticky;
+  top: $TOP_OFFSET;
+  width: 100%;
+  height: calc(100vh - #{$TOP_OFFSET});
+  z-index: 1;
   
-  @include media-breakpoint-only(md) {
-    // on tablet shrink viz space to accommodate text-panel below
-    // (on mobile, just allow text-panel to obscure viz without adjusting it)
-    &.text-panel-open #viz-space {
-      height: $VIZ_HEIGHT_TABLET;
-    }
-  }
-  @include media-breakpoint-down(md) {
-    height: $VIZ_AREA_HEIGHT_TABLET !important;
-    &.text-panel-open {
-      #viz-space {
-        // display: none;
-        width: 100% !important;
-      }
+}
 
-      #text-panel .toggle {
-        top: 0;
-        transform: translate(0, -90%); // shift toggle to above text-panel, slid slightly under it
-      }
-    }
-
-    #text-panel {
-      position: absolute;
-      bottom: 0%;
-      // width: calc(100% - 30px);
-      width: 100%;
-      .content {
-        height: $TEXT_PANEL_HEIGHT_TABLET;
-        overscroll-behavior: contain; // prevent "scroll-chaining" to parent elements (where supported)
-      }
-      .toggle {
-        transition: translate ease 1s;
-      }
-    }
-  }
-
-   @include media-breakpoint-down(smm) {
-    /* #viz-space {
-      display: none;
-    } */
-    #text-panel {
-      // transform: translateX(0);
-      // width: 100%;
-      .content {
-        height: $TEXT_PANEL_HEIGHT_MOBILE;
-      }
-      .toggle {
-        top: 0;
-      }
-    }
-  } 
+.scrollytell__content {
 }
