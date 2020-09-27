@@ -21,7 +21,8 @@
 # keep in sync with viz.scss
 - '#00505C'
 - '#DB8311'
-- '#AF690C'
+# - '#AF690C' Old gender color
+- '#8C540B'
 - '#F5CF9E'
 - '#36BFD4'
 - '#CFF9FF'

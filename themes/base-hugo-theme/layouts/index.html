@@ -80,13 +80,13 @@
 {{ end }}
 
 <div id="hp-viz" class="row mx-0 px-2">
-    {{ with .Site.Data.home.vizCta }}
+    {{ with .Site.Data.home.whatWeDo }}
         <div class="row">
-            <div class="col-md-5 offset-lg-1 pt-sm-20 pb-sm-6 py-md-10 py-lg-14 py-xl-15">
-                <h2 class="blacktext text-sm-center text-md-left mt-sm-12 mt-md-0 mb-1">{{ .heading }}</h2>
-                <p class="slatetext mt-2">{{ .subhead }}</p>
+            <div class="col-md-5 offset-lg-1 pt-sm-20 pb-sm-6 py-md-10 py-lg-15 py-xl-16">
+                <h2 class="bronzetext text-sm-center text-md-left mt-sm-12 mt-md-0 mb-1">{{ .vizheading }}</h2>
+                <p class="slatetext mt-2">{{ .vizsubhead }}</p>
                 <div class="news-item-link">
-                    <a class="plainlink coldblcktext" href="/research/mapping-ubi-research">{{ .cta }}
+                    <a class="plainlink coldblcktext" href="/research/mapping-ubi-research">{{ .vizcta }}
                         {{ partial "rightarrow.html" }}</a>
                 </div>
             </div>
