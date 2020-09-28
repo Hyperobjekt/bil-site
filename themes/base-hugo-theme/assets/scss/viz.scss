@@ -25,12 +25,13 @@ $MIN_VIZ_CANVAS_WIDTH: 660px;
 $MIN_VIZ_CANVAS_HEIGHT: 260px;
 
 // colors - keep in sync with theme.yaml
-$UBI_COLOR: #00505c;
-$DEMOCRACY_COLOR: #db8311;
-$GENDER_COLOR: #af690c;
-$HEALTH_COLOR: #f5cf9e;
-$AUTOMATION_COLOR: #36bfd4;
-$WORK_COLOR: #cff9ff;
+$UBI_COLOR: #00505C;
+$DEMOCRACY_COLOR: #DB8311;
+// $GENDER_COLOR: #AF690C; darkened at SBG request
+$GENDER_COLOR: #8C540B;
+$HEALTH_COLOR: #F5CF9E;
+$AUTOMATION_COLOR: #36BFD4;
+$WORK_COLOR: #CFF9FF;
 $RACE_COLOR: #737579;
 $ECONOMY_COLOR: #e8e7e7;
 
@@ -86,18 +87,19 @@ nav.navbar.sticky-top {
   }
 }
 
+/** OPEN / CLOSE TOGGLE STYLES */
+
 // button to toggle open / close
 .toggle {
   cursor: pointer;
-  position: absolute;
-  left: 1px;
-  top: 24px;
+  // position: absolute;
+  // left: 1px;
+  // top: 24px;
   width: 61px;
   height: $TOGGLE_PANEL_BUTTON_HEIGHT;
   background: white;
   //border: solid .5px rgba(55, 55, 55, 0.125);
   padding: 10px;
-  transform: translateX(-100%);
   border-radius: 2px;
   border: none;
   &:hover {
@@ -126,20 +128,73 @@ nav.navbar.sticky-top {
 }
 
 
-.viz-section * {
-  // box-shadow: inset 0 0 1px #f00;
+// position for mobile toggle, shift left to align with collapse / expand
+.viz-content .toggle.toggle--closeOnly {
+  position:relative;
+  left:12px;
 }
+
+// position for desktop toggle, sticky so the control is available while scrolling
+.viz-content .toggle.toggle--desktop {
+  position: sticky;
+  left:0;
+  top:64px;
+  margin-bottom: 48px;
+  transform: translate(-100%, 24px);
+}
+
+// show / hide toggle text based on panel status
+.text-panel-open {
+  .toggle .close-group.group {
+    display: flex;
+  }
+  .toggle .open-group.group {
+    display: none;
+  }
+}
+
+// open toggle for mobile
+.viz-parent .toggle.toggle--openOnly {
+  position:absolute;
+  right:0px;
+  top: 24px;
+  z-index: 3000;
+}
+@media(min-width: 1200px) {
+  .viz-parent .toggle.toggle--openOnly {
+    display: none;
+  }
+}
+
+/** END OPEN / CLOSE TOGGLE STYLES **/
+
+/** VISUALISATION LAYOUT **/
+
 .viz-parent {
+  position:relative;
+  width: 100%;
   display: block;
   background-color: #fbfaf7;
 }
+// wrapper around .viz-space to keep it sticky on scroll
+.viz-wrapper {
+  overflow: hidden;
+  position: sticky;
+  top: $TOP_OFFSET;
+  width: 100%;
+  height: calc(100vh - #{$TOP_OFFSET});
+  z-index: 1;
+}
+// visualization area, fill parent
 .viz-space {
-  z-index: 2998;
   background-color: #fbfaf7;
   position: absolute;
   width: 100%;
   height: 100%;
+  z-index: 2998;
 }
+// content area for visualization, 
+// fixed on mobile to fill viewport and scrollable
 .viz-content {
   position: fixed;
   top: 0;
@@ -149,12 +204,56 @@ nav.navbar.sticky-top {
   height: 100%;
   width: 100%;
   max-width: 640px;
+  overflow:auto;
   z-index: 9999;
   background: #fff;
-  overflow:auto;
   transform: translateX(100%);
   transition: transform 0.4s cubic-bezier(0.075, 0.82, 0.165, 1)
 }
+.viz-content .accordion {
+  margin-top: -1 * $TOGGLE_PANEL_BUTTON_HEIGHT - 48px;
+}
+.viz-content .accordion > .card {
+  overflow: visible;
+  .card-header-sticky {
+    top: 64px; // top offset to clear heading
+  }
+}
+.viz-content .accordion > .card .card-header {
+  margin-bottom:0;
+}
+// turn off body scrolling when panel is open (mobile)
+.text-panel-open {
+  overflow:hidden;
+  .viz-content { transform: translateX(0%); }
+}
+@media(min-width: 1200px) {
+  .viz-content {
+    position: relative;
+    margin-top: calc(-100vh + #{$TOP_OFFSET});
+    transform: translateX(100%);
+    overflow:visible;
+    z-index:1;
+    margin-left: auto;
+    min-height: calc(100vh - #{$TOP_OFFSET});
+  }
+  .viz-content .accordion > .card .card-header-sticky {
+    top: 64px;
+  }
+  // on large displays, scroll the body of the page when panel is open
+  .text-panel-open {
+    overflow:auto;
+    overflow-x:hidden;
+    .viz-content { transform: translateX(0%); }
+    .viz-space {
+      width: calc(100% - 640px);
+    }
+  }
+}
+
+/** END VISUALISATION LAYOUT **/
+
+/** "RESEARCH CATEGORIES HEADING (mobile only) **/
 .viz-content-heading {
   display: flex;
   align-items: center;
@@ -166,64 +265,46 @@ nav.navbar.sticky-top {
   background: #fff;
   height: 65px;
 }
-.viz-content .accordion {
-  margin-top: -1 * $TOGGLE_PANEL_BUTTON_HEIGHT - 48px;
-}
-.viz-content .accordion > .card {
-  overflow: visible;
-  .card-header-sticky {
-    top: 68px; // top offset to clear heading
+@media(min-width: 768px) {
+  .viz-content-heading {
+    padding: 16px 4.8rem;
   }
 }
-.viz-content .accordion > .card .card-header {
-  margin-bottom:0;
-}
-.viz-content .toggle {
-  position: sticky;
-  left:0;
-  top:64px;
-  margin-bottom: 48px;
-  transform: translate(-100%, 24px);
-}
-
-.text-panel-open {
-  overflow:hidden;
-  .viz-content { transform: translateX(0%); }
-  // switch toggle
-  .toggle .close-group.group {
-    display: flex;
-  }
-  .toggle .open-group.group {
-    display: none;
-  }
-}
-
 @media(min-width: 1200px) {
-  .viz-content {
-    position: relative;
-    margin-top: calc(-100vh + #{$TOP_OFFSET});
-    transform: translateX(100%);
-    overflow:visible;
-    z-index:1;
-    margin-left: auto;
-    min-height: calc(100vh - #{$TOP_OFFSET});
-  }
   .viz-content-heading {
     display:none;
   }
-  .viz-content .accordion > .card .card-header-sticky {
-    top: 64px;
-  }
-  .text-panel-open {
-    overflow:auto;
-    overflow-x:hidden;
-    .viz-content { transform: translateX(0%); }
-    .viz-space {
-      width: calc(100% - 640px);
-    }
-  }
+}
+/** END RESEARCH CATEGORIES HEADING */
+
+
+/** 
+* VIZ BLOCKER
+* adds an overlay on small-res devices over the 
+* non-vis content to show it is inactive
+**/
+
+.viz-blocker {
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height: 100%;
+  z-index: 9998;
+  background: rgba(0,0,0,0.2);
+  transition: opacity 0.4s ease-in-out;
+  opacity: 0;
+  pointer-events: none;
+}
+.text-panel-open .viz-blocker {
+  opacity: 1;
+  pointer-events: all;
+}
+@media(min-width: 1200px) {
+  .viz-blocker { display: none; }
 }
 
+/** END VIZ BLOCKER */
 
 .click-hint {
   z-index: 2999; // above chart, below nav
@@ -419,21 +500,3 @@ nav.navbar.sticky-top {
   }
 }
 
-
-.scrollytell {
-  position:relative;
-  width: 100%;
-}
-
-.scrollytell__fixed {
-  overflow: hidden;
-  position: sticky;
-  top: $TOP_OFFSET;
-  width: 100%;
-  height: calc(100vh - #{$TOP_OFFSET});
-  z-index: 1;
-  
-}
-
-.scrollytell__content {
-}

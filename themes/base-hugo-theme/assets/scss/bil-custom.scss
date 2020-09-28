@@ -193,7 +193,8 @@ nav.navbar-light {
   padding-top: 60px;
   transition: 0.5s;
   margin-right: -320px;
-  text-align: center;
+  text-align: left;
+  padding-left: 48px;
   @include sofia-reg;
   @include media-breakpoint-up(mm) {
     text-align: left;
@@ -219,7 +220,16 @@ nav.navbar-light {
   .navlinks {
     margin-top: 6.4rem;
     margin-bottom: 4.8rem;
-
+    .nav-item {
+      &:nth-child(5), &:nth-child(6), &:nth-child(7) {
+        margin-left: 3.2rem;
+        &:before {
+          content: " •";
+          margin-left: -2.4rem;
+        }
+      }
+    }
+    
     a {
       // padding: 8px 8px 8px 32px;
       padding: 0;

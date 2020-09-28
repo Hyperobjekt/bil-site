@@ -21,7 +21,7 @@ body.ubi-cities-toolkit {
         }
     }    
 }
-body.mapping-ubi-research {
+body.visualizing-ubi-research {
     .hero {
         background: url('/images/heroes/wessonlecture-edit.jpg');
         background-size: cover;
@@ -34,7 +34,7 @@ body.mapping-ubi-research {
         
     }
     #visualizing-intro, #visualization-attributions {
-        #visualizing-intro__columns {
+        .col-count-2 {
           column-gap: 48px;
           @include media-breakpoint-up(xl) {
             column-gap: 56px;
@@ -45,7 +45,7 @@ body.mapping-ubi-research {
             background-color: #f7fafb;
             //background-color: #00505c;
             color: $black;
-            font-style: italic;
+            font-weight: 500;
           }
         }
       }

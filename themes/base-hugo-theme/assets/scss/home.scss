@@ -354,17 +354,21 @@ body.home {
         }
     }
     #hp-viz {
-        //background-image: url('/images/backgrounds/viz-vector.svg');
-        background-position: 54% center;
+        background-image: url('/images/backgrounds/network-diagram.svg');
+        background-position: 54% 10%;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: contain;
+        background-color: #FBFAF7;
+        background-size: 64%;
         @include media-breakpoint-up(md) {
-          background-size: cover;
-          background-position: 84% center;
+          background-size: contain;
+          background-position: 90% center;
           background-repeat: no-repeat;
+          background-size: 50%;
         }
         @include media-breakpoint-up(lg) {
-          background-position: 80% center;
+          background-position: 96% center;
+          background-size: 50%;
         }
         #hpviz1, #hpviz2 {
           background-color: #ffffffb5;

@@ -484,13 +484,9 @@ viz.chart.on('graphRoam', function(e) {
 // _______ OTHER VIZ ELEMENTS LISTENERS _______
 
 // open and close text-panel
-jQuery('#panelToggle').click(function (e) {
+jQuery('.viz-parent .toggle, .viz-blocker').click(function (e) {
   togglePanel();
 });
-
-jQuery("#panelClose").click(function(e) {
-  togglePanel();
-})
 
 // remove node highlight when closing text-panel section
 jQuery('#text-panel .collapse').on('hide.bs.collapse', function (e) {
