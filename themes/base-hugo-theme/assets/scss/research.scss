@@ -27,27 +27,45 @@ body.mapping-ubi-research {
         background-size: cover;
         background-position: center center;
     }
-    h5 {
-        @include media-breakpoint-up(md) {
-            max-width: 60%;
-        }
-        
-    }
+    
     #visualizing-intro, #visualization-attributions {
+
         #visualizing-intro__hero {
-            background-image: url('/images/backgrounds/network-diagram.svg');
+            background-image: url('/images/heroes/cards-group.svg');
             background-repeat: no-repeat;
             background-color: #FBFAF7;
-            background-size: 50%;
+            background-color: #00505C;
+            background-size: 84%;
             background-position: center 10%;
             padding-top: 24rem;
+            @media (min-width: 414px) {
+                background-size: 70%;
+            }
+            @media (min-width: 500px) {
+                background-size: 60%;
+            }
             @include media-breakpoint-up(md) {
-                background-size: 52%;
-                background-position: 126% 35%;
+                background-size: 50%;
+                background-position: 100% 35%;
             }
             @include media-breakpoint-up(xl) {
                 background-size: 52%;
-                background-position: 126% 35%;
+                background-position: 100% 35%;
+            }
+            h2 {
+                @include media-breakpoint-only(md) {
+                    max-width: 40%;
+                }
+            }
+            h5 {
+                font-size: 1.7rem;
+                line-height: 1.6;
+                @include media-breakpoint-up(md) {
+                    max-width: 50%;
+                }
+                @include media-breakpoint-up(xl) {
+                    max-width: 35%;
+                }
             }
         }
         #visualizing-intro__columns {
