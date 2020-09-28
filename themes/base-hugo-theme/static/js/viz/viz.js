@@ -485,8 +485,13 @@ viz.chart.on('graphRoam', function(e) {
 // _______ OTHER VIZ ELEMENTS LISTENERS _______
 
 // open and close text-panel
-jQuery('.viz-parent .toggle, .viz-blocker').click(function (e) {
+jQuery('.viz-parent .toggle').click(function (e) {
   togglePanel();
+});
+
+// close the text panel if the blocker is visible and clicked
+jQuery('.viz-blocker').click(function (e) {
+  $(this).hasClass('viz-blocker--show') && togglePanel();
 });
 
 // remove node highlight when closing text-panel section
@@ -664,14 +669,19 @@ function collapsePanelSections() {
 }
 
 function togglePanel() {
+  const root = jQuery('body')
+  const blocker = jQuery('.viz-blocker')
   fadeAndRemove('.click-hint')
-  jQuery('body').toggleClass('text-panel-open');
+  root.toggleClass('text-panel-open');
 
   // only needs to happen on close, but when toggle is clicked to open nothing should be active anyways
   collapsePanelSections();
 
   setTimeout(() => {
     viz.chart.resize();
+    root.hasClass('text-panel-open')
+      ? blocker.addClass('viz-blocker--show')
+      : blocker.removeClass('viz-blocker--show')
   }, 450); // gives panel enough time to expand (on open) to avoid showing an awkward gap in the page
 }
 
