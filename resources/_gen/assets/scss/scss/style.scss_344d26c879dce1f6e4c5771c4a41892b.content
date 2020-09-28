@@ -20441,10 +20441,20 @@ nav.navbar.sticky-top {
   }
 }
 
+.viz-footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 64px;
+  background: #fff;
+  z-index: 3000;
+  margin: auto;
+}
+
 .viz-btn-attributes {
   position: absolute;
   width: 100%;
-  bottom: 24px;
+  bottom: 16px;
   z-index: 3000;
   left: 50%;
   transform: translateX(-50%);
