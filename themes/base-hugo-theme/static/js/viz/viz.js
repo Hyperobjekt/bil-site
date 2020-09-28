@@ -634,9 +634,7 @@ function navigateToSubtheme(subthemeId) {
 
     // use the card's offset - otherwise if user has scrolled down in the subtheme,
     // that scroll offset will be preserved. we want to scroll to theme's top
-    console.log('same parent, go to subtheme top')
     scrollToTheme(parentId)
-
     return
   }
 
