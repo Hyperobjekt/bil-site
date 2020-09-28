@@ -325,10 +325,15 @@ nav.navbar.sticky-top {
   opacity: 0;
   pointer-events: none;
 }
-.text-panel-open .viz-blocker {
+.text-panel-open .viz-blocker.viz-blocker--show {
   opacity: 1;
   pointer-events: all;
 }
+// hide on mobile screens
+@media(max-width: 660px) {
+  .viz-blocker { display: none; }
+}
+// hde on desktop screens
 @media(min-width: 1200px) {
   .viz-blocker { display: none; }
 }

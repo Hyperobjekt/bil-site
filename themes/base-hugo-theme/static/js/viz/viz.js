@@ -491,7 +491,7 @@ jQuery('.viz-parent .toggle').click(function (e) {
 
 // close the text panel if the blocker is visible and clicked
 jQuery('.viz-blocker').click(function (e) {
-  $(this).hasClass('viz-blocker--show') && togglePanel();
+  jQuery(this).hasClass('viz-blocker--show') && togglePanel();
 });
 
 // remove node highlight when closing text-panel section
@@ -645,6 +645,7 @@ function navigateToSubtheme(subthemeId) {
 
   // make sure text-panel is open
   jQuery('body').addClass('text-panel-open');
+  setTimeout(function () { jQuery('.viz-blocker').addClass('viz-blocker--show') }, 450)
 
   // open the corresponding text-panel section and subtheme tab
   jQuery(`#text-panel .collapse[data-id='${parentId}'`).collapse('show');
@@ -679,6 +680,7 @@ function togglePanel() {
 
   setTimeout(() => {
     viz.chart.resize();
+    // add the blocker class
     root.hasClass('text-panel-open')
       ? blocker.addClass('viz-blocker--show')
       : blocker.removeClass('viz-blocker--show')

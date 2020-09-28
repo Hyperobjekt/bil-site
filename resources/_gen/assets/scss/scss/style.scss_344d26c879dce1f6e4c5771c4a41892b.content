@@ -20512,9 +20512,15 @@ nav.navbar.sticky-top {
   pointer-events: none;
 }
 
-.text-panel-open .viz-blocker {
+.text-panel-open .viz-blocker.viz-blocker--show {
   opacity: 1;
   pointer-events: all;
+}
+
+@media (max-width: 660px) {
+  .viz-blocker {
+    display: none;
+  }
 }
 
 @media (min-width: 1200px) {
