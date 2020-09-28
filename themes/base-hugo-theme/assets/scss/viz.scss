@@ -19,7 +19,8 @@ $MIN_VIZ_CANVAS_HEIGHT: 260px;
 // colors - keep in sync with theme.yaml
 $UBI_COLOR: #00505C;
 $DEMOCRACY_COLOR: #DB8311;
-$GENDER_COLOR: #AF690C;
+// $GENDER_COLOR: #AF690C; darkened at SBG request
+$GENDER_COLOR: #8C540B;
 $HEALTH_COLOR: #F5CF9E;
 $AUTOMATION_COLOR: #36BFD4;
 $WORK_COLOR: #CFF9FF;
@@ -200,7 +201,7 @@ nav.navbar.sticky-top {
       }
       #collapse-gender {
         a.nav-link:before {
-          color: #AF690C;
+          color: $GENDER_COLOR;
         }
       }
       #collapse-economic-effects {

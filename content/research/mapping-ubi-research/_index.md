@@ -2,7 +2,6 @@
 layout: mapping-ubi-research
 herotext: Research Conducted by the Stanford Basic Income Lab
 heading1: Visualizing UBI Research
-social_image: /uploads/network-viz-social.png 
 subhead: Explore our new tool which compiles extensive research and shows the
   connections between UBI and a variety of social issues.
 url: /research/ubi-visualization/
@@ -27,6 +26,7 @@ body2: Currently in development, this interactive network visualization will
 title: Mapping UBI Research
 aliases:
   - /research/mapping-ubi-research
+social_image: /uploads/network-viz-social.png   
 ---
 **Attributions:** The research and design processes and the written summaries presented in the visualization included contributions from faculty director and PI for this project, Juliana Bidadanure; program manager, Sarah Berger Gonzalez; postdoctoral fellow, Rebecca Hasdell; and, graduate fellows Neryvia Pillay Bell, Guillermo Gomez, Sophia Hunt, Yi Jee Kee, Olga Lenczewska, Joan O’Bryan, Prach Panchakunathorn, Michelle Reddy, Avshalom Schwratz and Lara Spencer.
 
