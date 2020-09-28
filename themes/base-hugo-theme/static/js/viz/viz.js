@@ -1,5 +1,6 @@
 // ___________ LOGIC NEEDED PRE-INIT ___________
 const NAVBAR_HEIGHT = 64; // keep in sync with bil-custom.scss $NAVBAR_HEIGHT (in rem)
+const BREAKPOINT_LG = 1200; // breakpoint where we switch from side panel to inline content
 
 jQuery('.scroll-button').click(function (e) {
   const $container = jQuery('html');
@@ -491,8 +492,8 @@ jQuery('.viz-parent .toggle, .viz-blocker').click(function (e) {
 // remove node highlight when closing text-panel section
 jQuery('#text-panel .collapse').on('hide.bs.collapse', function (e) {
   // scroll up the text-panel before section closes to avoid the collapse causing page scroll on Chrome
-  const $container = window.innerWidth > 1200 ? jQuery("html, body") : jQuery('#text-panel');
-  const scrollPos = window.innerWidth > 1200 ? jQuery("#text-panel").offset().top : 0;
+  const $container = window.innerWidth > BREAKPOINT_LG ? jQuery("html, body") : jQuery('#text-panel');
+  const scrollPos = window.innerWidth > BREAKPOINT_LG ? jQuery("#text-panel").offset().top : 0;
   $container.animate({
     scrollTop: scrollPos
   }, 100);
@@ -597,6 +598,21 @@ function highlightNodeGroup(elId) {
   })
 }
 
+function scrollToTheme (themeId) {
+  // scroll container depends on width
+  const $container = window.innerWidth > BREAKPOINT_LG 
+    ? jQuery("html, body") 
+    : jQuery('#text-panel');
+  const $scrollTo = jQuery('#heading-' + themeId);
+  const scrollPos = window.innerWidth > BREAKPOINT_LG 
+    ? $scrollTo.parent('.card').offset().top - 64 
+    : $scrollTo.offset().top - $container.offset().top + $container.scrollTop() - 64
+
+  $container.animate({
+    scrollTop: scrollPos
+  });
+}
+
 function navigateToSubtheme(subthemeId) {
   if (subthemeId === viz.active.clicked) {
     return; // nothing to do here
@@ -618,9 +634,8 @@ function navigateToSubtheme(subthemeId) {
 
     // use the card's offset - otherwise if user has scrolled down in the subtheme,
     // that scroll offset will be preserved. we want to scroll to theme's top
-    // $container.animate({
-    //   scrollTop: $scrollTo.parent('.card').offset().top - $container.offset().top + $container.scrollTop()
-    // });
+    console.log('same parent, go to subtheme top')
+    scrollToTheme(parentId)
 
     return
   }
@@ -640,17 +655,7 @@ function navigateToSubtheme(subthemeId) {
   setTimeout(() => {
     // resize chart (in case panel just opened)
     viz.chart.resize();
-
-    // scroll container depends on width
-    const $container = window.innerWidth > 1200 ? jQuery("html, body") : jQuery('#text-panel');
-    const $scrollTo = jQuery('#heading-' + parentId);
-    const scrollPos = window.innerWidth > 1200 ? 
-      $scrollTo.parent('.card').offset().top - 64 :
-      $scrollTo.offset().top - $container.offset().top + $container.scrollTop() - 64
-
-    $container.animate({
-      scrollTop: scrollPos
-    });
+    scrollToTheme(parentId)
   }, 450); // if we don't wait long enough, the scroll lands at the wrong place due to dynamically collapsing/expanding sections (bumped from 300)
 }
 
