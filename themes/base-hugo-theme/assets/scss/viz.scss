@@ -271,6 +271,7 @@ nav.navbar.sticky-top {
   left:50%;
   transform:translateX(-50%);
   margin:auto;
+  white-space: nowrap;
   transition: left 0.4s $TEXT_PANEL_EASING;
 }
 .text-panel-open {

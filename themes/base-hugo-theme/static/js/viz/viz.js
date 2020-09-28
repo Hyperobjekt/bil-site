@@ -446,7 +446,7 @@ viz.chart.on('click', function(e) {
 
 // Zoom event listener
 viz.chart.on('graphRoam', function(e) {
-  console.log('zoomed');
+  // console.log('zoomed', e);
   
   // console.log(e);
   if (e.zoom) {

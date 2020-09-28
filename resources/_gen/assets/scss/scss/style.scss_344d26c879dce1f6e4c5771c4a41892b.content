@@ -20459,6 +20459,7 @@ nav.navbar.sticky-top {
   left: 50%;
   transform: translateX(-50%);
   margin: auto;
+  white-space: nowrap;
   transition: left 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
