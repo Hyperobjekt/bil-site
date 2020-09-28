@@ -28,16 +28,35 @@ body.mapping-ubi-research {
         background-position: center center;
     }
     h5 {
-        @include media-breakpoint-up(lg) {
+        @include media-breakpoint-up(md) {
             max-width: 60%;
         }
         
     }
     #visualizing-intro, #visualization-attributions {
+        #visualizing-intro__hero {
+            background-image: url('/images/backgrounds/network-diagram.svg');
+            background-repeat: no-repeat;
+            background-color: #FBFAF7;
+            background-size: 50%;
+            background-position: center 10%;
+            padding-top: 24rem;
+            @include media-breakpoint-up(md) {
+                background-size: 52%;
+                background-position: 126% 35%;
+            }
+            @include media-breakpoint-up(xl) {
+                background-size: 52%;
+                background-position: 126% 35%;
+            }
+        }
         #visualizing-intro__columns {
           column-gap: 48px;
-          @include media-breakpoint-up(xl) {
+          @include media-breakpoint-up(lg) {
             column-gap: 56px;
+          }
+          @include media-breakpoint-up(xl) {
+            column-gap: 80px;
           }
           p:last-child {
             padding: 2.4rem 2rem;
