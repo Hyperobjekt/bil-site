@@ -1,6 +1,6 @@
 ---
 layout: mapping-ubi-research
-herotext: Research Conducted by the Stanford Basic Income Lab
+herotext: Our new tool compiles extensive research & shows connections between UBI and a variety of social issues
 heading1: Visualizing UBI Research
 subhead: Explore our new tool which compiles extensive research and shows the
   connections between UBI and a variety of social issues.
@@ -23,7 +23,7 @@ heading2: Coming Summer 2020
 body2: Currently in development, this interactive network visualization will
   serve as the first-ever online platform for exploring existing research on
   Basic Income.
-title: Mapping UBI Research
+title: Visualizing UBI Research
 aliases:
   - /research/mapping-ubi-research
 social_image: /uploads/network-viz-social.png   
