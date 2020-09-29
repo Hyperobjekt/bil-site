@@ -24,7 +24,7 @@ title: Visualizing UBI Research
 aliases:
   - /research/mapping-ubi-research
 social_image: /uploads/network-viz-social-2.png
-social_description: Our new tool shows the connections between UBI and a variety of social issues   
+social_description: Our new tool shows the connections between UBI and a variety of social issues.   
 ---
 **Attributions:** The research and design processes and the written summaries presented in the visualization included contributions from faculty director and PI for this project, Juliana Bidadanure; program manager, Sarah Berger Gonzalez; postdoctoral fellow, Rebecca Hasdell; and, graduate fellows Neryvia Pillay Bell, Guillermo Gomez, Sophia Hunt, Yi Jee Kee, Olga Lenczewska, Joan O’Bryan, Prach Panchakunathorn, Michelle Reddy, Avshalom Schwratz and Lara Spencer.
 
