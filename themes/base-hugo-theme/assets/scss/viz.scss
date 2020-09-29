@@ -292,7 +292,10 @@ nav.navbar.sticky-top {
   top: 0;
   z-index: 10;
   background: #fff;
-  height: 65px;
+  height: 80px;
+  h1 {
+    font-weight: 600;
+  }
 }
 @media(min-width: 768px) {
   .viz-content-heading {
