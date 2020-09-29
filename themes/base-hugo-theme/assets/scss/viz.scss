@@ -507,9 +507,11 @@ nav.navbar.sticky-top {
 
   .related-link a {
     color: #04143c;
+    text-decoration: underline;
     cursor: pointer;
     &:hover {
       color: #9a6013;
+      text-decoration: underline;
     }
   }
 }
