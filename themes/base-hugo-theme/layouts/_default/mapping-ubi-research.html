@@ -159,16 +159,21 @@
             <p>Back to visualization</p>
             <i class="fa fa-chevron-up"></i>
         </div>-->
-  <div class="row pt-sm-5 pt-md-7 pt-lg-9 pt-xl-9 pb-sm-7 pb-md-7 pb-xl-8">
+  <div id="visualization-attributions" class="row pt-sm-5 pt-md-7 pt-lg-9 pt-xl-9 pb-sm-7 pb-md-7 pb-xl-8">
     <!--<div class="col-md-6 col-lg-6 mx-auto d-flex flex-column align-items-center text-center my-sm-5 my-md-8 my-lg-9 my-xl-11 user-entry">
 
                 {{ .Content }}
             </div>-->
-    <div
-      id="visualization-attributions"
-      class="col-12 col-md-10 offset-md-1 col-count-2 medgraytext"
-    >
+   
+      <div id="visualization-attributions__header" class="col-12 col-md-3 offset-md-1 offset-xl-2 bronzetext mb-3">
+              
+        <h2>Attributions & Citation</h2>
+        
+    </div>
+    <div id="visualizing-intro__columns" class="col-12 col-md-6 col-lg-5 offset-md-1 offset-xl-0 medgraytext">
+        
       {{ .Content | markdownify }}
+        
     </div>
   </div>
   <!--<div class="row mb-5 mb-md-4 mb-lg-9 mb-xl-11 d-flex align-items-center">

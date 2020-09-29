@@ -28,7 +28,7 @@ body.visualizing-ubi-research {
         background-position: center center;
     }
     
-    #visualizing-intro, #visualization-attributions {
+    #visualizing-intro {
 
         #visualizing-intro__hero {
             background-image: url('/images/heroes/cards-group2x-mini.png');
@@ -74,7 +74,10 @@ body.visualizing-ubi-research {
         }
         #visualizing-intro__header {
             h2 {
-                font-size: 3.4rem;
+                font-size: 2.8rem;
+                @include media-breakpoint-up(lg) {
+                    font-size: 3.4rem;
+                }
             }
         }
         #visualizing-intro__columns {
@@ -97,10 +100,14 @@ body.visualizing-ubi-research {
         }
       }
     #visualization-attributions {  
-        column-gap: 48px;
-          @include media-breakpoint-up(xl) {
-            column-gap: 56px;
-          }
+        #visualization-attributions__header {
+            h2 {
+                font-size: 2.8rem;
+                @include media-breakpoint-up(lg) {
+                    font-size: 3.4rem;
+                }
+            }
+        }
     }
     #hp-viz {
         background-image: url('/images/backgrounds/viz-vector.svg');
