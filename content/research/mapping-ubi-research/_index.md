@@ -16,9 +16,6 @@ body1: >-
 
 
   The user-friendly platform aspires to provide a wide variety of stakeholders (researchers and students, experimenters, policymakers and philanthropic organizations, among others) with just-in-time access to UBI research. It is the result of two years of research led by the Faculty Director and Program Manager and carried out by a large team of Lab fellows since 2018. Central to the extensive summaries presented below is the commitment to bridging the gap between facts and values. The summaries present existing empirical facts and data around UBI and the broad value-based questions and arguments that surround UBI along critical themes like gender, race and health.
-
-
-  Click the button below to scroll down to the tool. Click on the themes (represented by colored circles) within the visualization to learn about the ways basic income connects with each of these areas of life and society.
 heading2: Coming Summer 2020
 body2: Currently in development, this interactive network visualization will
   serve as the first-ever online platform for exploring existing research on
