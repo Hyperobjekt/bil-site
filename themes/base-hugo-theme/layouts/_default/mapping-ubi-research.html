@@ -60,13 +60,13 @@
             {{ .Params.body1 | markdownify }}
             
         </div>
-        <div class="col-12 d-flex d-md-none my-5 my-xl-6">
+        <div id="visualizing-intro__button" class="col-12 d-flex d-md-none my-5 my-xl-6">
             <div class="scroll-button mx-auto" data-target="#viz-section">
-                <button class="d-flex flex-column justify-content-center align-items-center btn btn-primary py-4">Explore the visualization <br><i class="fa fa-chevron-down d-block"></i></button>
+                <button class="d-flex flex-column justify-content-center align-items-center btn btn-primary">Explore the visualization <br>{{ partial "rightarrow-white.html" }}</button>
                 
             </div>
         </div>
-</div>
+    </div>
 </div>
 
 <!-- VISUALIZATION ---------------------------------- -->
@@ -92,7 +92,7 @@
           class="viz-btn-attributes scroll-button btn-primary mx-auto d-flex justify-content-center"
           data-target="#sponsors"
         >
-          View attributions & citation &nbsp;<i class="fa fa-chevron-down"></i>
+          View attributions & citation &nbsp; {{ partial "rightarrow.html" }}
         </button>
       </div>
       

@@ -80,6 +80,22 @@ body.visualizing-ubi-research {
                 }
             }
         }
+        #visualizing-intro__button {
+            button {
+                &.btn-primary {
+                    height: 8rem;
+                }
+                svg {
+                    transform: rotate(90deg);
+                    width: 11px;
+                    position: relative;
+                    margin-top: 4px;
+                // top: 5px;
+                    @include media-breakpoint-up(lg) {
+                        //top: 7px;  
+                    }
+                }
+        }    
         #visualizing-intro__columns {
           column-gap: 48px;
           @include media-breakpoint-up(lg) {
@@ -89,6 +105,7 @@ body.visualizing-ubi-research {
             column-gap: 80px;
             
           }
+        }
          /* p:last-child {
             padding: 2.4rem 2rem;
             margin-bottom: 0;
@@ -134,6 +151,19 @@ body.visualizing-ubi-research {
             i {
                 position: relative;
                 top: 6px;
+            }
+        }
+        .viz-footer {
+            button {
+                svg.rightarrow {
+                    transform: rotate(90deg);
+                    width: 11px;
+                    position: relative;
+                    top: 5px;
+                    @include media-breakpoint-up(lg) {
+                        top: 7px;  
+                    }
+                }
             }
         }
     }
