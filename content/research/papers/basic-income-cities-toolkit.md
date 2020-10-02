@@ -8,8 +8,6 @@ date: 2019-04-28T00:00:31.857Z
 excerpt: 'Launched in early November 2018 at the National League of Cities annual meeting, the toolkit, Basic Income In Cities: A Guide to City Experiments and Pilot Projects, highlights emerging practices and shares insights on the process of designing UBI experiments in ways that are ethical, rigorous, informative and consequential for local and national policymaking.'
 image: /uploads/cities-toolkit.jpg
 link: /uploads/BasicIncomeInCities_Report.pdf
-social_description: Highlighting emerging practices and sharing insights on the process of designing UBI experiments.
-social_image: 
 abstract: >-
     Launched in early November 2018 at the National League of Cities annual meeting, the toolkit, Basic Income In Cities: A Guide to City Experiments and Pilot Projects, highlights emerging practices and shares insights on the process of designing UBI experiments in ways that are ethical, rigorous, informative and consequential for local and national policymaking.
 
