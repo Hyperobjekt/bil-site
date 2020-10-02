@@ -1,5 +1,5 @@
 ---
-is_index: "false"
+is_index: false
 type: papers
 layout: papersingle
 title: "Universal Basic Income: What's in a Name?"
