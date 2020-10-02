@@ -28,5 +28,6 @@ abstract: >-
 
 
   While recognizing this richness, however, this paper cautions about the use of too many names to refer to UBI at the policy level, pointing out that doing so creates significant definitional ambiguities about key features of the policy (notably its universal, individual and unconditional features). Employing a single name to refer to the proposal could be critical for advancing the policy at the national and international level.
+social_description:  
 social_image: /uploads/whats-in-a-name-white-paper_coverpage_hires.jpg
 ---
