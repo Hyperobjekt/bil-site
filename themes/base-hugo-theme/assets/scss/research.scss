@@ -162,7 +162,7 @@ body.visualizing-ubi-research {
                     width: 11px;
                     position: relative;
                     top: 5px;
-                    @include media-breakpoint-up(lg) {
+                    @include media-breakpoint-up(xl) {
                         top: 7px;  
                     }
                 }
