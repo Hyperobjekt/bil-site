@@ -32,10 +32,11 @@ body.visualizing-ubi-research {
 
         #visualizing-intro__hero {
             background-image: url('/images/heroes/cards-group2x-mini.png');
-            background-image: url('/images/backgrounds/network-diagram2.svg');
+            background-image: url('/images/backgrounds/network-diagram5.svg');
             background-repeat: no-repeat;
             background-color: #FBFAF7;
             background-color: #00505C;
+            background-color: #0e434c;
             background-size: 84%;
             background-position: center 10%;
             padding-top: 26.4rem;
@@ -50,8 +51,8 @@ body.visualizing-ubi-research {
                 background-position: 100% 35%;
             }
             @include media-breakpoint-up(xl) {
-                background-size: 52%;
-                background-position: 100% 35%;
+                background-size: 50%;
+                background-position: 104% 54%;
             }
             h2 {
                 font-size: 3.4rem;
