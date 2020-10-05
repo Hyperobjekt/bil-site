@@ -40,7 +40,7 @@ from = "/about"
 
 [[redirects]]
 from = "/research"
-  to = "/research/mapping-ubi-research"
+  to = "/research/papers"
   status = 301
   force=true
 
