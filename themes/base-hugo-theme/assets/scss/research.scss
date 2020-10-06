@@ -47,8 +47,8 @@ body.visualizing-ubi-research {
             background-color: #00505C;
             background-color: #0e434c;
             background-size: 84%;
-            background-position: center 10%;
-            padding-top: 26.4rem;
+            background-position: 160px 10%;
+            padding-top: 6.4rem;
             @media (min-width: 414px) {
                 background-size: 70%;
             }
@@ -56,8 +56,8 @@ body.visualizing-ubi-research {
                 background-size: 60%;
             }
             @include media-breakpoint-up(md) {
-                background-size: 50%;
-                background-position: 100% 35%;
+                background-size: 56%;
+                background-position: 118% 35%;
             }
             @include media-breakpoint-up(xl) {
                 background-size: 50%;
