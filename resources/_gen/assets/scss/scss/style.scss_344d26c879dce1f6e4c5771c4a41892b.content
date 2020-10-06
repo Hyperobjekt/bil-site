@@ -19289,6 +19289,10 @@ body.home #hp-viz .teaser-overlay h2 {
   }
 }
 
+body.home #hp-news {
+  display: none;
+}
+
 body.home #hp-news .news-item-icon {
   width: 4.9rem;
   height: 4.3rem;
@@ -20001,37 +20005,131 @@ body.visualizing-ubi-research .hero {
   background-position: center center;
 }
 
-@media (min-width: 992px) {
-  body.visualizing-ubi-research h5 {
+body.visualizing-ubi-research #visualizing-intro #visualizing-intro__hero {
+  background-image: url("/images/heroes/cards-group2x-mini.png");
+  background-image: url("/images/backgrounds/network-diagram2.svg");
+  background-repeat: no-repeat;
+  background-color: #FBFAF7;
+  background-color: #00505C;
+  background-size: 84%;
+  background-position: center 10%;
+  padding-top: 26.4rem;
+}
+
+@media (min-width: 414px) {
+  body.visualizing-ubi-research #visualizing-intro #visualizing-intro__hero {
+    background-size: 70%;
+  }
+}
+
+@media (min-width: 500px) {
+  body.visualizing-ubi-research #visualizing-intro #visualizing-intro__hero {
+    background-size: 60%;
+  }
+}
+
+@media (min-width: 768px) {
+  body.visualizing-ubi-research #visualizing-intro #visualizing-intro__hero {
+    background-size: 50%;
+    background-position: 100% 35%;
+  }
+}
+
+@media (min-width: 1380px) {
+  body.visualizing-ubi-research #visualizing-intro #visualizing-intro__hero {
+    background-size: 52%;
+    background-position: 100% 35%;
+  }
+}
+
+body.visualizing-ubi-research #visualizing-intro #visualizing-intro__hero h2 {
+  font-size: 3.4rem;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  body.visualizing-ubi-research #visualizing-intro #visualizing-intro__hero h2 {
+    max-width: 40%;
+  }
+}
+
+@media (min-width: 1380px) {
+  body.visualizing-ubi-research #visualizing-intro #visualizing-intro__hero h2 {
     max-width: 60%;
   }
 }
 
-body.visualizing-ubi-research #visualizing-intro .col-count-2, body.visualizing-ubi-research #visualization-attributions .col-count-2 {
-  column-gap: 48px;
+body.visualizing-ubi-research #visualizing-intro #visualizing-intro__hero h5 {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+@media (min-width: 768px) {
+  body.visualizing-ubi-research #visualizing-intro #visualizing-intro__hero h5 {
+    max-width: 50%;
+  }
 }
 
 @media (min-width: 1380px) {
-  body.visualizing-ubi-research #visualizing-intro .col-count-2, body.visualizing-ubi-research #visualization-attributions .col-count-2 {
+  body.visualizing-ubi-research #visualizing-intro #visualizing-intro__hero h5 {
+    max-width: 50%;
+  }
+}
+
+body.visualizing-ubi-research #visualizing-intro #visualizing-intro__header h2 {
+  font-size: 2.8rem;
+}
+
+@media (min-width: 992px) {
+  body.visualizing-ubi-research #visualizing-intro #visualizing-intro__header h2 {
+    font-size: 3.4rem;
+  }
+}
+
+body.visualizing-ubi-research #visualizing-intro #visualizing-intro__button {
+  /* p:last-child {
+            padding: 2.4rem 2rem;
+            margin-bottom: 0;
+            background-color: #f7fafb;
+            //background-color: #00505c;
+            color: $black;
+            font-weight: 500;
+          } */
+}
+
+body.visualizing-ubi-research #visualizing-intro #visualizing-intro__button button.btn-primary {
+  height: 8rem;
+}
+
+body.visualizing-ubi-research #visualizing-intro #visualizing-intro__button button svg {
+  transform: rotate(90deg);
+  width: 11px;
+  position: relative;
+  margin-top: 4px;
+}
+
+body.visualizing-ubi-research #visualizing-intro #visualizing-intro__button #visualizing-intro__columns {
+  column-gap: 48px;
+}
+
+@media (min-width: 992px) {
+  body.visualizing-ubi-research #visualizing-intro #visualizing-intro__button #visualizing-intro__columns {
     column-gap: 56px;
   }
 }
 
-body.visualizing-ubi-research #visualizing-intro .col-count-2 p:last-child, body.visualizing-ubi-research #visualization-attributions .col-count-2 p:last-child {
-  padding: 2.4rem 2rem;
-  margin-bottom: 0;
-  background-color: #f7fafb;
-  color: #373737;
-  font-weight: 500;
-}
-
-body.visualizing-ubi-research #visualization-attributions {
-  column-gap: 48px;
-}
-
 @media (min-width: 1380px) {
-  body.visualizing-ubi-research #visualization-attributions {
-    column-gap: 56px;
+  body.visualizing-ubi-research #visualizing-intro #visualizing-intro__button #visualizing-intro__columns {
+    column-gap: 80px;
+  }
+}
+
+body.visualizing-ubi-research #visualization-attributions #visualization-attributions__header h2 {
+  font-size: 2.8rem;
+}
+
+@media (min-width: 992px) {
+  body.visualizing-ubi-research #visualization-attributions #visualization-attributions__header h2 {
+    font-size: 3.4rem;
   }
 }
 
@@ -20066,6 +20164,19 @@ body.visualizing-ubi-research #viz-section .scroll-button.btn-primary:active {
 body.visualizing-ubi-research #viz-section .scroll-button.btn-primary i {
   position: relative;
   top: 6px;
+}
+
+body.visualizing-ubi-research #viz-section .viz-footer button svg.rightarrow {
+  transform: rotate(90deg);
+  width: 11px;
+  position: relative;
+  top: 5px;
+}
+
+@media (min-width: 992px) {
+  body.visualizing-ubi-research #viz-section .viz-footer button svg.rightarrow {
+    top: 7px;
+  }
 }
 
 body.global-map-of-basic-income-experiments .hero {
@@ -20478,7 +20589,11 @@ nav.navbar.sticky-top {
   top: 0;
   z-index: 10;
   background: #fff;
-  height: 65px;
+  height: 80px;
+}
+
+.viz-content-heading h1 {
+  font-weight: 600;
 }
 
 @media (min-width: 768px) {
@@ -20749,11 +20864,13 @@ nav.navbar.sticky-top {
 
 .card-body .related-link a {
   color: #04143c;
+  text-decoration: underline;
   cursor: pointer;
 }
 
 .card-body .related-link a:hover {
   color: #9a6013;
+  text-decoration: underline;
 }
 
 .card-body .nav-pills .nav-link {
