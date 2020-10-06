@@ -27,17 +27,28 @@ body.visualizing-ubi-research {
         background-size: cover;
         background-position: center center;
     }
-    
+    #visualizing-intro__columns, #visualizing-attributions__columns {
+        column-gap: 48px;
+        @include media-breakpoint-up(lg) {
+          column-gap: 56px;
+        }
+        @include media-breakpoint-up(xl) {
+         // column-gap: 80px;
+          
+        }
+      }
     #visualizing-intro {
 
         #visualizing-intro__hero {
             background-image: url('/images/heroes/cards-group2x-mini.png');
+            background-image: url('/images/backgrounds/network-diagram5.svg');
             background-repeat: no-repeat;
             background-color: #FBFAF7;
             background-color: #00505C;
+            background-color: #0e434c;
             background-size: 84%;
-            background-position: center 10%;
-            padding-top: 26.4rem;
+            background-position: 160px 10%;
+            padding-top: 6.4rem;
             @media (min-width: 414px) {
                 background-size: 70%;
             }
@@ -45,12 +56,12 @@ body.visualizing-ubi-research {
                 background-size: 60%;
             }
             @include media-breakpoint-up(md) {
-                background-size: 50%;
-                background-position: 100% 35%;
+                background-size: 56%;
+                background-position: 118% 35%;
             }
             @include media-breakpoint-up(xl) {
-                background-size: 52%;
-                background-position: 100% 35%;
+                background-size: 50%;
+                background-position: 104% 54%;
             }
             h2 {
                 font-size: 3.4rem;
@@ -96,16 +107,7 @@ body.visualizing-ubi-research {
                     }
                 }
         }    
-        #visualizing-intro__columns {
-          column-gap: 48px;
-          @include media-breakpoint-up(lg) {
-            column-gap: 56px;
-          }
-          @include media-breakpoint-up(xl) {
-            column-gap: 80px;
-            
-          }
-        }
+        
          /* p:last-child {
             padding: 2.4rem 2rem;
             margin-bottom: 0;
@@ -160,7 +162,7 @@ body.visualizing-ubi-research {
                     width: 11px;
                     position: relative;
                     top: 5px;
-                    @include media-breakpoint-up(lg) {
+                    @include media-breakpoint-up(xl) {
                         top: 7px;  
                     }
                 }
