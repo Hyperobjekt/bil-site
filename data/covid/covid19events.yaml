@@ -1,4 +1,11 @@
 events:
+  - date: 2020-10-20T18:00:00.000Z
+    title: "A Critical Lifeline: How One-Time Cash Grants & Financial Coaching
+      Helped People Survive a Summer of Uncertainty"
+    link: https://zoom.us/webinar/register/WN_f4034eOTRGGWoldehbUYEg
+    excerpt: Join SaverLife, Neighborhood Trust, and the Aspen Institute’s Financial
+      Security Program as we review the findings and discuss how a new vision
+      for household financial resilience will be integral to economic recovery.
   - date: 2020-10-15T00:00:00.000Z
     title: Racial Justice + the Power of Cash
     link: https://actionnetwork.org/forms/racial-equity-the-power-of-cash-virtual-roundtable-registration?source=direct_link&
@@ -124,10 +131,3 @@ events:
     link: https://socialprotection.org/exploring-universal-basic-income-lessons-covid-19-response-and-beyond
     excerpt: "5pm EST. Host: socialprotection,org; Panellists:Ugo Gentilini (World
       Bank), Francesca Bastagli (ODI)"
-  - date: 2020-10-20T18:00:00.000Z
-    title: "A Critical Lifeline: How One-Time Cash Grants & Financial Coaching
-      Helped People Survive a Summer of Uncertainty"
-    link: https://zoom.us/webinar/register/WN_f4034eOTRGGWoldehbUYEg
-    excerpt: Join SaverLife, Neighborhood Trust, and the Aspen Institute’s Financial
-      Security Program as we review the findings and discuss how a new vision
-      for household financial resilience will be integral to economic recovery.
