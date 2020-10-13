@@ -1,4 +1,8 @@
 events:
+  - date: 2020-11-18T18:00:00.000Z
+    title: "Financial Security 2020: A Framework for Recovery and Resilience"
+    link: https://www.aspeninstitute.org/events/financial-security-2020/
+    excerpt: 1pm EST. Hosted by the Aspen Institute Financial Security Program.
   - date: 2020-10-20T18:00:00.000Z
     title: "A Critical Lifeline: How One-Time Cash Grants & Financial Coaching
       Helped People Survive a Summer of Uncertainty"
@@ -7,9 +11,9 @@ events:
       Security Program as we review the findings and discuss how a new vision
       for household financial resilience will be integral to economic recovery.
   - date: 2020-10-15T00:00:00.000Z
-    title: Racial Justice + the Power of Cash
-    link: https://actionnetwork.org/forms/racial-equity-the-power-of-cash-virtual-roundtable-registration?source=direct_link&
-    excerpt: "5pm PST. Anne Price, Mia Birdsong, John Matthews, and Jim Pugh. "
+    title: Racial Equity and the Power of Cash
+    link: https://actionnetwork.org/forms/racial-equity-the-power-of-cash-virtual-roundtable-registration
+    excerpt: "5pm. Mia Birdsong, Anne Price, John Matthews II, and Jim Pugh. "
   - date: 2020-09-29T22:03:03.952Z
     title: Mayors for a Guaranteed Income
     excerpt: "2pm EST. Host: National Community Reinvestment Coalition. Mayors from
