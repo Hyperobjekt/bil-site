@@ -43,7 +43,7 @@
   <meta name="twitter:description" content="{{ $.Scratch.Get "socialDescription" }}" />
   <meta name="twitter:image" content="https://basicincome.stanford.edu{{ $.Scratch.Get "socialImage" }}" />
 
-  {{ .Hugo.Generator }}
+  {{ hugo.Generator }}
   <!-- Original bootstrap stylesheet -->
   <!-- <link rel="stylesheet" href="{{ "css/bootstrap.min.css" | absURL }}"> -->
   {{ if .Site.IsServer }}
