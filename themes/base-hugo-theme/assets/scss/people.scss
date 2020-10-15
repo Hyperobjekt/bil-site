@@ -333,6 +333,11 @@ body.people {
 
   .modal {
     padding-right: 0 !important;
+    
+    #modalBio {
+      max-height: calc(60vh - 300px);
+      overflow-y: scroll;
+    }
 
     @include media-breakpoint-up(md) {
       .modal-dialog {
