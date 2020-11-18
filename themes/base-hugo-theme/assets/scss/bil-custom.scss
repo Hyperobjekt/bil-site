@@ -222,10 +222,19 @@ nav.navbar-light {
     margin-bottom: 4.8rem;
     .nav-item {
       &:nth-child(5), &:nth-child(6), &:nth-child(7) {
-        margin-left: 3.2rem;
+        margin-left: 0.3rem;
         &:before {
-          content: " •";
-          margin-left: -2.4rem;
+          content: "";
+          width: 4px;
+          height: 22px;
+          display: inline-block;
+          background-color: #981f24;
+          background-color: $dkbronze;
+          margin-left: -2/2rem;
+          font-weight: 900;
+          position: relative;
+          top: 1px;
+          margin-right: 0.8rem;
         }
       }
     }
@@ -253,12 +262,21 @@ nav.navbar-light {
     }
   }
 
-  .social {
-    .social-icon {
-      font-size: 2.4rem;
-      padding-right: 1.2rem;
+  
+    .social {
+      .social-icon {
+        i {
+          font-size: 2.8rem;
+          color: #a86815;
+          color: $tealgreen;
+          transition: color .3s ease;
+          &:hover {
+            color: #9a6013;
+          }
+        }
+      }
     }
-  }
+ 
 }
 
 button.navbar-toggler {
@@ -745,8 +763,20 @@ body.kind-404, body.successful-signup {
     }
     background-position: center center;
     min-height: 140px;
-    
   }
+
+    .social-icon {
+      i {
+        font-size: 2.8rem;
+        color: #a86815;
+        color: $tealgreen;
+        transition: color .3s ease;
+        &:hover {
+          color: #9a6013;
+        }
+      }
+    }
+
 }
 
 
@@ -758,6 +788,19 @@ body.kind-404, body.successful-signup {
     // color: $white;
     text-decoration: none;
     // text-transform: uppercase;
+  }
+  .social {
+    .social-icon {
+      i {
+        font-size: 2.8rem;
+        color: #a86815;
+        color: $tealgreen;
+        transition: color .3s ease;
+        &:hover {
+          color: #9a6013;
+        }
+      }
+    }
   }
   .siteby {
     color: #979797;
