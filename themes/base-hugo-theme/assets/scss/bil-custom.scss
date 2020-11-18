@@ -222,13 +222,14 @@ nav.navbar-light {
     margin-bottom: 4.8rem;
     .nav-item {
       &:nth-child(5), &:nth-child(6), &:nth-child(7) {
-        margin-left: 2.4rem;
+        margin-left: 0.3rem;
         &:before {
           content: "";
           width: 4px;
-          height: 18px;
+          height: 22px;
           display: inline-block;
           background-color: #981f24;
+          background-color: $dkbronze;
           margin-left: -2/2rem;
           font-weight: 900;
           position: relative;
