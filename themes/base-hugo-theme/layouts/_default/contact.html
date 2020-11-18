@@ -9,7 +9,7 @@
                 <div class="col-12 col-md-3">
                     <h3 class="news mb-sm-2 mb-md-2 mb-xl-2">{{ .Params.title }}</h3>
                     <div class="medgraytext">{{ .Content | markdownify | safeHTML }}</div>     
-      
+                    <div class="social mt-2">{{ partial "social.html" . }}</div>
                 </div>
             </div>
    

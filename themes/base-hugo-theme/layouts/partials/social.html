@@ -4,7 +4,7 @@
   </a>
 {{ end }}
 {{ if .Site.Data.social.twitter_via }}
-  <a class="social-icon" href="https://www.twitter.com/{{ strings.TrimPrefix "@" .Site.Data.social.twitter_via }}" tabindex="0" aria-label="Go to Twitter">
+  <a class="social-icon" target="_blank" href="https://www.twitter.com/{{ strings.TrimPrefix "@" .Site.Data.social.twitter_via }}" tabindex="0" aria-label="Go to Twitter">
       <i class="fab fa-twitter" target="_blank" aria-haspopup="true"></i>
   </a>
 {{ end }}
