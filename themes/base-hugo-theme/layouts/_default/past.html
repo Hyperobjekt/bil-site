@@ -55,7 +55,7 @@
             {{ $paginator := .Paginate ( where (where .Site.Pages ".Params.type" "=" "events") ".Date" "le" now) 10 }}
           
                 {{ range .Paginator.Pages  }} 
-              
+              {{ if .Params.image }}
             <div class="row mb-4 mb-md-4 mb-lg-8 newslist">
                 <div class="col-12 col-md-7 offset-md-2 col-lg-6 offset-lg-3 topdivider mb-3 mb-md-4 mb-lg-3 mb-xl-4"></div>    
                 <div class="col-12 col-md-2 offset-md-2 cold-lg-2 offset-lg-3 mr-md-2 pic-column mb-2 mb" style="background-image: url('{{ .Params.image }}'); background-size: contain; background-repeat: no-repeat;">
@@ -71,6 +71,7 @@
                     </div>    
                 </div>
             </div>
+            {{ end }}
         {{ end }} 
         <div class="row mb-4 mb-md-4 mb-lg-8 mb-xl-12 newslist">
             <div class="col-12 col-md-4 mx-auto">
