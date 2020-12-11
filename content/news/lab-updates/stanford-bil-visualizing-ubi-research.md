@@ -4,6 +4,7 @@ type: labupdates
 layout: labsingle
 title: "Stanford BIL: Visualizing UBI Research"
 date: 2020-12-11T13:54:51.195Z
+thumb: /uploads/screen-shot-2020-12-11-at-8.59.03-am.png
 align:
   - center
 ---
