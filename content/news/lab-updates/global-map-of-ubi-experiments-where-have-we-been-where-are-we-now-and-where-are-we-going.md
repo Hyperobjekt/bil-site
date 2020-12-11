@@ -2,8 +2,8 @@
 is_index: false
 type: labupdates
 layout: labsingle
-title: "Global Map of UBI Experiments: Where Have We Been, Where Are We Now, and
-  Where Are We Going?"
+title: "Updated: Global Map of UBI Experiments: Where Have We Been, Where Are We
+  Now, and Where Are We Going?"
 date: 2020-05-24T17:05:51.365Z
 excerpt: "How and where have Universal Basic Income (UBI) and policies that
   share features with a UBI been tested? What are some significant differences
