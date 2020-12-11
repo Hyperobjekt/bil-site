@@ -9,8 +9,11 @@ excerpt: Olga Lenczewska, a fellow with the Stanford Basic Income Lab and 5th
   PhD student at Stanford looks at a how universal basic income (UBI) has a rare
   potential to gather supporters who hold vastly different beliefs and
   ideological commitments.
+image: /uploads/47967732453_5f1d4cfb9c_o.jpg
+thumb: /uploads/47967732453_5f1d4cfb9c_o.jpg
 align:
   - center
+social_image: /uploads/47967732453_5f1d4cfb9c_o.jpg
 ---
 I am a fifth-year PhD candidate in philosophy at Stanford University and I have been involved with the Basic Income Lab since its beginning in 2017. My work at the Lab has focused on surveying the academic literature on the impact of basic income on gender justice, racial justice, and wellbeing. By reviewing the interdisciplinary literature on the impact of basic income on gender and racial justice, I sought to put into dialogue the normative and the empirical dimensions of this debate. ***My biggest takeaway from this work has been the realization that universal basic income (UBI) has a rare potential to gather supporters who hold vastly different beliefs and ideological commitments.***
 
