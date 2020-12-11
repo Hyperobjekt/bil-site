@@ -4,7 +4,7 @@ type: labupdates
 layout: labsingle
 title: "Can people with vastly different political beliefs support a Universal
   Basic Income? "
-date: 2020-12-11T22:41:09.120Z
+date: 2020-12-16T22:41:09.120Z
 excerpt: Olga Lenczewska, a fellow with the Stanford Basic Income Lab and 5th
   PhD student at Stanford looks at a how universal basic income (UBI) has a rare
   potential to gather supporters who hold vastly different beliefs and
