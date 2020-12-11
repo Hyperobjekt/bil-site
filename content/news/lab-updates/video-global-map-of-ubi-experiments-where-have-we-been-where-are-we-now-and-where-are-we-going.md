@@ -2,7 +2,7 @@
 is_index: false
 type: labupdates
 layout: labsingle
-title: "VIDEO: Global Map of UBI Experiments: Where Have We Been, Where Are We
+title: "Video: Global Map of UBI Experiments: Where Have We Been, Where Are We
   Now, and Where Are We Going?"
 date: 2020-12-11T14:29:20.302Z
 thumb: /uploads/global-thumb.jpg
