@@ -4,6 +4,9 @@ type: labupdates
 layout: labsingle
 title: "Video: Visualizing UBI Research"
 date: 2020-12-11T13:54:51.195Z
+excerpt: The Lab invites you to take a more indepth look at the creation of the
+  research visualization and to consider some of the areas for future research!
+  Enjoy!
 image: ""
 thumb: /uploads/research-viz-thumb.jpg
 align: center
