@@ -2,7 +2,7 @@
 is_index: false
 type: labupdates
 layout: labsingle
-title: "Stanford BIL: Visualizing UBI Research"
+title: "Video: Visualizing UBI Research"
 date: 2020-12-11T13:54:51.195Z
 image: ""
 thumb: /uploads/research-viz-thumb.jpg
