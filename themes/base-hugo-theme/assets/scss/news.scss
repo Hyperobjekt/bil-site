@@ -40,3 +40,48 @@ body.type-labupdates {
       }
 }
 
+body.type-news, body.type-labupdates {
+    h5 {
+        font-size: 2.2rem;
+        line-height: 4rem;
+        letter-spacing: 0.01rem;
+        margin-bottom: 2.4rem;
+        color: #464646;
+    }
+    .blogtabs {
+        nav.sticky-top {
+            top: 80px;
+        }
+        .nav-tabs {
+            border: none;
+            margin-bottom: 2.4rem;
+        }
+    }
+    
+    .nav-link {
+        @include media-breakpoint-down(md) {
+            padding-left: 0;
+        }
+        border:none;
+            padding-bottom: 2.4rem;
+    }
+    .nav-link.active {
+        border: none;
+        background: transparent;
+        color: #9a6013;
+        //color: #6d6d6d;
+        font-weight: 500;
+        border-radius: 10px;
+        letter-spacing: inherit;
+        .underbar {
+          width: 56px;
+          height: 3px;
+          margin-top: 8px;
+          background-color: #9a6013;
+          //background-color: #6d6d6d;
+          opacity: 1;
+          position: absolute;
+        }
+      }
+}
+
