@@ -21,7 +21,7 @@ social_image: /uploads/what-does-pandemic-mean-social.png
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer iaculis mattis nibh, in facilisis felis pellentesque quis. Mauris vel mi ut quam finibus elementum. In hac habitasse platea dictumst. Cras lacinia condimentum aliquet. Quisque sollicitudin, justo et viverra aliquam, erat odio scelerisque libero, vel euismod massa sem sed arcu. Nulla fringilla luctus massa eget molestie. Donec sed justo nec leo ornare blandit a ut lacus. Sed venenatis tempor quam vel scelerisque. In tincidunt nisl vel neque condimentum, non fringilla purus imperdiet. Nam elit nulla, tincidunt non iaculis ut, facilisis et tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vehicula, odio eget rutrum viverra, metus lorem tincidunt odio, eu accumsan eros elit vitae nulla.
 
 
-{{< tabs tabTotal="6" tabID="1" tabName1="Liberal Egalitarianism" tabName2="Left/Real Libertarianism" tabName3="Right Libertarianism" tabName4="Republicanism"  tabName5="Marxism/Socialism" tabName6="Feminism" >}}
+{{< tabs tabTotal="6" tabHeader="Frameworks:" tabID="1" tabName1="Liberal Egalitarianism" tabName2="Left/Real Libertarianism" tabName3="Right Libertarianism" tabName4="Republicanism"  tabName5="Marxism/Socialism" tabName6="Feminism" >}}
 
 {{< tab tabNum="1" >}}
 

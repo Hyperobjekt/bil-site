@@ -4,23 +4,30 @@
     <div class="col-0 col-xl-1"></div>
     <div class="col-12 col-md-8 col-lg-7 mx-auto col-xl-2 mx-xl-0 px-0">
         <nav>
+            {{ $tabHeader := $.Get "tabHeader" }}
+            <h4 class="text-uppercase ml-lg-1 mb-2 mt-1">{{ $tabHeader }}</h4>
+
             <div class="nav nav-tabs" id="nav-tab" role="tablist">
 
                 {{ $tabTotal := .Get "tabTotal" }}
                 {{ range $i, $sequence := (seq $tabTotal) }}
 
                 {{ $tabID := $.Get "tabID" }}
+                
                 {{ $tabName := (print "tabName" $sequence) }}
                 {{ $tabHREF := (print "tab" $tabID $sequence) }}
 
+                
+
+
                 {{ if eq $sequence 1 }}
 
-                <a class="nav-item nav-link active" id="nav-{{ $tabID }}" data-toggle="tab" href="#{{ $tabHREF | urlize }}" role="tab"
+                <a class="nav-item nav-link active mr-1" id="nav-{{ $tabID }}" data-toggle="tab" href="#{{ $tabHREF | urlize }}" role="tab"
                 aria-controls="nav-home" aria-selected="true">{{ $.Get $tabName }} <div class="underbar"></div></a> 
 
                 {{ else }}
 
-                <a class="nav-item nav-link" id="nav-{{ $tabID }}" data-toggle="tab" href="#{{ $tabHREF | urlize }}" role="tab"
+                <a class="nav-item nav-link mr-1" id="nav-{{ $tabID }}" data-toggle="tab" href="#{{ $tabHREF | urlize }}" role="tab"
                 aria-controls="nav-home" aria-selected="false">{{ $.Get $tabName }} <div class="underbar"></div></a>
 
                 {{ end }}
