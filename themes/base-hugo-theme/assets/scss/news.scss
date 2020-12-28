@@ -63,7 +63,13 @@ body.type-news, body.type-labupdates {
             padding-left: 0;
         }
         border:none;
-            padding-bottom: 2.4rem;
+        padding-bottom: 2.4rem;
+        font-weight: 500;
+        color: #6d6d6d;
+        transition: .3s ease color;
+        &:hover {
+            color: #9a6013;
+        }
     }
     .nav-link.active {
         border: none;
