@@ -1,7 +1,7 @@
 </div>
 </div> <!-- Break copy well layout -->
 <div class="row blogtabs medgraytext">
-    <div class="col-0 col-xl-1"></div>
+    <div class="col-0 col-xl-3"></div>
     <div class="col-12 col-md-8 col-lg-7 mx-auto col-xl-2 mx-xl-0 px-0">
         <nav>
             {{ $tabHeader := $.Get "tabHeader" }}
@@ -36,7 +36,7 @@
             </div>
         </nav>
     </div>    
-    <div class="col-12 col-md-8 col-lg-7 col-xl-6 mx-auto mx-xl-0 px-0 px-lg-1">  
+    <div class="col-12 col-md-8 col-lg-7 col-xl-4 mx-auto mx-xl-0 px-0 px-lg-1">  
         <div class="tab-content" id="{{ $.Get "tabID" }}">
 
         {{ .Inner }}

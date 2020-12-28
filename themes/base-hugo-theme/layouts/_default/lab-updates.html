@@ -43,12 +43,26 @@
         {{ range  (where .Pages.ByDate.Reverse "Type" "labupdates")  }}
             <div class="row mb-4 mb-md-4 mb-lg-8 newslist">
                 <div class="col-12 col-md-8 offset-md-2 d-block d-md-flex">
+
+                   
+
+
                     {{ if .Params.thumb }}
                         <div class="list-pic mt-3 mt-md-4 mx-auto mr-md-4 mr-xl-6" style="background-image: url('{{ .Params.thumb }}'); background-position-x: {{ .Params.align }};"></div>
                     {{ else if .Params.largeimage }}
                         <div class="list-pic mt-3 mt-md-4 mx-auto mr-md-4 mr-xl-6" style="background-image: url('{{ .Params.largeimage }}'); background-position-x: {{ .Params.align }};"></div>
                     {{ else }}
-                        <div class="list-pic mt-3 mt-md-4 mx-auto mr-md-4 mr-xl-6" style="background-image: url('{{ .Params.image }}'); background-position-x: {{ .Params.align }};"></div>
+                        {{ $img := strings.TrimPrefix "/uploads/" .Params.image }}
+                        {{ $largeimg := .Params.largeimage }}
+                        {{ $align := .Params.align }}
+                        {{ with site.GetPage "uploads/_index.md" }}
+                            {{ with .Resources.GetMatch $img }}
+                                {{ $processed := .Resize "500x q50" }}
+                                {{ if $img }}
+                                    <div class="list-pic mt-3 mt-md-4 mx-auto mr-md-4 mr-xl-6" style="background-image: url('{{ $processed.RelPermalink }}'); background-position-x: {{ $align }};"></div>
+                                {{ end }}
+                            {{ end }} 
+                        {{ end }}       
                     {{ end }}
                     <div class="list-content pr-3">
                         <div class="topdivider mb-3 mb-md-4 mb-lg-3"></div>
@@ -62,7 +76,7 @@
                 </div>    
             </div>
         {{ end }}    
-    </div> 
+</div> 
 
 
 {{ partial "subscribe.html" .}}
