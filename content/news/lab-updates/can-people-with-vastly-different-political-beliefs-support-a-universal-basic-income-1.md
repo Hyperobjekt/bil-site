@@ -108,8 +108,103 @@ Libertarians endorse a theory of natural (pre-political) rights, including the r
 
 **Efficiency of welfare**
 
-Welfare distribution is often
-inefficient and ineffective as it
-relies on a large bureaucracy of
-control. A universal cash
-transfer would remove
+Welfare distribution is often inefficient and ineffective as it relies on a large bureaucracy of control. A universal cash transfer would remove the need for a large bureaucracy and promote a more efficient distribution of benefits. (Zwolinski 2010; Munger 2012)
+
+**Neutrality of preferences**
+
+UBI respects the autonomy and agency of individuals by providing them with financial means to satisfy their own needs without being coerced into a particular labor-intensive lifestyle. (Munger 2012)
+
+**Non-demeaning welfare**
+
+Because it is unconditional and universal, UBI avoids the paternalizing, demeaning, and stigmatizing process of meanstesting, which is central to most of the current welfare schemes. (Munger 2012)
+
+**Equal world-ownership**
+
+UBI could help promote the right to equal world-ownership and to an equal use of land resources. (Munger 2012)
+
+{{< /tab >}}
+
+{{< tab tabNum="4" >}}
+
+##### Republicanism
+
+Republicans (notably Pettit) are concerned with the idea of freedom from domination – the absence of dominating control or the condition of not being subject to the arbitrary or uncontrolled power of others. Republicans understand the idea of dominating control as a hierarchical mechanism whereby one individual or institution can exercise arbitrary power and control over another individual. Another value central for the republican political thought is civic virtue: the formation of a virtuous character that demonstrates a dedication to the wellbeing of one’s community and active political participation. Civic virtue is supposed to be influenced and shaped by public institutions and by public policies designed to deliberately cultivate it.
+
+**Empowerment within the household**
+
+As a benefit paid to the individual and not to the household, UBI could go a long way in empowering economic dependents and protecting them from the potential dominating control of other members of their household. (Pettit 2007)
+
+**Neutrality of preferences**
+
+UBI would promote freedom from domination by reducing the power of employers and over individuals’ economic lives. This is because UBI could boost bargaining power, exit options, and power to say no to exploitative contracts. (Pettit 2007, Widerquist 2013)
+
+**Non-demeaning welfare**
+
+Because it is unconditional and universal, UBI avoids the paternalizing, demeaning, and stigmatizing process of meanstesting, which is central to most of the current welfare schemes. (Pettit 2007)
+
+**Community participation**
+
+UBI could allow people to spend more time on unpaid activities within their communities and thus help promote a model of individuals as public citizens participating in the public sphere and being involved in various democratic practices. (Dagger 2006; White 2007)
+
+**Empowerment within the workplace**
+
+Workers should be free from the domination of their bosses, which can manifest itself through a precarious employment contract or unregulated working hours. UBI could provide workers with more freedom from nondomination. (Pettit 2007)
+
+{{< /tab >}}
+
+{{< tab tabNum="5" >}}
+
+##### Marxism/socialism
+
+One of Karl Marx’s original criticisms of capitalism is the exploitation of wage laborers: the logic of capitalist production dictates that the only potential source of profit is found in the gap between the value produced by the workers and the wage they received for their labor. Capitalism thus necessitates the exploitation of workers and their subjection to the arbitrary power of wealth over which they have no ownership. As a result, workers experience exploitation and a growing sense of alienation from their labor, from the product of their labor, and from having meaningful connections with other people. Contemporary Marxist and socialist political thought emphasizes the importance of collective bargaining and organized labor; the need to reduce the asymmetry between employers and employees; the need for a workplace with decent working conditions and opportunities for growth; the importance of recognizing the value of informal work and community engagement; and the workers’ right to be protected from the political or technological changes in the labor market.
+
+**Offsetting automation effects**
+
+UBI could help protect workers from the growing unemployment and labor displacement, which continuous technological advancements and automatization are likely to cause. (Rogers 2017)
+
+**Community participation**
+
+UBI could allow people to spend more time on unpaid activities within their communities and thus help promote a model of individuals as public citizens participating in the public sphere and being involved in various democratic practices. (Wright 2006)
+
+**Non-demeaning welfare**
+
+Because it is unconditional and universal, UBI avoids the paternalizing, demeaning, and stigmatizing process of meanstesting, which is central to most of the current welfare schemes. (Wright 2006)
+
+**Poverty elimination**
+
+UBI has the potential to eliminate absolute poverty and to guarantee basic subsistence for every individual. (Rogers 2017)
+
+**Empowerment within the workplace**
+
+A workplace should have decent working conditions, provide opportunities for leisure time and exit options, and develop the capacities and talents of these employees. UBI could empower workers in these ways. (Van der Veen & Van Parijs 1986; Wright 2006; Gourevich 2016)
+
+{{< /tab >}}
+
+{{< tab tabNum="6" >}}
+
+##### Feminism
+
+Feminist political thought has been centered on the need for gender equity understood as equal political, educational, and career opportunities for men and women and, relatedly, the importance of empowering women across economic, political, and social spheres. One key concern has been the recognition of the value of care work and housework, including the need to distribute the burdens of such work more equitably within the household. According to the ethics of care – an ethical theory founded on feminist thought – moral action further centers around intimate caring relationships between individuals. Contemporary feminist political thinkers advocate for the empowerment of economically dependent spouses, the need for affordable daycare and longer parental leaves, and an adequate recognition and compensation of informal labor. They also emphasize the distinctiveness of the experiences and struggles of women and other gender minorities who are multiply burdened because they find themselves at the intersection of numerous axes of oppression.
+
+**Empowerment within the household**
+As a benefit paid to the individual and not to the household, UBI could go a long way in empowering economic dependents and providing them with exit options (for example, in cases of domestic abuse). (Robeyns 2001; Pateman 2004; McKay 2007)
+
+**Neutrality of preferences**
+
+UBI grants individuals more freedom in determining life choices by providing a lifetime of financial security regardless of one’s career preferences. It could potentially free women from the traditional roles they have assumed, allowing them to develop and pursue their own conception of happiness. (McKay 2007; Zelleke 2008)
+
+**Recognition of care work**
+
+Gender equity requires a more adequate recognition and compensation of care work and housework. UBI could help further this goal by increasing the economic security of unwaged caregivers and detaching income from employment. (Robeyns 2001)
+
+**Poverty elimination**
+
+UBI has the potential to eliminate absolute poverty* and thus to satisfy most of our basic needs. (Zelleke 2008)
+
+**Family time**
+
+Everyone should be able to spend as much quality time with their loved ones and dependents as they want to, but these prospects are often incompatible with our breadwinner economic model. UBI could support all individuals (regardless of gender) in reducing work hours to care for dependents. (Pateman 2004; McKay 2007)
+
+{{< /tab >}}
+
+{{< /tabs >}}
