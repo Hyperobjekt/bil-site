@@ -25,7 +25,7 @@ One of the crucial challenges for contemporary democracies is to arrive at agree
 
 Of course, having reasons to support this particular policy does not mean that this is the preferred policy for addressing some of the complex social and economic challenges of today. Different ideological groups might see UBI only as a second or third best solution to the problems they want to tackle. As such, while UBI may not be the first option policy for all to address issues of economic security, it may be one of the rare policies that individuals with differing political beliefs may be able to agree on in the end.
 
-[Link to table](<themes/base-hugo-theme/static/papers/TABLE - SUPPORTING UBI FROM THE PERSPECTIVE OF DIFFERENT FRAMEWORKS OF JUSTICE.pdf>)
+[Link to table](<https://basicincome.stanford.edu/papers/TABLE - SUPPORTING UBI FROM THE PERSPECTIVE OF DIFFERENT FRAMEWORKS OF JUSTICE.pdf>)
 
 {{< tabs tabTotal="6" tabHeader="Frameworks:" tabID="1" tabName1="Liberal Egalitarianism" tabName2="Left/Real Libertarianism" tabName3="Right Libertarianism" tabName4="Republicanism"  tabName5="Marxism/Socialism" tabName6="Feminism" >}}
 
