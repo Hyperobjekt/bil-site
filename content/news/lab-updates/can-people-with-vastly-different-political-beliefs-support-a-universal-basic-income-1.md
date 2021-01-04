@@ -2,8 +2,8 @@
 is_index: false
 type: labupdates
 layout: labsingle
-title: Can people with vastly different political beliefs support a
-  Universal  Basic Income?
+title: Can people with vastly different political beliefs support a Universal
+  Basic Income?
 date: 2020-12-28T17:00:22.823Z
 excerpt: Olga Lenczewska, a fellow with the Stanford Basic Income Lab and
   5th   PhD student at Stanford looks at a how universal basic income (UBI) has
