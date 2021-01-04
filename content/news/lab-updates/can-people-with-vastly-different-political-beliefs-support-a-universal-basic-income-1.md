@@ -42,27 +42,27 @@ Liberal egalitarianism, most commonly associated with the work of John Rawls, is
 
 **Empowerment within the household**
 
-As a benefit paid to the individual and not to the household, UBI could go a long way in empowering economic dependentsand providing them with exit options(for example,in cases of domestic abuse).(Van Parijs 1995;Zelleke 2014)
+As a benefit paid to the individual and not to the household, UBI could go a long way in empowering economic dependents and providing them with exit options(for example, in cases of domestic abuse). (Van Parijs 1995; Zelleke 2014)
 
 **Neutrality of preferences**
 
-UBI grants individualsmore freedom in determining life choices byproviding a lifetimeoffinancial security regardless of one’s career preferences.It would thus support individualsindevelopingand pursuingtheir own conception of happiness.(Van Parijs 1995;Zelleke 2014)
+UBI grants individuals more freedom in determining life choices by providing a lifetime of financial security regardless of one’s career preferences.It would thus support individuals in developing and pursuing their own conception of happiness.(Van Parijs 1995; Zelleke 2014)
 
 **Non-demeaning welfare**
 
-Because it is unconditional and universal, UBI avoids the paternalizing, demeaning, and stigmatizing process of means-testing, which iscentral tomost of the current welfare schemes. (Zelleke 2014)
+Because it is unconditional and universal, UBI avoids the paternalizing, demeaning, and stigmatizing process of means-testing, which is central to most of the current welfare schemes. (Zelleke 2014)
 
 **Poverty elimination**
 
-UBI has the potential to eliminate absolute poverty–povertywhich is incompatible in the most basic sense with individual freedom. (Van Parijs 1995; Zelleke 2014)
+UBI has the potential to eliminate absolute poverty–poverty which is incompatible in the most basic sense with individual freedom. (Van Parijs 1995; Zelleke 2014)
 
 **Education / Acquisition of skills**
 
-UBI would allow individuals to access opportunities for additional education and re-training. Such opportunities could give people material and intellectual resources topursue the kind of projects they want to. (Zelleke 2014)
+UBI would allow individuals to access opportunities for additional education and re-training. Such opportunities could give people material and intellectual resources to pursue the kind of projects they want to. (Zelleke 2014)
 
 **The right not to work**
 
-Wealthy countries have a humanitarian duty, or a duty of justice,to satisfy the basic needs of their citizens even when they choose to engage in non-waged kinds of work. UBI could be a good way for countries enjoying productive economies to discharge this duty.(Baker 1992)
+Wealthy countries have a humanitarian duty, or a duty of justice, to satisfy the basic needs of their citizens even when they choose to engage in non-waged kinds of work. UBI could be a good way for countries enjoying productive economies to discharge this duty.(Baker 1992)
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
@@ -123,7 +123,7 @@ UBI respects the autonomy and agency of individuals by providing them with finan
 
 **Non-demeaning welfare**
 
-Because it is unconditional and universal, UBI avoids the paternalizing, demeaning, and stigmatizing process of meanstesting, which is central to most of the current welfare schemes. (Munger 2012)
+Because it is unconditional and universal, UBI avoids the paternalizing, demeaning, and stigmatizing process of means-testing, which is central to most of the current welfare schemes. (Munger 2012)
 
 **Equal world-ownership**
 
@@ -147,7 +147,7 @@ UBI would promote freedom from domination by reducing the power of employers and
 
 **Non-demeaning welfare**
 
-Because it is unconditional and universal, UBI avoids the paternalizing, demeaning, and stigmatizing process of meanstesting, which is central to most of the current welfare schemes. (Pettit 2007)
+Because it is unconditional and universal, UBI avoids the paternalizing, demeaning, and stigmatizing process of means-testing, which is central to most of the current welfare schemes. (Pettit 2007)
 
 **Community participation**
 
@@ -155,7 +155,7 @@ UBI could allow people to spend more time on unpaid activities within their comm
 
 **Empowerment within the workplace**
 
-Workers should be free from the domination of their bosses, which can manifest itself through a precarious employment contract or unregulated working hours. UBI could provide workers with more freedom from nondomination. (Pettit 2007)
+Workers should be free from the domination of their bosses, which can manifest itself through a precarious employment contract or unregulated working hours. UBI could provide workers with more freedom from non-domination. (Pettit 2007)
 
 {{< /tab >}}
 
@@ -175,7 +175,7 @@ UBI could allow people to spend more time on unpaid activities within their comm
 
 **Non-demeaning welfare**
 
-Because it is unconditional and universal, UBI avoids the paternalizing, demeaning, and stigmatizing process of meanstesting, which is central to most of the current welfare schemes. (Wright 2006)
+Because it is unconditional and universal, UBI avoids the paternalizing, demeaning, and stigmatizing process of means-testing, which is central to most of the current welfare schemes. (Wright 2006)
 
 **Poverty elimination**
 
