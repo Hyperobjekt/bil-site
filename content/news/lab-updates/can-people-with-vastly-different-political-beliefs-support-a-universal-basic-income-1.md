@@ -11,6 +11,11 @@ excerpt: Olga Lenczewska, a fellow with the Stanford Basic Income Lab and 5th
   and   ideological commitments.
 image: /uploads/47967732453_5f1d4cfb9c_o.jpg
 align: left
+social_description: "*Olga Lenczewska, a fellow with the Stanford Basic Income
+  Lab and 5th PhD student at Stanford looks at a how universal basic income
+  (UBI) has a rare potential to gather supporters who hold vastly different
+  beliefs and ideological commitments.*"
+social_image: /uploads/47967732453_5f1d4cfb9c_o.jpg
 ---
 *Olga Lenczewska, a fellow with the Stanford Basic Income Lab and 5th PhD student at Stanford looks at a how universal basic income (UBI) has a rare potential to gather supporters who hold vastly different beliefs and ideological commitments.*
 
