@@ -10,6 +10,7 @@ excerpt: The Lab invites you to take a more indepth look at the creation of the
 image: ""
 thumb: /uploads/research-viz-thumb.jpg
 align: center
+social_image: /uploads/research-viz-thumb.jpg
 ---
 <div class="videoWrapper">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/tcPJ2KUb35g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
