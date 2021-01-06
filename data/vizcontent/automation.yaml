@@ -1,0 +1,95 @@
+themeid: automation
+themename: Automation
+themes:
+  - theme: Automation and the Future of Work
+    id: automation-and-future-of-work
+    body: >-
+      *This section discusses the potential threats posed by automation to the
+      future of work and how UBI might address some of these challenges.*
+
+
+      In   recent   years,   there   have   been   growing   concerns   about   the   potential   societal   effects   of automation   and   artificial   intelligence   (AI)—especially   the   threat   of   unprecedented   job displacement   and   large-scale   unemployment.  A  recent   poll,   for   example,   suggests   that   most adults (73 percent) think that “an increased use of AI will eliminate more jobs than it creates,” a worry that is especially high among younger respondents (78 percent for individuals between the ages   of   18   to   35)   and   among   workers   holding   blue-collar   jobs   (82   percent)  (Gallup   andNortheastern University, 2018).If we value democracy because of its association with good governance, we may ask what impact UBI would have on the ability of democracies to govern well. Evidence from cash transfers offers insights on accountability and legitimacy—the two values thought necessary for good governance.
+
+
+      UBI appears to be an attractive solution to this threat. In fact, automation is the most frequently cited topic connected to the discussion of UBI, and in the same Northeastern and Gallup poll, 48 percent of respondents support a basic income for individuals who lose their jobs as a result of automation. Among supporters of UBI, 80 percent agree with the idea of taxing businesses to fund it. More specifically, they agree with the statement that companies who benefit from the adoption of AI should pay for a UBI for those displaced by this economic shift  (Gallup andNortheastern University, 2018).
+
+
+      At the same time, there is wide disagreement about the seriousness of the threat posed by current developments in automation and artificial intelligence. Among the many potential future scenarios, three can be considered: (1) large-scale and long-term unemployment; (2) short-term unemployment and long-term recovery of the labor market; (3) large changes to the labor market in unpredictable and unprecedented ways. Depending on the scenario we privilege, a universal basic income may appear unequally pertinent, with different advantages and limitations.
+
+
+      According to the first scenario, current trends in automation and developments in artificial intelligence are likely to result in massive job loss and in large-scale and long-term unemployment. Some estimate that anywhere between 47 and 80 percent of current jobs could be automated in the next two decades (McKinsey Global Institute, 2017; Slaughter et al., 2017; Srnicek & Williams, 2015). If this estimate is plausible, there is indeed very serious grounds to fear unprecedented job loss and workers’ displacement (Ford, 2015; Stern, 2016). UBI might then appear to be an efficient—and even necessary—policy to provide a safety net for workers who would lose their jobs, either while they attempt to find a new one and retrain, or as a permanent replacement for their salary in case there are no new jobs available. If funded through some of the wealth produced by automation, UBI would further enable communities to harness some of the profits of automation to keep a stable and generous income floor across society under conditions of large technological unemployment (Sandbu, 2017; Walker, 2016). UBI could further enable individuals to engage in productive activities beyond paid labor (including caregiving and volunteering, but also starting a business project of one’s own) which would be especially valuable in an economy where formal jobs become scarce. Importantly though, UBI would not provide a solution for technological unemployment itself. It would rather allow political communities to mitigate some of its negative effects. Since employment is an important part of human life and can deliver goods beyond money, such as the ability to make a social contribution, feel part of a community, achieve excellence and social recognition (Gheaus & Herzog, 2016; Hughes, 2018), it is implausible to think that UBI can fully compensate individuals for the loss of a job. 
+
+
+      According to the second scenario, while automation and AI are likely to contribute to some level of short-term unemployment, the economy will eventually adapt, and the labor market will recover. There is historical evidence in support of this scenario. While every major technological change throughout history resulted in job loss and workers’ displacement, the long-term demand for labor remained constant or even increased over time (Ford, 2015; Stern, 2016). In this case, we should anticipate large disruptions in the short-term, and overall stabilization in the long-term. If the current wave of technological changes indeed resulted only in short-term job loss, it might still take time for the economy to adapt to these changes, and many individuals and communities will find themselves on the losing end of those changes (since 2000, automation has already contributed to the elimination of millions of manufacturing jobs in the United States). In this case, UBI may prove a critical means to smooth the transition (McKinsey Global Institute, 2017; Walker, 2016). Workers and communities who stand to lose need to have access to a more generous, robust and less bureaucratic safety net than currently available. A UBI would ensure that those communities aren't left behind entirely. Moreover, a UBI for all could lead to a reduction of working hours among those who still have a job, which could then free up positions for those out of work, thus facilitating job-sharing. It is important to note, however, that a fully universal basic income may not be needed in this second scenario. A targeted basic income specifically for those who lose their jobs could be a suitable solution, as long as it is delivered efficiently, and that access is maximized. 
+
+
+      Finally, according to the third scenario, automation and AI will result in large changes in the labor market that would cause unprecedented transformation. For example, even if automation does not cause massive unemployment, it might lead to an increase in the number of individuals who rely on the “gig economy” as their main source of income. In the least optimistic versions of this scenario, more and more individuals would have to rely on temporary, precarious, and insecure jobs in order to piece together their income and benefits (Slaughter et al., 2017). The range of jobs and activities that will be potentially impacted by automation and AI is quite wide. Some estimates suggest that about 60 percent of all occupations include at least 30 percent of activities that are likely to be automated (McKinsey Global Institute, 2017). The universal and unconditional nature of UBI allows for a better preparation for such wide and uncertain effects and could enhance existing safety net programs to accommodate individuals who are affected by these changes, whether unemployed or not (Bidadanure, 2019). UBI offers a more adequate answer to the large-scale precariousness and insecurity that are associated with these changes, many of which we are already seen today (Srnicek & Williams, 2015; Standing, 2012). 
+
+
+      UBI thus seems pertinent in a range of likely scenarios related to the future of work. But UBI is no panacea either and it cannot fix alone all that is lost when workers lose their jobs. Some also argue that the current debate around the threats of automation may not be a necessary part of the case for UBI. Today, the United States is already seeing a significant trend of economic dislocation and wealth concentration, which may be sufficient to justify UBI as a redistributive measure even without the hypothetical threat to future jobs (Hughes, 2018). Furthermore, the current focus on the threats of automation may distract policymakers from the various other reasons we already have to support UBI, such as the need for efficient and respectful poverty alleviation and for more adequate compensation of caregivers (Ruben, 2017).
+    related:
+      - id: job-precariousness
+        text: Job precariousness
+      - id: unemployment
+        text: Unemployment
+      - id: work-beyond-jobs
+        text: Work beyond Jobs
+      - id: economic-inequality
+        text: Economic Inequality
+    citations: >-
+      Bidadanure, Juliana. 2020. “The Political Theory of Universal Basic
+      Income,” Annual Review of Economics. Vol 22 (March 2019): 481-501.
+
+
+      Ford, Martin. 2015. Rise of the Robots: Technology and the Threat of a Jobless Future. New York: Basic Books
+
+
+      Gheaus, Anca and Lisa Herzog. 2016. “The Goods of Work (Other Than Money!),” Journal of Social Philosophy. Vol 47, no. 1 (Spring 2016): 70-89.
+
+
+      Harvey, Philip. 2013. More for Less: The Job Guarantee Strategy,” Basic Income Studies 7(2): 3-18.
+
+
+      Hughes, Chris. 2018. Fair Shot: Rethinking Inequality and How We Earn. New York: St. Martin’s Books.
+
+
+      McKinsey Global Institute. 2017. “A Future that Works: Automation, Employment, and Productivity”
+
+
+      Metz, Cade. 2015. “Why WhatsApp Only Needs 50 Engineers for its 900M users.” Wired Magazine09/15/15. <https://www.wired.com/2015/09/whatsapp-serves-900-million-users-50-engineers>
+
+
+      Northeastern University & Gallup. 2018. “Optimism and Anxiety: Views on the Impact of Artificial Intelligence and Higher Education Response”
+
+
+      Reich, Robert B. 2016. Saving Capitalism: For the Many, Not the Few. New York: Vintage Books.
+
+
+      Rogers, Brishen. 2018. "Basic Income in a Just Society", Boston Review (online), 1/31/2018.
+
+
+      Ruben, Adam. 2017. “What Does the Debate on Automation Mean for Basic Income.” Economic Security Project, 3/24/2017. https://medium.com/economicsecproj/what-does-the-debate-on-automation-mean-for-basic-income-c68df5bc6245
+
+
+      Sandbu, Martin. "Money Can Buy You Work," Financial Times (2017)
+
+
+      Shift: The Commission on Work, Workers, and Technology. 2017. *Report of Finding.* <https://shiftcommission.work/findings-of-shift-the-commission-on-work-workers-and-technology-a071bc169df0>
+
+
+      Srnicek, Nick and Alex Williams. Inventing the Future: Postcapitalism and a World Without Work. London and New York: Verso Books, 2015.
+
+
+      Standing, Guy. 2011. The Precariat: The New Dangerous Class. London: Bloomsbury.
+
+
+      Stern, Andy. Raising the Floor: How a Universal Basic Income Can Renew our Economy and Rebuild the American Dream. New York: Public Affairs, 2016.
+
+
+      Tcherneva, Pavlina R. 2013. “The Job Guarantee: Delivering the Benefits That Basic Income Only Promises – A Response to Guy Standing,” Basic Income Studies 7 (2): 66-87.
+
+
+      Yang, Andrew. 2018. *The War on Normal People: The Truth About America’s Disappearing Jobs and Why Universal Basic Income is Our Future*. New York: Hachette Books. 
+
+
+      Walker, Mark. Free Money for All. A Basic Income Guarantee Solution for the Twenty-First Century. Palgrave Macmillan (2016).

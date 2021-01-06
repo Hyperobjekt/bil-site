@@ -3,7 +3,7 @@
     <div class="navlinks">
         {{ $showActiveNav := .Site.Params.showActiveNav }}
         {{ $currentPage := . }}
-        {{ range .Site.Menus.main }}
+        {{ range .Site.Menus.drawer }}
         {{ $active := "" }}
         {{ if eq $showActiveNav true }}
         {{ $isMenu := or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}
@@ -17,6 +17,7 @@
             {{ $text }}
         </a>
         {{ end }}
+        <div class="social mt-5">{{ partial "social.html" . }}</div>
     </div>
   
 </div>

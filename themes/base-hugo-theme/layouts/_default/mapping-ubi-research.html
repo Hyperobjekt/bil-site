@@ -1,78 +1,193 @@
 {{ define "main" }}
-{{ with .Page.Params }}
-<div id="hero" class="hero">
+
+<!--<div id="hero" class="hero">
     <div class="hero-child row">
-        
+
         <div class="hero-copy col-10 col-md-8 offset-md-1 d-flex align-items-center">
-        
-            <h1 class="page-hero">{{ .herotext }}</h1>
-            
+
+            <h1 class="page-hero">Research Conducted by the Stanford Basic Income Lab</h1>
+
         </div>
     </div>
-</div>
+</div>-->
 
-<div class="row subnav d-md-none small-tab-nav">
+<!--<div class="row subnav d-md-none small-tab-nav">
         <div class="dropdown d-flex justify-content-center align-items-center">
-            <div>Research:</div> 
+            <div>Research:</div>
             <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 UBI Research Visualization
             </button>
       <ul class="anchor-links dropdown-menu">
         <li class="mb-3"><a href="/research/experiments-map/">Experiments Map</a></li>
         <li class="mb-3"><a href="/research/papers/">Papers</a></li>
-           
+
     </ul>
   </div>
 </div>
 <div class="row d-sm-none d-md-flex subnav">
     <div class="col-12 col-md-10 offset-md-1">
         <ul class="d-flex justify-content-center align-items-center pl-md-0">
-        
-            <li class=""><a href="/research/experiments-map/">Experiments Map</a></li>
-            <li class="mx-md-5"><a href="/research/papers">Papers</a></li>
-            <li class="active">UBI Research Visualization</a></li>
-        
-          
+
+            <li class="active">Mapping UBI Research</a></li>
+            <li class="mx-md-5"><a href="/research/ubi-cities-toolkit">UBI Cities Toolkit</a></li>
+            <li class=""><a href="/research/basic-income-experiments/">Basic Income Experiments</a></li>
+
         </ul>
     </div>
-</div>
+</div>-->
 <!-- /SUBNAV -->
 
-<div id="mapping-text" class="pt-sm-5 pt-md-7 pt-lg-9 pt-xl-12 pb-sm-7 pb-md-7 pb-xl-8">
-        <div class="row">
-            <div class="col-md-4 mt-md-11 offset-md-1 col-lg-3 offset-lg-2 mt-0 d-flex flex-column justify-content-start align-items-sm-center align-items-md-end" style="background-image: url('/images/backgrounds/UBI-viz-close-crop.jpg'); background-size: contain; background-repeat: no-repeat; background-position: right top;">
+<div id="visualizing-intro" class="pb-sm-7 pb-md-5 pb-lg-6 pb-xl-7">
+    <div class="row pb-2 pt-md-6 pb-md-3 pb-lg-7 pt-lg-12 pb-xl-8 pt-xl-12 mx-0 px-2" id="visualizing-intro__hero">
+        <!--<div class="col-md-3 mt-md-11 offset-md-2 mt-0 d-flex flex-column justify-content-start align-items-sm-center align-items-md-end"
+            style="background-image: url('/images/backgrounds/UBI-viz-close-crop.jpg'); background-size: contain; background-repeat: no-repeat; background-position: right top;">
+    
+        </div> -->
+        <div class="col-12 col-md-10 offset-md-1 col-xl-7 offset-xl-2">
+            <h2 class="mb-sm-2 mb-xl-3 whitetext">Visualizing UBI Research</h2>
+            <h5 class="mb-sm-5 mb-xl-6 whitetext slatetext">{{ .Params.subhead }}</h5>
+        </div>
+    </div>
+    <div class="row pt-5 pt-md-6 pt-lg-6 pt-xl-8">
+
+        <!--<div id="visualizing-intro__header" class="col-12 col-md-10 offset-md-1 offset-xl-2 bronzetext mb-3 mb-lg-4">
+            
+            <h2>Introduction</h2>
+            
+        </div>
+        <div class="w-100"></div>-->
+        <div id="visualizing-intro__columns" class="col-count-2 col-12 col-md-10 col-xl-8 offset-md-1 offset-xl-2 medgraytext">
+            
+            {{ .Params.body1 | markdownify }}
+            
+        </div>
+        <div id="visualizing-intro__button" class="col-12 d-flex my-5 my-xl-6">
+            <div class="scroll-button mx-auto" data-target="#viz-section">
+                <button class="d-flex flex-column justify-content-center align-items-center btn btn-primary">Explore the visualization <br>{{ partial "rightarrow-white.html" }}</button>
                 
-            </div>
-            <div class="col-md-6 ml-md-3 col-lg-5">
-                <h2 class="mb-sm-4 mb-md-4 mb-xl-5">{{ .heading1 }}</h2>
-                <span class="medgraytext mt-md-1">{{ .body1 | markdownify }}</span>
             </div>
         </div>
     </div>
+</div>
 
-<!--/////----   Visualization   ----\\\\\-->
-<div id="hp-viz" style="background-color: #f1f1f1;">   
-        <div class="row">   
-        <div class="col-md-5 offset-md-1 pt-sm-20 pb-sm-6 py-md-11 py-lg-15 py-xl-16">
-            <h2 class="blacktext text-sm-center text-md-left mt-sm-4 mt-md-0 mb-1">{{ .heading2 }}</h2>
-            <span class="slatetext mt-2">{{ .body2 | markdownify }}</span>    
+<!-- VISUALIZATION ---------------------------------- -->
+<!-- <div id="" class="gray-bg pt-sm-14 pt-md-14 pt-lg-14 pt-xl-14 pb-sm-14 mr-0 ml-0 row">
+
+</div> -->
+<!-- Load fonts because typekit fonts are not utilized by eCharts -->
+
+<!-- End load fonts -->
+<div id="viz-section" class="viz-section">
+  <div id="viz-parent" class="viz-parent scrollytell">
+    <div class="click-hint hint drop-shadow">Click a circle to begin</div>
+    <button class="toggle toggle--openOnly">
+      <div class="open-group group">
+        <i class="fa fa-chevron-left"></i>
+        <p>open</p>
+      </div>
+    </button>
+    <div class="viz-wrapper scrollytell__fixed">
+      <div id="viz-space" class="viz-space" data-echart-responsive="true" class="mr-0 ml-0"></div>
+      <div class="viz-footer">
+        <button
+          class="viz-btn-attributes scroll-button btn-primary mx-auto d-flex justify-content-center"
+          data-target="#sponsors"
+        >
+          View attributions & citation &nbsp; {{ partial "rightarrow.html" }}
+        </button>
+      </div>
+      
+    </div>
+    <div class="viz-blocker"></div>
+    <div id="text-panel" class="viz-content scrollytell__content">
+      <div class="viz-content-heading">
+        <h1 class="bronzetext">UBI Themes</h1>
+        <button class="toggle toggle--closeOnly">
+          <div class="close-group group">
+              <i class="fa fa-chevron-right"></i>
+              <p>close</p>
+          </div>
+        </button>
+      </div>
+      <button class="toggle toggle--desktop">
+        <div class="close-group group">
+            <i class="fa fa-chevron-right"></i>
+            <p>close</p>
         </div>
+        <div class="open-group group">
+            <i class="fa fa-chevron-left"></i>
+            <p>open</p>
         </div>
-    </div>  
+      </button>
+      <div class="accordion" id="accordionExample">
+        <!-- GENDER ------------------------------------------------------------------------>
+        {{ with .Site.Data.vizcontent.gender }} 
+        {{ partial "vizthemetext" . }}
+        {{ end }}
+        <!-- DEMOCRACY ------------------------------------------------------------------------>
+        {{ with .Site.Data.vizcontent.democracy }} 
+        {{ partial "vizthemetext" . }}
+        {{ end }}
+        <!-- ECONOMIC EFFECTS ------------------------------------------------------------------------>
+        {{ with .Site.Data.vizcontent.economic }} 
+        {{ partial "vizthemetext" .}} 
+        {{ end }}
+        <!-- RACE ------------------------------------------------------------------------>
+        {{ with .Site.Data.vizcontent.race }} 
+        {{ partial "vizthemetext" . }}
+        {{ end }}
+        <!-- WORK ------------------------------------------------------------------------>
+        {{ with .Site.Data.vizcontent.work }} 
+        {{ partial "vizthemetext" . }}
+        {{ end }}
+        <!-- AUTOMATION ------------------------------------------------------------------------>
+        {{ with .Site.Data.vizcontent.automation }} 
+        {{ partial "vizthemetext" . }} 
+        {{ end }}
+        <!-- HEALTH ------------------------------------------------------------------------>
+        {{ with .Site.Data.vizcontent.health }} 
+        {{ partial "vizthemetext" . }}
+        {{ end }}
+        <!-- END CARDS ------------------------------------------------------->
+      </div>
+    </div>
+  </div>
+</div>
 <!-- SPONSORS ---------------------------------------- -->
-{{ end }}
+
 <div id="sponsors">
-        <div class="row">
-            <div class="col-md-6 col-lg-6 mx-auto d-flex flex-column align-items-center text-center my-sm-5 my-md-8 my-lg-9 my-xl-11 user-entry">
-                
+  <!--<div class="scroll-button" data-target="#viz-section">
+            <p>Back to visualization</p>
+            <i class="fa fa-chevron-up"></i>
+        </div>-->
+  <div id="visualization-attributions" class="row pt-sm-5 pt-md-7 pt-lg-7 pt-xl-9 pb-sm-7 pb-md-7 pb-lg-8 pb-xl-9">
+    <!--<div class="col-md-6 col-lg-6 mx-auto d-flex flex-column align-items-center text-center my-sm-5 my-md-8 my-lg-9 my-xl-11 user-entry">
+
                 {{ .Content }}
-            </div>
-        </div>
+            </div>-->
+   
+      <!--<div id="visualization-attributions__header" class="col-12 col-md-10 offset-md-1 offset-xl-2 bronzetext mb-3 mb-lg-4">
+              
+        <h2>Attributions & Citation</h2>
         
-       
-     
-    </div>  
+    </div>
+    <div class="w-100"></div>-->
+    <div id="visualizing-attributions__columns" class="col-count-2 col-12 col-md-10 col-xl-8 offset-md-1 offset-xl-2 medgraytext">
+        
+      {{ .Content | markdownify }}
+        
+    </div>
+  </div>
+  <!--<div class="row mb-5 mb-md-4 mb-lg-9 mb-xl-11 d-flex align-items-center">
+                <div class="col-0 col-md-1"></div>
+                <div class="col-12 col-md pb-4 px-8 px-md-0 pb-md-0"><img alt="Robert Wood Johnson Foundation Logo" src="/images/icons/rwjflogo.png" width="100%" /></div>
+                <div class="col-12 col-md pb-4 px-8 px-md-0 pb-md-0"><img alt="Economic Security Foundation Logo" src="/images/icons/esp-logo.png" width="100%" /></div>
+                <div class="col-12 col-md pb-4 px-8 px-md-0 pb-md-0 d-flex justify-content-center"><img alt="Jain Family Institute Logo" src="/images/icons/jain-logo.png" width="50%" height="50%" /></div>
+                <div class="col-12 col-md pb-4 px-8 px-md-0 pb-md-0"><img alt="McCoy Family Center for Ethics in Society Logo" src="/images/icons/mc-logo.png" width="100%" /></div>
+                <div class="col-0 col-md-1"></div>
 
-{{ partial "subscribe.html" .}}
 
-{{ end }}
+        </div>-->
+</div>
+
+{{ partial "subscribe.html" .}} {{ end }}

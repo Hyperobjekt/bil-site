@@ -1,0 +1,541 @@
+$TOP_OFFSET: 64px;
+
+$SCROLL_BUTTON_HEIGHT: 30px;
+$TOGGLE_PANEL_BUTTON_HEIGHT: 69px;
+
+$VIZ_AREA_HEIGHT: calc(
+  #{100vh} - #{$NAVBAR_HEIGHT} - (#{$SCROLL_BUTTON_HEIGHT} * 2)
+);
+$VIZ_AREA_HEIGHT_TABLET: $VIZ_AREA_HEIGHT;
+
+$TEXT_PANEL_WIDTH: 640px;
+$TEXT_PANEL_WIDTH_XL: 760px;
+
+$TEXT_PANEL_HEIGHT_MOBILE: calc(
+  #{$VIZ_AREA_HEIGHT} - #{$TOGGLE_PANEL_BUTTON_HEIGHT}
+);
+$TEXT_PANEL_HEIGHT_TABLET: 400px;
+$TEXT_PANEL_EASING: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+$VIZ_HEIGHT: $VIZ_AREA_HEIGHT;
+$VIZ_HEIGHT_TABLET: calc(
+  #{$VIZ_AREA_HEIGHT_TABLET} - #{$TEXT_PANEL_HEIGHT_TABLET}
+);
+
+$MIN_VIZ_CANVAS_WIDTH: 660px;
+$MIN_VIZ_CANVAS_HEIGHT: 260px;
+
+// colors - keep in sync with theme.yaml
+$UBI_COLOR: #00505C;
+$DEMOCRACY_COLOR: #DB8311;
+// $GENDER_COLOR: #AF690C; darkened at SBG request
+$GENDER_COLOR: #8C540B;
+$HEALTH_COLOR: #F5CF9E;
+$AUTOMATION_COLOR: #36BFD4;
+$WORK_COLOR: #CFF9FF;
+$RACE_COLOR: #737579;
+$ECONOMY_COLOR: #e8e7e7;
+
+$DEMOCRACY_THEME: (
+  "id": "democracy",
+  "color": $DEMOCRACY_COLOR,
+);
+$GENDER_THEME: (
+  "id": "gender",
+  "color": $GENDER_COLOR,
+);
+$HEALTH_THEME: (
+  "id": "health",
+  "color": $HEALTH_COLOR,
+);
+$AUTOMATION_THEME: (
+  "id": "automation",
+  "color": $AUTOMATION_COLOR,
+);
+$WORK_THEME: (
+  "id": "work",
+  "color": $WORK_COLOR,
+);
+$RACE_THEME: (
+  "id": "race",
+  "color": $RACE_COLOR,
+);
+$ECONOMY_THEME: (
+  "id": "economic-effects",
+  "color": $ECONOMY_COLOR,
+);
+
+$THEMES: (
+  $DEMOCRACY_THEME,
+  $GENDER_THEME,
+  $HEALTH_THEME,
+  $AUTOMATION_THEME,
+  $WORK_THEME,
+  $RACE_THEME,
+  $ECONOMY_THEME
+);
+
+nav.navbar.sticky-top {
+  z-index: 3000;
+}
+
+.scroll-button {
+  height: $SCROLL_BUTTON_HEIGHT;
+  display: inline-block;
+  cursor: pointer;
+  p {
+    display: inline-block;
+  }
+}
+
+/** OPEN / CLOSE TOGGLE STYLES */
+
+// button to toggle open / close
+.toggle {
+  cursor: pointer;
+  // position: absolute;
+  // left: 1px;
+  // top: 24px;
+  width: 61px;
+  height: $TOGGLE_PANEL_BUTTON_HEIGHT;
+  background: white;
+  //border: solid .5px rgba(55, 55, 55, 0.125);
+  padding: 10px;
+  border-radius: 2px;
+  border: none;
+  &:hover {
+    background: #eee;
+  }
+  .group {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+
+    p {
+      font-size: 12px;
+      font-weight: $font-weight-light;
+      margin: 0;
+      text-transform: uppercase;
+    }
+    &.close-group {
+      display: none;
+    }
+    &.open-group {
+      display: flex;
+    }
+  }
+}
+
+
+// position for mobile toggle, shift left to align with collapse / expand
+.viz-content .toggle.toggle--closeOnly {
+  position:relative;
+  left:12px;
+}
+
+// position for desktop toggle, sticky so the control is available while scrolling
+.viz-content .toggle.toggle--desktop {
+  position: sticky;
+  left:0;
+  top:64px;
+  margin-bottom: 48px;
+  transform: translate(-100%, 24px);
+}
+
+// show / hide toggle text based on panel status
+.text-panel-open {
+  .toggle .close-group.group {
+    display: flex;
+  }
+  .toggle .open-group.group {
+    display: none;
+  }
+}
+
+// open toggle for mobile
+.viz-parent .toggle.toggle--openOnly {
+  position:absolute;
+  right:0px;
+  top: 24px;
+  z-index: 3000;
+}
+@media(min-width: 1200px) {
+  .viz-parent .toggle.toggle--openOnly {
+    display: none;
+  }
+}
+
+/** END OPEN / CLOSE TOGGLE STYLES **/
+
+/** VISUALISATION LAYOUT **/
+
+.viz-parent {
+  position:relative;
+  width: 100%;
+  display: block;
+  background-color: #fbfaf7;
+}
+// wrapper around .viz-space to keep it sticky on scroll
+.viz-wrapper {
+  overflow: hidden;
+  position: sticky;
+  top: $TOP_OFFSET;
+  width: 100%;
+  height: calc(100vh - #{$TOP_OFFSET});
+  z-index: 1;
+}
+// visualization area, fill parent
+.viz-space {
+  background-color: #fbfaf7;
+  position: absolute;
+  width: 100%;
+  min-width: 660px;
+  height: calc(100% - 64px); // make room for attributions button
+  z-index: 2998;
+}
+// content area for visualization, 
+// fixed on mobile to fill viewport and scrollable
+.viz-content {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right:0;
+  left:auto;
+  height: 100%;
+  width: 100%;
+  max-width: 640px;
+  overflow:auto;
+  z-index: 9999;
+  background: #fff;
+  transform: translateX(100%);
+  transition: transform 0.4s $TEXT_PANEL_EASING;
+}
+.viz-content .accordion {
+  margin-top: -1 * $TOGGLE_PANEL_BUTTON_HEIGHT - 48px;
+}
+.viz-content .accordion > .card {
+  overflow: visible;
+  .card-header-sticky {
+    top: 64px; // top offset to clear heading
+  }
+}
+.viz-content .accordion > .card .card-header {
+  margin-bottom:0;
+}
+// turn off body scrolling when panel is open (mobile)
+.text-panel-open {
+  overflow:hidden;
+  .viz-content { transform: translateX(0%); }
+}
+@media(min-width: 1200px) {
+  .viz-content {
+    position: relative;
+    margin-top: calc(-100vh + #{$TOP_OFFSET});
+    transform: translateX(100%);
+    overflow:visible;
+    z-index:1;
+    margin-left: auto;
+    min-height: calc(100vh - #{$TOP_OFFSET});
+  }
+  .viz-content .accordion > .card .card-header-sticky {
+    top: 64px;
+  }
+  // on large displays, scroll the body of the page when panel is open
+  .text-panel-open {
+    overflow:auto;
+    overflow-x:hidden;
+    .viz-content { transform: translateX(0%); }
+    .viz-space {
+      width: calc(100% - 640px);
+    }
+  }
+}
+
+.viz-footer { 
+  position: absolute;
+  width:100%;
+  bottom: 0;
+  height: 64px;
+  background: #fff;
+  z-index:3000;
+  margin:auto;
+}
+
+.viz-btn-attributes {
+  position: absolute;
+  width:100%;
+  bottom: 16px;
+  z-index:3000;
+  left:50%;
+  transform:translateX(-50%);
+  margin:auto;
+  white-space: nowrap;
+  transition: left 0.4s $TEXT_PANEL_EASING;
+}
+.text-panel-open {
+  .viz-btn-attributes {
+    left: calc(50% - 320px);
+  }
+}
+
+/** END VISUALISATION LAYOUT **/
+
+/** "RESEARCH CATEGORIES HEADING (mobile only) **/
+.viz-content-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 3.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #fff;
+  height: 80px;
+  h1 {
+    font-weight: 600;
+  }
+}
+@media(min-width: 768px) {
+  .viz-content-heading {
+    padding: 16px 4.8rem;
+  }
+}
+@media(min-width: 1200px) {
+  .viz-content-heading {
+    display:none;
+  }
+}
+/** END RESEARCH CATEGORIES HEADING */
+
+
+/** 
+* VIZ BLOCKER
+* adds an overlay on small-res devices over the 
+* non-vis content to show it is inactive
+**/
+
+.viz-blocker {
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height: 100%;
+  z-index: 9998;
+  background: rgba(0,0,0,0.2);
+  transition: opacity 0.4s ease-in-out;
+  opacity: 0;
+  pointer-events: none;
+}
+.text-panel-open .viz-blocker.viz-blocker--show {
+  opacity: 1;
+  pointer-events: all;
+}
+// hide on mobile screens
+@media(max-width: 660px) {
+  .viz-blocker { display: none; }
+}
+// hde on desktop screens
+@media(min-width: 1200px) {
+  .viz-blocker { display: none; }
+}
+
+/** END VIZ BLOCKER */
+
+.click-hint {
+  z-index: 2999; // above chart, below nav
+  position: absolute;
+  width: 136px;
+  left: calc(24% - 70px);
+  top: 120px;
+  @include media-breakpoint-up(md) {
+    top: 65px;
+  }
+  padding: 20px;
+  text-align: center;
+  border-radius: 4px;
+  //border: .5px solid black;
+  background: white;
+  color: black;
+}
+
+.card {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 1px solid #eeeeee;
+  margin-left: 3.2rem;
+  margin-right: 3.2rem;
+  @include media-breakpoint-up(md) {
+    margin-left: 4.8rem;
+    margin-right: 4.8rem;
+  }
+  overflow: unset;
+  &:last-of-type {
+    border-bottom: none;
+  }
+  &:focus {
+    .card-header {
+      position: sticky;
+      top: 0;
+    }
+  }
+}
+.card-header {
+  height: 65px;
+  background: white;
+  padding: 0.75rem 0;
+  z-index: 1;
+  &.card-header-sticky {
+    position: sticky;
+    top: 0px;
+    @include media-breakpoint-up(md) {
+      top: 0;
+    }
+  }
+  .text {
+    // display: inline-block;
+    font-size: 20px;
+  }
+
+  .btn {
+    text-align: start;
+    text-decoration: none;
+    position: relative;
+    width: 100%;
+    padding: 0.375rem 0.75rem 0.375rem 0;
+    .icon {
+      position: absolute;
+      right: 0;
+    }
+    &.collapsed {
+      .collapse-icon {
+        display: none;
+      }
+    }
+    &:not(.collapsed) {
+      .expand-icon {
+        display: none;
+      }
+    }
+  }
+
+  .btn-link:hover {
+    color: unset;
+    text-decoration: unset;
+  }
+
+  @each $theme in $THEMES {
+    &#heading-#{map-get($theme, "id")} .theme-orb {
+      height: 16px;
+      width: 16px;
+      margin-right: 9px;
+      border-radius: 50%;
+      display: inline-block;
+      background-color: #{map-get($theme, "color")};
+    }
+  }
+}
+.card {
+  a.nav-link:before {
+    content: "•";
+    font-size: 32px;
+    margin-right: 8px;
+    position: relative;
+    top: 2px;
+  }
+  #collapse-gender {
+    a.nav-link:before {
+      color: #af690c;
+    }
+  }
+  #collapse-economic-effects {
+    a.nav-link:before {
+      color: #dcdcdc;
+    }
+  }
+  #collapse-democracy {
+    a.nav-link:before {
+      color: #db8311;
+    }
+  }
+  #collapse-race {
+    a.nav-link:before {
+      color: #747579;
+    }
+  }
+  #collapse-work {
+    .underbar {
+      // background-color: #cff9ff;
+    }
+    a.nav-link:before {
+      color: #cff9ff;
+    }
+  }
+  #collapse-automation {
+    a.nav-link:before {
+      color: #36bfd4;
+    }
+  }
+  #collapse-health {
+    a.nav-link:before {
+      color: #f5cf9e;
+    }
+  }
+}
+.card-body {
+  color: #6d6d6d;
+  padding: 1.6rem 0;
+  .nav-link {
+    padding: 0rem 1.6rem 0rem 0;
+    margin-right: 0.8rem;
+    .underbar {
+      width: 56px;
+      height: 3px;
+      margin-top: 8px;
+      background-color: black;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      margin-left: 24px;
+    }
+  }
+  p {
+    color: #6d6d6d;
+    margin-bottom: 1.6rem;
+  }
+
+  .related-link a {
+    color: #04143c;
+    text-decoration: underline;
+    cursor: pointer;
+    &:hover {
+      color: #9a6013;
+      text-decoration: underline;
+    }
+  }
+}
+.card-body .nav-pills .nav-link {
+  color: #6d6d6d;
+  font-weight: 500;
+  border-radius: 10px;
+  &:hover {
+    color: #9a6013;
+  }
+}
+.card-body .nav-pills .nav-link.active {
+  background: transparent;
+  color: #9a6013;
+  //color: #6d6d6d;
+  font-weight: 500;
+  border-radius: 10px;
+  .underbar {
+    width: 56px;
+    height: 3px;
+    margin-top: 8px;
+    background-color: #9a6013;
+    //background-color: #6d6d6d;
+    opacity: 1;
+  }
+}
+

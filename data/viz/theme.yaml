@@ -1,0 +1,31 @@
+#- '#00505C'
+#- '#AF690C'
+#- '#DB8311'
+#- '#623B06'
+#- '#89530C'
+#- '#E89934'
+#- '#F5CF9E'
+#- '#FEBF6E'
+#- '#36BFD4'
+#- '#ACEBF6'
+#- '#CFF9FF'
+#- '#66CFDF'
+#- '#1FADC2'
+#- '#068EA2'
+#- '#2E2F31'
+#- '#525458'
+#- '#737579'
+#- '#9FA1A4'
+
+# V2
+# keep in sync with viz.scss
+- '#00505C'
+- '#DB8311'
+# - '#AF690C' Old gender color
+- '#8C540B'
+- '#F5CF9E'
+- '#36BFD4'
+- '#CFF9FF'
+- '#737579'
+- '#E8E7E7' 
+# - '#e0e0e0' Alternate Economic Effects color

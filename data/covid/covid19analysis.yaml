@@ -1,4 +1,57 @@
 analysis:
+  - date: 2020-11-11T17:23:55.528Z
+    title: Social Protection Response to COVID-19
+    link: https://soundcloud.com/user-72463423/9-social-protection-response-to-covid-19
+    excerpt: Podcast featuring Ugo Gentilini, Francesca Bastagli, and Keetie Roelen.
+  - date: 2020-11-10T23:59:55.340Z
+    link: https://econweb.ucsd.edu/~pniehaus/papers/ubi_covid.pdf
+    title: Effects of a Universal Basic Income during the pandemic
+    excerpt: Abhijit Banerjee, Michael Faye, Alan Krueger, Paul Niehaus, and Tavneet
+      Suri.
+  - date: 2020-10-16T22:53:25.249Z
+    link: https://www.unicef.org/coronavirus/protecting-families-economic-impact-COVID-19
+    title: Protecting families from the economic impact of COVID-19
+    excerpt: UNICEF, Enkhzul Altangerel.
+  - date: 2020-10-14T22:54:48.555Z
+    link: https://www.findevgateway.org/blog/2020/10/can-cash-transfers-digital-wallets-be-lifeline-during-pandemic
+    title: Can Cash Transfers to Digital Wallets Be a Lifeline During the Pandemic?
+    excerpt: FinDev Gateway, Moonmoon Shehrin, BRAC.
+  - date: 2020-10-09T23:48:54.750Z
+    title: What have we learned after six months of tracking covid-19 funding? We
+      don’t just need more money, we need a different approach
+    link: https://www.disasterprotection.org/latest-news/what-have-we-learned-after-six-months-of-tracking-covid-19-funding
+    excerpt: Centre for Disaster Protection. Ruth Hill, Dillan Patel and Michèle
+      Plichta.
+  - date: 2020-09-23T22:39:37.714Z
+    title: Payments and the Pandemic
+    link: https://www.clevelandfed.org/en/newsroom-and-events/speeches/sp-20200923-payments-and-the-pandemic.aspx
+    excerpt: Loretta J. Mester; Keynote Session, 20th Anniversary Chicago Payments
+      Symposium – Federal Reserve Bank of Chicago
+  - date: 2020-09-01T21:36:35.725Z
+    title: "Social Protection as a Key Tool in Crisis Management: Learnt Lessons
+      from the COVID-19 Pandemic"
+    link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7458781/
+    excerpt: Nature Public Health Emergency Collection. Hamidou Taffa Abdoul-Azize
+      and Rehab El Gamil
+  - date: 2020-08-20T20:16:48.711Z
+    link: https://rdcu.be/b8pPI
+    title: "Universal Basic Income as a Policy Response to COVID-19 and Precarious
+      Employment: Potential Impacts on Rehabilitation and Return-to-Work"
+    excerpt: Christian Ståhl & Ellen MacEachen, Journal of Occupational Rehabilitation.
+  - date: 2020-08-07T22:46:23.875Z
+    link: https://www.urban.org/research/publication/using-cash-payments-reduce-poverty
+    title: Using Cash Payments to Reduce Poverty
+    excerpt: Gregory Acs and Ilham Dehry, Urban Institute
+  - date: 2020-07-21T18:41:45.049Z
+    link: https://www.forbes.com/sites/morgansimon/2020/07/21/whats-next-envisioning-an-equitable-economy-post-covid-19-with-mia-birdsong/#2d1463826ee2
+    title: What's Next? Envisioning An Equitable Economy Post Covid-19 With Mia
+      Birdsong
+    excerpt: Morgan Smith, Forbes "What's Next" Series
+  - date: 2020-07-20T18:43:53.288Z
+    link: https://www.fastcompany.com/90529479/is-the-pandemic-finally-ubis-moment
+    title: Is the pandemic finally the moment for a universal basic income?
+    excerpt: Brooks Rainwater with the National League of Cities and Clay Dillow,
+      consultant (appearing in Fast Company)
   - date: 2020-06-30T19:59:31.250Z
     title: Ensuring Women's Access to Cash Transfers in the Wake of COVID-19
     excerpt: "Center for Global Development: Shelby Bourgault and Megan O'Donnell"
@@ -9,10 +62,19 @@ analysis:
       looking for work
     excerpt: Daniel Edmiston, Ben Baumberg Geiger, Lisa Scullion, Jo Ingold and Kate
       Summers with London School of Economics
+  - date: 2020-06-28T18:58:17.815Z
+    link: https://theconversation.com/how-to-build-a-better-canada-after-covid-19-transform-cerb-into-a-basic-annual-income-program-140683
+    title: "How to build a better Canada after COVID-19: Transform CERB into a basic
+      annual income program"
+    excerpt: Gregory C Mason, Associate Professor of Economics, University of Manitoba
   - date: 2020-06-26T18:24:29.609Z
     link: http://hub.salford.ac.uk/welfare-at-a-social-distance/claiming-but-connected-to-work/
     title: Claiming but Connected to Work
     excerpt: University of Salford Manchester
+  - date: 2020-06-24T20:19:46.707Z
+    title: "Beyond Universal Basic Income: The Case for an Income Guarantee"
+    excerpt: Christine Berry in IPPR Progressive Review, Summer 2020.
+    link: https://onlinelibrary.wiley.com/doi/abs/10.1111/newe.12197
   - date: 2020-06-17T22:04:49.773Z
     title: How the Coronavirus Crisis Is Opening the Door to Universal Social
       Policies in the U.S.

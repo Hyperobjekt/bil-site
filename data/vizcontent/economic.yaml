@@ -1,0 +1,491 @@
+themeid: economic-effects
+themename: Economic Effects
+themes:
+  - theme: Economic Inequality
+    id: economic-inequality
+    body: >-
+      *This section explores UBI's possible impact on reducing income and wealth
+      inequalities.* 
+
+
+      Income inequality is the unequal distribution of income in a society, fueled by social and economic forces that unevenly distribute economic opportunities. Income inequality is problematic for several reasons.  Evidence shows that high levels of income inequality lead to crime (Kelly, 2000), bad health (Pickett & Wilkinson, 2015), and low population-wide happiness (Layard, 2003). Political theorists who advocate for republican freedom—that is, freedom from domination by others—worry that severe income inequality may allow some individuals to dominate others (Pettit, 1997). Similarly, political theorists who advocate for democratic equality—that is, equality in social status among individuals—worry that severe income inequality may reduce the social status of those who have less compared to those who have a more (Anderson, 1999). Lastly, some believe that income inequality is undesirable in itself and unjust (Phillips, 2004).
+
+
+      A UBI could reduce income inequality in at least four ways. First, the payment will represent a larger share of an individual’s total income for poorer households than for those who are higher on the income distribution, thus reducing relative inequities (Atkinson, 2013; Goldsmith, 2001; Humphreys et al., 2007).  Second, a UBI could reduce income inequality if its funding mechanism had a gap-reducing effect—for example, if the UBI was funded through a progressive tax, such as wealth taxes (Henry, 2014) and “data taxes” (The Guardian, 2017). Third, a UBI provides income security that may allow individuals to pursue education or to change their employment, thus growing long-term income. Finally, a UBI could reduce income inequality by allowing low-income individuals to invest in crucial property and financial assets that grow in value over time. In recent decades, increases in income inequality has driven wealth inequality, although these gaps are largely driven by wealth concentration among the very highest earners (Saez and Zucman, 2016).
+
+
+      The gap reducing effect has been examined in conditional cash transfers programs in low- and middle-income countries. In Brazil, 4.7 percent of the 21 percent fall in the Brazilian Gini index between 1995 and 2004 was attributed to the *Bolsa Familia* Program, despite cash transfers representing only 0.5 percent of the average household income (F. V. Soares & Soares, 2006). Similarly, in Mexico, the *Oportunidades* cash transfer program was responsible for 21 percent of the 5 percent fall in the Gini index between 1996 and 2004 (Soares et al., 2018).  The researchers did not speculate why the cash transfers had such a strong gap-reducing effect, but one study found that the *Oportunidades* cash transfers allowed poor Mexicans to invest in productive assets, which increased their agricultural income by 10 percent after 18 months (Gertler et al., 2012). This increase may explain a large part of the dramatic reduction in the Mexican Gini index over the eight-year period between 1996 and 2004. 
+
+
+      Evidence from high-income countries is scarce but tells a different story than what has been observed in low- and middle-income countries. For example, Alaska’s Permanent Fund Dividend (PFD) increased, rather than decreased, economic inequality both in the short run and in the long run (Kozminski & Baek, 2017). The researchers attribute this finding to differences in spending patterns across income gradients, with low-income households spending more of the dividend fund on household consumption, while high-income households might be able to direct the payment to investments. However, other research on the Alaska PDF demonstrated that higher-income households are likely to spend a larger proportion of their extra income on consumption than lower-income households (Kueng, 2018).
+
+
+      More research is needed to help answer some questions. First, the relationship between UBI and other economic effects, such as wealth accumulation and access to credit, is not yet understood. The gap-reducing effect may be lessened if UBI enables those on the higher end of the income distribution to invest their payment in ways that generate more returns. Second, so far, UBI pilots have been in areas with high rates of poverty (Davala et al. 2017). To predict impacts on income inequality, more studies need to be done in economies with significant numbers of both low- and high-income individuals.
+    related:
+      - id: racial-economic-inequality
+        text: Racial economic inequality
+      - id: racialized-welfare-stereotypes
+        text: Racialized welfare stereotypes
+      - id: consumption
+        text: Consumption
+      - id: savings
+        text: Savings and investment
+      - id: labor-market
+        text: Labor supply effects
+    citations: >-
+      Anderson, E. (1999). What Is the Point of Equality? *Ethics*, *109*(2).
+      https://www.researchgate.net/publication/248422963_What_Is_the_Point_of_Equality
+
+
+      Atkinson, A. B. (2013). Reducing income inequality in Europe | SpringerLink. *IZA Journal of European Labor Studies*. https://link.springer.com/article/10.1186/2193-9012-2-12
+
+
+      Davala, S., Jhabvala, R., Standing, G., & Badgaiyan, N. (2017). *Piloting Basic Income A Legacy Study Final Report* (p. 52). SEWA Bharat and INBI. http://sewabharat.org/wp-content/uploads/2019/02/Legacy-Study-Final-Report-a.pdf
+
+
+      Gertler, P., Martinez, S., & Rubio-Codina, M. (2012). Investing Cash Transfers to Raise Long-Term Living Standards. *American Economic Journal: Applied Economics*, *4*(1), 164–192.
+
+
+      Goldsmith, O. S. (2001). *The Alaska Permanent Fund Dividend: A Case Study in Implementation of a Basic Income Guarantee*. https://scholarworks.alaska.edu/handle/11122/4170
+
+
+      Henry, M. (2014). *How to Fund a Universal Basic Income | Library*. The Centre for Welfare Reform. https://www.centreforwelfarereform.org/library/how-to-fund-a-universal-basic-income.html
+
+
+      Humphreys, M., Sachs, J. D., & Stiglitz, J. (2007). *Escaping the Resource Curse*. Columbia University Press. New York, NY.
+
+
+      Kelly, M. (2000). Inequality and Crime. *Review of Economics and Statistics*, *82*(4). https://www.jstor.org/stable/2646649?seq=1#metadata_info_tab_contents
+
+
+      Kozminski, K., & Baek, J. (2017). Can an oil-rich economy reduce its income inequality? Empirical evidence from Alaska’s Permanent Fund Dividend. *Energy Economics*, *65*, 98–104. https://doi.org/10.1016/j.eneco.2017.04.021
+
+
+      Kueng, L. (2018). Excess Sensitivity of High-Income Consumers* | The Quarterly Journal of Economics | Oxford Academic. *Quarterly Journal of Economics*, *133*(4). https://academic.oup.com/qje/article/133/4/1693/5036538
+
+
+      Layard, R. (2003). *Happiness: Has Social Science a Clue?*
+
+
+      Pettit, P. (1997). *Republicanism: A Theory of Freedom and Government*. https://philpapers.org/rec/PETRAT
+
+
+      Phillips, A. (2004). Defending Equality of Outcome. *Journal of Political Philosophy*, *12*(1). https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1467-9760.2004.00188.x
+
+
+      Pickett, K. E., & Wilkinson, R. G. (2015). Income inequality and health: A causal review. *Social Science & Medicine*. https://www.ncbi.nlm.nih.gov/pubmed/25577953
+
+
+      Soares, F. V., & Soares, S. (2006). Cash Transfer Programmes in Brazil: Impacts on Inequality and Poverty. *Working Paper, International Poverty Centre, Brasilia*, 35.
+
+
+      Soares, S., Guerreiro Osório, R., Veras Soares, F., Medeiros, M., & Zepeda, E. (2018). Conditional cash transfers in Brazil, Chile and Mexico: Impacts upon inequality. *Estudios Económicos de El Colegio de México*, 207–224. https://doi.org/10.24201/ee.v0i0.387
+
+
+      The Guardian. (2017, September 15). *The Guardian view on universal basic income: Tax data giants to pay for it*. https://www.theguardian.com/commentisfree/2017/sep/15/the-guardian-view-on-universal-basic-income-tax-data-giants-to-pay-for-it
+  - theme: Inflation
+    body: >-
+      *This section discusses the effects UBI could have on inflation.*
+
+
+      Inflation is a sustained general increase in the prices of goods and services. It should be distinguished from an increase in the prices of some specific goods—such as oil—as well as a temporary rise in prices, such as hand sanitzer during a pandemic. Inflation comes in different degrees of severity: it may be low/moderate or high/hyper. High and hyperinflation can disrupt the economy, with destructive consequences. It can also lead to hoarding, shortages of goods, closures of businesses, and social unrest. Low/moderate inflation can have similar negative effects to a lesser degree, but it can also have some positive effects, such as stimulating lending and investment as a substitute for holding cash (Mundell, 1963; Tobin, 1965), and allowing wages to fall in real terms, hence lowering unemployment (Tobin, 1995).
+
+
+      A small number of critics argue that a UBI policy would lead to high/hyperinflation that could reduce the ‘real value’ of UBI payments (Tcherneva, 2012; Tcherneva & Wray, 2005). In this view, a large-scale, tax-and-spend financed UBI program would be unsustainable because a UBI might decrease labor supply (because people could opt out of the workforce), undermine production, and thus contract the aggregate incomes required to finance the program (Tcherneve, 2012). The alternative would be to finance a UBI using government issued currency, however this may devalue currencies and reduce the ‘real’ value of the cash transfer (Tcherneva, 2012). Inflationary pressures would make the transfer self-defeating by introducing a vicious cycle where high inflation reduces the purchasing power of the cash transfers, hence pressuring policymakers to increase the transfer amount to ensure it would be high enough for subsistence, pushing inflation even higher (Tcherneva & Wray, 2005). These concerns rely on the assumption that individuals receiving transfers will naturally de-value money’s purchasing power, leading to inflation. 
+
+
+      The economic consensus is that general inflation is caused by growth in money supply outpacing economic growth, and that high general inflation is caused by excessive growth in the supply of money (Mankiw, 2002). But most economists do not share the hypothetical concern that a UBI would cause high and general inflation, because there is no reason to assume that a UBI could not be financed by taxes and dividends—which would use money already in circulation, rather than newly printed money. Insofar as inflation does not involve an expansion in money supply, then, a UBI should not lead to high or hyperinflation. 
+
+
+      There may be more reason to worry about a UBI causing low to moderate inflation and increasing the prices of certain goods, but there remains quite a bit of uncertainty about the degree of this effect. First, a UBI could potentially lead to an increase in the price of some goods by increasing purchasing power and, thus, the demand for those goods. That is, by increasing an individual’s real income, a UBI could make people demand more of some types of goods—for example, housing. If the supply for specific goods is unable to respond to an increase in demand, then suppliers with greater market power may continue to raise the price for those specific goods as the demand increases. For example, a UBI may provide more income for housing, but difficulties in rapidly increasing supply due to a number of factors (e.g., zoning restrictions, labor supply, construction costs) may actually strain demand and cause prices to increase, decreasing the value of the additional income. How quickly markets are able to respond to an increase in demand depends on how integrated the markets for goods in the UBI-provided area are with markets in the wider economy (Gentilini et al., 2019). 
+
+
+      So far, empirical evidence specifically on UBI’s potential impact on either low/moderate or hyperinflation is limited. Existing evidence from one-time, unconditional cash transfers has shown that there has been minimal impact on inflation, however this may be because the type of transfer did not create the sustained pressure necessary to change people’s spending habits, which could happen if there was a steady stream of income. In a large-scale experiment in Kenya, researchers found that a one-time cash grant of US$1,000 to villagers—which amounted to over 15 percent of local GDP—had a minimal effect on the prices of goods in general (Egger et al., 2019). Evidence from other one-time cash transfers suggests the same conclusion. In Kuwait, a one-time cash grant of US$3,600 was paid to every citizen in 2011 to celebrate the country’s fiftieth anniversary; it had no impact on inflation (“Arab Economies: Throwing Money at the Street,” 2011). Similarly, in Australia, one-off cash bonuses to 80 percent of working-age adults in 2008 and 2009—averaging around AUD$1,600, or 4–5 percent of average income—were found to have no impact on inflation (Gentilini et al., 2019). 
+
+
+      Evidence for UBI’s impact on prices of specific goods is similarly scarce, and it is challenging to extrapolate cross-contextually. In Mexico, cash transfers delivered as part of Nutrition Support Program (Programa de Apoyo Alimentario or PAL) increased food prices in the villages by a small but statistically significant amount, while an in-kind provision of a basic basket of food (of equivalent value) decreased food prices by 4 percent on average (Cunha & Giorgi, n.d.). In other words, while there was increased demand for certain goods, the increase in the supply from the in-kind transfers was larger than the effect of the increased cash from transfers to the community. As mentioned above, though, some supply chains are more elastic than others and therefore it is difficult to infer that the impacts from these rural studies would be applicable for major urban centers. 
+
+
+      Overall, there is a discrepancy between the popular concern about UBI’s impact on inflation and the extent and strength of the evidence to support this claim.  Despite extensive studies on many aspects of the Alaskan Permanent Fund Dividend program, for instance, little attention has been paid to its impact on inflation.  Part of the reason for the discrepancy is that few economists think that the worry is valid. But a more limited version of the worry—not that UBI would generate high or hyperinflation, but that UBI might lead either to low/moderate inflation, or to an increase in the prices of some important goods, such as housing and medicines—is worth investigating more thoroughly through modeling or simulations.  Existing studies have focused on the impact of cash transfers on food prices in low-income economies. More evidence on other types of goods, especially from advanced economies, is needed. Additional research is also needed on how particular financing mechanisms will impact inflation differently. One paid through a progressive income tax-financed program is going to potentially have different effects than one paid for through a value-added tax (VAT).
+    id: inflation
+    related:
+      - id: labor-market
+        text: Impact on labor supply
+      - id: consumption
+        text: Consumption
+      - id: savings
+        text: Savings and investment
+    citations: >-
+      Arab Economies: Throwing Money at the Street. (2011, March 10). *The
+      Economist*.
+      https://www.economist.com/briefing/2011/03/10/throwing-money-at-the-street
+
+
+      Cunha, J. M., & Giorgi, G. D. (n.d.). *The Price Effects of Cash Versus In-Kind Transfers*. 60.
+
+
+      Egger, D., Haushofer, J., Miguel, E., Niehaus, P., & Walker, M. (2019). *General Equilibrium Effects of Cash Transfers: Experimental Evidence from Kenya* (No. w26600; p. w26600). National Bureau of Economic Research. https://doi.org/10.3386/w26600
+
+
+      Gentilini, U., Grosh, M., Rigolini, J., & Yemtsov, R. (Eds.). (2019). *Exploring Universal Basic Income: A Guide to Navigating Concepts, Evidence, and Practices*. The World Bank. https://doi.org/10.1596/978-1-4648-1458-7
+
+
+      Mankiw, G. (2002). *Macroeconomics* (5th ed.). Worth.
+
+
+      Mundell, R. (1963). Inflation and Interest Rates. *Journal of Political Economy, 71(3), 280-283.*
+
+
+      Tcherneva, P. R. (2012). The Job Guarantee: Delivering the Benefits That Basic Income Only Promises – A Response to Guy Standing. *Basic Income Studies*, *7*(2). https://doi.org/10.1515/bis-2013-0010
+
+
+      Tcherneva, P. R., & Wray, L. R. (2005). Can Basic Income and Job Guarantees Deliver on Their Promises? *SSRN Electronic Journal*. https://doi.org/10.2139/ssrn.1009629
+
+
+      Tobin, J. (1965). Money and Economic Growth. *Econometrica*, *33*.
+
+
+      Tobin, J. (1995). Inflation and Unemployment. In S. Estrin & A. Marin (Eds.), *Essential Readings in Economics* (pp. 232–254). Macmillan Education UK. https://doi.org/10.1007/978-1-349-24002-9_12
+  - theme: Consumption
+    id: consumption
+    body: >-
+      *This section discusses UBI’s potential effects on consumption.*
+
+
+      How might a UBI policy affect an individual or household’s consumption behavior? On the one hand, there is the question of whether a UBI would increase or decrease consumption expenditure. This question is of interest because consumption expenditure is often used as a proxy for well-being and is thought to boost economic growth, which has multiplier effects. UBI’s potential impact on consumption can also be viewed through the lens of what kinds of goods are purchased or consumed. Will the cash be used to purchase luxuries or necessities? Assets or non-durable goods? “Temptation goods”—such as alcohol, tobacco, or even drugs—or everyday household goods? The latter set of questions has been central to policymakers’ decisions on whether to favor cash over in-kind goods.
+
+
+      Most findings from developing economies show significant positive impact on consumption expenditures in the short-term. A study on GiveDirectly’s UBI program in Kenya finds that monthly cash transfers were spent mostly on food (Haushofer & Shapiro, 2016). This is consistent with evidence from targeted, unconditional cash transfer programs. A review of evidence in four African countries finds that relatively large, regular and predictable unconditional cash transfers significantly increased the quantity and quality of food consumed (Tiwari et al., 2016). Evidence suggests that these impacts may last beyond the short term. A follow-up study on the GiveDirectly program three years after the first transfer found that recipients still consumed 25 percent more compared to those who didn’t receive the transfers (Haushofer & Shapiro, 2018). Similarly, a study of two unconditional cash transfer programs in Zambia showed a strong long-term positive impact on consumption and food security, with households spending on average 67 percent more than the value of the transfers received (Handa et al., 2018).
+
+
+      It is less clear that UBI leads to consumption changes in high-income countries. This is not surprising, as fewer credit constraints likely smooth consumption in high-income contexts as compared to low- and middle-income settings where credit is less available. A review of evidence from the negative income tax experiments in the United States in the 1970s found that the programs had no or small effects on consumption (Hanushek, 1987). In the case of housing, the guaranteed income merely altered the timing of already planned purchases (Hanushek, 1987). This could be, in part, a result of people expecting these programs to be temporary, or it could be that more access to credit allows them to more easily smooth their consumption over time. Limited impacts on consumption are also observed in the regularly distributed Alaska Permanent Dividend program (Hsieh, 2003), although findings are inconsistent (Kueng, 2015).
+
+
+      Regarding what individuals consume, evidence suggests that the size and regularity of the transfer matters.  In the GiveDirectly experiment in Kenya, monthly transfers were spent mostly on food, while lump-sum transfers were spent more on durables, such as metal roofs (Haushofer & Shapiro, 2016). In unconditional cash transfer programs across four African countries, regular and predictable cash transfers increased food consumption, while lump sum and irregular transfers did not, at least in the short run (Tiwari et al., 2016). Households that received irregular cash transfers, such as those in a program in Ghana, were found to spend differently from households that received regular transfers (Food and Agricultural Organization, 2016). Evidence from high-income economies is scarce on the question of what individuals consume or how they spend their cash, but preliminary results from a small-scale guaranteed income demonstration in Stockton, California, suggests that, of the $500 per month UBI, about 40 percent went toward food, 25 percent toward merchandise, and 12 percent toward utilities (Holder, 2019). 
+
+
+      As to whether UBI will increase consumption of “temptation goods,” such as alcohol and tobacco, studies give a nearly unanimous answer: no. Evidence from Namibia (Haarmann et al., 2009) and India (Davala et al., 2017) show no effect of cash transfers on alcohol sale. A comprehensive review of 19 studies—covering evidence from both conditional and unconditional cash transfer programs in Latin America, Africa and Asia—finds that, almost without exception, cash transfers had either no significant impact or a significant negative impact on consumption of temptation goods, and that where spending increased the magnitude was small (Evans & Popova, 2014).
+
+
+      In general, evidence suggests that cash transfer programs tend to increase consumption expenditure significantly in developing economies, both in the short run and the long run.  Evidence from UBI programs is consistent with this more general result. The effects of cash transfers in advanced economies are more ambivalent. More research is needed, especially from advanced economies, as to the kinds of goods that people would spend their UBI on, and what factors might determine their spending. The concern that UBI might increase consumption of temptation goods, however, has been shown to be untrue.
+    related:
+      - id: savings
+        text: Savings and investment
+      - id: inflation
+        text: Inflation
+      - id: access-to-health-services
+        text: Access to Health Services
+    citations: >-
+      Davala, S., Jhabvala, R., Standing, G., Badgaiyan, N., & Bharat, S.
+      (2017). *Piloting Basic Income A Legacy Study Final Report* (p. 52). SEWA
+      Bharat and INBI.
+
+
+      Evans, D. K., & Popova, A. (2014). *Cash Transfers and Temptation Goods: A Review of Global Evidence*. 36.
+
+
+      Food and Agricultural Organization. (2016). *Cash transfers: Their economic and productive impacts: Evidence from Programmes in Sub-Saharan Africa*. 4.
+
+
+      Haarmann, C., Haarmann, D., Jauch, H., Shindondola-Mote, H., Nattrass, N., van Niekerk, I., & Samson, M. (2009). *Making the difference! The BIG in Namibia*. Friedrich Ebert Foundation.
+
+
+      Handa, S., Natali, L., Seidenfeld, D., Tembo, G., & Davis, B. (2018). Can unconditional cash transfers raise long-term living standards? Evidence from Zambia. *Journal of Development Economics*, *133*, 42–65. https://doi.org/10.1016/j.jdeveco.2018.01.008
+
+
+      Hanushek, E. A. (1987). Non-Labor-Supply Responses to the Income Maintenance Experiments. In *Lessons from the Income Maintenance Experiments*. Federal Reserve Bank of Boston and the Brookings Institution.
+
+
+      Haushofer, J., & Shapiro, J. (2016). The Short-term Impact of Unconditional Cash Transfers to the Poor: ExperimentalEvidence from Kenya*. *The Quarterly Journal of Economics*, *131*(4), 1973–2042. https://doi.org/10.1093/qje/qjw025
+
+
+      Haushofer, J., & Shapiro, J. (2018). The Long-Term Impact of Unconditional Cash Tranfers: Experimental Evidence from Kenya. *Working Paper*, 64.
+
+
+      Holder, S. (2019, October 3). *In Stockton, Early Clues Emerge About Impact of Guaranteed Income*. CityLab. https://www.citylab.com/equity/2019/10/stockton-universal-basic-income-pilot-economic-empowerment/599152/
+
+
+      Tiwari, S., Daidone, S., Ruvalcaba, M. A., Prifti, E., Handa, S., Davis, B., Niang, O., Pellerano, L., Quarles van Ufford, P., & Seidenfeld, D. (2016). Impact of cash transfer programs on food security and nutrition in sub-Saharan Africa: A cross-country analysis. *Global Food Security*, *11*, 72–83. https://doi.org/10.1016/j.gfs.2016.07.009
+  - theme: Migration
+    id: migration
+    body: >-
+      *This section discusses UBI’s potential effects on migration.*
+
+
+      We use the term ‘migration’ to describe movement of persons within their own country or across international borders. It can be temporary or permanent moves, and it can happen for a variety of reasons. When it comes to UBI, researchers question how the policy might “push” or “pull” individuals into or out of a region, especially since migration is generally on the rise. In 2019, more than 270 million individuals were international migrants, accounting for 3.5 percent of the world’s population, up from 2.3 percent in 1970 (International Organization for Migration, 2018). Internal migration within countries is also increasing, largely driven by industrialization and urbanization (Skeldon, 2018).
+
+
+      Some researchers have raised concerns that UBI could have a “pull effect,” pulling in migrants from other areas. The theory is that people will be attracted to regions or countries where benefits are more generous, and so they would be pulled into UBI zones. But empirical evidence from high-income countries on internal migration between regions with more or less generous benefits systems indicates that this fear is likely misplaced. Changes or differences in benefit structures generally result in only limited (Kaestner et al., 2003; Levine & Zimmerman, 1999; Schwartz & Sommers, 2014) or small effects on migration (McKinnish, 2005). For example, there was no evidence of migration effects following expansions to Medicaid in Arizona, Maine, Massachusetts and New York in the United States (Schwartz & Sommers, 2014). Larger effects have been observed in cities very near the border of states where benefits are expanded—as was the case with Health Care Reform in Massachusetts—however there are no significant effects beyond 15 kms from the border (Alm & Enami, 2017). 
+
+
+      A UBI could also have a push effect, either by relaxing liquidity constraints—meaning individuals have the cash needed to make a potentially costly move—or by giving people the flexibility to move to areas with higher rates of unemployment and limited labour demand. In the first scenario, it is likely this push effect would be seen more among low-income populations and into areas with high upfront migration costs (e.g., major metropolitan areas) (Cai, 2020). In a study of Alaska’s Permanent Fund Dividend, for example, large cash transfers induced migration from rural to urban areas by providing funds to support the migration project (Kurland, 2017). While the size of the effect was small in the short-term, the long-term effects of such programs could be larger, and the full range of social and economic consequences remain unclear. Once a number of people have moved out to a city, it becomes easier for new migrants to follow due to network effects (Kurland, 2017). This may have adverse effects on some services within rural areas. In the case of Alaska, for instance, out-migration of women and children from very small Northern Native villages led first to school closure and then the eventual disappearance of the village (Martin, 2009). 
+
+
+      A UBI, however, may also allow people to remain where they are despite poor economic prospects, or, in the second potential push effect, allow them to move to regions with lower rates of employment. A study of unconditional cash transfer programs in four African countries, for instance, showed that cash transfer helped farmers diversify their sources of income, making them less prone to environmental risks and mitigating their need to migrate out (Deshingkar et al., 2015). In Ethiopia and Malawi, farmers have used cash transfers to stay in their communities and endure worsening conditions (Deshingkar et al., 2015).
+
+
+      There is far less evidence on how UBI may impact international migration. An individual’s decision to migrate depends on many factors, such as job prospects, language, social networks, cultural compatibility, and historical and institutional links. Welfare spending does not have a large effect on where someone choses to live and is generally outweighed by other factors (Boso & Vancea, 2012). Having access to a UBI in one’s own country could decrease the need to migrate to another country. A study of Mexico’s conditional cash transfer program, Progresa, for example, found that cash transfers there reduced migration to the United States (Stecklov et al., 2005). Other studies, by contrast, report net push effects. One found that cash transfers actually increased migration from Mexico to the United States by providing funds to facilitate a move (Angelucci, 2015). A study in China found that an income-guarantee program had only a small effect on out-migration, because the amount was too small to fund out-migration. 
+
+
+      The benefits from migration to host countries are multifold. Migrants fill important niches in industries, contribute to labor market flexibility, generally contribute more to taxes than the state benefits they receive, and contribute to flows of knowledge and innovation (OECD, 2014). But, given growing nationalist sentiments globally, some researchers worry that more generous benefit systems—like a UBI—could stoke anti-immigration sentiments due to concerns about heavier use of the welfare state. A recent Pew research survey, for example, found that in Hungary, Greece, South Africa, Israel and Russia, an overwhelming majority view immigrants as a “burden on our country” (Pew Research Center, 2019). A UBI tied to citizenship could ultimately make it harder for migrants to become naturalized citizens. A UBI tied to residency could make it harder for migrants to be allowed in the host country in the first place.
+
+
+      Much is still unknown about the impact of a UBI policy on migration.  Evidence is highly variable across country contexts, suggesting that UBI may interact with other factors to produce different effects in different places. The size of both the pull and the push effects may also depend on the residency requirements that people must satisfy in order to receive UBI, the numbers and categories of immigrants granted entry to a country, and the generosity of the welfare or income guarantee. More research is needed on the demographic profile of individuals who are more or less likely to migrate in or out as a result of UBI, and on factors such as seasonality and distance on migration patterns.
+    related:
+      - id: labor-market
+        text: Impact on labor supply
+      - id: savings
+        text: Savings and investment
+      - id: economic-inequality
+        text: Economic inequality
+    citations: >-
+      Alm, J., & Enami, A. (2017). Do government subsidies to low-income
+      individuals affect interstate migration? Evidence from the Massachusetts
+      Health Care Reform. *Regional Science and Urban Economics*, *66*(C),
+      119–131.
+
+
+      Angelucci, M. (2015). Migration and Financial Constraints: Evidence from Mexico. *Review of Economics and Statistics*, *97*(1), 224–228. https://doi.org/10.1162/REST_a_00487
+
+
+      Boso, À., & Vancea, M. (2012). Basic Income for Immigrants? The Pull Effect of Social Benefits on Migration. *Basic Income Studies*, *7*(1). https://doi.org/10.1515/1932-0183.1234
+
+
+      Cai, S. (2020). Migration under liquidity constraints: Evidence from randomized credit access in China. *Journal of Development Economics*, *142*, 102247. https://doi.org/10.1016/j.jdeveco.2018.06.005
+
+
+      Deshingkar, D., Wood, R. G., & Béné, C. (2015). *Adaptive Social Protection and Migration: The Case of Cash Transfers in Ethiopia, Kenya, Tanzania and Malawi*. https://assets.publishing.service.gov.uk/media/57a0897ced915d3cfd000280/61459-Adaptive_Social_Protection_and_Migration_Report.pdf
+
+
+      Howell, A. (2017). *Direct and Spillover Effects of Targeted Cash Transfers on Ethnic Rural-Urban Migration in China* (SSRN Scholarly Paper ID 3056120). Social Science Research Network. https://papers.ssrn.com/abstract=3056120
+
+
+      International Organization for Migration. (2018). *World Migration Report 2018*. United Nations Publications.
+
+
+      Kaestner, R., Kaushal, N., & Van Ryzin, G. (2003). Migration consequences of welfare reform. *Journal of Urban Economics*, *53*(3), 357–376.
+
+
+      Kurland, S. (2017). *Effects of Transfer Income on Migration and Rural Unemployment: Evidence from the Alaska Permanent Fund Dividend*. 113.
+
+
+      Levine, P. B., & Zimmerman, D. J. (1999). An empirical analysis of the welfare magnet debate using the NLSY. *Journal of Population Economics*, *12*(3), 391–409. https://doi.org/10.1007/s001480050105
+
+
+      Martin, S. (2009). The effects of female out-migration on Alaska villages. *Polar Geography*, *32*(1–2), 61–67. https://doi.org/10.1080/10889370903000455
+
+
+      McKinnish, T. (2005). Importing the Poor: Welfare Magnetism and Cross-Border Welfare Migration. *The Journal of Human Resources*, *15*(1), 57–76. https://doi.org/10.3368/jhr.XL.1.57
+
+
+      OECD. (2014, May). Is Migration Good for the Economy? *The Migration Debate*.
+
+
+      Pew Research Center. (2019, March). *Global Opinions of Immigrants*. https://www.pewresearch.org/global/2019/03/14/around-the-world-more-say-immigrants-are-a-strength-than-a-burden/
+
+
+      Schwartz, A. L., & Sommers, B. D. (2014). Moving For Medicaid? Recent Eligibility Expansions Did Not Induce Migration From Other States. *Health Affairs*, *33*(1), 88–94. https://doi.org/10.1377/hlthaff.2013.0910
+
+
+      Skeldon, R. (2018). *International Migration, Internal Migration, Mobility and Urbanization: Towards more Integrated Approaches* (No. 53; Migration Research Series). International Organization for Migration.
+
+
+      Stecklov, G., Winters, P., Stampini, M., & Davis, B. (2005). Do Conditional Cash Transfers Influence Migration? A Study Using Experimental Data From the Mexican PROGRESA Program. *Demography*, *42*(4), 769–790. https://doi.org/10.1353/dem.2005.0037
+  - theme: Impact on Labor Supply
+    body: >-
+      *This section discusses UBI’s potential impact on labor supply and
+      individual’s use of time.*
+
+
+      A common worry about universal basic income is that it could reduce people’s incentive to work, thus causing a number of domino effects in the economy. The disincentive effect, for instance, could reduce productivity and the number of goods produced and increase the number of individuals who only rely on assistance to survive. The disincentive effect could also lead to inflation as businesses would need to pay higher wages to retain workers, and the higher wages would push production costs up, translating into increased costs for consumers. The evidence from existing UBI related schemes, however, negates many of these concerns and, overall, indicates that UBI-related programs have marginal effects on labor market participation.
+
+
+      Much of the concern about work incentives comes from four negative income tax programs in the United States and the “Mincome” program in Canada in the 1970s. These experiments had mixed results, with some economists pointing to negligible effects on labor supply (Hum & Simpson, 1993) and others pointing to large negative effects, namely from the Seattle-Denver experiment (Anderson & Block, 1993). The polarized literature divides roughly along ideological lines and is perhaps partly a result of the explicit political goals of the 1970s experiments (Widerquist, 2005). Later reviews of the literature point out that early studies tended to emphasize different parts of the results, and that the actual effects were likely complex (Widerquist, 2018). 
+
+
+      What is clear from the North American experiments, however, is that a basic income guarantee could have different effects on different groups’ decisions to work. In cases where UBI led to a reduction in work, evidence often showed that individuals redirected the time they gained to other valued activities. For example, data from the Mincome program (Forget, 2011) found that female heads of household with young children dropped out of work at the highest rate to take longer maternity leaves. In both Gary, Illinois, (McDonald & Stephenson, 1979) and Manitoba, Canada, (Forget, 2018; Prescott et al., 1986) younger men reduced work hours to remain in school longer. 
+
+
+      Evidence from more recent experiments confirms findings of minimal labour market effects in both low-income and high-income economies. Evidence from Alaska’s Permanent Fund Dividend and from the recent UBI experiment in Finland, for example, shows no significant effect on labor supply, employment level or working hours (Guettabi, 2019; Kela & the Ministry of Social Affairs and Health, 2019). In the case of the Alaska PFD, one explanation is that any disincentive effects from cash transfers might be offset by increased spending, which leads to increased demand for workers (Jones & Marinescu, 2018). There are some disputes, however, as to the extent that the Alaska PDF increases consumption (Hsieh, 2003; Kueng, 2015, 2018). 
+
+
+      In low-income contexts, results from both UBI and other cash transfer programs consistently show no negative impact on labor supply. In some cases, there has even been positive impacts from investments in small businesses or from economic spill-overs to the local economy. A report from a basic income pilot in Namibia, for example, found a significant increase in income-generating activities among recipients of the cash transfers (Haarmann et al., 2009). In Kenya, adult labor supply was found to increase, and child labor found to decrease in response to the Cash Transfer Program for Orphans and Vulnerable Children (Asfew, 2013). Similar boosts in workforce participation and employment were reported for South Africa’s three targeted unconditional cash transfer programs (Samson et al., 2004).
+
+
+      The studies reviewed here provide insight into possible labor effects, however there have been significant changes to the labour market since many of the experiments were carried out. These changes make it difficult to predict whether similar outcomes would be observed in contemporary experiments. More research is needed to disentangle the complex relationship between labor supply and demand, and more data is needed on the differential impacts between demographic groups. More evidence is also needed on how factors in the local economy where a UBI is introduced impacts outcomes like labor market participation.
+    related:
+      - id: economic-inequality
+        text: Economic inequality
+      - id: work-beyond-jobs
+        text: Work beyond jobs
+      - id: collective-bargaining
+        text: Bargaining Power
+      - id: care-work
+        text: Care work
+      - id: women-in-the-labor-market
+        text: Women in the labor market
+    id: labor-market
+    citations: >-
+      Anderson, G. M., & Block, W. (1993). Comment on Hum and Simpson. *Journal
+      of Labor Economics*, *11*(1, Part 2), 17.
+
+
+      Asfew, S. (2013). The impact of the Kenya CT-OVC programme on productive activities and labour allocation. *Working Paper*. https://www.researchgate.net/publication/265347184_The_impact_of_the_Kenya_CT-OVC_programme_on_productive_activities_and_labour_allocation
+
+
+      Forget, E. L. (2011). The Town with No Poverty: The Health Effects of a Canadian Guaranteed Annual Income Field Experiment. *Canadian Public Policy*, *37*(3), 283–305. https://doi.org/10.3138/cpp.37.3.283
+
+
+      Forget, E. L. (2018). *Basic Income for Canadians: The key to a healthier, happier, more secure life for all*. James Lorimer & Company.
+
+
+      Guettabi, M. (2019). What do we know about the eﬀects of the Alaska Permanent Fund Dividend? *Working Paper*.
+
+
+      Haarmann, C., Haarmann, D., Jauch, H., Shindondola-Mote, H., Nattrass, N., van Niekerk, I., & Samson, M. (2009). *Making the difference! The BIG in Namibia*. Friedrich Ebert Foundation.
+
+
+      Hsieh, C.-T. (2003). Do Consumers React to Anticipated Income Changes? Evidence from the Alaska Permanent Fund. *American Economic Review*, *93*(1), 397–405. https://doi.org/10.1257/000282803321455377
+
+
+      Hum, D., & Simpson, W. (1993). Economic Response to a Guaranteed Annual Income: Experience from Canada and the United States. *Journal of Labor Economics*, *11*(1, Part 2), S263–S296. https://doi.org/10.1086/298335
+
+
+      Jones, D., & Marinescu, I. (2018). *The Labor Market Impacts of Universal and Permanent Cash Transfers: Evidence from the Alaska Permanent Fund* (Working Paper No. 24312). National Bureau of Economic Research. https://doi.org/10.3386/w24312
+
+
+      Kela & the Ministry of Social Affairs and Health. (2019, February 8). *Preliminary results of the basic income experiment: Self-perceived wellbeing improved, during the first year no effects on employment*. https://www.kela.fi/web/en/news-archive/-/asset_publisher/lN08GY2nIrZo/content/preliminary-results-of-the-basic-income-experiment-self-perceived-wellbeing-improved-during-the-first-year-no-effects-on-employment
+
+
+      Kueng, L. (2015). *Revisiting the Response of Household Spending to the Alaska Permanent Fund Dividend Using CE Data* (SSRN Scholarly Paper ID 2634005). Social Science Research Network. https://papers.ssrn.com/abstract=2634005
+
+
+      Kueng, L. (2018). Excess Sensitivity of High-Income Consumers* | The Quarterly Journal of Economics | Oxford Academic. *Quarterly Journal of Economics*, *133*(4). https://academic.oup.com/qje/article/133/4/1693/5036538
+
+
+      McDonald, J. F., & Stephenson, S. P. (1979). The Effect of Income Maintenance on the School-Enrollment and Labor-Supply Decisions of Teenagers. *The Journal of Human Resources*, *14*(4), 488. https://doi.org/10.2307/145319
+
+
+      Prescott, D., Swidinsky, R., & Wilton, D. A. (1986). Labour Supply Estimates for Low-Income Female Heads of Household Using Mincome Data. *The Canadian Journal of Economics*, *19*(1), 134. https://doi.org/10.2307/135175
+
+
+      Samson, M., Lee, U., Ndlebe, A., MacQuene, K., & van Niekerk, I. (2004). *Final Report: The Social and Economic Impact of South Africa’s Social Security System* (p. 290).
+
+
+      Widerquist, K. (2005). A failure to communicate: What (if anything) can we learn from the negative income tax experiments? *The Journal of Socio-Economics*, *34*(1), 49–81. https://doi.org/10.1016/j.socec.2004.09.050
+
+
+      Widerquist, K. (2018). *A Critical Analysis of Basic Income Experiments for Researchers, Policymakers, and Citizens*. Springer International Publishing. https://doi.org/10.1007/978-3-030-03849-6
+  - theme: Savings & investment
+    id: savings
+    body: >-
+      *This section discusses UBI’s potential effects on savings and
+      investment.*
+
+
+      For many people, one of the most important objectives of UBI is to reduce poverty. The hope is that UBI would not only help people meet their daily needs, but also provide the basis for a more secure life by facilitating investments in asset accumulation and human capital development, both of which provide pathways out of poverty. 
+
+
+      Other welfare or cash assistance policies place limits on what assets an individual can hold in order to receive support, or they reduce the level of assistance an individual receives if he or she has income from wages or earnings. But UBI is an income floor, or ‘base,’ which means it may then allow for savings and investment of additional income into productive assets. Savings create a pathway out of poverty because it helps relax credit constraints that limit people’s ability to make bigger purchases—such as farming equipment or housing improvements—that contribute to long-term income (Banerjee et al., 2019). Savings also act as a safety net for people to participate in productive activities such as education and take up riskier enterprises such as entrepreneurship (Banerjee et al., 2019; Hoynes & Rothstein, 2019). 
+
+
+      While evidence of the impact of UBI on savings is scarce for high-income countries, evidence in low- and middle-income settings robustly supports the notion that UBI encourages savings. Evidence from Kenya’s GiveDirectly unconditional cash experiment, for example, led to significant increases in savings in the short run (Haushofer & Shapiro, 2016), as did unconditional cash transfer programs in Zambia (Handa et al., 2018; Natali et al., 2016). Conditional cash transfer programs (Angelucci et al., 2012; Covarrubias et al., 2012) have arrived at similar conclusions. Moreover, there is some evidence that the savings effect may persist for several years. In the Kenyan experiment, recipients still held 40 percent more assets and financial savings than non-recipients three years after the transfer (Haushofer & Shapiro, 2018). The more long-term durability is less clear, with one study indicating that the effect on savings diminished over nine years (Blattman et al., 2018).
+
+
+      How much of the extra income from UBI do people invest? Most studies of cash transfer programs in developing countries suggest people invest a large proportion of the overall amount. In the GiveDirectly experiment, differences in assets were largely driven by investments in productive assets such as livestock and durables (Haushofer & Shapiro, 2016). In Malawi, unconditional cash transfers to low-income households led to significantly increased investment in agricultural assets (Covarrubias et al., 2012). In Mexico, recipients of the Oportunidades conditional cash transfers were found to invest 26 percent of their extra income, increasing agricultural income by 10 percent per person after 18 months (Gertler et al., 2012).  A conditional cash transfer program in Nicaragua, however, was found to have no significant impact on either agricultural or non-agricultural investment (Malucci, 2010). 
+
+
+      The types of assets that people invest in are also influenced by economics opportunities where they live. In poorer areas, people tend to invest their income from cash transfers in basic durable goods, such as metal roofs (Haushofer & Shapiro, 2016), while individuals in agricultural economies are more likely to invest in agricultural assets such as livestock and crop implements (Covarrubias et al., 2012; Gertler et al., 2012). Across contexts, people invest a significant proportion of their extra income in human capital, such as health and education. Robust evidence from Latin America and Sub-Saharan Africa shows that cash transfers boosted school enrolment, especially for girls, and healthcare spending, especially on children (Barrientos & DeJong, 2006; Davis et al., 2012; Fiszbein et al., 2019). In Canada, male adolescents in Manitoba deferred entering the workforce in order to continue school attendance (Forget, 2011). 
+
+
+      Several other factors related to the design features of the transfer and the contextual conditions where it is delivered are also relevant for UBI’s effect on savings and investment. The frequency of payment, for example, was found to affect savings in Kenya (Haushofer & Shapiro, 2018), with more/less frequent payments associated with greater spending on durable goods. While research from high-income contexts is scarce, there is some evidence to suggest differences in patterns of savings and investment. The most evidence for UBI’s impact on savings is from lower-income contexts where individuals face more severe credit constraints, while less is known about contexts where credit is more readily accessible. Evidence from a conditional cash transfer program in Mexico shows that urban recipients who enjoyed more access to credit than their rural counterparts used the cash transfers to pay off debts, and that savings was a smaller proportion of their income (Angelucci et al., 2012).  In the case of the Alaska Permanent Dividend Fund (PDF), a universal transfer, the way that transfers are used may be related to a recipient’s income. For example, researchers theorized that an increase in economic inequality was due to differences in how the disbursement was used, with high-income households directing the transfer to investments, increasing the wealth gap (Kozminski & Baek, 2017).
+
+
+      What are alternatives to UBI in alleviating income inequality? We know that ownership of income-generating assets is an important source of income inequality (Birdsall & Londodo, 1997). So, one alternative to UBI is “basic capital”—a relatively large, unconditional, one-time, lump-sum grant, given to every adult in a community (Alstott & Ackerman, 1999; White, 2011). Basic capital has one important advantage over UBI: it allows recipients to invest a larger proportion of their grants upfront, thus offering more opportunity than UBI for low-income individuals to own income-generating assets. Basic capital, however, has limitations of its own and the proposed amount is generally smaller than the total amount of UBI over the long run.
+
+
+      Overall, while more evidence from advanced economies is needed, the evidence on UBI’s positive effects on savings and investment is promising. More research is also needed on how program factors (such as frequency of payment) affect savings and investment, and on which groups (based on factors such as income, gender, or family composition) see the largest effects.
+    related:
+      - id: consumption
+        text: Consumption
+      - id: economic-inequality
+        text: Economic Inequality
+      - id: racial-economic-inequality
+        text: Racial economic inequality
+      - id: racialized-welfare-stereotypes
+        text: Racialized welfare stereotypes
+    citations: >-
+      
+      Alstott, A., & Ackerman, B. (1999). *The Stakeholder Society*. Yale University Press. https://www.jstor.org/stable/j.ctt32bmzf
+
+
+      Angelucci, M., Attanasio, O., & Di Maro, V. (2012). The Impact of *Oportunidades* on Consumption, Savings and Transfers. *Fiscal Studies*, *33*(3), 305–334. https://doi.org/10.1111/j.1475-5890.2012.00163.x
+
+
+      Baird, S., Ferreira, F. H. G., Özler, B., & Woolcock, M. (2013). Relative Effectiveness of Conditional and Unconditional Cash Transfers for Schooling Outcomes in Developing Countries: A Systematic Review. *Campbell Systematic Reviews*, *9*(1), 1–124. https://doi.org/10.4073/csr.2013.8
+
+
+      Baird, S., Hoop, J. de, & Özler, B. (2013). Income Shocks and Adolescent Mental Health. *Journal of Human Resources*, *48*(2), 370–403. https://doi.org/10.3368/jhr.48.2.370
+
+
+      Baird, S., McIntosh, C., & Ozler, B. (2011). Cash or Condition? Evidence from a Cash Transfer Experiment. *Quarterly Journal of Economics*, *126*(4). https://academic.oup.com/qje/article/126/4/1709/1922509
+
+
+      Banerjee, A., Niehaus, P., & Suri, T. (2019). Universal Basic Income in the Developing World. *Annual Review of Economics*, *11*(1), 959–983. https://doi.org/10.1146/annurev-economics-080218-030229
+
+
+      Barrientos, A., & DeJong, J. (2006). Reducing Child Poverty with Cash Transfers: A Sure Thing? - Barrientos—2006—Development Policy Review—Wiley Online Library. *Development Policy Review*, *24*(5). https://onlinelibrary.wiley.com/doi/abs/10.1111/j.1467-7679.2006.00346.x
+
+
+      Birdsall, N., & Londodo, J. L. (1997). Asset Inequality Matters: An Assessment of the World Bank’s Approach to Poverty Reduction. *American Economic Review*, *87*(2). https://www.jstor.org/stable/2950879?seq=1#metadata_info_tab_contents
+
+
+      Blattman, C., Fiala, N., & Martinez, S. (2018, September). *The Long Term Impacts of Grants on Poverty: 9-year Evidence From Uganda’s Youth Opportunities Program*. https://www.nber.org/papers/w24999
+
+
+      Covarrubias, K., Davis, B., & Winters, P. (2012). From protection to production: Productive impacts of the Malawi Social Cash Transfer scheme. *Journal of Development Effectiveness*, *4*(1), 50–77. https://doi.org/10.1080/19439342.2011.641995
+
+
+      Davis, B., Gaarder, M., Handa, S., & Yablonski, J. (2012). Evaluating the impact of cash transfer programmes in sub-Saharan Africa: An introduction to the special issue. *Journal of Development Studies*, *4*(1). https://www.researchgate.net/publication/233109029_Evaluating_the_impact_of_cash_transfer_programmes_in_sub-Saharan_Africa_An_introduction_to_the_special_issue
+
+
+      Fiszbein, A., Schady, N., Ferreira, F. H. G., & Grosh, M. (2019). *Conditional Cash Transfers: Reducing Present and Future Poverty* (World Bank Policy Research Report). https://openknowledge.worldbank.org/handle/10986/2597
+
+
+      Forget, E. L. (2011). The Town with No Poverty: The Health Effects of a Canadian Guaranteed Annual Income Field Experiment. *Canadian Public Policy*, *37*(3), 283–305. https://doi.org/10.3138/cpp.37.3.283
+
+
+      Gertler, P., Martinez, S., & Rubio-Codina, M. (2012). Investing Cash Transfers to Raise Long-Term Living Standards. *American Economic Journal: Applied Economics*, *4*(1), 164–192.
+
+
+      Handa, S., Natali, L., Seidenfeld, D., Tembo, G., & Davis, B. (2018). Can unconditional cash transfers raise long-term living standards? Evidence from Zambia. *Journal of Development Economics*, *133*, 42–65. https://doi.org/10.1016/j.jdeveco.2018.01.008
+
+
+      Haushofer, J., & Shapiro, J. (2016). The Short-term Impact of Unconditional Cash Transfers to the Poor: Experimental Evidence from Kenya. *The Quarterly Journal of Economics*, *131*(4), 1973–2042. https://doi.org/10.1093/qje/qjw025
+
+
+      Haushofer, J., & Shapiro, J. (2018). The Long-Term Impact of Unconditional Cash Tranfers: Experimental Evidence from Kenya. *Working Paper*, 64.
+
+
+      Hoynes, H., & Rothstein, J. (2019). *Universal Basic Income in the US and Advanced Countries* (No. w25538). National Bureau of Economic Research. https://doi.org/10.3386/w25538
+
+
+      Kozminski, K., & Baek, J. (2017). Can an oil-rich economy reduce its income inequality? Empirical evidence from Alaska’s Permanent Fund Dividend. *Energy Economics*, *65*, 98–104. https://doi.org/10.1016/j.eneco.2017.04.021
+
+
+      Malucci, J. A. (2010). The Impact of Conditional Cash Transfers on Consumption and Investment in Nicaragua: The Journal of Development Studies: Vol 46, No 1. *Journal of Development Studies*, *46*(1). https://www.tandfonline.com/doi/full/10.1080/00220380903197952
+
+
+      Maynard, R. A., & Murnane, R. J. (1979). The Effects of a Negative Income Tax on School Performance: Results of an Experiment. *The Journal of Human Resources*, *14*(4), 463. https://doi.org/10.2307/145317
+
+
+      Miller, C., Miller, R., Verma, N., & Dechausay, N. (2016). *Effects of a Modified Conditional Cash Transfer Program in Two American Cities | MDRC*. https://www.mdrc.org/publication/effects-modified-conditional-cash-transfer-program-two-american-cities
+
+
+      Natali, L., Handa, S., Peterman, A., Seidenfeld, D., & Tembo, G. (2016). *Making Money Work: Unconditional cash transfers allow women to save and re-invest in rural Zambia*. https://www.unicef-irc.org/publications/827-making-money-work-unconditional-cash-transfers-allow-women-to-save-and-re-invest.html
+
+
+      Siddiqi, A., Rajaram, A., & Miller, S. P. (2018). Do cash transfer programmes yield better health in the first year of life? A systematic review linking low-income/middle-income and high-income contexts. *Archives of Disease in Childhood*, *103*(10), 920–926. https://doi.org/10.1136/archdischild-2017-314301
+
+
+      White, S. (2011). Basic income versus basic capital: Can we resolve the disagreement? *Policy & Politics*. https://www.researchgate.net/publication/233711322_Basic_income_versus_basic_capital_Can_we_resolve_the_disagreement

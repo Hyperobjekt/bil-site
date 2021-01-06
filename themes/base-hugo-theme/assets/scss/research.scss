@@ -21,11 +21,112 @@ body.ubi-cities-toolkit {
         }
     }    
 }
-body.mapping-ubi-research {
+body.visualizing-ubi-research {
     .hero {
         background: url('/images/heroes/wessonlecture-edit.jpg');
         background-size: cover;
         background-position: center center;
+    }
+    #visualizing-intro__columns, #visualizing-attributions__columns {
+        column-gap: 48px;
+        @include media-breakpoint-up(lg) {
+          column-gap: 56px;
+        }
+        @include media-breakpoint-up(xl) {
+         // column-gap: 80px;
+          
+        }
+      }
+    #visualizing-intro {
+
+        #visualizing-intro__hero {
+            background-image: url('/images/heroes/cards-group2x-mini.png');
+            background-image: url('/images/backgrounds/network-diagram5.svg');
+            background-repeat: no-repeat;
+            background-color: #FBFAF7;
+            background-color: #00505C;
+            background-color: #0e434c;
+            background-size: 84%;
+            background-position: 160px 10%;
+            padding-top: 6.4rem;
+            @media (min-width: 414px) {
+                background-size: 70%;
+            }
+            @media (min-width: 500px) {
+                background-size: 60%;
+            }
+            @include media-breakpoint-up(md) {
+                background-size: 56%;
+                background-position: 118% 35%;
+            }
+            @include media-breakpoint-up(xl) {
+                background-size: 50%;
+                background-position: 104% 54%;
+            }
+            h2 {
+                font-size: 3.4rem;
+                @include media-breakpoint-only(md) {
+                    max-width: 40%;
+                }
+                @include media-breakpoint-only(xl) {
+                    max-width: 60%;
+                }
+            }
+            h5 {
+                font-size: 1.6rem;
+                line-height: 1.6;
+                @include media-breakpoint-up(md) {
+                    max-width: 50%;
+                }
+                @include media-breakpoint-up(xl) {
+                    max-width: 50%;
+                }
+            }
+        }
+        #visualizing-intro__header {
+            h2 {
+                font-size: 2.8rem;
+                @include media-breakpoint-up(lg) {
+                    font-size: 3.4rem;
+                }
+            }
+        }
+        #visualizing-intro__button {
+            button {
+                &.btn-primary {
+                    height: 8rem;
+                }
+                svg {
+                    transform: rotate(90deg);
+                    width: 11px;
+                    position: relative;
+                    margin-top: 4px;
+                // top: 5px;
+                    @include media-breakpoint-up(lg) {
+                        //top: 7px;  
+                    }
+                }
+        }    
+        
+         /* p:last-child {
+            padding: 2.4rem 2rem;
+            margin-bottom: 0;
+            background-color: #f7fafb;
+            //background-color: #00505c;
+            color: $black;
+            font-weight: 500;
+          } */
+        }
+      }
+    #visualization-attributions {  
+        #visualization-attributions__header {
+            h2 {
+                font-size: 2.8rem;
+                @include media-breakpoint-up(lg) {
+                    font-size: 3.4rem;
+                }
+            }
+        }
     }
     #hp-viz {
         background-image: url('/images/backgrounds/viz-vector.svg');
@@ -36,6 +137,36 @@ body.mapping-ubi-research {
             background-size: 50%;
             background-position: right center;
             background-repeat: no-repeat;
+        }
+    }
+    #viz-section {
+        .scroll-button.btn-primary {
+            width: auto;
+            height:auto;
+            padding: 0.8rem 1.6rem;
+            background-color: #f3f3f3;
+            color: #5d5d5d;
+            margin-top: 1.1rem;
+            &:active {
+                background-color: #c3c3c3 !important;
+            }
+            i {
+                position: relative;
+                top: 6px;
+            }
+        }
+        .viz-footer {
+            button {
+                svg.rightarrow {
+                    transform: rotate(90deg);
+                    width: 11px;
+                    position: relative;
+                    top: 5px;
+                    @include media-breakpoint-up(xl) {
+                        top: 7px;  
+                    }
+                }
+            }
         }
     }
 }   

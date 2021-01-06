@@ -21,6 +21,7 @@ unsafe = true
   showActiveNav=true
   paginage=5
   dateFormat = "January 2, 2006"
+  offline=false # default = false
 
 # main menu
 
@@ -84,19 +85,19 @@ unsafe = true
   parent = "Research"
   name = "Research Visualization"
   url = "/research/ubi-visualization"
-  weight = 4
+  weight = 2
 
 [[menu.main]]
   parent = "Research"
   name = "Papers"
   url = "/research/papers"
-  weight = 3  
+  weight = 1  
 
 [[menu.main]]
   parent = "Research"
   name = "Experiments Map"
   url = "/research/experiments-map"
-  weight = 1
+  weight = 3
 
 [[menu.main]]
   name = "Fellowships"
@@ -136,6 +137,60 @@ unsafe = true
   name = "Newsletters"
   url = "/news/newsletters/"
   weight = 4
+
+# drawer menu
+
+# main menu
+
+[[menu.drawer]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.drawer]]
+  name = "About"
+  url = "/about/"
+  weight = 2
+
+[[menu.drawer]]
+  name = "Events"
+  url = "/events/"
+  weight = 3
+
+[[menu.drawer]]
+  name = "Research"
+  url = "/research/"
+  weight = 5
+
+[[menu.drawer]]
+  name = "UBI Visualization"
+  url = "/research/ubi-visualization"
+  weight = 6
+
+[[menu.drawer]]
+  name = "Papers"
+  url = "/research/papers"
+  weight = 7  
+
+[[menu.drawer]]
+  name = "Experiments Map"
+  url = "/research/experiments-map"
+  weight = 8
+
+[[menu.drawer]]
+  name = "Fellowships"
+  url = "/fellowships"
+  weight = 9
+
+[[menu.drawer]]
+  name = "Courses"
+  url = "/courses/"
+  weight = 10
+
+[[menu.drawer]]
+  name = "News"
+  url = "/news/"
+  weight = 11
 
 [permalinks]
   post = "/:year/:month/:day/:slug/"

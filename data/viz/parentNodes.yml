@@ -1,0 +1,82 @@
+- id: democracy
+  # TODO: remove and create dynamically in viz.js
+  dataIndex: 1 
+  display: 1
+  title: Democracy
+  xAxis: 0
+  yAxis: -540
+  bibliography: >
+    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
+
+
+    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
+
+- id: gender
+  dataIndex: 2
+  display: 1
+  title: Gender
+  xAxis: -360
+  yAxis: -300
+  bibliography: >
+    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
+
+- id: health
+  dataIndex: 3
+  display: 1
+  title: Health
+  xAxis: -640
+  yAxis: 0
+  bibliography: >
+    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
+
+
+    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
+
+- id: automation
+  dataIndex: 4
+  display: 1
+  title: Automation
+  xAxis: -280
+  yAxis: 340
+  bibliography: >
+    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
+
+
+    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
+
+- id: work
+  dataIndex: 5
+  display: 1
+  title: Work
+  xAxis: 340
+  yAxis: 280
+  bibliography: >
+    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
+
+
+    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
+
+- id: race
+  dataIndex: 6
+  display: 1
+  title: Race
+  xAxis: 600
+  yAxis: 0
+  bibliography: >
+    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
+
+
+    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
+
+- id: economic-effects
+  dataIndex: 7
+  display: 1
+  title: Economic Effects
+  xAxis: 375
+  yAxis: -300
+  bibliography: >
+    Sit repellendus porro quos. Quo quia dolor non. Sed distinctio voluptate nulla vitae omnis animi. Nisi sit rerum quibusdam corrupti alias.
+
+
+    Veniam qui voluptatem cum ex neque eos. Harum iure molestiae deleniti atque accusantium illo. Non corporis quia dolorum. Ut et placeat architecto vitae quia praesentium.
+

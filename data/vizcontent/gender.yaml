@@ -1,0 +1,233 @@
+themeid: gender
+themename: Gender
+themes:
+  - theme: The Household
+    id: the-household
+    body: >-
+      *This section discusses how UBI might affect economically dependent
+      spouses.*
+
+
+      At any given point in time, a significant proportion of women are economically reliant on their male spouse. Among opposite-sex married couples in the United States, only 6.8 percent reported that only the wife was employed while 18.5 percent reported that only the husband was employed (Bureau of Labor Statistics, 2020). These “dependent” spouses rely on a partner as their sole source of income, but even when both partners work, women still face substantial intra-household inequalities in earnings: husbands earn more than wives in approximately three-quarters of all American marriages (Heggeness & Murray-Close, 2018).
+
+
+      This economic dependency within the household, scholars and activists argue, is a major source of gender inequality (Baxter & Kane, 1995; Orloff, 2013). Economic dependency, for example, can create problematic power dynamics within the household, as the spouse who earns the most may also have more control over the household finances and decisions. It can also limit the dependent spouse’s exit options, which is particularly concerning in cases of domestic abuse (Conner, 2014). Structurally, the gendered nature of economic dependency may also affect societal attitudes. As some scholars have argued, men and women have fewer egalitarian attitudes in contexts where there is more economic dependency: it contributes to the sense that house- and care-work is “women’s work” (Baxter & Kane, 1995).
+
+
+      By providing a baseline individual income, a generous UBI program could empower spouses who are economically dependent. Since most existing welfare benefits are assessed at the household level, financially dependent spouses are often left out. By contrast, a UBI would apply to each spouse, thus potentially leveling intra-household power dynamics and limiting the ways in which current economic and legal systems (e.g., citizenship restrictions and employment discrimination) reinforce one another to trap women in dependent relationships (Pateman, 2004). The security provided by UBI could be critical for facilitating exit options for spouses in undesirable or abusive relationships (Elgarte, 2008; Orloff, 2013; Robeyns, 2001; Zelleke, 2008).
+
+
+      UBI’s impact on household gender equity has not yet been studied in high-income countries, but existing empirical evidence in developing countries has been positive. In a 2008–2009 Namibia experiment, for example, basic income transfers seemed to reduce the dependency of young women on men for their survival. Women participants reported more control over their own sexuality, freeing them to some extent from the pressure to engage in transactional sex; but, the study did not discuss these results in greater depth (Haarmann et al., 2009).
+
+
+      The 2011-2013 Kenya Give Directly experiment, which provided cash transfers to both male and female heads of household, showed that basic income transfers given to female heads of households improved women’s status as measured by the female empowerment index (Haushofer & Shapiro, 2016). The study also indicated that gendered differences were seen in the psychological well-being index, suggesting that women’s well-being was highly correlated with female empowerment (Haushofer & Shapiro, 2016).
+
+
+      Perhaps the most revealing study to date on UBI’s gender impact was a 2011–2012 randomized control trial in Madhya Pradesh, India. The experiment set out to see whether an individual basic income payment, particularly when combined with membership in a women’s union (the Self-Employed Women’s Association or SEWA), enabled women to develop a greater sense of empowerment and a broader identity (SEWA Bharat, 2014). In the general pilot, 20 villages participated: eight received a monthly basic income transfer and 12 did not (control group). Of the eight receiving the transfers, SEWA had a presence in four of the villages; and, of the control group, SEWA was engaged in six villages. In the tribal pilot, SEWA was present in both villages, though only one received individual cash transfer (SEWA Bharat, 2014). SEWA’s engagement with women under the age of 14 in these villages included opening bank accounts, granting access to employment, or facilitating an income generation program (SEWA Bharat, 2014). For those receiving cash, women also received the basic income grants of their children, which was intended to give mothers greater autonomy over the family’s spending decisions (SEWA Bharat, 2014). 
+
+
+      The results were overwhelmingly positive: 85 percent of surveyed participants believed that basic income improved the position of women in the household and gave women more power over how income was spent (Davala et al., 2015). Additionally, more than 1,600 women were given access to financial services, up from 365 women before the pilot, through the opening of individual or SEWA cooperative bank accounts, which in turn established an independent legal identity for them and led to a greater sense of empowerment (SEWA Bharat, 2014). Finally, more than half of the women receiving basic income in SEWA villages also reported that their household income (cash transfer or other) was more equitably distributed among members of the household, compared to 39 percent in the control group, resulting in improvements in girls nutrition and increases in girls enrollment in secondary education (SEWA Bharat, 2014).
+
+
+      These three experiments offer a glimpse into how an individual UBI might impact gender dynamics in the household, but additional research is needed, especially in higher-income countries. Given that household compositions and gender roles are changing at rapid rates, it would be especially beneficial for the new wave of experiments and pilots in the Global North to take gender equity effects explicitly into account.
+    related:
+      - id: care-work
+        text: Care Work
+      - id: women-in-the-labor-market
+        text: Women in the Labor Market
+      - id: job-precariousness
+        text: Job Precariousness
+      - id: work-beyond-jobs
+        text: Work beyond Jobs
+      - id: economic-inequality
+        text: Economic inequality
+      - id: racialized-welfare-stereotypes
+        text: Racialized welfare stereotypes
+    citations: >-
+      Baxter, J., & Kane, E. W. (1995). Dependence and Independence: A
+      Cross-National Analysis of Gender Inequality and Gender Attitudes. *Gender
+      & Society*, *9*(2), 193–215. https://doi.org/10.1177/089124395009002004
+
+
+      Bureau of Labor Statistics. (2020). *Employment Characteristics of Families—2019* (USDL-20-0670). United States Department of Labor. https://www.bls.gov/news.release/pdf/famee.pdf
+
+
+      Conner, D. H. (2014). Financial Freedom: Women, Money, and Domestic Abuse. *William & Mary Journal of Women and the Law*, *20*(2), 339–397.
+
+
+      Davala, S., Renana Jhabvala, Guy Standing, & Soumya Kapoor Mehta. (2015). *Basic income: A transformative policy for India*. Bloomsbury Academic.
+
+
+      Elgarte, J. M. (2008). Basic Income and the Gendered Division of Labour. *Basic Income Studies*, *3*(3), 1–7. https://doi.org/10.2202/1932-0183.1136
+
+
+      Haarmann, C., Haarmann, D., Jauch, H., Shindondola-Mote, H., Nattrass, N., van Niekerk, I., & Samson, M. (2009). *Making the difference! The BIG in Namibia*. Friedrich Ebert Foundation.
+
+
+      Haushofer, J., & Shapiro, J. (2016). The Short-term Impact of Unconditional Cash Transfers to the Poor: Experimental Evidence from Kenya. *The Quarterly Journal of Economics*, *131*(4), 1973–2042. https://doi.org/10.1093/qje/qjw025
+
+
+      Heggeness, M., & Murray-Close, M. (2018). *Manning up and womaning down: How husbands and wives report their earnings when she earns more* (No. 2018–20). Social, Economic, and Housing Statistics Division, United States Census Bureau. https://www.census.gov/content/dam/Census/library/working-papers/2018/demo/SEHSD-WP2018-20.pdf
+
+
+      Orloff, A. (2013). Why Basic Income does not Promote Gender Equality. In K. Widerquist, J. Noguera, Y. Vanderborght, & J. De Wispelaere (Eds.), *Basic Income: An Anthology of Contemporary Research* (First Edition, pp. 149–160). Blackwell Publishing.
+
+
+      Pateman, C. (2004). Democratizing Citizenship: Some Advantages of a Basic Income. *Politics & Society*, *32*(1), 89–105. https://doi.org/10.1177/0032329203261100
+
+
+      Robeyns, I. (2001). Will a Basic Income Do Justice to Women? *Analyse & Kritik*, *23*(1), 88–105. https://doi.org/10.1515/auk-2001-0108
+
+
+      SEWA Bharat. (2014). *A Little More, How Much It Is: Piloting Basic Income Transfers in Madhya Pradesh, India* (p. 512) \[Report on Unconditional Cash Transfer Pilot Project]. SEWA and UNICEF. http://sewabharat.org/wp-content/uploads/2015/07/Report-on-Unconditional-Cash-Transfer-Pilot-Project-in-Madhya-Pradesh.pdf
+
+
+      Zelleke, A. (2008). Institutionalizing the Universal Caretaker Through a Basic Income? *Basic Income Studies*, *3*(3), 1–9. https://doi.org/10.2202/1932-0183.1133
+  - theme: Care Work
+    id: care-work
+    body: >-
+      *This section discusses whether UBI might alleviate or reinforce the
+      gendered distribution of care work.*
+
+
+      Care work is important: it shapes the next generation and ensures the dignity of those who are ill or disabled. And yet care work is often undervalued by society, which manifests as a gendered phenomenon both in and outside of the home. Within the formal employment market, women are over-represented in caring professions. As a result, these professions are seen as relatively low prestige and individuals who perform care work are often underpaid. According to the Bureau of Labor Statistics, health aides or caregivers in the United States make $20,000–$30,000 a year, well below the median yearly income of $60,000 (Bureau of Labor Statistics, 2019).
+
+
+      Inside the home, women assume the majority of unpaid care responsibilities, which is often to the detriment of their own employment prospects. In the United States in 2017, 27 percent of women stayed home to care for children compared to 7 percent of men (Livingston, 2018). Moreover, middle-aged women were more likely than their male counterparts to leave a job to care for an elderly family member, which can result in increased isolation, stress, and the risk of poverty in old age due to lost income and benefits (Wakabayashi & Donato, 2006). The gendered division of care work both in and outside the home thus conspires to limit women’s social and professional flourishing and leaves them economically worse off than men.
+
+
+      There are three ways in which a UBI might promote a better recognition of informal care work. First, if set sufficiently high, a UBI would ensure that those who take time off work to look after a child or aging parent do not face as high a financial risk. Having to perform care work is often cited as a factor in female impoverishment, which means that a UBI could especially impact the rates of women living in poverty. Second, by granting individuals more financial flexibility, a UBI could help those who find meaning in care work to opt out of poor quality or poorly remunerated jobs to support their own family members (McKay, 2007; Pateman, 2004). Finally, a UBI would remove some of the disadvantage that current welfare systems place on unwaged caregivers; for instance, caregivers often lack eligibility for a number of benefit programs, such as the Earned Income Tax Credit, because they require formal enrollment in the labor market. Taken together, a UBI program could thus give individuals more freedom to engage in necessary or desired care work (Zelleke, 2008) and it could help promote a better recognition of caregiving as a valuable and productive activity (Weeks, 2011).
+
+
+      A UBI program would also impact caregivers in the formal market. Although waged caregivers as a whole are underpaid, they still earn too much for benefit eligibility (i.e. for programs such as SNAP and TANF). As a result, many professional caregivers struggle to make ends meet: 20 percent of home care workers live in poverty, compared to 7 percent of all workers (Campbell, 2018). A UBI program could thus increase economic security for waged caregivers (Robeyns, 2001) but it could also improve the status of the profession as a whole. If the UBI were high enough to provide genuine exit options, it would give care-workers more bargaining power, which could result in improved wages and work conditions. If waged care-work were to increase in status, it would also likely become more appealing to groups who have traditionally avoided it, notably men and white people. Despite making up only a quarter of the total labor force, people of color, especially women of color, are overrepresented in care work: in 2015, 59 percent of home care-workers for the elderly and disabled were people of color, as were roughly 40 percent of home-based child care workers (Campbell, 2018; Whitebook et al., 2018). 
+
+
+      It is less clear what would happen to the division of labor within households under a UBI program. Given existing social norms, some have worried that UBI could have the effect of encouraging women to withdraw from the labor market in order to dedicate themselves to care work within the home (Gheaus, 2008; Orloff, 2013). UBI would then risk further entrenching gender norms around care. An alternative welfare scheme that challenges how both paid and unpaid work are structured could plausibly have a better chance of reducing women’s responsibility for childcare and housework (Orloff, 2013). But UBI could also affect the opposite outcome in the home: by providing funds that can be used for childcare, more women might return to work post-birth. While this would result in more women in the formal labor force overall, it could also risk entrenching the current racialized and gendered norms of waged care-work. 
+
+
+      Evidence from Canada’s Mincome experiment in the 1970s suggests that guaranteed income caused female spouses to finance longer maternity leaves, to reduce their work hours, and to take longer breaks from employment later in their careers (Forget, 2011). There are difficulties in interpreting these results, however. Gender norms have changed significantly since the 1970s, making it difficult to extrapolate from these results to the present. Moreover, the results do not discuss how breaks in employment might be used for purposes other than childrearing, such as caring for elderly.  As such, more research, especially on UBI’s long-term effects on labor demand (Widerquist, 2018) is needed to predict how men and women would engage in care work.
+    related:
+      - id: the-household
+        text: The household
+      - id: women-in-the-labor-market
+        text: Women in the labor market
+      - id: collective-bargaining
+        text: Bargaining power
+      - id: work-beyond-jobs
+        text: Work beyond jobs
+      - id: racialized-welfare-stereotypes
+        text: Racialized welfare stereotypes
+    citations: >-
+      Bureau of Labor Statistics. (2019). *Occupational Outlook Handbook: Home
+      Health Aides and Personal Care Aides*. U.S. Department of Labor.
+      https://www.bls.gov/ooh/healthcare/home-health-aides-and-personal-care-aides.htm
+
+
+      Campbell, S. (2018). *U.S. Home Care Workers: Key Facts (2018)*. PHI. https://phinational.org/resource/u-s-home-care-workers-key-facts-2018/
+
+
+      Forget, E. L. (2011). The Town with No Poverty: The Health Effects of a Canadian Guaranteed Annual Income Field Experiment. *Canadian Public Policy*, *37*(3), 283–305. https://doi.org/10.3138/cpp.37.3.283
+
+
+      Gheaus, A. (2008). Basic Income, Gender Justice and the Costs of Gender-Symmetrical Lifestyles. *Basic Income Studies*, *3*(3). https://doi.org/10.2202/1932-0183.1134
+
+
+      Livingston, G. (2018). *The Changing Profile of Unmarried Parents* (Social and Demographic Trends). Pew Research Center. https://www.pewsocialtrends.org/2018/04/25/the-changing-profile-of-unmarried-parents/
+
+
+      McKay, A. (2007). Why a citizens’ basic income? A question of gender equality or gender bias. *Work, Employment and Society*, *21*(2), 337–348. https://doi.org/10.1177/0950017007076643
+
+
+      Orloff, A. (2013). Why Basic Income does not Promote Gender Equality. In K. Widerquist, J. Noguera, Y. Vanderborght, & J. De Wispelaere (Eds.), *Basic Income: An Anthology of Contemporary Research* (First Edition, pp. 149–160). Blackwell Publishing.
+
+
+      Pateman, C. (2004). Democratizing Citizenship: Some Advantages of a Basic Income. *Politics & Society*, *32*(1), 89–105. https://doi.org/10.1177/0032329203261100
+
+
+      Robeyns, I. (2001). Will a Basic Income Do Justice to Women? *Analyse & Kritik*, *23*(1), 88–105. https://doi.org/10.1515/auk-2001-0108
+
+
+      Wakabayashi, C., & Donato, K. M. (2006). Does Caregiving Increase Poverty among Women in Later Life? Evidence from the Health and Retirement Survey. *Journal of Health and Social Behavior*, *47*(3), 258–274. https://doi.org/10.1177/002214650604700305
+
+
+      Weeks, K. (2011). *The problem with work: Feminism, Marxism, antiwork politics, and postwork imaginaries*. Duke University Press.
+
+
+      Whitebook, M., McLean, C., Austin, L. J. E., & Edwards, B. (2018). *The Early Childhood Workforce Index 2018*. Center for the Study of Childcare Employment. https://cscce.berkeley.edu/early-childhood-workforce-2018-index/
+
+
+      Widerquist, K. (2018). *A Critical Analysis of Basic Income Experiments for Researchers, Policymakers, and Citizens*. http://works.bepress.com/widerquist/86/
+
+
+      Zelleke, A. (2008). Institutionalizing the Universal Caretaker Through a Basic Income? *Basic Income Studies*, *3*(3), 1–9. https://doi.org/10.2202/1932-0183.1133
+  - theme: Women in the labor market
+    id: women-in-the-labor-market
+    body: >-
+      *This section considers whether UBI could improve women’s position in the
+      labor market.*
+
+
+      Current labor market practices assume that workers follow a “male life pattern”—that is, workers are autonomous individuals who have others (either relatives or employees) perform any necessary care work. The formal labor market thus often fails to accommodate the specific needs of women and caregivers, leading to the gender pay gap and the feminization of part-time work. The gender pay gap in the United States was 15 percent in 2018. Based on this finding, it would take an extra 39 days (or roughly 8 weeks) of work for women to earn as much as men (Graff et al., 2019). 
+
+
+      There are different explanations for why women are paid less than men, but the most dominant argument is that women face a “pregnancy penalty”: women often assume the majority of childrearing responsibilities and are then penalized for a presumed lack of commitment to the workplace (Shinall, 2018). Other arguments to explain the pay gap include that women don’t negotiate their salaries as much or as successfully as men do (Shinall, 2018); that women tend to choose lower-paying jobs (Barbulescu & Bidwell, 2013); and that employers are biased: whether consciously or unconsciously, they believe that men should earn more (Williams et al., 2010). 
+
+      Of these four explanations, a UBI might have positive impacts on the first three. First, it could mitigate the “pregnancy penalty” by making childcare affordable for more parents, thus reducing some of the burden of care work and allowing women to dedicate more time to their careers (McKay, 2007; Pateman, 2004; Zelleke, 2008). A UBI could also give women increased bargaining power by widening their exit options (McKay, 2007). And, by helping women afford more education, training, or care when necessary, a UBI could grant women the freedom to make riskier career choices, changing the proportion of women who ‘pick’ (willingly or not) low-paying jobs. 
+
+
+      If the gender pay gap stems primarily from bias, however, a UBI is unlikely to help solve the problem since it is unlikely to radically impact sexist biases. If the bias against women, however, stems from some combination of the pregnancy penalty, lower bargaining effectiveness, and feminized career choices, then a UBI could help mitigate it and, in the long run, contribute to a world in which women face less gender discrimination. 
+
+
+      In addition to the wage-gap, women in the formal labor market have to deal with the gendered impact of part-time work. Between 1968 and 2016, the percentage of women working part-time changed very little, fluctuating between 25 and 30 percent, which is nearly two to three times that of men (7 to 13 percent during the same time period) (Bureau of Labor Statistics, 2017). While part-time work may allow for greater flexibility, it has disproportionately negative impacts on income stability, health and retirement benefits, consistent working hours, and societal acknowledgement. Part-time workers, for example, have only one-third the access to health insurance coverage as do full-timers—22 percent compared with 73 percent (Golden, 2016).
+
+
+      In feminist thought, there is some disagreement regarding the feminized nature of part-time work. On the one hand, part-time work can be seen as hindering women’s empowerment since it leaves women more socially and economically vulnerable and may even be the result of discrimination against women in the full-time labor force (i.e., full time positions that have no flexibility regarding childcare). Moreover, the preponderance of women doing part-time work may reify existing stereotypes: if part time workers are assumed to take on the majority of care work within the household, then the feminization of part-time work further associates care work with women’s work, which can hurt women’s employment prospects. In this context, a UBI could do more harm than good by incentivizing those socially designated as caregivers to stay home and perform the unpaid work of taking care of children and older adults (Bergmann, 2008; Orloff, 2013), thus increasing the gender disparity in the labor force.
+
+
+      On the other hand, care work is socially valuable and meaningful, and part-time work may enable caregivers to achieve the ‘work–life’ balance that best fits their needs or interests. This approach does not associate women’s empowerment with an increase in the number of women who work full-time. It avoids the androcentric assumption that a full-time job is necessarily the ideal model. On this view, we should instead be encouraging more men to work part-time. As gender roles continue to evolve, a UBI could do just that; by providing economic security for all with no work requirements, it could incentivize more men to move from full-time into part-time work. 
+
+
+      Whether UBI would radically impact women in the labor force largely depends on how success is defined. If the goal is to increase the number of women in full-time employment, then other policies might be better suited. For example, a job guarantee could offer female workers income as well as a variety of valuable work benefits, such as health care, a social network, and increased self-esteem (Orloff, 2013). A provision or subsidization of childcare could also more efficiently encourage women’s labor market participation than UBI (Bergmann, 2008). If the goal, however, is to increase women’s economic security and career options (broadly understood to include the option of part-time work), then a UBI could be well-suited to the task. 
+
+
+      There is a small body of empirical research on the effects of UBI on women’s labor force participation in low- and middle-income contexts. Existing empirical evidence on this subject is limited mostly to the Madhya Pradesh experiment, which concluded that basic income contributed to an increase and diversification of female participation in formal economic activities, especially jobs that involved hard manual labor. Nonetheless, women were paid less than men for the same jobs (Davala et al., 2015). The SEWA study (SEWA Bharat, 2014) also notes that, when given a cash transfer, women in the tribal villages shifted to paid, casual manual labor because it gave them more control over their time and production. Notably, the percentage of women who worked primarily in farming rose to 66 percent from 39 percent. This increase was largely attributed to women being able to buy farming materials, seed, and livestock with the cash transfer. The experiment also caused more people, especially women, to take on additional jobs (own-account activity) through giving them more control over their time and production, thus significantly increasing the total number of hours worked by recipients (Davala et al., 2015). These effects were found to extend even four years beyond the study with women’s labor participation increased by 16 percent and no change among male participants (SEWA Bharat, 2014). The authors of the study didn’t conclude whether this increase was advantageous or not (Davala et al., 2015), highlighting the need for more experiments and pilot programs to test these contrasting hypotheses on UBI’s effects on women in the labor force. Results are more mixed when programs that meet some and not all characteristics of a UBI are included in the analysis. An umbrella review of different types of cash transfers that share features with UBI found reductions in labor market participation for women with care responsibilities and married women with children (Hasdell, 2020). In higher-income contexts, the income and substitution effects of a UBI are more complex. Income and substitution effects – or the extent to which people ‘spend’ part of their unearned income on increased leisure or make ‘trade-offs’ between more work and lost benefits – are quite small in both the 1970’s negative income tax experiments and for the Alaska Permanent Fund, however are more significant for women than men (Hoynes & Rothstein, 2019; Marinescu, 2018). In contrast to the small reductions in work hours in universal and unconditional programs, there are some increases in labor market participation for households that receive in-work credits, such as the Earned Income Tax Credit (EITC) (Hoynes & Rothstein, 2019).
+    related:
+      - id: care-work
+        text: Care work
+      - id: work-beyond-jobs
+        text: Work beyond jobs
+      - id: economic-inequality
+        text: Economic inequality
+      - id: labor-market
+        text: Impact on labor market
+      - id: collective-bargaining
+        text: Bargaining power
+    citations: >-
+      Barbulescu, R., & Bidwell, M. (2013). Do Women Choose Different Jobs from
+      Men? Mechanisms of Application Segregation in the Market for Managerial
+      Workers. *Organization Science*, *24*(3), 737–756.
+      https://doi.org/10.1287/orsc.1120.0757
+
+
+      Bergmann, B. R. (2008). Basic Income Grants or the Welfare State: Which Better Promotes Gender Equality? *Basic Income Studies*, *3*(3). https://doi.org/10.2202/1932-0183.1128
+
+
+      Bureau of Labor Statistics. (2017). *Percentage of Employed Women Working Full Time Little Changed over Past 5 Decades* (The Economics Daily). U.S. Department of Labor. https://www.bls.gov/opub/ted/2017/percentage-of-employed-women-working-full-time-little-changed-over-past-5-decades.htm
+
+
+      Davala, S., Renana Jhabvala, Guy Standing, & Soumya Kapoor Mehta. (2015). *Basic Income: A Transformative Policy for India*. Bloomsbury Academic.
+
+
+      Golden, L. (2016). *Still Falling Short on Hours and Pay: Part-time Work Becoming New Normal*. Economic Policy Institute. epi.org/114028
+
+
+      Graff, N., Brown, A., & Patten, E. (2019, March 22). *The narrowing, but persistent, gender gap in pay*. Pew Research FactTank: News in the Numbers. https://pewrsr.ch/2uVqhbs
+
+
+      Hasdell, R. (2020). *What we know about Universal Basic Income: A cross-synthesis of reviews* (p. 27). Basic Income Lab. https://basicincome.stanford.edu/uploads/Umbrella%20Review%20BI_final.pdf
+
+
+      Hoynes, H., & Rothstein, J. (2019). *Universal Basic Income in the US and Advanced Countries* (No. w25538). National Bureau of Economic Research. https://doi.org/10.3386/w25538
+
+
+      Marinescu, I. (2018). *No strings attached: The behavioral effects of U.S. unconditional cash transfer programs* (Working Paper No. 24337). National Bureau of Economic Research. https://www.nber.org/papers/w24312.pdf
