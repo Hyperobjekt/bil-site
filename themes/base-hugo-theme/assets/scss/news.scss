@@ -52,8 +52,20 @@ body.type-news, body.type-labupdates {
         color: #464646;
     }
     .blogtabs {
+        .nav-wrapper {
+            // up to XL, we use a sticky nav-wrapper, whose parent div includes the tab text
+            top: 56px;
+            @include media-breakpoint-up(xl) {
+                position: unset;
+            }
+        }
         nav.sticky-top {
+            // at XL, we switch to a sticky nav, whose parent div is just the wrapper
             top: 80px;
+            background: white;
+            @include media-breakpoint-down(lg) {
+                position: unset;
+            }
         }
         .nav-tabs {
             border: none;
