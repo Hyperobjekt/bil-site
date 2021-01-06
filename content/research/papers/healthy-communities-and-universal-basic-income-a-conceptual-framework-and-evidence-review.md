@@ -13,7 +13,7 @@ excerpt: What new services might open in a community when the people who live
   examines how a healthy communities lens can address unanswered questions about
   UBI.
 image: /uploads/healthy-communities_ubi-paper_cover-page_v1.jpg
-link: /uploads/healthy-communities_ubi-paper_v3.pdf
+link: /uploads/healthy-communities_ubi-paper_final.pdf
 abstract: >-
   There is a shift in some fields towards thinking about health and wellbeing
   through the framework of healthy communities. But, so far, attention to the
