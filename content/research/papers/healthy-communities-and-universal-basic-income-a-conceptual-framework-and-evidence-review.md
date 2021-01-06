@@ -1,5 +1,5 @@
 ---
-is_index: "false"
+is_index: false
 type: papers
 layout: papersingle
 title: "Healthy Communities and Universal Basic Income: A Conceptual Framework
