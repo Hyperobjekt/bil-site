@@ -4,7 +4,7 @@ type: labupdates
 layout: labsingle
 title: Can people with vastly different political beliefs support a Universal
   Basic Income?
-date: 2020-12-28T17:00:22.823Z
+date: 2021-01-04T17:00:22.823Z
 excerpt: Olga Lenczewska, a fellow with the Stanford Basic Income Lab and 5th
   PhD student at Stanford looks at a how universal basic income (UBI) has a
   rare   potential to gather supporters who hold vastly different beliefs
@@ -42,19 +42,19 @@ Liberal egalitarianism, most commonly associated with the work of John Rawls, is
 
 **Empowerment within the household**
 
-As a benefit paid to the individual and not to the household, UBI could go a long way in empowering economic dependents and providing them with exit options(for example, in cases of domestic abuse). (Van Parijs 1995; Zelleke 2014)
+As a benefit paid to the individual and not to the household, UBI could go a long way in empowering economic dependents and providing them with exit options (for example, in cases of domestic abuse). (Van Parijs 1995; Robeyns 2001; Pateman 2004; McKay 2007; Zelleke 2014)
 
 **Neutrality of preferences**
 
-UBI grants individuals more freedom in determining life choices by providing a lifetime of financial security regardless of one’s career preferences.It would thus support individuals in developing and pursuing their own conception of happiness.(Van Parijs 1995; Zelleke 2014)
+UBI grants individuals more freedom in determining life choices by providing a lifetime of financial security regardless of one’s career preferences. It would thus support individuals in developing and pursuing their own conception of happiness. (Van Parijs 1995; Zelleke 2014)
 
 **Non-demeaning welfare**
 
-Because it is unconditional and universal, UBI avoids the paternalizing, demeaning, and stigmatizing process of means-testing, which is central to most of the current welfare schemes. (Zelleke 2014)
+Because it is unconditional and universal, UBI avoids the paternalizing, demeaning, and stigmatizing process of means-testing. It thus treats all citizens on a par and recognizes their individual right to basic resources. (Zelleke 2014)
 
 **Poverty elimination**
 
-UBI has the potential to eliminate absolute poverty–poverty which is incompatible in the most basic sense with individual freedom. (Van Parijs 1995; Zelleke 2014)
+UBI has the potential to eliminate absolute poverty – poverty which is incompatible in the most basic sense with individual freedom. (Van Parijs 1995; Zelleke 2014)
 
 **Education / Acquisition of skills**
 
@@ -62,41 +62,36 @@ UBI would allow individuals to access opportunities for additional education and
 
 **The right not to work**
 
-Wealthy countries have a humanitarian duty, or a duty of justice, to satisfy the basic needs of their citizens even when they choose to engage in non-waged kinds of work. UBI could be a good way for countries enjoying productive economies to discharge this duty.(Baker 1992)
+Wealthy countries have a humanitarian duty, or a duty of justice, to satisfy the basic needs of their citizens even when they choose to engage in non-waged kinds of work. UBI could be a good way for countries enjoying productive economies to discharge this duty. (Baker 1992)
 
 {{< /tab >}}
 {{< tab tabNum="2" >}}
 
 ##### Left/real libertarianism
 
-Libertarians endorse a theory of natural (pre-political) rights, including the right against coercion, the right to self-ownership, and the right to private property. Left
-libertarians in particular are additionally primarily concerned with providing everybody, including the least well-off, with a large degree of freedom from external constraints
-(such as scarcity of basic resources or an abusive work contract). They believe that this requires a certain measure of redistribution to ensure all individuals can adequately
-own themselves. Left libertarians also generally believe in the right to an equal share of natural resources: the “Lockean proviso” according to which all individuals have an
-equal right to the natural resources necessary for subsistence. Mixing one’s labor, over which one has full self-ownership, with natural resources usually yields in one’s right
+Libertarians endorse a theory of natural (pre-political) rights, including the right against coercion, the right to self-ownership, and the right to private property. Left libertarians in particular are additionally primarily concerned with providing everybody, including the least well-off, with a large degree of freedom from external constraints (such as scarcity of basic resources or an abusive work contract). They believe that this requires a certain measure of redistribution to ensure all individuals can adequately
+own themselves. Left libertarians also generally believe in the right to an equal share of natural resources: the “Lockean proviso” according to which all individuals have an equal right to the natural resources necessary for subsistence. Mixing one’s labor, over which one has full self-ownership, with natural resources usually yields in one’s right
 to private property.
 
 **Empowerment within the household**
 
-As a benefit paid to the individual and not to the household, UBI could go a long way in empowering economic dependents and providing them with exit options (for example, in cases
-of domestic abuse). (Van Parijs 1991, 1995)
+As a benefit paid to the individual and not to the household, UBI could go a long way in providing people with real freedom, which in case of economic dependents would mean financial and psychological empowerment. (Van Parijs 1991, 1995)
 
 **Neutrality of preferences**
 
-UBI respects the autonomy and agency of individuals by providing them with financial means to satisfy their own needs without being coerced into a particular labor-intensive lifestyle. (Van Parijs 1991; Moseley 2011; Henderson 2017)
+UBI respects the autonomy and agency of individuals by providing them with financial means to satisfy their own needs without being coerced into a particular labor-intensive lifestyle. (Van Parijs 1991; Moseley 2011; Munger 2012; Henderson 2017)
 
 **Non-demeaning welfare**
 
-Because it is unconditional and universal, UBI avoids the paternalizing, demeaning, and stigmatizing process of means- testing, which is central to most of the current welfare schemes. (Van Parijs 1991, 1995; Zwolinski 2015)
+UBI’s unconditionality and universality avoids the paternalizing, demeaning, and stigmatizing process of means-testing, which is central to most of the current welfare schemes. (Van Parijs 1991, 1995; Munger 2012; Zwolinski 2015)
 
 **Poverty elimination**
 
-UBI has the potential to eliminate absolute poverty and to guarantee basic subsistence for every individual. (Van Parijs 1991, 1995; Zwolinski 2015)
+UBI has the potential to eliminate absolute poverty and to guarantee basic subsistence for every individual, thus providing them with real freedom. (Van Parijs 1991, 1995; Zwolinski 2015)
 
 **Empowerment within the workplace**
 
-A workplace should be free from external constraints to pursuing a satisfying career path, such as poor working conditions, an abusive employment contract, or lack of sufficient leisure time. UBI could empower workers by removing such external
-constraints. (Van Parijs 1991, 1995)
+A workplace should be free from external constraints to pursuing a satisfying career path, such as poor working conditions, an abusive employment contract, or lack of sufficient leisure time. UBI could empower workers by removing such external constraints. (Van Parijs 1991, 1995)
 
 **The right not to work**
 
@@ -104,7 +99,7 @@ Differences among people’s occupational needs and preferences should be respec
 
 **Equal world-ownership**
 
-UBI could help promote the right to equal world-ownership and to an equal use of land resources. (Moseley 2011; Vallentyne 2012; Zwolinski 2015)
+UBI could help promote the right to equal world-ownership and to an equal use of land resources. (Moseley 2011; Vallentyne 2012; Munger 2012; Zwolinski 2015)
 
 {{< /tab >}}
 {{< tab tabNum="3" >}}
@@ -113,21 +108,21 @@ UBI could help promote the right to equal world-ownership and to an equal use of
 
 Libertarians endorse a theory of natural (pre-political) rights, including the right against coercion, the right to self-ownership, and the right to private property. In addition, philosophers commitment to right libertarianism (most prominently Nozick) emphasize the normative priority of individual freedom and advocate for a small state with minimal intervention in private and market-based interactions. The sole function of such a state would be the specification, interpretation, and enforcement of negative individual rights through the military, police, and court system. Right libertarians generally reject the non-consensual taxation of labor and the products of labor. They share ties with neoliberalism as an economic doctrine.
 
-**Efficiency of welfare**
-
-Welfare distribution is often inefficient and ineffective as it relies on a large bureaucracy of control. A universal cash transfer would remove the need for a large bureaucracy and promote a more efficient distribution of benefits. (Zwolinski 2010; Munger 2012)
-
 **Neutrality of preferences**
 
-UBI respects the autonomy and agency of individuals by providing them with financial means to satisfy their own needs without being coerced into a particular labor-intensive lifestyle. (Munger 2012)
+UBI respects the autonomy and agency of individuals by providing them with financial means to satisfy their own needs without being coerced into a particular labor-intensive lifestyle. (Van Parijs 1991; Moseley 2011; Munger 2012; Henderson 2017)
 
 **Non-demeaning welfare**
 
-Because it is unconditional and universal, UBI avoids the paternalizing, demeaning, and stigmatizing process of means-testing, which is central to most of the current welfare schemes. (Munger 2012)
+UBI’s unconditionality and universality avoids the paternalizing, demeaning, and stigmatizing process of means-testing, which is central to most of the current welfare schemes. (Van Parijs 1991, 1995; Munger 2012; Zwolinski 2015)
 
 **Equal world-ownership**
 
-UBI could help promote the right to equal world-ownership and to an equal use of land resources. (Munger 2012)
+UBI could help promote the right to equal world-ownership and to an equal use of land resources. (Moseley 2011; Vallentyne 2012; Munger 2012; Zwolinski 2015)
+
+**Efficiency of welfare**
+
+Welfare distribution is often inefficient and ineffective as it relies on a large bureaucracy of control. A universal cash transfer would remove the need for a large bureaucracy and promote a more efficient distribution of benefits. (Zwolinski 2010; Munger 2012)
 
 {{< /tab >}}
 
@@ -139,7 +134,7 @@ Republicans (notably Pettit) are concerned with the idea of freedom from dominat
 
 **Empowerment within the household**
 
-As a benefit paid to the individual and not to the household, UBI could go a long way in empowering economic dependents and protecting them from the potential dominating control of other members of their household. (Pettit 2007)
+As a benefit paid to the individual and not to the household, UBI could go a long way in protecting economic dependents from the potential dominating control of other members of their household. (Pettit 2007)
 
 **Neutrality of preferences**
 
@@ -147,11 +142,11 @@ UBI would promote freedom from domination by reducing the power of employers and
 
 **Non-demeaning welfare**
 
-Because it is unconditional and universal, UBI avoids the paternalizing, demeaning, and stigmatizing process of means-testing, which is central to most of the current welfare schemes. (Pettit 2007)
+A non-stigmatizing basic income grant people with more independence than means-tested benefits, thus promoting their freedom from domination of the bureaucratic apparatus of the state. (Pettit 2007)
 
 **Community participation**
 
-UBI could allow people to spend more time on unpaid activities within their communities and thus help promote a model of individuals as public citizens participating in the public sphere and being involved in various democratic practices. (Dagger 2006; White 2007)
+UBI could allow people to spend more time on unpaid activities within their communities and thus help promote a model of individuals as public citizens who participate in the public sphere and are involved in various democratic practices. (Dagger 2006; White 2007)
 
 **Empowerment within the workplace**
 
@@ -165,25 +160,25 @@ Workers should be free from the domination of their bosses, which can manifest i
 
 One of Karl Marx’s original criticisms of capitalism is the exploitation of wage laborers: the logic of capitalist production dictates that the only potential source of profit is found in the gap between the value produced by the workers and the wage they received for their labor. Capitalism thus necessitates the exploitation of workers and their subjection to the arbitrary power of wealth over which they have no ownership. As a result, workers experience exploitation and a growing sense of alienation from their labor, from the product of their labor, and from having meaningful connections with other people. Contemporary Marxist and socialist political thought emphasizes the importance of collective bargaining and organized labor; the need to reduce the asymmetry between employers and employees; the need for a workplace with decent working conditions and opportunities for growth; the importance of recognizing the value of informal work and community engagement; and the workers’ right to be protected from the political or technological changes in the labor market.
 
-**Offsetting automation effects**
-
-UBI could help protect workers from the growing unemployment and labor displacement, which continuous technological advancements and automatization are likely to cause. (Rogers 2017)
-
-**Community participation**
-
-UBI could allow people to spend more time on unpaid activities within their communities and thus help promote a model of individuals as public citizens participating in the public sphere and being involved in various democratic practices. (Wright 2006)
-
 **Non-demeaning welfare**
 
-Because it is unconditional and universal, UBI avoids the paternalizing, demeaning, and stigmatizing process of means-testing, which is central to most of the current welfare schemes. (Wright 2006)
+By avoiding the paternalizing, demeaning, and stigmatizing process of means-testing, UBI moves toward more equal power relations within classes. (Wright 2006)
 
 **Poverty elimination**
 
 UBI has the potential to eliminate absolute poverty and to guarantee basic subsistence for every individual. (Rogers 2017)
 
+**Community participation**
+
+UBI could allow people to spend more time on unpaid activities within their communities and thus help strengthen social bonds between citizens. (Wright 2006)
+
 **Empowerment within the workplace**
 
-A workplace should have decent working conditions, provide opportunities for leisure time and exit options, and develop the capacities and talents of these employees. UBI could empower workers in these ways. (Van der Veen & Van Parijs 1986; Wright 2006; Gourevich 2016)
+A workplace should have decent working conditions, provide opportunities for leisure time and exit options, and develop the capacities and talents of these employees. UBI could empower workers in these ways. (Van der Veen & Van Parijs 1986; Wright 2006; Gourevitch 2016)
+
+**Offsetting automation effects**
+
+UBI could help protect workers from the growing unemployment and labor displacement, which continuous technological advancements and automatization are likely to cause. (Rogers 2017)
 
 {{< /tab >}}
 
@@ -194,19 +189,20 @@ A workplace should have decent working conditions, provide opportunities for lei
 Feminist political thought has been centered on the need for gender equity understood as equal political, educational, and career opportunities for men and women and, relatedly, the importance of empowering women across economic, political, and social spheres. One key concern has been the recognition of the value of care work and housework, including the need to distribute the burdens of such work more equitably within the household. According to the ethics of care – an ethical theory founded on feminist thought – moral action further centers around intimate caring relationships between individuals. Contemporary feminist political thinkers advocate for the empowerment of economically dependent spouses, the need for affordable daycare and longer parental leaves, and an adequate recognition and compensation of informal labor. They also emphasize the distinctiveness of the experiences and struggles of women and other gender minorities who are multiply burdened because they find themselves at the intersection of numerous axes of oppression.
 
 **Empowerment within the household**
-As a benefit paid to the individual and not to the household, UBI could go a long way in empowering economic dependents and providing them with exit options (for example, in cases of domestic abuse). (Robeyns 2001; Pateman 2004; McKay 2007)
+
+As a benefit paid to the individual and not to the household, UBI could go a long way in empowering economic dependents and providing them with exit options (for example, in cases of domestic abuse). (Van Parijs 1995; Robeyns 2001; Pateman 2004; McKay 2007; Zelleke 2014)
 
 **Neutrality of preferences**
 
 UBI grants individuals more freedom in determining life choices by providing a lifetime of financial security regardless of one’s career preferences. It could potentially free women from the traditional roles they have assumed, allowing them to develop and pursue their own conception of happiness. (McKay 2007; Zelleke 2008)
 
+**Poverty elimination**
+
+UBI has the potential to eliminate absolute poverty, which affects women disproportionately, and thus to satisfy most of our basic needs. (Zelleke 2008)
+
 **Recognition of care work**
 
 Gender equity requires a more adequate recognition and compensation of care work and housework. UBI could help further this goal by increasing the economic security of unwaged caregivers and detaching income from employment. (Robeyns 2001)
-
-**Poverty elimination**
-
-UBI has the potential to eliminate absolute poverty* and thus to satisfy most of our basic needs. (Zelleke 2008)
 
 **Family time**
 
