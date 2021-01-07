@@ -52,6 +52,16 @@ body.type-news, body.type-labupdates {
         color: #464646;
     }
     .blogtabs {
+        nav {
+            @include media-breakpoint-down(lg) {
+                border-bottom: 1px solid #dcdcdc;
+            }
+            h4 {
+                @include media-breakpoint-down(lg) {
+                    padding-top: 1.6rem;
+                }
+            }
+        }
         .nav-wrapper {
             // up to XL, we use a sticky nav-wrapper, whose parent div includes the tab text
             top: 56px;
@@ -69,7 +79,16 @@ body.type-news, body.type-labupdates {
         }
         .nav-tabs {
             border: none;
-            margin-bottom: 2.4rem;
+           // margin-bottom: 2.4rem;
+            @include media-breakpoint-up(xl) {
+                flex-direction: column;
+                margin-bottom: 2.4rem;
+            }
+        }
+        .tab-content {
+            @include media-breakpoint-down(lg) {
+                margin-top: 2.4rem;
+            }
         }
     }
     
