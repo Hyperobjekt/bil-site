@@ -218,6 +218,24 @@
     window.open('https://twitter.com/share?'+$.param(field_list), '_blank', 'width=550,height=420').focus();
   });
 
+  $(".blogtabs a.nav-link").on("shown.bs.tab", function () {
+    var target = $(this).attr("href");
+    var targetOffset = $(target).offset().top;
+    var navHeight = $("nav.navbar").outerHeight();
+    var scrollTop = targetOffset - navHeight;
 
+    var tabNav = $(this).parents(".nav-wrapper");
+    // a sticky nav wrapper will obscure tab content. for XL screens,
+    // wrapper will be static, to the side, and not obscuring content
+    if (tabNav.css("position") === "sticky") {
+      scrollTop -= tabNav.outerHeight();
+    }
+
+    // fail gracefully if this logic is accidentally overextended
+    if (!scrollTop) {
+      return;
+    }
+    $("html").animate({ scrollTop }, "slow");
+  });
 
 })(jQuery);
