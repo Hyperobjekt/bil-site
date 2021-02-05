@@ -48,6 +48,27 @@ personnel:
     shorttitle: Executive Director
     thumb: /uploads/jberry-sm.jpg
     title: Executive Director
+  - current: true
+    name: Sean Kline
+    role: Leadership
+    title: Senior Advisor
+    shorttitle: Senior Advisor
+    image: /uploads/sena-kline.jpg
+    thumb: /uploads/sena-kline.jpg
+    blurb: >-
+      Sean is a senior advisor with the Stanford Basic Income Lab and advises
+      specifically on city partnerships. He is an equity-driven social innovator
+      with 20+ years of strategy, management, policy and applied research
+      experience. He is former Director of the San Francisco Office of Financial
+      Empowerment, which convenes, innovates, and advocates to strengthen
+      economic security and mobility for low-income communities and communities
+      of color. He is co-author of *[Basic Income In Cities: A Guide to City
+      Experiments and Pilot
+      Projects](https://basicincome.stanford.edu/research/papers/basic-income-cities-toolkit/)* and
+      a leading voice for municipal innovation.
+
+
+      Previously, Sean was founding CEO of Prizma, a social enterprise that began as a small project of an international refugee organization in post-war Bosnia-Herzegovina to become one of the largest, profitable microfinance institutions in Central & Eastern Europe and among the 50 strongest institutions globally. Sean went on to help shape the microfinance field, demonstrating ways financial institutions and impact investors could balance social and financial performance. Later, he was the architect of and led Reach Global, a first-of-its-kind social franchise that integrated health, livelihood and family finance education with financial services for more than two million low-income women and adolescent girls in India, West Africa and Mexico. Sean earned his master’s degree from the London School of Economics and Political Science.
   - blurb: >-
       Sarah joins us from the World Bank where she was a Social Protection
       Specialist. She has over a decade of experience in developing and managing
@@ -103,7 +124,7 @@ personnel:
     current: true
     image: /uploads/hasdell_shorter.jpg
     name: Rebecca Hasdell
-    role: Fellow
+    role: Former
     shorttitle: Postdoctoral Fellow
     thumb: /uploads/hasdell_shorter.jpg
     title: PhD Social and Behavioral Health Sciences
@@ -134,7 +155,7 @@ personnel:
     current: true
     image: /uploads/olga-lenczewska-1-sq.jpg
     name: Olga Lenczewska
-    role: Fellow
+    role: Former
     shorttitle: Graduate Fellow
     thumb: /uploads/olga-lenczewska-1-sq.jpg
     title: PhD Candidate, Philosophy; Master's Candidate, Political Science
