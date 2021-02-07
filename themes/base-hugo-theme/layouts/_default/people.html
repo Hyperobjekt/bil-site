@@ -47,20 +47,20 @@
                 {{ if eq .role "Leadership" }}
                 <!-- <div class="col-xs-12 col-mm-4 col"> -->
                   <div id="{{ urlize .name }}-{{ urlize .title}}" class="column-people p-2 col-xs-12 col-md-4 col-lg-3 launch-people-bio">
-                     {{/*  
-                          {{ $img := strings.TrimPrefix "/uploads/" .image }}
+                     
+                          {{ $img := strings.TrimPrefix "/uploads/" .thumb }}
                           {{ $name := .name }}
                           {{ with $.Site.GetPage "page" "uploads/_index.md" }}
                           {{ with .Resources.GetMatch $img }}
                               {{$imgFill := .Fill "272x272 Center"}}  
-                      */}}
-                          <div data-image="{{ .thumb }}" class="pic" style="background: url('{{ .thumb }}'); background-size: contain;" alt="Photo of {{ .name }}" tabindex="0">
+                      
+                          <div data-image="{{ $img }}" class="pic" style="background: url('/uploads/{{ $img }}'); background-size: cover;" alt="Photo of {{ $name }}" tabindex="0">
                               <button class="d-none d-md-flex"><div>+</div></button>
                           </div>
-                     {{/*  
+                     
                           {{ end }}
                           {{ end }} 
-                      */}}
+                      
           
                       {{ partial "person.html" . }}
           
