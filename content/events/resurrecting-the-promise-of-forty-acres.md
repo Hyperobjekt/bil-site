@@ -7,6 +7,7 @@ timeRange: 4:00pm-5:15pm PST
 location: "Virtual "
 admission: ""
 image: /uploads/reparations-stanford-events.jpg
+upcoming: true
 ---
 Advanced Registration is Required: [RSVP here](https://stanford.zoom.us/webinar/register/WN_bRwon0UzTROz7jk2gple-g)
 
