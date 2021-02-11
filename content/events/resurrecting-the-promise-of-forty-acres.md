@@ -2,6 +2,7 @@
 is_index: false
 type: events
 title: Resurrecting the Promise of Forty Acres
+publishDate: 2021-02-10T20:38:43.776Z
 date: 2021-02-25T20:38:43.776Z
 timeRange: 4:00pm-5:15pm PST
 location: "Virtual "
