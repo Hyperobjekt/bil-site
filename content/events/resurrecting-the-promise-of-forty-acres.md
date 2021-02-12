@@ -7,7 +7,7 @@ timeRange: 4:00-5:15pm PT
 location: Virtual
 admission: ""
 image: /uploads/screen-shot-2021-02-11-at-4.16.28-pm.png
-publishDate: 2021-02-10T20:38:43.776Z
+# publishDate: 2021-02-10T20:38:43.776Z
 ---
 Advanced Registration is Required: [RSVP here](https://stanford.zoom.us/webinar/register/WN_bRwon0UzTROz7jk2gple-g)
 
