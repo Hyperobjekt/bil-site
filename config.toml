@@ -4,6 +4,7 @@ title = "The Stanford Basic Income Lab"
 theme = "base-hugo-theme"
 googleAnalytics = ""
 paginate = 5
+buildFuture = true
 
 [imaging]
 resampleFilter = "box"
