@@ -2,13 +2,13 @@
 is_index: false
 type: events
 title: Resurrecting the Promise of Forty Acres
-publishDate: 2021-02-10T20:38:43.776Z
 date: 2021-02-25T20:38:43.776Z
 timeRange: 4:00pm-5:15pm PST
 location: "Virtual "
 admission: ""
-image: /uploads/reparations-stanford-events.jpg
+image: /uploads/screen-shot-2021-02-11-at-4.16.28-pm.png
 upcoming: true
+publishDate: 2021-02-10T20:38:43.776Z
 ---
 Advanced Registration is Required: [RSVP here](https://stanford.zoom.us/webinar/register/WN_bRwon0UzTROz7jk2gple-g)
 
