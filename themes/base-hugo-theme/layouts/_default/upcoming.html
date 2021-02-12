@@ -2,11 +2,11 @@
 
 <div id="hero" class="hero">
     <div class="hero-child row">
-        
+
         <div class="hero-copy col-10 col-md-8 offset-md-1 d-flex align-items-center">
         {{ with .Site.Data.events.page }}
             <h1 class="page-hero">{{ .herotext }}</h1>
-            
+
         </div>
     </div>
 </div>
@@ -14,26 +14,26 @@
 
 <div class="row subnav d-md-none small-tab-nav">
         <div class="dropdown justify-content-center align-items-center">
-            <!--<div>Positions:</div>--> 
+            <!--<div>Positions:</div>-->
             <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 {{ .upcoming }}
             </button>
       <ul class="anchor-links dropdown-menu">
             <li class="mb-3"><a href="/events/past/">{{ .past }}</a></li>
             <li class="mb-3"><a href="/events/videos/">{{ .videos }}</a></li>
-           
+
     </ul>
   </div>
 </div>
 <div class="row d-sm-none d-md-flex subnav">
     <div class="col-12 col-md-12 col-lg-10 offset-lg-1">
         <ul class="d-flex justify-content-center align-items-center pl-md-0">
-        
+
             <li class="active">{{ .upcoming }}</li>
             <li class="mx-md-5"><a href="/events/past/">{{ .past }}</a></li>
             <li class=""><a href="/events/videos/">{{ .videos }}</a></li>
-           
-          
+
+
         </ul>
     </div>
 </div>
@@ -43,53 +43,53 @@
 
 
 <div id="events-list" class="pt-sm-5 pt-md-7 pt-lg-9 pt-xl-12 pb-sm-7 pb-md-7 pb-xl-8">
-    
+
 
         <div class="row newslist mb-1 mb-md-2 mb-xl-3">
             <div class="col-12 col-md-7 offset-md-2 col-lg-6 offset-lg-3 pl-md-0">
                 <h2 class="news">{{ .upcoming }}</h2>
-            </div>    
-        </div>    
+            </div>
+        </div>
+
         {{ end }}
-            {{ $paginator := .Paginate ( where (where .Site.Pages ".Params.type" "=" "events") ".Date" "gt" now) 5 }}
-            {{ if gt $paginator.TotalPages 1 }}
-                {{ range .Paginator.Pages  }} 
-              
+            {{ $paginator := .Paginate ( where (where .Site.Pages.ByDate ".Params.type" "events") ".Date" "gt" now ) 5 }}
+            {{ if gt $paginator.TotalPages 0 }}
+                {{ range .Paginator.Pages  }}
+
             <div class="row mb-4 mb-md-4 mb-lg-8 mb-xl-12 newslist">
-                <div class="col-12 col-md-7 offset-md-2 col-lg-6 offset-lg-3 topdivider mb-3 mb-md-4 mb-lg-3"></div>    
+                <div class="col-12 col-md-7 offset-md-2 col-lg-6 offset-lg-3 topdivider mb-3 mb-md-4 mb-lg-3"></div>
                 <div class="col-12 col-md-2 offset-md-2 cold-lg-2 offset-lg-3 mr-md-2 pic-column" style="background-image: url('{{ .Params.image }}'); background-size: contain; background-repeat: no-repeat;">
-                        
+
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
                     <a href="{{ .Permalink }}" target=""><h5 class="events mb-sm-2 mb-md-2 mb-xl-2">{{ .Params.title }}</h5></a>
                     <h4 class="news coldblcktext text-uppercase mb-1 ">{{ .Date.Format "Monday, January 2, 2006" }} | {{ .Params.timeRange }}
                     <br>{{ .Params.location }}</h4>
-                    <p class="medgraytext"></p>     
+                    <p class="medgraytext"></p>
                     <div class="news-item-link">
                         <a class="plainlink coldblcktext" href="{{ .Permalink }}">FIND OUT MORE&nbsp;{{ partial "rightarrow.html" }}</a>
-                    </div>    
+                    </div>
                 </div>
             </div>
-        {{ end }} 
-        
+        {{ end }}
+
         {{ else }}
         <div class="row mb-1 newslist">
-                <div class="col-12 col-md-6 offset-md-3 topdivider mb-3 mb-md-4 mb-lg-3"></div>    
+                <div class="col-12 col-md-6 offset-md-3 topdivider mb-3 mb-md-4 mb-lg-3"></div>
                 </div>
                 <div class="medgraytext col-12 col-md-6 mx-auto px-4 pl-md-1">
                     {{ with .Site.Data.events.page }}
-                        <p class="medgraytext">{{ .noevents | markdownify }}</p>    
-                    {{ end }}  
+                        <p class="medgraytext">{{ .noevents | markdownify }}</p>
+                    {{ end }}
                 </div>
             </div>
         {{ end }}
         <div class="row mb-4 mb-md-4 mb-lg-8 mb-xl-12 newslist">
             <div class="col-12 col-md-4 mx-auto">
-                {{ partial "pagination" . }} 
-            </div>    
+                {{ partial "pagination" . }}
             </div>
-    </div> 
-
+            </div>
+    </div>
 
 {{ partial "subscribe.html" .}}
 
