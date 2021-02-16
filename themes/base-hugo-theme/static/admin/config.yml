@@ -422,6 +422,8 @@ collections:
       - {label: Location, name: location, widget: string, required: false}
       - {label: Admission, name: admission, widget: string, required: false}
       - {label: Image, name: image, widget: image, required: false}
+      - {label: Social media image, name: social_image, widget: image, hint: 'If not set, will use image above or site default image', required: false}
+      - {label: Social media description, name: social_description, widget: string, hint: 'Description to accompany social posts', required: false}
       - {label: Video, name: video, widget: string, required: false, hint: 'Please place the full embed code for the video here. This will cause the clip to appear on the Videos page.'}
       - label: "Body"
         name: "body"

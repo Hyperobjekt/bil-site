@@ -7,6 +7,8 @@ timeRange: 4:00-5:15pm PT
 location: Virtual
 admission: ""
 image: /uploads/screen-shot-2021-02-11-at-4.16.28-pm.png
+social_image:
+social_description: 'Join William A. Darity Jr. & A. Kirsten Mullen as they discuss the message of their book From Here to Equality: Reparations for Black Americans in the Twenty-First Century.'
 ---
 Advanced Registration is Required: [RSVP here](https://stanford.zoom.us/webinar/register/WN_bRwon0UzTROz7jk2gple-g)
 
