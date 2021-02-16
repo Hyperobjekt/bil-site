@@ -13,8 +13,12 @@
 
   <!-- Fetch an image for metadata -->
   {{ if .Page.Params.social_image }}
-    <!-- First try for page image -->
+    <!-- First try for page social image -->
     {{ $.Scratch.Set "socialImage" .Page.Params.social_image }}
+
+  {{ else if .Page.Params.image }}
+    <!-- Next try for page image -->
+    {{ $.Scratch.Set "socialImage" .Page.Params.image }}  
   
   {{ else }}
     <!-- Otherwise use the default social image -->
