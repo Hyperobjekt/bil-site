@@ -58,8 +58,18 @@
               {{ if .Params.image }}
             <div class="row mb-4 mb-md-4 mb-lg-8 newslist">
                 <div class="col-12 col-md-7 offset-md-2 col-lg-6 offset-lg-3 topdivider mb-3 mb-md-4 mb-lg-3 mb-xl-4"></div>    
-                <div class="col-12 col-md-2 offset-md-2 cold-lg-2 offset-lg-3 mr-md-2 pic-column mb-2 mb" style="background-image: url('{{ .Params.image }}'); background-size: contain; background-repeat: no-repeat;">
-                        
+                {{ if .Params.image }}
+                    {{ $img := strings.TrimPrefix "/uploads/" .Params.image }}
+                    {{ with site.GetPage "uploads/_index.md" }}
+                        {{ with .Resources.GetMatch $img }}
+                            {{ $processed := .Resize "500x q50" }}
+                
+                                <div class="col-12 col-md-2 offset-md-2 cold-lg-2 offset-lg-3 mr-md-2 pic-column mb-2 mb" style="background-image: url('{{ $processed.RelPermalink }}'); background-size: contain; background-repeat: no-repeat;">
+                            {{ end }}
+                        {{ end }}
+                        {{ else }}
+                            <div class="col-0 offset-md-2 offset-lg-3 mr-md-2 pic-column" style="background-image: url('{{ .Params.image }}'); background-size: contain; background-repeat: no-repeat;">
+                        {{ end }}
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
                     <a href="{{ .Permalink }}" target=""><h5 class="events mb-sm-2 mb-md-2 mb-xl-2">{{ .Params.title }}</h5></a>
