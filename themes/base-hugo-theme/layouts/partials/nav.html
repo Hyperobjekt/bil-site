@@ -15,7 +15,7 @@
                             <a href="{{ .URL }}" class="dropdown-toggle bil-topmenu" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">{{ .Name }} <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                             {{ range .Children }}
-                                <li class="mx-2"><a class="bil-submenu" href="{{ .URL }}">{{ .Name }}</a></li>
+                                <li class=""><a class="bil-submenu" href="{{ .URL }}">{{ .Name }}</a></li>
                             {{ end }}
                             </ul>
                         {{ else }}    
