@@ -11,4 +11,6 @@ image: /uploads/screen-shot-2021-05-03-at-11.19.00-am.png
 
 **Aisha Nyandoro**, the founding chief executive officer of [Springboard To Opportunities](https://springboardto.org/about/leadership/), will moderate the conversation. As CEO, Nyandoro uses a “radically resident-driven” approach to end generational poverty. She launched the very first of its kind guaranteed income program for single Black mothers in the history of the United States – The Magnolia Mother’s Trust.  
 
+Advance registration is required: http://bit.ly/EISTubbs
+
 This event is co-sponsored by the McCoy Family Center for Ethics in Society and the Stanford Basic Income Lab.
