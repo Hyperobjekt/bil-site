@@ -7,6 +7,9 @@ timeRange: 4:00-5:15pm PST
 admission: "Advance registration is required: http://bit.ly/EISTubbs"
 image: /uploads/screen-shot-2021-05-03-at-11.19.00-am.png
 social_image: /uploads/screen-shot-2021-05-03-at-11.19.00-am.png
+social_description: Michael Tubbs is a leading voice for guaranteed income in
+  the United States. Tubbs will be in conversation with Aisha Nyandoro, the
+  founding chief executive officer of Springboard To Opportunities.
 ---
 Advance registration is required. Please register [here](https://stanford.zoom.us/webinar/register/WN_Wa0iwiRZTlaLdY9v0jWCwA).
 
