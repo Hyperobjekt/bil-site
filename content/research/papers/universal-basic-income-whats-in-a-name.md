@@ -2,8 +2,8 @@
 is_index: false
 type: papers
 layout: papersingle
-title: "Universal Basic Income: What's in a Name? (August 2020)"
-author: Sarah Berger Gonzalez & Juliana Bidadanure
+title: "Universal Basic Income: What's in a Name? "
+author: Sarah Berger Gonzalez & Juliana Bidadanure // Published August 2020
 date: 2020-08-31T22:52:24.808Z
 excerpt: >-
   In continuation of the Lab’s effort to illuminate best practices for the
