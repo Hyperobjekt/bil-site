@@ -2,15 +2,15 @@
 is_index: false
 type: papers
 layout: papersingle
-title: Basic Income In Cities Toolkit
+title: Basic Income In Cities Toolkit (November 2018)
 author: Juliana Bidadanure, Sean Kline, Camille Moore, Brooks Rainwater, &
   Catherine Thomas
 date: 2019-04-28T00:00:31.857Z
-excerpt: >-
-  Published in November 2018.
-
-
-  Launched at the National League of Cities annual meeting, the toolkit, Basic Income In Cities: A Guide to City Experiments and Pilot Projects, highlights emerging practices and shares insights on the process of designing UBI experiments in ways that are ethical, rigorous, informative and consequential for local and national policymaking.
+excerpt: "Launched at the National League of Cities annual meeting, the toolkit,
+  Basic Income In Cities: A Guide to City Experiments and Pilot Projects,
+  highlights emerging practices and shares insights on the process of designing
+  UBI experiments in ways that are ethical, rigorous, informative and
+  consequential for local and national policymaking."
 image: /uploads/cities-toolkit.jpg
 link: /uploads/BasicIncomeInCities_Report.pdf
 abstract: >-
