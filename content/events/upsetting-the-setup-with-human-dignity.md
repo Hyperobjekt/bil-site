@@ -2,7 +2,7 @@
 is_index: false
 type: events
 title: Upsetting the Setup with Human Dignity
-date: 2021-05-26T16:41:27.882Z
+date: 2021-05-26T22:59:45.459Z
 timeRange: 4:00-5:15pm PST
 admission: "Advance registration is required: http://bit.ly/EISTubbs"
 image: /uploads/screen-shot-2021-05-03-at-11.19.00-am.png
