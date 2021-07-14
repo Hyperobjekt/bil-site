@@ -11,7 +11,8 @@ url: /research/ubi-visualization/
 body1: >-
   The UBI Research Visualization bolsters basic income research by presenting
   existing knowledge in an accessible platform organized across multiple themes
-  and subthemes. As noted in the video launch, the visualization presents
+  and subthemes. As noted in the [video
+  launch](https://www.youtube.com/embed/tcPJ2KUb35g), the visualization presents
   comprehensive summaries of articles, research papers, and books produced on
   UBI to date; enables viewers to see the diversity of approaches that have been
   taken on testing UBI and related policies; and allows users to get a good
