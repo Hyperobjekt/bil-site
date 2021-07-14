@@ -3,8 +3,9 @@ is_index: false
 type: papers
 layout: papersingle
 title: "Healthy Communities and Universal Basic Income: A Conceptual Framework
-  and Evidence Review (January 2021)"
-author: Rebecca Hasdell, Juliana Bidadanure, and Sarah Berger Gonzalez
+  and Evidence Review"
+author: Rebecca Hasdell, Juliana Bidadanure, and Sarah Berger Gonzalez //
+  Published January 2021
 date: 2021-01-04T22:04:08.128Z
 excerpt: What new services might open in a community when the people who live
   there have a secure economic base? What types of jobs are created when
