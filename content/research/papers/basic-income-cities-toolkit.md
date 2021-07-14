@@ -2,9 +2,9 @@
 is_index: false
 type: papers
 layout: papersingle
-title: Basic Income In Cities Toolkit (November 2018)
+title: "Basic Income In Cities Toolkit "
 author: Juliana Bidadanure, Sean Kline, Camille Moore, Brooks Rainwater, &
-  Catherine Thomas
+  Catherine Thomas // Published November 2018
 date: 2019-04-28T00:00:31.857Z
 excerpt: "Launched at the National League of Cities annual meeting, the toolkit,
   Basic Income In Cities: A Guide to City Experiments and Pilot Projects,
