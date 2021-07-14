@@ -2,9 +2,8 @@
 is_index: false
 type: papers
 layout: papersingle
-title: "What We Know About Universal Basic Income: A Cross-Synthesis of Reviews
-  (July 2020)"
-author: Rebecca Hasdell
+title: "What We Know About Universal Basic Income: A Cross-Synthesis of Reviews "
+author: Rebecca Hasdell // Published July 2020
 date: 2020-07-20T00:00:31.857Z
 excerpt: In the last ten years, as Universal Basic Income has moved up the
   policy agenda, many reviews and reports have taken stock of the evidence on
