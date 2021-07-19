@@ -9,7 +9,7 @@ excerpt: New book highlights the need to distribute jobs, income and other
   essential resources in a way that treats people who are young and old as
   equals
 image: /uploads/coverimage-bidadanure.jpeg
-largeimage: /uploads/coverimage-bidadanure.jpeg
+largeimage: ""
 caption: Book Cover
 thumb: /uploads/coverimage-bidadanure.jpeg
 align: center
